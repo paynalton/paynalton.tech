@@ -1,0 +1,113 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import MainMenu from '../components/MainMenu.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+const { currentPage, slogan, subslogan, content_title, content_description, lang } = Astro.props;
+
+const diccionario = {
+    projects: {
+        es: 'Proyectos exitosos',
+        en: 'Successful projects'
+    },
+    employers: {
+        es: 'Jefes Felices',
+        en: 'Happy employers'
+    },
+    users: {
+        es: 'Usuarios agradecidos',
+        en: 'Grateful users'
+    },
+    issues: {
+        es: 'Problemas Resueltos',
+        en: 'Issues resolved'
+    },
+}
+---
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION}/>
+	</head>
+	<body class={`page-${currentPage}`}>
+		<Header  lang={lang}/>
+		<main>
+			<section class="top-area">
+				<div class="header-area">
+					<MainMenu current={currentPage} lang={lang} />
+				</div>
+				<div class="clearfix"></div>
+	
+			</section>
+			<section id="home" class="welcome-hero">
+				<div class="container">
+					<div class="welcome-hero-txt">
+						<h2>{ slogan }</h2>
+						<p>
+							{ subslogan }
+						</p>
+					</div>
+				</div>
+			</section>
+			<div class="main-content">
+				{ () => {
+					if( content_title ){
+						return (
+						<section class="title">
+							<div class="container mt-5">
+								<div class="section-header">
+									<h1>{ content_title }</h1>
+									<p class="lead">{ content_description }</p>
+								</div>
+							</div>
+						</section>
+						);
+					}
+				}}				
+                <slot />
+            </div>
+
+			<section id="statistics"  class="statistics">
+				<div class="container">
+					<div class="statistics-counter"> 
+						<div class="col-md-3 col-sm-6">
+							<div class="single-ststistics-box">
+								<div class="statistics-content">
+									<div class="counter">100 </div> <span>+</span>
+								</div>
+								<h3>{ diccionario.projects[ lang ] }</h3>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<div class="single-ststistics-box">
+								<div class="statistics-content">
+									<div class="counter">10</div> <span>+</span>
+								</div>
+								<h3>{ diccionario.employers[ lang ] }</h3>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<div class="single-ststistics-box">
+								<div class="statistics-content">
+									<div class="counter">100</div> <span>K+</span>
+								</div>
+								<h3>{ diccionario.users[ lang ] }</h3>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<div class="single-ststistics-box">
+								<div class="statistics-content">
+									<div class="counter">50</div> <span>k+</span>
+								</div>
+								<h3>{ diccionario.issues[ lang ] }</h3>
+							</h3>
+							</div>
+						</div>
+					</div>	
+				</div>
+			</section>
+		</main>
+		<Footer />
+	</body>
+</html>

@@ -1,0 +1,134 @@
+---
+import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
+import Layout from '../../layouts/Default.astro';
+import Libro from './ideas/libro.astro';
+import Blog from './ideas/blog.astro';
+import Linkedin from './ideas/linkedin.astro';
+---
+<Layout
+	title={SITE_TITLE}
+	description={SITE_DESCRIPTION}
+	currentPage="ideas"
+	lang="en"
+	slogan="Ideas are the first step toward innovation."
+	subslogan="Every idea is a spark of creativity—a flash that can ignite the fire of change. Here, we explore the power of ideas and their ability to transform the world around us."
+	content_title="Ideas"
+	content_description="Thoughts, reflections, experiences, and knowledge I’ve shared over time in various formats."
+>
+
+<section>  
+	<div class="container">
+	  <div class="row gy-4">
+		<div class="col-md-6">
+		  <Libro 
+			title="Arithmetic with Indeterminate Numbers"
+			description="A book that explores the arithmetic of indeterminate numbers—a work that challenges mathematical conventions and opens up new possibilities in the field."
+			link="https://docs.google.com/document/d/1hMfMg4uskO5dVtlq7b93A9RQVRJCm7rJEk-FLuTaXPI/edit?tab=t.0"
+			type="Essay"
+		  />
+		</div>
+  
+		<div class="col-md-6">
+		  <Blog 
+			title="Paynalton"
+			description="Blog featuring diverse ideas on technology, science, and politics."
+			link="https://paynalton.blogspot.com/"
+		  />
+		</div>
+	  </div>
+	</div>
+  </section>
+  <section>
+	<div class="row gy-4">
+	  <div class="container">
+		<div class="col-md-6">
+		  <Linkedin 
+			title="What is Intelligence?"
+			description="A series of essays on natural and artificial intelligence."
+			link="https://www.linkedin.com/posts/paynalton_hablemos-sobre-lo-que-es-la-inteligencia-activity-7049767612246855680-p6rc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAIObOwB4dAq2mqYpXtT1UPj5Fh-_ASUoow"
+			type="Essay"
+		  />
+		</div>
+  
+		<div class="col-md-6">
+		  <Libro 
+			title="The Great Sea Serpent"
+			description="An original story by Hans Christian Andersen, modified to help detect the origin of reading comprehension and learning difficulties in children."
+			link="https://docs.google.com/document/d/1PKQPhedwj3hotWFREhkwTjVryYVaWtAFDwaqigz9RLA/edit?tab=t.0"
+			type="Essay"
+		  />
+		</div>
+	  </div>
+	</div>
+  </section>
+  <section>
+	<div class="row gy-4">
+	  <div class="container">
+		<div class="col-md-6">
+		  <Blog 
+			title="Tales of Blood and Death"
+			description="This site is dedicated to publishing short stories."
+			link="https://paynalton.blogspot.com/"
+		  />
+		</div>
+		<div class="col-md-6">
+		  <Linkedin 
+			title="The Impossibility of Building a Dyson Sphere"
+			description="A reflection on the impossibility of building a Dyson sphere and its implications for the search for extraterrestrial life."
+			link="https://www.linkedin.com/posts/paynalton_imposibilidad-de-crear-una-esfera-dyson-activity-7054663684459020288-w2sT?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAIObOwB4dAq2mqYpXtT1UPj5Fh-_ASUoow"
+			type="Essay"
+		  />
+		</div>
+	  </div>
+	</div>
+  </section>
+  <section>
+	<div class="row gy-4">
+	  <div class="container">
+		<div class="col-md-6">
+		  <Libro 
+			title="Connected Dimensions"
+			description="A theoretical model to connect key elements of quantum physics."
+			link="https://docs.google.com/document/d/1vE_OEMdw0G4ax29wOQBFaam9ypfDnKAMpCQfQ_3d6d8/edit?tab=t.0#heading=h.85v0orq1fjf7"
+			type="Book"
+		  />
+		</div>
+		<div class="col-md-6">
+		  <Blog 
+			title="Tales of Blood and Death"
+			description="This site is dedicated to publishing short stories."
+			link="https://paynalton.blogspot.com/"
+		  />
+		</div>
+	  </div>
+	</div>
+  </section>
+  <section>
+	<div class="row gy-4">
+	  <div class="container">
+		<div class="col-md-6">
+		  <Linkedin 
+			title="Cameras Steal Your Soul"
+			description="A reflection on modern society's resistance to technological progress."
+			link="https://www.linkedin.com/posts/paynalton_hoy-en-d%C3%ADa-miramos-al-pasado-y-nos-re%C3%ADmos-activity-7048165073227272192-QsAU?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAIObOwB4dAq2mqYpXtT1UPj5Fh-_ASUoow"
+			type="Essay"
+		  />
+		</div>
+		<div class="col-md-6">
+		  <Blog 
+			title="My Other Stories"
+			description="Stories from various genres, from fantasy to horror."
+			link="https://misotrosrelatos.blogspot.com/"
+		  />
+		</div>
+	  </div>
+	</div>
+  </section>
+  
+  
+</Layout>
+<style>
+	section{
+		margin: 50px 0;
+	}
+</style>

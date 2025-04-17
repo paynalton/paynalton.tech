@@ -1,0 +1,45 @@
+---
+import Skills from './index/skills.astro';
+import Profile from './index/profile.astro';
+import Menu from './index/menu.astro';
+import Softskills from './index/softskills.astro';
+import Jobs from './index/jobs.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
+import Layout from '../../layouts/Default.astro';
+---
+
+<Layout
+	title={SITE_TITLE}
+	description={SITE_DESCRIPTION}
+	currentPage="home"
+	lang="es"
+	slogan="Liderazgo, código y soluciones que perduran."
+	subslogan="Desde los primeros lenguajes hasta las arquitecturas modernas, mi misión ha sido siempre la misma: convertir lo complejo en funcional, y lo funcional en extraordinario."
+>
+
+	<section id="list-topics" class="list-topics">
+		<div class="container">
+			<Menu/>
+		</div>
+	</section>
+	<section id=""  class="subscription">
+		<div class="container">
+			<Profile/>
+		</div>
+	</section>
+	<section id="works" class="works">
+		<div class="container">
+			<Skills/>
+		</div>
+	</section>
+	<section id="explore" class="explore">
+		<div class="container">
+			<Softskills/>
+		</div>
+	</section>
+	<section id="blog" class="blog" >
+		<div class="container">
+			<Jobs/>
+		</div>
+	</section>
+</Layout>

@@ -1,0 +1,125 @@
+---
+import Layout from '../../layouts/Default.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
+import Item from './about/item.astro';
+---
+
+<Layout
+	title={SITE_TITLE}
+	description={SITE_DESCRIPTION}
+	currentPage="about"
+	lang="en"
+	slogan="I’m a web developer with extensive experience and a constant curiosity for technology."
+	subslogan="I’m passionate about creating useful solutions, exploring new tools, and learning something new every day. I enjoy clean code as much as meaningful conversations, and I value projects that combine logic, design, and purpose."
+	content_title="About Me"
+	content_description="I’m a web developer with extensive experience and a constant curiosity for technology. I’m passionate about creating useful solutions, exploring new tools, and learning something new every day. I enjoy clean code as much as meaningful conversations, and I value projects that combine logic, design, and purpose."
+>
+
+
+
+<section>
+	<div class="container">
+		<Item title="Who I Am" image="/assets/images/about/4902456906845631531.jpg">
+			I’m a web developer with extensive experience and a constant curiosity for technology. I’m passionate about creating useful solutions, exploring new tools, and learning something new every day. I enjoy clean code as much as meaningful conversations, and I value projects that combine logic, design, and purpose. Outside of work, I’m inspired by books, music, and simple moments with friends and pets.
+		</Item>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<Item title="My Path in Technology" image="/assets/images/about/4902456906845631530.jpg">
+			As a self-taught developer, I discovered in technology an endless field for learning and creation. Continuous learning has given me a multidisciplinary vision and a unique approach to problem-solving. Innovation not only inspires me—it defines how I work: always exploring new paths, challenging the status quo, and finding solutions from unconventional perspectives.
+		</Item>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<Item title="My Pet" image="/assets/images/about/4902456906845631533.jpg">
+			Pimienta is my four-legged companion, a rescued street cat who became an essential part of my life. With her energy and affection, she fills my days with joy. I always strive to keep her happy—because in her own way, she takes care of me too.
+		</Item>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<Item title="My Friends and Community" image="/assets/images/about/4902456906845631541.jpg">
+			I deeply value my friends—few but unconditional—and I’m lucky to be surrounded by kind neighbors. My son is a constant source of love and motivation, and every day I try to do something, no matter how small, that contributes to my community’s well-being. I believe in the power of human connection and in the positive impact of everyday actions.
+		</Item>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<Item title="Hobbies and Pastimes" image="/assets/images/about/4902456906845631532.jpg">
+			I enjoy reading, playing video games, and exploring new technologies. I also find peace in hands-on activities: carpentry, metalwork, plumbing, electrical work—anything related to home maintenance. Restoring old furniture and tools not only relaxes me, but also connects me to the value of handmade things with history.
+		</Item>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<Item title="My Values" image="/assets/images/about/4902456906845631534.jpg">
+			My worldview is rooted in humanistic and progressive nihilism. I believe that by accepting the absence of a predetermined purpose, we can create our own—based on collective well-being. I trust that the collaboration between humans and technology won’t just transform society, but will also unlock humanity’s most noble and benevolent potential.
+		</Item>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<Item title="What Inspires Me" image="/assets/images/about/4902456906845631536.jpg">
+			When facing complex challenges, I often seek inspiration in nature and key moments of human history. I’m fascinated by how the sages and scientists of the past uncovered deep truths in the simplest things—even in a speck of dust. That ability to observe with humility and wonder is a constant guide in how I think and create.
+		</Item>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<Item title="A Fun Fact About Me" image="/assets/images/about/4902456906845631535.jpg">
+			Although I’m a reserved person, I laugh and joke almost all the time. My way of connecting with others is always warm—no matter the first impression. I like to think that humor and kindness are shortcuts to more honest and meaningful communication.
+		</Item>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<Item title="What I’m Learning Now" image="/assets/images/about/4902456906845631538.jpg">
+			I’m always learning something new—usually from more than one field at a time. Right now, I’m passionate about the details of quantum physics, artificial intelligence, and the history of the Austro-Hungarian Empire. I firmly believe it’s never too late—or too early—to be fascinated by knowledge.
+		</Item>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<Item title="My Workspace / Daily Life" image="/assets/images/about/4902456906845631537.jpg">
+			My daily life flows between lines of code, fresh coffee, and background music. My workspace is simple but functional, designed to keep me focused and creative. I alternate between screen time and manual tools, depending on the project or the moment. Each day is a mix of structure and spontaneity—with space to learn, build, and improve.
+		</Item>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<div class="col card">
+			<div class="card-header">
+				<h2>My Work Playlist</h2>
+			</div>
+			<div class="card-body row">
+				<div class="col-md-12 col-sm-12">
+					<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6O3Gii38mXln9WDVzgg7Uh?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+</Layout>
+<style lang="scss">
+	section:nth-child(odd) {
+		.card-body {
+			color: #007bf7;
+		}
+	}
+	.card {
+		margin: 1em 0;
+	}
+	.card-header {
+		padding: 1em;
+		border-bottom: 1px solid #dee2e6;
+	}
+	.card-body {
+		padding: 1em;
+	}
+	.card-body img {
+		max-width: 100%;
+	}
+</style>

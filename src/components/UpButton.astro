@@ -1,0 +1,62 @@
+---
+const { lang } = Astro.props;
+---
+<a name="header-top"></a>
+<div class="up-button">
+    <a href={`./#header-top`} class="scroll-to-top">
+        <i class="fa fa-arrow-up"></i>
+    </a>
+</div>
+<style>
+    .up-button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1000;
+        display: none;
+    }
+    .up-button a {
+        background-color: #000;
+        color: #fff;
+        padding: 10px;
+        border-radius: 50%;
+        text-decoration: none;
+    }
+    .up-button a:hover {
+        background-color: #555;
+    }
+    @media (max-width: 768px) {
+        .up-button {
+            bottom: 10px;
+            right: 10px;
+        }
+    }
+    @media (max-width: 576px) {
+        .up-button {
+            bottom: 5px;
+            right: 5px;
+        }
+    }
+    @media (max-width: 768px) {
+        .up-button a {
+            padding: 8px;
+        }
+    }
+    @media (max-width: 576px) {
+        .up-button a {
+            padding: 6px;
+        }
+    }
+</style>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const upButton = document.querySelector('.up-button');
+        window.addEventListener('scroll', function () {
+            if (upButton && window.scrollY > 200) {
+                upButton.style.display = 'block';
+            } else if(upButton) {
+                upButton.style.display = 'none';
+            }
+        });
+    });
+</script>

@@ -1,7 +1,17 @@
 ---
 // Import the global.css file here so that it is included on
 // all pages through the use of the <BaseHead /> component.
-import '../styles/global.css';
+import '../styles/template/font-awesome.min.css';
+import '../styles/template/linearicons.css';
+import '../styles/template/animate.css';
+import '../styles/template/flaticon.css';
+import '../styles/template/slick.css';
+import '../styles/template/slick-theme.css';
+import '../styles/template/bootstrap.min.css';
+import '../styles/template/bootsnav.css';
+import '../styles/template/style.css';
+import '../styles/template/responsive.css';
+import '../styles/global.scss';
 import { SITE_TITLE } from '../consts';
 
 interface Props {
@@ -15,10 +25,14 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const { title, description, image = '/blog-placeholder-1.jpg' } = Astro.props;
 ---
 
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+<title>{SITE_TITLE}</title>
+
 <!-- Global Metadata -->
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="icon" href="/favicon.ico" />
 <link rel="sitemap" href="/sitemap-index.xml" />
 <link
 	rel="alternate"
@@ -31,7 +45,7 @@ const { title, description, image = '/blog-placeholder-1.jpg' } = Astro.props;
 <!-- Font preloads -->
 <link rel="preload" href="/fonts/atkinson-regular.woff" as="font" type="font/woff" crossorigin />
 <link rel="preload" href="/fonts/atkinson-bold.woff" as="font" type="font/woff" crossorigin />
-
+<script src="https://kit.fontawesome.com/e2226ea9c6.js" crossorigin="anonymous"></script>
 <!-- Canonical URL -->
 <link rel="canonical" href={canonicalURL} />
 

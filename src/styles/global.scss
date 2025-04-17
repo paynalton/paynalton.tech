@@ -1,0 +1,57 @@
+@import 'colors.scss';
+
+.single-how-works-icon,
+.single-list-topics-icon i{
+	font-size: 50px;
+	color: $gris_calido;
+}
+
+.textblock {
+	p{
+		padding: 15px 0;
+		line-height: 1.4;
+		text-align: justify;
+		text-indent: 1rem;
+	}
+	blockquote,	
+	blockquote p{
+		text-align: right;
+	}
+}
+.softskills-content{
+	ul{
+		padding: 10px 0px 10px 50px;
+	} 
+	li{
+		list-style: disc;
+	}
+}
+.single-blog-item {
+	min-height: 630px;
+}
+
+.main-content{
+	section:nth-child(even){
+		background: $blanco;
+	}
+	section:nth-child(odd){
+		background: $gris_claro;
+	}
+}
+.page-about{
+	section:nth-child(odd) {
+		.card-body {
+			display: flex;
+			flex-direction: row-reverse;
+		}
+	}
+}
+
+section.title{
+	padding-top: 10px;
+	h1 {
+		font-size: 2.5rem;
+		font-weight: 700;
+		margin: 12px 0;
+	}
+}

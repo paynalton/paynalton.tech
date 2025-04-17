@@ -1,0 +1,135 @@
+---
+import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
+import Layout from '../../layouts/Default.astro';
+import Libro from './ideas/libro.astro';
+import Blog from './ideas/blog.astro';
+import Linkedin from './ideas/linkedin.astro';
+---
+<Layout
+	title={SITE_TITLE}
+	description={SITE_DESCRIPTION}
+	currentPage="ideas"
+	lang="es"
+	slogan="Las ideas son el primer paso hacia la innovación."
+	subslogan="Cada idea es un destello de creatividad, una chispa que puede encender la llama del cambio. Aquí, exploramos el poder de las ideas y su capacidad para transformar el mundo que nos rodea."
+	content_title="Ideas"
+	content_description="Pensamientos, reflexiones, experiencias y conocimientos que he compartido a lo largo del tiempo en distintos formatos."
+>
+<section >  
+	<div class="container">
+		<div class="row gy-4">
+		  <div class="col-md-6">
+			<Libro 
+				title="Artitmética con Números Indeterminados"
+				description="Un libro que explora la aritmética de los números indeterminados, una obra que desafía las convenciones matemáticas y abre nuevas posibilidades en el campo."
+				link="https://docs.google.com/document/d/1hMfMg4uskO5dVtlq7b93A9RQVRJCm7rJEk-FLuTaXPI/edit?tab=t.0"
+				type="Ensayo"
+			/>
+		  </div>
+	  
+		  <!-- Blog -->
+		  <div class="col-md-6">
+			<Blog 
+				title="Paynalton"
+				description="Blog con ideas diversas sobre tecnología, ciencia, política."
+				link="https://paynalton.blogspot.com/"
+			/>
+		  </div>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="row gy-4">
+		<div class="container">
+	  <!-- Publicación LinkedIn -->
+	  <div class="col-md-6">
+		<Linkedin 
+			title="¿Qué es la inteligencia?"
+			description="Serie de ensayos sobre la inteligencia natural y artificial."
+			link="https://www.linkedin.com/posts/paynalton_hablemos-sobre-lo-que-es-la-inteligencia-activity-7049767612246855680-p6rc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAIObOwB4dAq2mqYpXtT1UPj5Fh-_ASUoow"
+			type="Ensayo"
+		/>
+	  </div>
+  
+	  <div class="col-md-6">
+		<Libro 
+			title="La gran serpiente de mar"
+			description="Cuento original de Hans Christian Andersen, modificado para detectar el origen en problemas de comprensión de lectura y aprendizaje en niños."
+			link="https://docs.google.com/document/d/1PKQPhedwj3hotWFREhkwTjVryYVaWtAFDwaqigz9RLA/edit?tab=t.0"
+			type="Ensayo"
+		/>
+	  </div>
+	</div>
+	</div>
+</section>
+<section>
+	<div class="row gy-4">
+		<div class="container">
+	  <div class="col-md-6">
+		<Blog 
+			title="Cuentos de Sangre y Muerte"
+			description="Este sitio está dedicado a publicar cuentos"
+			link="https://paynalton.blogspot.com/"
+		/>
+	  </div>
+	  <div class="col-md-6">
+		<Linkedin 
+			title="Imposibilidad de crear una Esfera Dyson"
+			description="Reflexión sobre la imposibilidad de crear una esfera Dyson y sus implicaciones en la búsqueda de vida extraterrestre."
+			link="https://www.linkedin.com/posts/paynalton_imposibilidad-de-crear-una-esfera-dyson-activity-7054663684459020288-w2sT?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAIObOwB4dAq2mqYpXtT1UPj5Fh-_ASUoow"
+			type="Ensayo"
+		/>
+	  </div>
+	</div>
+	</div>
+</section>
+<section>
+	<div class="row gy-4">
+		<div class="container">
+	  <div class="col-md-6">
+		<Libro 
+			title="Dimensiones Conectadas"
+			description="Un Modelo Teórico para Conectar Elementos Clave de la Física Cuántica."
+			link="https://docs.google.com/document/d/1vE_OEMdw0G4ax29wOQBFaam9ypfDnKAMpCQfQ_3d6d8/edit?tab=t.0#heading=h.85v0orq1fjf7"
+			type="Libro"
+		/>
+	  </div>
+	  <div class="col-md-6">
+		<Blog 
+			title="Cuentos de Sangre y Muerte"
+			description="Este sitio está dedicado a publicar cuentos"
+			link="https://paynalton.blogspot.com/"
+		/>
+	  </div>
+	</div>
+</div>
+</section>
+<section>
+<div class="row gy-4">
+	<div class="container">
+	  <div class="col-md-6">
+		<Linkedin 
+			title="Las cámaras fotográficas te roban el alma"
+			description="Reflexión sobre la reticencia al avance tecnológico en la sociedad moderna"
+			link="https://www.linkedin.com/posts/paynalton_hoy-en-d%C3%ADa-miramos-al-pasado-y-nos-re%C3%ADmos-activity-7048165073227272192-QsAU?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAIObOwB4dAq2mqYpXtT1UPj5Fh-_ASUoow"
+			type="Ensayo"
+		/>
+	  </div>
+	  <div class="col-md-6">
+		<Blog 
+			title="Mis Otros Relatos"
+			description="Cuentos de diferentes géneros, desde la fantasía hasta el terror."
+			link="https://misotrosrelatos.blogspot.com/"
+		/>
+	  </div>
+  
+	</div>
+	</div>
+  </section>
+  
+</Layout>
+<style>
+	section{
+		margin: 50px 0;
+	}
+</style>

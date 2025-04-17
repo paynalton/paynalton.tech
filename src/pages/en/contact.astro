@@ -1,0 +1,62 @@
+---
+import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
+import Layout from '../../layouts/Default.astro';
+---
+<Layout
+	title={SITE_TITLE}
+	description={SITE_DESCRIPTION}
+	currentPage="contact"
+	lang="en"
+	slogan="Communication is the key to success."
+	subslogan="Every conversation is an opportunity to learn, grow, and collaborate. Here, communication is not just a medium, but the bridge that connects ideas, people, and opportunities."
+	content_title="Contact"
+	content_description="Want to collaborate or chat about technology, AI, or an interesting project? Here’s how to reach me."
+>
+
+<section>
+	<div class="container">
+	  <div class="row justify-content-center">
+		<div class="col-md-9">
+		  <ul class="list-group list-group-flush fs-5">
+			<li class="list-group-item">
+			  <i class="fas fa-envelope me-2 text-danger"></i>
+			  <a href="mailto:cxescalona@gmail.com" class="text-decoration-none">cxescalona@gmail.com</a>
+			</li>
+			<li class="list-group-item">
+			  <i class="fab fa-telegram me-2 text-info"></i>
+			  <a href="https://t.me/paynalton" target="_blank" class="text-decoration-none">@paynalton on Telegram</a>
+			</li>
+			<li class="list-group-item">
+			  <i class="fab fa-linkedin me-2 text-primary"></i>
+			  <a href="https://www.linkedin.com/in/paynalton" target="_blank" class="text-decoration-none">LinkedIn /paynalton</a>
+			</li>
+			<li class="list-group-item">
+			  <i class="fab fa-paypal me-2 text-primary"></i>
+			  <a href="https://www.paypal.me/paynalton" target="_blank" class="text-decoration-none">Support me via PayPal</a>
+			</li>
+			<li class="list-group-item">
+			  <i class="fab fa-discord me-2 text-purple" style="color: #5865F2;"></i>
+			  <a href="https://discord.com/users/paynalton" target="_blank" class="text-decoration-none">Find me on Discord</a>
+			</li>
+		  </ul>
+		</div>
+		<div class="col-md-3">
+		  <img src="https://picsum.photos/360/360" alt="Contact" class="img-fluid" />
+		</div>
+	  </div>
+	</div>
+  </section>
+  
+</Layout>
+<style>
+	section{
+		margin: 50px 0;
+	}
+	i{
+		font-size: 20px;
+		margin: 8px;
+		border-radius: 25px;
+		padding: 10px;
+		box-shadow: 0px 1px 4px #666;
+	}
+</style>

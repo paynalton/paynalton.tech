@@ -1,0 +1,37 @@
+//Fondo principal		Gris muy oscuro neutro
+$gris:	rgba(28, 28, 30, 1);
+//Fondo secundario	Gris oscuro ligeramente cálido	
+$gris_calido: #4e616c;
+//Rojo suave principal	Rojo vino elegante	
+$rojo: rgba(180, 50, 50, 1);
+//Rojo acento sutil	Para bordes o hover	
+$rojo_acento: rgba(180, 50, 50, 0.2);
+//Texto principal	Blanco cálido (menos brillante)	
+$blanco_calido: rgba(245, 245, 245, 1);
+$blanco: rgba(255, 255, 255, 1);
+//Texto secundario	Gris claro para textos menores	
+$gris_claro: #f5f5f5;
+//Sombra elegante	Para dar profundidad sin agresividad	
+$sombra: rgba(0, 0, 0, 0.3);
+//Fondo tarjetas	Gris medio	
+$gris_medio: rgba(38, 38, 40, 1);
+//Detalle de borde	Rojo vino con transparencia	
+$rojo_vino: rgba(180, 50, 50, 0.5);
+
+//Texto principal	Títulos, párrafos importantes	
+$texto: rgba(245, 245, 245, 1);
+//Texto secundario	Descripciones, subtítulos	
+$titulo_secundario: rgba(200, 200, 200, 0.8);
+//Texto desactivado	Textos muy secundarios o comentarios	
+$texto_terciario: rgba(180, 180, 180, 0.6);
+//Texto acentuado	Links, botones o palabras clave	rgba(180, 50, 50, 1)
+$texto_acentuado: rgba(180, 50, 50, 1);
+//Hover sobre texto	Link al pasar el mouse	rgba(255, 100, 100, 1)
+$hover_texto: rgba(255, 100, 100, 1);
+
+/*
+Fondo: rgba(28, 28, 30, 1) para el <body>, para evitar un negro puro.
+Rojo vino (rgba(180, 50, 50, 1)) como color de énfasis en botones, títulos o enlaces.
+Texto claro y suave: para no dañar la vista en pantallas durante mucho tiempo.
+Sombras suaves: rgba(0, 0, 0, 0.3) para profundidad sin dramatismo.
+*/
