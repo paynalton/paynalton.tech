@@ -33,7 +33,7 @@ const diccionario = {
 
         <!-- Start Header Navigation -->
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+            <button id="MenuButton" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                 <i class="fa fa-bars"></i>
             </button>
             <a class="navbar-brand" href="/"><span>Pay</span>nalton</a>
@@ -54,3 +54,14 @@ const diccionario = {
         </div><!-- /.navbar-collapse -->
     </div><!--/.container-->
 </nav>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const menuButton = document.getElementById('MenuButton');
+        const navbarMenu = document.getElementById('navbar-menu');
+
+        menuButton?.addEventListener('click', function() {
+            navbarMenu?.classList.toggle('collapse');
+        });
+    });
+</script>

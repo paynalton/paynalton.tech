@@ -3,8 +3,7 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import MainMenu from '../components/MainMenu.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
-const { currentPage, slogan, subslogan, content_title, content_description, lang } = Astro.props;
+const { currentPage, slogan, subslogan, content_title, content_description, lang, title, description, keywords } = Astro.props;
 
 const diccionario = {
     projects: {
@@ -26,9 +25,9 @@ const diccionario = {
 }
 ---
 <!doctype html>
-<html lang="en">
+<html lang={ lang}>
 	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION}/>
+		<BaseHead title={title} description={description} keywords={ keywords } lang={lang}/>
 	</head>
 	<body class={`page-${currentPage}`}>
 		<Header  lang={lang}/>
@@ -43,7 +42,7 @@ const diccionario = {
 			<section id="home" class="welcome-hero">
 				<div class="container">
 					<div class="welcome-hero-txt">
-						<h2>{ slogan }</h2>
+						<h1>{ slogan }</h1>
 						<p>
 							{ subslogan }
 						</p>
@@ -74,7 +73,7 @@ const diccionario = {
 						<div class="col-md-3 col-sm-6">
 							<div class="single-ststistics-box">
 								<div class="statistics-content">
-									<div class="counter">100 </div> <span>+</span>
+									<span>+</span> <div class="counter">100 </div>
 								</div>
 								<h3>{ diccionario.projects[ lang ] }</h3>
 							</div>
@@ -82,7 +81,7 @@ const diccionario = {
 						<div class="col-md-3 col-sm-6">
 							<div class="single-ststistics-box">
 								<div class="statistics-content">
-									<div class="counter">10</div> <span>+</span>
+									<span>+</span> <div class="counter">10</div> 
 								</div>
 								<h3>{ diccionario.employers[ lang ] }</h3>
 							</div>
@@ -90,7 +89,7 @@ const diccionario = {
 						<div class="col-md-3 col-sm-6">
 							<div class="single-ststistics-box">
 								<div class="statistics-content">
-									<div class="counter">100</div> <span>K+</span>
+									<span>+</span> <div class="counter">100</div> <span>K</span>
 								</div>
 								<h3>{ diccionario.users[ lang ] }</h3>
 							</div>
@@ -98,7 +97,7 @@ const diccionario = {
 						<div class="col-md-3 col-sm-6">
 							<div class="single-ststistics-box">
 								<div class="statistics-content">
-									<div class="counter">50</div> <span>k+</span>
+									<span>+</span> <div class="counter">50</div> <span>K</span>
 								</div>
 								<h3>{ diccionario.issues[ lang ] }</h3>
 							</h3>

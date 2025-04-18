@@ -17,19 +17,21 @@ import { SITE_TITLE } from '../consts';
 interface Props {
 	title: string;
 	description: string;
+	keywords: string;
 	image?: string;
+	lang?: string;
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
-const { title, description, image = '/blog-placeholder-1.jpg' } = Astro.props;
+const { title, description, image = '/assets/images/Paynalton01.jpg', keywords, lang } = Astro.props;
 ---
 
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-<title>{SITE_TITLE}</title>
+<title>{title}</title>
 
 <!-- Global Metadata -->
 <link rel="icon" href="/favicon.ico" />
@@ -37,7 +39,7 @@ const { title, description, image = '/blog-placeholder-1.jpg' } = Astro.props;
 <link
 	rel="alternate"
 	type="application/rss+xml"
-	title={SITE_TITLE}
+	title={title}
 	href={new URL('rss.xml', Astro.site)}
 />
 <meta name="generator" content={Astro.generator} />
@@ -53,6 +55,9 @@ const { title, description, image = '/blog-placeholder-1.jpg' } = Astro.props;
 <title>{title}</title>
 <meta name="title" content={title} />
 <meta name="description" content={description} />
+<meta name="keywords" content={keywords} />
+<meta name="author" content="Paynalton" />
+<meta name="robots" content="index, follow" />
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
@@ -67,3 +72,43 @@ const { title, description, image = '/blog-placeholder-1.jpg' } = Astro.props;
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={new URL(image, Astro.url)} />
+
+<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@type": "Person",
+	  "name": "Paynalton",
+	  "url": "https://paynalton.tech",  
+	  "image": "https://paynalton.tech/assets/images/Paynalton01.jpg",
+	  "jobTitle": "Fullstack Web Developer",
+	  "worksFor": {
+		"@type": "Organization",
+		"name": "Sodigital"
+	  },
+	  "sameAs": [
+		"https://www.linkedin.com/in/paynalton",
+		"https://github.com/paynalton",
+		"https://t.me/paynalton",
+		"https://discord.gg/paynalton"
+	  ],
+	  "knowsAbout": [
+		"Web Development",
+		"JavaScript",
+		"PHP",
+		"Python",
+		"Node.js",
+		"Vue.js",
+		"Laravel",
+		"Inteligencia Artificial",
+		"DevOps",
+		"CI/CD"
+	  ],
+	  "description": "Desarrollador web fullstack con más de 30 años de experiencia, enfoque autodidacta, uso avanzado de herramientas de inteligencia artificial y una visión multidisciplinaria para crear soluciones innovadoras, funcionales y escalables.",
+	  "address": {
+		"@type": "PostalAddress",
+		"addressLocality": "México",
+		"addressCountry": "MX"
+	  }
+	}
+	</script>
+	

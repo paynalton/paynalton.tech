@@ -55,3 +55,15 @@ section.title{
 		margin: 12px 0;
 	}
 }
+.list-topics{
+	ul{
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.d-sm-none {
+		display: none;
+	}
+	
+}
