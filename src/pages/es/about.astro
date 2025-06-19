@@ -1,8 +1,11 @@
 ---
 import Layout from '../../layouts/Default.astro';
 import Item from '../../components/about/item.astro';
+import { loadAllDictionaries } from '../../utils/i18nLoader.mjs';
 import Translator from '../../lib/translator.mjs';
-const t = new Translator( );
+
+const allDictionaries = await loadAllDictionaries();
+const t = new Translator('es', allDictionaries);
 t.setLocale("es");
 ---
 

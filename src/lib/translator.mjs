@@ -1,18 +1,28 @@
-import fs from 'fs';
+// src/utils/Translator.js
+// No necesitas importar 'fs' aquí, ya que la lectura se hará externamente.
 
-export default class Translator{
-
+export default class Translator {
     defaultLang = 'en';
     currentLang = 'en';
     currentDictionary = null;
     defaultDictionary = null;
 
-    constructor( defaultLang = 'en' ) {
-        this.setLocale(defaultLang, true);
+    // El constructor ahora recibe los diccionarios pre-cargados
+    constructor(defaultLang = 'en', dictionaries = {}) {
+        this.defaultLang = defaultLang;
+        this.currentLang = defaultLang;
+
+        // Asigna los diccionarios pasados al constructor
+        this.defaultDictionary = dictionaries[defaultLang] || null;
+        this.currentDictionary = dictionaries[defaultLang] || null;
+
+        // Si tienes múltiples idiomas y quieres cambiar dinámicamente en el cliente
+        // Tendrás que manejar un mapa de todos los diccionarios disponibles
+        this.allDictionaries = dictionaries; // Guarda todos los diccionarios cargados
     }
 
     _t(key, options) {
-        return this.currentDictionary 
+        return this.currentDictionary
             && this.currentDictionary[key] ?
             this.currentDictionary[key].replace(/\{(\w+)\}/g, (match, p1) => options[p1] || match) :
             (
@@ -22,26 +32,13 @@ export default class Translator{
             )
     }
 
-    loadDictionary( lang, isDefault = false ) {
-        const filePath = `src/locales/${lang}.json`;
-        if (fs.existsSync(filePath)) {
-            const dictionary = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-            if (isDefault) {
-                this.defaultDictionary = dictionary;
-            } 
-            this.currentDictionary = dictionary;
-        }
-    }
-    
-    setLocale(locale, isDefault = false) {
+    // Método para cambiar el idioma si tienes varios diccionarios cargados
+    setLocale(locale) {
         this.currentLang = locale;
-        if (isDefault) {
-            this.defaultLang = locale;
-        }
-        this.loadDictionary(locale, isDefault);
+        this.currentDictionary = this.allDictionaries[locale] || this.defaultDictionary;
     }
-    
-    getLocale () {
+
+    getLocale() {
         return this.currentLang;
     }
 }

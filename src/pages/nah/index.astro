@@ -5,8 +5,11 @@ import Menu from '../../components/index/menu.astro';
 import Softskills from '../../components/index/softskills.astro';
 import Jobs from '../../components/index/jobs.astro';
 import Layout from '../../layouts/Default.astro';
+import { loadAllDictionaries } from '../../utils/i18nLoader.mjs';
 import Translator from '../../lib/translator.mjs';
-const t = new Translator( );
+
+const allDictionaries = await loadAllDictionaries();
+const t = new Translator('nah', allDictionaries);
 t.setLocale("nah");
 
 ---

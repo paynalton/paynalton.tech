@@ -3,8 +3,11 @@ import Layout from '../../layouts/Default.astro';
 import Libro from '../../components/ideas/libro.astro';
 import Blog from '../../components/ideas/blog.astro';
 import Linkedin from '../../components/ideas/linkedin.astro';
+import { loadAllDictionaries } from '../../utils/i18nLoader.mjs';
 import Translator from '../../lib/translator.mjs';
-const t = new Translator( );
+
+const allDictionaries = await loadAllDictionaries();
+const t = new Translator('en', allDictionaries);
 t.setLocale("en");
 ---
 <Layout
