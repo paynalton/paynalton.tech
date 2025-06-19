@@ -1,89 +1,85 @@
 ---
 import Layout from '../../layouts/Default.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
-import Item from './about/item.astro';
+import Item from '../../components/about/item.astro';
+import Translator from '../../lib/translator.mjs';
+const t = new Translator( );
+t.setLocale("es");
 ---
 
 <Layout
-	title="Sobre mí | Paynalton, desarrollador autodidacta con visión multidisciplinaria"
-	description="Conoce a Paynalton, un desarrollador autodidacta con más de 30 años de experiencia, perspectiva humanista y enfoque creativo hacia la tecnología y la innovación."
-	keywords="Paynalton, sobre mí, desarrollador web, autodidacta, tecnología, innovación, valores, historia personal"
 	currentPage="about"
 	lang="es"
-	slogan="Soy un desarrollador web con amplia experiencia y curiosidad constante por la tecnología."
-	subslogan="Me apasiona crear soluciones útiles, explorar nuevas herramientas y aprender algo nuevo cada día. Disfruto tanto del código limpio como de las buenas conversaciones, y valoro los proyectos que combinan lógica, diseño y propósito."
-	content_title="Sobre mí"
-	content_description="Soy un desarrollador web con amplia experiencia y curiosidad constante por la tecnología. Me apasiona crear soluciones útiles, explorar nuevas herramientas y aprender algo nuevo cada día. Disfruto tanto del código limpio como de las buenas conversaciones, y valoro los proyectos que combinan lógica, diseño y propósito."
+	t={t}
 >
 
 
 <section>
 	<div class="container">
-			<Item title="Quién soy" image="/assets/images/about/4902456906845631531.jpg">
-				Soy un desarrollador web con amplia experiencia y curiosidad constante por la tecnología. Me apasiona crear soluciones útiles, explorar nuevas herramientas y aprender algo nuevo cada día. Disfruto tanto del código limpio como de las buenas conversaciones, y valoro los proyectos que combinan lógica, diseño y propósito. Fuera del trabajo, me inspiran los libros, la música, y los momentos simples con amigos y mascotas.
-			</Item>
-	</div>
-</section>
-<section>
-	<div class="container">
-		<Item title="Mi camino en la tecnología" image="/assets/images/about/4902456906845631530.jpg">
-			Como desarrollador autodidacta, descubrí en la tecnología un campo infinito para aprender y crear. Mi formación constante me ha dado una visión multidisciplinaria y un enfoque único para resolver problemas. La innovación no solo me inspira, sino que define mi forma de trabajar: siempre explorando nuevas rutas, desafiando lo establecido y encontrando soluciones desde perspectivas poco convencionales.
+		<Item title={ t._t("Who I Am") } image="/assets/images/about/4902456906845631531.jpg">
+			{ t._t("I’m a web developer with extensive experience and a constant curiosity for technology. I’m passionate about creating useful solutions, exploring new tools, and learning something new every day. I enjoy clean code as much as meaningful conversations, and I value projects that combine logic, design, and purpose. Outside of work, I’m inspired by books, music, and simple moments with friends and pets.") }
 		</Item>
 	</div>
 </section>
 <section>
 	<div class="container">
-		<Item title="Mi mascota" image="/assets/images/about/4902456906845631533.jpg">
-			Pimienta es mi compañera de cuatro patas, una gata rescatada de la calle que se convirtió en parte esencial de mi vida. Con su energía y cariño, llena de alegría mis días. Siempre procuro que sea feliz, porque ella también me cuida a su manera.
+		<Item title={ t._t("My Path in Technology") } image="/assets/images/about/4902456906845631530.jpg">
+			{ t._t("As a self-taught developer, I discovered in technology an endless field for learning and creation. Continuous learning has given me a multidisciplinary vision and a unique approach to problem-solving. Innovation not only inspires me—it defines how I work: always exploring new paths, challenging the status quo, and finding solutions from unconventional perspectives.") }
 		</Item>
 	</div>
 </section>
 <section>
 	<div class="container">
-		<Item title="Mis amigos y comunidad" image="/assets/images/about/4902456906845631541.jpg">
-			Valoro profundamente a mis amigos, pocos pero incondicionales, y tengo la suerte de compartir mi entorno con vecinos amables. Mi hijo es una fuente constante de amor y motivación, y cada día procuro hacer algo, por pequeño que sea, que contribuya al bienestar de mi comunidad. Creo en el poder de los lazos humanos y en el impacto positivo de nuestras acciones cotidianas.
+		<Item title={ t._t("My Pet") } image="/assets/images/about/4902456906845631533.jpg">
+			{ t._t("Pimienta is my four-legged companion, a rescued street cat who became an essential part of my life. With her energy and affection, she fills my days with joy. I always strive to keep her happy—because in her own way, she takes care of me too.") }
 		</Item>
 	</div>
 </section>
 <section>
 	<div class="container">
-		<Item title="Hobbies y pasatiempos" image="/assets/images/about/4902456906845631532.jpg">
-			Disfruto leer, jugar videojuegos y explorar nuevas tecnologías. También encuentro mucha paz en las actividades manuales: carpintería, herrería, plomería, electricidad y todo lo relacionado con el mantenimiento del hogar. Restaurar muebles y artefactos antiguos no solo me relaja, sino que me conecta con el valor de lo hecho a mano y con historia.
+		<Item title={ t._t("My Friends and Community") } image="/assets/images/about/4902456906845631541.jpg">
+			{ t._t("I deeply value my friends—few but unconditional—and I’m lucky to be surrounded by kind neighbors. My son is a constant source of love and motivation, and every day I try to do something, no matter how small, that contributes to my community’s well-being. I believe in the power of human connection and in the positive impact of everyday actions.") }
 		</Item>
 	</div>
 </section>
 <section>
 	<div class="container">
-		<Item title="Mis valores" image="/assets/images/about/4902456906845631534.jpg">
-			Mi visión se enraíza en un nihilismo humanista y progresista. Creo que, al aceptar la ausencia de un propósito predeterminado, podemos construir uno propio basado en el bienestar común. Confío en que la colaboración entre seres humanos y tecnología no solo transformará nuestra sociedad, sino que también liberará el potencial más noble y benévolo de la humanidad.
+		<Item title={ t._t("Hobbies and Pastimes") } image="/assets/images/about/4902456906845631532.jpg">
+			{ t._t("I enjoy reading, playing video games, and exploring new technologies. I also find peace in hands-on activities: carpentry, metalwork, plumbing, electrical work—anything related to home maintenance. Restoring old furniture and tools not only relaxes me, but also connects me to the value of handmade things with history.") }
 		</Item>
 	</div>
 </section>
 <section>
 	<div class="container">
-		<Item title="Lo que me inspira" image="/assets/images/about/4902456906845631536.jpg">
-			Cuando enfrento desafíos complejos, suelo buscar inspiración en la naturaleza y en los momentos clave de la historia humana. Me fascina cómo los sabios y científicos del pasado podían descubrir verdades profundas en lo más simple, incluso en una mota de polvo. Esa capacidad de observar con humildad y asombro es una guía constante en mi forma de pensar y crear.
+		<Item title={ t._t("My Values") } image="/assets/images/about/4902456906845631534.jpg">
+			{ t._t("My worldview is rooted in humanistic and progressive nihilism. I believe that by accepting the absence of a predetermined purpose, we can create our own—based on collective well-being. I trust that the collaboration between humans and technology won’t just transform society, but will also unlock humanity’s most noble and benevolent potential.") }
 		</Item>
 	</div>
 </section>
 <section>
 	<div class="container">
-		<Item title="Algo curioso sobre mí" image="/assets/images/about/4902456906845631535.jpg">
-			Aunque soy una persona reservada, suelo reír y hacer chistes casi todo el tiempo. Mi forma de conectar con los demás es siempre afable, sin importar la primera impresión. Me gusta pensar que el humor y la amabilidad son atajos hacia una comunicación más honesta y cercana.
+		<Item title={ t._t("What Inspires Me") } image="/assets/images/about/4902456906845631536.jpg">
+			{ t._t("When facing complex challenges, I often seek inspiration in nature and key moments of human history. I’m fascinated by how the sages and scientists of the past uncovered deep truths in the simplest things—even in a speck of dust. That ability to observe with humility and wonder is a constant guide in how I think and create.") }
 		</Item>
 	</div>
 </section>
 <section>
 	<div class="container">
-		<Item title="Qué me gusta aprender ahora" image="/assets/images/about/4902456906845631538.jpg">
-			Siempre estoy aprendiendo algo nuevo, y casi siempre de más de una disciplina al mismo tiempo. Actualmente, me apasionan los detalles de la física cuántica, la inteligencia artificial y la historia del Imperio austrohúngaro. Creo firmemente que nunca es tarde —ni demasiado temprano— para dejarse fascinar por el conocimiento.
+		<Item title={ t._t("A Fun Fact About Me") } image="/assets/images/about/4902456906845631535.jpg">
+			{ t._t("Although I’m a reserved person, I laugh and joke almost all the time. My way of connecting with others is always warm—no matter the first impression. I like to think that humor and kindness are shortcuts to more honest and meaningful communication.") }
 		</Item>
 	</div>
 </section>
 <section>
 	<div class="container">
-		<Item title="Mi espacio de trabajo / Mi día a día" image="/assets/images/about/4902456906845631537.jpg">
-			Mi día a día transcurre entre líneas de código, café recién hecho y música de fondo. Mi espacio de trabajo es simple pero funcional, diseñado para mantenerme enfocado y creativo. Alterno entre la pantalla y herramientas manuales, según lo requiera el proyecto o el momento. Cada jornada es una mezcla de estructura y espontaneidad, siempre con espacio para aprender, construir y mejorar.
+		<Item title={ t._t("What I’m Learning Now") } image="/assets/images/about/4902456906845631538.jpg">
+			{ t._t("I’m always learning something new—usually from more than one field at a time. Right now, I’m passionate about the details of quantum physics, artificial intelligence, and the history of the Austro-Hungarian Empire. I firmly believe it’s never too late—or too early—to be fascinated by knowledge.") }
+		</Item>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<Item title={ t._t("My Workspace / Daily Life") } image="/assets/images/about/4902456906845631537.jpg">
+			{ t._t("My daily life flows between lines of code, fresh coffee, and background music. My workspace is simple but functional, designed to keep me focused and creative. I alternate between screen time and manual tools, depending on the project or the moment. Each day is a mix of structure and spontaneity—with space to learn, build, and improve.") }
 		</Item>
 	</div>
 </section>
@@ -91,7 +87,7 @@ import Item from './about/item.astro';
 	<div class="container">
 		<div class="col card">
 			<div class="card-header">
-				<h2>Mi playlist para trabajar</h2>
+				<h2>{ t._t("My Work Playlist") }</h2>
 			</div>
 			<div class="card-body row">
 				<div class="col-md-12 col-sm-12">

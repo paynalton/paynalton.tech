@@ -1,0 +1,28 @@
+---
+import Lenguajes from './skills/lenguajes.astro';
+import Platforms from './skills/platforms.astro';
+import Tools from './skills/tools.astro';
+const { t, lang } = Astro.props;
+---
+
+<div class="section-header">
+    <h2><a name="skills"></a>{ t._t("Skills") }</h2>
+    <p>{ t._t("Mastery of key tools and technical knowledge to develop functional and high-impact solutions.") }</p>
+</div>
+<hr>
+<h3>{ t._t("Programming Languages") }</h3>
+<hr>
+<div class="works-content">
+    <Lenguajes t={t} lang={lang}/>
+</div>
+<hr>
+<h3>{ t._t("Frameworks, CMS, and Platforms") }</h3>
+<hr>
+<div class="works-content">
+    <Platforms t={t} lang={lang}/>
+</div>
+<h3>{ t._t("Development Tools, Version Control, and Artificial Intelligence") }</h3>
+<hr>
+<div class="works-content">
+    <Tools t={t} lang={lang}/>
+</div>

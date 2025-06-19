@@ -1,45 +1,45 @@
 ---
-import Skills from './index/skills.astro';
-import Profile from './index/profile.astro';
-import Menu from './index/menu.astro';
-import Softskills from './index/softskills.astro';
-import Jobs from './index/jobs.astro';
+import Skills from '../../components/index/skills.astro';
+import Profile from '../../components/index/profile.astro';
+import Menu from '../../components/index/menu.astro';
+import Softskills from '../../components/index/softskills.astro';
+import Jobs from '../../components/index/jobs.astro';
 import Layout from '../../layouts/Default.astro';
+import Translator from '../../lib/translator.mjs';
+const t = new Translator( );
+t.setLocale("en");
+
 ---
 
 <Layout
-	title="Paynalton | Fullstack Web Developer with an Innovative Mindset"
-	description="With over 30 years of experience, Paynalton builds innovative, efficient, and scalable web development solutions."
-	keywords="Paynalton, web development, fullstack developer, experience, innovation, digital solutions"
 	currentPage="home"
 	lang="en"
-	slogan="Leadership, code, and solutions that endure."
-	subslogan="From the earliest languages to modern architectures, my mission has always been the same: to turn the complex into functional, and the functional into extraordinary."
+	t={t}
 >
 
 	<section id="list-topics" class="list-topics">
 		<div class="container">
-			<Menu/>
+			<Menu t={t} lang="en"/>
 		</div>
 	</section>
 	<section id=""  class="subscription">
 		<div class="container">
-			<Profile/>
+			<Profile t={t} lang="en"/>
 		</div>
 	</section>
 	<section id="works" class="works">
 		<div class="container">
-			<Skills/>
+			<Skills t={t} lang="en"/>
 		</div>
 	</section>
 	<section id="explore" class="explore">
 		<div class="container">
-			<Softskills/>
+			<Softskills t={t} lang="en"/>
 		</div>
 	</section>
 	<section id="blog" class="blog" >
 		<div class="container">
-			<Jobs/>
+			<Jobs t={t} lang="en"/>
 		</div>
 	</section>
 </Layout>

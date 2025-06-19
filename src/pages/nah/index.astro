@@ -7,38 +7,39 @@ import Jobs from '../../components/index/jobs.astro';
 import Layout from '../../layouts/Default.astro';
 import Translator from '../../lib/translator.mjs';
 const t = new Translator( );
-t.setLocale("es");
+t.setLocale("nah");
+
 ---
 
 <Layout
 	currentPage="home"
-	lang="es"
+	lang="nah"
 	t={t}
 >
 
 	<section id="list-topics" class="list-topics">
 		<div class="container">
-			<Menu t={t} lang="es"/>
+			<Menu t={t} lang="nah"/>
 		</div>
 	</section>
 	<section id=""  class="subscription">
 		<div class="container">
-			<Profile t={t} lang="es"/>
+			<Profile t={t} lang="nah"/>
 		</div>
 	</section>
 	<section id="works" class="works">
 		<div class="container">
-			<Skills t={t} lang="es"/>
+			<Skills t={t} lang="nah"/>
 		</div>
 	</section>
 	<section id="explore" class="explore">
 		<div class="container">
-			<Softskills t={t} lang="es"/>
+			<Softskills t={t} lang="nah"/>
 		</div>
 	</section>
 	<section id="blog" class="blog" >
 		<div class="container">
-			<Jobs t={t} lang="es"/>
+			<Jobs t={t} lang="nah"/>
 		</div>
 	</section>
 </Layout>

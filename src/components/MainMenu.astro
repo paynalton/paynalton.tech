@@ -1,31 +1,5 @@
 ---
-const { current, lang } = Astro.props;
-const diccionario = {
-    home: {
-        es: 'Inicio',
-        en: 'Home'
-    },
-    about: {
-        es: 'Mi vida',
-        en: 'My Life'
-    },
-    jobs: {
-        es: 'Mi trabajo',
-        en: 'My Employers'
-    },
-    projects: {
-        es: 'Mis proyectos',
-        en: 'My Projects'
-    },
-    ideas: {
-        es: 'Mis ideas',
-        en: 'My Ideas'
-    },
-    contact: {
-        es: 'Contacto',
-        en: 'Contact'
-    },
-}
+const { current, lang, t } = Astro.props;
 ---
 <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"  data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
 	
@@ -44,12 +18,12 @@ const diccionario = {
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
             <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-                <li class={ current=='home'?`scroll active`:`scroll`}><a href={`/${lang}`}>{ diccionario.home[lang] }</a></li>
-                <li class={ current=='about'?`scroll active`:`scroll`}><a href={`/${lang}/about`}>{ diccionario.about[lang] }</a></li>
-                <li class={ current=='jobs'?`scroll active`:`scroll`}><a href={`/${lang}/jobs`}>{ diccionario.jobs[lang] }</a></li>
-                <li class={ current=='projects'?`scroll active`:`scroll`}><a href={`/${lang}/projects`}>{ diccionario.projects[lang] }</a></li>
-                <li class={ current=='ideas'?`scroll active`:`scroll`}><a href={`/${lang}/ideas`}>{ diccionario.ideas[lang] }</a></li>
-                <li class={ current=='contact'?`scroll active`:`scroll`}><a href={`/${lang}/contact`}>{ diccionario.contact[lang] }</a></li>
+                <li class={ current=='home'?`scroll active`:`scroll`}><a href={`/${lang}`}>{ t._t("Home") }</a></li>
+                <li class={ current=='about'?`scroll active`:`scroll`}><a href={`/${lang}/about`}>{ t._t("My Life") }</a></li>
+                <li class={ current=='jobs'?`scroll active`:`scroll`}><a href={`/${lang}/jobs`}>{ t._t("My Employers") }</a></li>
+                <li class={ current=='projects'?`scroll active`:`scroll`}><a href={`/${lang}/projects`}>{ t._t("My Projects") }</a></li>
+                <li class={ current=='ideas'?`scroll active`:`scroll`}><a href={`/${lang}/ideas`}>{ t._t("My Ideas") }</a></li>
+                <li class={ current=='contact'?`scroll active`:`scroll`}><a href={`/${lang}/contact`}>{ t._t("Contact") }</a></li>
             </ul><!--/.nav -->
         </div><!-- /.navbar-collapse -->
     </div><!--/.container-->

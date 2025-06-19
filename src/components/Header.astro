@@ -1,20 +1,9 @@
 ---
-import HeaderLink from './HeaderLink.astro';
 import UpButton from './UpButton.astro';
-import { SITE_TITLE } from '../consts';
-import { readFileSync } from 'fs';
-const { lang } = Astro.props;
-
-const diccionario = {
-    email: {
-        es: 'Correo Electrónico',
-        en: 'Email'
-    },
-}
-
+const { lang, t } = Astro.props;
 ---
 
-<UpButton lang={ lang }/>
+<UpButton/>
 <header id="header-top" class="header-top">
     <ul>
         <li>
@@ -24,6 +13,7 @@ const diccionario = {
                         <select name="language" id="language">
                             <option value="es" selected={ lang== 'es' ? true : false }>ES</option>
                             <option value="en" selected={ lang== 'en' ? true : false }>EN</option>
+                            <option value="nah" selected={ lang== 'nah' ? true : false }>NAH</option>
                         </select>
                     </li>
                 </ul>
@@ -39,7 +29,7 @@ const diccionario = {
                     </li>
                     <li class="header-top-contact">
                         <a href="mailto:cxescalona@gmail.com" target="_blank" title="Email">
-                            <i class="fa fa-envelope"></i> {diccionario.email[lang]}
+                            <i class="fa fa-envelope"></i> { t._t("Email") }
                         </a>
                     </li>
                 </ul>
@@ -54,7 +44,7 @@ const diccionario = {
         languageSelect?.addEventListener('change', function() {
             const selectedLanguage = this.value;
             const currentUrl = window.location.href;
-            const newUrl = currentUrl.replace(/\/(es|en)\//, `/${selectedLanguage}/`);
+            const newUrl = currentUrl.replace(/\/(es|en|nah|yua)\//, `/${selectedLanguage}/`);
             window.location.href = newUrl;
         });
     });

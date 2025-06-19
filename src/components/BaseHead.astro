@@ -12,7 +12,6 @@ import '../styles/template/bootsnav.css';
 import '../styles/template/style.css';
 import '../styles/template/responsive.css';
 import '../styles/global.scss';
-import { SITE_TITLE } from '../consts';
 
 interface Props {
 	title: string;
@@ -20,6 +19,7 @@ interface Props {
 	keywords: string;
 	image?: string;
 	lang?: string;
+	t?: any;
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);

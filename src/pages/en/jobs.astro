@@ -1,25 +1,21 @@
 ---
-import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
 import Layout from '../../layouts/Default.astro';
-import Item from './jobs/item.astro';
+import Item from '../../components/jobs/item.astro';
+import Translator from '../../lib/translator.mjs';
+const t = new Translator( );
+t.setLocale("en");
 ---
 <Layout
-    title="My Work Approach | Paynalton, technical precision with creative depth"
-    description="Explore how Paynalton approaches projects: clean code, innovation, AI-assisted development, ethics, and a deep understanding of user and business needs."
-    keywords="Paynalton, work methodology, fullstack developer, clean code, AI tools, leadership, professional ethics, project workflow, innovation"
 	currentPage="jobs"
 	lang="en"
-	slogan="My work is my passion, and my passion is the work."
-	subslogan="From day one, I’ve been immersed in a world where every line of code tells a story, and every project is an opportunity to learn and grow. My professional journey has been a constant challenge, but also an endless source of satisfaction and joy."
-	content_title="My Work"
-	content_description="This is how I approach every web development project, technical design, and creative solution using artificial intelligence and efficient methodologies."
+	t={t}
 >
 
 <section class="row">
     <div class="container">
         <div class="col-md-8">
-            <Item title="☕ Starting with Coffee">
-                My work routine begins with a coffee and a strategic review of the day’s tasks. This small ritual sets the tone for a disciplined approach to problem-solving, task prioritization, and efficient coding.
+            <Item title={ t._t("☕ Starting with Coffee") }>
+                { t._t("My work routine begins with a coffee and a strategic review of the day’s tasks. This small ritual sets the tone for a disciplined approach to problem-solving, task prioritization, and efficient coding.") }
             </Item>
         </div>
         <div class="col-md-4 serp-image d-none d-md-block">
@@ -30,8 +26,8 @@ import Item from './jobs/item.astro';
 <section class="row">
     <div class="container">
         <div class="col-md-8">
-            <Item title="👥 Efficient Meetings">
-                I believe communication within teams is essential—but always in moderation. Meetings should be focused on decisions, not endless discussions that delay progress. I promote agile methodologies and collaboration tools to keep the web development process on track and aligned with client goals.
+            <Item title={ t._t("👥 Efficient Meetings") }>
+                { t._t("I believe communication within teams is essential—but always in moderation. Meetings should be focused on decisions, not endless discussions that delay progress. I promote agile methodologies and collaboration tools to keep the web development process on track and aligned with client goals.") }
             </Item>
         </div>
         <div class="col-md-4 serp-image d-none d-md-block">
@@ -42,8 +38,8 @@ import Item from './jobs/item.astro';
 <section class="row">
     <div class="container">
         <div class="col-md-8">
-            <Item title="🧹 Clean and Organized Code">
-                I’m a strong advocate of clean, structured, and well-commented code. A good software project should not only work—it should also be understandable, maintainable, and scalable. This applies to everything from small scripts to complex web applications. I implement SOLID principles, design patterns, and professional coding standards.
+            <Item title={ t._t("🧹 Clean and Organized Code") }>
+                { t._t("I’m a strong advocate of clean, structured, and well-commented code. A good software project should not only work—it should also be understandable, maintainable, and scalable. This applies to everything from small scripts to complex web applications. I implement SOLID principles, design patterns, and professional coding standards.") }
             </Item>
         </div>
         <div class="col-md-4 serp-image d-none d-md-block">
@@ -54,8 +50,8 @@ import Item from './jobs/item.astro';
 <section class="row">
     <div class="container">
         <div class="col-md-8">
-            <Item title="📐 Standards with Purpose">
-                I work aligned with development, usability, and web accessibility standards. However, when a standard doesn’t solve a real problem, I adapt it or create a new one—always thinking about the sustainability of the project. This approach allows me to deliver personalized, effective, and long-lasting solutions.
+            <Item title={ t._t("📐 Standards with Purpose") }>
+                { t._t("I work aligned with development, usability, and web accessibility standards. However, when a standard doesn’t solve a real problem, I adapt it or create a new one—always thinking about the sustainability of the project. This approach allows me to deliver personalized, effective, and long-lasting solutions.") }
             </Item>
         </div>
         <div class="col-md-4 serp-image">
@@ -66,8 +62,8 @@ import Item from './jobs/item.astro';
 <section class="row">
     <div class="container">
         <div class="col-md-8">
-            <Item title="🎯 Focus on Project Purpose">
-                Beyond functional requirements, I strive to understand the ideas, emotions, and intentions behind each project. This holistic vision helps me build solutions that not only meet technical expectations but also connect with the client’s real needs—even those not initially defined.
+            <Item title={ t._t("🎯 Focus on Project Purpose") }>
+                { t._t("Beyond functional requirements, I strive to understand the ideas, emotions, and intentions behind each project. This holistic vision helps me build solutions that not only meet technical expectations but also connect with the client’s real needs—even those not initially defined.") }
             </Item>
         </div>
         <div class="col-md-4 serp-image">
@@ -78,8 +74,8 @@ import Item from './jobs/item.astro';
 <section class="row">
     <div class="container">
         <div class="col-md-8">
-            <Item title="🧘 Balance Between Work and Rest">
-                I’ve learned that a healthy balance between work and rest enhances creativity, reduces stress, and improves the quality of technical decisions. That’s why I integrate conscious breaks and time to disconnect, positively impacting both my well-being and project performance.
+            <Item title={ t._t("🧘 Balance Between Work and Rest") }>
+                { t._t("I’ve learned that a healthy balance between work and rest enhances creativity, reduces stress, and improves the quality of technical decisions. That’s why I integrate conscious breaks and time to disconnect, positively impacting both my well-being and project performance.") }
             </Item>
         </div>
         <div class="col-md-4 serp-image">
@@ -90,8 +86,8 @@ import Item from './jobs/item.astro';
 <section class="row">
     <div class="container">
         <div class="col-md-8">
-            <Item title="💡 Innovative Solutions">
-                I like to think outside the box. The solutions I propose are often innovative—and sometimes hard to grasp at first. But in the long run, their effectiveness and performance speak for themselves. This creative approach allows me to find unique paths to solve complex technical and conceptual problems.
+            <Item title={ t._t("💡 Innovative Solutions") }>
+                { t._t("I like to think outside the box. The solutions I propose are often innovative—and sometimes hard to grasp at first. But in the long run, their effectiveness and performance speak for themselves. This creative approach allows me to find unique paths to solve complex technical and conceptual problems.") }
             </Item>
         </div>
         <div class="col-md-4 serp-image">
@@ -102,8 +98,8 @@ import Item from './jobs/item.astro';
 <section class="row">
     <div class="container">
         <div class="col-md-8">
-            <Item title="🛡️ Leadership and Commitment">
-                I get deeply involved in every stage of a project, taking responsibility with confidence. In unforeseen situations, I take the initiative to resolve them—keeping the team focused and the client informed. This level of commitment has been key to completing demanding projects under pressure.
+            <Item title={ t._t("🛡️ Leadership and Commitment") }>
+                { t._t("I get deeply involved in every stage of a project, taking responsibility with confidence. In unforeseen situations, I take the initiative to resolve them—keeping the team focused and the client informed. This level of commitment has been key to completing demanding projects under pressure.") }
             </Item>
         </div>
         <div class="col-md-4 serp-image">
@@ -114,8 +110,8 @@ import Item from './jobs/item.astro';
 <section class="row">
     <div class="container">
         <div class="col-md-8">
-            <Item title="⚖️ Values That Define My Professional Ethics">
-                I firmly reject hypocrisy, deceit, and any form of abuse—especially toward the most vulnerable. These ethical principles shape not only how I work, but also how I relate to clients, colleagues, and the community.
+            <Item title={ t._t("⚖️ Values That Define My Professional Ethics") }>
+                { t._t("I firmly reject hypocrisy, deceit, and any form of abuse—especially toward the most vulnerable. These ethical principles shape not only how I work, but also how I relate to clients, colleagues, and the community.") }
             </Item>
         </div>
         <div class="col-md-4 serp-image">
@@ -126,8 +122,8 @@ import Item from './jobs/item.astro';
 <section class="row">
     <div class="container">
         <div class="col-md-8">
-            <Item title="🤖 Strategic Use of Artificial Intelligence">
-                I integrate AI tools into various phases of my workflow—from conversational assistants and AI-assisted development environments to command-line automation. These tools help me optimize processes, analyze data, generate base code, and validate solutions more efficiently—without losing creative or technical control of the project.
+            <Item title={ t._t("🤖 Strategic Use of Artificial Intelligence") }>
+                { t._t("I integrate AI tools into various phases of my workflow—from conversational assistants and AI-assisted development environments to command-line automation. These tools help me optimize processes, analyze data, generate base code, and validate solutions more efficiently—without losing creative or technical control of the project.") }
             </Item>
         </div>
         <div class="col-md-4 serp-image">

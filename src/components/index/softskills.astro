@@ -1,0 +1,46 @@
+---
+import Item from './softskills/item.astro';
+const { t, lang } = Astro.props;
+---
+
+<div class="section-header">
+    <a name="softskills"></a>
+    <h2>{ t._t("Soft Skills") }</h2>
+    <p><strong>{ t._t("Beyond code, I also build connections, solutions, and healthy work environments.") }</strong></p>
+    <p>{ t._t("These personal skills complement my technical expertise, allowing me to collaborate effectively, adapt to change, and tackle challenges with an open, analytical, and human mindset.") }</p>
+</div>
+<!--/.section-header-->
+<div class="explore-content">
+    <div class="row">
+        <Item title={ t._t("💬 Communication & Collaboration") } imagen="/assets/images/4900139750514601594.jpg" list={[
+            t._t("Effective communication"),
+            t._t("Active listening"),
+            t._t("Teamwork"),
+            t._t("Professional empathy"),
+            t._t("Technical negotiation")
+        ]}/>
+        <Item title={ t._t("🧠 Thinking & Problem-Solving") } imagen="/assets/images/4900139750514601597.jpg" list={[
+            t._t("Critical thinking"),
+            t._t("Problem solving"),
+            t._t("Decision making"),
+            t._t("Analytical thinking"),
+            t._t("Adaptability")
+        ]}/>
+        <Item title={ t._t("🚀 Productivity & Focus") } imagen="/assets/images/4900139750514601595.jpg" list={[
+            t._t("Time management"),
+            t._t("Autonomy"),
+            t._t("Accountability"),
+            t._t("Organization"),
+            t._t("Results-oriented mindset")
+        ]}/>
+        <Item title={ t._t("🌱 Attitude & Mindset") } imagen="/assets/images/4900139750514601596.jpg" list={[
+            t._t("Continuous learning"),
+            t._t("Technological curiosity"),
+            t._t("Resilience"),
+            t._t("Growth mindset"),
+            t._t("Professional ethics")
+        ]}/>
+        
+        
+    </div>
+</div>

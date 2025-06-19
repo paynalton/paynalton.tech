@@ -1,55 +1,53 @@
 ---
-import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
 import Layout from '../../layouts/Default.astro';
+import Translator from '../../lib/translator.mjs';
+const t = new Translator( );
+t.setLocale("es");
 ---
 <Layout
-	title="Contacto profesional | Paynalton, disponible para colaborar"
-	description="Contacta a Paynalton por correo, Telegram, LinkedIn, Discord o PayPal. Hablemos de ideas, proyectos o colaboraciones."
-	keywords="Paynalton, contacto, correo, Telegram, LinkedIn, Discord, PayPal, colaboraciones, desarrollador web"
 	currentPage="contact"
 	lang="es"
-	slogan="La comunicación es la clave para el éxito."
-	subslogan="Cada conversación es una oportunidad para aprender, crecer y colaborar. Aquí, la comunicación no es solo un medio, sino el puente que conecta ideas, personas y oportunidades."
-	content_title="Contacto"
-	content_description="¿Quieres colaborar o platicar sobre tecnología, IA o algún proyecto interesante? Aquí puedes encontrarme."
+	t={t}
 >
-	<section>
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-md-9">
-					<ul class="list-group list-group-flush fs-5">
-						<li class="list-group-item">
-							<i class="fas fa-envelope me-2 text-danger"></i>
-							<a href="mailto:cxescalona@gmail.com" class="text-decoration-none">cxescalona@gmail.com</a>
-						</li>
-						<li class="list-group-item">
-							<i class="fab fa-telegram me-2 text-info"></i>
-							<a href="https://t.me/paynalton" target="_blank" class="text-decoration-none">@paynalton en Telegram</a>
-						</li>
-						<li class="list-group-item">
-							<i class="fab fa-linkedin me-2 text-primary"></i>
-							<a href="https://www.linkedin.com/in/paynalton" target="_blank" class="text-decoration-none">LinkedIn /paynalton</a>
-						</li>
-						<li class="list-group-item">
-							<i class="fab fa-paypal me-2 text-primary"></i>
-							<a href="https://www.paypal.me/paynalton" target="_blank" class="text-decoration-none">Apóyame vía PayPal</a>
-						</li>
-						<li class="list-group-item">
-							<i class="fab fa-discord me-2 text-purple" style="color: #5865F2;"></i>
-							<a href="https://discord.com/users/paynalton" target="_blank" class="text-decoration-none">Búscame en Discord</a>
-						</li>
-						<li class="list-group-item">
-						  <i class="fab fa-amazon me-2 text-purple" style="color: #5865F2;"></i>
-						  <a href="https://www.amazon.com.mx/hz/wishlist/ls/3KAPFKK0MUJPW?ref_=wl_share" target="_blank" class="text-decoration-none">Mesa de regalos</a>
-						</li>
-					</ul>
-				</div>
-				<div class="col-md-3">
-					<img src="https://picsum.photos/360/360" alt="Contacto" class="img-fluid" />
-				</div>
-			</div>
+
+<section>
+	<div class="container">
+	  <div class="row justify-content-center">
+		<div class="col-md-9">
+		  <ul class="list-group list-group-flush fs-5">
+			<li class="list-group-item">
+			  <i class="fas fa-envelope me-2 text-danger"></i>
+			  <a href="mailto:cxescalona@gmail.com" class="text-decoration-none">cxescalona@gmail.com</a>
+			</li>
+			<li class="list-group-item">
+			  <i class="fab fa-telegram me-2 text-info"></i>
+			  <a href="https://t.me/paynalton" target="_blank" class="text-decoration-none">{ t._t("@paynalton on Telegram") }</a>
+			</li>
+			<li class="list-group-item">
+			  <i class="fab fa-linkedin me-2 text-primary"></i>
+			  <a href="https://www.linkedin.com/in/paynalton" target="_blank" class="text-decoration-none">LinkedIn /paynalton</a>
+			</li>
+			<li class="list-group-item">
+			  <i class="fab fa-paypal me-2 text-primary"></i>
+			  <a href="https://www.paypal.me/paynalton" target="_blank" class="text-decoration-none">{ t._t("Support me via PayPal") }</a>
+			</li>
+			<li class="list-group-item">
+			  <i class="fab fa-discord me-2 text-purple" style="color: #5865F2;"></i>
+			  <a href="https://discord.com/users/paynalton" target="_blank" class="text-decoration-none">{ t._t("Find me on Discord") }</a>
+			</li>
+			<li class="list-group-item">
+			  <i class="fab fa-amazon me-2 text-purple" style="color: #5865F2;"></i>
+			  <a href="https://www.amazon.com.mx/hz/wishlist/ls/3KAPFKK0MUJPW?ref_=wl_share" target="_blank" class="text-decoration-none">{ t._t("Amazon registry") }</a>
+			</li>
+		  </ul>
 		</div>
-	</section>
+		<div class="col-md-3">
+		  <img src="https://picsum.photos/360/360" alt="Contact" class="img-fluid" />
+		</div>
+	  </div>
+	</div>
+  </section>
+  
 </Layout>
 <style>
 	section{
