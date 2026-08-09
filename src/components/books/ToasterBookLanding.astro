@@ -1,0 +1,275 @@
+---
+import BookLanding from '../../layouts/BookLanding.astro';
+
+interface Props {
+	lang: 'es' | 'en' | 'nah';
+}
+
+const { lang } = Astro.props;
+
+const copy = {
+	es: {
+		localeName: 'Español',
+		title: 'Cuando la tostadora te responde',
+		subtitle: 'Una guía para comprenderte, comprender a la IA y crecer juntos',
+		description: 'Un recorrido para entender cómo nacen nuestras ideas, qué ocurre cuando pensamos junto a una inteligencia artificial y cómo conservar el gobierno de nuestra propia mente.',
+		back: 'Volver a Paynalton',
+		landingLanguage: 'Idioma de la página',
+		eyebrow: 'Una conversación sobre quién piensa cuando pensamos con una máquina',
+		intro: 'La inteligencia artificial ya forma parte de nuestras conversaciones, búsquedas y decisiones. Este libro no intenta decirte qué pensar sobre ella. Te acompaña a observar cómo se forma una idea, qué aporta un interlocutor artificial y en qué momento una herramienta comienza a participar en nuestra manera de comprender el mundo.',
+		free: 'Primera edición · 229 páginas · CC BY-SA 4.0',
+		downloadTitle: 'Descarga el libro',
+		downloadHelp: 'El idioma del libro puede ser distinto al de esta página.',
+		editionLabel: 'Idioma de la edición',
+		download: 'Descargar PDF',
+		available: 'PDF disponible · 24.8 MB',
+		comingSoon: 'Esta edición estará disponible próximamente.',
+		insideLabel: 'En estas páginas',
+		insideTitle: 'No es un manual de instrucciones para usar IA.',
+		insideBody: 'Es una exploración de aquello que ocurre antes, durante y después de una respuesta: las historias ocultas de nuestras ideas, la facilidad con la que la coherencia suplanta a la evidencia y la posibilidad de relacionarnos con una tecnología poderosa sin entregarle nuestra autonomía.',
+		features: [
+			['fa-lightbulb-o', 'Reconoce la historia de una idea', 'Aprende a distinguir experiencias, lenguaje recibido, evidencia e inferencias dentro de aquello que sientes enteramente propio.'],
+			['fa-comments-o', 'Piensa con la IA sin desaparecer del proceso', 'Convierte el diálogo en una herramienta para contrastar, reorganizar y ampliar tu pensamiento, no para sustituirlo.'],
+			['fa-compass', 'Conserva tu soberanía cognitiva', 'Comprende los límites, valores e intereses que intervienen antes de que una respuesta llegue a tu pantalla.'],
+		],
+		journeyLabel: 'El recorrido',
+		journeyTitle: 'Cinco movimientos para volver visible el pensamiento',
+		parts: [
+			['I', 'La vida secreta de las ideas'],
+			['II', 'Pensar con otros'],
+			['III', 'El interlocutor artificial'],
+			['IV', 'La política de las mentes artificiales'],
+			['V', 'La mente extendida artificialmente'],
+		],
+		licenseTitle: 'Un libro libre debe poder seguir pensando con otras personas.',
+		licenseBody: 'La obra se publica bajo licencia Creative Commons Atribución-CompartirIgual 4.0. Puedes copiarla, compartirla, imprimirla, traducirla y adaptarla, incluso con fines comerciales, siempre que reconozcas su autoría y mantengas la misma libertad en las obras derivadas.',
+		licenseLink: 'Consultar la licencia',
+		closing: 'La pregunta no es solamente qué puede hacer la inteligencia artificial. También es en quién nos convertimos cuando pensamos junto a ella.',
+	},
+	en: {
+		localeName: 'English',
+		title: 'When the Toaster Talks Back',
+		subtitle: 'A Guide to Understanding Yourself, Understanding AI, and Growing Together',
+		description: 'A journey through how our ideas arise, what happens when we think alongside artificial intelligence, and how to remain in charge of our own minds.',
+		back: 'Back to Paynalton',
+		landingLanguage: 'Page language',
+		eyebrow: 'A conversation about who is thinking when we think with a machine',
+		intro: 'Artificial intelligence is already part of our conversations, searches, and decisions. This book does not try to tell you what to think about it. It invites you to observe how an idea takes shape, what an artificial interlocutor contributes, and when a tool begins to participate in the way we understand the world.',
+		free: 'First edition · 229 pages · CC BY-SA 4.0',
+		downloadTitle: 'Download the book',
+		downloadHelp: 'The book language can differ from the language of this page.',
+		editionLabel: 'Edition language',
+		download: 'Download PDF',
+		available: 'PDF available · 24.8 MB',
+		comingSoon: 'This edition will be available soon.',
+		insideLabel: 'Inside these pages',
+		insideTitle: 'This is not an instruction manual for using AI.',
+		insideBody: 'It is an exploration of what happens before, during, and after an answer: the hidden histories of our ideas, the ease with which coherence can take the place of evidence, and the possibility of relating to powerful technology without surrendering our autonomy.',
+		features: [
+			['fa-lightbulb-o', 'Recognize the history of an idea', 'Learn to distinguish experience, inherited language, evidence, and inference within what feels entirely your own.'],
+			['fa-comments-o', 'Think with AI without leaving the process', 'Turn dialogue into a tool for challenging, reorganizing, and expanding your thinking—not replacing it.'],
+			['fa-compass', 'Preserve your cognitive sovereignty', 'Understand the limits, values, and interests that intervene before an answer reaches your screen.'],
+		],
+		journeyLabel: 'The journey',
+		journeyTitle: 'Five movements that make thought visible',
+		parts: [
+			['I', 'The Secret Life of Ideas'],
+			['II', 'Thinking with Others'],
+			['III', 'The Artificial Interlocutor'],
+			['IV', 'The Politics of Artificial Minds'],
+			['V', 'The Artificially Extended Mind'],
+		],
+		licenseTitle: 'A free book should remain free to think with others.',
+		licenseBody: 'This work is published under the Creative Commons Attribution-ShareAlike 4.0 license. You may copy, share, print, translate, and adapt it, including commercially, as long as you credit the author and preserve the same freedom in derivative works.',
+		licenseLink: 'Read the license',
+		closing: 'The question is not only what artificial intelligence can do. It is also who we become when we think alongside it.',
+	},
+	nah: {
+		localeName: 'Nawatlahtolli',
+		title: 'Kwak in pantlatoponi mitsnankilia',
+		subtitle: 'Se ojtlamachtilistli para tikmomachilis, tikmomachilis in IA wan sansekan titlapanoskej',
+		description: 'Se ojtli para tikajsikamatis kenomi mochihwa totlamachilis, tlen pano ihkwak titlanemiliaj iwan se IA wan kenomi tikmokawiliskej toaxka totlalnamikilis.',
+		back: 'Ximokwepa Paynalton',
+		landingLanguage: 'In tlahtolli ipan nin amatlapowalli',
+		eyebrow: 'Se tlajtolnechikolistli itech akin tlanemilia ihkwak titlanemiliaj iwan se teposmachiyotl',
+		intro: 'In inteligencia artificial ye nemi ipan totlajtolnechikolis, totlatemolis wan tlen tikpejpenaj. Nin amoch amo kineki mitzijtos tlen moneki tiknemilis. Mitswikilia ma tikitta kenomi mochiwa se tlamachiyalistli, tlen kitemaka se chijchiwal tlajtolikni wan keman se tekitl pewa kalaki ipan kenomi tikajsikamatij in semanawak.',
+		free: 'Achto amochchijchihwalistli · 229 amatlapowaltin · CC BY-SA 4.0',
+		downloadTitle: 'Xiktemowi in amoch',
+		downloadHelp: 'In amoch welis kipias okse tlahtolli tlen nin amatlapowalli.',
+		editionLabel: 'In tlahtolli ipan amoch',
+		download: 'Xiktemowi PDF',
+		available: 'PDF ye onka · 24.8 MB',
+		comingSoon: 'Nin tlahtolkwepalistli satepan hualas.',
+		insideLabel: 'Ipan nin amoch',
+		insideTitle: 'Amo se tlanawatilli para tiktekiwis IA.',
+		insideBody: 'Se tlatemolistli itech tlen pano achto, ihkwak wan satepan se tlanankilistli: kenomi nemi totlamachilis, kenomi se kuali tlapowalistli welis kipatlas in tlanextilistli, wan kenomi welis tiktekiwiskej se chikawak techpanalistli amo tiktemakaj toaxka totlalnamikilis.',
+		features: [
+			['fa-lightbulb-o', 'Xikixmati inemilis se tlamachiyalistli', 'Xikxexelo tlen otikyekoj, tlahtolli tlen otikselij, tlanextilistli wan tlen tiknemiliaj san tehwantin.'],
+			['fa-comments-o', 'Xitlanemili iwan IA wan amo xipoliwi', 'Xikpatla in tlajtolnechikolistli ipan se tekitl para tikixnamilikis, tikyektlalis wan tikweyilis motlamachilis.'],
+			['fa-compass', 'Xikpalehui moaxka motlalnamikilis', 'Xikajsikamati nepantli, tlaixmatilistli wan tlen kineki akin kalaki achto ke se tlanankilistli ajsi mopantalla.'],
+		],
+		journeyLabel: 'In ojtli',
+		journeyTitle: 'Makuilli tlanemilistli para monextis kenomi titlanemiliaj',
+		parts: [
+			['I', 'Kenomi nemi tlamachiyalistin'],
+			['II', 'Titlanemiliaj iwan oksekimej'],
+			['III', 'In chijchiwal tlajtolikni'],
+			['IV', 'In tekiwahkayotl ipan chijchiwal tlalnamikilistli'],
+			['V', 'In tlalnamikilistli tlen IA kiweyilia'],
+		],
+		licenseTitle: 'Se amoch tlen amo ilpitok moneki welis san ok tlanemilis iwan oksekimej.',
+		licenseBody: 'Nin amoch motemaka ika licencia Creative Commons Atribución-CompartirIgual 4.0. Welis tikixkopinas, tiktemakas, tikteposkixtis, tiktlahtolkwepas wan tikpatlas, noijki para tlanamakalistli, tla tiknextia akin okijkwiloj wan tikajkawa san se tlakawalistli ipan tlen tikpatlas.',
+		licenseLink: 'Xikitta in licencia',
+		closing: 'Tlajtlanilistli amo san ye tlen weli kichiwa in inteligencia artificial. Noijki ye akin timopatlaj ihkwak titlanemiliaj iwan.',
+	},
+} as const;
+
+const c = copy[lang];
+const bookPath = '/books/cuando-la-tostadora-te-responde';
+const editions = [
+	{ code: 'es', name: 'Español', url: `${bookPath}/cuando-la-tostadora-te-responde-es.pdf`, available: true },
+	{ code: 'en', name: 'English', url: `${bookPath}/cuando-la-tostadora-te-responde-en.pdf`, available: true },
+	{ code: 'nah', name: 'Nawatlahtolli', url: `${bookPath}/cuando-la-tostadora-te-responde-nah.pdf`, available: true },
+] as const;
+const binary = '00101010 01000101 01110011 01110100 01101111 01111001 00100000 01101001 01101110 01110100 01100101 01101110 01110100 01100001 01101110 01100100 01101111 00100000 01101100 01101001 01100010 01100101 01110010 01100001 01110010 00100000 01110100 01110101 00100000 01101101 01100101 01101110 01110100 01100101';
+---
+
+<BookLanding title={`${c.title} | Paynalton`} description={c.description} lang={lang}>
+	<header class="book-header">
+		<a class="publisher" href={`/${lang}/`} aria-label={c.back}>
+			<span class="publisher-mark" aria-hidden="true">P</span>
+			<span>Paynalton</span>
+		</a>
+		<nav aria-label={c.landingLanguage}>
+			<a href="/es/books/cuando-la-tostadora-te-responde/" lang="es" aria-current={lang === 'es' ? 'page' : undefined}>ES</a>
+			<a href="/en/books/cuando-la-tostadora-te-responde/" lang="en" aria-current={lang === 'en' ? 'page' : undefined}>EN</a>
+			<a href="/nah/books/cuando-la-tostadora-te-responde/" lang="nah" aria-current={lang === 'nah' ? 'page' : undefined}>NAH</a>
+		</nav>
+	</header>
+
+	<main>
+		<section class="hero">
+			<div class="binary-strip" aria-hidden="true">{binary}</div>
+			<div class="hero-copy">
+				<p class="eyebrow">{c.eyebrow}</p>
+				<h1>{c.title}</h1>
+				<p class="subtitle">{c.subtitle}</p>
+				<p class="intro">{c.intro}</p>
+				<p class="edition"><i class="fa fa-book" aria-hidden="true"></i>{c.free}</p>
+
+				<div class="download-panel" data-download-panel data-available-text={c.available} data-coming-soon-text={c.comingSoon}>
+					<div class="download-heading">
+						<i class="fa fa-download" aria-hidden="true"></i>
+						<div>
+							<h2>{c.downloadTitle}</h2>
+							<p>{c.downloadHelp}</p>
+						</div>
+					</div>
+					<label for={`book-edition-${lang}`}>{c.editionLabel}</label>
+					<div class="download-controls">
+						<div class="select-wrap">
+							<i class="fa fa-globe" aria-hidden="true"></i>
+							<select id={`book-edition-${lang}`} data-edition-select>
+								{editions.map((edition) => (
+									<option value={edition.code} selected={edition.code === lang} data-url={edition.url} data-available={String(edition.available)}>{edition.name}</option>
+								))}
+							</select>
+						</div>
+						<a class="download-button" data-download-button href="#" download aria-disabled="true">
+							<i class="fa fa-download" aria-hidden="true"></i>
+							<span>{c.download}</span>
+						</a>
+					</div>
+					<p class="download-status" data-download-status aria-live="polite"></p>
+				</div>
+			</div>
+
+			<div class="cover-wrap" aria-label={c.title}>
+				<div class="book-cover">
+					<div class="cover-code" aria-hidden="true">{binary}</div>
+					<div class="cover-title"><span></span><strong>{c.title}</strong></div>
+					<p>{c.subtitle}</p>
+					<div class="cover-art"><img src={`${bookPath}/cover-art.png`} alt="" /></div>
+					<div class="cover-meta"><strong>Paynalton</strong><span>🄯 CC BY-SA</span></div>
+				</div>
+			</div>
+		</section>
+
+		<section class="inside editorial-section">
+			<div class="section-heading">
+				<p>{c.insideLabel}</p>
+				<h2>{c.insideTitle}</h2>
+			</div>
+			<p class="section-lead">{c.insideBody}</p>
+			<div class="feature-grid">
+				{c.features.map(([icon, title, body], index) => (
+					<article>
+						<span class="feature-number">0{index + 1}</span>
+						<i class={`fa ${icon}`} aria-hidden="true"></i>
+						<h3>{title}</h3>
+						<p>{body}</p>
+					</article>
+				))}
+			</div>
+		</section>
+
+		<section class="journey editorial-section">
+			<div class="section-heading">
+				<p>{c.journeyLabel}</p>
+				<h2>{c.journeyTitle}</h2>
+			</div>
+			<ol>
+				{c.parts.map(([number, title]) => (
+					<li><span>{number}</span><strong>{title}</strong></li>
+				))}
+			</ol>
+		</section>
+
+		<section class="license editorial-section">
+			<div class="license-symbol" aria-hidden="true">🄯</div>
+			<div>
+				<h2>{c.licenseTitle}</h2>
+				<p>{c.licenseBody}</p>
+				<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" target="_blank" rel="noreferrer">{c.licenseLink} <i class="fa fa-external-link" aria-hidden="true"></i></a>
+			</div>
+		</section>
+
+		<blockquote>{c.closing}</blockquote>
+	</main>
+
+	<footer class="book-footer">
+		<span>Paynalton · Tlacuilo Īpil Paynal</span>
+		<a href={`/${lang}/`}><i class="fa fa-arrow-left" aria-hidden="true"></i> {c.back}</a>
+	</footer>
+</BookLanding>
+
+<script>
+	function setupDownloadPanel() {
+		const panel = document.querySelector<HTMLElement>('[data-download-panel]');
+		const select = panel?.querySelector<HTMLSelectElement>('[data-edition-select]');
+		const button = panel?.querySelector<HTMLAnchorElement>('[data-download-button]');
+		const status = panel?.querySelector<HTMLElement>('[data-download-status]');
+		if (!panel || !select || !button || !status) return;
+
+		const update = () => {
+			const option = select.selectedOptions[0];
+			const available = option?.dataset.available === 'true';
+			const url = option?.dataset.url ?? '#';
+			status.textContent = available ? panel.dataset.availableText ?? '' : panel.dataset.comingSoonText ?? '';
+			button.href = available ? url : '#';
+			button.setAttribute('aria-disabled', String(!available));
+			button.classList.toggle('is-disabled', !available);
+			if (available) button.setAttribute('download', '');
+			else button.removeAttribute('download');
+		};
+
+		select.addEventListener('change', update);
+		button.addEventListener('click', (event) => {
+			if (button.getAttribute('aria-disabled') === 'true') event.preventDefault();
+		});
+		update();
+	}
+
+	setupDownloadPanel();
+	document.addEventListener('astro:page-load', setupDownloadPanel);
+</script>

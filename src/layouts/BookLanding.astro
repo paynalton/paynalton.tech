@@ -1,0 +1,45 @@
+---
+import '../styles/template/font-awesome.min.css';
+import '../styles/book-landing.scss';
+
+interface Props {
+	title: string;
+	description: string;
+	lang: 'es' | 'en' | 'nah';
+}
+
+const { title, description, lang } = Astro.props;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const imageURL = new URL('/books/cuando-la-tostadora-te-responde/cover-art.png', Astro.site);
+---
+
+<!doctype html>
+<html lang={lang}>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+		<meta name="description" content={description} />
+		<meta name="author" content="Paynalton" />
+		<meta name="robots" content="index, follow" />
+		<link rel="icon" href="/favicon.ico" />
+		<link rel="canonical" href={canonicalURL} />
+		<link rel="alternate" hreflang="es" href={new URL('/es/books/cuando-la-tostadora-te-responde/', Astro.site)} />
+		<link rel="alternate" hreflang="en" href={new URL('/en/books/cuando-la-tostadora-te-responde/', Astro.site)} />
+		<link rel="alternate" hreflang="nah" href={new URL('/nah/books/cuando-la-tostadora-te-responde/', Astro.site)} />
+		<link rel="alternate" hreflang="x-default" href={new URL('/es/books/cuando-la-tostadora-te-responde/', Astro.site)} />
+		<meta property="og:type" content="book" />
+		<meta property="og:url" content={canonicalURL} />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={description} />
+		<meta property="og:image" content={imageURL} />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content={title} />
+		<meta name="twitter:description" content={description} />
+		<meta name="twitter:image" content={imageURL} />
+	</head>
+	<body>
+		<slot />
+	</body>
+</html>
