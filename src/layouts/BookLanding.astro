@@ -38,6 +38,13 @@ const imageURL = new URL('/books/cuando-la-tostadora-te-responde/cover-art.png',
 		<meta name="twitter:title" content={title} />
 		<meta name="twitter:description" content={description} />
 		<meta name="twitter:image" content={imageURL} />
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-WXM52WNYLB"></script>
+		<script is:inline>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'G-WXM52WNYLB');
+		</script>
 	</head>
 	<body>
 		<slot />
