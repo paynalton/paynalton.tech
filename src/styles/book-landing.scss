@@ -328,8 +328,17 @@ main {
 
 .download-controls {
 	display: grid;
-	grid-template-columns: minmax(190px, 1fr) minmax(190px, auto);
+	grid-template-columns: minmax(170px, 1fr) minmax(125px, 0.65fr) minmax(175px, auto);
 	gap: 10px;
+	align-items: end;
+}
+
+.download-field {
+	min-width: 0;
+}
+
+.download-action {
+	display: flex;
 }
 
 .select-wrap {
@@ -369,6 +378,7 @@ main {
 	font-weight: 700;
 	text-decoration: none;
 	transition: background 150ms ease, transform 150ms ease;
+	width: 100%;
 }
 
 .download-button:hover {

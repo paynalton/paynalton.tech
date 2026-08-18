@@ -21,8 +21,9 @@ const copy = {
 		downloadTitle: 'Descarga el libro',
 		downloadHelp: 'El idioma del libro puede ser distinto al de esta página.',
 		editionLabel: 'Idioma de la edición',
-		download: 'Descargar PDF',
-		available: 'PDF disponible · 24.8 MB',
+		formatLabel: 'Formato',
+		download: 'Descargar',
+		available: 'Archivo disponible',
 		comingSoon: 'Esta edición estará disponible próximamente.',
 		insideLabel: 'En estas páginas',
 		insideTitle: 'No es un manual de instrucciones para usar IA.',
@@ -59,8 +60,9 @@ const copy = {
 		downloadTitle: 'Download the book',
 		downloadHelp: 'The book language can differ from the language of this page.',
 		editionLabel: 'Edition language',
-		download: 'Download PDF',
-		available: 'PDF available · 24.8 MB',
+		formatLabel: 'Format',
+		download: 'Download',
+		available: 'File available',
 		comingSoon: 'This edition will be available soon.',
 		insideLabel: 'Inside these pages',
 		insideTitle: 'This is not an instruction manual for using AI.',
@@ -97,8 +99,9 @@ const copy = {
 		downloadTitle: 'Xiktemowi in amoch',
 		downloadHelp: 'In amoch welis kipias okse tlahtolli tlen nin amatlapowalli.',
 		editionLabel: 'In tlahtolli ipan amoch',
-		download: 'Xiktemowi PDF',
-		available: 'PDF ye onka · 24.8 MB',
+		formatLabel: 'Kenomi mochijchijtok',
+		download: 'Xiktemowi',
+		available: 'In amatlapowalli ye onka',
 		comingSoon: 'Nin tlahtolkwepalistli satepan hualas.',
 		insideLabel: 'Ipan nin amoch',
 		insideTitle: 'Amo se tlanawatilli para tiktekiwis IA.',
@@ -127,10 +130,28 @@ const copy = {
 const c = copy[lang];
 const bookPath = '/books/cuando-la-tostadora-te-responde';
 const editions = [
-	{ code: 'es', name: 'Español', url: `${bookPath}/cuando-la-tostadora-te-responde-es.pdf`, available: true },
-	{ code: 'en', name: 'English', url: `${bookPath}/cuando-la-tostadora-te-responde-en.pdf`, available: true },
-	{ code: 'nah', name: 'Nawatlahtolli', url: `${bookPath}/cuando-la-tostadora-te-responde-nah.pdf`, available: true },
+	{ code: 'es', name: 'Español' },
+	{ code: 'en', name: 'English' },
+	{ code: 'nah', name: 'Nawatlahtolli' },
 ] as const;
+const formats = [
+	{ code: 'pdf', name: 'PDF', icon: 'fa-file-pdf-o' },
+	{ code: 'epub', name: 'EPUB', icon: 'fa-book' },
+] as const;
+const downloads = {
+	es: {
+		pdf: { url: `${bookPath}/cuando-la-tostadora-te-responde-es.pdf`, size: '24.8 MB' },
+		epub: { url: `${bookPath}/cuando-la-tostadora-te-responde-es.epub`, size: '24.0 MB' },
+	},
+	en: {
+		pdf: { url: `${bookPath}/cuando-la-tostadora-te-responde-en.pdf`, size: '24.8 MB' },
+		epub: { url: `${bookPath}/cuando-la-tostadora-te-responde-en.epub`, size: '24.0 MB' },
+	},
+	nah: {
+		pdf: { url: `${bookPath}/cuando-la-tostadora-te-responde-nah.pdf`, size: '24.7 MB' },
+		epub: { url: `${bookPath}/cuando-la-tostadora-te-responde-nah.epub`, size: '24.0 MB' },
+	},
+} as const;
 const binary = '00101010 01000101 01110011 01110100 01101111 01111001 00100000 01101001 01101110 01110100 01100101 01101110 01110100 01100001 01101110 01100100 01101111 00100000 01101100 01101001 01100010 01100101 01110010 01100001 01110010 00100000 01110100 01110101 00100000 01101101 01100101 01101110 01110100 01100101';
 ---
 
@@ -157,7 +178,7 @@ const binary = '00101010 01000101 01110011 01110100 01101111 01111001 00100000 0
 				<p class="intro">{c.intro}</p>
 				<p class="edition"><i class="fa fa-book" aria-hidden="true"></i>{c.free}</p>
 
-				<div class="download-panel" data-download-panel data-available-text={c.available} data-coming-soon-text={c.comingSoon}>
+				<div class="download-panel" data-download-panel data-available-text={c.available} data-coming-soon-text={c.comingSoon} data-download-text={c.download}>
 					<div class="download-heading">
 						<i class="fa fa-download" aria-hidden="true"></i>
 						<div>
@@ -165,21 +186,37 @@ const binary = '00101010 01000101 01110011 01110100 01101111 01111001 00100000 0
 							<p>{c.downloadHelp}</p>
 						</div>
 					</div>
-					<label for={`book-edition-${lang}`}>{c.editionLabel}</label>
 					<div class="download-controls">
-						<div class="select-wrap">
-							<i class="fa fa-globe" aria-hidden="true"></i>
-							<select id={`book-edition-${lang}`} data-edition-select>
-								{editions.map((edition) => (
-									<option value={edition.code} selected={edition.code === lang} data-url={edition.url} data-available={String(edition.available)}>{edition.name}</option>
-								))}
-							</select>
+						<div class="download-field">
+							<label for={`book-edition-${lang}`}>{c.editionLabel}</label>
+							<div class="select-wrap">
+								<i class="fa fa-globe" aria-hidden="true"></i>
+								<select id={`book-edition-${lang}`} data-edition-select>
+									{editions.map((edition) => (
+										<option value={edition.code} selected={edition.code === lang}>{edition.name}</option>
+									))}
+								</select>
+							</div>
 						</div>
-						<a class="download-button" data-download-button href="#" download aria-disabled="true">
-							<i class="fa fa-download" aria-hidden="true"></i>
-							<span>{c.download}</span>
-						</a>
+						<div class="download-field">
+							<label for={`book-format-${lang}`}>{c.formatLabel}</label>
+							<div class="select-wrap">
+								<i class="fa fa-file-o" data-format-icon aria-hidden="true"></i>
+								<select id={`book-format-${lang}`} data-format-select>
+									{formats.map((format) => (
+										<option value={format.code} data-icon={format.icon}>{format.name}</option>
+									))}
+								</select>
+							</div>
+						</div>
+						<div class="download-action">
+							<a class="download-button" data-download-button href="#" download aria-disabled="true">
+								<i class="fa fa-download" aria-hidden="true"></i>
+								<span>{c.download} PDF</span>
+							</a>
+						</div>
 					</div>
+					<script type="application/json" data-downloads-json set:html={JSON.stringify(downloads)}></script>
 					<p class="download-status" data-download-status aria-live="polite"></p>
 				</div>
 			</div>
@@ -246,24 +283,35 @@ const binary = '00101010 01000101 01110011 01110100 01101111 01111001 00100000 0
 <script>
 	function setupDownloadPanel() {
 		const panel = document.querySelector<HTMLElement>('[data-download-panel]');
-		const select = panel?.querySelector<HTMLSelectElement>('[data-edition-select]');
+		const editionSelect = panel?.querySelector<HTMLSelectElement>('[data-edition-select]');
+		const formatSelect = panel?.querySelector<HTMLSelectElement>('[data-format-select]');
+		const formatIcon = panel?.querySelector<HTMLElement>('[data-format-icon]');
 		const button = panel?.querySelector<HTMLAnchorElement>('[data-download-button]');
+		const buttonText = button?.querySelector<HTMLElement>('span');
 		const status = panel?.querySelector<HTMLElement>('[data-download-status]');
-		if (!panel || !select || !button || !status) return;
+		const downloadsElement = panel?.querySelector<HTMLScriptElement>('[data-downloads-json]');
+		if (!panel || !editionSelect || !formatSelect || !button || !buttonText || !status || !downloadsElement) return;
+		const downloads = JSON.parse(downloadsElement.textContent || '{}') as Record<string, Record<string, { url: string; size: string }>>;
 
 		const update = () => {
-			const option = select.selectedOptions[0];
-			const available = option?.dataset.available === 'true';
-			const url = option?.dataset.url ?? '#';
-			status.textContent = available ? panel.dataset.availableText ?? '' : panel.dataset.comingSoonText ?? '';
-			button.href = available ? url : '#';
+			const edition = editionSelect.value;
+			const format = formatSelect.value;
+			const resource = downloads[edition]?.[format];
+			const available = Boolean(resource?.url);
+			const formatName = format.toUpperCase();
+			status.textContent = available ? `${panel.dataset.availableText ?? ''} · ${formatName} · ${resource.size}` : panel.dataset.comingSoonText ?? '';
+			buttonText.textContent = `${panel.dataset.downloadText ?? ''} ${formatName}`;
+			button.href = available ? resource.url : '#';
 			button.setAttribute('aria-disabled', String(!available));
 			button.classList.toggle('is-disabled', !available);
+			const iconClass = formatSelect.selectedOptions[0]?.dataset.icon ?? 'fa-file-o';
+			if (formatIcon) formatIcon.className = `fa ${iconClass}`;
 			if (available) button.setAttribute('download', '');
 			else button.removeAttribute('download');
 		};
 
-		select.addEventListener('change', update);
+		editionSelect.addEventListener('change', update);
+		formatSelect.addEventListener('change', update);
 		button.addEventListener('click', (event) => {
 			if (button.getAttribute('aria-disabled') === 'true') event.preventDefault();
 		});
