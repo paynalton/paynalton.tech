@@ -1,4 +1,6 @@
 ---
+import '../styles/external-links.css';
+import {safeJsonLd} from '../lib/site/seo.mjs';
 import '../styles/template/font-awesome.min.css';
 import '../styles/book-landing.scss';
 
@@ -23,7 +25,7 @@ const imageURL = new URL('/books/cuando-la-tostadora-te-responde/cover-art.png',
 		<meta name="description" content={description} />
 		<meta name="author" content="Paynalton" />
 		<meta name="robots" content="index, follow" />
-		<link rel="icon" href="/favicon.ico" />
+		<link rel="icon" href="/favicon.svg" type="image/svg+xml"/><link rel="icon" href="/favicon.ico" sizes="16x16 32x32"/><link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
 		<link rel="canonical" href={canonicalURL} />
 		<link rel="alternate" hreflang="es" href={new URL('/es/books/cuando-la-tostadora-te-responde/', Astro.site)} />
 		<link rel="alternate" hreflang="en" href={new URL('/en/books/cuando-la-tostadora-te-responde/', Astro.site)} />
@@ -38,13 +40,7 @@ const imageURL = new URL('/books/cuando-la-tostadora-te-responde/cover-art.png',
 		<meta name="twitter:title" content={title} />
 		<meta name="twitter:description" content={description} />
 		<meta name="twitter:image" content={imageURL} />
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-WXM52WNYLB"></script>
-		<script is:inline>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-			gtag('config', 'G-WXM52WNYLB');
-		</script>
+		<script is:inline type="application/ld+json" set:html={safeJsonLd({'@context':'https://schema.org','@type':'Book',name:title,description,url:canonicalURL.href,inLanguage:lang,author:{'@type':'Person',name:'Paynalton'}})}/>
 	</head>
 	<body>
 		<slot />

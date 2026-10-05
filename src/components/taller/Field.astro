@@ -1,0 +1,11 @@
+---
+interface Props { id: string; label: string; hint?: string; error?: string; value?: string; disabled?: boolean; }
+const {id,label,hint,error,value='',disabled=false}=Astro.props;
+const describedBy=[hint && `${id}-hint`,error && `${id}-error`].filter(Boolean).join(' ') || undefined;
+---
+<div class="tn-field">
+ <label for={id}>{label}</label>
+ {hint && <p id={`${id}-hint`} class="tn-hint">{hint}</p>}
+ <input id={id} name={id} type="text" value={value} disabled={disabled} aria-describedby={describedBy} aria-invalid={error ? 'true' : undefined}/>
+ {error && <p class="tn-error" id={`${id}-error`}>{error}</p>}
+</div>

@@ -1,0 +1,10 @@
+{
+  "browser_tests_passed": 12,
+  "html_pages": 337,
+  "static_equivalent": true,
+  "triangles": 816,
+  "draw_calls": 10,
+  "reviewed_card_screenshot": true,
+  "full_candidate_rerun": false,
+  "deployed": false
+}

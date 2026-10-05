@@ -1,0 +1,1 @@
+Trabajo en distintos niveles de una solución, desde la experiencia de usuario hasta los servicios y los datos. Mi recorrido incluye sistemas empresariales, sitios, campañas y herramientas propias. Utilizo plataformas como Astro, Flutter y Tauri, junto con lenguajes y frameworks adecuados a cada proyecto.

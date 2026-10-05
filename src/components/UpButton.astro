@@ -1,9 +1,9 @@
 ---
-
+const {label}=Astro.props;
 ---
 <a name="header-top"></a>
 <div class="up-button">
-    <a href={`./#header-top`} class="scroll-to-top">
+    <a href={`./#header-top`} class="scroll-to-top" aria-label={label}>
         <i class="fa fa-arrow-up"></i>
     </a>
 </div>
@@ -50,7 +50,7 @@
 </style>
 <script>
     document.addEventListener('DOMContentLoaded', function () {
-        const upButton = document.querySelector('.up-button');
+        const upButton = document.querySelector<HTMLElement>('.up-button');
         window.addEventListener('scroll', function () {
             if (upButton && window.scrollY > 200) {
                 upButton.style.display = 'block';

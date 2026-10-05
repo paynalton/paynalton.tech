@@ -1,0 +1,13 @@
+---
+import SiteLayout from '../layouts/site/SiteLayout.astro';
+import { loadSite } from '../lib/site/build.mjs';
+import { createTranslator } from '../lib/site/i18n.mjs';
+import { sectionUrl } from '../lib/site/navigation.mjs';
+const repository = await loadSite();
+const settings = repository.getSettings();
+const {t} = createTranslator(settings.baseLocale, repository.getCatalogs(), settings);
+const page = {id:'not-found', locale:settings.baseLocale, url:'/404/', title:t('error.title')};
+---
+<SiteLayout page={page} noindex>
+  <section class="tn-section tn-stack"><p class="tn-eyebrow">404</p><h1>{t('error.title')}</h1><p>{t('error.intro')}</p><div class="tn-actions"><a href={sectionUrl(page.locale,'home')}>{t('nav.home')}</a><a href={sectionUrl(page.locale,'explore')}>{t('nav.explore')}</a></div></section>
+</SiteLayout>

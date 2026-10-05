@@ -1,0 +1,6 @@
+---
+import Icon from './Icon.astro';
+interface Props { title: string; summary: string; label?: string; href?: string; action?: string; variant?: 'book'; }
+const {title,summary,label,href,action,variant}=Astro.props;
+---
+<article class:list={["tn-card", {"tn-card--linked":href && action,"tn-card--book":variant==='book'}]}>{label && <p class="tn-eyebrow tn-card-label">{label}</p>}<h3 class="tn-card-title">{title}</h3><p class="tn-card-summary">{summary}</p><slot/>{href && action && <a class="tn-card-link" href={href}>{action}<Icon name="arrow"/></a>}</article>

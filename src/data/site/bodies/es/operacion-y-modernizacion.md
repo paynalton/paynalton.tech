@@ -1,0 +1,1 @@
+Participo en infraestructura, despliegues y evolución de sistemas existentes. La modernización de Onix reúne dockerización, migración de código, AWS, escalamiento horizontal y CI/CD. Mi trabajo actual también incluye funciones de DevOps y SecOps, y durante el último año he utilizado Azure.

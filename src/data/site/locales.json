@@ -1,0 +1,39 @@
+{
+  "baseLocale": "es",
+  "locales": [
+    {
+      "code": "es",
+      "label": "Español",
+      "tag": "es-MX",
+      "dir": "ltr",
+      "enabled": true
+    },
+    {
+      "code": "en",
+      "label": "English",
+      "tag": "en",
+      "dir": "ltr",
+      "enabled": false
+    },
+    {
+      "code": "nah",
+      "label": "Náhuatl",
+      "tag": "nah",
+      "dir": "ltr",
+      "enabled": false,
+      "formatTag": "es-MX"
+    },
+    {
+      "code": "yua",
+      "label": "Maya",
+      "tag": "yua",
+      "dir": "ltr",
+      "enabled": false,
+      "formatTag": "es-MX"
+    }
+  ],
+  "excludedIds": [
+    "alma",
+    "blanco-negro-gris"
+  ]
+}

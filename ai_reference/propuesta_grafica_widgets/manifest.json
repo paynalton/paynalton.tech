@@ -1,0 +1,282 @@
+[
+  {
+    "id": "W01",
+    "title": "Salto al contenido",
+    "group": "Navegación",
+    "note": "Estado visible al recibir foco. Contorno doble de alto contraste; el enlace lleva al contenido y desplaza el foco.",
+    "state": "Ahora"
+  },
+  {
+    "id": "W02",
+    "title": "Marca y acceso al inicio",
+    "group": "Navegación",
+    "note": "Marca tipográfica con greca abierta. El conjunto funciona como un único enlace a Inicio.",
+    "state": "Ahora"
+  },
+  {
+    "id": "W03",
+    "title": "Navegación principal y móvil",
+    "group": "Navegación",
+    "note": "Subrayado cobre para sección activa. En móvil, menú desplegable; Escape cierra y devuelve el foco.",
+    "state": "Ahora"
+  },
+  {
+    "id": "W04",
+    "title": "Selector: espacio reservado",
+    "group": "Navegación",
+    "note": "Estudio de tamaño y alineación del control. No se incorpora un selector activo en esta etapa.",
+    "state": "Fuera de esta etapa"
+  },
+  {
+    "id": "W05",
+    "title": "Buscador",
+    "group": "Navegación",
+    "note": "Panel global y página de resultados comparten estilo. La muestra filtra tres entradas locales; el motor final se implementará con el sitio.",
+    "state": "Ahora"
+  },
+  {
+    "id": "W06",
+    "title": "Migas de pan",
+    "group": "Navegación",
+    "note": "Jerarquía breve; separadores discretos y destino actual sin enlace. Se adapta por salto de línea.",
+    "state": "Ahora"
+  },
+  {
+    "id": "W07",
+    "title": "Preferencias visuales",
+    "group": "Navegación",
+    "note": "Interruptores con etiqueta y estado visible. En esta propuesta son controles de muestra; la escena de diseño no tiene animación.",
+    "state": "Ahora"
+  },
+  {
+    "id": "W08",
+    "title": "Perfiles sociales",
+    "group": "Contacto",
+    "note": "Enlaces identificados por nombre y propósito; sin feeds ni contadores. Los destinos reales abren sus páginas públicas.",
+    "state": "Ahora"
+  },
+  {
+    "id": "W09",
+    "title": "Presentación profesional",
+    "group": "Portada",
+    "note": "Titular del documento editorial. Jerarquía fuerte, texto breve y dos acciones. Sin contadores ni títulos añadidos.",
+    "state": "Ahora"
+  },
+  {
+    "id": "W10",
+    "title": "Escena del taller",
+    "group": "Portada",
+    "note": "Estudio gráfico construido con CSS y SVG; no es todavía WebGL. Define composición, material y alternativa inmóvil para la implementación.",
+    "state": "Ahora"
+  },
+  {
+    "id": "W11",
+    "title": "Tarjetas de contenido",
+    "group": "Catálogos",
+    "note": "Familia común con variantes profesional y editorial. Orden y selección configurables; la muestra literaria no es una obra del autor.",
+    "state": "Ahora"
+  },
+  {
+    "id": "W12",
+    "title": "Recorridos por interés",
+    "group": "Exploración",
+    "note": "Recorridos editoriales manuales; cada ruta explica qué ofrece. No son recomendaciones personalizadas.",
+    "state": "Posterior"
+  },
+  {
+    "id": "W13",
+    "title": "Invitación y continuación",
+    "group": "Portada",
+    "note": "Una acción principal de cobre y continuación secundaria. Sin promesas de respuesta ni formularios.",
+    "state": "Ahora"
+  },
+  {
+    "id": "W14",
+    "title": "Filtros de contenido",
+    "group": "Catálogos",
+    "note": "Etiquetas siempre visibles sobre controles. Selección y acción de limpiar; en móvil se apilan sin crear paneles anidados.",
+    "state": "Ahora"
+  },
+  {
+    "id": "W15",
+    "title": "Resultados y estados",
+    "group": "Catálogos",
+    "note": "Se muestran dos estados alternativos para revisión; nunca aparecerían juntos en una página real. Carga, error y vacío son distintos.",
+    "state": "Ahora"
+  },
+  {
+    "id": "W16",
+    "title": "Paginación",
+    "group": "Catálogos",
+    "note": "Botones explícitos, sin desplazamiento infinito. Cifras ilustrativas; se añade únicamente cuando el volumen lo justifique.",
+    "state": "Posterior"
+  },
+  {
+    "id": "W17",
+    "title": "Ficha de participación",
+    "group": "Proyectos",
+    "note": "Datos recientes del propietario. La ficha diferencia participación, alcance y estado sin inventar métricas.",
+    "state": "Ahora"
+  },
+  {
+    "id": "W18",
+    "title": "Galería y visor de evidencias",
+    "group": "Proyectos",
+    "note": "Superficie para evidencias con descripción y control de apertura. El visor es una propuesta visual, no un acceso a material privado.",
+    "state": "Posterior"
+  },
+  {
+    "id": "W19",
+    "title": "Visor de arquitectura",
+    "group": "Proyectos",
+    "note": "Nodos sobrios, foco jade y conectores cobre. La descripción textual acompaña la ampliación.",
+    "state": "Posterior"
+  },
+  {
+    "id": "W20",
+    "title": "Capacidades con evidencia",
+    "group": "Trayectoria",
+    "note": "Cada capacidad conduce a una aportación concreta. Sin barras, estrellas ni porcentajes de dominio.",
+    "state": "Ahora"
+  },
+  {
+    "id": "W21",
+    "title": "Cronología profesional",
+    "group": "Trayectoria",
+    "note": "Línea vertical sin alternancia. Etapas enlazables; detalles expandibles sin ocultar puesto y período.",
+    "state": "Ahora"
+  },
+  {
+    "id": "W22",
+    "title": "Acceso al CV",
+    "group": "Trayectoria",
+    "note": "Muestra de composición. El CV se actualizará después de terminar el sitio; estos controles son solo de demostración y no enlazan a un archivo inexistente.",
+    "state": "Después del sitio"
+  },
+  {
+    "id": "W23",
+    "title": "Ficha editorial de obra",
+    "group": "Lectura",
+    "note": "Serifa para la voz editorial, metadatos separados del título. Sin atribuir una obra ficticia a Paynalton.",
+    "state": "Ahora"
+  },
+  {
+    "id": "W24",
+    "title": "Índice del texto",
+    "group": "Lectura",
+    "note": "Índice lateral en escritorio y anterior al texto en móvil. Encabezados de muestra con enlaces locales.",
+    "state": "Ahora"
+  },
+  {
+    "id": "W25",
+    "title": "Preferencias de lectura",
+    "group": "Lectura",
+    "note": "El deslizador modifica el texto de ejemplo. La persistencia y los temas del lector son ampliaciones posteriores.",
+    "state": "Posterior"
+  },
+  {
+    "id": "W26",
+    "title": "Progreso y continuación",
+    "group": "Lectura",
+    "note": "Estado visual ilustrativo, no una lectura registrada. Nunca promete sincronización entre dispositivos.",
+    "state": "Posterior"
+  },
+  {
+    "id": "W27",
+    "title": "Notas y referencias",
+    "group": "Lectura",
+    "note": "Enlaces de ida y vuelta. Las notas están en el documento, disponibles sin panel emergente.",
+    "state": "Ahora"
+  },
+  {
+    "id": "W28",
+    "title": "Serie y capítulos",
+    "group": "Lectura",
+    "note": "Navegación básica necesaria ahora para probar el lector. Los capítulos son ejemplos; las funciones enriquecidas de series pueden añadirse después.",
+    "state": "Ahora"
+  },
+  {
+    "id": "W29",
+    "title": "Cita y formatos",
+    "group": "Lectura",
+    "note": "Estudio del módulo ampliado de citas y formatos. No se simulan descargas disponibles. Las descargas existentes del sitio se conservan.",
+    "state": "Posterior"
+  },
+  {
+    "id": "W30",
+    "title": "Etiquetas temáticas",
+    "group": "Exploración",
+    "note": "Familias identificadas por texto además de color. Las etiquetas no equivalen a acreditaciones profesionales.",
+    "state": "Ahora"
+  },
+  {
+    "id": "W31",
+    "title": "Ficha de término",
+    "group": "Exploración",
+    "note": "Definición breve y contenidos agrupados. Las jerarquías solo aparecen cuando tienen sentido editorial.",
+    "state": "Ahora"
+  },
+  {
+    "id": "W32",
+    "title": "Contenidos relacionados",
+    "group": "Exploración",
+    "note": "Los vínculos explican su motivo. No se muestran relaciones a las obras aplazadas.",
+    "state": "Ahora"
+  },
+  {
+    "id": "W33",
+    "title": "Explorador de conexiones",
+    "group": "Exploración",
+    "note": "Composición del grafo acompañada de lista equivalente. Muestra estática; no presupone arrastrar ni hacer zoom.",
+    "state": "Posterior"
+  },
+  {
+    "id": "W34",
+    "title": "Panel de contacto",
+    "group": "Contacto",
+    "note": "Correo seleccionable, enlace real y copia con confirmación. Sin recepción remota de mensajes.",
+    "state": "Ahora"
+  },
+  {
+    "id": "W35",
+    "title": "Compartir contenido",
+    "group": "Contacto",
+    "note": "Control sencillo y confirmación accesible. La API de compartir del sistema se incorporará cuando esté disponible.",
+    "state": "Ahora"
+  },
+  {
+    "id": "W36",
+    "title": "Repositorios destacados",
+    "group": "Comunidad",
+    "note": "Tarjeta ilustrativa sin métricas inventadas. Solo se incorporan repositorios públicos seleccionados, nunca los privados.",
+    "state": "Posterior"
+  },
+  {
+    "id": "W37",
+    "title": "Publicaciones seleccionadas",
+    "group": "Comunidad",
+    "note": "Ejemplos de formato, no publicaciones atribuidas. Selección local y enlaces; sin feed automático.",
+    "state": "Posterior"
+  },
+  {
+    "id": "W38",
+    "title": "Video bajo demanda",
+    "group": "Lectura",
+    "note": "Propuesta para video servido por el sitio o enlace externo identificado. No carga un reproductor remoto ni introduce servicios excluidos.",
+    "state": "Posterior"
+  },
+  {
+    "id": "W39",
+    "title": "Suscripción RSS",
+    "group": "Comunidad",
+    "note": "Módulo ampliado de acceso al feed existente. Sin newsletter ni recopilación de correos.",
+    "state": "Posterior"
+  },
+  {
+    "id": "W40",
+    "title": "Alternativa al formulario excluido",
+    "group": "Contacto",
+    "note": "W40 permanece excluido. Esta lámina documenta su sustitución por W34; no propone campos ni envío de formularios.",
+    "state": "Excluido"
+  }
+]

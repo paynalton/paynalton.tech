@@ -1,0 +1,27 @@
+npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+npm notice run paynalton.tech@0.0.1 test:e2e
+npm notice run playwright test tests/trajectory-ornament.spec.ts --workers=1
+[WebServer] npm warn Unknown env config "always-auth". This will error in a future major version of npm. See `npm help npmrc` for supported config options.
+[WebServer] npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+[WebServer] npm notice run paynalton.tech@0.0.1 preview
+[WebServer] npm notice run astro preview --host 127.0.0.1 --port 4334 --ignore-lock
+[WebServer] (node:293400) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 8 tests using 1 worker
+
+(node:293857) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 [desktop] › tests/trajectory-ornament.spec.ts:4:1 › vertical ornament follows reading in both directions without covering content (3.8s)
+  ✓  2 [desktop] › tests/trajectory-ornament.spec.ts:27:1 › narrow reading and disabled effects keep all stages usable (247ms)
+  ✓  3 [desktop] › tests/trajectory-ornament.spec.ts:38:1 › the complete ornament and chronology remain available without JavaScript (172ms)
+  ✓  4 [desktop] › tests/trajectory-ornament.spec.ts:46:1 › vertical gold particles are bounded and follow visibility and preferences (1.3s)
+(node:294311) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  -  5 [mobile] › tests/trajectory-ornament.spec.ts:4:1 › vertical ornament follows reading in both directions without covering content
+  ✓  6 [mobile] › tests/trajectory-ornament.spec.ts:27:1 › narrow reading and disabled effects keep all stages usable (217ms)
+  ✓  7 [mobile] › tests/trajectory-ornament.spec.ts:38:1 › the complete ornament and chronology remain available without JavaScript (170ms)
+  ✓  8 [mobile] › tests/trajectory-ornament.spec.ts:46:1 › vertical gold particles are bounded and follow visibility and preferences (869ms)
+
+  1 skipped
+  7 passed (8.5s)

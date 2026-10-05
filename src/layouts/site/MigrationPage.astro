@@ -1,0 +1,9 @@
+---
+import {migrations,origin} from '../../lib/site/publication.mjs';
+import {loadSite} from '../../lib/site/build.mjs';
+import {createTranslator} from '../../lib/site/i18n.mjs';
+const {from}=Astro.props,rule=migrations.find(r=>r.from===from);
+if(!rule)throw new Error('Unknown migration source');
+const repo=await loadSite(),{t}=createTranslator('es',repo.getCatalogs(),repo.getSettings());
+---
+<!doctype html><html lang="es"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="robots" content="noindex,follow"/><meta http-equiv="refresh" content={`0;url=${rule.to}`}/><link rel="canonical" href={new URL(rule.to.split('#')[0],origin)}/><title>{t('migration.title')}</title><link rel="icon" href="/favicon.svg"/></head><body><main><h1>{t('migration.title')}</h1><a href={rule.to}>{t('migration.follow')}</a></main></body></html>

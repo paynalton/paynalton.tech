@@ -1,0 +1,500 @@
+{
+  "source": "https://cuentosdesangreymuerte.blogspot.com/",
+  "retrieved_at": "2026-09-30T00:31:36Z",
+  "expected": 6,
+  "pages": [
+    {
+      "url": "https://cuentosdesangreymuerte.blogspot.com/feeds/posts/default?alt=json&max-results=100&start-index=1&orderby=published",
+      "data": {
+        "version": "1.0",
+        "encoding": "UTF-8",
+        "feed": {
+          "xmlns": "http://www.w3.org/2005/Atom",
+          "xmlns$openSearch": "http://a9.com/-/spec/opensearchrss/1.0/",
+          "xmlns$blogger": "http://schemas.google.com/blogger/2008",
+          "xmlns$georss": "http://www.georss.org/georss",
+          "xmlns$gd": "http://schemas.google.com/g/2005",
+          "xmlns$thr": "http://purl.org/syndication/thread/1.0",
+          "id": {
+            "$t": "tag:blogger.com,1999:blog-8262144590940094649"
+          },
+          "updated": {
+            "$t": "2024-08-31T08:49:35.239-07:00"
+          },
+          "category": [
+            {
+              "term": "Cuentos Cortos"
+            }
+          ],
+          "title": {
+            "type": "text",
+            "$t": "Cuentos de Sangre y Muerte"
+          },
+          "subtitle": {
+            "type": "html",
+            "$t": "Este sitio está dedicado a publicar cuentos sangrientos. Todos los cuentos aquí publicados son creación mía y están protegidos por la licencia Creative Commons 2.6 o posterior.\n\nSe permite la distribución y modificación del material citando al autor original. No se permite su uso con fines de lucro y hacerlo puede acarrear consecuencias legales."
+          },
+          "link": [
+            {
+              "rel": "http://schemas.google.com/g/2005#feed",
+              "type": "application/atom+xml",
+              "href": "https://cuentosdesangreymuerte.blogspot.com/feeds/posts/default"
+            },
+            {
+              "rel": "self",
+              "type": "application/atom+xml",
+              "href": "https://www.blogger.com/feeds/8262144590940094649/posts/default?alt=json&max-results=100&orderby=published"
+            },
+            {
+              "rel": "alternate",
+              "type": "text/html",
+              "href": "https://cuentosdesangreymuerte.blogspot.com/"
+            },
+            {
+              "rel": "hub",
+              "href": "http://pubsubhubbub.appspot.com/"
+            }
+          ],
+          "author": [
+            {
+              "name": {
+                "$t": "Paynalton"
+              },
+              "uri": {
+                "$t": "http://www.blogger.com/profile/12465798166045858389"
+              },
+              "email": {
+                "$t": "noreply@blogger.com"
+              }
+            }
+          ],
+          "generator": {
+            "version": "7.00",
+            "uri": "http://www.blogger.com",
+            "$t": "Blogger"
+          },
+          "openSearch$totalResults": {
+            "$t": "6"
+          },
+          "openSearch$startIndex": {
+            "$t": "1"
+          },
+          "openSearch$itemsPerPage": {
+            "$t": "100"
+          },
+          "entry": [
+            {
+              "id": {
+                "$t": "tag:blogger.com,1999:blog-8262144590940094649.post-1034978433945660574"
+              },
+              "published": {
+                "$t": "2010-08-14T22:07:00.000-07:00"
+              },
+              "updated": {
+                "$t": "2010-08-14T22:07:59.257-07:00"
+              },
+              "category": [
+                {
+                  "scheme": "http://www.blogger.com/atom/ns#",
+                  "term": "Cuentos Cortos"
+                }
+              ],
+              "title": {
+                "type": "text",
+                "$t": "La Niebla de San Jacinto"
+              },
+              "content": {
+                "type": "html",
+                "$t": "<div class=\"separator\" style=\"clear: both; text-align: center;\"></div><span class=\"Apple-style-span\" style=\"border-collapse: collapse; font-family: arial, sans-serif; font-size: 13px;\">¡Alto!, ¡No avances mas!.<br/>\n<br/>\n¿Acaso no sientes la brisa cálida que en las noches de San Jacinto se extiende desde la cañada, mas allá de los ocotes en donde los revolucionarios  colgaran a los dueños de la hacienda que se negaron a pagar, hasta la barda de la iglesia abandonada en donde un incendio arrancó la vida a quinientos fieles que se negaron a abandonar la misa, esperando a que sus fervorosos rezos extinguieran las llamas?<br/>\n<br/>\n¡Huye!, ¡Huye cuando la bruma se posa sobre la hierba cual manto de nieve que esconde en su seno a los retoños del mal que germinan y maduran en una sola noche!<br/>\n<br/>\nHoy es la noche de San Jacinto, se puede ver ya a la niebla nacer de las gotas de rocío que el viento ha depositado sobre la tierra. Guarda silencio y escucharas el siseo en el cual las diminutas perlas se extinguen para convertirse en una nube blanca que se hace cada vez mas grande, posandose en la tierra , adelgazándose para extenderse tanto como sea posible. Guarda silencio y escucharas el grito desesperado de sus víctimas que corren intentando escapar: ratones, insectos, culebras... la niebla arrasa con todo aquello que este vivo, lo devora, lo hace suyo, satisface su sed de almas.<br/>\n<br/>\nPero fijare bien, solo en aquellos puntos en donde crece la flor de San Jacinto la niebla se mantiene apartada, formando esos extraños huecos de color amarillo, refugios para quienes deseen escapar del terror de su llegada.<br/>\n<br/>\nHace mucho tiempo, cuando yo era niño, un joven vino y se quedo en la cañada con sus amigos justo en la noche de San Jacinto. Todos, excepto él, desaparecieron. Recuerdo que mi padre lo encontró justo entre esos árboles y lo llevó a casa, su mirada era de terror y entre las manos sostenía un frasco de cristal en donde había capturado un poco de niebla. Recuerdo que pude ver el frasco antes de que mi madre me ordenara apartarme de él. La niebla se movía dentro del frasco formando remolinos, se concentraba en un rincón y luego golpeaba la tapa con fiereza, la niebla quería escapar.</span><br/>\n<span class=\"Apple-style-span\" style=\"border-collapse: collapse; font-family: arial, sans-serif; font-size: 13px;\"><br/>\n</span><br/>\n<span class=\"Apple-style-span\" style=\"border-collapse: collapse; font-family: arial, sans-serif; font-size: 13px;\">Vinieron de la capital para llevárselo y no se supo nada de él en muchos años, aunque nadie esperaba verlo de nuevo, llegó con muchos de sus amigos, dicen que también su novia, y se fue solo con un frasco lleno de esa niebla maldita, ni siquiera pudo llevarse los cadáveres.</span><br/>\n<span class=\"Apple-style-span\" style=\"font-family: arial, sans-serif; font-size: small;\"><span class=\"Apple-style-span\" style=\"border-collapse: collapse; font-size: 13px;\"><br/>\n</span></span><br/>\n<span class=\"Apple-style-span\" style=\"font-family: arial, sans-serif; font-size: small;\"><span class=\"Apple-style-span\" style=\"border-collapse: collapse; font-size: 13px;\">Cuando crecí me fui al otro lado de la frontera, a trabajar. Estuve allá muchos años hasta que regresé para casarme con tu abuela, cuando volví todo eso estaba lleno de flores de San Jacinto. Me contaron que aquel chico volvió dos años después de que yo me fuera con un camión lleno de esas flores y que las plantó el solo en toda la cañada. Dicen que se quedo a vivir un tiempo en el pueblo, hasta que un día desapareció.</span></span><br/>\n<span class=\"Apple-style-span\" style=\"font-family: arial, sans-serif; font-size: small;\"><span class=\"Apple-style-span\" style=\"border-collapse: collapse; font-size: 13px;\"><br/>\n</span></span><br/>\n<span class=\"Apple-style-span\" style=\"font-family: arial, sans-serif; font-size: small;\"><span class=\"Apple-style-span\" style=\"border-collapse: collapse; font-size: 13px;\">Por esos años no se volvió a ver la niebla de San Jacinto, pero ahora ya quedan pocas flores y nadie viene a plantar nuevas, creo que a nadie le interesan las viejas historias ni mucho menos plantar flores, por eso la niebla está volviendo.</span></span><br/>\n<span class=\"Apple-style-span\" style=\"font-family: arial, sans-serif; font-size: small;\"><span class=\"Apple-style-span\" style=\"border-collapse: collapse; font-size: 13px;\"><br/>\n</span></span><br/>\n<span class=\"Apple-style-span\" style=\"font-family: arial, sans-serif; font-size: small;\"><span class=\"Apple-style-span\" style=\"border-collapse: collapse; font-size: 13px;\">Si, ya sé que hoy es día de San Pablo, le llamamos niebla de San Jacinto por las flores, que así se llaman. Nunca sabemos cuando aparecerá la niebla, a veces apare varias noches seguidas, a veces tarda años, pero cuando lo hace nadie debe acercarse.</span></span><br/>\n<span class=\"Apple-style-span\" style=\"font-family: arial, sans-serif; font-size: small;\"><span class=\"Apple-style-span\" style=\"border-collapse: collapse; font-size: 13px;\"><br/>\n</span></span><br/>\n<span class=\"Apple-style-span\" style=\"font-family: arial, sans-serif; font-size: small;\"><span class=\"Apple-style-span\" style=\"border-collapse: collapse; font-size: 13px;\">¡Mira allí!, dos personas se acercan a la niebla, por sus ropas parecen de la capital, son un hombre y una mujer. ¡No!, quédate aquí, no podrás alcanzarlos antes de que la niebla los cubra, y puede que también te atrape a ti.</span></span><br/>\n<span class=\"Apple-style-span\" style=\"font-family: arial, sans-serif; font-size: small;\"><span class=\"Apple-style-span\" style=\"border-collapse: collapse; font-size: 13px;\"><br/>\n</span></span><br/>\n<span class=\"Apple-style-span\" style=\"font-family: arial, sans-serif; font-size: small;\"><span class=\"Apple-style-span\" style=\"border-collapse: collapse; font-size: 13px;\">Allí va otro corriendo, es un niño un poco más grande que tu, creo que lo he visto en la iglesia. Va corriendo hacia ellos y gritando para que se alejen, pero ellos no lo escuchan.</span></span><br/>\n<span class=\"Apple-style-span\" style=\"font-family: arial, sans-serif; font-size: small;\"><span class=\"Apple-style-span\" style=\"border-collapse: collapse; font-size: 13px;\"><br/>\n</span></span><br/>\n<span class=\"Apple-style-span\" style=\"font-family: arial, sans-serif; font-size: small;\"><span class=\"Apple-style-span\" style=\"border-collapse: collapse; font-size: 13px;\">Ese niño se ha acercado demasiado y la niebla se ha movido hacia él. Mira como lo rodea. El ya se dio cuenta y está trepando ese árbol, pero no le servirá de nada, nadie escapa a la niebla. Mira como la niebla crece y sube por el tronco. Por más que el niño intente subir por entre las ramas no puede escapar. Observa como la niebla asciende hasta cubrir por completo el árbol. Por eso te pedí que no fueras.</span></span><br/>\n<span class=\"Apple-style-span\" style=\"font-family: arial, sans-serif; font-size: small;\"><span class=\"Apple-style-span\" style=\"border-collapse: collapse; font-size: 13px;\"><br/>\n</span></span><br/>\n<span class=\"Apple-style-span\" style=\"font-family: arial, sans-serif; font-size: small;\"><span class=\"Apple-style-span\" style=\"border-collapse: collapse; font-size: 13px;\">Ahora va la pareja, mientras avanzan la niebla se abre, los está dejando llegar hasta el centro de la nube. Y mira, la niebla ha descendido del árbol, sin dejar rastro alguno del niño, mañana alguien tendrá que avisar a su madre que no volverá.</span></span><br/>\n<span class=\"Apple-style-span\" style=\"font-family: arial, sans-serif; font-size: small;\"><span class=\"Apple-style-span\" style=\"border-collapse: collapse; font-size: 13px;\"><br/>\n</span></span><br/>\n<span class=\"Apple-style-span\" style=\"font-family: arial, sans-serif; font-size: small;\"><span class=\"Apple-style-span\" style=\"border-collapse: collapse; font-size: 13px;\">La pareja alcanzó un grupo de flores y se han detenido, si se quedaran allí toda la noche podrían salvarse, pero no lo harán. Él se arrodilla y corta una flor para colocarla  en el cabello de ella,se besan y siguen caminando.</span></span><br/>\n<span class=\"Apple-style-span\" style=\"border-collapse: collapse; font-family: arial, sans-serif; font-size: 13px;\"><br/>\n</span><br/>\n<span class=\"Apple-style-span\" style=\"border-collapse: collapse; font-family: arial, sans-serif; font-size: 13px;\">La niebla ya está cerrando el círculo a su alrededor, ellos lo han notado pero siguen caminando, no saben lo que les sucederá.</span><br/>\n<span class=\"Apple-style-span\" style=\"border-collapse: collapse; font-family: arial, sans-serif; font-size: 13px;\"><br/>\n</span><br/>\n<span class=\"Apple-style-span\" style=\"border-collapse: collapse; font-family: arial, sans-serif; font-size: 13px;\">Mira como se agita la niebla a su alrededor, la niebla tiene inteligencia, sabe lo que hace y le gusta jugar con sus víctimas,</span><br/>\n<span class=\"Apple-style-span\" style=\"font-family: arial, sans-serif; font-size: small;\"><span class=\"Apple-style-span\" style=\"border-collapse: collapse; font-size: 13px;\"><br/>\n</span></span><br/>\n<span class=\"Apple-style-span\" style=\"font-family: arial, sans-serif; font-size: small;\"><span class=\"Apple-style-span\" style=\"border-collapse: collapse; font-size: 13px;\">Ella se tropieza y cae de frente sobre la bruma blanca, el chico se ríe, no se ha dado cuenta de que ella no se tropezó, sino que fue arrastrada por la niebla. Ha dejado de reírse, ya se dio cuenta de que ella no se levanta. Mira como abate con las manos a la nube, parece que el cuerpo de ella ya ha desaparecido. El grita algo mientras busca, seguro que está gritando el nombre de la chica.</span></span><br/>\n<span class=\"Apple-style-span\" style=\"font-family: arial, sans-serif; font-size: small;\"><span class=\"Apple-style-span\" style=\"border-collapse: collapse; font-size: 13px;\"><br/>\n</span></span><br/>\n<span class=\"Apple-style-span\" style=\"font-family: arial, sans-serif; font-size: small;\"><span class=\"Apple-style-span\" style=\"border-collapse: collapse; font-size: 13px;\">Aprende bien esto, la niebla es un demonio que disfruta con el sufrimiento de las personas, observa, le ha arrancado los brazos al chico. La niebla bien pudo haberlo matado rápido, sin dolor, pero no lo hará.</span></span><br/>\n<span class=\"Apple-style-span\" style=\"font-family: arial, sans-serif; font-size: small;\"><span class=\"Apple-style-span\" style=\"border-collapse: collapse; font-size: 13px;\"><br/>\n</span></span><br/>\n<span class=\"Apple-style-span\" style=\"font-family: arial, sans-serif; font-size: small;\"><span class=\"Apple-style-span\" style=\"border-collapse: collapse; font-size: 13px;\">El chico corre con sus brazos sangrantes, gritando desesperadamente... se ha tropezado y ha caído, mira la niebla como se agita, escucha sus gritos, lo está matando poco a poco, pedazo por pedazo, a esta distancia se pueden escuchar sus gritos.</span></span><br/>\n<span class=\"Apple-style-span\" style=\"font-family: arial, sans-serif; font-size: small;\"><span class=\"Apple-style-span\" style=\"border-collapse: collapse; font-size: 13px;\"><br/>\n</span></span><br/>\n<span class=\"Apple-style-span\" style=\"font-family: arial, sans-serif; font-size: small;\"><span class=\"Apple-style-span\" style=\"border-collapse: collapse; font-size: 13px;\">Las campanas de la iglesia repican, ya han informado al sacerdote, apréndete bien esa tonada, significa que hoy es Noche de San Jacinto y que nadie debe acercarse a la cañada.</span></span><br/>\n<span class=\"Apple-style-span\" style=\"font-family: arial, sans-serif; font-size: small;\"><span class=\"Apple-style-span\" style=\"border-collapse: collapse; font-size: 13px;\"><br/>\n</span></span><br/>\n<span class=\"Apple-style-span\" style=\"font-family: arial, sans-serif; font-size: small;\"><span class=\"Apple-style-span\" style=\"border-collapse: collapse; font-size: 13px;\">Los gritos del hombre han cesado, debes ir a casa ahora, cuando tus padres escuchen las campanas saldrán a buscarte. No, yo no puedo ir contigo, solo pude venir a evitar que siguieras caminando hacia la cañada, ahora debo regresar.</span></span><br/>\n<span class=\"Apple-style-span\" style=\"font-family: arial, sans-serif; font-size: small;\"><span class=\"Apple-style-span\" style=\"border-collapse: collapse; font-size: 13px;\"><br/>\n</span></span><br/>\n<span class=\"Apple-style-span\" style=\"font-family: arial, sans-serif; font-size: small;\"><span class=\"Apple-style-span\" style=\"border-collapse: collapse; font-size: 13px;\">Dale un gran beso a tu mamá de mi parte, pero no le digas que hablaste conmigo, se asustarán si se enteran de que hablaste con un muerto.</span></span>"
+              },
+              "link": [
+                {
+                  "rel": "replies",
+                  "type": "application/atom+xml",
+                  "href": "https://cuentosdesangreymuerte.blogspot.com/feeds/1034978433945660574/comments/default",
+                  "title": "Enviar comentarios"
+                },
+                {
+                  "rel": "replies",
+                  "type": "text/html",
+                  "href": "https://cuentosdesangreymuerte.blogspot.com/2010/08/la-niebla-de-san-jacinto.html#comment-form",
+                  "title": "2 comentarios"
+                },
+                {
+                  "rel": "edit",
+                  "type": "application/atom+xml",
+                  "href": "https://www.blogger.com/feeds/8262144590940094649/posts/default/1034978433945660574"
+                },
+                {
+                  "rel": "self",
+                  "type": "application/atom+xml",
+                  "href": "https://www.blogger.com/feeds/8262144590940094649/posts/default/1034978433945660574"
+                },
+                {
+                  "rel": "alternate",
+                  "type": "text/html",
+                  "href": "https://cuentosdesangreymuerte.blogspot.com/2010/08/la-niebla-de-san-jacinto.html",
+                  "title": "La Niebla de San Jacinto"
+                }
+              ],
+              "author": [
+                {
+                  "name": {
+                    "$t": "Paynalton"
+                  },
+                  "uri": {
+                    "$t": "http://www.blogger.com/profile/12465798166045858389"
+                  },
+                  "email": {
+                    "$t": "noreply@blogger.com"
+                  }
+                }
+              ],
+              "thr$total": {
+                "$t": "2"
+              }
+            },
+            {
+              "id": {
+                "$t": "tag:blogger.com,1999:blog-8262144590940094649.post-3322899182028763507"
+              },
+              "published": {
+                "$t": "2010-03-26T18:12:00.000-07:00"
+              },
+              "updated": {
+                "$t": "2010-03-26T18:13:01.857-07:00"
+              },
+              "category": [
+                {
+                  "scheme": "http://www.blogger.com/atom/ns#",
+                  "term": "Cuentos Cortos"
+                }
+              ],
+              "title": {
+                "type": "text",
+                "$t": "Mamá"
+              },
+              "content": {
+                "type": "html",
+                "$t": "Los oídos no paran de zumbar y el dolor de cabeza es cada vez mayor. A lo lejos se escucha la voz de Andrea que grita tu nombre mientras llora... el mundo se ve tan lejano e inalcanzable que parece irreal que tu formaras parte de él.<br/>\n<br/>\nFrente a tus ojos ves el agua del pestilente charco en el que has caído. Puedes ver el agua de oscuro color ondear cada vez que respiras y sientes como entra y sale de tu boca mientras aun intentas mover la mandíbula que comienza a inflamarse. Frente a ti una roca del tamaño de tu cabeza te impide ver mas alla y te preguntas que pasara ahora.<br/>\n<a name=\"more\"></a><br/>\nSamuel ya no te golpea, ha de creer que ha sido suficiente y que puede dejarte en paz. Sientes como todo tu rostro está inflamado, Samuel es mucho mas grande que tú, ha de tener unos catorce años o más. Simplemente no tenías ninguna oportunidad, además no estaba solo, Kike y Raúl estaban con él... ¿En que estabas pensando?<br/>\n<br/>\nNo puedes evitarlo, quisieras llorar, quisieras llorar y que mamá estuviera aquí para consolarte.<br/>\n<br/>\nNo recuerdas casi nada sobre cuando eras pequeño, pero seguramente tu primera palabra fue mamá. Tu la quieres y seguramente que ella también te quiere a ti.<br/>\n<br/>\nRecuerdas las noches con frío cuando ella te envolvía en la manta que mas te gustaba, esa de suave pelaje. Entonces mamá te abrazaba muy fuerte y tarareaba una canción hasta que te quedabas dormido. A veces ella era la que se dormía y tu tratabas de no hacer ruido para no despertarla, además no querías que dejara de abrazarte.<br/>\n<br/>\nPapá llegaba por la noche. Él era distinto, nunca te gusto como te miraba ni el que nunca te sonriera como lo hacia mamá. Pero ella se ponía feliz cuando él llegaba, se levantaba de inmediato y corría a besarlo. A ti no te gustaba que te dejara, pero ella era feliz y eso te gustaba.<br/>\n<br/>\nUna noche papá ya no volvio y mamá dejo de arrullarte. Los primeros dias ella solo lloraba acurrucada en la cama.<br/>\n<br/>\nNo querías verla sufriendoo y tus intentos por consolarla no funcionaron. Así que simplemente abrias la puerta y salías a jugar a la calle hasta que ella te llamaba para que volvieras.<br/>\n<br/>\nA veces mamá se iba de la casa todo el día y tú la esperabas jugando frente a la puerta de la casa. Ella llegaba muy noche pero no importaba, tu eras feliz de verla regresar aunque ya no te abrazara. Simplemente era mamá y tú la amabas.<br/>\n<br/>\nLos días en que tardaba demasiado en llegar, la señora de enfrente te llamaba para darte algo de comer. No te gustaba ir con esa señora, su casa era limpia y ordenada, pero olía extraño, como si no existiera el amor detras de esas paredes. <br/>\n<br/>\n-¿Te gustaría quedarte a vivir conmigo?- decía a veces la señora.<br/>\n<br/>\nNo te gustaba eso, tu querías amama y querías estar con ella. Llegaste a odiar a la señora por preguntarte eso constantemente, pero tenias hambre y te mordías los labios mientras comias lo que ella te daba.<br/>\n<br/>\nA veces mamá volvia trayendo una botella con algo que olia muy feo y sabia peor. Entonces mamá se sentaba en la mesa y bebia de ella hasta quedarse dormida. Esos días tu la cubrías con tu manta favorita y la abrazabas. Mamá era hermosa cuando dormía. A veces le dabas un beso en la mejilla y te quedabas a dormir junto a ella.<br/>\n<br/>\nJugando en la calle conociste a Samuel. Él siempre llegaba en las tardes despues de vender todos sus dulces. Se quedaba a jugar un rato contigo antes de irse a su casa. A veces se ponía a llorar cuando no había vendido lo suficiente y sabía que su papa le pegaría. A veces eras tú quien lloraba contandole como mamá a veces no se daba cuenta de que tu existías.<br/>\n<br/>\n-Al menos no te pega- decía él y te regalaba un dulce, aunque sabía que después tendría que recibir un azote por ello.<br/>\n<br/>\nUna tarde la señora de enfrente y mamá discutieron cuando mamá llegó y tú estabas comiendo en su casa.<br/>\n<br/>\nEmpezaron hablándose mal y comenzaron a gritar, gritaban cosas sobre ti, algo como que estabas en edad de ir a la escuela, que mamá estaba tomando demasiado y algo sobre unos señores del gobierno que vendrían a llevarte lejos de mamá.<br/>\n<br/>\nEsa fue la última vez que comiste en casa de la señora. Ese día mamá te tomo por la muñeca tan fuerte que sentiste mucho dolor y te lllevo dentro de la casa. Cerrando la puerta con fuerza te soltó y se tiró en la cama a llorar.<br/>\n<br/>\nCon lágrimas en los ojos te acercaste a ella y tocaste su hombro. Entonces ella te miró y, por primera vez en mucho tiempo, te abrazó. Ambos lloraban tendidos en la cama y ella no paraba de repetir que la perdonaras.<br/>\n<br/>\nNo entendiste nada solo lloraste mientras la abrazabas con fuerza, deseando que este momento no se terminara jamás. Ambos se quedaron dormidos.<br/>\n<br/>\nA partir de ese momento todo cambio. Comenzaste a ir a la escuela donde la maestra y los otros niños te trataban muy amablemente. Mamá se arreglaba cada mañana, realmente se veía hermosa, y se iba a trabajar. Por la tarde ella siempre te esperaba como hacía tiempo esperaba a papá, ella misma preparaba la comida para los dos todos los días. mamá volvía al trabajo y tú la esperabas con una sonrisa en el rostro. Fueron días verdaderamente felices.<br/>\n<br/>\nUn día mamá llego con la foto de un señor y la puso aun lado del espejo. A veces ella llegaba un poco mas tarde que de costumbre, pero volvía feliz. En ocasiones ella te arropaba pero no se vestía para dormir, sino que se peinaba y arreglaba aun mas que cuando iba a trabajar. Tu fingías dormir hasta que un coche se detenia afuera de la casa y mamá salia de la casa sonriente. Se escuchaba su voz saludando a alguien, la puerta se cerraba y el auto se marchaba.<br/>\n<br/>\nSiempre esperaste despierto hasta que el auto volvía y mamá regresaba a casa. Ella entraba a casa y tú cerrabas los ojos de nuevo. Entonces ella se quitaba los zapatos, te daba un beso en la frente y se acostaba a tu lado. Solo entonces podías dormir.<br/>\n<br/>\nPero esa noche ella no volvió feliz como lo hacia siempre. Aquella vez ella llegó llorando y lloró toda la noche. Tú te quedaste en cama escuchandola su lamento mientras constantemente preguntaba \"¿Porqué?... ¿Porqué me hizo esto?\".<br/>\n<br/>\nA la mañana siguiente la foto del espejo había desaparecido y los días siguientes mamá estaba siempre triste. Ella volvía nuevamente con botellas, a veces traía algunas que no bebía, sino que empapaba con ellas un trapo y se pasaba la tarde oliéndolo. Eso la tranquilizaba y hacia que dejara de llorar.<br/>\n<br/>\nA veces no se iba a trabajar, otros días volvía para comer y se quedaba en casa oliendo aquel trapo, hasta que un día llego furiosa del trabajo y no volvió a ir. La casa se impregnaba con el olor de ese líquido transparente.<br/>\n<br/>\nMamá ya casi no salía a la calle. A veces ella te mandaba con la señora de enfrente a pedirle dinero prestado, hasta que un día la señora ya no quizo pretarte más. Entonces tenías que ir mas lejos, a pedirle a otras personas que conocian a mamá,  y una a una se iban negando. Era obvio que mamá necesitaba dinero.<br/>\n<br/>\nFue Samuel quien te propuso que se fueran juntos a trabajar. Apartaste algo de dinero y compraste tu primera caja de dulces. Samuel te enseño a vender, a poner cara de lástima para que las personas compraran más.<br/>\n<br/>\nTodos los días te ibas a trabajar. Con el dinero comprabas un poco de comida para mamá y para ti, el resto se lo dejabas a ella en la mesa.<br/>\n<br/>\nMamá no pregunto de quien era ese dinero, simplemente lo tomó y salió a comprar una botellla. Mamá estaba tranquila y tu seguiste trabajando.<br/>\n<br/>\nDejaste de ir a la escuela. Ese lugar se había convertido en una pesadilla. El nuevo maestro te regañaba por no peinarte y cortarte las uñas. Los niños te hacian burla porque el uniforme te quedaba apretado, estaba sucio y algo roto. Incluso el maestro te decia constantemente que era desagradable verte y estar cerca de ti.<br/>\n<br/>\nEl maestro mando a llamar a tu mamá pero tu nunca entregaste el recado. Mamá tenia ya demasiados problemas y se enojaría si tenia que escuchar tambien los gritos del maestro.<br/>\n<br/>\nMamá se acostumbro a ver el dinero que le ponías en la mesa. Nunca te agradeció, pero no era necesario, sabías que ella lo necesitaba para comprar sus botellas y a veces tambien alcanzaba para comprar un polvo blanco que a ella le gustaba mucho ponerse en la nariz.<br/>\n<br/>\nTu simplemente trabajabas para verla feliz y ahorrabas cada centavo para dárselo a ella.<br/>\n<br/>\nPero las cosas empezaron a ir mal de nuevo. La gente hablaba de una crisis y era mas difícil vender o pedir dinero. Mamá tampoco tenia suerte para conseguir dinero y eso la hacia enfadar.<br/>\n<br/>\n Un dia llegaste solo con dos manzanas, había sido un mal día, y las pusiste sobre la mesa. Mamá había tenido un mal dia también y al ver que no traias dinero se enfureció, pues ella hubiera preferido el dinero a la comida. Arrojó las dos manzanas y rompió el espejo para después sentarse a llorar en la cama.<br/>\n<br/>\nTu te acercaste con la intención de abrazarla pero cuando ella te sintió cerca te aventó y empezo a golpearte una y otra vez. Era la primera vez que mamá te pegaba.<br/>\n<br/>\nSus golpes te dolian maá porque no sabías la razon por la que ella estaba tan enojada contigo. Empezaste a llorar y ellla te pegó más para que te callaras. Entonces no pudiste aguantar y empezaste a decirle cosas horribles, a preguntarle ¿Porqué no te queria?... Seguias llorando y le dijiste que la odiabas aunque no era cierto, la amabas mas que a nada en el mundo.<br/>\n<br/>\nMamá se alejó de ti y se sentó en un rincón con la cabeza metida entre las piernas, llorando.<br/>\n<br/>\nTe levantaste y saliste de la casa. Estabas arrepentido de haberle dicho esas cosas a mamá y no querías regresar, la culpa era demasiada como para volver a verla a la cara.<br/>\n<br/>\nHacia unos meses que Samuel se había ido de su casa y ahora vivia ccon otros niños que también se habían marchado de sus hogares.<br/>\n<br/>\nCuando llegaste a las chozas de cartón que servían de refugio Samuel te invitó a pasar. La noche llegó y no te marchaste. Nadie te hizo preguntas, simplemente te recibieron como uno de los suyos.<br/>\n<br/>\nLa rutina era la misma día tras día: Salir por la mañana a trabajar, buscar algo de comer y pasar el resto de la tarde jugando con los otros. Algunos vendían dulces como Samuel y tú, otros limpiaban cristales o simplemente pedían dinero a la gente que pasaba. A veces unos señores llegaban en camionetas y algunos niños y niñas se iban con ellos todo el día, después regresaban con mucho dinero. Según te dijeron esos hombres los llevaban a lugares escondidos y les daban dinero a cambio de que se quitaran la ropa y se dejaran acariciar por ellos.<br/>\n<br/>\nUn día, igual que como llegaste tú, llegó Andrea. Ella era apenas un poco menor que tú y nadie le hizo preguntas tampoco, aunque tiempo después ella te confesó que se fue de su casa porque su papá la obligaba a hacer cosas horribles, como las que les hacían los señores de las camionetas, y que la había amenazado de matar a su mamá si le decía a alguien. Por eso ella te rogó que guardaras el secreto.<br/>\n<br/>\nEn ocasiones Samuel y los niños más grandes traían consigo botellas con el líquido blanco que tanto le gustaba a mamá. Igual que ella mojaban trapos y pasaban la tarde oliendolos. Decían que eso les quitaba el hambre y el frío. A tí nunca te gustó eso, te recordaba a mamá y te hacía sentirte triste preguntándote como estaría ella.<br/>\n<br/>\nFue en una de esas tardes que ellos trajeron eso, algo del polvo blanco que le gustaba a mamá y otras cosas que ellos no paraban de mirar a Andrea. Samuel le decía que tomara de la botella pero ella no quería. Luego él y los otros dos quisieron convencerla para acompañarlos al lote baldío \"a jugar\", pero ella se negó.<br/>\n<br/>\nSamuel se enfureció con ella y la arrastró fuera de la choza hacia el baldío, ella gritaba que no quería ir, que la soltara. Desde lejos se oían sus gritos.<br/>\n<br/>\nEntonces tú tomaste la decisión de ir. Samuel tenía a Andrea sujeta por el cabello e intentaba quitarle la blusa. Tú lo empujaste y el se giró molesto contigo. Soltó a Andrea y empezó a golpearte. No pudiste defenderte, te golpeó hasta que caiste al suelo y luego te siguió pateando hasta que se cansó de hacerlo. Andrea le gritaba que me dejara en paz y los otros dos solo se reían.<br/>\n<br/>\nAsí fue como llegaste al lugar donde te encuentras ahora. Andrea sigue gritando que la suelten y Samuel te ha escupido mientras los otros dos siguen riéndose.<br/>\n<br/>\nCon esfuerzo te pones de pie sintiendo un hilo de sangre que te resbala desde la nariz. Samuel se acerca diciéndote que no te vuelvas a meter, que te largues. En dos pasos estás frente a él y puedes ver su sonrisa burlona.<br/>\n<br/>\nAndrea grita algo que no entiendes y Samuel se gira para verla. Por eso él no se da cuenta de cuando lo golpeas con la roca que traías en la mano, cayendo al suelo con un aro rojo en la cabeza.<br/>\n<br/>\nTe abalanzas sobre él y sigues golpeando su cabeza con la roca. Escuchas el crujir de los huesos, ves la sangre brotar y sientes como su cuerpo se agita sin control debajo de tí. Estas llorando y gritando, pero no dejas de golpear. Ya no es el rostro de Samuel el que golpeas una y otra vez, es el rostro de papá que nunc ate sonrió, nunca te dijo que te quería; es el rostro de la senyora que no para de repetirte que abandones a mamá y te vayas con ella, es el rostro del maestro diciéndote que apestas como si no te hubieses bañado en días, es el rostro de los niños de la escuela que no dejan de reirse de tí.<br/>\n<br/>\nCuando tomas esa roca más grande la cual necesitas dos manos para levantar ves tu propio rostro diciéndole a mamá que la odiabas. Tres veces dejas caer la pesada piedra sobre la cabeza de Samuel que queda hecha pedazos. Su cuerpo deja de moverse, tus manos están empapadas en sangre y tu rostro está bañado en lágrimas.<br/>\n<br/>\nTe levantas y miras a tu alrededor, el sol se ha marchado y las nubes cubren el cielo. Kike y Raul se han ido, al igual que Andrea. Dos policías se acercan corriendo. Uno de ellos te toma por el cuello y te lleva hasta la patrulla, diciéndote que entres por la puerta.<br/>\n<br/>\n-¿Cuantos años tienes amigo?- te pregunta él.<br/>\n-No sé, creo que nueve- respondes preguntandote cuanto tiempo ha pasado desd ela última vez que viste a mamá.<br/>\n<br/>\nSu recuerdo te llena por completo. Te acurrucas en el asiento acolchado y te encoges presionandote contra los lados. No aguantas más y comienzas a llorar y a llamarla, llamas a mamá, quieres estar con ella, quieres que te envuelva en la cobija una vez más, que te susurre una canción, que te vece en la frente... solo quieres que mamá te abrace una vez más.<br/>\n<br/>\n<div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div style=\"text-align: center;\"><span style=\"font-size: xx-small;\">Imagen propiedad de <a href=\"http://www.arteyfotografia.com.ar/176/fotos/205879/\" linkindex=\"19\">AntonioGuzzo</a></span></div>"
+              },
+              "link": [
+                {
+                  "rel": "replies",
+                  "type": "application/atom+xml",
+                  "href": "https://cuentosdesangreymuerte.blogspot.com/feeds/3322899182028763507/comments/default",
+                  "title": "Enviar comentarios"
+                },
+                {
+                  "rel": "replies",
+                  "type": "text/html",
+                  "href": "https://cuentosdesangreymuerte.blogspot.com/2010/03/mama.html#comment-form",
+                  "title": "0 comentarios"
+                },
+                {
+                  "rel": "edit",
+                  "type": "application/atom+xml",
+                  "href": "https://www.blogger.com/feeds/8262144590940094649/posts/default/3322899182028763507"
+                },
+                {
+                  "rel": "self",
+                  "type": "application/atom+xml",
+                  "href": "https://www.blogger.com/feeds/8262144590940094649/posts/default/3322899182028763507"
+                },
+                {
+                  "rel": "alternate",
+                  "type": "text/html",
+                  "href": "https://cuentosdesangreymuerte.blogspot.com/2010/03/mama.html",
+                  "title": "Mamá"
+                }
+              ],
+              "author": [
+                {
+                  "name": {
+                    "$t": "Paynalton"
+                  },
+                  "uri": {
+                    "$t": "http://www.blogger.com/profile/12465798166045858389"
+                  },
+                  "email": {
+                    "$t": "noreply@blogger.com"
+                  }
+                }
+              ],
+              "thr$total": {
+                "$t": "0"
+              }
+            },
+            {
+              "id": {
+                "$t": "tag:blogger.com,1999:blog-8262144590940094649.post-5139036857753501893"
+              },
+              "published": {
+                "$t": "2010-02-23T11:00:00.000-08:00"
+              },
+              "updated": {
+                "$t": "2010-02-23T11:00:27.390-08:00"
+              },
+              "category": [
+                {
+                  "scheme": "http://www.blogger.com/atom/ns#",
+                  "term": "Cuentos Cortos"
+                }
+              ],
+              "title": {
+                "type": "text",
+                "$t": "Amnesia"
+              },
+              "content": {
+                "type": "html",
+                "$t": "Estoy sentado en algún lugar del cementerio. No se como llegué aquí ni porqué me encuentro en este lugar. No puedo recordar mi nombre ni nada de lo ocurrido. Solo sé que este lugar es de alguna manera seguro, aunque no se porque.<br/>\n<br/>\nLa noche sin estrellas es extrañamente silenciosa y la luna apenas flirtea por entre la delgada capa de nubes que cubre el cielo, asomando por alguna de las múltiples rasgaduras que dejan ver el oscuro cielo que se esconde detrás de su manto.<br/>\n<br/>\n¿Que día es hoy?, no lo sé... ¿Como se llama este lugar?... no puedo recordarlo.<br/>\n<br/>\nMi cabeza no para de doler . Al llevarme la mano a la frente siento algo húmedo entre mis dedos.<br/>\n<br/>\n<a name=\"more\"></a><br/>\n<br/>\nAnte la luz de la luna trato de ver que es ese líquido oscuro que me resbala por entre las yemas. Huelo, saboreo aquella sustancia y me doy cuenta de que es sangre... mi sangre.<br/>\n<br/>\nCon cuidado paso nuevamente los dedos por la frente tratando de averiguar por donde brota la sangre. Asciendo hasta llegar al cabello, muy despacio hasta llegar donde siento un dolor punzante.<br/>\n<br/>\nCon cuidado presiono alrededor de la herida para saber su tamaño. La herida no parece muy grande, pero cuando presiono demasiado mis dedos se hunden y puedo escuchar en mi cabeza el rozar de huesos rotos. Este es el origen de mi dolor y la causa por al que no puedo recordar nada.<br/>\n<br/>\nNecesito ayuda, pero no se donde encontrarla. Sé que necesito un hospital pero no sé donde encontrarlo.<br/>\n<br/>\nMis recuerdos se han ido, así que debo confiar solo en mis sentimientos y el buen juicio. Busco en mis bolsillos algo que me ayude a saber quien soy o donde puedo encontrar ayuda pero no hay nada, están vacíos.<br/>\n<br/>\nUna camisa negra cubre mi cuerpo, pantalón formal y un zapato. Un poco más allá puedo ver el otro zapato tirado. Tierra y sangre cubren mi cuerpo y me siento agotado. lo más probable es que haya venido corriendo por aquí, me tropezara y mi cabeza golpeara contra una de las tumbas.<br/>\n<br/>\nVeo a mi alrededor. Junto a mí una cruz de piedra confirma la sospecha, pues una mancha de sangre fresca y algunos cabellos descansan sobre uno de sus brazos.<br/>\n<br/>\n¿Porque estaba corriendo?... ¿Porque nadie me ayudó?... no lo sé y mi cabeza duele cada vez que trato de recordar.<br/>\n<br/>\nAhora necesito salir de aquí y encontrar ayuda.<br/>\n<br/>\nLa piel se me eriza por completo ante el estruendo de unas campanas que llegan desde detrás de mí. Una antigua iglesia se levanta aun lado del cementerio y el golpear de dos badajos llena el aire de un tétrico ambiente.<br/>\n<br/>\nMe quedo paralizado hasta que el doblar de las campanas cesa así como el excelso latir de mi corazón que no hace sino empeorar el dolor.<br/>\n<br/>\nAl menos hay alguien en la iglesia y esta se encuentra a unos cuantos metros de aquí. Iré a pedir ayuda al capellán para ir a un hospital a que curen esta herida en mi cabeza. Espero no ser un fracasado incapaz de pagar la cuenta del hospital. Lo dudo mucho porque la ropa que porto parece de buena calidad, aunque parece haber más sangre de la que esperaba sobre la camisa y el pantalón. Espero no haberme desangrado demasiado.<br/>\n<br/>\nEl cuerpo me pesa y me cuesta trabajo ponerme de pie. Aun así lo consigo y logro avanzar hasta donde se encuentra el otro zapato. Si me arrodillo para cogerlo y ponerlo en su lugar no creo poder levantarme de nuevo, así que con la punta del pie le doy vuelta e inserto el empeine en él. No queda bien puesto y mi talón sobresale por encima del borde del zapato. No hay más remedio, tendré que caminar así hasta llegar a la iglesia.<br/>\n<br/>\nAvanzo tratando de guardar silencio... no sé porque. Sobre las tumbas las figuras de ángeles, querubines, caballos, santos y cristos parecen melancólicas. Aunque el lugar es aterrador hay un cierto aire de seguridad en él. Y el miedo se acrecienta conforme me acerco a la iglesia.<br/>\n<br/>\nQuisiera poder recordar el porque siento esto, pero de momento no puedo sino suprimir esos sentimientos. Necesito ayuda, después habrá tiempo para recordar.<br/>\n<br/>\nLa iglesia tiene un porte antiguo. Feroces gárgolas descansan sobre el dintel y figuras de santos adornan nichos en cada una de sus paredes. Una sola torre guarda dos campanas y una cruz de piedra se levanta imponente en el patio del recinto.<br/>\n<br/>\nLa verja que da acceso al interior del patio está abierta y doblada. No estoy muy seguro, pero me da la impresión de que alguien o algo tiró de ella para abrirla, rompiendo una cadena que ahora yace en el suelo y sacando de sus soportes una de ellas, doblando la otra hacia el interior.<br/>\n<br/>\nMi cabeza casi explota mientras trato de recordar. Quisiera saber porqué tengo el presentimiento de que, fuera lo que fuera, eso que dañó la puerta intentaba salir de aquí.<br/>\n<br/>\nAun así alguien debe de haber tocado las campanas y ahora lo que necesito es atención médica.<br/>\n<br/>\nTraspaso la verja y llego hasta las pesadas puertas de madera que están cerradas de par en par. En vez de tocar empujo un poco y una de ellas cede con facilidad, mostrandome el interior del recinto.<br/>\n<br/>\nNo hay luces en el lugar, pero la luna ha encontrado una gran brecha y toda su luz entra por uno de los ventanales. El lugar es un desastre. Algunas ventanas están rotas y múltiples cristales de colores se encuentran esparcidos por el suelo. Las bancas de la iglesia están desordenadas, algunas de ellas rotas y restos de flores pisoteadas se esparcen por todos lados. Solo el cristo colgado del altar parece presenciar conmigo la escena, pues el lugar está vacío.<br/>\n<br/>\nA mi izquierda hay una puerta que parece llevar al campanario. Me dirijo a ella, tal vez el capellán aun se encuentre allí.<br/>\n<br/>\nLa puerta está cerrada, aunque no veo ninguna cerradura. Empujo pensando que tal vez se encuentre atascada. La puerta cede por un instante y luego vuelve a cerrarse con fuerza. Es como si alguien estuviese empujando desde el otro lado para impedir que yo la abra.<br/>\n<br/>\n-¿Hola?- Digo de pronto. -¿Hay alguien allí?... Necesito ayuda... estoy herido...-<br/>\n<br/>\nNo hay respuesta, solo el silencio de la noche que empieza a fastidiarme. Tomo distancia y me arrojo contra la puerta. Esta vez la puerta se abre hasta la mitad, pero de inmediato se cierra de nuevo. Desde dentro llega el sonido de dos niños llorando y el de alguien tratando de chitarlos con un leve siséo.<br/>\n<br/>\nEl esfuerzo ha hecho que mi cabeza duela en demasía. No puedo soportar el dolor y caigo de rodillas frente a la puerta que alguien intenta mantener cerrada.<br/>\n<br/>\nNecesito ayuda y aquí no la encontraré. Con esfuerzo consigo levantarme. Tengo que encontrar ayuda... y tengo que llamar a la policía. No se que esté sucediendo, pero algo muy extraño pasa aquí y no pienso quedarme a averiguarlo.<br/>\n<br/>\nAtravieso de nuevo la verja de la iglesia y desde aquí alcanzo a ver que más adelante, descendiendo la colina donde se encuentra la iglesia y el cementerio, hay un pequeño pueblo. No creo tardar más de unos minutos en llegar caminando hasta allí. En la primera casa que encuentre pediré ayuda y un teléfono para llamar a la policía.<br/>\n<br/>\nDebe ser una hora muy avanzada de la noche, pues desde aquí no alcanzo a ver ningún auto circulando en el pueblo. Solo alcanzo a ver las luces de dos vehículos que a toda velocidad se alejan por las montañas al otro lado del pueblo. Es una población pequeña.<br/>\n<br/>\nLas luces de casi todas las casas están encendidas, aunque parece haber un corte de energía justo al centro del pueblo. Es extraño, muy extraño, que esa parte sin luces sea un círculo casi perfecto y que la oscuridad sea tan intensa que no alcanzo a ver ninguna casa en su interior.<br/>\n<br/>\nLas campanas vuelven a atronar, pero esta vez se escucha un estruendo, como si una de ellas hubiese caído y chocado contra el suelo. Escucho los gritos desesperados de un hombre que se apagan de pronto y el chillido terrorífico de niños a mis espaldas.<br/>\n<br/>\nNo se que esté sucediendo, no me he detenido a mirar atrás. Estoy asustado y, a pesar de que mi herida en la cabeza y el zapato mal puesto, emprendo una carrera colina abajo. Estoy escapando, eso está claro, muy claro. Pero no sé de que estoy escapando... de algo... ¿De qué?... de algo... de algo muy malo... de algo espantoso.<br/>\n<br/>\nNo aguanto más la cabeza. Tengo que detenerme un poco para que mi corazón se relaje, para calmar el dolor de mi cabeza.<br/>\n<br/>\nExhausto me apoyo en un árbol. Me duele el talón así que levanto un poco el pie para acomodarme el zapato. No me había dado cuenta de que mis zapatos tienen manchas de sangre seca. No es mía, pues yo no he sangrado tanto, o eso creo. No sé que sucede pero tengo miedo... Necesito ayuda.<br/>\n<br/>\nSin darme cuenta he llegado al pueblo. las luces de la calle iluminan el silencio espectral que inunda el pueblo. Es casi tan silencioso como el cementerio.<br/>\n<br/>\nMe dirijo a una de las casas. Las luces del interior están encendidas. Llamo a la puerta pero nadie responde. Seguramente los dueños están dormidos, así que espero pacientemente a que alguien salga a averiguar que sucede.<br/>\n<br/>\nMientras espero me doy cuenta de algo terrible: Hay una ventana rota y cristales tirados por todas partes. Todas las casas que alcanzo a ver tienen las luces encendidas pero no hay signo alguno de movimiento en ellas. Algunas puertas están abiertas de par en par, otras parecen haber sido derribadas. Hay cristales rotos por todos lados, las rocas de algunas paredes se esparcen por las calles. Hay autos chocados o mal estacionados, con las puertas abiertas... ¡¿Que mierda pasó aquí?!... algo terrible...<br/>\n<br/>\nMi cabeza no para de punzar mientras sigo corriendo rumbo al centro del pueblo... Si algo sucedió la gente se habrá reunido en la plaza del centro. Allí habrá policías y ambulancias atendiendo a los heridos. Tal vez encuentre a algún rezagado como yo que me ayude a llegar o alguna patrulla de soldados... no lo sé.<br/>\n<br/>\nPero todas las calles están vacías y silenciosas. La destrucción se ve por todas partes, algunos incendios, casquillos de bala tirados, manchas de sangre... pero no hay nadie... vivo o muerto... no hay nadie... \"eso\" se los llevo... ¿Que es \"eso\"?... ¡No aguanto mi cabeza!<br/>\n<br/>\nRendido caigo de rodillas a mitad de la calle, tengo que recuperar aliento y calmar un poco el dolor de cabeza.<br/>\n<br/>\nSolo escucho mis jadeos que poco a poco se van calmando. De pronto la cabeza deja de punzar lo suficiente como para darme cuenta de que el silencio no es absoluto.<br/>\n<br/>\nEscucho el llanto de una niña... si, es una niña sollozando. Trato de tranquilizarme para averiguar de donde viene, aunque parece venir de todas partes.<br/>\n<br/>\n-¡Tranquila!- grito al viento,,, -¡¿Donde estás?!-<br/>\n<br/>\nNo hay respuesta, pero sigo escuchando a la niña sollozar. El sonido se escucha más fuerte cerca de lo que parece ser una antigua casa. Con cuidado paso por encima de los restos de una barda para acceder a un hermoso patio con una fuente y un césped perfectamente cuidado... Algún día tendré suficiente dinero como para vivir en una de las casas cerca del centro...<br/>\n<br/>\nLa niña sigue llorando. A un lado de la casa puedo escucharla.<br/>\n<br/>\n-Tranquila... Ya estoy aquí-.<br/>\n<br/>\nTras un arbusto puedo ver a la pequeña de unos ocho años sentada, abrazándose las rodillas. Su larga cabellera negra no me deja ver su rostro. Está descalza, solo lleva puesto un camisón blanco. A pesar de que ya estoy cerca de ella no se mueve.<br/>\n<br/>\nDe pronto me doy cuenta que ella no la única que está llorando, que el sonido sigue viniendo de todas partes. Miro a mi alrededor y veo más niñas con vestidos blancos por todas partes, junto a los árboles, las paredes, sobre el techo de la casa. Todas son iguales, copias de la misma niña sentada y sollozando... No entiendo... ¡No se que sucede!...<br/>\n<br/>\nVuelvo a ver a la niña que está frente a mí. Su cuerpo se ha extendido y ahora me doy cuenta de que no es una niña. Cual si fuera un títere, el vestido pende de una larga pata que se levanta muy por encima de mi cabeza y se pierde tras la casa. el cabello negro se desprende de una especie de rodilla que hace unos momentos estaba doblada y, al estirarse, ha descubierto una especie de boca llena de enormes dientes puntiagudos. El aire entra y sale de el hueco produciendo lo que parece el llanto de una niña.<br/>\n<br/>\nMiro a mi alrededor. Las incontables patas se han levantado y sus bocas ahora descubiertas muestran sangre y restos de carne en ellas. No puedo ver a la criatura a la cual pertenecen esas patas pero por el largo que tienen debe ser colosal... ¿Como es que no pude verla desde la colina?<br/>\n<br/>\nAterrado corro hacia la barda y escalo de nuevo por el tramo roto. El llanto de las niñas se ha convertido en un terrible alarido que se acerca cada vez más.<br/>\n<br/>\nSigo corriendo sin mirar atrás. A lo lejos puedo ver una luz en el cielo, parece ser un helicóptero. Corro hacia él pero la luz está alejándose.<br/>\n<br/>\nDe pronto el camino queda truncado y no puedo avanzar más. Cual si hubiese sido cortado con un afilado cuchillo, el camino se interrumpe frente a mí. El corte se extiende a izquierda y derecha dividiendo árboles, casas, autos. Todo en una línea perfecta.<br/>\n<br/>\nFrente a mí solo hay un enorme abismo oscuro. No puedo ver el fondo pero alcanzo a ver el otro lado del enorme agujero. Del otro lado las casas también están cortadas y allí puedo ver más niñas de vestido blanco sollozando en los rincones.<br/>\n<br/>\nTras de mí el estruendo de los gritos se aproxima, escucho cristales rompiéndose, árboles siendo arrancados... ya están muy cerca y no tengo a donde escapar.<br/>\n<br/>\nTotalmente aterrado y desesperado me paro en la orilla del abismo. Extiendo los brazos de par en par y cierro los ojos. Dejo que el equilibro se pierda y siento como mis pies se alejan de la orilla mientras caigo hacia el vacío.<br/>\n<br/>\nY ahora, mientras siendo el aire frío golpeando mi rostro, puedo recordar perfectamente todo lo que sucedió.<br/>\n<br/>\n<div class=\"separator\" style=\"clear: both; text-align: center;\"></div>"
+              },
+              "link": [
+                {
+                  "rel": "replies",
+                  "type": "application/atom+xml",
+                  "href": "https://cuentosdesangreymuerte.blogspot.com/feeds/5139036857753501893/comments/default",
+                  "title": "Enviar comentarios"
+                },
+                {
+                  "rel": "replies",
+                  "type": "text/html",
+                  "href": "https://cuentosdesangreymuerte.blogspot.com/2010/02/amnesia.html#comment-form",
+                  "title": "1 comentarios"
+                },
+                {
+                  "rel": "edit",
+                  "type": "application/atom+xml",
+                  "href": "https://www.blogger.com/feeds/8262144590940094649/posts/default/5139036857753501893"
+                },
+                {
+                  "rel": "self",
+                  "type": "application/atom+xml",
+                  "href": "https://www.blogger.com/feeds/8262144590940094649/posts/default/5139036857753501893"
+                },
+                {
+                  "rel": "alternate",
+                  "type": "text/html",
+                  "href": "https://cuentosdesangreymuerte.blogspot.com/2010/02/amnesia.html",
+                  "title": "Amnesia"
+                }
+              ],
+              "author": [
+                {
+                  "name": {
+                    "$t": "Paynalton"
+                  },
+                  "uri": {
+                    "$t": "http://www.blogger.com/profile/12465798166045858389"
+                  },
+                  "email": {
+                    "$t": "noreply@blogger.com"
+                  }
+                }
+              ],
+              "thr$total": {
+                "$t": "1"
+              }
+            },
+            {
+              "id": {
+                "$t": "tag:blogger.com,1999:blog-8262144590940094649.post-2150649090204415113"
+              },
+              "published": {
+                "$t": "2010-02-19T15:21:00.000-08:00"
+              },
+              "updated": {
+                "$t": "2010-02-19T15:27:30.886-08:00"
+              },
+              "title": {
+                "type": "text",
+                "$t": "Silencio, oscuridad y muerte."
+              },
+              "content": {
+                "type": "html",
+                "$t": "-¿Estas segura de esto?-<br/>\n<br/>\nÉl tenía la esperanza de que ella se  retractara, que en el último momento le pidiera que se detuviese y que  volvieran juntos a casa...<br/>\n<br/>\n¿Cual casa?... el banco seguramente ya  estaría vaciando lo que quedaba de su hogar para  pagar las deudas que día a día se habían acumulado hasta volverse algo imposible de pagar.<br/>\n<br/>\n -Tu lo  prometiste-Responde ella -no me falles ahora-<br/>\n<br/>\n Esta fue una promesa muy extraña  que sin embargo aceptó, como hombre, como esposo, estaba obligado a  cumplir su promesa a pesar de lo mucho que le disgustara lo que estaba  apunto de hacer.<br/>\n<br/>\nSacó de su bolsa el último billete que tenía en  su poder, el ultimo reducto de dinero de un desempleado y una  desempleada que han sucumbido ante una de tantas crisis crisis económicas que aquejan a un país del tercer mundo. Pobres víctimas  de una sociedad en el que los individuos no valen como por lo que son, sino por lo  que tienen.<br/>\n<br/>\nNervioso pagó la cuenta del hotel y ambos ascendieron por las escaleras en busca del cuarto en donde pasarían su última noche.<br/>\n<br/>\n<a name=\"more\"></a><br/>\n<br/>\nAl  traspasar el umbral y cerrar la puerta con cuidado dejaron la maleta en donde guardaban sus últimas  pertenencias. Ella le pidió un momento para entrar en el baño mientras  él, aprovechando la oportunidad, tomó un boligrafo y comenzó a escribir una carta de  despedida donde explicaba las razones que le venían a la mente y disculpas por todos los errores que había cometido en el pasado.<br/>\n<br/>\nAl  salir del baño ella le vió escribiendo y le pidió unos momentos más para  imitarlo, escribiendo una nota en la que explicaba su último deseo y el  como había pedido a su esposo que este lo cumpliera.<br/>\n<br/>\nÉl esperaba  sentado en la cama que ella terminara, con tristeza miraba  su silueta perfecta dibujarse ante el espejo. Un cuerpo hermoso que  ella tantas veces le había entregado a sus más profundos deseos, llevandole  hasta aquel paraíso que solo los impíos pueden conocer.<br/>\n<br/>\nTras  terminar su nota ella se quedó mirándolo a través del espejo y  lentamente, sin dejar de fijar sus ojos en él con una seducción que solo alcanzan dos almas que han pasado por incontables experiencias juntos, se desabotonó la blusa como primer paso para dejar caer una  por una las prendas de su cuerpo en una danza de miradas que él  contemplaba con placer.<br/>\n<br/>\n<br/>\nSintiendose completamente desnuda se volvió hacia él y caminó los dos  pasos que les separaban, colocandole su tierno pecho sobre la boca para  que el bebiera de su piel.<br/>\n<br/>\nPasaron las horas y la luz del sol se  extinguió en el horizonte contemplando por la ventana dos cuerpos  humanos que se amaban incesantemente.<br/>\n<br/>\nLa noche cubría inusualmente de  estrellas el cielo de la ciudad y ambos contemplaron abrazados la luna  que lentamente se aproximaba al horizonte.<br/>\nLos primeros tintes que  tiñen los cielos de azul y violeta les sorprendieron haciendo el amor  una vez más... la hora había llegado.<br/>\n<br/>\n-Aun tienes una oportunidad-  dijo él susurrando a su oído mientras ella se estremecía con la caricia que se deslizaba por su brazo y bajaba hasta la altura de la pierna.<br/>\n<br/>\n-Recuerda que todo esto es idea mía, solo tú puedes  hacer realidad mi deseo, solo tú puedes darme la muerte que quiero-<br/>\n<br/>\nLas  discusiones sobre las miles de posibilidades que aun les quedaban habían sido extensas  durante la última semana, y las opciones se iban cerrando al tiempo que  el dinero se agotaba, los amigos se alejaban y las instituciones  acechaban cual zopilotes que se yerguen sobre sus presas moribundas.<br/>\n<br/>\n-Está  bien, pero recuerda que yo te seguiré después-<br/>\n<br/>\nSe besaron una vez  más. Él se levanto para ir en busca de la mochila y buscar lo que  necesitaría. Ella se levantó también y caminó detrás de él, colocando la  mano sobre su hombro desnudo una vez que estuvo a su alcance mientras el se arrodillaba rebuscando en la maleta.<br/>\n<br/>\nAl sentir el  contacto de su fría mano el se viró violentamente y le asestó un puñetazo en la mejilla izquierda. Ella cayó sobre su costado sintiendo  como un hilo de sangre brotaba de su boca para manchar la alfombra. \"Él  lo hará bien\", pensó, \"Y yo le agradeceré que me mate de esa manera\".<br/>\n<br/>\nLa tomó por el cabello y de un fuerte tirón le hizo levantarse para  después arrojarla contra la cama, ella gritó por un momento antes de que  un golpe derribara tres de los dientes de su hermoso rostro y le  dejaran el labio convertido en una masa amorfa que comenzaba a  inflamarse.<br/>\n<br/>\nElla sintió las nalgas desnudas de su esposo  sobre su espalda mientras inútilmente intentaba zafarse de las ataduras a las que él le sometía. En manos y pies  sentía el constante hormigueo que producían las vendas que él había anudado con ferocidad.<br/>\n<br/>\nUn nuevo golpe, esta vez con un objeto pesado,  hizo sonar su espalda con un golpe seco cuando ella intentó darse  vuelta, al instante sintió un crujido, seguramente alguna costilla, y un  lijero dolor que punzaba con cada jadeo.<br/>\nTemblando, dejó escapar  un gemido de dolor y placer cuando él la penetró por el ano con un  miembro totalmente rígido de la exitación. Los golpes no dejaban de  llover sobre su cabeza, espalda, su pecho mientras el entraba y salía  una y otra vez de su ano y vagina.<br/>\n<br/>\n\"No me mates demasiado  rápido\" pensó ella incapaz de articular nada más que gemidos, pues ahora las manos de él le presionaban la  garganta impidiendole respirar. Ella quería gritar de dolor, de placer, quería gritarle \"¡Dame más de esto!\".<br/>\n<br/>\nLos  oídos le zumbaban y sentía la cabeza como un gran globo apunto de  explotar cualdo él soltó su cuello. Un afluente de aire frío traspasó su  garganta y llenó sus pulmones. Las lágrimas no dejaban de brotar y el llanto era incontrolable. \"Solo espero que al verme así no se  arrepienta... tiene que terminar... él me lo prometió\".<br/>\n<br/>\nSin embargo  ahora todo estaba quieto, y el zumbido de sus oídos no desaparecía ni le  dejaba saber que era lo que él estaba haciendo.<br/>\n<br/>\nEntonces sintió  como la cama se ladeó cuando él subió nuevamente. La sangre volvió a sus  manos y sus pies cuando él cortó las ataduras con un gran cuchillo de cocina que ahora pendía de su mano. Sin fuerzas ya para nada más ella se dió  vuelta para mirarlo, aunque las lágrimas le impedían ver.<br/>\n<br/>\n-No-  alcanzó a balbusear. -no porfavor... no te det...-<br/>\n<br/>\nNo pudo seguir  hablando cuando sintió unos suaves labios posarse sobre la comisura de su boca  ensangrentada. Un cosquilleo subió desde su pecho hasta la garganta y  brotó en un nuevo llanto.<br/>\n<br/>\n-Te amo- siseó él.<br/>\n<br/>\nElla estaba  reuniendo fuerzas para responderle, para decirle que también lo amaba y que le estaría agradecida por toda la eternidad por esto cuando se dió cuenta de que había  algo más, no solo era el cosquilleo del pecho, sino también un ardor en  el vientre que iba creciendo. Él estaba cumpliendo con la última parte de su promesa.<br/>\n<br/>\nSu esposo se incorporó y le abrió las  piernas para penetrar una vez más su vagina con un miembro que no había perdido su rigidez, lentamente, mientras hacía que la  navaja enterrada en el ombligo decendiera floreando su vientre.<br/>\n<br/>\nEl  dolor se volvió insoportable pero ella intentó por todos los medios  resistirse a gritar. Sentía ya la sangre tibia rodeandole por completo y  formando un charco sobre la cama.<br/>\n<br/>\nEl corte llegó hasta su pubis  en donde se detuvo. Sin dejar de entrar una y otra vez en su vagina dejó el cuchillo a un lado  y, con mucho cuidado, metió su mano en la herida. Con los dedos iba  pasando entre cada uno de sus órganos ensangrentados, sintiendo los tejidos rompiendose entre las yemas de sus dedos que no dejaban de empujar y sumergirse en su cuerpo. Él sintió las costillas de ella rodeando su antebrazo y la enorme presión  de los pulmones que le presionaban la mano contra las paredes del tórax con cada jadeo.<br/>\n<br/>\nSiguió luchando por meter su mano hasta que, tras  atravesar una débil capa que pareciera ser un delicado velo resguardando a la  doncella que espera en cama por su primer encuentro con el nuevo esposo,  llegó a su objetivo.<br/>\n<br/>\nRozó ligeramente aquel masijo de carne y lo  sintió latir. ¡Cuan fragil era!, ¡Cuan delicado y hermoso era su  corazón!. le dedicó una tierna caricia y, una vez que le rodeó con sus dedos, se dió cuenta de lo pequeño  que era.<br/>\n<br/>\nEste corazón era el que le había dado tanta felicidad durante los últimos años, tanta  dicha, tantas ilusiones... Él no dejó de llorar mientras apretaba la mano y  sentía la carne escurrir entre sus dedos que no dejaban de apretar. El  latir se detuvo aunque ella aun continuaba agitandose cada vez más  débil.<br/>\n<br/>\nElla no lo miraba, su espalda arqueada hacia atrás desde la  cadera hasta la nuca le hacían mirar algún punto en el techo. Aun así  él notó un hermoso brillo en sus ojos, por un instante parecían ser cristal, justo antes  de que el último espasmo diera lugar al silencio y a la muerte.<br/>\n<br/>\nAlguien llamó a la puerta:<br/>\n<br/>\n-¿Está todo bien allí?- Se escuchó decir a  alguien con un tono enfadado, tal parecía que llevaba algún tiempo esperando una respuesta.<br/>\n<br/>\nSacó la mano del interior de ella llevando aun restos de su corazón entre los dedos y acarició aquel cabello castaño cuyo aroma le hacía  enloquecer, dejando sin darse cuenta una mancha roja al hacerlo.<br/>\n<br/>\n-No  te alejes demasiado pequeña, pronto estaré contigo- susurró entre lágrimas mientras le besaba con ternura la frente.<br/>\n<br/>\nLos golpes en la puerta se hacían cada  vez más insistentes, ahora parecía que intentaban derribar la puerta.<br/>\n<br/>\nMiró  hacia la ventana se puso de pie. Era una lástima que  desde este lado del edificio no pudiese contemplar el amanecer, realmente le  habría gustado mirar el sol por última vez.<br/>\n<br/>\nEl crujido de la  puerta al abrirse fue la señal para emprender la embestida contra la ventana. Escuchó el  cristal romperse a su alrededor y sintió cómo las afiladas puntas desgarraban la piel de su rostro y cabeza. Uno de los bordes penetró en su ojo derecho mientras otro más partía por  la mitad una de sus orejas.<br/>\n<br/>\nNo tuvo mucho tiempo para pensar  en el dolor mientras caía los escasos tres pisos que le separaban del suelo. Pronto  sintió el golpe que le trozó el cuello y partió su cráneo en miles de astillas.<br/>\n<br/>\nNo se movió más mientras veía como la sangre cubría la  acera frente a sus ojos.<br/>\n<br/>\nAlguien se acercaba corriendo pero seguramente llegaría tarde pues, entre más se acercaban a él, el mundo se disolvía en la oscuridad para  convertirse en un solo punto luminoso en la lejanía, como si fuese la  salida de un oscuro y estrecho túnel.<br/>\n<br/>\nPronto el mundo que conoció estuvo tan lejos  que fue imposible ver su luz. A su alrededor solo quedó oscuridad y muerte.<br/>\n<div class=\"separator\" style=\"clear: both; text-align: center;\"></div>"
+              },
+              "link": [
+                {
+                  "rel": "replies",
+                  "type": "application/atom+xml",
+                  "href": "https://cuentosdesangreymuerte.blogspot.com/feeds/2150649090204415113/comments/default",
+                  "title": "Enviar comentarios"
+                },
+                {
+                  "rel": "replies",
+                  "type": "text/html",
+                  "href": "https://cuentosdesangreymuerte.blogspot.com/2010/02/silencio-oscuridad-y-muerte.html#comment-form",
+                  "title": "1 comentarios"
+                },
+                {
+                  "rel": "edit",
+                  "type": "application/atom+xml",
+                  "href": "https://www.blogger.com/feeds/8262144590940094649/posts/default/2150649090204415113"
+                },
+                {
+                  "rel": "self",
+                  "type": "application/atom+xml",
+                  "href": "https://www.blogger.com/feeds/8262144590940094649/posts/default/2150649090204415113"
+                },
+                {
+                  "rel": "alternate",
+                  "type": "text/html",
+                  "href": "https://cuentosdesangreymuerte.blogspot.com/2010/02/silencio-oscuridad-y-muerte.html",
+                  "title": "Silencio, oscuridad y muerte."
+                }
+              ],
+              "author": [
+                {
+                  "name": {
+                    "$t": "Paynalton"
+                  },
+                  "uri": {
+                    "$t": "http://www.blogger.com/profile/12465798166045858389"
+                  },
+                  "email": {
+                    "$t": "noreply@blogger.com"
+                  }
+                }
+              ],
+              "thr$total": {
+                "$t": "1"
+              }
+            },
+            {
+              "id": {
+                "$t": "tag:blogger.com,1999:blog-8262144590940094649.post-8671013773700636036"
+              },
+              "published": {
+                "$t": "2010-02-17T19:43:00.000-08:00"
+              },
+              "updated": {
+                "$t": "2010-02-19T15:27:03.247-08:00"
+              },
+              "title": {
+                "type": "text",
+                "$t": "La Chica Nueva"
+              },
+              "content": {
+                "type": "html",
+                "$t": "Cada vez que una persona nueva se une al equipo de trabajo es algo para comentarse, más aun si se trata de una chica joven, hermosa y soltera.<br/>\n<br/>\nCuando Betty llegó a la estación \"Indios Verdes\" del metro de la Ciudad de México pocos fueron los que no le dieron una calurosa bienvenida, algunos podría decirse que demasiado calurosa.<br/>\n<br/>\nCon su largo vestido floreado hasta la pantorrilla y su saco negro Betty ya estaba acostumbrada a los halagos de hombres que constantemente se mostraban solícitos tan solo para ganar una mirada o una sonrisa.<br/>\n<br/>\n<a name=\"more\"></a><br/>\n<br/>\nNo fue sorpresa para ella que los demás conductores del metro le dedicaran mucha atención y consejos para su primer recorrido en la línea.<br/>\n<br/>\nAunque ella ya llevaba trabajando algúnos años en las instalaciones del metro como conductora, esta era la primera vez que recorría la línea tres.<br/>\n<br/>\nLa mayoría de sus compañeros eran hombres, todos ellos prestos a comentarle los pormenores de la ruta. \"Adelante de Tlatelolco debes bajar la velocidad porque la curva está muy cerrada\" decía uno, \"Recuerda que la luz de Etiopía no sirve\" decía otro, \"Justo en el cambio de vías que hay saliendo de Guerrero tienes que ir un poco rápido para no perder energía en los vagones\". Y así llovían los consejos que, más que beneficiarla, buscaban causar empatía con ella, un paso importante antes de invitarla a salir.<br/>\n<br/>\nSu primer recorrido por la ruta fue bastante aburrido. Uno de los chicos se ofreció a llevarla en su turno de ida y vuelta para que conociera el tunel. El viaje fue algo bastante aburrido. Aquel chico no paraba de hablar de sus anécdotas en el año que llevaba trabajando en esta línea.<br/>\n<br/>\nAburrida, agradeció el retornar a la estación 'Indios Verdes' donde comenzaría con su primer viaje sola.<br/>\n<br/>\nNo obstante aquel chico se ofreció a acompañarle como pasajero en el recorrido para recordarle todos los puntos importantes de la ruta y, por supuesto, terminar con el relato que había dejado pendiente.<br/>\n<br/>\nDisgustada, solo sonrió hipócritamente mientras el chico subía a la cabina y seguía contando sus estúpidas historias.<br/>\n<br/>\nAlgunas estaciones más adelante la radio interrumpió por fin el interminable parloteo cuando el chico escuchó su nombre en la transmisión.<br/>\n<br/>\nTras coger el micrófono y pedir disculpas dejó el aparato en su lugar.<br/>\n<br/>\n-Bueno, te tengo que dejar sola- dijo el con una tímida sonrisa.<br/>\n<br/>\n-No te preocupes, sobreviviré- respondió Betty agradecida con la suerte que le quitaba a aquel pesado de encima -apúrate a regresar o tu esposa se enojará contigo por olvidar que comerías con ella- terminó en una diabólica sonrisa. <br/>\n<br/>\nLa chica nueva detuvo con maestría el tren en la siguiente estación abriendo las puertas para que los pasajeros pudieran abordar y descender en medio de empujones y griteríos.<br/>\n<br/>\nAl mismo tiempo otro tren estaba entrando por el túnel en dirección contraria. Betty no alcanzó a ver la cara de celos que tenía aquel conductor al ver que Betty no estaba sola. Tan concentrado estuvo el conductor en reconocer al acompañante de la chica que pro un instante olvidó que estaba entrando a la estación hasta que se percató de que el final del andén donde los pasajeros esperaban pacientemente su arribo estaba muy próximo. Aquel hombre se vió obligado a accionar los frenos con mayor fuerza de la necesaria para evitar rebasar el límite de la estación.<br/>\n<br/>\nLos gritos de enojo y los insultos no tardaron en escucharse desde dentro de los vagones donde algunos pasajeros habían perdido el apoyo y otros tantos terminaron golpeándose contra alguno de los plateados tubos que les sirven de sostén a quienes desafortunadamente no encontraron un asiento vacío.<br/>\n<br/>\nEl conductor pudo evitar que el tren fuera más allá de la estación, pero cuando se hubo detenido completamente faltaban aun un par de metros para llegar a la posición adecuada que le permitiera abrir las puertas.<br/>\n<br/>\nBetty y Rubén no pudieron evitar interrumpir su despedida al escuchar el estridente chirrido de los frenos ni tampoco pudieron evitar ver que la puerta de la cabina trasera del otro tren estaba abierta y, al detenerse el tren, quedaba justo a un paso de la cabina en la que ellos se encontraban.<br/>\n<br/>\nViendo la oportunidad de evitar la fatiga que significaba cruzar al otro anden y caminar hasta la otra punta de la estación, Rubén dio su mano a Betty y se aproximó para dar un beso en la mejilla, molesta costumbre que ella aborrecía pero que no podía negar.<br/>\n<br/>\nTras saborear el aroma del cabello de Betty, con una sonrisa de satisfacción en el rostro, Rubén saltó por la puerta para llegar hasta la cabina del tren que lo llevaría de regreso a la terminal.<br/>\n<br/>\nEn ese justo instante el conductor que se sentía aliviado de no tener que dar marcha atrás al tren entero para corregir su error empujó una palanca con suavidad. Se escuchó un fuerte silbido cuando los frenos liberaron el aire que les mantenía firmes contra los rieles y el tren avanzó muy despacio para cubrir esos dos metros que necesitaba para poder abrir las puertas y continuar su camino.<br/>\n<br/>\nSe escuchó una serie de crujidos y un gemido. El tren avanzaba lentamente y Betty veía horrorizada como el cuerpo de Ruben era amasijado entre los dos trenes.<br/>\n<br/>\nEl chico no había alcanzado la otra cabina cuando el tren avanzó de nuevo, y ahora su cuerpo, demasiado corpulento para librar el espacio que quedaba entre ambos trenes, estaba siendo triturado por el movimiento.<br/>\n<br/>\nUna mujer gritó desde el interior del tren, un adolecente cubría los ojos de su novia mientras veía como el cuerpo de Rubén pasaba frente a la ventana despacio, casi irreal, dejando un trazo de sangre sobre la ventana.<br/>\n<br/>\nLos huesos crujían y la mirada de terror de Rubén que aun no sabía lo que estaba ocuriendo se torció cuando su cabeza giraba en posiciones imposibles para un cuerpo sano.<br/>\n<br/>\nEl tren se detuvo de nuevo. ni el conductor ni los pasajeros del otro lado de la estación se habían percatado de lo sucedido. Una alarma sorda, fatigada, surgió de las bocinas en el interior de los vagones y las puertas se cerraron.<br/>\n<br/>\nEl conductor aceleró y el cuerpo de Rubén, cuya pierna había quedado atrapada en una hendidura fue arrastrado algunos metros más por la vía, golpeando la cabeza del chico contra las ruedas del tren que permanecía estático.<br/>\n<br/>\nSu brazo derecho quedó atrapado en uno de los frenos y fue arrancado del resto del cuerpo cual si fuera una simple figura de papel. No obstante, esto fue suficiente para liberar la pierna atrapada y el cuerpo de Rubén quedó tendido inerte sobre la vía.<br/>\n<br/>\nEl chico aun intentaba respirar, aun trataba de entender que era ese estruendo que había escuchado antes de este silbido que le taladraba los oídos y porque sentía tanto dolor por todo el cuerpo. Aun no sabía porque uno de sus ojos parecía no responder ni porque veía su pierna en una posición tan extraña.<br/>\n<br/>\nEl aire provocaba guturales ruidos al entrar y salir con agitación por la maltrecha garganta, donde la sangre ya le impedía respirar.<br/>\n<br/>\nCon el pecho totalmente destrozado y fragmentos de hueso incrustados en su corazón, el movimiento de sus pulmones se volvió espasmódico, irregular, hasta que finalmente cesó por completo.<br/>\n<br/>\nEn el interior de la cabina la chica nueva, que apenas se daba cuenta de lo que ocurrido, gritó.<br/>\n<br/>\n<div class=\"separator\" style=\"clear: both; text-align: center;\"></div>"
+              },
+              "link": [
+                {
+                  "rel": "replies",
+                  "type": "application/atom+xml",
+                  "href": "https://cuentosdesangreymuerte.blogspot.com/feeds/8671013773700636036/comments/default",
+                  "title": "Enviar comentarios"
+                },
+                {
+                  "rel": "replies",
+                  "type": "text/html",
+                  "href": "https://cuentosdesangreymuerte.blogspot.com/2010/02/la-chica-nueva.html#comment-form",
+                  "title": "0 comentarios"
+                },
+                {
+                  "rel": "edit",
+                  "type": "application/atom+xml",
+                  "href": "https://www.blogger.com/feeds/8262144590940094649/posts/default/8671013773700636036"
+                },
+                {
+                  "rel": "self",
+                  "type": "application/atom+xml",
+                  "href": "https://www.blogger.com/feeds/8262144590940094649/posts/default/8671013773700636036"
+                },
+                {
+                  "rel": "alternate",
+                  "type": "text/html",
+                  "href": "https://cuentosdesangreymuerte.blogspot.com/2010/02/la-chica-nueva.html",
+                  "title": "La Chica Nueva"
+                }
+              ],
+              "author": [
+                {
+                  "name": {
+                    "$t": "Paynalton"
+                  },
+                  "uri": {
+                    "$t": "http://www.blogger.com/profile/12465798166045858389"
+                  },
+                  "email": {
+                    "$t": "noreply@blogger.com"
+                  }
+                }
+              ],
+              "thr$total": {
+                "$t": "0"
+              }
+            },
+            {
+              "id": {
+                "$t": "tag:blogger.com,1999:blog-8262144590940094649.post-2192887132694309221"
+              },
+              "published": {
+                "$t": "2010-02-17T14:40:00.001-08:00"
+              },
+              "updated": {
+                "$t": "2010-02-17T14:40:30.678-08:00"
+              },
+              "title": {
+                "type": "text",
+                "$t": "Presentación"
+              },
+              "content": {
+                "type": "html",
+                "$t": "Este blog está dedicado a cuentos sangrientos... No esperen publicaciones continuas y todos los cuentos serán creados por mí."
+              },
+              "link": [
+                {
+                  "rel": "replies",
+                  "type": "application/atom+xml",
+                  "href": "https://cuentosdesangreymuerte.blogspot.com/feeds/2192887132694309221/comments/default",
+                  "title": "Enviar comentarios"
+                },
+                {
+                  "rel": "replies",
+                  "type": "text/html",
+                  "href": "https://cuentosdesangreymuerte.blogspot.com/2010/02/presentacion.html#comment-form",
+                  "title": "0 comentarios"
+                },
+                {
+                  "rel": "edit",
+                  "type": "application/atom+xml",
+                  "href": "https://www.blogger.com/feeds/8262144590940094649/posts/default/2192887132694309221"
+                },
+                {
+                  "rel": "self",
+                  "type": "application/atom+xml",
+                  "href": "https://www.blogger.com/feeds/8262144590940094649/posts/default/2192887132694309221"
+                },
+                {
+                  "rel": "alternate",
+                  "type": "text/html",
+                  "href": "https://cuentosdesangreymuerte.blogspot.com/2010/02/presentacion.html",
+                  "title": "Presentación"
+                }
+              ],
+              "author": [
+                {
+                  "name": {
+                    "$t": "Paynalton"
+                  },
+                  "uri": {
+                    "$t": "http://www.blogger.com/profile/12465798166045858389"
+                  },
+                  "email": {
+                    "$t": "noreply@blogger.com"
+                  }
+                }
+              ],
+              "thr$total": {
+                "$t": "0"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "images_removed": true
+}

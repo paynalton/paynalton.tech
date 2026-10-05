@@ -1,0 +1,48 @@
+---
+import {getCollection,render} from 'astro:content';
+import BookDownloads from './BookDownloads.astro';
+import WorkshopScene from '../../components/taller/WorkshopScene.astro';
+import type {PublicEntry,SiteRoute} from '../../lib/site/types';
+interface Props {entry:PublicEntry;page:SiteRoute;t:(key:string,values?:Record<string,string|number>)=>string;reading?:boolean;}
+const {entry,page,t,reading=false}=Astro.props;
+if(!('author' in entry.facts))throw new Error('Work facts required');
+const records=await getCollection(reading?'readingContent':'siteContent');
+const stored=records.find(e=>e.data.entityId===entry.entityId && e.data.locale===page.locale)!;
+const chapters=page.chapterId ? await getCollection(reading?'readingChapters':'siteChapters') : [];
+const chapter=page.chapterId?chapters.find(e=>e.data.entityId===entry.entityId && e.data.locale===page.locale && e.data.chapterId===page.chapterId):undefined;
+if(page.chapterId && !chapter)throw new Error('Chapter missing');
+const {Content,headings}=await render(chapter??stored);
+const isReader=!!chapter || entry.facts.fullText===true;
+const index=entry.chapters.findIndex(c=>c.id===page.chapterId),previous=entry.chapters[index-1],next=entry.chapters[index+1];
+const downloadCopy={downloadTitle:t('work.downloadTitle'),downloadHelp:t('work.downloadHelp'),editionLabel:t('work.editionLabel'),formatLabel:t('work.formatLabel'),download:t('work.download'),available:t('work.available'),comingSoon:t('work.unavailable')};
+const isToasterBook=entry.entityId==='cuando-la-tostadora-te-responde' && !chapter;
+---
+<article class:list={['work-content',{'tn-light':isReader}]} data-reader={isReader?'':undefined}>
+ <header class:list={['tn-section', 'tn-stack', {'work-book-header':isToasterBook}]}>
+ <div class:list={['work-book-copy', {'work-book-copy--full':!isToasterBook}]}>
+  {entry.example && <p class="reading-notice">{t('reading.exampleNotice')}</p>}
+  <p class="tn-eyebrow">{chapter?<a href={entry.url}>{entry.title}</a>:t(`work.format.${entry.facts.format}`)}</p>
+  <h1>{chapter?.data.title??entry.title}</h1>
+  {!chapter && <p class="tn-lead">{entry.summary}</p>}
+  {!chapter && entry.facts.artwork && <img class="work-artwork" src={entry.facts.artwork} alt="" width="1024" height="1024"/>}
+  {entry.facts.author && <p>{t('work.author')}: {entry.facts.author}</p>}
+  {!chapter && <div class="tn-actions">{entry.facts.year && <p>{t('work.published')}: {entry.facts.year}</p>}{entry.facts.license && <p>{t('work.license')}: {entry.facts.licenseUrl?<a href={entry.facts.licenseUrl}>{entry.facts.license}</a>:entry.facts.license}</p>}</div>}
+  {!chapter && entry.facts.partial && <p class="reading-notice">{t('work.partialHelp')}</p>}
+  {!chapter && entry.facts.sourceUrl && <a href={entry.facts.sourceUrl} rel="noopener noreferrer">{t('work.source')}</a>}
+  {!chapter && entry.chapters.length>0 && <a class="tn-action tn-action--primary" href={entry.chapters[0].url}>{t('work.read')}</a>}
+    {isReader && <>{chapter && <p>{t('reading.chapterPosition',{position:index+1,total:entry.chapters.length})}</p>}<details class="reader-preferences" data-pagefind-ignore data-reader-preferences hidden data-saved={t('reading.saved')} data-session={t('reading.session')}><summary>{t('reading.controls')}</summary><div class="tn-stack"><label for="reading-size">{t('reading.size')}</label><select id="reading-size"><option value="normal">{t('reading.normal')}</option><option value="large">{t('reading.large')}</option><option value="larger">{t('reading.larger')}</option></select><label for="reading-surface">{t('reading.surface')}</label><select id="reading-surface"><option value="paper">{t('reading.paper')}</option><option value="dark">{t('reading.dark')}</option></select><button type="button" class="tn-action tn-action--secondary" data-reader-reset>{t('reading.reset')}</button><p role="status" data-reader-status></p></div></details><noscript><p>{t('reading.noScript')}</p></noscript></>}
+ </div>
+ {isToasterBook && <WorkshopScene variant="book"/>}
+ </header>
+ {entry.chapters.length>0 && <nav class="tn-section work-index" aria-label={t('reading.index')}><h2>{t('reading.index')}</h2><ol>{entry.chapters.map(c=><li><a href={c.url} aria-current={page.chapterId===c.id?'page':undefined}>{c.title}</a></li>)}</ol></nav>}
+ <section class="tn-section">
+  <div class="tn-reader">
+   {isReader && headings.filter(h=>h.depth===2).length>0 && <nav class="tn-reader-index" aria-label={t('reading.contents')}><h2>{t('reading.contents')}</h2><ul>{headings.filter(h=>h.depth===2).map(h=><li><a href={`#${h.slug}`}>{h.text}</a></li>)}</ul></nav>}
+   <div class="tn-prose" data-reading-body><Content/></div>
+  </div>
+ </section>
+ {chapter && <nav class="tn-section tn-actions" aria-label={t('reading.chapterNavigation')}>{previous && <a href={previous.url} rel="prev">{t('reading.previousChapter')}: {previous.title}</a>}<a href={entry.url}>{t('reading.back')}</a>{next?<a href={next.url} rel="next">{t('reading.nextChapter')}: {next.title}</a>:<p>{t('reading.end')}</p>}</nav>}
+ {!chapter && entry.facts.fullText && <section class="tn-section tn-stack" data-pagefind-ignore><h2>{t('work.formats')}</h2><div class="tn-actions"><a href={`${entry.url}index.md`} download>{t('work.exportMarkdown')}</a><a href={`${entry.url}index.json`} download>{t('work.exportJson')}</a></div></section>}
+ {!chapter && entry.facts.editions.length>0 && <div class="tn-section"><BookDownloads editions={entry.facts.editions} locale={page.locale} copy={downloadCopy} allLabel={t('work.allDownloads')}/></div>}
+</article>
+<script>import '../../scripts/reader.js';</script>

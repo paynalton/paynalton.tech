@@ -1,0 +1,39 @@
+---
+import settings from '../../data/site/locales.json';
+interface Props {
+ alternatives:{locale:string;url:string}[];
+ locale:string;
+ currentUrl:string;
+ label:string;
+ unavailableLabel:string;
+}
+const {alternatives,locale,currentUrl,label,unavailableLabel}=Astro.props;
+const languages=settings.locales.filter(language=>['es','en'].includes(language.code));
+const current=settings.locales.find(language=>language.code===locale);
+const items=languages.map(language=>({...language,url:language.code===locale?currentUrl:alternatives.find(item=>item.locale===language.code)?.url}));
+---
+<details class="language-picker">
+ <summary aria-label={`${label}: ${current?.label??locale}`}><span aria-hidden="true">◎</span><span lang={locale}>{current?.label??locale}</span><span class="language-chevron" aria-hidden="true">⌄</span></summary>
+ <nav class="shell-locales" aria-label={label}>
+  {items.map(item=>item.url?
+   <a href={item.url} lang={item.code} hreflang={item.code} aria-current={locale===item.code?'page':undefined}><span>{item.label}</span>{locale===item.code&&<span aria-hidden="true">✓</span>}</a>:
+   <span class="language-unavailable" aria-disabled="true"><span lang={item.code}>{item.label}</span><small>{unavailableLabel}</small></span>
+  )}
+ </nav>
+</details>
+<style>
+ .language-picker{position:relative;font-size:.9rem;min-inline-size:0;max-inline-size:100%}
+ .language-picker summary{display:flex;align-items:center;gap:.6rem;min-block-size:44px;padding:.35rem .75rem;box-sizing:border-box;border:1px solid var(--borde-control,#887c6a);border-radius:.6rem;cursor:pointer;color:var(--texto-principal,#f3eee3);list-style:none}
+ .language-picker summary::-webkit-details-marker{display:none}
+ .language-picker summary span[lang]{min-inline-size:0;overflow-wrap:anywhere}
+ .language-chevron{margin-inline-start:.4rem}
+ .language-picker[open] .language-picker summary span[lang]{min-inline-size:0;overflow-wrap:anywhere}
+ .language-chevron{transform:rotate(180deg)}
+ .language-picker .shell-locales{position:absolute;z-index:20;inset-inline-end:0;inset-block-start:calc(100% + .5rem);display:flex;flex-direction:column;gap:.25rem;min-inline-size:min(12rem,calc(100vw - 3rem));max-inline-size:calc(100vw - 3rem);overflow-wrap:anywhere;padding:.5rem;background:var(--fondo-superficie,#172421);border:1px solid var(--borde-control,#887c6a);border-radius:.75rem;box-shadow:0 12px 30px #0006}
+ .language-picker .shell-locales a,.language-unavailable{display:flex;justify-content:space-between;gap:1rem;align-items:center;min-block-size:44px;padding:.5rem .75rem;box-sizing:border-box;color:var(--texto-principal,#f3eee3);text-decoration:none;border-radius:.35rem}
+ .language-picker .shell-locales a:hover,.language-picker [aria-current=page]{background:var(--fondo-elevado,#26352d)}
+ .language-unavailable{flex-direction:column;align-items:flex-start;gap:.15rem}
+ .language-unavailable small{font-size:.75rem;color:var(--texto-secundario,#c4c4b7)}
+ .language-picker :is(summary,a):focus-visible{outline:2px solid var(--foco-sobre-oscuro,#ffe1a0);outline-offset:3px}
+ @media print{.language-picker{display:none}}
+</style>

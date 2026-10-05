@@ -1,0 +1,83 @@
+[
+  {
+    "name": "experience",
+    "width": 1000,
+    "height": 1000,
+    "geometryBytes": 37440,
+    "triangles": 1248,
+    "calls": 13,
+    "geometries": 13,
+    "textures": 2,
+    "resources": [
+      {
+        "file": "public/taller/workshop/experience-400.webp",
+        "width": 400,
+        "bytes": 10896
+      },
+      {
+        "file": "public/taller/workshop/experience-640.webp",
+        "width": 640,
+        "bytes": 19212
+      },
+      {
+        "file": "public/taller/workshop/experience-800.webp",
+        "width": 800,
+        "bytes": 23756
+      }
+    ]
+  },
+  {
+    "name": "skills",
+    "width": 1000,
+    "height": 1000,
+    "geometryBytes": 121408,
+    "triangles": 4560,
+    "calls": 9,
+    "geometries": 9,
+    "textures": 2,
+    "resources": [
+      {
+        "file": "public/taller/workshop/skills-400.webp",
+        "width": 400,
+        "bytes": 22980
+      },
+      {
+        "file": "public/taller/workshop/skills-640.webp",
+        "width": 640,
+        "bytes": 41428
+      },
+      {
+        "file": "public/taller/workshop/skills-800.webp",
+        "width": 800,
+        "bytes": 52676
+      }
+    ]
+  },
+  {
+    "name": "method",
+    "width": 1000,
+    "height": 1000,
+    "geometryBytes": 49072,
+    "triangles": 1800,
+    "calls": 11,
+    "geometries": 11,
+    "textures": 2,
+    "resources": [
+      {
+        "file": "public/taller/workshop/method-400.webp",
+        "width": 400,
+        "bytes": 13792
+      },
+      {
+        "file": "public/taller/workshop/method-640.webp",
+        "width": 640,
+        "bytes": 22498
+      },
+      {
+        "file": "public/taller/workshop/method-800.webp",
+        "width": 800,
+        "bytes": 28738
+      }
+    ]
+  }
+]

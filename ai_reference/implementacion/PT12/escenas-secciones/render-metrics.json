@@ -1,0 +1,137 @@
+[
+  {
+    "name": "projects",
+    "width": 1000,
+    "height": 1000,
+    "geometryBytes": 65296,
+    "triangles": 2328,
+    "calls": 14,
+    "geometries": 14,
+    "textures": 2,
+    "resources": [
+      {
+        "file": "public/taller/workshop/projects-400.webp",
+        "width": 400,
+        "bytes": 11114
+      },
+      {
+        "file": "public/taller/workshop/projects-640.webp",
+        "width": 640,
+        "bytes": 18796
+      },
+      {
+        "file": "public/taller/workshop/projects-800.webp",
+        "width": 800,
+        "bytes": 24076
+      }
+    ]
+  },
+  {
+    "name": "career",
+    "width": 1000,
+    "height": 1000,
+    "geometryBytes": 49656,
+    "triangles": 1684,
+    "calls": 13,
+    "geometries": 13,
+    "textures": 2,
+    "resources": [
+      {
+        "file": "public/taller/workshop/career-400.webp",
+        "width": 400,
+        "bytes": 15940
+      },
+      {
+        "file": "public/taller/workshop/career-640.webp",
+        "width": 640,
+        "bytes": 27038
+      },
+      {
+        "file": "public/taller/workshop/career-800.webp",
+        "width": 800,
+        "bytes": 34454
+      }
+    ]
+  },
+  {
+    "name": "works",
+    "width": 1000,
+    "height": 1000,
+    "geometryBytes": 32784,
+    "triangles": 936,
+    "calls": 18,
+    "geometries": 18,
+    "textures": 2,
+    "resources": [
+      {
+        "file": "public/taller/workshop/works-400.webp",
+        "width": 400,
+        "bytes": 10804
+      },
+      {
+        "file": "public/taller/workshop/works-640.webp",
+        "width": 640,
+        "bytes": 17960
+      },
+      {
+        "file": "public/taller/workshop/works-800.webp",
+        "width": 800,
+        "bytes": 22766
+      }
+    ]
+  },
+  {
+    "name": "about",
+    "width": 1000,
+    "height": 1000,
+    "geometryBytes": 76016,
+    "triangles": 2904,
+    "calls": 11,
+    "geometries": 11,
+    "textures": 2,
+    "resources": [
+      {
+        "file": "public/taller/workshop/about-400.webp",
+        "width": 400,
+        "bytes": 19666
+      },
+      {
+        "file": "public/taller/workshop/about-640.webp",
+        "width": 640,
+        "bytes": 34340
+      },
+      {
+        "file": "public/taller/workshop/about-800.webp",
+        "width": 800,
+        "bytes": 43434
+      }
+    ]
+  },
+  {
+    "name": "contact",
+    "width": 1000,
+    "height": 1000,
+    "geometryBytes": 101392,
+    "triangles": 3992,
+    "calls": 9,
+    "geometries": 9,
+    "textures": 2,
+    "resources": [
+      {
+        "file": "public/taller/workshop/contact-400.webp",
+        "width": 400,
+        "bytes": 17648
+      },
+      {
+        "file": "public/taller/workshop/contact-640.webp",
+        "width": 640,
+        "bytes": 30100
+      },
+      {
+        "file": "public/taller/workshop/contact-800.webp",
+        "width": 800,
+        "bytes": 38910
+      }
+    ]
+  }
+]

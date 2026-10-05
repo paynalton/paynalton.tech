@@ -1,0 +1,36 @@
+---
+editorial:
+  id: M111
+  category: cuentos
+  tags:
+  - cuento
+  - prosa-poetica
+  - vejez
+  - amor
+  - memoria
+  - muerte
+  version_group: V07
+---
+El Jardín.
+
+Rayos de luz se cuelan suavemente por entre las hojas del manzano iluminando tenuemente, en una cálida caricia a las flores que crecen a ambos lados del sendero. Al final del jardín una vieja silla de ornamentada herrería te espera como cada medio día.
+
+Nieve blanca reluce sobre tu cabeza al cruzar por el sendero sobre el que yacen unas cuantas hojas secas del otoño que ya se aproxima. Con cuidado, apoyandote sobre la mesa firme tomas asiento intentando no perder el equilibrio.
+
+Tu cuerpo está cansado y tu piel tiene el color del otoño que llega a tu vidatras tantos años de alegrías y pesares. En tus manos temblorosas se yergue imponente aque libro que ya tres veces has leido y que sin embargo sus palabras siguen llenando de alegría tu corazón. ¿Cuantas veces no diste gracias al destino por permitirte, almenos, tener la dicha de poder seguir leyendo en este jardín?.
+
+¿Recuerdas? La primera vez que pisaste este lugar dijiste que era un sitio horrible. el polvo y a hierba salvaje dominaban el paisaje, algo muy diferente de lo que habías imaginado en un principio cuando soñabas que aquel príncipe te llevaría a un enorme palacio de cristal.
+
+"Este será nuestro paraíso" dijo él al comprender tu desaliento y apretó tu mano, aun suave, para darte esa confianza que siempre te había brindado. "verás que podemos convertir esto en un lugar hermoso".
+
+¿Recuerdas? Cuantos años pasaron juntos en este jardín, tu leías este mismo libro mientras él plantaba flores para tí. Aquel manzano que reemplazó al moribundo naranjo fue testigo de tantas cosas.
+
+Hace diez años él salió de casa, te dio un beso en la frente y cruzó la puerta sin decir a donde iba. Por la tarde un vecino te dió la terrible noticia de que el no volvería jamás y que sus últimas palabras eran para revelar un lugar secreto en este jardín, lleno de cartas, romances, poemas que él escribió para tí.
+
+Desde hace diez años una lágrima en su honos brota de tus ojos cuando por un instante te sientas en este lugar y lo vés arrodillado, con la cara sucia y las manos metidas en la tierra mientras te platica cosas sin mucha importancia.
+
+Esta tarde es especial. No has terminado aun de leer de nuevo este libro, pero tu corazón empieza ya a marcar una despedida. El sueño comienza a llegar con la brisa del atardecer mientras el sol dibuja en las nuves hermosos tonos carmesí. Tus ojos se cierran ante el fuerte impulso que te lleva a dormir un sueño distinto a los demás, un sueño que has esperado por diez largos años y que ahora, por fin, ha llegado para conducirte al final de tu vida, al reencuentro que tanto has anhelado.
+
+¿Alguna vez imaginaste que sería así?. ¿Alguna vez pensaste que el ultimo instante de tu vida lo pasarías en un pequeño paraiso?
+
+Uno de tus hijos entra al jardín, encuentra el libro en el suelo, tu cabeza reposando sobre el pecho y una ultima exhalación que se escapa por entre las hojas del manzano para reunirse con su amado.

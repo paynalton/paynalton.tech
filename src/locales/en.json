@@ -211,7 +211,20 @@
     "@paynalton on Telegram": "@paynalton on Telegram",
     "Support me via PayPal": "Support me via PayPal",
     "Find me on Discord": "Find me on Discord",
-    "Amazon registry": "Amazon wishlist"
-
-
+    "Amazon registry": "Amazon wishlist",
+    "footer.rights": "🄯 {year} Paynalton. No rights reserved.",
+    "footer.twitter": "Follow Paynalton on Twitter",
+    "footer.github": "Go to Paynalton's GitHub repo",
+    "footer.linkedin": "Follow Paynalton on Linkedin",
+    "nav.backToTop": "Back to top",
+    "profile.portrait": "Portrait of Paynalton",
+    "Development Manager": "Development Manager",
+    "Backend Developer": "Backend Developer",
+    "FullStack Developer": "FullStack Developer",
+    "HelpDesk Technician": "HelpDesk Technician",
+    "Production Manager": "Production Manager",
+    "Book": "Book",
+    "Essay": "Essay",
+    "ideas.toasterDescription": "A guide to understanding how our ideas arise, what happens when we think alongside artificial intelligence, and how to remain in charge of our own minds.",
+    "Blog": "Blog"
 }

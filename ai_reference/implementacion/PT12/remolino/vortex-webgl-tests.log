@@ -1,0 +1,26 @@
+npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+npm notice run paynalton.tech@0.0.1 test:e2e
+npm notice run playwright test tests/figure-vortex.spec.ts --workers=2
+[WebServer] npm warn Unknown env config "always-auth". This will error in a future major version of npm. See `npm help npmrc` for supported config options.
+[WebServer] npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+[WebServer] npm notice run paynalton.tech@0.0.1 preview
+[WebServer] npm notice run astro preview --host 127.0.0.1 --port 4334 --ignore-lock
+[WebServer] (node:365583) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 4 tests using 2 workers
+
+(node:365695) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:365694) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 [desktop] › tests/figure-vortex.spec.ts:26:1 › reduced motion removes the vortex controls (177ms)
+(node:365999) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  2 [desktop] › tests/figure-vortex.spec.ts:4:1 › one click spirals every figure away in ten seconds without shifting content (12.5s)
+(node:366403) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  3 [mobile] › tests/figure-vortex.spec.ts:4:1 › one click spirals every figure away in ten seconds without shifting content (12.2s)
+  ✓  4 [mobile] › tests/figure-vortex.spec.ts:26:1 › reduced motion removes the vortex controls (173ms)
+
+  4 passed (14.3s)

@@ -1,0 +1,32 @@
+npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+npm notice run paynalton.tech@0.0.1 test:e2e
+npm notice run playwright test tests/professional.spec.ts tests/home-review.spec.ts --grep section header|complete catalog|copy succeeds|unsupported APIs --workers=1
+[WebServer] npm warn Unknown env config "always-auth". This will error in a future major version of npm. See `npm help npmrc` for supported config options.
+[WebServer] npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+[WebServer] npm notice run paynalton.tech@0.0.1 preview
+[WebServer] npm notice run astro preview --host 127.0.0.1 --port 4334 --ignore-lock
+[WebServer] (node:209427) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 10 tests using 1 worker
+
+(node:209565) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [desktop] › tests/home-review.spec.ts:5:1 › section headers have distinct live scenes and matching static fallbacks (10.5s)
+  ✓   2 [desktop] › tests/home-review.spec.ts:28:1 › section header images work without JavaScript (773ms)
+(node:210128) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   3 [desktop] › tests/professional.spec.ts:5:1 › complete catalog, chronology, printable details and review captures (6.0s)
+  ✓   4 [desktop] › tests/professional.spec.ts:30:1 › copy succeeds and permission denial leaves selectable email (1.0s)
+  ✓   5 [desktop] › tests/professional.spec.ts:59:1 › unsupported APIs and no JavaScript retain contact and sharing links (279ms)
+(node:210614) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   6 [mobile] › tests/home-review.spec.ts:5:1 › section headers have distinct live scenes and matching static fallbacks (11.2s)
+  ✓   7 [mobile] › tests/home-review.spec.ts:28:1 › section header images work without JavaScript (886ms)
+(node:211225) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   8 [mobile] › tests/professional.spec.ts:5:1 › complete catalog, chronology, printable details and review captures (12.8s)
+  ✓   9 [mobile] › tests/professional.spec.ts:30:1 › copy succeeds and permission denial leaves selectable email (233ms)
+  ✓  10 [mobile] › tests/professional.spec.ts:59:1 › unsupported APIs and no JavaScript retain contact and sharing links (293ms)
+
+  10 passed (46.6s)

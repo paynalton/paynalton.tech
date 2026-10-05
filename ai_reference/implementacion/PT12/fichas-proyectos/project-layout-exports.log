@@ -1,0 +1,5 @@
+npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+npm notice run paynalton.tech@0.0.1 check:exports
+npm notice run node scripts/check-project-artifacts.mjs && node scripts/check-work-artifacts.mjs
+Exportaciones: 24 archivos coinciden con la proyección pública; sin proyectos extra.
+Obras: 220 exportaciones coinciden con los textos públicos.

@@ -1,0 +1,7228 @@
+[
+  {
+    "id": "pipila",
+    "type": "project",
+    "visibility": "public",
+    "facts": {
+      "technologies": [
+        "Node.js",
+        "SailsJS",
+        "OIDC"
+      ],
+      "presentation": "case"
+    },
+    "relations": [
+      {
+        "kind": "during",
+        "target": "sodigital"
+      },
+      {
+        "kind": "demonstrates",
+        "target": "integracion-de-sistemas"
+      }
+    ]
+  },
+  {
+    "id": "sodigital",
+    "type": "experience",
+    "visibility": "public",
+    "facts": {
+      "organization": "SoDigital",
+      "start": "2020",
+      "end": "2025"
+    },
+    "relations": [
+      {
+        "kind": "demonstrates",
+        "target": "liderazgo-de-equipos"
+      }
+    ]
+  },
+  {
+    "id": "integracion-de-sistemas",
+    "type": "term",
+    "visibility": "public",
+    "facts": {
+      "family": "capability"
+    },
+    "relations": []
+  },
+  {
+    "id": "ejemplo-lectura",
+    "type": "work",
+    "visibility": "example",
+    "facts": {
+      "format": "series",
+      "author": null
+    },
+    "relations": []
+  },
+  {
+    "id": "onix",
+    "type": "project",
+    "visibility": "public",
+    "facts": {
+      "technologies": [
+        "MariaDB",
+        "DBASE/DBF",
+        "Zend 1.5",
+        "Laminas",
+        "Docker",
+        "AWS"
+      ],
+      "presentation": "case"
+    },
+    "relations": [
+      {
+        "kind": "during",
+        "target": "cat-products"
+      },
+      {
+        "kind": "demonstrates",
+        "target": "arquitectura-de-soluciones"
+      },
+      {
+        "kind": "demonstrates",
+        "target": "operacion-y-modernizacion"
+      },
+      {
+        "kind": "related",
+        "target": "loro"
+      },
+      {
+        "target": "resolucion-de-problemas",
+        "kind": "demonstrates"
+      }
+    ]
+  },
+  {
+    "id": "guacamaya",
+    "type": "project",
+    "visibility": "public",
+    "facts": {
+      "technologies": [
+        "LocalAI",
+        "Node.js",
+        "Python"
+      ],
+      "presentation": "case"
+    },
+    "relations": [
+      {
+        "kind": "demonstrates",
+        "target": "trabajo-con-inteligencia-artificial"
+      },
+      {
+        "kind": "related",
+        "target": "loro"
+      },
+      {
+        "kind": "related",
+        "target": "perico"
+      },
+      {
+        "target": "creacion-editorial",
+        "kind": "discusses"
+      }
+    ]
+  },
+  {
+    "id": "winner",
+    "type": "project",
+    "visibility": "public",
+    "facts": {
+      "technologies": [
+        "Laminas API Tools",
+        "Laravel",
+        "AWS ECS"
+      ],
+      "presentation": "case"
+    },
+    "relations": [
+      {
+        "kind": "during",
+        "target": "sodigital"
+      },
+      {
+        "kind": "demonstrates",
+        "target": "desarrollo-fullstack"
+      }
+    ]
+  },
+  {
+    "id": "yayauhqui",
+    "type": "project",
+    "visibility": "public",
+    "facts": {
+      "technologies": [
+        "AWS"
+      ],
+      "presentation": "brief"
+    },
+    "relations": [
+      {
+        "kind": "demonstrates",
+        "target": "operacion-y-modernizacion"
+      },
+      {
+        "target": "trabajo-con-inteligencia-artificial",
+        "kind": "assistedBy"
+      }
+    ]
+  },
+  {
+    "id": "spellchecker",
+    "type": "project",
+    "visibility": "public",
+    "facts": {
+      "technologies": [
+        "LocalAI"
+      ],
+      "presentation": "brief"
+    },
+    "relations": [
+      {
+        "kind": "demonstrates",
+        "target": "trabajo-con-inteligencia-artificial"
+      }
+    ]
+  },
+  {
+    "id": "loro",
+    "type": "project",
+    "visibility": "public",
+    "facts": {
+      "technologies": [],
+      "presentation": "brief"
+    },
+    "relations": [
+      {
+        "kind": "related",
+        "target": "onix"
+      },
+      {
+        "kind": "demonstrates",
+        "target": "trabajo-con-inteligencia-artificial"
+      },
+      {
+        "target": "memoria-y-contexto-de-agentes",
+        "kind": "discusses"
+      }
+    ]
+  },
+  {
+    "id": "perico",
+    "type": "project",
+    "visibility": "public",
+    "facts": {
+      "technologies": [
+        "VS Code"
+      ],
+      "presentation": "brief"
+    },
+    "relations": [
+      {
+        "kind": "related",
+        "target": "loro"
+      },
+      {
+        "target": "memoria-y-contexto-de-agentes",
+        "kind": "discusses"
+      }
+    ]
+  },
+  {
+    "id": "delta",
+    "type": "project",
+    "visibility": "public",
+    "facts": {
+      "technologies": [
+        "REST",
+        "WebSocket",
+        "AWS"
+      ],
+      "presentation": "brief"
+    },
+    "relations": [
+      {
+        "kind": "demonstrates",
+        "target": "arquitectura-de-soluciones"
+      }
+    ]
+  },
+  {
+    "id": "delta-commerce",
+    "type": "project",
+    "visibility": "public",
+    "facts": {
+      "technologies": [
+        "Shopify"
+      ],
+      "presentation": "brief"
+    },
+    "relations": [
+      {
+        "kind": "related",
+        "target": "delta"
+      },
+      {
+        "kind": "demonstrates",
+        "target": "arquitectura-de-soluciones"
+      }
+    ]
+  },
+  {
+    "id": "k4y",
+    "type": "project",
+    "visibility": "public",
+    "facts": {
+      "technologies": [],
+      "presentation": "brief"
+    },
+    "relations": [
+      {
+        "kind": "demonstrates",
+        "target": "desarrollo-fullstack"
+      }
+    ]
+  },
+  {
+    "id": "holstein",
+    "type": "project",
+    "visibility": "public",
+    "facts": {
+      "technologies": [],
+      "presentation": "brief"
+    },
+    "relations": [
+      {
+        "kind": "demonstrates",
+        "target": "desarrollo-fullstack"
+      }
+    ]
+  },
+  {
+    "id": "freeway",
+    "type": "experience",
+    "visibility": "public",
+    "facts": {
+      "organization": "Freeway",
+      "start": "2025-06",
+      "end": null
+    },
+    "relations": []
+  },
+  {
+    "id": "ingenia-agency",
+    "type": "experience",
+    "visibility": "public",
+    "facts": {
+      "organization": "Ingenia Agency",
+      "start": "2019",
+      "end": "2020"
+    },
+    "relations": [
+      {
+        "kind": "demonstrates",
+        "target": "liderazgo-de-equipos"
+      }
+    ]
+  },
+  {
+    "id": "zenit-consultores",
+    "type": "experience",
+    "visibility": "public",
+    "facts": {
+      "organization": "Zenit Consultores",
+      "start": "2018",
+      "end": "2019"
+    },
+    "relations": [
+      {
+        "kind": "demonstrates",
+        "target": "liderazgo-de-equipos"
+      }
+    ]
+  },
+  {
+    "id": "cat-products",
+    "type": "experience",
+    "visibility": "public",
+    "facts": {
+      "organization": "CAT Products",
+      "start": "2013",
+      "end": "2018"
+    },
+    "relations": [
+      {
+        "kind": "demonstrates",
+        "target": "liderazgo-de-equipos"
+      }
+    ]
+  },
+  {
+    "id": "electronic-spacios-finder",
+    "type": "experience",
+    "visibility": "public",
+    "facts": {
+      "organization": "Electronic Spacios Finder",
+      "start": "2012",
+      "end": "2013"
+    },
+    "relations": []
+  },
+  {
+    "id": "idea-diseno",
+    "type": "experience",
+    "visibility": "public",
+    "facts": {
+      "organization": "Idea Diseño",
+      "start": "2011",
+      "end": "2012"
+    },
+    "relations": []
+  },
+  {
+    "id": "heti",
+    "type": "experience",
+    "visibility": "public",
+    "facts": {
+      "organization": "Computación Integral HETI",
+      "start": "2009",
+      "end": "2010"
+    },
+    "relations": []
+  },
+  {
+    "id": "asm-clasificados",
+    "type": "experience",
+    "visibility": "public",
+    "facts": {
+      "organization": "ASM Clasificados de México",
+      "start": "2007",
+      "end": "2009"
+    },
+    "relations": []
+  },
+  {
+    "id": "mainbit",
+    "type": "experience",
+    "visibility": "public",
+    "facts": {
+      "organization": "Mainbit",
+      "start": "2006",
+      "end": "2007"
+    },
+    "relations": []
+  },
+  {
+    "id": "computadoras-dae",
+    "type": "experience",
+    "visibility": "public",
+    "facts": {
+      "organization": "Computadoras DAE",
+      "start": "2003",
+      "end": "2006"
+    },
+    "relations": []
+  },
+  {
+    "id": "arquitectura-de-soluciones",
+    "type": "term",
+    "visibility": "public",
+    "facts": {
+      "family": "capability"
+    },
+    "relations": []
+  },
+  {
+    "id": "desarrollo-fullstack",
+    "type": "term",
+    "visibility": "public",
+    "facts": {
+      "family": "capability"
+    },
+    "relations": []
+  },
+  {
+    "id": "operacion-y-modernizacion",
+    "type": "term",
+    "visibility": "public",
+    "facts": {
+      "family": "capability"
+    },
+    "relations": []
+  },
+  {
+    "id": "trabajo-con-inteligencia-artificial",
+    "type": "term",
+    "visibility": "public",
+    "facts": {
+      "family": "capability"
+    },
+    "relations": []
+  },
+  {
+    "id": "liderazgo-de-equipos",
+    "type": "term",
+    "visibility": "public",
+    "facts": {
+      "family": "capability"
+    },
+    "relations": []
+  },
+  {
+    "id": "cuando-la-tostadora-te-responde",
+    "type": "work",
+    "visibility": "public",
+    "facts": {
+      "format": "book",
+      "author": "Paynalton",
+      "year": 2026,
+      "license": "CC BY-SA 4.0",
+      "editions": [
+        {
+          "locale": "es",
+          "label": "Español",
+          "format": "pdf",
+          "url": "/books/cuando-la-tostadora-te-responde/cuando-la-tostadora-te-responde-es.pdf"
+        },
+        {
+          "locale": "es",
+          "label": "Español",
+          "format": "epub",
+          "url": "/books/cuando-la-tostadora-te-responde/cuando-la-tostadora-te-responde-es.epub"
+        },
+        {
+          "locale": "en",
+          "label": "English",
+          "format": "pdf",
+          "url": "/books/cuando-la-tostadora-te-responde/cuando-la-tostadora-te-responde-en.pdf"
+        },
+        {
+          "locale": "en",
+          "label": "English",
+          "format": "epub",
+          "url": "/books/cuando-la-tostadora-te-responde/cuando-la-tostadora-te-responde-en.epub"
+        },
+        {
+          "locale": "nah",
+          "label": "Nawatlahtolli",
+          "format": "pdf",
+          "url": "/books/cuando-la-tostadora-te-responde/cuando-la-tostadora-te-responde-nah.pdf"
+        },
+        {
+          "locale": "nah",
+          "label": "Nawatlahtolli",
+          "format": "epub",
+          "url": "/books/cuando-la-tostadora-te-responde/cuando-la-tostadora-te-responde-nah.epub"
+        }
+      ],
+      "artwork": "/books/cuando-la-tostadora-te-responde/cover-art.png",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "relations": [
+      {
+        "target": "guacamaya",
+        "kind": "related"
+      },
+      {
+        "target": "creacion-editorial",
+        "kind": "discusses"
+      },
+      {
+        "target": "inteligencia-y-humanidad",
+        "kind": "discusses"
+      }
+    ]
+  },
+  {
+    "id": "resolucion-de-problemas",
+    "type": "term",
+    "visibility": "public",
+    "facts": {
+      "family": "topic"
+    },
+    "relations": []
+  },
+  {
+    "id": "memoria-y-contexto-de-agentes",
+    "type": "term",
+    "visibility": "public",
+    "facts": {
+      "family": "topic"
+    },
+    "relations": []
+  },
+  {
+    "id": "creacion-editorial",
+    "type": "term",
+    "visibility": "public",
+    "facts": {
+      "family": "topic"
+    },
+    "relations": []
+  },
+  {
+    "id": "inteligencia-y-humanidad",
+    "type": "term",
+    "visibility": "public",
+    "facts": {
+      "family": "topic"
+    },
+    "relations": []
+  },
+  {
+    "id": "lectura-categoria-academicos",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "genre"
+    }
+  },
+  {
+    "id": "lectura-texto-teorico",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-matematicas",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-indeterminacion",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-conocimiento",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-aritmetica-con-numeros-indeterminados",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-academicos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-texto-teorico",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-matematicas",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-indeterminacion",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-conocimiento",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "essay",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "academicos"
+    }
+  },
+  {
+    "id": "lectura-categoria-cuentos",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "genre"
+    }
+  },
+  {
+    "id": "lectura-cuento",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-terror",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-ciudad",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-muerte",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-la-chica-nueva",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-terror",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-ciudad",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-muerte",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos",
+      "sourceUrl": "https://cuentosdesangreymuerte.blogspot.com/2010/02/la-chica-nueva.html",
+      "year": 2010
+    }
+  },
+  {
+    "id": "lectura-categoria-editoriales",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "genre"
+    }
+  },
+  {
+    "id": "lectura-presentacion-editorial",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-presentacion",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-presentacion",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-editoriales",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-presentacion-editorial",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-presentacion",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "editorial",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "editoriales",
+      "sourceUrl": "https://cuentosdesangreymuerte.blogspot.com/2010/02/presentacion.html",
+      "year": 2010
+    }
+  },
+  {
+    "id": "lectura-crisis-economica",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-pareja",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-silencio-oscuridad-y-muerte",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-terror",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-crisis-economica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-pareja",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-muerte",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos",
+      "sourceUrl": "https://cuentosdesangreymuerte.blogspot.com/2010/02/silencio-oscuridad-y-muerte.html",
+      "year": 2010
+    }
+  },
+  {
+    "id": "lectura-memoria",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-identidad",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-amnesia",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-terror",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-memoria",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-identidad",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-muerte",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos",
+      "sourceUrl": "https://cuentosdesangreymuerte.blogspot.com/2010/02/amnesia.html",
+      "year": 2010
+    }
+  },
+  {
+    "id": "lectura-drama-social",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-infancia",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-familia",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-violencia",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-mama",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-drama-social",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-infancia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-familia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-violencia",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos",
+      "sourceUrl": "https://cuentosdesangreymuerte.blogspot.com/2010/03/mama.html",
+      "year": 2010
+    }
+  },
+  {
+    "id": "lectura-sobrenatural",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-memoria-historica",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-la-niebla-de-san-jacinto",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-terror",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-sobrenatural",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-memoria-historica",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos",
+      "sourceUrl": "https://cuentosdesangreymuerte.blogspot.com/2010/08/la-niebla-de-san-jacinto.html",
+      "year": 2010
+    }
+  },
+  {
+    "id": "lectura-fantasia",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-fanfiction",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-aventura",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-ingenio",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-por-un-poco-de-kaja-mita",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-fantasia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-fanfiction",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-aventura",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-ingenio",
+        "kind": "discusses"
+      },
+      {
+        "target": "texto-barriada",
+        "kind": "related"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos",
+      "sourceUrl": "https://drizzdlvapor.blogspot.com/2012/11/por-un-poco-de-kajamita.html",
+      "year": 2012,
+      "series": "drizz-del-vapor"
+    }
+  },
+  {
+    "id": "lectura-supervivencia",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-barriada",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-fantasia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-fanfiction",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-infancia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-familia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-supervivencia",
+        "kind": "discusses"
+      },
+      {
+        "target": "texto-por-un-poco-de-kaja-mita",
+        "kind": "related"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos",
+      "sourceUrl": "https://drizzdlvapor.blogspot.com/2012/12/barriada.html",
+      "year": 2012,
+      "series": "drizz-del-vapor"
+    }
+  },
+  {
+    "id": "lectura-categoria-poesia",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "genre"
+    }
+  },
+  {
+    "id": "lectura-poesia",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-prosa-poetica",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-amor",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-desamor",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-lluvia",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-gotas-de-lluvia",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-poesia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-poesia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-prosa-poetica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-amor",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-desamor",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-lluvia",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "poetry",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "poesia",
+      "sourceUrl": "https://misotrosrelatos.blogspot.com/2010/02/gotas-de-lluvia.html",
+      "year": 2010
+    }
+  },
+  {
+    "id": "texto-presentando",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-editoriales",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-presentacion-editorial",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-presentacion",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "editorial",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "editoriales",
+      "sourceUrl": "https://misotrosrelatos.blogspot.com/2010/02/presentando.html",
+      "year": 2010
+    }
+  },
+  {
+    "id": "lectura-microrrelato",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-rosa",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-microrrelato",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-prosa-poetica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-desamor",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-ciudad",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos",
+      "sourceUrl": "https://misotrosrelatos.blogspot.com/2010/02/rosa.html",
+      "year": 2010
+    }
+  },
+  {
+    "id": "lectura-duelo",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-esperanza",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-amistad",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-el-hada",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-fantasia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-duelo",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-esperanza",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-amistad",
+        "kind": "discusses"
+      },
+      {
+        "target": "texto-hacia-el-mar",
+        "kind": "related"
+      },
+      {
+        "target": "texto-la-reina-del-mar",
+        "kind": "related"
+      },
+      {
+        "target": "texto-el-reencuentro",
+        "kind": "related"
+      },
+      {
+        "target": "texto-estrellas-errantes",
+        "kind": "related"
+      },
+      {
+        "target": "texto-historias-olvidadas",
+        "kind": "related"
+      },
+      {
+        "target": "texto-princesa-sin-reino",
+        "kind": "related"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos",
+      "sourceUrl": "https://misotrosrelatos.blogspot.com/2010/02/el-hada.html",
+      "year": 2010,
+      "series": "hada-y-caballero"
+    }
+  },
+  {
+    "id": "lectura-poema",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-ausencia",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-cuanto-hace-ya",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-poesia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-poesia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-poema",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-desamor",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-ausencia",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "poetry",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "poesia",
+      "sourceUrl": "https://misotrosrelatos.blogspot.com/2010/02/cuanto-hace-ya.html",
+      "year": 2010
+    }
+  },
+  {
+    "id": "lectura-soledad",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-naturaleza",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-hojas-secas",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-poesia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-poesia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-prosa-poetica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-desamor",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-soledad",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-naturaleza",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "poetry",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "poesia",
+      "sourceUrl": "https://misotrosrelatos.blogspot.com/2010/03/hojas-secas.html",
+      "year": 2010
+    }
+  },
+  {
+    "id": "lectura-viaje",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-hacia-el-mar",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-fantasia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-amistad",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-duelo",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-viaje",
+        "kind": "discusses"
+      },
+      {
+        "target": "texto-el-hada",
+        "kind": "related"
+      },
+      {
+        "target": "texto-la-reina-del-mar",
+        "kind": "related"
+      },
+      {
+        "target": "texto-el-reencuentro",
+        "kind": "related"
+      },
+      {
+        "target": "texto-estrellas-errantes",
+        "kind": "related"
+      },
+      {
+        "target": "texto-historias-olvidadas",
+        "kind": "related"
+      },
+      {
+        "target": "texto-princesa-sin-reino",
+        "kind": "related"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos",
+      "sourceUrl": "https://misotrosrelatos.blogspot.com/2010/03/hacia-el-mar.html",
+      "year": 2010,
+      "series": "hada-y-caballero"
+    }
+  },
+  {
+    "id": "lectura-intimidad",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-mirame",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-poesia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-poesia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-prosa-poetica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-amor",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-intimidad",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "poetry",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "poesia",
+      "sourceUrl": "https://misotrosrelatos.blogspot.com/2010/03/mirame.html",
+      "year": 2010
+    }
+  },
+  {
+    "id": "texto-la-flama",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-poesia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-poesia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-prosa-poetica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-amor",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-intimidad",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "poetry",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "poesia",
+      "sourceUrl": "https://misotrosrelatos.blogspot.com/2010/03/la-flama.html",
+      "year": 2010
+    }
+  },
+  {
+    "id": "lectura-mar",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-la-reina-del-mar",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-fantasia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-duelo",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-amor",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-mar",
+        "kind": "discusses"
+      },
+      {
+        "target": "texto-el-hada",
+        "kind": "related"
+      },
+      {
+        "target": "texto-hacia-el-mar",
+        "kind": "related"
+      },
+      {
+        "target": "texto-el-reencuentro",
+        "kind": "related"
+      },
+      {
+        "target": "texto-estrellas-errantes",
+        "kind": "related"
+      },
+      {
+        "target": "texto-historias-olvidadas",
+        "kind": "related"
+      },
+      {
+        "target": "texto-princesa-sin-reino",
+        "kind": "related"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos",
+      "sourceUrl": "https://misotrosrelatos.blogspot.com/2010/03/la-reina-del-mar.html",
+      "year": 2010,
+      "series": "hada-y-caballero"
+    }
+  },
+  {
+    "id": "lectura-recuperacion-emocional",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-que-facil-es-decir-te-amo",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-poesia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-poesia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-prosa-poetica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-amor",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-desamor",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-recuperacion-emocional",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "poetry",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "poesia",
+      "sourceUrl": "https://misotrosrelatos.blogspot.com/2010/03/que-facil-es-decir-te-amo-cuando-tus.html",
+      "year": 2010
+    }
+  },
+  {
+    "id": "lectura-suenos",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-princesa",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-poesia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-poesia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-prosa-poetica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-amor",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-suenos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-ausencia",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "poetry",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "poesia",
+      "sourceUrl": "https://misotrosrelatos.blogspot.com/2010/03/princesa.html",
+      "year": 2010
+    }
+  },
+  {
+    "id": "lectura-perdida",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-mi-querido-arbol",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-fantasia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-naturaleza",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-memoria",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-perdida",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton y Paoz",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos",
+      "sourceUrl": "https://misotrosrelatos.blogspot.com/2010/03/mi-querido-arbol.html",
+      "year": 2010
+    }
+  },
+  {
+    "id": "lectura-intolerancia",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-el-reencuentro",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-fantasia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-violencia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-intolerancia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-amistad",
+        "kind": "discusses"
+      },
+      {
+        "target": "texto-el-hada",
+        "kind": "related"
+      },
+      {
+        "target": "texto-hacia-el-mar",
+        "kind": "related"
+      },
+      {
+        "target": "texto-la-reina-del-mar",
+        "kind": "related"
+      },
+      {
+        "target": "texto-estrellas-errantes",
+        "kind": "related"
+      },
+      {
+        "target": "texto-historias-olvidadas",
+        "kind": "related"
+      },
+      {
+        "target": "texto-princesa-sin-reino",
+        "kind": "related"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos",
+      "sourceUrl": "https://misotrosrelatos.blogspot.com/2010/04/el-reencuentro.html",
+      "year": 2010,
+      "series": "hada-y-caballero"
+    }
+  },
+  {
+    "id": "lectura-trabajo",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-estrellas-errantes",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-fantasia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-amistad",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-amor",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-trabajo",
+        "kind": "discusses"
+      },
+      {
+        "target": "texto-el-hada",
+        "kind": "related"
+      },
+      {
+        "target": "texto-hacia-el-mar",
+        "kind": "related"
+      },
+      {
+        "target": "texto-la-reina-del-mar",
+        "kind": "related"
+      },
+      {
+        "target": "texto-el-reencuentro",
+        "kind": "related"
+      },
+      {
+        "target": "texto-historias-olvidadas",
+        "kind": "related"
+      },
+      {
+        "target": "texto-princesa-sin-reino",
+        "kind": "related"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos",
+      "sourceUrl": "https://misotrosrelatos.blogspot.com/2010/04/las-barras-de-acero-se-hunden-en-el.html",
+      "year": 2010,
+      "series": "hada-y-caballero"
+    }
+  },
+  {
+    "id": "texto-historias-olvidadas",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-fantasia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-prosa-poetica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-perdida",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-memoria",
+        "kind": "discusses"
+      },
+      {
+        "target": "texto-el-hada",
+        "kind": "related"
+      },
+      {
+        "target": "texto-hacia-el-mar",
+        "kind": "related"
+      },
+      {
+        "target": "texto-la-reina-del-mar",
+        "kind": "related"
+      },
+      {
+        "target": "texto-el-reencuentro",
+        "kind": "related"
+      },
+      {
+        "target": "texto-estrellas-errantes",
+        "kind": "related"
+      },
+      {
+        "target": "texto-princesa-sin-reino",
+        "kind": "related"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos",
+      "sourceUrl": "https://misotrosrelatos.blogspot.com/2010/04/historias-olvidadas.html",
+      "year": 2010,
+      "series": "hada-y-caballero"
+    }
+  },
+  {
+    "id": "lectura-magia",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-la-huida",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-fantasia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-terror",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-magia",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos",
+      "sourceUrl": "https://misotrosrelatos.blogspot.com/2010/05/la-huida.html",
+      "year": 2010
+    }
+  },
+  {
+    "id": "lectura-libertad",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-princesa-sin-reino",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-fantasia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-libertad",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-amistad",
+        "kind": "discusses"
+      },
+      {
+        "target": "texto-el-hada",
+        "kind": "related"
+      },
+      {
+        "target": "texto-hacia-el-mar",
+        "kind": "related"
+      },
+      {
+        "target": "texto-la-reina-del-mar",
+        "kind": "related"
+      },
+      {
+        "target": "texto-el-reencuentro",
+        "kind": "related"
+      },
+      {
+        "target": "texto-estrellas-errantes",
+        "kind": "related"
+      },
+      {
+        "target": "texto-historias-olvidadas",
+        "kind": "related"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos",
+      "sourceUrl": "https://misotrosrelatos.blogspot.com/2010/05/princesa-sin-reino.html",
+      "year": 2010,
+      "series": "hada-y-caballero"
+    }
+  },
+  {
+    "id": "texto-texto-11-de-junio",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-poesia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-poesia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-prosa-poetica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-amor",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-desamor",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-memoria",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "poetry",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "poesia",
+      "sourceUrl": "https://misotrosrelatos.blogspot.com/2010/06/11-de-junio.html",
+      "year": 2010
+    }
+  },
+  {
+    "id": "texto-hada",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-poesia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-poesia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-prosa-poetica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-amistad",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-esperanza",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-recuperacion-emocional",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "poetry",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "poesia",
+      "sourceUrl": "https://misotrosrelatos.blogspot.com/2010/06/hada.html",
+      "year": 2010
+    }
+  },
+  {
+    "id": "lectura-noche",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-de-noche-en-la-ciudad",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-poesia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-poesia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-prosa-poetica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-ciudad",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-noche",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-soledad",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "poetry",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "poesia",
+      "sourceUrl": "https://misotrosrelatos.blogspot.com/2010/06/de-noche-en-la-ciudad.html",
+      "year": 2010
+    }
+  },
+  {
+    "id": "lectura-deseo",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-labios",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-poesia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-poesia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-prosa-poetica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-amor",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-deseo",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "poetry",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "poesia",
+      "sourceUrl": "https://misotrosrelatos.blogspot.com/2010/06/labios.html",
+      "year": 2010
+    }
+  },
+  {
+    "id": "lectura-fabula",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-la-luciernaga",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-fabula",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-fantasia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-esperanza",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-naturaleza",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos",
+      "sourceUrl": "https://misotrosrelatos.blogspot.com/2010/07/la-luciernaga.html",
+      "year": 2010
+    }
+  },
+  {
+    "id": "lectura-categoria-reflexiones-filosoficas",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "genre"
+    }
+  },
+  {
+    "id": "lectura-reflexion-filosofica",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-filosofia-de-la-vida",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-ecologia",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-tecnologia",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-humanidad",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-pandora",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-reflexiones-filosoficas",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-reflexion-filosofica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-filosofia-de-la-vida",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-ecologia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-tecnologia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-humanidad",
+        "kind": "discusses"
+      },
+      {
+        "target": "texto-sobre-la-montana-plateada",
+        "kind": "related"
+      },
+      {
+        "target": "texto-los-dos-concientes",
+        "kind": "related"
+      },
+      {
+        "target": "texto-la-locura-de-quijote",
+        "kind": "related"
+      },
+      {
+        "target": "texto-carta-de-un-padre-a-su-hijo-en-dia-de-reyes",
+        "kind": "related"
+      },
+      {
+        "target": "texto-existio-una-vez",
+        "kind": "related"
+      },
+      {
+        "target": "texto-pirateria-y-oportunidad",
+        "kind": "related"
+      },
+      {
+        "target": "texto-dolor",
+        "kind": "related"
+      },
+      {
+        "target": "texto-locura-hermosa-locura",
+        "kind": "related"
+      },
+      {
+        "target": "texto-memoria-alguien-ha-visto-mi-memoria",
+        "kind": "related"
+      },
+      {
+        "target": "texto-cyborg",
+        "kind": "related"
+      },
+      {
+        "target": "texto-bullyng",
+        "kind": "related"
+      }
+    ],
+    "facts": {
+      "format": "essay",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "reflexiones-filosoficas",
+      "sourceUrl": "https://montanaplateada.blogspot.com/2009/12/pandora.html",
+      "year": 2009,
+      "series": "montana-plateada"
+    }
+  },
+  {
+    "id": "lectura-identidad-digital",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-sobre-la-montana-plateada",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-fantasia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-identidad-digital",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-soledad",
+        "kind": "discusses"
+      },
+      {
+        "target": "texto-pandora",
+        "kind": "related"
+      },
+      {
+        "target": "texto-los-dos-concientes",
+        "kind": "related"
+      },
+      {
+        "target": "texto-la-locura-de-quijote",
+        "kind": "related"
+      },
+      {
+        "target": "texto-carta-de-un-padre-a-su-hijo-en-dia-de-reyes",
+        "kind": "related"
+      },
+      {
+        "target": "texto-existio-una-vez",
+        "kind": "related"
+      },
+      {
+        "target": "texto-pirateria-y-oportunidad",
+        "kind": "related"
+      },
+      {
+        "target": "texto-dolor",
+        "kind": "related"
+      },
+      {
+        "target": "texto-locura-hermosa-locura",
+        "kind": "related"
+      },
+      {
+        "target": "texto-memoria-alguien-ha-visto-mi-memoria",
+        "kind": "related"
+      },
+      {
+        "target": "texto-cyborg",
+        "kind": "related"
+      },
+      {
+        "target": "texto-bullyng",
+        "kind": "related"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos",
+      "sourceUrl": "https://montanaplateada.blogspot.com/2009/12/sobre-la-montana-plateada.html",
+      "year": 2009,
+      "series": "montana-plateada"
+    }
+  },
+  {
+    "id": "lectura-filosofia-de-la-mente",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-conciencia",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-lenguaje",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-los-dos-concientes",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-reflexiones-filosoficas",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-reflexion-filosofica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-filosofia-de-la-mente",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-conciencia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-lenguaje",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-conocimiento",
+        "kind": "discusses"
+      },
+      {
+        "target": "texto-pandora",
+        "kind": "related"
+      },
+      {
+        "target": "texto-sobre-la-montana-plateada",
+        "kind": "related"
+      },
+      {
+        "target": "texto-la-locura-de-quijote",
+        "kind": "related"
+      },
+      {
+        "target": "texto-carta-de-un-padre-a-su-hijo-en-dia-de-reyes",
+        "kind": "related"
+      },
+      {
+        "target": "texto-existio-una-vez",
+        "kind": "related"
+      },
+      {
+        "target": "texto-pirateria-y-oportunidad",
+        "kind": "related"
+      },
+      {
+        "target": "texto-dolor",
+        "kind": "related"
+      },
+      {
+        "target": "texto-locura-hermosa-locura",
+        "kind": "related"
+      },
+      {
+        "target": "texto-memoria-alguien-ha-visto-mi-memoria",
+        "kind": "related"
+      },
+      {
+        "target": "texto-cyborg",
+        "kind": "related"
+      },
+      {
+        "target": "texto-bullyng",
+        "kind": "related"
+      }
+    ],
+    "facts": {
+      "format": "essay",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "reflexiones-filosoficas",
+      "sourceUrl": "https://montanaplateada.blogspot.com/2009/12/los-dos-concientes.html",
+      "year": 2009,
+      "series": "montana-plateada"
+    }
+  },
+  {
+    "id": "lectura-categoria-personales",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "genre"
+    }
+  },
+  {
+    "id": "lectura-texto-personal",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-cronica-personal",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-literatura",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-la-locura-de-quijote",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-personales",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-texto-personal",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cronica-personal",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-literatura",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-viaje",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-amor",
+        "kind": "discusses"
+      },
+      {
+        "target": "texto-pandora",
+        "kind": "related"
+      },
+      {
+        "target": "texto-sobre-la-montana-plateada",
+        "kind": "related"
+      },
+      {
+        "target": "texto-los-dos-concientes",
+        "kind": "related"
+      },
+      {
+        "target": "texto-carta-de-un-padre-a-su-hijo-en-dia-de-reyes",
+        "kind": "related"
+      },
+      {
+        "target": "texto-existio-una-vez",
+        "kind": "related"
+      },
+      {
+        "target": "texto-pirateria-y-oportunidad",
+        "kind": "related"
+      },
+      {
+        "target": "texto-dolor",
+        "kind": "related"
+      },
+      {
+        "target": "texto-locura-hermosa-locura",
+        "kind": "related"
+      },
+      {
+        "target": "texto-memoria-alguien-ha-visto-mi-memoria",
+        "kind": "related"
+      },
+      {
+        "target": "texto-cyborg",
+        "kind": "related"
+      },
+      {
+        "target": "texto-bullyng",
+        "kind": "related"
+      }
+    ],
+    "facts": {
+      "format": "personal",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "personales",
+      "sourceUrl": "https://montanaplateada.blogspot.com/2010/01/la-locura-de-quijote.html",
+      "year": 2010,
+      "series": "montana-plateada"
+    }
+  },
+  {
+    "id": "lectura-etica",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-carta-de-un-padre-a-su-hijo-en-dia-de-reyes",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-reflexiones-filosoficas",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-reflexion-filosofica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-etica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-familia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-infancia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-amor",
+        "kind": "discusses"
+      },
+      {
+        "target": "texto-pandora",
+        "kind": "related"
+      },
+      {
+        "target": "texto-sobre-la-montana-plateada",
+        "kind": "related"
+      },
+      {
+        "target": "texto-los-dos-concientes",
+        "kind": "related"
+      },
+      {
+        "target": "texto-la-locura-de-quijote",
+        "kind": "related"
+      },
+      {
+        "target": "texto-existio-una-vez",
+        "kind": "related"
+      },
+      {
+        "target": "texto-pirateria-y-oportunidad",
+        "kind": "related"
+      },
+      {
+        "target": "texto-dolor",
+        "kind": "related"
+      },
+      {
+        "target": "texto-locura-hermosa-locura",
+        "kind": "related"
+      },
+      {
+        "target": "texto-memoria-alguien-ha-visto-mi-memoria",
+        "kind": "related"
+      },
+      {
+        "target": "texto-cyborg",
+        "kind": "related"
+      },
+      {
+        "target": "texto-bullyng",
+        "kind": "related"
+      }
+    ],
+    "facts": {
+      "format": "essay",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "reflexiones-filosoficas",
+      "sourceUrl": "https://montanaplateada.blogspot.com/2010/01/carta-de-un-padre-su-hijo-en-dia-de.html",
+      "year": 2010,
+      "series": "montana-plateada"
+    }
+  },
+  {
+    "id": "lectura-cuento-filosofico",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-alegoria",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-religion",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-existio-una-vez",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento-filosofico",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-alegoria",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-religion",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-libertad",
+        "kind": "discusses"
+      },
+      {
+        "target": "texto-pandora",
+        "kind": "related"
+      },
+      {
+        "target": "texto-sobre-la-montana-plateada",
+        "kind": "related"
+      },
+      {
+        "target": "texto-los-dos-concientes",
+        "kind": "related"
+      },
+      {
+        "target": "texto-la-locura-de-quijote",
+        "kind": "related"
+      },
+      {
+        "target": "texto-carta-de-un-padre-a-su-hijo-en-dia-de-reyes",
+        "kind": "related"
+      },
+      {
+        "target": "texto-pirateria-y-oportunidad",
+        "kind": "related"
+      },
+      {
+        "target": "texto-dolor",
+        "kind": "related"
+      },
+      {
+        "target": "texto-locura-hermosa-locura",
+        "kind": "related"
+      },
+      {
+        "target": "texto-memoria-alguien-ha-visto-mi-memoria",
+        "kind": "related"
+      },
+      {
+        "target": "texto-cyborg",
+        "kind": "related"
+      },
+      {
+        "target": "texto-bullyng",
+        "kind": "related"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos",
+      "sourceUrl": "https://montanaplateada.blogspot.com/2010/01/existio-una-vez.html",
+      "year": 2010,
+      "series": "montana-plateada"
+    }
+  },
+  {
+    "id": "lectura-categoria-criticas",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "genre"
+    }
+  },
+  {
+    "id": "lectura-critica",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-critica-cultural",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-economia",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-musica",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-propiedad-intelectual",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-pirateria-y-oportunidad",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-criticas",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-critica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-critica-cultural",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-economia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-musica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-propiedad-intelectual",
+        "kind": "discusses"
+      },
+      {
+        "target": "texto-pandora",
+        "kind": "related"
+      },
+      {
+        "target": "texto-sobre-la-montana-plateada",
+        "kind": "related"
+      },
+      {
+        "target": "texto-los-dos-concientes",
+        "kind": "related"
+      },
+      {
+        "target": "texto-la-locura-de-quijote",
+        "kind": "related"
+      },
+      {
+        "target": "texto-carta-de-un-padre-a-su-hijo-en-dia-de-reyes",
+        "kind": "related"
+      },
+      {
+        "target": "texto-existio-una-vez",
+        "kind": "related"
+      },
+      {
+        "target": "texto-dolor",
+        "kind": "related"
+      },
+      {
+        "target": "texto-locura-hermosa-locura",
+        "kind": "related"
+      },
+      {
+        "target": "texto-memoria-alguien-ha-visto-mi-memoria",
+        "kind": "related"
+      },
+      {
+        "target": "texto-cyborg",
+        "kind": "related"
+      },
+      {
+        "target": "texto-bullyng",
+        "kind": "related"
+      }
+    ],
+    "facts": {
+      "format": "critique",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "criticas",
+      "sourceUrl": "https://montanaplateada.blogspot.com/2010/01/pirateria-o-oportunidad.html",
+      "year": 2010,
+      "series": "montana-plateada"
+    }
+  },
+  {
+    "id": "lectura-reflexion-personal",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-dolor",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-personales",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-texto-personal",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-reflexion-personal",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-desamor",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-literatura",
+        "kind": "discusses"
+      },
+      {
+        "target": "texto-pandora",
+        "kind": "related"
+      },
+      {
+        "target": "texto-sobre-la-montana-plateada",
+        "kind": "related"
+      },
+      {
+        "target": "texto-los-dos-concientes",
+        "kind": "related"
+      },
+      {
+        "target": "texto-la-locura-de-quijote",
+        "kind": "related"
+      },
+      {
+        "target": "texto-carta-de-un-padre-a-su-hijo-en-dia-de-reyes",
+        "kind": "related"
+      },
+      {
+        "target": "texto-existio-una-vez",
+        "kind": "related"
+      },
+      {
+        "target": "texto-pirateria-y-oportunidad",
+        "kind": "related"
+      },
+      {
+        "target": "texto-locura-hermosa-locura",
+        "kind": "related"
+      },
+      {
+        "target": "texto-memoria-alguien-ha-visto-mi-memoria",
+        "kind": "related"
+      },
+      {
+        "target": "texto-cyborg",
+        "kind": "related"
+      },
+      {
+        "target": "texto-bullyng",
+        "kind": "related"
+      }
+    ],
+    "facts": {
+      "format": "personal",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "personales",
+      "sourceUrl": "https://montanaplateada.blogspot.com/2010/01/dolor.html",
+      "year": 2010,
+      "series": "montana-plateada"
+    }
+  },
+  {
+    "id": "lectura-filosofia-existencial",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-normas-sociales",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-locura-hermosa-locura",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-reflexiones-filosoficas",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-reflexion-filosofica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-filosofia-existencial",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-libertad",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-normas-sociales",
+        "kind": "discusses"
+      },
+      {
+        "target": "texto-pandora",
+        "kind": "related"
+      },
+      {
+        "target": "texto-sobre-la-montana-plateada",
+        "kind": "related"
+      },
+      {
+        "target": "texto-los-dos-concientes",
+        "kind": "related"
+      },
+      {
+        "target": "texto-la-locura-de-quijote",
+        "kind": "related"
+      },
+      {
+        "target": "texto-carta-de-un-padre-a-su-hijo-en-dia-de-reyes",
+        "kind": "related"
+      },
+      {
+        "target": "texto-existio-una-vez",
+        "kind": "related"
+      },
+      {
+        "target": "texto-pirateria-y-oportunidad",
+        "kind": "related"
+      },
+      {
+        "target": "texto-dolor",
+        "kind": "related"
+      },
+      {
+        "target": "texto-memoria-alguien-ha-visto-mi-memoria",
+        "kind": "related"
+      },
+      {
+        "target": "texto-cyborg",
+        "kind": "related"
+      },
+      {
+        "target": "texto-bullyng",
+        "kind": "related"
+      }
+    ],
+    "facts": {
+      "format": "essay",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "reflexiones-filosoficas",
+      "sourceUrl": "https://montanaplateada.blogspot.com/2010/02/locura-hermosa-locura.html",
+      "year": 2010,
+      "series": "montana-plateada"
+    }
+  },
+  {
+    "id": "lectura-percepcion",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-memoria-alguien-ha-visto-mi-memoria",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-reflexiones-filosoficas",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-reflexion-filosofica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-filosofia-de-la-mente",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-memoria",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-percepcion",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-conocimiento",
+        "kind": "discusses"
+      },
+      {
+        "target": "texto-pandora",
+        "kind": "related"
+      },
+      {
+        "target": "texto-sobre-la-montana-plateada",
+        "kind": "related"
+      },
+      {
+        "target": "texto-los-dos-concientes",
+        "kind": "related"
+      },
+      {
+        "target": "texto-la-locura-de-quijote",
+        "kind": "related"
+      },
+      {
+        "target": "texto-carta-de-un-padre-a-su-hijo-en-dia-de-reyes",
+        "kind": "related"
+      },
+      {
+        "target": "texto-existio-una-vez",
+        "kind": "related"
+      },
+      {
+        "target": "texto-pirateria-y-oportunidad",
+        "kind": "related"
+      },
+      {
+        "target": "texto-dolor",
+        "kind": "related"
+      },
+      {
+        "target": "texto-locura-hermosa-locura",
+        "kind": "related"
+      },
+      {
+        "target": "texto-cyborg",
+        "kind": "related"
+      },
+      {
+        "target": "texto-bullyng",
+        "kind": "related"
+      }
+    ],
+    "facts": {
+      "format": "essay",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "reflexiones-filosoficas",
+      "sourceUrl": "https://montanaplateada.blogspot.com/2010/02/memoria-alguien-ha-visto-mi-memoria.html",
+      "year": 2010,
+      "series": "montana-plateada"
+    }
+  },
+  {
+    "id": "lectura-filosofia-de-la-tecnologia",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-cyborg",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-reflexiones-filosoficas",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-reflexion-filosofica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-filosofia-de-la-tecnologia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-identidad-digital",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-memoria",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-muerte",
+        "kind": "discusses"
+      },
+      {
+        "target": "texto-pandora",
+        "kind": "related"
+      },
+      {
+        "target": "texto-sobre-la-montana-plateada",
+        "kind": "related"
+      },
+      {
+        "target": "texto-los-dos-concientes",
+        "kind": "related"
+      },
+      {
+        "target": "texto-la-locura-de-quijote",
+        "kind": "related"
+      },
+      {
+        "target": "texto-carta-de-un-padre-a-su-hijo-en-dia-de-reyes",
+        "kind": "related"
+      },
+      {
+        "target": "texto-existio-una-vez",
+        "kind": "related"
+      },
+      {
+        "target": "texto-pirateria-y-oportunidad",
+        "kind": "related"
+      },
+      {
+        "target": "texto-dolor",
+        "kind": "related"
+      },
+      {
+        "target": "texto-locura-hermosa-locura",
+        "kind": "related"
+      },
+      {
+        "target": "texto-memoria-alguien-ha-visto-mi-memoria",
+        "kind": "related"
+      },
+      {
+        "target": "texto-bullyng",
+        "kind": "related"
+      }
+    ],
+    "facts": {
+      "format": "essay",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "reflexiones-filosoficas",
+      "sourceUrl": "https://montanaplateada.blogspot.com/2010/02/cyborg.html",
+      "year": 2010,
+      "series": "montana-plateada"
+    }
+  },
+  {
+    "id": "lectura-critica-social",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-educacion",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-bullyng",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-criticas",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-critica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-critica-social",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-educacion",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-infancia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-violencia",
+        "kind": "discusses"
+      },
+      {
+        "target": "texto-pandora",
+        "kind": "related"
+      },
+      {
+        "target": "texto-sobre-la-montana-plateada",
+        "kind": "related"
+      },
+      {
+        "target": "texto-los-dos-concientes",
+        "kind": "related"
+      },
+      {
+        "target": "texto-la-locura-de-quijote",
+        "kind": "related"
+      },
+      {
+        "target": "texto-carta-de-un-padre-a-su-hijo-en-dia-de-reyes",
+        "kind": "related"
+      },
+      {
+        "target": "texto-existio-una-vez",
+        "kind": "related"
+      },
+      {
+        "target": "texto-pirateria-y-oportunidad",
+        "kind": "related"
+      },
+      {
+        "target": "texto-dolor",
+        "kind": "related"
+      },
+      {
+        "target": "texto-locura-hermosa-locura",
+        "kind": "related"
+      },
+      {
+        "target": "texto-memoria-alguien-ha-visto-mi-memoria",
+        "kind": "related"
+      },
+      {
+        "target": "texto-cyborg",
+        "kind": "related"
+      }
+    ],
+    "facts": {
+      "format": "critique",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "criticas",
+      "sourceUrl": "https://montanaplateada.blogspot.com/2010/06/bullyng.html",
+      "year": 2010,
+      "series": "montana-plateada"
+    }
+  },
+  {
+    "id": "texto-descubrimiento",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-editoriales",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-presentacion-editorial",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-presentacion",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "editorial",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "editoriales",
+      "sourceUrl": "https://paynalton.blogspot.com/2008/09/descubrimiento.html",
+      "year": 2008
+    }
+  },
+  {
+    "id": "lectura-mexico",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-progreso",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-imaginacion",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-el-estupor-mexicano",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-criticas",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-critica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-critica-social",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-mexico",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-progreso",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-imaginacion",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "critique",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "criticas",
+      "sourceUrl": "https://paynalton.blogspot.com/2008/11/el-estupor-mexicano.html",
+      "year": 2008
+    }
+  },
+  {
+    "id": "lectura-categoria-humor",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "genre"
+    }
+  },
+  {
+    "id": "lectura-humor",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-parodia",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-relaciones-de-pareja",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-informatica",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-howto-novia",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-humor",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-humor",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-parodia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-relaciones-de-pareja",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-informatica",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "humor",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "humor",
+      "sourceUrl": "https://paynalton.blogspot.com/2008/11/howto-novia.html",
+      "year": 2008
+    }
+  },
+  {
+    "id": "lectura-categoria-tecnicos",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "genre"
+    }
+  },
+  {
+    "id": "lectura-texto-tecnico",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-divulgacion-tecnica",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-gnu-linux",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-software-libre",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-guia-1",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-tecnicos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-texto-tecnico",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-divulgacion-tecnica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-gnu-linux",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-software-libre",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "technical",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "tecnicos",
+      "sourceUrl": "https://paynalton.blogspot.com/2009/01/guia-1.html",
+      "year": 2009
+    }
+  },
+  {
+    "id": "lectura-tutorial",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-administracion-de-sistemas",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-paquetes-y-dependencias-en-gnu-linux",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-tecnicos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-texto-tecnico",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-tutorial",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-gnu-linux",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-administracion-de-sistemas",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "technical",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "tecnicos",
+      "sourceUrl": "https://paynalton.blogspot.com/2009/01/untitled.html",
+      "year": 2009
+    }
+  },
+  {
+    "id": "lectura-seguridad-informatica",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-usuarios-y-permisos-en-gnu-linux",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-tecnicos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-texto-tecnico",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-tutorial",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-gnu-linux",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-seguridad-informatica",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "technical",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "tecnicos",
+      "sourceUrl": "https://paynalton.blogspot.com/2009/01/untitled_12.html",
+      "year": 2009
+    }
+  },
+  {
+    "id": "lectura-vejez",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-el-jardin",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-prosa-poetica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-vejez",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-amor",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-memoria",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-muerte",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos",
+      "sourceUrl": "https://paynalton.blogspot.com/2009/05/el-jardin.html",
+      "year": 2009
+    }
+  },
+  {
+    "id": "lectura-nota-personal",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-arte-digital",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-manga",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-personales",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-texto-personal",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-nota-personal",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-arte-digital",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "personal",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "personales",
+      "sourceUrl": "https://paynalton.blogspot.com/2009/06/manga.html",
+      "year": 2009
+    }
+  },
+  {
+    "id": "lectura-dedicatoria",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-te-amo",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-personales",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-texto-personal",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-dedicatoria",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-amor",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "personal",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "personales",
+      "sourceUrl": "https://paynalton.blogspot.com/2009/07/te-amo.html",
+      "year": 2009
+    }
+  },
+  {
+    "id": "lectura-separacion",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-la-bestia-de-metal",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-microrrelato",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-prosa-poetica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-amor",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-separacion",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-viaje",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos",
+      "sourceUrl": "https://paynalton.blogspot.com/2009/10/la-bestia-de-metal.html",
+      "year": 2009
+    }
+  },
+  {
+    "id": "lectura-programacion",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-efectos-visuales",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-noche-de-brujas-en-diabuluz",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-tecnicos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-texto-tecnico",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-tutorial",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-programacion",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-efectos-visuales",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "technical",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "tecnicos",
+      "sourceUrl": "https://paynalton.blogspot.com/2009/10/noche-de-brujas-en-diabuluz.html",
+      "year": 2009
+    }
+  },
+  {
+    "id": "lectura-nota-tecnica",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-android",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-decodificando-entidades-html-en-android",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-tecnicos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-texto-tecnico",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-nota-tecnica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-programacion",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-android",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "technical",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "tecnicos",
+      "sourceUrl": "https://paynalton.blogspot.com/2013/05/decodificando-entidades-html-en-android.html",
+      "year": 2013
+    }
+  },
+  {
+    "id": "lectura-diagnostico-tecnico",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-google-chrome-crash-solved",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-tecnicos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-texto-tecnico",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-tutorial",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-diagnostico-tecnico",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-gnu-linux",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-administracion-de-sistemas",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "technical",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "tecnicos",
+      "sourceUrl": "https://paynalton.blogspot.com/2013/05/google-chrome-crashsolved.html",
+      "year": 2013
+    }
+  },
+  {
+    "id": "lectura-drama",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-promesas",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-promesas",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-drama",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-pareja",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-promesas",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-perdida",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos",
+      "sourceUrl": "https://paynalton.blogspot.com/2013/05/promesas.html",
+      "year": 2013
+    }
+  },
+  {
+    "id": "lectura-critica-literaria",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-paulo-coelho",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-criticas",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-critica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-critica-literaria",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-literatura",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "critique",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "criticas",
+      "sourceUrl": "https://paynalton.blogspot.com/2013/06/paulo-coelho.html",
+      "year": 2013
+    }
+  },
+  {
+    "id": "texto-una-historia-imaginaria",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-reflexiones-filosoficas",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-reflexion-filosofica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-alegoria",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-religion",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-etica",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "essay",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "reflexiones-filosoficas",
+      "sourceUrl": "https://paynalton.blogspot.com/2018/07/una-historia-imaginaria.html",
+      "year": 2013
+    }
+  },
+  {
+    "id": "lectura-transformacion-personal",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-crisalida",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-poesia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-poesia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-prosa-poetica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-transformacion-personal",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "poetry",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "poesia",
+      "sourceUrl": "https://paynalton.blogspot.com/2018/07/crisalida.html",
+      "year": 2013
+    }
+  },
+  {
+    "id": "lectura-aforismo",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-justicia",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-politica",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-justicia-ilegal",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-criticas",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-critica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-aforismo",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-justicia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-politica",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "critique",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "criticas",
+      "sourceUrl": "https://paynalton.blogspot.com/2018/07/justicia-ilegal.html",
+      "year": 2013
+    }
+  },
+  {
+    "id": "lectura-vida",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-a-que-tienes-derecho",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-reflexiones-filosoficas",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-reflexion-filosofica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-etica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-trabajo",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-vida",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-libertad",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "essay",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "reflexiones-filosoficas",
+      "sourceUrl": "https://paynalton.blogspot.com/2013/07/a-que-tienes-derecho.html",
+      "year": 2013
+    }
+  },
+  {
+    "id": "lectura-desigualdad",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-exito",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-los-de-abajo",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-criticas",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-critica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-critica-social",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-desigualdad",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-exito",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "critique",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "criticas",
+      "sourceUrl": "https://paynalton.blogspot.com/2013/08/los-de-abajo.html",
+      "year": 2013
+    }
+  },
+  {
+    "id": "lectura-filosofia-social",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-cambio",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-ideas",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-esqueletos",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-reflexiones-filosoficas",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-reflexion-filosofica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-filosofia-social",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cambio",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-ideas",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-libertad",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "essay",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "reflexiones-filosoficas",
+      "sourceUrl": "https://paynalton.blogspot.com/2018/07/esqueletos.html",
+      "year": 2013
+    }
+  },
+  {
+    "id": "texto-corazon-dormido",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-poesia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-poesia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-prosa-poetica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-memoria-historica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-mexico",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "poetry",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "poesia",
+      "sourceUrl": "https://paynalton.blogspot.com/2013/08/corazon-dormido.html",
+      "year": 2013
+    }
+  },
+  {
+    "id": "lectura-proposito",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-retrospectiva",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-personales",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-texto-personal",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-reflexion-personal",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-conocimiento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-proposito",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "personal",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "personales",
+      "sourceUrl": "https://paynalton.blogspot.com/2013/09/retrospectiva.html",
+      "year": 2013
+    }
+  },
+  {
+    "id": "lectura-opinion-economica",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-autoconsumo",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-economia-casera",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-criticas",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-critica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-opinion-economica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-autoconsumo",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-crisis-economica",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "critique",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "criticas",
+      "sourceUrl": "https://paynalton.blogspot.com/2014/02/economia-casera.html",
+      "year": 2014
+    }
+  },
+  {
+    "id": "lectura-eternidad",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-dolor-paynalton-m086",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-poesia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-poesia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-prosa-poetica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-desamor",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-soledad",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-eternidad",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "poetry",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "poesia",
+      "sourceUrl": "https://paynalton.blogspot.com/2014/02/dolor.html",
+      "year": 2014
+    }
+  },
+  {
+    "id": "lectura-dinero",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-deuda",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-la-generacion-de-intereses-devalua-las-monedas-porque-porque-lo-digo-yo",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-criticas",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-critica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-opinion-economica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-dinero",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-deuda",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "critique",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "criticas",
+      "sourceUrl": "https://paynalton.blogspot.com/2014/02/la-generacion-de-intereses-devalua-las.html",
+      "year": 2014
+    }
+  },
+  {
+    "id": "lectura-propuesta-tecnica",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-agricultura",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-automatizacion",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-caja-se-siembra",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-tecnicos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-texto-tecnico",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-propuesta-tecnica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-agricultura",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-automatizacion",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "technical",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "tecnicos",
+      "sourceUrl": "https://paynalton.blogspot.com/2014/02/caja-se-siembra.html",
+      "year": 2014
+    }
+  },
+  {
+    "id": "lectura-credito",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-control-de-inflacion",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-criticas",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-critica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-opinion-economica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-dinero",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-credito",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "critique",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "criticas",
+      "sourceUrl": "https://paynalton.blogspot.com/2014/02/control-de-inflacion.html",
+      "year": 2014
+    }
+  },
+  {
+    "id": "texto-viaje-solitario",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-poesia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-poesia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-prosa-poetica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-amor",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-suenos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-desamor",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "poetry",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "poesia",
+      "sourceUrl": "https://paynalton.blogspot.com/2014/02/viaje-solitario.html",
+      "year": 2014
+    }
+  },
+  {
+    "id": "lectura-propuesta-politica",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-democracia",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-poder",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-el-cuarto-poder",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-criticas",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-critica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-propuesta-politica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-democracia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-poder",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "critique",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "criticas",
+      "sourceUrl": "https://paynalton.blogspot.com/2014/02/el-cuarto-poder.html",
+      "year": 2014
+    }
+  },
+  {
+    "id": "texto-dama-de-suenos",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-poesia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-poesia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-prosa-poetica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-amor",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-suenos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-ausencia",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "poetry",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "poesia",
+      "sourceUrl": "https://paynalton.blogspot.com/2014/02/dama-de-suenos.html",
+      "year": 2014
+    }
+  },
+  {
+    "id": "lectura-critica-politica",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-armas",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-control-de-armas",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-criticas",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-critica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-critica-politica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-armas",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-violencia",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "critique",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "criticas",
+      "sourceUrl": "https://paynalton.blogspot.com/2014/02/control-de-armas.html",
+      "year": 2014
+    }
+  },
+  {
+    "id": "lectura-despedida",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-volver-a-casa",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-poesia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-poesia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-prosa-poetica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-despedida",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-memoria",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "poetry",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "poesia",
+      "sourceUrl": "https://paynalton.blogspot.com/2014/02/volver-casa.html",
+      "year": 2014
+    }
+  },
+  {
+    "id": "lectura-prejuicios",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-empatia",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-humildad",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-personales",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-texto-personal",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cronica-personal",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-etica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-prejuicios",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-empatia",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "personal",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "personales",
+      "sourceUrl": "https://paynalton.blogspot.com/2014/03/humildad.html",
+      "year": 2014
+    }
+  },
+  {
+    "id": "lectura-filosofia-de-la-religion",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-la-innovacion-cristiana",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-reflexiones-filosoficas",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-reflexion-filosofica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-filosofia-de-la-religion",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-religion",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-poder",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "essay",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "reflexiones-filosoficas",
+      "sourceUrl": "https://paynalton.blogspot.com/2016/03/la-innovacion-cristiana.html",
+      "year": 2014
+    }
+  },
+  {
+    "id": "texto-partida",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-poesia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-poesia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-prosa-poetica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-despedida",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-desamor",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "poetry",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "poesia",
+      "sourceUrl": "https://paynalton.blogspot.com/2015/03/partida.html",
+      "year": 2014
+    }
+  },
+  {
+    "id": "lectura-opinion-profesional",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-motivacion",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-los-juegos-del-salario",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-criticas",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-critica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-opinion-profesional",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-trabajo",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-motivacion",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "critique",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "criticas",
+      "sourceUrl": "https://paynalton.blogspot.com/2014/03/los-juegos-del-salario.html",
+      "year": 2014
+    }
+  },
+  {
+    "id": "texto-perdidos",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-microrrelato",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-alegoria",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-identidad",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-eternidad",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos",
+      "sourceUrl": "https://paynalton.blogspot.com/2014/03/perdidos.html",
+      "year": 2014
+    }
+  },
+  {
+    "id": "lectura-videojuegos",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-interoperabilidad",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-mmorpg-opensource",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-tecnicos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-texto-tecnico",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-propuesta-tecnica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-videojuegos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-interoperabilidad",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-software-libre",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "technical",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "tecnicos",
+      "sourceUrl": "https://paynalton.blogspot.com/2014/04/mmorpg-opensource.html",
+      "year": 2014
+    }
+  },
+  {
+    "id": "lectura-algoritmos",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-redes-sociales",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-el-traje-nuevo-del-millenial",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-criticas",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-critica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-critica-social",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-tecnologia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-algoritmos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-redes-sociales",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "critique",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "criticas",
+      "sourceUrl": "https://paynalton.blogspot.com/2018/07/el-traje-nuevo-del-millenial.html",
+      "year": 2018
+    }
+  },
+  {
+    "id": "lectura-pensiones",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-dependencia",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-el-origen-del-mal",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-criticas",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-critica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-critica-politica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-vejez",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-pensiones",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-dependencia",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "critique",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "criticas",
+      "sourceUrl": "https://paynalton.blogspot.com/2018/07/el-origen-del-mal.html",
+      "year": 2018
+    }
+  },
+  {
+    "id": "lectura-colaboracion",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-jerarquia",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-trabajo-colaborativo-vs-jerarquico",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-criticas",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-critica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-opinion-profesional",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-trabajo",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-colaboracion",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-jerarquia",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "critique",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "criticas",
+      "sourceUrl": "https://paynalton.blogspot.com/2018/09/trabajo-colaborativo-vs-jerarquico.html",
+      "year": 2018
+    }
+  },
+  {
+    "id": "lectura-ciencia-ficcion",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-arqueologia",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-la-carta",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-ciencia-ficcion",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-arqueologia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-memoria",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos",
+      "sourceUrl": "https://paynalton.blogspot.com/2018/11/la-carta.html",
+      "year": 2018
+    }
+  },
+  {
+    "id": "texto-el-poder-magisterial",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-criticas",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-critica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-propuesta-politica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-democracia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-conocimiento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-poder",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "critique",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "criticas",
+      "sourceUrl": "https://paynalton.blogspot.com/2018/11/el-poder-magisterial.html",
+      "year": 2018
+    }
+  },
+  {
+    "id": "texto-despertar",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-microrrelato",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-prosa-poetica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-amor",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-ausencia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-suenos",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos"
+    }
+  },
+  {
+    "id": "texto-capitalismo-vs-dinerismo",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-criticas",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-critica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-opinion-economica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-dinero",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-exito",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-desigualdad",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "critique",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "criticas",
+      "partial": true
+    }
+  },
+  {
+    "id": "lectura-existencia",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-el-dios-en-que-yo-creo",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-reflexiones-filosoficas",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-reflexion-filosofica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-filosofia-de-la-religion",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-religion",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-conocimiento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-existencia",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "essay",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "reflexiones-filosoficas",
+      "partial": true
+    }
+  },
+  {
+    "id": "lectura-decisiones",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-decision",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-drama",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-decisiones",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-relaciones-de-pareja",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos"
+    }
+  },
+  {
+    "id": "lectura-ficcion-filosofica",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-evangelio-del-gato-negro",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-reflexiones-filosoficas",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-reflexion-filosofica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-ficcion-filosofica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-religion",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-humanidad",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-etica",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "essay",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "reflexiones-filosoficas"
+    }
+  },
+  {
+    "id": "texto-improvisado",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-poesia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-poesia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-prosa-poetica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-desamor",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-memoria",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "poetry",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "poesia"
+    }
+  },
+  {
+    "id": "texto-susurros-en-la-oscuridad",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-fantasia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-memoria-historica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-mexico",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-justicia",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos"
+    }
+  },
+  {
+    "id": "lectura-tiempo",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-enfermera",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-terror",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-sobrenatural",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-tiempo",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos"
+    }
+  },
+  {
+    "id": "lectura-choque-cultural",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-especialista-en-latam",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-ciencia-ficcion",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-humor",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-ingenio",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-choque-cultural",
+        "kind": "discusses"
+      },
+      {
+        "target": "texto-la-partera",
+        "kind": "related"
+      },
+      {
+        "target": "texto-se-estan-comiendo-que",
+        "kind": "related"
+      },
+      {
+        "target": "texto-barbacoa-de-uma-estilo-culiacan",
+        "kind": "related"
+      },
+      {
+        "target": "texto-porque-los-brancianos-le-temen-a-las-pinatas",
+        "kind": "related"
+      },
+      {
+        "target": "texto-horda-latam",
+        "kind": "related"
+      },
+      {
+        "target": "texto-se-solicita-ingeniero-ftl-humano",
+        "kind": "related"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos",
+      "series": "latam"
+    }
+  },
+  {
+    "id": "lectura-solidaridad",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-la-partera",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-ciencia-ficcion",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-humor",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-familia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-solidaridad",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-choque-cultural",
+        "kind": "discusses"
+      },
+      {
+        "target": "texto-especialista-en-latam",
+        "kind": "related"
+      },
+      {
+        "target": "texto-se-estan-comiendo-que",
+        "kind": "related"
+      },
+      {
+        "target": "texto-barbacoa-de-uma-estilo-culiacan",
+        "kind": "related"
+      },
+      {
+        "target": "texto-porque-los-brancianos-le-temen-a-las-pinatas",
+        "kind": "related"
+      },
+      {
+        "target": "texto-horda-latam",
+        "kind": "related"
+      },
+      {
+        "target": "texto-se-solicita-ingeniero-ftl-humano",
+        "kind": "related"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos",
+      "series": "latam"
+    }
+  },
+  {
+    "id": "lectura-gastronomia",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-se-estan-comiendo-que",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-ciencia-ficcion",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-humor",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-gastronomia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-supervivencia",
+        "kind": "discusses"
+      },
+      {
+        "target": "texto-especialista-en-latam",
+        "kind": "related"
+      },
+      {
+        "target": "texto-la-partera",
+        "kind": "related"
+      },
+      {
+        "target": "texto-barbacoa-de-uma-estilo-culiacan",
+        "kind": "related"
+      },
+      {
+        "target": "texto-porque-los-brancianos-le-temen-a-las-pinatas",
+        "kind": "related"
+      },
+      {
+        "target": "texto-horda-latam",
+        "kind": "related"
+      },
+      {
+        "target": "texto-se-solicita-ingeniero-ftl-humano",
+        "kind": "related"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos",
+      "sourceUrl": "https://www.reddit.com/r/UniversoISH/comments/1moegwq/se_están_comiendo_qué/",
+      "year": 2025,
+      "series": "latam"
+    }
+  },
+  {
+    "id": "lectura-inteligencia-artificial",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-coexistencia",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-debate-para-incidente-io-8c9beaf3b0-e",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-ciencia-ficcion",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-inteligencia-artificial",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-trabajo",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-coexistencia",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos",
+      "sourceUrl": "https://www.reddit.com/r/UniversoISH/comments/1mphglq/debate_para_incidente_io8c9beaf3b0e/",
+      "year": 2025
+    }
+  },
+  {
+    "id": "lectura-guerra",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-barbacoa-de-uma-estilo-culiacan",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-ciencia-ficcion",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-humor",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-guerra",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-gastronomia",
+        "kind": "discusses"
+      },
+      {
+        "target": "texto-especialista-en-latam",
+        "kind": "related"
+      },
+      {
+        "target": "texto-la-partera",
+        "kind": "related"
+      },
+      {
+        "target": "texto-se-estan-comiendo-que",
+        "kind": "related"
+      },
+      {
+        "target": "texto-porque-los-brancianos-le-temen-a-las-pinatas",
+        "kind": "related"
+      },
+      {
+        "target": "texto-horda-latam",
+        "kind": "related"
+      },
+      {
+        "target": "texto-se-solicita-ingeniero-ftl-humano",
+        "kind": "related"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos",
+      "sourceUrl": "https://www.reddit.com/r/UniversoISH/comments/1mtstzt/barbacoa_de_uma_estilo_culiacán/",
+      "year": 2025,
+      "series": "latam"
+    }
+  },
+  {
+    "id": "lectura-primer-contacto",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-diplomacia",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-mi-primera-chamba-galactica",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-ciencia-ficcion",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-humor",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-primer-contacto",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-diplomacia",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos",
+      "sourceUrl": "https://www.reddit.com/r/UniversoISH/comments/1n0to1u/mi_primera_chamba_galáctica/",
+      "year": 2025
+    }
+  },
+  {
+    "id": "lectura-tradiciones",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-porque-los-brancianos-le-temen-a-las-pinatas",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-ciencia-ficcion",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-humor",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-choque-cultural",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-tradiciones",
+        "kind": "discusses"
+      },
+      {
+        "target": "texto-especialista-en-latam",
+        "kind": "related"
+      },
+      {
+        "target": "texto-la-partera",
+        "kind": "related"
+      },
+      {
+        "target": "texto-se-estan-comiendo-que",
+        "kind": "related"
+      },
+      {
+        "target": "texto-barbacoa-de-uma-estilo-culiacan",
+        "kind": "related"
+      },
+      {
+        "target": "texto-horda-latam",
+        "kind": "related"
+      },
+      {
+        "target": "texto-se-solicita-ingeniero-ftl-humano",
+        "kind": "related"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos",
+      "sourceUrl": "https://www.reddit.com/r/UniversoISH/comments/1n5wf2m/porqué_los_brancianos_le_temen_a_las_piñatas/",
+      "year": 2025,
+      "series": "latam"
+    }
+  },
+  {
+    "id": "texto-mariachis-de-bolsillo",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-ciencia-ficcion",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-musica",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-choque-cultural",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos",
+      "sourceUrl": "https://www.reddit.com/r/UniversoISH/comments/1ngjr50/mariachis_de_bolsillo/",
+      "year": 2025
+    }
+  },
+  {
+    "id": "lectura-competencia",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-sayula-iii",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-ciencia-ficcion",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-humor",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-competencia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-choque-cultural",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos",
+      "sourceUrl": "https://www.reddit.com/r/UniversoISH/comments/1nvn38o/sayula_iii/",
+      "year": 2025
+    }
+  },
+  {
+    "id": "texto-horda-latam",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-ciencia-ficcion",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-guerra",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-ingenio",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-supervivencia",
+        "kind": "discusses"
+      },
+      {
+        "target": "texto-especialista-en-latam",
+        "kind": "related"
+      },
+      {
+        "target": "texto-la-partera",
+        "kind": "related"
+      },
+      {
+        "target": "texto-se-estan-comiendo-que",
+        "kind": "related"
+      },
+      {
+        "target": "texto-barbacoa-de-uma-estilo-culiacan",
+        "kind": "related"
+      },
+      {
+        "target": "texto-porque-los-brancianos-le-temen-a-las-pinatas",
+        "kind": "related"
+      },
+      {
+        "target": "texto-se-solicita-ingeniero-ftl-humano",
+        "kind": "related"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos",
+      "sourceUrl": "https://www.reddit.com/r/UniversoISH/comments/1o6r1d3/horda_latam/",
+      "year": 2025,
+      "series": "latam"
+    }
+  },
+  {
+    "id": "lectura-pertenencia",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-extraviado",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-ciencia-ficcion",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-guerra",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-identidad",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-pertenencia",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos",
+      "sourceUrl": "https://www.reddit.com/r/UniversoISH/comments/1ojj4xu/extraviado/",
+      "year": 2025
+    }
+  },
+  {
+    "id": "lectura-arte",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-legado",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-legado",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-ciencia-ficcion",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-arte",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-legado",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-humanidad",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos",
+      "sourceUrl": "https://www.reddit.com/r/UniversoISH/comments/1olcch7/legado/",
+      "year": 2025
+    }
+  },
+  {
+    "id": "lectura-discriminacion",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "lectura-cuerpo",
+    "type": "term",
+    "visibility": "public",
+    "relations": [],
+    "facts": {
+      "family": "topic"
+    }
+  },
+  {
+    "id": "texto-ellos-marcaban-sus-cuerpos",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-ciencia-ficcion",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-discriminacion",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-identidad",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuerpo",
+        "kind": "discusses"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos",
+      "sourceUrl": "https://www.reddit.com/r/UniversoISH/comments/1utbdw5/ellos_marcaban_sus_cuerpos/",
+      "year": 2026
+    }
+  },
+  {
+    "id": "texto-se-solicita-ingeniero-ftl-humano",
+    "type": "work",
+    "visibility": "public",
+    "relations": [
+      {
+        "target": "lectura-categoria-cuentos",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-cuento",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-ciencia-ficcion",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-humor",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-gastronomia",
+        "kind": "discusses"
+      },
+      {
+        "target": "lectura-choque-cultural",
+        "kind": "discusses"
+      },
+      {
+        "target": "texto-especialista-en-latam",
+        "kind": "related"
+      },
+      {
+        "target": "texto-la-partera",
+        "kind": "related"
+      },
+      {
+        "target": "texto-se-estan-comiendo-que",
+        "kind": "related"
+      },
+      {
+        "target": "texto-barbacoa-de-uma-estilo-culiacan",
+        "kind": "related"
+      },
+      {
+        "target": "texto-porque-los-brancianos-le-temen-a-las-pinatas",
+        "kind": "related"
+      },
+      {
+        "target": "texto-horda-latam",
+        "kind": "related"
+      }
+    ],
+    "facts": {
+      "format": "fiction",
+      "author": "Paynalton",
+      "editions": [],
+      "fullText": true,
+      "category": "cuentos",
+      "series": "latam"
+    }
+  }
+]

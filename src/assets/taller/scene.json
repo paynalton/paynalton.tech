@@ -1,0 +1,12 @@
+{
+  "stage": "PT04 geometric composition; not a WebGL implementation",
+  "materials": {
+    "obsidian": { "color": "#1d2425", "roughness": 0.78, "metalness": 0.15 },
+    "copper": { "color": "#c78d65", "roughness": 0.38, "metalness": 0.8 }
+  },
+  "pieces": [
+    { "id": "left", "material": "obsidian", "polygon": "80,136 180,100 180,330 80,368", "pivot": [130,234] },
+    { "id": "core", "material": "copper", "polygon": "183,68 289,100 289,322 183,290", "pivot": [236,195] },
+    { "id": "right", "material": "obsidian", "polygon": "292,132 392,165 392,365 292,332", "pivot": [342,248] }
+  ]
+}

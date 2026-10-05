@@ -1,0 +1,1 @@
+Desarrollo de ideas y textos bajo una dirección autoral. Reúne las obras, sus procesos y las herramientas que construyo para acompañarlos, conservando la diferencia entre una publicación terminada y un proyecto en desarrollo.

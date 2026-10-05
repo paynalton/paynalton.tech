@@ -1,0 +1,13 @@
+---
+import ContentPage from '../../components/site/ContentPage.astro';
+import { loadSite } from '../../lib/site/build.mjs';
+import { routeManifest } from '../../lib/site/navigation.mjs';
+import type { SiteRoute } from '../../lib/site/types';
+export async function getStaticPaths() {
+  return routeManifest(await loadSite()).filter(page=>!page.legacy).map(page => ({
+    params: {locale:page.locale, path:page.url.split('/').slice(2,-1).join('/') || undefined}, props:{page},
+  }));
+}
+interface Props { page: SiteRoute; }
+---
+<ContentPage page={Astro.props.page}/>

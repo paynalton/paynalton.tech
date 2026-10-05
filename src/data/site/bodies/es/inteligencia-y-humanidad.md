@@ -1,0 +1,1 @@
+Preguntas sobre cómo reconocemos la inteligencia, qué caracteriza a nuestra especie y cómo nos relacionamos con otras formas de existencia. Es un eje de lectura y reflexión personal, no una acreditación técnica por sí mismo.

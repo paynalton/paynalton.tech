@@ -1,0 +1,101 @@
+---
+import '../../styles/external-links.css';
+import manropeLatin from '../../assets/taller/fonts/manrope-latin.woff2?url';
+import frauncesLatin from '../../assets/taller/fonts/fraunces-latin.woff2?url';
+import MenuEnhancement from '../../components/shell/MenuEnhancement.astro';
+import PublicationHead from '../../components/site/PublicationHead.astro';
+import '../../styles/taller/system.css';
+import '../../styles/taller/shell.css';
+import '../../styles/taller/effects.css';
+import {searchDocuments} from '../../lib/site/search-documents.mjs';
+import Ornament from '../../components/taller/Ornament.astro';
+import Icon from '../../components/taller/Icon.astro';
+import Preferences from '../../components/shell/Preferences.astro';
+import LanguagePicker from '../../components/shell/LanguagePicker.astro';
+import SearchForm from '../../components/shell/SearchForm.astro';
+import channelData from '../../data/site/channels.json';
+import { shellChannelsSchema } from '../../lib/site/schemas.mjs';
+const channels = shellChannelsSchema.parse(channelData);
+import { navigation, sectionUrl, breadcrumbs, pageAlternatives } from '../../lib/site/navigation.mjs';
+import { createTranslator } from '../../lib/site/i18n.mjs';
+import { loadSite } from '../../lib/site/build.mjs';
+import { routeManifest } from '../../lib/site/navigation.mjs';
+interface Props {
+  page: Omit<import('../../lib/site/types').SiteRoute,'section'> & {section?:string};
+  description?: string;
+  noindex?: boolean;
+  repository?: Awaited<ReturnType<typeof loadSite>>;
+  routePrefix?: string;
+}
+const { page, description, noindex = false, routePrefix = '' } = Astro.props;
+const repository = Astro.props.repository ?? await loadSite();
+const settings = repository.getSettings();
+const translator = createTranslator(page.locale, repository.getCatalogs(), settings);
+const { t } = translator;
+const manifest = routeManifest(repository, routePrefix);
+const links = navigation(manifest, page.locale);
+const crumbs = breadcrumbs(page, t, routePrefix);
+const alternatives = pageAlternatives(manifest, page, settings);
+const searchUrl = sectionUrl(page.locale, 'explore', routePrefix);
+const searchDocument=searchDocuments(repository,page.locale,routePrefix).find(d=>d.url===page.url);
+---
+<!doctype html>
+<html lang={page.locale} dir={translator.dir} data-effects="off" data-scene-allowed="false">
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="preload" href={manropeLatin} as="font" type="font/woff2" crossorigin/>
+    <link rel="preload" href={frauncesLatin} as="font" type="font/woff2" crossorigin/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <script is:inline>
+      try{
+        const state=JSON.parse(localStorage.getItem('paynalton.forms.v1')||'null');
+        const timestamp=state?.FormsConvertationTimeout;
+        const expired=Number.isSafeInteger(timestamp)&&timestamp>0&&Date.now()-timestamp>=86400000;
+        document.documentElement.dataset.hideForms=String(state?.HideForms===true&&!expired);
+      }catch{document.documentElement.dataset.hideForms='false';}
+    </script>
+    <PublicationHead repository={repository} page={page} description={description} routePrefix={routePrefix} noindex={noindex}/>
+    {searchDocument && <><meta data-pagefind-meta="title[content]" content={searchDocument.title}/><meta data-pagefind-filter="type[content]" content={searchDocument.type}/>{searchDocument.topics.map(topic=><meta data-pagefind-filter="topic[content]" content={topic}/>)}</>}
+  </head>
+  <body class="taller site-shell" data-vortex-label={t('scene.vortexAction')}>
+    <a class="tn-skip" href="#main">{t('nav.skipToContent')}</a>
+    <div class="tn-frame">
+      <header class="shell-header" data-site-header>
+        <a class="tn-brand" href={sectionUrl(page.locale, 'home', routePrefix)}><Ornament/>{t('brand.name')}</a>
+        <div class="shell-utilities">
+          <LanguagePicker alternatives={alternatives} locale={page.locale} currentUrl={page.id==='not-found'?'/404.html':page.url} label={t('locale.selectorLabel')} unavailableLabel={t('locale.translationPending')}/>
+          <a href={searchUrl} data-search-open><Icon name="search"/>{t('search.open')}</a>
+          <button type="button" class="tn-action tn-action--secondary" data-menu-toggle aria-controls="site-navigation" aria-expanded="false" hidden><Icon name="menu"/>{t('nav.menu')}</button>
+        </div>
+        <nav id="site-navigation" class="shell-navigation" aria-label={t('nav.primary')}>
+          {links.map(item => <a href={item.url} aria-current={item.url === page.url ? 'page' : item.id === page.section ? 'location' : undefined}>{t(item.label!)}</a>)}
+        </nav>
+        <MenuEnhancement/>
+      </header>
+      {crumbs.length > 0 && <nav class="shell-breadcrumbs" aria-label={t('nav.breadcrumbs')}><ol>
+        {crumbs.map((crumb, index) => <li>{index === crumbs.length - 1 ? <span aria-current="page">{crumb.title}</span> : <a href={crumb.url}>{crumb.title}</a>}</li>)}
+      </ol></nav>}
+      <main id="main" tabindex="-1" data-pagefind-body={searchDocument?true:undefined}><slot/></main>
+      <footer class="shell-footer">
+        <div class="shell-footer-mark"><div class="footer-particles" data-footer-particles aria-hidden="true"></div><Ornament variant="rule"/></div><div class="tn-stack"><p>{t('footer.description')}</p><a href={sectionUrl(page.locale, 'terms', routePrefix)}>{t('nav.terms')}</a></div>
+        <nav class="shell-profiles" aria-label={t('footer.profiles')}>
+          {channels.profiles.filter(profile=>!['profile.paypal','profile.amazon'].includes(profile.key)).map(profile => <a href={profile.url} rel="me">{t(profile.key)}</a>)}
+        </nav>
+        <Preferences t={t}/>
+      </footer>
+    </div>
+    <dialog id="search-panel" aria-labelledby="search-panel-title">
+      <div class="tn-stack">
+        <button type="button" class="tn-action tn-action--secondary" data-dialog-close><Icon name="close"/>{t('nav.close')}</button>
+        <h2 id="search-panel-title">{t('search.label')}</h2>
+        <p>{t('search.scope')}</p>
+        <SearchForm t={t} action={searchUrl} id="global-query"/>
+        <a href={searchUrl}>{t('search.fullPage')}</a>
+      </div>
+    </dialog>
+    <div class="scene-speech" id="scene-speech" popover="manual" role="dialog" aria-label={t('scene.messageTitle')} data-trigger-label={t('scene.messageAction')} data-conversation={JSON.stringify(Object.fromEntries([5,8,9,10,11,16,19].map(n=>[n,t(`scene.click${n}`)])))} data-yes={t('scene.yes')} data-no={t('scene.no')}>
+      <p role="status">{t('scene.hello')}</p><div class="scene-speech-choices" hidden></div><button type="button" aria-label={t('nav.close')} data-speech-close>×</button>
+    </div>
+    <script>import '../../scripts/shell.js'; import '../../scripts/scene-speech.js';</script>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+---
+interface Props { alternatives: { locale: string; label: string; url: string }[]; locale: string; label: string; }
+const { alternatives, locale, label } = Astro.props;
+---
+{alternatives.length > 1 && <nav class="shell-locales" aria-label={label}>
+  {alternatives.map(item => <a href={item.url} lang={item.locale} hreflang={item.locale} aria-current={locale === item.locale ? 'page' : undefined}>{item.label}</a>)}
+</nav>}

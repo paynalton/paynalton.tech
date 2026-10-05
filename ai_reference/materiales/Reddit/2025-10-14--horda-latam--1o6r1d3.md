@@ -1,0 +1,50 @@
+---
+title: "Horda LATAM"
+author: "paynalton3"
+language: "es"
+published_at: "2025-10-14T20:37:55Z"
+source: "https://www.reddit.com/r/UniversoISH/comments/1o6r1d3/horda_latam/"
+subreddit: "UniversoISH"
+reddit_id: "1o6r1d3"
+editorial:
+  id: M132
+  category: cuentos
+  tags:
+  - cuento
+  - ciencia-ficcion
+  - guerra
+  - ingenio
+  - supervivencia
+  version_group: V08
+  series: latam
+---
+
+# Horda LATAM
+
+La historia de la galaxia la escriben los vencedores, y en la historia de la Tercera Guerra Galáctica (GWIII) hay pasajes oscuros que los vencedores se niegan a decir, ya sea por orgullo, por respeto o, tal vez, por estrategia. Y es que ahora, después de tanto tiempo en el retiro estudiando la historia de la especie humana, he descubierto omisiones en su historia y puedo decir, sin miedo a equivocarme, que ellos lo sabían. He preguntado a varios humanos y estos parecen desconocer esta parte de la historia, incluso ignoran partes de la historia de su propio mundo anteriores al descubrimiento del vuelo FTL. He descubierto un patrón en esas omisiones, pues en la historia de sus conflictos faltan partes que pudiesen habernos dado una pista sobre el terrible poder oculto al que nos enfrentamos contra ellos durante la guerra. Todos los humanos fingen ignorancia, pero estoy convencido de que ellos lo sabían.
+
+Durante la guerra, yo serví como oficial estratégico en el planeta Phinafilis (renombrado como Moctezuma después de la guerra) para el Magnífico Imperio JonNi. Mi padre era un noble importante, por lo que cuando fui llamado a servir en la milicia él movió sus influencias y logró enviarme a ese planeta que estaba alejado del frente de batalla principal y que, muy probablemente, nunca vería una batalla sin importar si ganábamos o perdíamos. Si bien la importancia estratégica del planeta era notable, conquistar nuestra posición suponía un costo casi tan alto como el de atacar nuestra capital y el beneficio no sería tan grande. Cualquier estratega inteligente preferiría enfocar sus recursos en asaltar la capital imperial.
+
+Pero eso era justamente lo que estaba pasando cuando llegué al planeta y me reporté al centro de comando. En el centro de comando se hablaba sobre la falta de inteligencia estratégica de los humanos, pues se descubrió una incursión a gran escala hacia el planeta. Los puestos de vigilancia habían descubierto una fuerza invasora, y los espías reportaban que no se trataba de un señuelo, sino que esta fuerza invasora estaba compuesta por tropas conformadas principalmente por humanos LATAM, sin mucho poder de ataque y planes de contingencia anticuados. Mi pasión hacia la historia y habilidad para la comprensión de culturas alienígenas era conocida por mis superiores, así que mi primera asignación fue comprender por qué se comportaban así los humanos, enviando a una horda mal equipada a tomar una misión imposible y suicida. Comencé a estudiar su historia y cultura junto con otros oficiales y encontré claras muestras de discriminación, explotación y esclavitud que habían sufrido los LATAM a lo largo de toda su historia junto con otras poblaciones humanas, mi conclusión (y la de todos los demás oficiales) fue que había demasiados LATAM y los humanos simplemente querían deshacerse de ellos aprovechando la oportunidad para mandarlos a una misión suicida. Ese fue mi gran error, haber creído que los humanos se comportaban como lo haría el imperio con los indeseables y no investigar más en su historia oculta, creer que los humanos guardaban rencor a una sola etnia de entre todas las demás sin ninguna razón aparente.
+
+La decisión estratégica de mis superiores fue unánime y se ejecutó a la perfección. Primero se dejó a los LATAM llegar al planeta y establecer algunas bases enfrentándose a unos cuantos drones y defensas automatizadas, fingiríamos debilidad. Después una fuerza de despliegue rápido atacó a su retaguardia impidiendo la llegada de refuerzos y suministros, lo cual algunos consideraron innecesario pues el resto de los humanos no parecía haber preparado refuerzos ni suministros adicionales para enviar a los invasores. Esperábamos que los humanos, viéndose a sí mismos abandonados a su suerte, se rindieran de inmediato y ganáramos una gran cantidad de esclavos con un mínimo esfuerzo. Aunque estábamos perdiendo la guerra aún faltaban muchos años para que los humanos tuvieran la capacidad de asaltar la capital, y esa mano de obra gratuita sería de gran ayuda para el imperio, incluso podría darnos ese impulso que nos llevara a la victoria. Los otros humanos no hicieron ningún intento por rescatar a los suyos, así que creímos que habíamos vencido.
+
+Pero los LATAM no se rindieron,  sino que comenzaron a avanzar.
+
+Se terminó su comida y ellos no se rindieron, se alimentaban de lo que encontraban a su paso,
+
+Se terminó su munición y ellos no se rindieron, construyeron armas usando los desperdicios que encontraban a su paso.
+
+Desesperados por su avance imparable, mandamos una unidad especial para eliminar a sus comandantes y ellos no se rindieron, al perder el liderazgo comenzaron a actuar como un enjambre en el que cada individuo es líder y subordinado a la vez;
+
+Lanzamos toda nuestra fuerza sobre ellos, los abrumamos con armas de destrucción masiva, descuartizamos a los prisioneros colocando sus cuerpos empalados en su camino para intimidarlos y ellos no se rindieron, siguieron avanzando hasta que lograron llegar al comando central del planeta.
+
+Aun recuerdo cuando me capturaron, sus sonrisas y la gran fiesta que hicieron por su victoria, a pesar de la crueldad de mis superiores no nos trataron mal, y algunos de ellos se volvieron mis amigos al terminar la guerra.
+
+Perdimos el planeta. Los otros humanos, al ser notificados del éxito de la invasión, enviaron refuerzos y muchos suministros, tomaron el control del planeta y organizaron desde allí a las tropas invasoras que terminaría derrocando al imperio muchos años antes de lo que todos habían previsto. La historia de la guerra habla de los gloriosos humanos y de cómo sus fuerzas llegaron a la capital con gran valentía. Pero de los LATAM que lucharon en el planeta y consiguieron esa posición estratégica sin la cual la guerra no habría terminado apenas hay una mención y un pequeño monumento a los caídos que nadie visita ya.
+
+Pero yo sé que eso que parece desprecio por el esfuerzo y logros de los LATAM al excluir sus hazañas de la historia humana es en realidad una estrategia para que su siguiente enemigo, sea quien sea, no pueda sospechar del verdadero peligro que supone una horda LATAM.
+
+Imagen creada con IA
+
+Licencia CC-BY

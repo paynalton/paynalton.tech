@@ -1,0 +1,22 @@
+---
+interface Props { t: (key: string) => string; }
+const { t } = Astro.props;
+---
+<details class="shell-preferences">
+  <summary>{t('effects.title')}</summary>
+  <div data-effects-controls data-saved={t('effects.saved')} data-session={t('effects.session')}>
+    <p>{t('effects.description')}</p>
+    <fieldset disabled>
+      <legend>{t('effects.title')}</legend>
+      <label for="effects-mode">{t('effects.mode')}</label>
+      <select id="effects-mode" name="effects-mode">
+        {['auto','soft','full','off'].map(mode => <option value={mode}>{t(`effects.${mode}`)}</option>)}
+      </select>
+      <label class="shell-checkbox"><input type="checkbox" name="disable-3d"/> {t('effects.disable3D')}</label>
+      <button type="button" class="tn-action tn-action--secondary" data-effects-reset>{t('effects.reset')}</button>
+    </fieldset>
+    <p data-reduced-motion hidden>{t('effects.reduced')}</p>
+    <p role="status" data-preferences-status></p>
+    <noscript><p>{t('effects.noScript')}</p></noscript>
+  </div>
+</details>

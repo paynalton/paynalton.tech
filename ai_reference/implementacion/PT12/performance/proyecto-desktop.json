@@ -1,0 +1,29 @@
+{
+  "url": "/es/proyectos/pipila/",
+  "profile": "desktop",
+  "compression": "local gzip estimate, fonts/images excluded, reduced motion",
+  "bytes": 15465,
+  "limit": 200000,
+  "resources": [
+    {
+      "path": "/es/proyectos/pipila/",
+      "gzip": 6878
+    },
+    {
+      "path": "/_astro/system.Bnz0YQgE.css",
+      "gzip": 3481
+    },
+    {
+      "path": "/_astro/SiteLayout.BbXIEyXz.css",
+      "gzip": 2195
+    },
+    {
+      "path": "/_astro/SiteLayout.astro_astro_type_script_index_0_lang.DupquaOj.js",
+      "gzip": 2169
+    },
+    {
+      "path": "/_astro/preload-helper.B3nfOi5I.js",
+      "gzip": 742
+    }
+  ]
+}

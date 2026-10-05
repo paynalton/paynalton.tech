@@ -1,0 +1,123 @@
+---
+import WorkContent from './WorkContent.astro';
+import AboutContent from './AboutContent.astro';
+import '../../styles/taller/reading.css';
+import ContactActions from './ContactActions.astro';
+import type { SiteRoute, PublicEntry } from '../../lib/site/types';
+import { getCollection, render } from 'astro:content';
+import SiteLayout from '../../layouts/site/SiteLayout.astro';
+import Card from '../../components/taller/Card.astro';
+import Action from '../../components/taller/Action.astro';
+import WorkshopScene from '../../components/taller/WorkshopScene.astro';
+import ReadingOrnament from '../../components/taller/ReadingOrnament.astro';
+import { projectDocument, exportPaths } from '../../lib/site/exports.mjs';
+import SearchContent from './SearchContent.astro';
+import { loadSite } from '../../lib/site/build.mjs';
+import { sectionUrl } from '../../lib/site/navigation.mjs';
+import { createTranslator } from '../../lib/site/i18n.mjs';
+import channelData from '../../data/site/channels.json';
+import { shellChannelsSchema } from '../../lib/site/schemas.mjs';
+const channels = shellChannelsSchema.parse(channelData);
+
+interface Props { page: SiteRoute; repository?: Awaited<ReturnType<typeof loadSite>>; routePrefix?: string; collection?: 'siteContent' | 'journeyContent' | 'readingContent'; }
+const { page, routePrefix = '', collection = 'siteContent' } = Astro.props;
+const sectionScenes = {projects:'projects',experience:'career',works:'works',about:'about',contact:'contact'} as const;
+const sectionScene = sectionScenes[page.id as keyof typeof sectionScenes];
+const repository = Astro.props.repository ?? await loadSite();
+const { t } = createTranslator(page.locale, repository.getCatalogs(), repository.getSettings());
+const entries = (await getCollection(collection)).filter(entry => entry.data.locale === page.locale);
+const data: PublicEntry[] = repository.publicEntries(page.locale);
+const current = 'entityId' in page ? entries.find(entry => entry.data.entityId === page.entityId) : undefined;
+const Content = current && current.data.type!=='work' ? (await render(current)).Content : undefined;
+const url = (key:string) => sectionUrl(page.locale, key, routePrefix);
+const projects: PublicEntry[] = repository.select('projects', page.locale);
+const works: PublicEntry[] = repository.select('works', page.locale);
+const workGroups=[...new Set(works.map(e=>'category' in e.facts?e.facts.category:undefined))];
+const categoryLabel=(key:string|undefined)=>t(key?'work.category.'+key.replaceAll('-',''):'work.format.book');
+const featuredWorks: PublicEntry[] = repository.select('featuredWorks', page.locale);
+const featured: PublicEntry[] = repository.select('featuredProjects', page.locale);
+const experience: PublicEntry[] = repository.select('experience', page.locale);
+const terms: PublicEntry[] = repository.select('terms', page.locale);
+const project = current?.data.type === 'project' ? projectDocument(repository, current.data.entityId, page.locale, Astro.site!.origin) : undefined;
+const downloads = project ? exportPaths(current!.data.url) : undefined;
+const stages = await Promise.all(experience.map(async entry => {
+  const stored=entries.find(item=>item.data.entityId===entry.entityId)!;
+  return {entry, Content:(await render(stored)).Content, evidence:data.filter(item=>item.type==='project' && item.relations.some(r=>r.kind==='during' && r.target===entry.entityId))};
+}));
+const evidenceFor = (id:string) => data.filter(entry=>entry.relations.some(r=>r.kind==='demonstrates' && r.target===id));
+const connectionsFor = (id:string) => data.flatMap(entry=>entry.relations.filter(r=>r.target===id).map(r=>({entry,kind:r.kind})));
+const related = current?.data.relations.map(r => ({ ...r, entry: data.find(e => e.entityId === r.target) })).filter(r => r.entry);
+---
+<SiteLayout page={page} repository={repository} routePrefix={routePrefix} noindex={!!routePrefix} description={current?.data.seo.description}>
+  {page.id === 'home' && <>
+    <section class="tn-section tn-hero" id="profile"><div class="tn-stack"><p class="tn-eyebrow">{t('home.descriptor')}</p><h1>{t('home.title')}</h1><p class="tn-lead">{t('home.intro')}</p><div class="tn-actions"><Action href={url('projects')}>{t('home.projectsAction')}</Action><Action href={url('contact')} variant="secondary">{t('home.contactAction')}</Action></div></div><WorkshopScene/></section>
+    <section class="tn-section tn-stack"><h2>{t('nav.projects')}</h2><p class="tn-lead">{t('home.projectsIntro')}</p><div class="tn-cards">{featured.map(entry => <Card title={entry.title} summary={entry.summary} href={entry.url} action={t('journey.readProject', {title:entry.title})}/>)}</div></section>
+    <section class="tn-section home-feature home-feature--experience" id="experience"><div class="tn-stack"><h2>{t('home.experienceTitle')}</h2><p class="shell-prose">{t('page.experienceIntro')}</p><a href={url('experience')}>{t('nav.experience')}</a></div><WorkshopScene variant="experience"/></section>
+    <section class="tn-section home-feature home-feature--skills" id="skills"><div class="tn-stack"><h2>{t('home.skillsTitle')}</h2><p class="shell-prose">{t('home.skillsIntro')}</p><a href={url('terms')}>{t('nav.terms')}</a></div><WorkshopScene variant="skills"/></section>
+    <section class="tn-section home-feature home-feature--method" id="softskills"><div class="tn-stack"><h2>{t('home.methodTitle')}</h2><p class="shell-prose">{t('home.methodIntro')}</p><a href={`${url('about')}#forma-de-trabajar`}>{t('nav.about')}</a></div><WorkshopScene variant="method"/></section>
+    {featuredWorks.length>0 && <section class="tn-section tn-stack"><h2>{t('nav.works')}</h2><p class="shell-prose">{t('page.worksIntro')}</p><div class="tn-cards">{featuredWorks.map(entry=><Card title={entry.title} summary={entry.summary} href={entry.url} action={t('work.details')}/>)}</div></section>}
+    <section class="tn-section home-contact"><div class="tn-stack"><p class="tn-eyebrow">{t('nav.contact')}</p><h2>{t('home.contactTitle')}</h2><p class="tn-lead">{t('home.contactText')}</p></div><Action href={url('contact')}>{t('home.contactAction')} <span aria-hidden="true">↗</span></Action></section>
+  </>}
+  {['projects','experience','works','about','contact'].includes(page.id) && <section class="tn-section tn-page-hero">
+    <div class="tn-stack">
+      <h1>{t(`page.${page.id}Title`)}</h1><p class="shell-prose">{t(`page.${page.id}Intro`)}</p>
+      {page.id === 'experience' && <div class="tn-actions"><button hidden type="button" class="tn-action tn-action--secondary" data-print-trajectory>{t('experience.print')}</button></div>}
+      {page.id === 'contact' && <div class="tn-stack"><ContactActions value={channels.email} t={t}/><a href={channels.profiles[0].url}>{t('profile.linkedin')}</a></div>}
+    </div><WorkshopScene variant={sectionScene}/>
+  </section>}
+  {['projects','experience','works','about','contact','terms','explore'].includes(page.id) && <section class="tn-section tn-stack">
+    {!sectionScene && <>
+      <h1>{t(`page.${page.id}Title`)}</h1>
+      {page.id !== 'explore' && <p class="shell-prose">{t(`page.${page.id}Intro`)}</p>}
+    </>}
+    {page.id === 'projects' && ['case','brief'].map(presentation => <section class="tn-stack professional-projects" data-presentation={presentation}><h2>{t(presentation==='case'?'project.fullCases':'project.briefCases')}</h2><div class="tn-cards">{projects.filter(entry=>'presentation' in entry.facts && entry.facts.presentation===presentation).map(entry=><Card title={entry.title} summary={entry.summary} label={entry.operationalStatus} href={entry.url} action={t('journey.readProject',{title:entry.title})}/>)}</div></section>)}
+    {page.id === 'experience' && <div class="trajectory-layout"><div class="professional-trajectory tn-stack">
+      <section class="tn-stack"><h2>{t('experience.profileTitle')}</h2><p class="shell-prose">{t('experience.profile')}</p></section>
+      <ol class="professional-timeline">{stages.map(({entry,Content,evidence})=><li id={entry.url.split('#')[1]} data-experience>
+        <h2>{entry.title}</h2><p class="tn-eyebrow">{entry.startLabel}</p><p><strong>{entry.role}</strong></p>
+        <details open><summary>{t('experience.details')}</summary><div class="tn-prose"><Content/></div></details>
+        {evidence.length>0 && <nav aria-label={t('experience.evidence')} class="tn-actions">{evidence.map(project=><a href={project.url}>{project.title}</a>)}</nav>}
+      </li>)}</ol>
+      <section id="capacidades" class="tn-stack"><h2>{t('experience.capabilitiesTitle')}</h2>{terms.filter(term=>'family' in term.facts && term.facts.family==='capability').map(term=><article class="tn-stack"><h3><a href={term.url}>{term.title}</a></h3><p>{term.summary}</p><ul>{evidenceFor(term.entityId).map(entry=><li><a href={entry.url}>{entry.title}</a></li>)}</ul></article>)}</section>
+      <section id="formacion" class="tn-stack"><h2>{t('experience.formationTitle')}</h2><p>{t('experience.formation')}</p></section>
+      <section class="tn-stack"><h2>{t('experience.earlyTitle')}</h2><p>{t('experience.early')}</p></section>
+      <section id="comunidad" class="tn-stack"><h2>{t('experience.communityTitle')}</h2><p>{t('experience.communityIntro')}</p><ul>{['veg','dbf','gnome','mint'].map(key=><li>{t(`community.${key}`)}</li>)}</ul></section>
+      <Action href={url('contact')}>{t('journey.contactAction')}</Action>
+    </div><ReadingOrnament/></div>}
+    {page.id === 'works' && <div class="tn-stack" data-work-catalog>
+      <p>{t('work.catalogCount',{count:works.length})}</p>
+      <nav aria-label={t('work.libraryIndex')} class="tn-actions">{workGroups.map(group=><a href={`#biblioteca-${group??'libros'}`}>{categoryLabel(group)}</a>)}</nav>
+      {workGroups.map(group=><section id={`biblioteca-${group??'libros'}`} class="tn-stack library-group"><h2>{categoryLabel(group)}</h2><div class="tn-cards">{works.filter(entry=>('category' in entry.facts?entry.facts.category:undefined)===group).map(entry=><Card title={entry.title} summary={entry.summary} label={'partial' in entry.facts && entry.facts.partial?t('work.partial'):entry.example?t('reading.example'):undefined} href={entry.url} action={'fullText' in entry.facts && entry.facts.fullText?t('work.readText'):t('work.details')} variant={entry.entityId==='cuando-la-tostadora-te-responde'?'book':undefined}>{entry.entityId==='cuando-la-tostadora-te-responde' && <WorkshopScene variant="book"/>}</Card>)}</div></section>)}
+      {!works.length && <p>{t('work.empty')}</p>}
+    </div>}
+    {page.id === 'about' && <div class="trajectory-layout"><AboutContent t={t}/><ReadingOrnament/></div>}
+    {page.id === 'contact' && <div class="tn-stack"><h2>{t('contact.channelsTitle')}</h2><ul>{channels.profiles.slice(1).filter(profile=>!['profile.paypal','profile.amazon'].includes(profile.key)).map(profile=><li><a href={profile.url}>{t(profile.key)}</a></li>)}</ul><h2>{t('contact.supportTitle')}</h2><ul>{channels.profiles.filter(profile=>['profile.paypal','profile.amazon'].includes(profile.key)).map(profile=><li><a href={profile.url}>{t(profile.key)}</a></li>)}</ul></div>}
+    {page.id === 'terms' && <div class="tn-cards">{terms.map(entry => <Card title={entry.title} summary={entry.summary} href={entry.url} action={t('nav.readMore')}/>)}</div>}
+    {page.id === 'explore' && <SearchContent repository={repository} locale={page.locale} prefix={routePrefix} t={t}/>}
+
+  </section>}
+  {current?.data.type==='work' && <><WorkContent entry={current.data} page={page} t={t} reading={collection==='readingContent'}/>{related && related.length>0 && <section class="tn-section tn-stack work-related"><h2>{t('work.related')}</h2><ul>{related.map(r=><li><a href={r.url}>{r.entry!.title}</a></li>)}</ul></section>}<nav class="tn-section" aria-label={t('nav.works')}><a href={url('works')}>{t('work.catalog')}</a></nav></>}
+  {current && Content && <>
+    <section class:list={['tn-section', project ? 'tn-page-hero project-hero' : 'tn-stack']}>
+      <div class="tn-stack"><h1>{current.data.title}</h1><p class="tn-lead" data-entry-summary>{current.data.summary}</p></div>
+      {project && <WorkshopScene variant="projects"/>}
+      {project && <dl class="case-facts">
+        {project.role && <div><dt>{t('project.role')}</dt><dd data-fact="role">{project.role}</dd></div>}
+        {project.operationalStatus && <div><dt>{t('project.status')}</dt><dd data-fact="operationalStatus">{project.operationalStatus}</dd></div>}
+        {project.startLabel && <div><dt>{t('project.start')}</dt><dd data-fact="startLabel">{project.startLabel}</dd></div>}
+        {project.technologies.length>0 && <div><dt>{t('project.technologies')}</dt><dd data-fact="technologies">{project.technologies.join(', ')}</dd></div>}
+      </dl>}
+    </section>
+    <div class:list={{'tn-section trajectory-layout project-reading':!!project}}>
+    <div class:list={{'project-reading-content':!!project}}>
+    {(project || current.data.body.trim() !== current.data.summary.trim()) && <section class="tn-section"><div class="tn-prose" data-entry-body><Content/></div></section>}
+    {related && related.length > 0 && <section class="tn-section tn-stack"><h2>{t('nav.related')}</h2><ul>{related.map(r => <li><span>{t(`relation.${r.kind}`)}: </span><a href={r.url}>{r.entry!.title}</a></li>)}</ul></section>}
+    {downloads && !routePrefix && <section class="tn-section tn-stack"><h2>{t('export.title')}</h2><div class="tn-actions"><a href={downloads.json} download>{t('export.json')}</a><a href={downloads.markdown} download>{t('export.markdown')}</a></div></section>}
+    {current.data.type==='term' && <section class="tn-section tn-stack"><h2>{t('search.related')}</h2><ul>{connectionsFor(current.data.entityId).map(({entry,kind})=><li><a href={entry.url}>{entry.title}</a><span> · {t(`relation.${kind}`)}</span></li>)}</ul><a href={`${url('explore')}?topic=${current.data.entityId}`}>{t('search.viewTopic')}</a></section>}
+    {project && !routePrefix && <section class="tn-section tn-stack"><h2>{t('share.title')}</h2><ContactActions t={t} value={project.canonical} title={project.title} share/></section>}
+    <section class="tn-section tn-stack" data-journey-contact data-pagefind-ignore><h2>{t('journey.contactTitle')}</h2><p>{t('journey.contactText')}</p><Action href={url('contact')}>{t('journey.contactAction')}</Action></section>
+    </div>
+    {project && <ReadingOrnament/>}
+    </div>
+  </>}
+</SiteLayout>

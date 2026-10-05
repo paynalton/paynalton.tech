@@ -1,0 +1,105 @@
+{
+  "scope": "PT12",
+  "status": "automated_validation_passed_pending_human_review",
+  "deployed": false,
+  "remote_http_verified": false,
+  "human_review_complete": false,
+  "html_pages": 337,
+  "canonical_pages": 330,
+  "public_entities": 319,
+  "entity_exports": 638,
+  "rss_items": 111,
+  "search_documents": 311,
+  "model_tests": 73,
+  "import_tests": 3,
+  "browser_passed": 130,
+  "browser_skipped": 2,
+  "source_files_scanned": 509,
+  "scanned_text_files": 1029,
+  "visual_baselines": 8,
+  "manual_pending": [
+    "Revisión editorial y visual del propietario",
+    "Recorrido con lector de pantalla real",
+    "Afinado de intensidad y velocidad de efectos antes de publicación"
+  ],
+  "remote_pending": [
+    "Inspección de pipeline y permisos GitHub/Netlify",
+    "Ensayo de recuperación PT13",
+    "Verificación HTTP real PT13/PT14"
+  ],
+  "acceptance_exit_code": 0,
+  "command": "E2E_PORT=4331 PLAYWRIGHT_CHROMIUM_EXECUTABLE=/usr/bin/google-chrome npm run verify:candidate",
+  "clean_lockfile_install": true,
+  "design_passed": 51,
+  "static_browser_passed": 30,
+  "static_equivalent_pages": 337,
+  "known_dependency_vulnerabilities": 0,
+  "artifact_sha256": "0710076011618451d69f7c294d6a72fac5d3c80167fcaa4db18c48e9b38ff963",
+  "artifact_files": 1467,
+  "lighthouse": [
+    {
+      "url": "/es/",
+      "scores": {
+        "performance": 0.99,
+        "accessibility": 1,
+        "best-practices": 1,
+        "seo": 1
+      },
+      "metrics": {
+        "first-contentful-paint": 1135.5683999999999,
+        "largest-contentful-paint": 1957.0456,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "speed-index": 1135.5683999999999
+      }
+    },
+    {
+      "url": "/es/proyectos/pipila/",
+      "scores": {
+        "performance": 0.99,
+        "accessibility": 1,
+        "best-practices": 1,
+        "seo": 1
+      },
+      "metrics": {
+        "first-contentful-paint": 1387.1584,
+        "largest-contentful-paint": 1802.0792000000001,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "speed-index": 1387.1584
+      }
+    },
+    {
+      "url": "/es/obra/",
+      "scores": {
+        "performance": 0.99,
+        "accessibility": 1,
+        "best-practices": 1,
+        "seo": 1
+      },
+      "metrics": {
+        "first-contentful-paint": 1128.0082499999999,
+        "largest-contentful-paint": 1802.0054999999998,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "speed-index": 1128.0082499999999
+      }
+    },
+    {
+      "url": "/es/obra/el-estupor-mexicano/",
+      "scores": {
+        "performance": 0.99,
+        "accessibility": 1,
+        "best-practices": 1,
+        "seo": 1
+      },
+      "metrics": {
+        "first-contentful-paint": 1386.9758000000002,
+        "largest-contentful-paint": 1801.9879,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "speed-index": 1386.9758000000002
+      }
+    }
+  ]
+}

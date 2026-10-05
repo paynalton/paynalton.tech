@@ -1,0 +1,6 @@
+---
+import Icon from './Icon.astro';
+interface Props { selected?: boolean; href?: string; }
+const {selected=false,href}=Astro.props;
+---
+{href ? <a class:list={['tn-tag',{'is-selected':selected}]} href={href} aria-current={selected ? 'true' : undefined}>{selected && <Icon name="check"/>}<slot/></a> : <span class:list={['tn-tag',{'is-selected':selected}]}>{selected && <Icon name="check"/>}<slot/></span>}

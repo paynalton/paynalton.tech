@@ -1,0 +1,9 @@
+---
+interface Props { variant?: 'mark' | 'corner' | 'rule'; }
+const {variant = 'mark'} = Astro.props;
+---
+<svg class:list={['tn-ornament',`tn-ornament--${variant}`]} width={variant==='rule' ? 160 : 48} height="48" viewBox={variant==='rule' ? '0 0 160 48' : '0 0 48 48'} fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true" focusable="false">
+ {variant==='mark' && <path d="M5 43V23h15V8h23v18H28v17H5Zm8-8h7V23h15v-7h-7v15H13"/>}
+ {variant==='corner' && <path d="M4 44V20h16V4h24M12 44V28h16V12h16"/>}
+ {variant==='rule' && <path d="M0 24h24V12h16v24h16V24h104M8 32h24V20h16"/>}
+</svg>

@@ -1,0 +1,1 @@
+Diseño soluciones que conectan aplicaciones, datos y servicios sin perder de vista su operación. Me interesa comprender dónde están las dependencias, qué ocurre cuando una falla y cómo permitir que el sistema evolucione. Pipila y la transición de Onix muestran dos formas de abordar ese trabajo.

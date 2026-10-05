@@ -1,0 +1,1 @@
+Además del soporte, desarrollé aplicaciones para automatizar la creación editorial y una intranet. También participé en las pruebas de calidad del sitio web. Estas aportaciones fueron parte de mi experiencia de desarrollo antes de ocupar un puesto con ese nombre.

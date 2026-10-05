@@ -1,16 +1,9 @@
 import rss from '@astrojs/rss';
-import { getCollection } from 'astro:content';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
-
-export async function GET(context) {
-	const posts = await getCollection('blog');
-	return rss({
-		title: SITE_TITLE,
-		description: SITE_DESCRIPTION,
-		site: context.site,
-		items: posts.map((post) => ({
-			...post.data,
-			link: `/blog/${post.id}/`,
-		})),
-	});
+import {loadSite} from '../lib/site/build.mjs';
+import {createTranslator} from '../lib/site/i18n.mjs';
+import {origin,stableSort} from '../lib/site/publication.mjs';
+export async function GET(){
+ const repo=await loadSite(),settings=repo.getSettings(),{t}=createTranslator(settings.baseLocale,repo.getCatalogs(),settings);
+ const entries=settings.locales.filter(l=>l.enabled).flatMap(l=>repo.publicEntries(l.code).filter(e=>e.type==='work' && !e.example));
+ return rss({title:t('brand.name'),description:t('publication.description'),site:origin,customData:`<language>${settings.baseLocale}</language>`,items:stableSort(entries).map(e=>({title:e.title,description:`${e.facts.author??''} — ${e.summary}`,link:e.url}))});
 }

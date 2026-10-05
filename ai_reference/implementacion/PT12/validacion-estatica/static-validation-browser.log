@@ -1,0 +1,365 @@
+npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+npm notice run paynalton.tech@0.0.1 test:e2e
+npm notice run playwright test --grep-invert visual baseline --workers=2
+[WebServer] npm warn Unknown env config "always-auth". This will error in a future major version of npm. See `npm help npmrc` for supported config options.
+[WebServer] npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+[WebServer] npm notice run paynalton.tech@0.0.1 preview
+[WebServer] npm notice run astro preview --host 127.0.0.1 --port 4334 --ignore-lock
+[WebServer] (node:680597) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 200 tests using 2 workers
+
+(node:681108) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:681109) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓    2 [desktop] › tests/ambient.spec.ts:4:1 › visible scenes keep bounded ambient motion and stop offscreen (3.6s)
+  ✓    1 [desktop] › tests/ambient.spec.ts:14:1 › gold particles are bounded to one hovered project, preserve links and clean up (3.9s)
+  ✓    3 [desktop] › tests/ambient.spec.ts:27:1 › footer star particles follow the effects control (1.3s)
+(node:681791) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓    5 [desktop] › tests/book-scene.spec.ts:5:1 › recognizable book renders in card and ficha and retains its fallback (5.0s)
+  ✓    6 [desktop] › tests/book-scene.spec.ts:16:1 › book picture survives without JavaScript (376ms)
+(node:682136) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓    4 [desktop] › tests/ambient.spec.ts:37:1 › shared cards receive particles across home, projects, library and topics (9.6s)
+(node:682384) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓    8 [desktop] › tests/candidate.spec.ts:45:1 › CSP retains the native local search form without JavaScript (412ms)
+  ✓    9 [desktop] › tests/editorial.spec.ts:6:1 › every imported reader and download is available with inert editorial HTML (1.9s)
+  ✓   10 [desktop] › tests/editorial.spec.ts:23:1 › standalone readers, technical tables and coauthorship fit small screens and pass accessibility checks (3.0s)
+  ✓   11 [desktop] › tests/editorial.spec.ts:40:1 › new full texts are searchable by body and tags (262ms)
+  ✓   12 [desktop] › tests/editorial.spec.ts:45:1 › published story and downloads remain usable without JavaScript (179ms)
+  ✓    7 [desktop] › tests/candidate.spec.ts:6:1 › CSP permits published pages and Pagefind while blocking injected scripts (19.5s)
+  ✓   14 [desktop] › tests/fireworks.spec.ts:23:1 › fireworks have no visible trigger and respect effects off (276ms)
+  ✓   15 [desktop] › tests/forms-conversation.spec.ts:7:1 › twenty clicks, refusal and persistent exit follow the requested sequence (3.6s)
+  ✓   16 [desktop] › tests/forms-conversation.spec.ts:32:1 › accepting the offer launches fireworks without counting the answer as a figure click (1.1s)
+  ✓   17 [desktop] › tests/forms-expiration.spec.ts:3:1 › an open page restores figures at exactly 24 hours and persists all defaults (142ms)
+  ✓   18 [desktop] › tests/forms-expiration.spec.ts:16:1 › returning to the site or a suspended tab expires old state (127ms)
+  ✓   19 [desktop] › tests/forms-state.spec.ts:3:1 › HideForms governs every figure across reloads and resets without hiding content (2.2s)
+  ✓   20 [desktop] › tests/forms-state.spec.ts:25:1 › public forms state survives navigation and reset synchronizes tabs (2.7s)
+  ✓   21 [desktop] › tests/home-polish.spec.ts:8:1 › all static HTML outbound links have an icon, new tab and safe rel (177ms)
+  ✓   22 [desktop] › tests/home-polish.spec.ts:20:1 › search exits smoothly by button, Escape and outside; focus returns (5.6s)
+  ✓   23 [desktop] › tests/home-polish.spec.ts:39:1 › brand draws on initial load and external links work without JavaScript (2.6s)
+  ✓   13 [desktop] › tests/fireworks.spec.ts:3:1 › reserved fireworks hook covers the viewport, finishes and can replay or cancel (30.3s)
+  ✓   25 [desktop] › tests/journey.spec.ts:28:1 › built HTML, JSON and Markdown describe identical public facts and body (1.1s)
+  ✓   26 [desktop] › tests/journey.spec.ts:49:1 › journey and downloads remain available without JavaScript (330ms)
+  ✓   24 [desktop] › tests/journey.spec.ts:10:1 › complete reference journey by keyboard, with accessible steps and captures (5.9s)
+  ✓   28 [desktop] › tests/language-picker.spec.ts:4:1 › language picker exposes only Spanish and English with honest availability (1.9s)
+  ✓   29 [desktop] › tests/language-picker.spec.ts:16:1 › the actual translated book supports round-trip navigation without JavaScript (484ms)
+  ✘   27 [desktop] › tests/journey.spec.ts:60:1 › hostile URLs never alter canonical, exports or execute HTML (6.2s)
+(node:685345) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   31 [desktop] › tests/professional.spec.ts:30:1 › copy succeeds and permission denial leaves selectable email (1.2s)
+  ✓   32 [desktop] › tests/professional.spec.ts:47:1 › native sharing sends canonical URL and handles cancellation and denial (1.2s)
+  ✓   33 [desktop] › tests/professional.spec.ts:59:1 › unsupported APIs and no JavaScript retain contact and sharing links (1.1s)
+  ✓   30 [desktop] › tests/professional.spec.ts:5:1 › complete catalog, chronology, printable details and review captures (7.5s)
+  ✓   35 [desktop] › tests/professional.spec.ts:80:1 › all professional cases expose accessible facts and static downloads (14.4s)
+  ✓   34 [desktop] › tests/professional.spec.ts:67:1 › all built pages load without automatic third-party requests (18.2s)
+  ✓   37 [desktop] › tests/publication.spec.ts:7:1 › canonical and social data ignore query input; linked formats are usable (181ms)
+  ✓   38 [desktop] › tests/publication.spec.ts:16:1 › translated book alternatives are reciprocal and legacy pages remain accessible (1.4s)
+  ✓   36 [desktop] › tests/publication.spec.ts:3:1 › historical Spanish URLs reach their final content and anchors in static preview (6.0s)
+  ✓   40 [desktop] › tests/reading.spec.ts:25:1 › book ficha reserves the right column for its WebGL scene (182ms)
+  ✓   41 [desktop] › tests/reading.spec.ts:30:1 › book library card reserves the right column for the same scene (1.2s)
+  ✓   42 [desktop] › tests/reading.spec.ts:35:1 › all book editions remain reachable without scripts and with enlarged text (678ms)
+  ✓   39 [desktop] › tests/reading.spec.ts:5:1 › public library, book and personal profile are accessible and contain only selected content (10.5s)
+  ✓   44 [desktop] › tests/scene-speech.spec.ts:21:1 › scenes and ornaments speak near the click without blocking navigation (927ms)
+  ✓   45 [desktop] › tests/scene-speech.spec.ts:44:1 › the book scene speaks while its card link remains usable (271ms)
+  ✓   46 [desktop] › tests/search.spec.ts:6:1 › full body search, type and topic filters, shareable URL, history and clear (1.7s)
+  ✓   47 [desktop] › tests/search.spec.ts:21:1 › zero results, unknown filters, hostile query and keyboard access (879ms)
+  ✓   48 [desktop] › tests/search.spec.ts:29:1 › failed index keeps HTML links and retry recovers with filters intact (1.7s)
+  ✓   49 [desktop] › tests/search.spec.ts:36:1 › late searches cannot replace a newer query or filters (437ms)
+  ✓   50 [desktop] › tests/search.spec.ts:42:1 › index loads only when searching, requests stay local, and 320px zoom fits (1.5s)
+  ✓   43 [desktop] › tests/scene-speech.spec.ts:6:1 › speech closes after five seconds with delayed fading and cancels old timers on reopening (12.9s)
+  ✓   51 [desktop] › tests/search.spec.ts:49:1 › editorial topics connect to content and filtered exploration (3.5s)
+  ✓   53 [desktop] › tests/shell.spec.ts:31:1 › skip, mobile menu, dialog Escape and focus return (4.6s)
+  ✓   54 [desktop] › tests/shell.spec.ts:54:1 › global search, query history and literal malicious input (1.7s)
+  ✓   55 [desktop] › tests/shell.spec.ts:72:1 › preferences persist, honor reduced motion and pass accessibility (1.9s)
+  ✓   56 [desktop] › tests/shell.spec.ts:89:1 › blocked storage keeps controls usable without script errors (1.1s)
+  ✓   57 [desktop] › tests/shell.spec.ts:100:1 › without JavaScript: navigation, search alternatives, root and 404 (503ms)
+  ✓   58 [desktop] › tests/shell.spec.ts:116:1 › 320px and enlarged text preserve menu, preferences and dialog (330ms)
+  ✓   59 [desktop] › tests/shell.spec.ts:125:1 › expanded labels and RTL keep the shared frame usable (222ms)
+  ✓   60 [desktop] › tests/shell.spec.ts:138:1 › preference changes synchronize with another tab (2.1s)
+  ✓   52 [desktop] › tests/shell.spec.ts:6:1 › new routes: accessible shell, real links, local assets and no overflow (17.8s)
+  ✓   62 [desktop] › tests/site.spec.ts:38:3 › es: language navigation preserves section (137ms)
+  ✓   61 [desktop] › tests/site.spec.ts:18:3 › es: pages and local resources (3.6s)
+  ✓   64 [desktop] › tests/site.spec.ts:18:3 › en: pages and local resources (853ms)
+  ✓   63 [desktop] › tests/site.spec.ts:51:3 › es: book edition and format stay independent of page language (1.6s)
+  ✓   65 [desktop] › tests/site.spec.ts:38:3 › en: language navigation preserves section (265ms)
+  ✓   66 [desktop] › tests/site.spec.ts:51:3 › en: book edition and format stay independent of page language (378ms)
+  ✓   68 [desktop] › tests/site.spec.ts:38:3 › nah: language navigation preserves section (232ms)
+  ✓   67 [desktop] › tests/site.spec.ts:18:3 › nah: pages and local resources (758ms)
+  -   70 [desktop] › tests/site.spec.ts:70:1 › mobile menu opens and navigation works
+  ✓   69 [desktop] › tests/site.spec.ts:51:3 › nah: book edition and format stay independent of page language (371ms)
+  ✓   71 [desktop] › tests/site.spec.ts:79:1 › root keeps the Spanish entry for an English browser (229ms)
+  ✓   72 [desktop] › tests/site.spec.ts:89:1 › essential HTML works without JavaScript (389ms)
+  ✓   73 [desktop] › tests/site.spec.ts:100:1 › feeds, downloads and missing routes (576ms)
+  ✓   75 [desktop] › tests/trajectory-ornament.spec.ts:27:1 › narrow reading and disabled effects keep all stages usable (237ms)
+  ✓   76 [desktop] › tests/trajectory-ornament.spec.ts:38:1 › the complete ornament and chronology remain available without JavaScript (178ms)
+  ✓   77 [desktop] › tests/trajectory-ornament.spec.ts:46:1 › vertical gold particles are bounded and follow visibility and preferences (1.3s)
+(node:689751) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   78 [desktop] › tests/effects.spec.ts:14:57 › preference off prevents Three.js requests and preserves content (237ms)
+  ✓   79 [desktop] › tests/effects.spec.ts:14:57 › preference soft prevents Three.js requests and preserves content (168ms)
+  ✓   80 [desktop] › tests/effects.spec.ts:14:57 › preference disabled3d prevents Three.js requests and preserves content (203ms)
+  ✓   81 [desktop] › tests/effects.spec.ts:14:57 › preference reduced prevents Three.js requests and preserves content (187ms)
+  ✓   74 [desktop] › tests/trajectory-ornament.spec.ts:4:1 › vertical ornament follows reading in both directions without covering content (3.8s)
+(node:690121) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   83 [desktop] › tests/effects.spec.ts:43:1 › lost WebGL context falls back without retrying on preference changes (1.6s)
+  ✓   84 [desktop] › tests/effects.spec.ts:49:1 › failed motor import preserves the static scene and navigation (376ms)
+  ✓   85 [desktop] › tests/effects.spec.ts:54:1 › other pages load decoration only; filters and keyboard remain functional (739ms)
+  ✓   86 [desktop] › tests/effects.spec.ts:60:1 › static image stays present without JavaScript (386ms)
+  ✓   87 [desktop] › tests/effects.spec.ts:68:1 › unavailable WebGL retains the image without throwing into page behavior (196ms)
+  ✓   82 [desktop] › tests/effects.spec.ts:24:1 › real WebGL, bounded ambient rendering, pause, cleanup and reactivation (4.8s)
+  ✓   88 [desktop] › tests/effects.spec.ts:77:1 › late motor import cannot mount after effects have been disabled (829ms)
+  -   90 [desktop] › tests/effects.spec.ts:92:1 › mobile scene below the fold defers the motor until sufficiently visible
+(node:690719) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   89 [desktop] › tests/effects.spec.ts:85:1 › movement reduction takes priority during an active scene (2.4s)
+(node:690944) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   92 [desktop] › tests/figure-vortex.spec.ts:29:1 › reduced motion removes the vortex controls (158ms)
+(node:691122) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   91 [desktop] › tests/figure-vortex.spec.ts:4:1 › one click spirals every figure away in 1.5 seconds without shifting content (3.1s)
+(node:691275) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   94 [desktop] › tests/home-review.spec.ts:28:1 › section header images work without JavaScript (710ms)
+  ✓   93 [desktop] › tests/home-review.spec.ts:5:1 › section headers have distinct live scenes and matching static fallbacks (10.7s)
+  ✓   95 [desktop] › tests/home-review.spec.ts:36:1 › all four sculptures load on demand, release offscreen and respect reduced motion (11.9s)
+  ✓   97 [desktop] › tests/home-review.spec.ts:66:1 › home reflows at 320 pixels and 200 percent text (206ms)
+  ✓   98 [desktop] › tests/home-review.spec.ts:72:1 › hover and menu transitions have visible duration and nonlinear easing (2.5s)
+(node:692060) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   96 [desktop] › tests/home-review.spec.ts:59:1 › project and work card corners follow their real link and retain one tab stop (5.8s)
+(node:692205) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  100 [desktop] › tests/project-layout.spec.ts:33:1 › project scene and reading content have a static fallback (209ms)
+(node:692358) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   99 [desktop] › tests/project-layout.spec.ts:6:1 › project template combines its scene with a separate reading rail (1.4s)
+(node:692562) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  102 [mobile] › tests/ambient.spec.ts:14:1 › gold particles are bounded to one hovered project, preserve links and clean up (190ms)
+  ✓  103 [mobile] › tests/ambient.spec.ts:27:1 › footer star particles follow the effects control (324ms)
+  ✓  101 [mobile] › tests/ambient.spec.ts:4:1 › visible scenes keep bounded ambient motion and stop offscreen (3.7s)
+(node:692849) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  104 [mobile] › tests/ambient.spec.ts:37:1 › shared cards receive particles across home, projects, library and topics (4.3s)
+(node:693631) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  106 [mobile] › tests/book-scene.spec.ts:16:1 › book picture survives without JavaScript (443ms)
+(node:694163) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  105 [mobile] › tests/book-scene.spec.ts:5:1 › recognizable book renders in card and ficha and retains its fallback (5.6s)
+(node:694737) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  108 [mobile] › tests/candidate.spec.ts:45:1 › CSP retains the native local search form without JavaScript (423ms)
+  ✓  109 [mobile] › tests/editorial.spec.ts:6:1 › every imported reader and download is available with inert editorial HTML (1.9s)
+  ✓  110 [mobile] › tests/editorial.spec.ts:23:1 › standalone readers, technical tables and coauthorship fit small screens and pass accessibility checks (3.7s)
+  ✓  111 [mobile] › tests/editorial.spec.ts:40:1 › new full texts are searchable by body and tags (279ms)
+  ✓  112 [mobile] › tests/editorial.spec.ts:45:1 › published story and downloads remain usable without JavaScript (213ms)
+  ✓  107 [mobile] › tests/candidate.spec.ts:6:1 › CSP permits published pages and Pagefind while blocking injected scripts (22.4s)
+  ✓  114 [mobile] › tests/fireworks.spec.ts:23:1 › fireworks have no visible trigger and respect effects off (302ms)
+  ✓  115 [mobile] › tests/forms-conversation.spec.ts:7:1 › twenty clicks, refusal and persistent exit follow the requested sequence (3.7s)
+  ✓  116 [mobile] › tests/forms-conversation.spec.ts:32:1 › accepting the offer launches fireworks without counting the answer as a figure click (1.1s)
+  ✓  117 [mobile] › tests/forms-expiration.spec.ts:3:1 › an open page restores figures at exactly 24 hours and persists all defaults (147ms)
+  ✓  118 [mobile] › tests/forms-expiration.spec.ts:16:1 › returning to the site or a suspended tab expires old state (146ms)
+  ✓  119 [mobile] › tests/forms-state.spec.ts:3:1 › HideForms governs every figure across reloads and resets without hiding content (2.2s)
+  ✓  120 [mobile] › tests/forms-state.spec.ts:25:1 › public forms state survives navigation and reset synchronizes tabs (760ms)
+  ✓  121 [mobile] › tests/home-polish.spec.ts:8:1 › all static HTML outbound links have an icon, new tab and safe rel (149ms)
+  ✓  122 [mobile] › tests/home-polish.spec.ts:20:1 › search exits smoothly by button, Escape and outside; focus returns (5.4s)
+  ✓  123 [mobile] › tests/home-polish.spec.ts:39:1 › brand draws on initial load and external links work without JavaScript (1.3s)
+  ✓  113 [mobile] › tests/fireworks.spec.ts:3:1 › reserved fireworks hook covers the viewport, finishes and can replay or cancel (30.3s)
+  ✓  125 [mobile] › tests/journey.spec.ts:28:1 › built HTML, JSON and Markdown describe identical public facts and body (909ms)
+  ✓  126 [mobile] › tests/journey.spec.ts:49:1 › journey and downloads remain available without JavaScript (330ms)
+  ✓  124 [mobile] › tests/journey.spec.ts:10:1 › complete reference journey by keyboard, with accessible steps and captures (6.6s)
+  ✓  128 [mobile] › tests/language-picker.spec.ts:4:1 › language picker exposes only Spanish and English with honest availability (1.1s)
+  ✓  129 [mobile] › tests/language-picker.spec.ts:16:1 › the actual translated book supports round-trip navigation without JavaScript (508ms)
+  ✘  127 [mobile] › tests/journey.spec.ts:60:1 › hostile URLs never alter canonical, exports or execute HTML (6.0s)
+(node:699371) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  131 [mobile] › tests/professional.spec.ts:30:1 › copy succeeds and permission denial leaves selectable email (263ms)
+  ✓  132 [mobile] › tests/professional.spec.ts:47:1 › native sharing sends canonical URL and handles cancellation and denial (991ms)
+  ✓  133 [mobile] › tests/professional.spec.ts:59:1 › unsupported APIs and no JavaScript retain contact and sharing links (1.3s)
+  ✓  130 [mobile] › tests/professional.spec.ts:5:1 › complete catalog, chronology, printable details and review captures (15.6s)
+  ✓  134 [mobile] › tests/professional.spec.ts:67:1 › all built pages load without automatic third-party requests (17.5s)
+  ✓  136 [mobile] › tests/publication.spec.ts:3:1 › historical Spanish URLs reach their final content and anchors in static preview (4.2s)
+  ✓  137 [mobile] › tests/publication.spec.ts:7:1 › canonical and social data ignore query input; linked formats are usable (169ms)
+  ✓  138 [mobile] › tests/publication.spec.ts:16:1 › translated book alternatives are reciprocal and legacy pages remain accessible (397ms)
+  ✓  135 [mobile] › tests/professional.spec.ts:80:1 › all professional cases expose accessible facts and static downloads (14.5s)
+  ✓  140 [mobile] › tests/reading.spec.ts:25:1 › book ficha reserves the right column for its WebGL scene (144ms)
+  ✓  141 [mobile] › tests/reading.spec.ts:30:1 › book library card reserves the right column for the same scene (895ms)
+  ✓  142 [mobile] › tests/reading.spec.ts:35:1 › all book editions remain reachable without scripts and with enlarged text (640ms)
+  ✓  139 [mobile] › tests/reading.spec.ts:5:1 › public library, book and personal profile are accessible and contain only selected content (16.8s)
+  ✓  143 [mobile] › tests/scene-speech.spec.ts:6:1 › speech closes after five seconds with delayed fading and cancels old timers on reopening (12.9s)
+  ✓  145 [mobile] › tests/scene-speech.spec.ts:44:1 › the book scene speaks while its card link remains usable (254ms)
+  ✓  144 [mobile] › tests/scene-speech.spec.ts:21:1 › scenes and ornaments speak near the click without blocking navigation (1.3s)
+  ✓  147 [mobile] › tests/search.spec.ts:21:1 › zero results, unknown filters, hostile query and keyboard access (828ms)
+  ✓  146 [mobile] › tests/search.spec.ts:6:1 › full body search, type and topic filters, shareable URL, history and clear (2.4s)
+  ✓  149 [mobile] › tests/search.spec.ts:36:1 › late searches cannot replace a newer query or filters (341ms)
+  ✓  148 [mobile] › tests/search.spec.ts:29:1 › failed index keeps HTML links and retry recovers with filters intact (1.8s)
+  ✓  150 [mobile] › tests/search.spec.ts:42:1 › index loads only when searching, requests stay local, and 320px zoom fits (449ms)
+  ✓  151 [mobile] › tests/search.spec.ts:49:1 › editorial topics connect to content and filtered exploration (7.9s)
+  ✓  153 [mobile] › tests/shell.spec.ts:31:1 › skip, mobile menu, dialog Escape and focus return (5.2s)
+  ✓  154 [mobile] › tests/shell.spec.ts:54:1 › global search, query history and literal malicious input (510ms)
+  ✓  155 [mobile] › tests/shell.spec.ts:72:1 › preferences persist, honor reduced motion and pass accessibility (699ms)
+  ✓  156 [mobile] › tests/shell.spec.ts:89:1 › blocked storage keeps controls usable without script errors (174ms)
+  ✓  157 [mobile] › tests/shell.spec.ts:100:1 › without JavaScript: navigation, search alternatives, root and 404 (427ms)
+  ✓  158 [mobile] › tests/shell.spec.ts:116:1 › 320px and enlarged text preserve menu, preferences and dialog (235ms)
+  ✓  159 [mobile] › tests/shell.spec.ts:125:1 › expanded labels and RTL keep the shared frame usable (193ms)
+  ✓  160 [mobile] › tests/shell.spec.ts:138:1 › preference changes synchronize with another tab (259ms)
+  ✓  152 [mobile] › tests/shell.spec.ts:6:1 › new routes: accessible shell, real links, local assets and no overflow (15.5s)
+  ✓  162 [mobile] › tests/site.spec.ts:38:3 › es: language navigation preserves section (117ms)
+  ✓  163 [mobile] › tests/site.spec.ts:51:3 › es: book edition and format stay independent of page language (317ms)
+  ✓  164 [mobile] › tests/site.spec.ts:18:3 › en: pages and local resources (577ms)
+  ✓  165 [mobile] › tests/site.spec.ts:38:3 › en: language navigation preserves section (173ms)
+  ✓  166 [mobile] › tests/site.spec.ts:51:3 › en: book edition and format stay independent of page language (270ms)
+  ✓  167 [mobile] › tests/site.spec.ts:18:3 › nah: pages and local resources (571ms)
+  ✓  168 [mobile] › tests/site.spec.ts:38:3 › nah: language navigation preserves section (189ms)
+  ✓  169 [mobile] › tests/site.spec.ts:51:3 › nah: book edition and format stay independent of page language (330ms)
+  ✓  170 [mobile] › tests/site.spec.ts:70:1 › mobile menu opens and navigation works (258ms)
+  ✓  171 [mobile] › tests/site.spec.ts:79:1 › root keeps the Spanish entry for an English browser (180ms)
+  ✓  172 [mobile] › tests/site.spec.ts:89:1 › essential HTML works without JavaScript (261ms)
+  ✓  173 [mobile] › tests/site.spec.ts:100:1 › feeds, downloads and missing routes (442ms)
+  -  174 [mobile] › tests/trajectory-ornament.spec.ts:4:1 › vertical ornament follows reading in both directions without covering content
+  ✓  175 [mobile] › tests/trajectory-ornament.spec.ts:27:1 › narrow reading and disabled effects keep all stages usable (171ms)
+  ✓  176 [mobile] › tests/trajectory-ornament.spec.ts:38:1 › the complete ornament and chronology remain available without JavaScript (143ms)
+  ✓  177 [mobile] › tests/trajectory-ornament.spec.ts:46:1 › vertical gold particles are bounded and follow visibility and preferences (101ms)
+(node:704621) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  161 [mobile] › tests/site.spec.ts:18:3 › es: pages and local resources (4.9s)
+(node:704729) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  178 [mobile] › tests/effects.spec.ts:14:57 › preference off prevents Three.js requests and preserves content (231ms)
+  ✓  179 [mobile] › tests/effects.spec.ts:14:57 › preference disabled3d prevents Three.js requests and preserves content (194ms)
+  ✓  180 [mobile] › tests/effects.spec.ts:14:57 › preference soft prevents Three.js requests and preserves content (249ms)
+  ✓  181 [mobile] › tests/effects.spec.ts:14:57 › preference reduced prevents Three.js requests and preserves content (188ms)
+  ✓  183 [mobile] › tests/effects.spec.ts:43:1 › lost WebGL context falls back without retrying on preference changes (1.7s)
+  ✓  184 [mobile] › tests/effects.spec.ts:49:1 › failed motor import preserves the static scene and navigation (350ms)
+  ✓  185 [mobile] › tests/effects.spec.ts:54:1 › other pages load decoration only; filters and keyboard remain functional (690ms)
+  ✓  186 [mobile] › tests/effects.spec.ts:60:1 › static image stays present without JavaScript (654ms)
+  ✓  187 [mobile] › tests/effects.spec.ts:68:1 › unavailable WebGL retains the image without throwing into page behavior (269ms)
+  ✓  182 [mobile] › tests/effects.spec.ts:24:1 › real WebGL, bounded ambient rendering, pause, cleanup and reactivation (4.1s)
+  ✓  188 [mobile] › tests/effects.spec.ts:77:1 › late motor import cannot mount after effects have been disabled (893ms)
+  ✓  190 [mobile] › tests/effects.spec.ts:92:1 › mobile scene below the fold defers the motor until sufficiently visible (1.9s)
+(node:705621) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  189 [mobile] › tests/effects.spec.ts:85:1 › movement reduction takes priority during an active scene (2.6s)
+(node:705702) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  192 [mobile] › tests/figure-vortex.spec.ts:29:1 › reduced motion removes the vortex controls (211ms)
+(node:705927) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  191 [mobile] › tests/figure-vortex.spec.ts:4:1 › one click spirals every figure away in 1.5 seconds without shifting content (2.8s)
+(node:706141) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  194 [mobile] › tests/home-review.spec.ts:28:1 › section header images work without JavaScript (737ms)
+  ✓  195 [mobile] › tests/home-review.spec.ts:36:1 › all four sculptures load on demand, release offscreen and respect reduced motion (8.7s)
+  ✓  193 [mobile] › tests/home-review.spec.ts:5:1 › section headers have distinct live scenes and matching static fallbacks (12.4s)
+  ✓  197 [mobile] › tests/home-review.spec.ts:66:1 › home reflows at 320 pixels and 200 percent text (153ms)
+  ✓  198 [mobile] › tests/home-review.spec.ts:72:1 › hover and menu transitions have visible duration and nonlinear easing (297ms)
+(node:706800) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  196 [mobile] › tests/home-review.spec.ts:59:1 › project and work card corners follow their real link and retain one tab stop (2.3s)
+(node:706970) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  200 [mobile] › tests/project-layout.spec.ts:33:1 › project scene and reading content have a static fallback (173ms)
+  ✓  199 [mobile] › tests/project-layout.spec.ts:6:1 › project template combines its scene with a separate reading rail (1.4s)
+
+
+  1) [desktop] › tests/journey.spec.ts:60:1 › hostile URLs never alter canonical, exports or execute HTML 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('main img')
+    Expected: 0
+    Received: 1
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('main img') with timeout 5000ms
+      - waiting for locator('main img')
+        14 × locator resolved to 1 element
+           - unexpected value "1"
+
+
+      63 |  await expect(page.locator('link[rel=canonical]')).toHaveAttribute('href','https://paynalton.tech'+project);
+      64 |  expect(await page.evaluate(()=>Object.hasOwn(window,'compromised'))).toBe(false);
+    > 65 |  await expect(page.locator('main img')).toHaveCount(0);
+         |                                         ^
+      66 |  for(const path of ['/es/proyectos/no-publicado/index.json','/es/obra/ejemplo-lectura/index.md','/design-review/journey/en/'])expect((await request.get(path)).status()).toBe(404);
+      67 |  expect(await (await request.get(project+'index.json?origin=https://evil.example')).json()).toHaveProperty('canonical','https://paynalton.tech'+project);
+      68 | });
+        at /home/paynalton/Proyectos/paynalton.com/tests/journey.spec.ts:65:41
+
+    Error Context: test-results/journey-hostile-URLs-never-04607-cal-exports-or-execute-HTML-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/journey-hostile-URLs-never-04607-cal-exports-or-execute-HTML-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/journey-hostile-URLs-never-04607-cal-exports-or-execute-HTML-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [mobile] › tests/ambient.spec.ts:37:1 › shared cards receive particles across home, projects, library and topics 
+
+    Error: browserContext.close: ENOENT: no such file or directory, open '/home/paynalton/Proyectos/paynalton.com/test-results/.playwright-artifacts-15/traces/f8bdfa22e22f9e798d3f-0e69d7328fca92187eab-recording4.trace'
+
+    Error: ENOENT: no such file or directory, open '/home/paynalton/Proyectos/paynalton.com/test-results/.playwright-artifacts-15/6ceec1798912d90b68d23e50ed4d7aca.zip'
+
+    Error Context: test-results/ambient-shared-cards-recei-45513-projects-library-and-topics-mobile/error-context.md
+
+  3) [mobile] › tests/book-scene.spec.ts:5:1 › recognizable book renders in card and ficha and retains its fallback 
+
+    Error: browserContext.close: ENOENT: no such file or directory, open '/home/paynalton/Proyectos/paynalton.com/test-results/.playwright-artifacts-16/traces/a755a45ada0bfcaacbdf-3d78b865c1571b4e71c0.network'
+
+    Error: ENOENT: no such file or directory, open '/home/paynalton/Proyectos/paynalton.com/test-results/.playwright-artifacts-16/0fc4f3bf30a44e39300b844e7f628afc.zip'
+
+    Error Context: test-results/book-scene-recognizable-bo-a4f24-ha-and-retains-its-fallback-mobile/error-context.md
+
+  4) [mobile] › tests/journey.spec.ts:60:1 › hostile URLs never alter canonical, exports or execute HTML 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('main img')
+    Expected: 0
+    Received: 1
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('main img') with timeout 5000ms
+      - waiting for locator('main img')
+        14 × locator resolved to 1 element
+           - unexpected value "1"
+
+
+      63 |  await expect(page.locator('link[rel=canonical]')).toHaveAttribute('href','https://paynalton.tech'+project);
+      64 |  expect(await page.evaluate(()=>Object.hasOwn(window,'compromised'))).toBe(false);
+    > 65 |  // The project header now includes a legitimate static scene image.
+         |                                         ^
+      66 |  await expect(page.locator('main img[src="x"], main [onerror]')).toHaveCount(0);
+      67 |  for(const path of ['/es/proyectos/no-publicado/index.json','/es/obra/ejemplo-lectura/index.md','/design-review/journey/en/'])expect((await request.get(path)).status()).toBe(404);
+      68 |  expect(await (await request.get(project+'index.json?origin=https://evil.example')).json()).toHaveProperty('canonical','https://paynalton.tech'+project);
+        at /home/paynalton/Proyectos/paynalton.com/tests/journey.spec.ts:65:41
+
+    Error Context: test-results/journey-hostile-URLs-never-04607-cal-exports-or-execute-HTML-mobile/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/journey-hostile-URLs-never-04607-cal-exports-or-execute-HTML-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/journey-hostile-URLs-never-04607-cal-exports-or-execute-HTML-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4 failed
+    [desktop] › tests/journey.spec.ts:60:1 › hostile URLs never alter canonical, exports or execute HTML 
+    [mobile] › tests/ambient.spec.ts:37:1 › shared cards receive particles across home, projects, library and topics 
+    [mobile] › tests/book-scene.spec.ts:5:1 › recognizable book renders in card and ficha and retains its fallback 
+    [mobile] › tests/journey.spec.ts:60:1 › hostile URLs never alter canonical, exports or execute HTML 
+  3 skipped
+  193 passed (4.9m)

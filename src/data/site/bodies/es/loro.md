@@ -1,0 +1,1 @@
+LORO es una capa de memoria edge que desarrollo para ampliar y mejorar el contexto de trabajo con agentes. Surgió de mi experiencia con tareas creativas complejas y de la necesidad de reconstruir información entre etapas. En la modernización de Onix se ha utilizado como parte de una metodología de desarrollo asistido por IA.

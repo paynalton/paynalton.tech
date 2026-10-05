@@ -1,0 +1,19 @@
+{
+  "workshop": "hero",
+  "scene": "ready",
+  "paused": "false",
+  "ambientSeconds": "1.23317",
+  "yaw": "0",
+  "pitch": "0",
+  "frames": "6",
+  "startupMs": "221",
+  "frameMedianMs": "33.4",
+  "triangles": "5608",
+  "calls": "29",
+  "geometryBytes": "192472",
+  "geometries": "18",
+  "textures": "6",
+  "dpr": "1.5",
+  "pointerSettled": "true",
+  "active": "true"
+}

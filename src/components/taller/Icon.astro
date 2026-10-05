@@ -1,0 +1,13 @@
+---
+interface Props { name: 'arrow' | 'search' | 'menu' | 'close' | 'copy' | 'share' | 'download' | 'chevron' | 'check' | 'info' | 'warning' | 'settings'; }
+const {name} = Astro.props;
+const paths = {
+ arrow: 'M4 12h16m-6-6 6 6-6 6', search: 'M21 21l-5-5M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0',
+ menu: 'M3 6h18M3 12h18M3 18h18', close: 'M5 5l14 14M19 5 5 19',
+ copy: 'M8 8h12v13H8zM16 8V3H3v13h5', share: 'M12 16V2m-5 5 5-5 5 5M4 12v9h16v-9',
+ download: 'M12 2v14m-5-5 5 5 5-5M3 17v5h18v-5', chevron: 'm9 5 7 7-7 7',
+ check: 'm4 12 5 5L20 6', info: 'M12 11v6m0-11v1M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0',
+ warning: 'M12 3 2 21h20L12 3Zm0 6v5m0 3v1', settings: 'M3 6h18M3 12h18M3 18h18M8 3v6m8 0v6m-8 0v6',
+};
+---
+<svg class="tn-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d={paths[name]}/></svg>

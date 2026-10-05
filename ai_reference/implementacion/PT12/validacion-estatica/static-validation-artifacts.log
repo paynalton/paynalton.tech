@@ -1,0 +1,31 @@
+npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+npm notice run paynalton.tech@0.0.1 check:content-artifact
+npm notice run node scripts/check-content-artifact.mjs
+Artefacto: 1033 archivos de texto revisados; sin marcadores internos/de prueba ni patrones de credenciales conocidos.
+npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+npm notice run paynalton.tech@0.0.1 check:exports
+npm notice run node scripts/check-project-artifacts.mjs && node scripts/check-work-artifacts.mjs
+Exportaciones: 24 archivos coinciden con la proyección pública; sin proyectos extra.
+Obras: 220 exportaciones coinciden con los textos públicos.
+npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+npm notice run paynalton.tech@0.0.1 check:search
+npm notice run node scripts/check-search-artifact.mjs
+Índice: 311 fragmentos descomprimidos; URLs, idioma, filtros y exclusiones coinciden con publicación.
+npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+npm notice run paynalton.tech@0.0.1 check:publication
+npm notice run node scripts/check-publication.mjs && python3 scripts/check-publication-html.py
+PT11: 638 formatos, 330 URLs canónicas, 6 migraciones y recursos PUB-01/02 verificados.
+Traceback (most recent call last):
+  File "/home/paynalton/Proyectos/paynalton.com/scripts/check-publication-html.py", line 59, in <module>
+    assert not errors,'\n'.join(errors)
+           ^^^^^^^^^^
+AssertionError: Broken link /404.html -> /404/
+npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+npm notice run paynalton.tech@0.0.1 check:publication
+npm notice run node scripts/check-publication.mjs && python3 scripts/check-publication-html.py
+PT11: 638 formatos, 330 URLs canónicas, 6 migraciones y recursos PUB-01/02 verificados.
+HTML: 337 páginas, 330 metadatos canónicos, enlaces/anclas locales y 111 entradas RSS correctos.
+npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+npm notice run paynalton.tech@0.0.1 check:effects
+npm notice run node scripts/check-effects-artifact.mjs
+Efectos: motor 144909 bytes gzip; escena/coordinación/decoraciones 12876; renders y límites comprobados.

@@ -1,0 +1,1 @@
+Trabajé en soporte en sitio y atención de incidencias. Automaticé la clonación de discos duros para acelerar los procesos de ensamble de computadoras, aplicando programación a una necesidad concreta de la operación.

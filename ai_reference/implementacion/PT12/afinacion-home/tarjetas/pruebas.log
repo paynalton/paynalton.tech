@@ -1,0 +1,22 @@
+npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+npm notice run paynalton.tech@0.0.1 test:e2e
+npm notice run playwright test tests/ambient.spec.ts --grep gold particles|shared cards --workers=1
+[WebServer] npm warn Unknown env config "always-auth". This will error in a future major version of npm. See `npm help npmrc` for supported config options.
+[WebServer] npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+[WebServer] npm notice run paynalton.tech@0.0.1 preview
+[WebServer] npm notice run astro preview --host 127.0.0.1 --port 4334 --ignore-lock
+[WebServer] (node:81097) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 4 tests using 1 worker
+
+(node:81211) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 [desktop] › tests/ambient.spec.ts:14:1 › gold particles are bounded to one hovered project, preserve links and clean up (2.9s)
+  ✓  2 [desktop] › tests/ambient.spec.ts:37:1 › shared cards receive particles across home, projects, library and topics (8.6s)
+(node:81797) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  3 [mobile] › tests/ambient.spec.ts:14:1 › gold particles are bounded to one hovered project, preserve links and clean up (1.2s)
+  ✓  4 [mobile] › tests/ambient.spec.ts:37:1 › shared cards receive particles across home, projects, library and topics (4.9s)
+
+  4 passed (19.3s)

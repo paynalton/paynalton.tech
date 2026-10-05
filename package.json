@@ -6,20 +6,52 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "check": "astro check",
+    "test:e2e": "playwright test",
+    "verify": "npm run check && npm run check:ui && npm run check:content && npm run test:content && npm run test:editorial && npm run build && npm run check:content-artifact && npm run check:exports && npm run check:search && npm run check:publication && npm run check:effects && npm run test:e2e",
+    "check:content": "node scripts/check-content.mjs",
+    "check:ui": "node scripts/check-ui-dictionaries.mjs",
+    "test:content": "node --test tests/content/*.test.mjs",
+    "check:content-artifact": "node scripts/check-content-artifact.mjs",
+    "build:design": "DESIGN_REVIEW=1 astro build",
+    "preview:design": "DESIGN_REVIEW=1 astro preview",
+    "test:design": "playwright test --config playwright.design.config.ts",
+    "verify:design": "npm run build:design && npm run test:design",
+    "check:exports": "node scripts/check-project-artifacts.mjs && node scripts/check-work-artifacts.mjs",
+    "check:search": "node scripts/check-search-artifact.mjs",
+    "render:workshop": "node scripts/render-workshop.mjs",
+    "build:static": "VITE_DISABLE_EFFECTS=1 astro build",
+    "check:effects": "node scripts/check-effects-artifact.mjs",
+    "verify:static": "npm run build && npm run build:static && node scripts/check-static-build.mjs && VITE_DISABLE_EFFECTS=1 npm run test:e2e -- tests/shell.spec.ts tests/search.spec.ts",
+    "test:editorial": "python3 -m unittest discover -s tests/editorial",
+    "check:publication": "node scripts/check-publication.mjs && python3 scripts/check-publication-html.py",
+    "render:publication": "node scripts/render-publication.mjs",
+    "test:security": "node scripts/check-security.mjs",
+    "test:performance": "node scripts/check-performance.mjs",
+    "test:visual": "playwright test tests/candidate.spec.ts --grep \"visual baseline\"",
+    "verify:candidate": "npm run verify && npm run test:security && npm run verify:design && npm run verify:static && npm run test:performance && npm run record:candidate",
+    "record:candidate": "node scripts/record-candidate.mjs"
   },
   "dependencies": {
-    "@astrojs/mdx": "^4.2.4",
-    "@astrojs/rss": "^4.0.11",
-    "@astrojs/sitemap": "^3.3.0",
-    "@astrojs/vue": "^5.0.10",
-    "@vitejs/plugin-vue": "^5.2.3",
-    "astro": "^5.7.0",
-    "fs": "^0.0.1-security",
-    "localizationjs": "^2.0.20",
-    "vue": "^3.5.13"
+    "@astrojs/rss": "4.0.19",
+    "@astrojs/sitemap": "3.7.4",
+    "astro": "7.3.4",
+    "three": "0.186.1",
+    "ultrahtml": "1.6.0"
   },
   "devDependencies": {
-    "sass-embedded": "^1.86.3"
-  }
+    "@astrojs/check": "0.9.10",
+    "@axe-core/playwright": "4.13.0",
+    "@playwright/test": "1.63.0",
+    "lighthouse": "13.5.0",
+    "pagefind": "1.5.2",
+    "sass-embedded": "1.105.0",
+    "typescript": "6.0.3"
+  },
+  "engines": {
+    "node": ">=24.21.0 <25",
+    "npm": "12.0.2"
+  },
+  "packageManager": "npm@12.0.2"
 }

@@ -1,0 +1,22 @@
+npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+npm notice run paynalton.tech@0.0.1 test:e2e
+npm notice run playwright test tests/scene-speech.spec.ts --workers=1
+[WebServer] npm warn Unknown env config "always-auth". This will error in a future major version of npm. See `npm help npmrc` for supported config options.
+[WebServer] npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+[WebServer] npm notice run paynalton.tech@0.0.1 preview
+[WebServer] npm notice run astro preview --host 127.0.0.1 --port 4334 --ignore-lock
+[WebServer] (node:347307) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 4 tests using 1 worker
+
+(node:347389) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 [desktop] › tests/scene-speech.spec.ts:4:1 › scenes and ornaments speak near the click without blocking navigation (1.2s)
+  ✓  2 [desktop] › tests/scene-speech.spec.ts:27:1 › the book scene speaks while its card link remains usable (309ms)
+(node:347619) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  3 [mobile] › tests/scene-speech.spec.ts:4:1 › scenes and ornaments speak near the click without blocking navigation (1.5s)
+  ✓  4 [mobile] › tests/scene-speech.spec.ts:27:1 › the book scene speaks while its card link remains usable (286ms)
+
+  4 passed (4.9s)

@@ -1,0 +1,4 @@
+npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+npm notice run paynalton.tech@0.0.1 check:ui
+npm notice run node scripts/check-ui-dictionaries.mjs
+UI: 618 literal dictionary references checked; 25 production templates checked for untranslated prose/labels. Dynamic keys and editorial content are validated by check:content and build.

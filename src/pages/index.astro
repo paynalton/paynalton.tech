@@ -1,21 +1,14 @@
 ---
-// pages/index.astro
+import { loadSite } from '../lib/site/build.mjs';
+import { createTranslator } from '../lib/site/i18n.mjs';
+import { sectionUrl } from '../lib/site/navigation.mjs';
+const repository = await loadSite();
+const settings = repository.getSettings();
+const {t} = createTranslator(settings.baseLocale, repository.getCatalogs(), settings);
+const target = sectionUrl(settings.baseLocale, 'home');
 ---
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="refresh" content="0; url=/es" />
-    <script>
-      const lang = navigator.language || navigator.userLanguage;
-      if (lang.startsWith('en')) {
-        window.location.href = '/en/';
-      } else {
-        window.location.href = '/es/';
-      }
-    </script>
-    <title>Redirecting...</title>
-  </head>
-  <body>
-    <p>Redirecting...</p>
-  </body>
+<!doctype html>
+<html lang={settings.baseLocale}>
+  <head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta http-equiv="refresh" content={`0; url=${target}`}/><link rel="canonical" href={new URL(target, Astro.site)}/><title>{t('root.title')}</title></head>
+  <body><a href={target}>{t('nav.home')}</a></body>
 </html>

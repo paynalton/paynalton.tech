@@ -1,0 +1,56 @@
+npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+npm notice run paynalton.tech@0.0.1 test:e2e
+npm notice run playwright test tests/journey.spec.ts tests/ambient.spec.ts tests/book-scene.spec.ts --workers=2 --output=/tmp/static-validation-retest-results --reporter=list
+[WebServer] npm warn Unknown env config "always-auth". This will error in a future major version of npm. See `npm help npmrc` for supported config options.
+[WebServer] npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+[WebServer] npm notice run paynalton.tech@0.0.1 preview
+[WebServer] npm notice run astro preview --host 127.0.0.1 --port 4336 --ignore-lock
+[WebServer] (node:714952) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 20 tests using 2 workers
+
+(node:715052) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:715051) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [desktop] › tests/ambient.spec.ts:14:1 › gold particles are bounded to one hovered project, preserve links and clean up (3.1s)
+  ✓   2 [desktop] › tests/ambient.spec.ts:4:1 › visible scenes keep bounded ambient motion and stop offscreen (3.6s)
+  ✓   3 [desktop] › tests/ambient.spec.ts:27:1 › footer star particles follow the effects control (1.4s)
+(node:715593) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   5 [desktop] › tests/book-scene.spec.ts:5:1 › recognizable book renders in card and ficha and retains its fallback (5.0s)
+  ✓   6 [desktop] › tests/book-scene.spec.ts:16:1 › book picture survives without JavaScript (368ms)
+(node:715933) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   4 [desktop] › tests/ambient.spec.ts:37:1 › shared cards receive particles across home, projects, library and topics (9.7s)
+(node:716176) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   8 [desktop] › tests/journey.spec.ts:28:1 › built HTML, JSON and Markdown describe identical public facts and body (1.1s)
+  ✓   9 [desktop] › tests/journey.spec.ts:49:1 › journey and downloads remain available without JavaScript (388ms)
+  ✓  10 [desktop] › tests/journey.spec.ts:60:1 › hostile URLs never alter canonical, exports or execute HTML (1.1s)
+(node:716531) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   7 [desktop] › tests/journey.spec.ts:10:1 › complete reference journey by keyboard, with accessible steps and captures (6.0s)
+(node:716593) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  12 [mobile] › tests/ambient.spec.ts:14:1 › gold particles are bounded to one hovered project, preserve links and clean up (213ms)
+  ✓  13 [mobile] › tests/ambient.spec.ts:27:1 › footer star particles follow the effects control (263ms)
+  ✓  11 [mobile] › tests/ambient.spec.ts:4:1 › visible scenes keep bounded ambient motion and stop offscreen (3.6s)
+(node:717037) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  14 [mobile] › tests/ambient.spec.ts:37:1 › shared cards receive particles across home, projects, library and topics (4.2s)
+(node:717258) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  16 [mobile] › tests/book-scene.spec.ts:16:1 › book picture survives without JavaScript (420ms)
+(node:717442) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  15 [mobile] › tests/book-scene.spec.ts:5:1 › recognizable book renders in card and ficha and retains its fallback (6.2s)
+(node:718271) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  18 [mobile] › tests/journey.spec.ts:28:1 › built HTML, JSON and Markdown describe identical public facts and body (979ms)
+  ✓  19 [mobile] › tests/journey.spec.ts:49:1 › journey and downloads remain available without JavaScript (319ms)
+  ✓  20 [mobile] › tests/journey.spec.ts:60:1 › hostile URLs never alter canonical, exports or execute HTML (863ms)
+  ✓  17 [mobile] › tests/journey.spec.ts:10:1 › complete reference journey by keyboard, with accessible steps and captures (7.5s)
+
+  20 passed (31.8s)

@@ -1,0 +1,1 @@
+Trabajé en el desarrollo de sitios y soluciones web. Durante esta etapa también contribuí por cuenta propia con temas y complementos de estética steampunk para GNOME-Look, explorando la personalización del escritorio y la creación de recursos compartidos.

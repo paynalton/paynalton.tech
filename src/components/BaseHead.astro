@@ -1,4 +1,5 @@
 ---
+import '../styles/external-links.css';
 // Import the global.css file here so that it is included on
 // all pages through the use of the <BaseHead /> component.
 import '../styles/template/font-awesome.min.css';
@@ -12,6 +13,7 @@ import '../styles/template/bootsnav.css';
 import '../styles/template/style.css';
 import '../styles/template/responsive.css';
 import '../styles/global.scss';
+import '../styles/taller/fonts.css';
 
 interface Props {
 	title: string;
@@ -24,17 +26,16 @@ interface Props {
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
-const { title, description, image = '/assets/images/Paynalton01.jpg', keywords, lang } = Astro.props;
+const { title, description, image = '/taller/publication/social-es.png', keywords } = Astro.props;
 ---
 
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 <title>{title}</title>
 
 <!-- Global Metadata -->
-<link rel="icon" href="/favicon.ico" />
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" /><link rel="icon" href="/favicon.ico" sizes="16x16 32x32" /><link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 <link rel="sitemap" href="/sitemap-index.xml" />
 <link
 	rel="alternate"
@@ -47,12 +48,10 @@ const { title, description, image = '/assets/images/Paynalton01.jpg', keywords, 
 <!-- Font preloads -->
 <link rel="preload" href="/fonts/atkinson-regular.woff" as="font" type="font/woff" crossorigin />
 <link rel="preload" href="/fonts/atkinson-bold.woff" as="font" type="font/woff" crossorigin />
-<script src="https://kit.fontawesome.com/e2226ea9c6.js" crossorigin="anonymous"></script>
 <!-- Canonical URL -->
 <link rel="canonical" href={canonicalURL} />
 
 <!-- Primary Meta Tags -->
-<title>{title}</title>
 <meta name="title" content={title} />
 <meta name="description" content={description} />
 <meta name="keywords" content={keywords} />
@@ -61,62 +60,16 @@ const { title, description, image = '/assets/images/Paynalton01.jpg', keywords, 
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
-<meta property="og:url" content={Astro.url} />
+<meta property="og:url" content={canonicalURL} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
-<meta property="og:image" content={new URL(image, Astro.url)} />
+<meta property="og:image" content={new URL(image, Astro.site)} />
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content={Astro.url} />
+<meta property="twitter:url" content={canonicalURL} />
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
-<meta property="twitter:image" content={new URL(image, Astro.url)} />
+<meta property="twitter:image" content={new URL(image, Astro.site)} />
 
-<script type="application/ld+json">
-	{
-	  "@context": "https://schema.org",
-	  "@type": "Person",
-	  "name": "Paynalton",
-	  "url": "https://paynalton.tech",  
-	  "image": "https://paynalton.tech/assets/images/Paynalton01.jpg",
-	  "jobTitle": "Fullstack Web Developer",
-	  "worksFor": {
-		"@type": "Organization",
-		"name": "Sodigital"
-	  },
-	  "sameAs": [
-		"https://www.linkedin.com/in/paynalton",
-		"https://github.com/paynalton",
-		"https://t.me/paynalton",
-		"https://discord.gg/paynalton"
-	  ],
-	  "knowsAbout": [
-		"Web Development",
-		"JavaScript",
-		"PHP",
-		"Python",
-		"Node.js",
-		"Vue.js",
-		"Laravel",
-		"Inteligencia Artificial",
-		"DevOps",
-		"CI/CD"
-	  ],
-	  "description": "Desarrollador web fullstack con más de 30 años de experiencia, enfoque autodidacta, uso avanzado de herramientas de inteligencia artificial y una visión multidisciplinaria para crear soluciones innovadoras, funcionales y escalables.",
-	  "address": {
-		"@type": "PostalAddress",
-		"addressLocality": "México",
-		"addressCountry": "MX"
-	  }
-	}
-	</script>
-	<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WXM52WNYLB"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-WXM52WNYLB');
-</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Paynalton","url":"https://paynalton.tech","sameAs":["https://www.linkedin.com/in/paynalton","https://github.com/paynalton"]}</script>

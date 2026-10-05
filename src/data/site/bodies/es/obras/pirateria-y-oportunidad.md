@@ -1,0 +1,31 @@
+<div>
+
+<br>
+
+</div>
+
+Por todos lados escucho quejas de los grandes consorcios de la música que lloran a todos los vientos las pérdidas que les produce la piratería.<br><br>Hubo alguna vez que los juglares eran libres, que cantaban al viento y cualquiera podía sentarse a escuchar desde la lejanía, dejando algunas monedas como agradecimiento por la belleza de la creación.<br><br>Hoy los juglares están encadenados con grilletes de papel, un papel tan valioso que ellos mismos temen romperlos. Hoy los juglares ya no cantan los sonidos de su corazón, sino las melodías que atraerán más monedas para sus amos, recibiendo a cambio algunos grilletes más.<br><br><br>El día que un músico deja de ser exitoso, es desechado cual basura y el gran empresario recoge sus cadenas para lanzarlas al gran mar de personas que desean ser famosos, esperando atrapar un gran pez gordo que gane mucho dinero para sí.<br><br>Pero la red está cambiando las cosas, las reglas. Cada vez son más los juglares que dispersan sus melodías por la maraña de cables que cubre nuestro mundo y que son escuchados sin pedir alguna moneda.<br><br>
+
+<div>
+
+<br>
+
+</div>
+
+Pero más que eso, los artistas que están encadenados por contratos y sueños de grandes ganancias tambien son escuchados contra su voluntad por alguien que les admira, les ama, pero que nunca les arrojará una moneda.<br><br>Son estos, instados por sus amos, quienes más buscan detener lo que no se puede detener. Los mandan al frente de una lucha que ya está perdida mientras recogen todo el papel verde que pueden antes de la llegada del cataclismo de la industria musical. Atesoran sus ganancias y esperan el momento para saltar a algun otro tipo d emercado.<br><br>¿Pero acaso existirá quien no tenga miedo a esa enorme ola que ruge con el sonido de miles de teclados? ¿Existirá quien no corra con el dinero en los brazos, mire a la ola de frente, no tenga miedo, la comprenda y acepte el reto? ¿Existirá alguien que sea capaz de unirse al flujo que ya llega y aproveche su impulso para pasar por encima de quienes ya escapan?<br><br>En realidad no es tan difícil solucionar las cosas. la empresa crea un nuevo album esperando tener excelentes ganancias y hace cálculos sobre cuantas pérdidas le costará la piratería.<br><br>Llega este visionario y les ofrece una solución que sorprende por su sencilles y costo monetario.<br><br>
+
+<div>
+
+<br>
+
+</div>
+
+Este personaje solicita que al menos dos canciones de ese nuevo album sean libres para circular en la red, sin persecuciones ni miedo. El nuevo album crece en popularidad y es esperado ansiosamente por quienes han disfrutado de esas dos melodías.<br><br>Miles de copias de esas dos canciones circulan ya por el planeta y, una semana antes del lanzamiento del album, comienza a circular una descarga ilegal con el contenido de ese album.<br><br>Llega el día del lanzamiento y, a la par de aquellos que desean comprar ese album, están listos aquellos que desean descargar el album completo gratuitamente.<br><br>Pasan horas descargando y, cuando la pantalla indica 100% se disponen a disfrutar con una sonriza su hazaña.<br><br>Pero, ¡oh decepción!, tantas horas descargando y solo se escuchan sonidos raros, no era eso lo que querían escuchar.<br><br><br>Una nueva búsqueda, una nueva descarga, una nueva decepción. No tardan mucho en darse cuenta de la verdad:<br><br><br>Aquel hombre, con ayuda de cuatro personas más ha saboteado todo internet y ha inundado la red con descargas falsas del albúm. Encontrar y descargar el último éxito que ya todos están escuchando es tan sencillo como encontrar la dirección postal de Osama Bin Laden en la red.<br><br><br>
+
+<div>
+
+<br>
+
+</div>
+
+El sabotaje no se detiene y comienzan las demandas legales contra los pocos que han difundido copias reales del album.<br><br><br>Y más aún, aquellos que han conseguido una copia ilegal no están satisfechos, pues quienes lo han comprado tienen aun más. El disco del album es solo una pequeña parte, pues quienes lo han comprado tienen acceso a más canciones desde la red, pueden enviar un mensaje a los artistas con la garantía de que ellos, personalmente, lo responderán como agradecimiento por comprar el album. Incluso algunos han obtenido pases gratuitos para el próximo concierto y un pase preferente para que su dsco sea autografiado.<br><br><br>Mientras los demás solo tienen unas cuantas canciones que pasaron dias enteros buscando.<br><br><br>Entonces, aquel que tuvo la visión se levanta orgulloso de su trabajo y, despues de recibir el pago por sus servicios entorna sus ojos brillantes mientras dice:<br><br><br>**Rueda!!! Puedo rodar!!! Puedo sentir!!!!**<br>**<br>**<br>**Soy el Hombre de la Montaña plateada!!!**

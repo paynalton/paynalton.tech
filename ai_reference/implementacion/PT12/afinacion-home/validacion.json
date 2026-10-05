@@ -1,0 +1,43 @@
+{
+  "scope": "home-visual-review-1",
+  "deployed": false,
+  "full_pt12_rerun": false,
+  "html_pages": 337,
+  "scenes": 4,
+  "browser_first_pass": {
+    "passed": 49,
+    "skipped": 1
+  },
+  "browser_second_pass": {
+    "passed": 20,
+    "overlap_with_first": true
+  },
+  "visual_comparison_passed": 8,
+  "model_tests_passed": 73,
+  "static_equivalent_pages": 337,
+  "scanned_text_files": 1030,
+  "lighthouse_scores": {
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  "cls": 0,
+  "tbt_ms": 0,
+  "review_pending": [
+    "Textura de fondo",
+    "Aceptación visual de esculturas, hover, CTA y footer"
+  ],
+  "second_review": {
+    "scope": "texture-brand-dialog-outbound-links",
+    "deployed": false,
+    "browser_regression_passed": 32,
+    "browser_csp_and_effects_passed": 10,
+    "overlap_between_passes": 6,
+    "html_pages": 337,
+    "static_equivalence": true,
+    "full_pt12_rerun": false,
+    "lighthouse_rerun": false,
+    "external_link_notice_dictionary": "src/data/site/external-link-labels.json"
+  }
+}

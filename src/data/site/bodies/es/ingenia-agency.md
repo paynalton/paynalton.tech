@@ -1,0 +1,1 @@
+Participé en planeación, desarrollo, arquitectura e integración de soluciones. Además de mis funciones de backend, lideré a tres desarrolladores. Esta etapa forma parte de mi experiencia combinando la implementación con la coordinación técnica de otras personas.

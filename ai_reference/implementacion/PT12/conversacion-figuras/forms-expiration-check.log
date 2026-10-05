@@ -1,0 +1,33 @@
+npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+npm notice run paynalton.tech@0.0.1 check
+npm notice run astro check
+13:48:43 [content] Syncing content
+13:48:43 [WARN] [glob-loader] The base directory "/home/paynalton/Proyectos/paynalton.com/src/content/blog/" does not exist.
+13:48:44 [content] Synced content
+13:48:44 [types] Generated 412ms
+13:48:44 [check] Getting diagnostics for Astro files in /home/paynalton/Proyectos/paynalton.com...
+[96msrc/components/index/jobs.astro[0m:[93m3[0m:[93m12[0m - [93mwarning[0m[90m ts(6133): [0m'lang' is declared but its value is never read.
+
+[7m3[0m const { t, lang } = Astro.props;
+[7m [0m [93m           ~~~~[0m
+
+[96msrc/components/index/profile.astro[0m:[93m2[0m:[93m12[0m - [93mwarning[0m[90m ts(6133): [0m'lang' is declared but its value is never read.
+
+[7m2[0m const { t, lang } = Astro.props;
+[7m [0m [93m           ~~~~[0m
+
+[96msrc/components/index/softskills.astro[0m:[93m3[0m:[93m12[0m - [93mwarning[0m[90m ts(6133): [0m'lang' is declared but its value is never read.
+
+[7m3[0m const { t, lang } = Astro.props;
+[7m [0m [93m           ~~~~[0m
+
+[96msrc/scripts/forms-state.js[0m:[93m29[0m:[93m8[0m - [93mwarning[0m[90m ts(2568): [0mProperty 'formsController' may not exist on type 'Window & typeof globalThis'. Did you mean 'AbortController'?
+
+[7m29[0m window.formsController=formsController;
+[7m  [0m [93m       ~~~~~~~~~~~~~~~[0m
+
+Result (146 files): 
+- 0 errors
+- 0 warnings
+- 4 hints
+

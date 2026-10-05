@@ -1,0 +1,5186 @@
+{
+  "scope": "Archivos de texto conservados tras la revisión de autoría y el retiro de imágenes de los blogs; excluye los documentos generados del catálogo.",
+  "method": "Clasificación editorial por contenido y forma dominante; cada archivo tiene una categoría principal. Las etiquetas secundarias expresan cruces de género.",
+  "source_files": 140,
+  "markdown_files": 133,
+  "json_files": 7,
+  "counts": {
+    "academicos": 1,
+    "documentacion": 15,
+    "cuentos": 54,
+    "editoriales": 3,
+    "poesia": 21,
+    "reflexiones-filosoficas": 12,
+    "personales": 6,
+    "criticas": 18,
+    "humor": 2,
+    "tecnicos": 8
+  },
+  "categories": [
+    {
+      "id": "cuentos",
+      "label": "Cuentos y narrativa",
+      "criterion": "Ficción con personajes, acciones o una situación narrativa; incluye microrrelatos, fábulas y entregas de series."
+    },
+    {
+      "id": "reflexiones-filosoficas",
+      "label": "Reflexiones filosóficas",
+      "criterion": "Exploración de creencias, conocimiento, conciencia, ética, existencia y relación entre humanidad y tecnología; admite marcos alegóricos."
+    },
+    {
+      "id": "criticas",
+      "label": "Críticas y ensayos de opinión",
+      "criterion": "Argumentación o toma de postura sobre sociedad, política, economía, cultura, educación o trabajo."
+    },
+    {
+      "id": "academicos",
+      "label": "Textos académicos y teóricos",
+      "criterion": "Desarrollo conceptual con definiciones, notación y operaciones. La categoría describe la forma del manuscrito, no acredita validación científica."
+    },
+    {
+      "id": "poesia",
+      "label": "Poesía y prosa poética",
+      "criterion": "Predominio de la voz lírica, la imagen, el ritmo y la expresión afectiva sobre la trama o la argumentación."
+    },
+    {
+      "id": "tecnicos",
+      "label": "Textos técnicos",
+      "criterion": "Tutoriales, explicación de herramientas y propuestas de sistemas o prototipos."
+    },
+    {
+      "id": "humor",
+      "label": "Humor y sátira",
+      "criterion": "Parodia cuyo mecanismo principal es humorístico, sin una trama de cuento dominante."
+    },
+    {
+      "id": "personales",
+      "label": "Crónicas y notas personales",
+      "criterion": "Experiencias presentadas como personales, apuntes de diario y comentarios breves."
+    },
+    {
+      "id": "editoriales",
+      "label": "Presentaciones editoriales",
+      "criterion": "Anuncios o presentaciones de los blogs; no son obras narrativas."
+    },
+    {
+      "id": "documentacion",
+      "label": "Documentación y respaldos",
+      "criterion": "Índices, listas de fuentes, manifiestos y copias estructuradas; no se cuentan como obras independientes."
+    }
+  ],
+  "version_groups": [
+    {
+      "id": "V01",
+      "title": "Mamá",
+      "files": [
+        "Blogs/cuentosdesangreymuerte/2010-03-26--mama--3322899182028763507.md",
+        "Cuentos/ninyo.md"
+      ]
+    },
+    {
+      "id": "V02",
+      "title": "La Bestia de Metal",
+      "files": [
+        "Blogs/misotrosrelatos/2010-02-24--la-bestia-de-metal--7845122761487224351.md",
+        "Blogs/paynalton/2009-10-26--la-bestia-de-metal--7305137090505488422.md",
+        "Cuentos/La Bestia de Metal.md"
+      ]
+    },
+    {
+      "id": "V03",
+      "title": "Hojas Secas",
+      "files": [
+        "Blogs/misotrosrelatos/2010-03-01--hojas-secas--7173014226573088200.md",
+        "Cuentos/a donde van las hojas de verano cuand.._.md"
+      ]
+    },
+    {
+      "id": "V04",
+      "title": "11 de Junio",
+      "files": [
+        "Blogs/misotrosrelatos/2010-06-11--11-de-junio--6039343186442617285.md",
+        "Cuentos/Documento sin título(1).md"
+      ]
+    },
+    {
+      "id": "V05",
+      "title": "El estupor Mexicano",
+      "files": [
+        "Blogs/paynalton/2008-11-07--el-estupor-mexicano--2873111049503033665.md",
+        "Cuentos/El Estupor Mexicano.md"
+      ]
+    },
+    {
+      "id": "V06",
+      "title": "HOWTO Novia",
+      "files": [
+        "Blogs/paynalton/2008-11-09--howto-novia--7774065377464095702.md",
+        "Cuentos/HOWTO Novia.md"
+      ]
+    },
+    {
+      "id": "V07",
+      "title": "El Jardín",
+      "files": [
+        "Blogs/paynalton/2009-05-28--el-jardin--49964902079146827.md",
+        "Cuentos/El Jardín_.md"
+      ]
+    },
+    {
+      "id": "V08",
+      "title": "Horda LATAM",
+      "files": [
+        "Reddit/2025-10-14--horda-latam--1o6r1d3.md",
+        "latam.md"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "M001",
+      "path": "Aritmética con números indeterminados.md",
+      "title": "Aritmética con números indeterminados",
+      "category": "academicos",
+      "category_label": "Textos académicos y teóricos",
+      "subtype": "Propuesta matemática exploratoria",
+      "secondary_tags": [],
+      "rationale": "Define números indeterminados, símbolos y reglas de operación con ejemplos. No presenta bibliografía ni validación formal; no se considera un artículo científico validado.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": null,
+      "source_authors": [],
+      "sha256": "7863067c80d714dff104e47ecf6a7f64190e079a419dcb80a39350fe60544495",
+      "editorial": {
+        "id": "M001",
+        "category": "academicos",
+        "tags": [
+          "texto-teorico",
+          "matematicas",
+          "indeterminacion",
+          "conocimiento"
+        ]
+      },
+      "original_sha256": "e10d01acd689e0464431d92b2eef6d6c47860a2387061c41906e2f8f5a39c8c2",
+      "body_sha256": "e10d01acd689e0464431d92b2eef6d6c47860a2387061c41906e2f8f5a39c8c2"
+    },
+    {
+      "id": "M002",
+      "path": "Blogs/README.md",
+      "title": "README",
+      "category": "documentacion",
+      "category_label": "Documentación y respaldos",
+      "subtype": "Índice o documentación",
+      "secondary_tags": [],
+      "rationale": "Organiza fuentes y materiales; no es una obra independiente.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": null,
+      "source_authors": [],
+      "sha256": "fcebd06d3d6e80cdf6a77b75edba09a52d0588714469ffd12a9a7f957f992aa1",
+      "editorial": {
+        "id": "M002",
+        "category": "documentacion",
+        "tags": [
+          "documentacion",
+          "inventario"
+        ]
+      },
+      "original_sha256": "39b3918ac7cd77add02e9ae93040a1f45ebf8290dce6d3e59b1898ef67d0b3dd",
+      "body_sha256": "d569e927431fe92b3a8f6dedfc0ed4aec9b671c2e20b20e6973be0a2f317f0ea"
+    },
+    {
+      "id": "M003",
+      "path": "Blogs/cuentosdesangreymuerte/2010-02-17--la-chica-nueva--8671013773700636036.md",
+      "title": "La Chica Nueva",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Terror urbano",
+      "secondary_tags": [],
+      "rationale": "La llegada de una conductora al metro culmina en una muerte violenta.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://cuentosdesangreymuerte.blogspot.com/2010/02/la-chica-nueva.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "90e253f30238b39a4f821981affad158a2ce6333750a866854705515235a49e0",
+      "editorial": {
+        "id": "M003",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "terror",
+          "ciudad",
+          "muerte"
+        ]
+      },
+      "original_sha256": "970870d1709003dca857c75e26410bb9e52c8e18c3533dfb3a356800b3bd8cc2",
+      "body_sha256": "9fcde68dff9e724c9bd70c2e9f65b853824a79c6592f8f8d67f48045dd19386e"
+    },
+    {
+      "id": "M004",
+      "path": "Blogs/cuentosdesangreymuerte/2010-02-17--presentacion--2192887132694309221.md",
+      "title": "Presentación",
+      "category": "editoriales",
+      "category_label": "Presentaciones editoriales",
+      "subtype": "Presentación de blog",
+      "secondary_tags": [],
+      "rationale": "Anuncia el propósito y la autoría del blog de cuentos sangrientos.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://cuentosdesangreymuerte.blogspot.com/2010/02/presentacion.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "5dd5b5efdf9cc3174e1cc9556899a4310ed2ba0f8acf48c6993fc6987c787a8e",
+      "editorial": {
+        "id": "M004",
+        "category": "editoriales",
+        "tags": [
+          "presentacion-editorial",
+          "presentacion"
+        ]
+      },
+      "original_sha256": "892f63c7f5082030dc7b8261874a6f7bec08b1d79bfa7456b436ce8ae6adaef0",
+      "body_sha256": "b6fb058082872d8a8bf1a0d3592bf1f15fd84510a23b99b1028e89fdab8e4c64"
+    },
+    {
+      "id": "M005",
+      "path": "Blogs/cuentosdesangreymuerte/2010-02-19--silencio-oscuridad-y-muerte--2150649090204415113.md",
+      "title": "Silencio, oscuridad y muerte.",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Tragedia y terror",
+      "secondary_tags": [],
+      "rationale": "Pareja en crisis, promesa extrema y muerte; predomina la narración.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://cuentosdesangreymuerte.blogspot.com/2010/02/silencio-oscuridad-y-muerte.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "c6c11dab4dd9051be1df32e21703d01c26205dd801bb2b3f151500b39a05639b",
+      "editorial": {
+        "id": "M005",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "terror",
+          "crisis-economica",
+          "pareja",
+          "muerte"
+        ]
+      },
+      "original_sha256": "bfa013a96f07a2ec8531f09ca6fefa3dd649bd49965e8cab3c6c0b697e3ed085",
+      "body_sha256": "88c3e8beb78e405593791e61b5d50964724ca6830eb178450e9dbaf104979f66"
+    },
+    {
+      "id": "M006",
+      "path": "Blogs/cuentosdesangreymuerte/2010-02-23--amnesia--5139036857753501893.md",
+      "title": "Amnesia",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Terror psicológico",
+      "secondary_tags": [],
+      "rationale": "Narrador amnésico que reconstruye lo ocurrido desde un cementerio.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://cuentosdesangreymuerte.blogspot.com/2010/02/amnesia.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "dd35c8ef894807658248fa88284ad7f8b4663e4e4f36d764df52a919fb725790",
+      "editorial": {
+        "id": "M006",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "terror",
+          "memoria",
+          "identidad",
+          "muerte"
+        ]
+      },
+      "original_sha256": "a35550655dbd0fff8e7c6d3e82607f8e4228b1e348cf22e645ff39c659300f57",
+      "body_sha256": "f40e45c66e3b39e85a9302eb2053982e1eba14334c6d795877df993315cef3bf"
+    },
+    {
+      "id": "M007",
+      "path": "Blogs/cuentosdesangreymuerte/2010-03-26--mama--3322899182028763507.md",
+      "title": "Mamá",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Drama social",
+      "secondary_tags": [],
+      "rationale": "Infancia, abandono familiar y violencia; versión publicada de Mamá.",
+      "classification_status": "clasificado",
+      "version_group": "V01",
+      "source_url": "https://cuentosdesangreymuerte.blogspot.com/2010/03/mama.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "4954708acb38c5d112bf5a1a6d7de2815766d950e9da690faa7caa87a3d62d5c",
+      "editorial": {
+        "id": "M007",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "drama-social",
+          "infancia",
+          "familia",
+          "violencia"
+        ],
+        "version_group": "V01"
+      },
+      "original_sha256": "7ff7b1eabae3310e772cc5c5f3453ff75816fcc2d630923d4af95db72dae19d7",
+      "body_sha256": "75a68e3dd3395fb0f1d2226939c199721ed75afe5d6036aa248ba4e05bdd0697"
+    },
+    {
+      "id": "M008",
+      "path": "Blogs/cuentosdesangreymuerte/2010-08-14--la-niebla-de-san-jacinto--1034978433945660574.md",
+      "title": "La Niebla de San Jacinto",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Terror sobrenatural",
+      "secondary_tags": [],
+      "rationale": "Advertencia sobre la bruma de San Jacinto con revelación final de un muerto.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://cuentosdesangreymuerte.blogspot.com/2010/08/la-niebla-de-san-jacinto.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "b9b824e3f86e8c8284367178d2c1291d6d3557359889921ccdce7df4b757006b",
+      "editorial": {
+        "id": "M008",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "terror",
+          "sobrenatural",
+          "memoria-historica"
+        ]
+      },
+      "original_sha256": "3749a77a7a7c756b467ee0c74cab0994f3d3e65f325bed147c6d682d539b94f7",
+      "body_sha256": "c3d667c201ad63e77e9292ec56153d811ce7ac865540c8981bc2828d2eb0cbed"
+    },
+    {
+      "id": "M009",
+      "path": "Blogs/cuentosdesangreymuerte/INDICE.md",
+      "title": "INDICE",
+      "category": "documentacion",
+      "category_label": "Documentación y respaldos",
+      "subtype": "Índice o documentación",
+      "secondary_tags": [],
+      "rationale": "Organiza fuentes y materiales; no es una obra independiente.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": null,
+      "source_authors": [],
+      "sha256": "4ef2e5294aab9e534c647dfc887a9ee7b6263d84718ab504a3c47d220d9ad0a3",
+      "editorial": {
+        "id": "M009",
+        "category": "documentacion",
+        "tags": [
+          "documentacion",
+          "inventario"
+        ]
+      },
+      "original_sha256": "f192489218543bafbaec030e97e1341ff33b4afed88f437f5269e9f388dd6759",
+      "body_sha256": "f192489218543bafbaec030e97e1341ff33b4afed88f437f5269e9f388dd6759"
+    },
+    {
+      "id": "M010",
+      "path": "Blogs/drizzdlvapor/2012-11-25--por-un-poco-de-kajamita--7445473491021724942.md",
+      "title": "Por un poco de kaja'mita",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Fantasía / fanfiction",
+      "secondary_tags": [],
+      "rationale": "Aventura de Drizz del Vapor en Kezzan y las minas de kaja’mita; universo de Warcraft.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://drizzdlvapor.blogspot.com/2012/11/por-un-poco-de-kajamita.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "37c3ca6bdcc5063f0b6346e08bde07c217b3fd034aae656f52a3bc9c8e0cbe78",
+      "editorial": {
+        "id": "M010",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "fantasia",
+          "fanfiction",
+          "aventura",
+          "ingenio"
+        ],
+        "series": "drizz-del-vapor"
+      },
+      "original_sha256": "8ce724400c3f06966de407fccdf1f45b73d71f91aa173675e6bfd96381183d7f",
+      "body_sha256": "821da78d19cf11354dae33cfa97d61bb6e64159b1cc7011fc66bd88bc76c0085"
+    },
+    {
+      "id": "M011",
+      "path": "Blogs/drizzdlvapor/2012-12-05--barriada--4422197045479837082.md",
+      "title": "Barriada",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Fantasía / fanfiction",
+      "secondary_tags": [],
+      "rationale": "Aventura del goblin Drizz, su familia y la huida del volcán; universo de Warcraft.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://drizzdlvapor.blogspot.com/2012/12/barriada.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "2a5534376fcc56705a662e499b64fcdf9151f75995d15b352d257c2c69af2571",
+      "editorial": {
+        "id": "M011",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "fantasia",
+          "fanfiction",
+          "infancia",
+          "familia",
+          "supervivencia"
+        ],
+        "series": "drizz-del-vapor"
+      },
+      "original_sha256": "1a973cc87cf73ca3ca0aea5ac44d61a297301d65197b7ecf889696d498e0498d",
+      "body_sha256": "ca5ebb4db50cb98985b62c47613e0ce501cefd0616d11e35ea815b2e7e3ba2f0"
+    },
+    {
+      "id": "M012",
+      "path": "Blogs/drizzdlvapor/INDICE.md",
+      "title": "INDICE",
+      "category": "documentacion",
+      "category_label": "Documentación y respaldos",
+      "subtype": "Índice o documentación",
+      "secondary_tags": [],
+      "rationale": "Organiza fuentes y materiales; no es una obra independiente.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": null,
+      "source_authors": [],
+      "sha256": "73855a8bb384f05be7b26f60edf6ca80dd234827f153d83d360ef7c7c64c6648",
+      "editorial": {
+        "id": "M012",
+        "category": "documentacion",
+        "tags": [
+          "documentacion",
+          "inventario"
+        ]
+      },
+      "original_sha256": "ad35f0e935ab8953587911230e25ec43e1cf16e37019b45f625dd1034f7bfbb3",
+      "body_sha256": "ad35f0e935ab8953587911230e25ec43e1cf16e37019b45f625dd1034f7bfbb3"
+    },
+    {
+      "id": "M013",
+      "path": "Blogs/misotrosrelatos/2010-02-18--gotas-de-lluvia--239027336711972737.md",
+      "title": "Gotas de Lluvia",
+      "category": "poesia",
+      "category_label": "Poesía y prosa poética",
+      "subtype": "Prosa poética amorosa",
+      "secondary_tags": [],
+      "rationale": "La lluvia funciona como imagen del recuerdo y la pérdida amorosa.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://misotrosrelatos.blogspot.com/2010/02/gotas-de-lluvia.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "4673c8fe6bf20689e6f05a8020d1c6c64837c57bcd988a8f64f5520ea4cf9067",
+      "editorial": {
+        "id": "M013",
+        "category": "poesia",
+        "tags": [
+          "poesia",
+          "prosa-poetica",
+          "amor",
+          "desamor",
+          "lluvia"
+        ]
+      },
+      "original_sha256": "29326695ae1641dc4ebb1564120f66f21f2702c5786f1fdd92305fcb20b99e98",
+      "body_sha256": "03cadbeb89457eb1e5fa50356ba2478d72265e6723ee7c662b7cd62cb5bbacb4"
+    },
+    {
+      "id": "M014",
+      "path": "Blogs/misotrosrelatos/2010-02-18--presentando--7447596535342104064.md",
+      "title": "Presentando",
+      "category": "editoriales",
+      "category_label": "Presentaciones editoriales",
+      "subtype": "Presentación de blog",
+      "secondary_tags": [],
+      "rationale": "Explica el propósito de reunir relatos diversos.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://misotrosrelatos.blogspot.com/2010/02/presentando.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "97634c5e8905024fc35d5b58a18dfc81b0e32008f62b57f5e0a52cba1a32732f",
+      "editorial": {
+        "id": "M014",
+        "category": "editoriales",
+        "tags": [
+          "presentacion-editorial",
+          "presentacion"
+        ]
+      },
+      "original_sha256": "8e855fbef27244388e1006d0b44f839af4db9da49cb23c09c5884fc1346a984f",
+      "body_sha256": "5cc1524f33579564486f3e3c179867490056ab4ee234da20892f2261636b455a"
+    },
+    {
+      "id": "M015",
+      "path": "Blogs/misotrosrelatos/2010-02-20--rosa--3776458321687380521.md",
+      "title": "Rosa",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Microrrelato lírico",
+      "secondary_tags": [
+        "prosa poética"
+      ],
+      "rationale": "Paseo urbano, encuentro con una vendedora y destrucción de una rosa.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://misotrosrelatos.blogspot.com/2010/02/rosa.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "563780e75a6def9073ab614e0f3f4fcef16b1f90122772b38dff82f12c82b6c7",
+      "editorial": {
+        "id": "M015",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "microrrelato",
+          "prosa-poetica",
+          "desamor",
+          "ciudad"
+        ]
+      },
+      "original_sha256": "a49cb6099da3a88fc233cff21cf90c353340015d17a52229e3d80ffaa399afc0",
+      "body_sha256": "0c070f2ff31db89d74205b1b54d3dff2995a265ad2d3f932a55e2872f027d63d"
+    },
+    {
+      "id": "M016",
+      "path": "Blogs/misotrosrelatos/2010-02-21--el-hada--1559225902146387205.md",
+      "title": "El hada",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Fantasía",
+      "secondary_tags": [],
+      "rationale": "Un caballero derrotado recibe consuelo de un hada; abre una secuencia narrativa.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://misotrosrelatos.blogspot.com/2010/02/el-hada.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "911d4ada67f4b1a195d39246a2d20ca18ec5eb6129873c6663b2016ba153cf8c",
+      "editorial": {
+        "id": "M016",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "fantasia",
+          "duelo",
+          "esperanza",
+          "amistad"
+        ],
+        "series": "hada-y-caballero"
+      },
+      "original_sha256": "dd8c1f1be1cb8cf39b950ba63d20eb5bd44644867cb99a552ed1e2164137d8de",
+      "body_sha256": "3f7073eef042c4f09218b740439f4c12251c9860fba0cdf4835fdd8af88d3942"
+    },
+    {
+      "id": "M017",
+      "path": "Blogs/misotrosrelatos/2010-02-22--blancosantuario--6217975674180494963.md",
+      "title": "[Blanco] SANTUARIO",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Fantasía / entrega de serie",
+      "secondary_tags": [],
+      "rationale": "Perspectiva del ángel en Santuario; identificada expresamente como [Blanco].",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://misotrosrelatos.blogspot.com/2010/02/blancosantuario.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "2aa3af6f2c2e24c37bf1afba2f2e27254b4169c0c663da5361ccf84b6a514b58",
+      "editorial": {
+        "id": "M017",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "fantasia",
+          "guerra",
+          "naturaleza"
+        ],
+        "series": "blanco-negro-y-gris"
+      },
+      "original_sha256": "52a7aec2d76dfd3fa88ab1de1caaa5f49d7c80ac0f5e4aef30cea7870c4c2fe6",
+      "body_sha256": "523922823a0cbc04238a5e2973fa94a389b484bf1d13c40e5ad2c7552146645b"
+    },
+    {
+      "id": "M018",
+      "path": "Blogs/misotrosrelatos/2010-02-22--fuego-y-nieve--110332628064466989.md",
+      "title": "[Blanco] FUEGO Y NIEVE",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Fantasía / entrega de serie",
+      "secondary_tags": [],
+      "rationale": "Perspectiva del ángel en Fuego y nieve; identificada expresamente como [Blanco].",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://misotrosrelatos.blogspot.com/2010/02/fuego-y-nieve.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "96efcea8e834dee3e9967a59f9d2269c424045d6eb98a8020fa817a4a39d4bb2",
+      "editorial": {
+        "id": "M018",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "fantasia",
+          "guerra",
+          "lealtad"
+        ],
+        "series": "blanco-negro-y-gris"
+      },
+      "original_sha256": "274569930cd5188ad622afd602f9fe519706c607e54d9fef3e596d788e89eea0",
+      "body_sha256": "a0aecf8900e04a6ca04d2d77c2c93f2884220af0c47cb94b922c22e5ee3e3647"
+    },
+    {
+      "id": "M019",
+      "path": "Blogs/misotrosrelatos/2010-02-22--negro-santuario--3304166203691925155.md",
+      "title": "[Negro] SANTUARIO",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Fantasía / entrega de serie",
+      "secondary_tags": [],
+      "rationale": "Perspectiva del demonio en Santuario; identificada expresamente como [Negro].",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://misotrosrelatos.blogspot.com/2010/02/negro-santuario.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "88ee0d16af8fd210282c6be46e7f0b02ab02cef3579892b92b2aa43229cbcee7",
+      "editorial": {
+        "id": "M019",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "fantasia",
+          "guerra",
+          "naturaleza"
+        ],
+        "series": "blanco-negro-y-gris"
+      },
+      "original_sha256": "afbf350d5577052c21e372174a727bcbc10d7405ff520932a5eb0589443b37fc",
+      "body_sha256": "0281c777670bde3615df243af5920ccac96785fea5ce9a413ce7fa0271316ee3"
+    },
+    {
+      "id": "M020",
+      "path": "Blogs/misotrosrelatos/2010-02-22--negronieve-y-fuego--4071270616895274194.md",
+      "title": "[Negro]NIEVE Y FUEGO",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Fantasía / entrega de serie",
+      "secondary_tags": [],
+      "rationale": "Perspectiva del demonio en Nieve y fuego; identificada expresamente como [Negro].",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://misotrosrelatos.blogspot.com/2010/02/negronieve-y-fuego.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "bd682a8e02f602878075fec8b672efdf417a68489b39924fb46882af782b394d",
+      "editorial": {
+        "id": "M020",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "fantasia",
+          "guerra",
+          "libertad"
+        ],
+        "series": "blanco-negro-y-gris"
+      },
+      "original_sha256": "d54621a992b458fbd0b8e7d1f1cb2d9e2bdd7ffb302937b5a1bce22fccc08f43",
+      "body_sha256": "9c0625a5da756154fb9f80573e7befadc684dde964a3c997542bb3e2bba77aa0"
+    },
+    {
+      "id": "M021",
+      "path": "Blogs/misotrosrelatos/2010-02-24--la-bestia-de-metal--7845122761487224351.md",
+      "title": "La Bestia de Metal",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Microrrelato lírico",
+      "secondary_tags": [
+        "prosa poética"
+      ],
+      "rationale": "La separación de la pareja se cuenta mediante la metáfora del transporte como bestia.",
+      "classification_status": "clasificado",
+      "version_group": "V02",
+      "source_url": "https://misotrosrelatos.blogspot.com/2010/02/la-bestia-de-metal.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "15ac71c0dd6b7cf7f97e01f982ba148e50bc02bd8f20a9158db5697c25aaae09",
+      "editorial": {
+        "id": "M021",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "microrrelato",
+          "prosa-poetica",
+          "amor",
+          "separacion",
+          "viaje"
+        ],
+        "version_group": "V02"
+      },
+      "original_sha256": "9a08706baa7b3397be64f082330e59274cc1d5aee7c470a2bf829da1ddaf973b",
+      "body_sha256": "90d28f256062633755a0810f68376d191518508ae5b88a23b712f1df3c667692"
+    },
+    {
+      "id": "M022",
+      "path": "Blogs/misotrosrelatos/2010-02-26--cuanto-hace-ya--7618698701871971533.md",
+      "title": "¿Cuanto hace ya?",
+      "category": "poesia",
+      "category_label": "Poesía y prosa poética",
+      "subtype": "Poema amoroso",
+      "secondary_tags": [],
+      "rationale": "Preguntas y repeticiones organizan el duelo por una ausencia.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://misotrosrelatos.blogspot.com/2010/02/cuanto-hace-ya.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "915da5407bdb6e712f7a37b0a496853b7226f4b20752ec47695c2e680c7ed4d6",
+      "editorial": {
+        "id": "M022",
+        "category": "poesia",
+        "tags": [
+          "poesia",
+          "poema",
+          "desamor",
+          "ausencia"
+        ]
+      },
+      "original_sha256": "929345abc67b880c09d870de071d33a1dcdcc14555c44443bde5f9cac30921ad",
+      "body_sha256": "cee5b2b56e150dfa81e5274e25de7248c6983cf4ce44384cdd077d4f9dd2086b"
+    },
+    {
+      "id": "M023",
+      "path": "Blogs/misotrosrelatos/2010-03-01--hojas-secas--7173014226573088200.md",
+      "title": "Hojas Secas",
+      "category": "poesia",
+      "category_label": "Poesía y prosa poética",
+      "subtype": "Prosa poética",
+      "secondary_tags": [],
+      "rationale": "Hojas, sueños y dolor amoroso; versión del texto local Hojas Secas.",
+      "classification_status": "clasificado",
+      "version_group": "V03",
+      "source_url": "https://misotrosrelatos.blogspot.com/2010/03/hojas-secas.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "cb2757a53c6d1ba1e23ac77d49eb71d3f8457a897ae88179b1919071e0c396cf",
+      "editorial": {
+        "id": "M023",
+        "category": "poesia",
+        "tags": [
+          "poesia",
+          "prosa-poetica",
+          "desamor",
+          "soledad",
+          "naturaleza"
+        ],
+        "version_group": "V03"
+      },
+      "original_sha256": "baacfeaf4c0128b571531555bf5bfca201a71c5e4a198f74b929d1eeccfa3564",
+      "body_sha256": "3d45dfea74c79ed99398a89fa34221d0cfc6332ccf82bd5d111c662803672a7c"
+    },
+    {
+      "id": "M024",
+      "path": "Blogs/misotrosrelatos/2010-03-03--hacia-el-mar--7708603458133587461.md",
+      "title": "Hacia el mar",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Fantasía / entrega de serie",
+      "secondary_tags": [],
+      "rationale": "Continúa el encuentro entre el hada y el caballero de El hada.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://misotrosrelatos.blogspot.com/2010/03/hacia-el-mar.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "9befe3743a6f551e3bb19880c5240ca26e22780b87b3e299761befe47816860b",
+      "editorial": {
+        "id": "M024",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "fantasia",
+          "amistad",
+          "duelo",
+          "viaje"
+        ],
+        "series": "hada-y-caballero"
+      },
+      "original_sha256": "b85cc7f17c78d96dd1453d88c3ecec74d2abb83352577ad5a49d45f56271f533",
+      "body_sha256": "eadece6b08e0ab9b4812b7c610c123afc224603d5613fb012b531c088513c3d8"
+    },
+    {
+      "id": "M025",
+      "path": "Blogs/misotrosrelatos/2010-03-09--mirame--5034252814551438130.md",
+      "title": "Mírame",
+      "category": "poesia",
+      "category_label": "Poesía y prosa poética",
+      "subtype": "Prosa poética amorosa",
+      "secondary_tags": [],
+      "rationale": "Invocación a la mirada y al primer beso.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://misotrosrelatos.blogspot.com/2010/03/mirame.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "a3d032936426c995212780fdc2ff02ddad00e3812be692ad105a6b07d877a771",
+      "editorial": {
+        "id": "M025",
+        "category": "poesia",
+        "tags": [
+          "poesia",
+          "prosa-poetica",
+          "amor",
+          "intimidad"
+        ]
+      },
+      "original_sha256": "bbce863c8fc160afef5a80383f0c74d5a02acbb614b39fe0588b429c38a7a8f8",
+      "body_sha256": "9d5b4aec79907b59324dd6c1c088dfc8e10bd3a5fec1603d44e304d9a536b2ea"
+    },
+    {
+      "id": "M026",
+      "path": "Blogs/misotrosrelatos/2010-03-13--la-flama--5766031820352666678.md",
+      "title": "La Flama",
+      "category": "poesia",
+      "category_label": "Poesía y prosa poética",
+      "subtype": "Prosa poética amorosa",
+      "secondary_tags": [],
+      "rationale": "La llama y la caja de cristal son imágenes centrales del vínculo amoroso.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://misotrosrelatos.blogspot.com/2010/03/la-flama.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "5d51e1d8910aaaa24a815df3c12999a5fe900af0de01bbfb52a73ea8ceb5c6e8",
+      "editorial": {
+        "id": "M026",
+        "category": "poesia",
+        "tags": [
+          "poesia",
+          "prosa-poetica",
+          "amor",
+          "intimidad"
+        ]
+      },
+      "original_sha256": "035b0dd90a9ea9fdf880ebfaa8dd0c449aea3377772d97e5747ecd0c8d74cb99",
+      "body_sha256": "d4e91b0ca6540adfc6a00238e5c3e5538e0fc29ba8146d8ab9c297872844d99c"
+    },
+    {
+      "id": "M027",
+      "path": "Blogs/misotrosrelatos/2010-03-13--la-reina-del-mar--1816027905757262155.md",
+      "title": "La Reina del Mar",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Fantasía / entrega de serie",
+      "secondary_tags": [],
+      "rationale": "El caballero escucha a la reina del mar y regresa para defender al hada.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://misotrosrelatos.blogspot.com/2010/03/la-reina-del-mar.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "dffbd838831961047b623638a8e4f1f57f4c37e21e2a4d65b16494c5d1bfa47f",
+      "editorial": {
+        "id": "M027",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "fantasia",
+          "duelo",
+          "amor",
+          "mar"
+        ],
+        "series": "hada-y-caballero"
+      },
+      "original_sha256": "f57b6f11651c7a9da61a03cdf6a40980adb6c4f73e2ecb1ad878d5c2dcd2e49f",
+      "body_sha256": "409cf560060e68d3e8baf8b54dafb2a49785bbbb49e00cde09b81522495697de"
+    },
+    {
+      "id": "M028",
+      "path": "Blogs/misotrosrelatos/2010-03-23--que-facil-es-decir-te-amo-cuando-tus--8310056875612447377.md",
+      "title": "Que fácil es decir \"TE AMO\"",
+      "category": "poesia",
+      "category_label": "Poesía y prosa poética",
+      "subtype": "Prosa poética amorosa",
+      "secondary_tags": [],
+      "rationale": "Cadenas y eslabones representan las heridas de una relación anterior.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://misotrosrelatos.blogspot.com/2010/03/que-facil-es-decir-te-amo-cuando-tus.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "e8e1bc915621408349504156e0e851eeaa30fc6ae6e891ed2d0050e91fdbc637",
+      "editorial": {
+        "id": "M028",
+        "category": "poesia",
+        "tags": [
+          "poesia",
+          "prosa-poetica",
+          "amor",
+          "desamor",
+          "recuperacion-emocional"
+        ]
+      },
+      "original_sha256": "7c51a9b663cc71fb8dc3c3f9538ab4b10c10b4831c14fc87050c673b431bdec0",
+      "body_sha256": "dcb856578779afe44430075b78e4ca4e03ee16db858da3e1fbe363cffb6af90f"
+    },
+    {
+      "id": "M029",
+      "path": "Blogs/misotrosrelatos/2010-03-26--princesa--7714858142375479406.md",
+      "title": "Princesa",
+      "category": "poesia",
+      "category_label": "Poesía y prosa poética",
+      "subtype": "Prosa poética onírica",
+      "secondary_tags": [],
+      "rationale": "Invocación a una princesa de los sueños, con recuerdo de pérdida y deseo de retorno.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://misotrosrelatos.blogspot.com/2010/03/princesa.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "20faeaa6343819f054a021173b5e7a0e294c91dfcc2dd960ece54d97de75b4ea",
+      "editorial": {
+        "id": "M029",
+        "category": "poesia",
+        "tags": [
+          "poesia",
+          "prosa-poetica",
+          "amor",
+          "suenos",
+          "ausencia"
+        ]
+      },
+      "original_sha256": "ed7dcfc381f86cbcd7acfdac9b9394960d8cf79ea0b2789d2646095bfa857e50",
+      "body_sha256": "703506ed4d8e5aa67980161f648ff57e18b5fc77d3cc13d3a792b78fa644115d"
+    },
+    {
+      "id": "M030",
+      "path": "Blogs/misotrosrelatos/2010-03-27--mi-querido-arbol--8764381920774753530.md",
+      "title": "Mi querido Árbol",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Fantasía lírica",
+      "secondary_tags": [
+        "coautoría"
+      ],
+      "rationale": "Árbol, lluvia y memoria. El cuerpo declara coautoría con Paoz.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://misotrosrelatos.blogspot.com/2010/03/mi-querido-arbol.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "62bff27ec7e84842be6ab032f1b0c5e9c1d0bfb1e3a9c11abd31c3468679783b",
+      "editorial": {
+        "id": "M030",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "fantasia",
+          "naturaleza",
+          "memoria",
+          "perdida"
+        ],
+        "authorship_note": "coautoria-declarada"
+      },
+      "original_sha256": "c94a36b7c42347d53bb254c5ec84682c744921988a076a5c89bad5f9596de093",
+      "body_sha256": "aa4cdbe5204d1bed30411e3b7c35a1def0d75574ced30e6d2af6b3a1fff57478"
+    },
+    {
+      "id": "M031",
+      "path": "Blogs/misotrosrelatos/2010-03-28--el-canto-de-gabriel--2796690824621231071.md",
+      "title": "El Canto de Gabriel",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Fantasía bélica / entrega de serie",
+      "secondary_tags": [],
+      "rationale": "Ángeles, Gabriel y consecuencias de una batalla; conexión probable con las entregas Blanco/Negro.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://misotrosrelatos.blogspot.com/2010/03/el-canto-de-gabriel.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "81cc19021494258c2f024335c7dfc43e191cad944bcc7c32753f9c1b5dedb41e",
+      "editorial": {
+        "id": "M031",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "fantasia",
+          "guerra",
+          "duelo",
+          "lealtad"
+        ]
+      },
+      "original_sha256": "09ed387648a162c8b2f7e16fa420a03dfb576b5f4db0c41b23e5fb9c5c9d2f24",
+      "body_sha256": "ce3d62ba5b0f0ad1ec285aa7022b19d8e0e7d30be4035bfa5c36e7872e831fbc"
+    },
+    {
+      "id": "M032",
+      "path": "Blogs/misotrosrelatos/2010-03-28--un-canto-para-glond--8035979304120868763.md",
+      "title": "Un Canto para Glond",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Fantasía bélica / entrega de serie",
+      "secondary_tags": [],
+      "rationale": "Demonios, duelo por Glond y refugio subterráneo; conexión probable con las entregas Blanco/Negro.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://misotrosrelatos.blogspot.com/2010/03/un-canto-para-glond.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "630a9325d8072e0bcbbfbb923662fa16d87f61238e7d2d27c4ee987fc827a0d2",
+      "editorial": {
+        "id": "M032",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "fantasia",
+          "guerra",
+          "duelo",
+          "amistad"
+        ]
+      },
+      "original_sha256": "1f0c3357df3bd9857252d4b3819cff2c21fe0bf0be4deaf39c26eff58e3c80bf",
+      "body_sha256": "795ac20bd5390f3fcc6e954265826405ca1c03dc743a184d1fbdb20845d55d57"
+    },
+    {
+      "id": "M033",
+      "path": "Blogs/misotrosrelatos/2010-04-02--el-reencuentro--434593414837430039.md",
+      "title": "El reencuentro",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Fantasía / entrega de serie",
+      "secondary_tags": [],
+      "rationale": "El caballero protege al hada de un linchamiento.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://misotrosrelatos.blogspot.com/2010/04/el-reencuentro.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "166efed5186194640608de13441eea4f766d2e5a82b6175662617c8220d1c709",
+      "editorial": {
+        "id": "M033",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "fantasia",
+          "violencia",
+          "intolerancia",
+          "amistad"
+        ],
+        "series": "hada-y-caballero"
+      },
+      "original_sha256": "29edab25f75d5b9bd38e3c43500bbf96542cfb0725fe126f6e63daf3874fcdf6",
+      "body_sha256": "339fb972ad53223737f6de8f8de6cc17d08a2647d5c30ecc0b8629c0a787ab4a"
+    },
+    {
+      "id": "M035",
+      "path": "Blogs/misotrosrelatos/2010-04-10--las-barras-de-acero-se-hunden-en-el--8276952897517812104.md",
+      "title": "Estrellas Errantes",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Fantasía / entrega de serie",
+      "secondary_tags": [],
+      "rationale": "El hada y el caballero trabajan en la forja; continuación de su historia.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://misotrosrelatos.blogspot.com/2010/04/las-barras-de-acero-se-hunden-en-el.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "792a37ea8a3037f1d37e677b022323c0730829474274355d18735c633ffa48a2",
+      "editorial": {
+        "id": "M035",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "fantasia",
+          "amistad",
+          "amor",
+          "trabajo"
+        ],
+        "series": "hada-y-caballero"
+      },
+      "original_sha256": "99502fecb4224d13fb52f51b91119ba7f312a81c94ab5e35145eea4209d019a8",
+      "body_sha256": "50310a7addec5de562f902d432ed5ba3d3331103f2e5406ea0e87543902a363b"
+    },
+    {
+      "id": "M036",
+      "path": "Blogs/misotrosrelatos/2010-04-29--historias-olvidadas--6960741935160947849.md",
+      "title": "Historias olvidadas",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Fragmento narrativo lírico",
+      "secondary_tags": [
+        "prosa poética"
+      ],
+      "rationale": "Reúne personajes de relatos anteriores frente al mar; funciona como transición entre historias.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://misotrosrelatos.blogspot.com/2010/04/historias-olvidadas.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "2b794fbd8f644d7ed4b03df9976adb17177369959791859043a1634599d347ff",
+      "editorial": {
+        "id": "M036",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "fantasia",
+          "prosa-poetica",
+          "perdida",
+          "memoria"
+        ],
+        "series": "hada-y-caballero"
+      },
+      "original_sha256": "5cad27087b7e7ae324202e4925f14b9e46d565153b48aaefccc522b9025fbc2a",
+      "body_sha256": "d892e50a51c643c53ef292d705c3fe350472ff2a436761884603a42193743223"
+    },
+    {
+      "id": "M037",
+      "path": "Blogs/misotrosrelatos/2010-05-10--la-huida--8995679489348547711.md",
+      "title": "La Huída",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Fantasía oscura",
+      "secondary_tags": [],
+      "rationale": "Una hechicera y una habitación imposible sostienen la acción del relato.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://misotrosrelatos.blogspot.com/2010/05/la-huida.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "47c1df67e6f08b24692ff623b113f8635bb1dd0c101ebaff855b59d1db5b7750",
+      "editorial": {
+        "id": "M037",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "fantasia",
+          "terror",
+          "magia"
+        ]
+      },
+      "original_sha256": "b8dd614d7971e5ee85e70cf2820029f9eab28596851ff812d6f7e7c70e1ac227",
+      "body_sha256": "2ff65e95b6b720f6e2026b4adfbb56b424678755728a0acd7550c665ef9cec3e"
+    },
+    {
+      "id": "M038",
+      "path": "Blogs/misotrosrelatos/2010-05-21--princesa-sin-reino--5637993625799446084.md",
+      "title": "Princesa sin Reino",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Fantasía / entrega de serie",
+      "secondary_tags": [],
+      "rationale": "Historia de una princesa y un dragón, integrada al conjunto de personajes frente al mar.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://misotrosrelatos.blogspot.com/2010/05/princesa-sin-reino.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "b2879a1dd735d693f17d739d7f60010aea1085c728ed2d72792510f9a633003e",
+      "editorial": {
+        "id": "M038",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "fantasia",
+          "libertad",
+          "amistad"
+        ],
+        "series": "hada-y-caballero"
+      },
+      "original_sha256": "4e0c8ff2f04486d3c0154a1adeb0e2b39c4d7ee55e56c8dde01f5ddffaec9764",
+      "body_sha256": "9a4b2b25341bd530d562befe49425010d2a8c189c264471a008bcc79370be038"
+    },
+    {
+      "id": "M041",
+      "path": "Blogs/misotrosrelatos/2010-06-11--11-de-junio--6039343186442617285.md",
+      "title": "11 de Junio",
+      "category": "poesia",
+      "category_label": "Poesía y prosa poética",
+      "subtype": "Prosa poética testimonial",
+      "secondary_tags": [],
+      "rationale": "Recuerdo amoroso de un 11 de junio; versión del manuscrito local homónimo.",
+      "classification_status": "clasificado",
+      "version_group": "V04",
+      "source_url": "https://misotrosrelatos.blogspot.com/2010/06/11-de-junio.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "f5dad067681cb5c79b5c1528a1b91ddcbcf04f1d43ca563e4f6e550688601ac4",
+      "editorial": {
+        "id": "M041",
+        "category": "poesia",
+        "tags": [
+          "poesia",
+          "prosa-poetica",
+          "amor",
+          "desamor",
+          "memoria"
+        ],
+        "version_group": "V04"
+      },
+      "original_sha256": "a733ce43b45a4bacaef996c3488525529a2625ff72037e35dd220b8d48cbdf5a",
+      "body_sha256": "5b628ac9d054a0c935cde2a630a1da22938404cd0108794b2f8aa01b65266577"
+    },
+    {
+      "id": "M042",
+      "path": "Blogs/misotrosrelatos/2010-06-11--hada--9136809591700377220.md",
+      "title": "Hada",
+      "category": "poesia",
+      "category_label": "Poesía y prosa poética",
+      "subtype": "Prosa poética",
+      "secondary_tags": [],
+      "rationale": "Agradecimiento a una figura de hada que acompaña una recuperación afectiva.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://misotrosrelatos.blogspot.com/2010/06/hada.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "a777f676f83c640b08ac551c2748b1f8546d998c314a156b015271a7f0da7ee4",
+      "editorial": {
+        "id": "M042",
+        "category": "poesia",
+        "tags": [
+          "poesia",
+          "prosa-poetica",
+          "amistad",
+          "esperanza",
+          "recuperacion-emocional"
+        ]
+      },
+      "original_sha256": "02823ef918a4a6c6858a5c627537c736aaa6efab16cf56de125a32716e3e0f88",
+      "body_sha256": "64bc5164c139de6a684487f54fb64287e3e4a1b2061bc4023c689d8dc6071778"
+    },
+    {
+      "id": "M043",
+      "path": "Blogs/misotrosrelatos/2010-06-18--de-noche-en-la-ciudad--5792403392510945503.md",
+      "title": "De Noche en la Ciudad",
+      "category": "poesia",
+      "category_label": "Poesía y prosa poética",
+      "subtype": "Prosa poética urbana",
+      "secondary_tags": [],
+      "rationale": "Contemplación nocturna de la ciudad; predomina la descripción lírica.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://misotrosrelatos.blogspot.com/2010/06/de-noche-en-la-ciudad.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "676a8e9ae1cc591364e7ec513f95b0cb8aa3b03916aa8d82e09a8c5eb523c1de",
+      "editorial": {
+        "id": "M043",
+        "category": "poesia",
+        "tags": [
+          "poesia",
+          "prosa-poetica",
+          "ciudad",
+          "noche",
+          "soledad"
+        ]
+      },
+      "original_sha256": "75e909954ac68eb22ad8b1edb320e029043f9606bf8b3ea7960731ee62efaee9",
+      "body_sha256": "c5cb9641a5418a02f461c11ac52d70a4d26414c6ac66f1b81275449c3eceab63"
+    },
+    {
+      "id": "M044",
+      "path": "Blogs/misotrosrelatos/2010-06-24--labios--5084038885726830951.md",
+      "title": "Labios",
+      "category": "poesia",
+      "category_label": "Poesía y prosa poética",
+      "subtype": "Prosa poética amorosa",
+      "secondary_tags": [],
+      "rationale": "Labios y pétalos como imágenes del deseo y su contención.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://misotrosrelatos.blogspot.com/2010/06/labios.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "14e444fe110bc5619e8d5118cd03def1981608427979c7f8d58be38351bca1ec",
+      "editorial": {
+        "id": "M044",
+        "category": "poesia",
+        "tags": [
+          "poesia",
+          "prosa-poetica",
+          "amor",
+          "deseo"
+        ]
+      },
+      "original_sha256": "2920cd46cd777484e274d6933114848bb969087caa4fea514e9e0b7e5822efc4",
+      "body_sha256": "4ddd3996e6801af5772d8222b03b268920556f4223f51faf263c1ca9bb6b4133"
+    },
+    {
+      "id": "M045",
+      "path": "Blogs/misotrosrelatos/2010-07-27--la-luciernaga--1617622764230818286.md",
+      "title": "La Luciernaga",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Fábula fantástica",
+      "secondary_tags": [],
+      "rationale": "Una luciérnaga aspira a convertirse en estrella.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://misotrosrelatos.blogspot.com/2010/07/la-luciernaga.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "14cb7a7c4942cda9c771c5dae602a285ba310330dd759992bf1c60c5b38b8c99",
+      "editorial": {
+        "id": "M045",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "fabula",
+          "fantasia",
+          "esperanza",
+          "naturaleza"
+        ]
+      },
+      "original_sha256": "b4ae41d88108a448551cc11f768b70d8694fed14e6ff28e0b32d76f95269c3ba",
+      "body_sha256": "d991954e35690dcbfaaa8b092647d30f4e8c7d2f7fd39e9315a4da75c841141d"
+    },
+    {
+      "id": "M046",
+      "path": "Blogs/misotrosrelatos/INDICE.md",
+      "title": "INDICE",
+      "category": "documentacion",
+      "category_label": "Documentación y respaldos",
+      "subtype": "Índice o documentación",
+      "secondary_tags": [],
+      "rationale": "Organiza fuentes y materiales; no es una obra independiente.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": null,
+      "source_authors": [],
+      "sha256": "7315d8caf6119c833587374eb10c1fe1b03ff6d90080a191d5f7fcfdce7916ed",
+      "editorial": {
+        "id": "M046",
+        "category": "documentacion",
+        "tags": [
+          "documentacion",
+          "inventario"
+        ]
+      },
+      "original_sha256": "89ddf8e6f7bc6f41fcf0c5383bde3452a213b1feb58c055027813e1648afa0ea",
+      "body_sha256": "bc153c04b0b85b6553248f82fe2984a090a4d5234c60b18c93142c007336a04b"
+    },
+    {
+      "id": "M047",
+      "path": "Blogs/montanaplateada/2009-12-26--pandora--6636595198335925994.md",
+      "title": "Pandora",
+      "category": "reflexiones-filosoficas",
+      "category_label": "Reflexiones filosóficas",
+      "subtype": "Filosofía de la vida / tecnología",
+      "secondary_tags": [
+        "ecología",
+        "tecnología"
+      ],
+      "rationale": "Parte de Avatar para reflexionar sobre biosfera, humanidad y expansión de la vida; no es una reseña cinematográfica convencional.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://montanaplateada.blogspot.com/2009/12/pandora.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "c461df07b1e1970f24f9bff4677679783490cac5cd17dc5f0ec355f795d737c7",
+      "editorial": {
+        "id": "M047",
+        "category": "reflexiones-filosoficas",
+        "tags": [
+          "reflexion-filosofica",
+          "filosofia-de-la-vida",
+          "ecologia",
+          "tecnologia",
+          "humanidad"
+        ],
+        "series": "montana-plateada"
+      },
+      "original_sha256": "334b5e78e9e9b54a52d82685780556057fd23bb62312183dc6e4f60c78b3b250",
+      "body_sha256": "fedff7a67709ace806b335ca925bd3bb3906e59f51f9e4f364016c291bfe7d8d"
+    },
+    {
+      "id": "M048",
+      "path": "Blogs/montanaplateada/2009-12-26--sobre-la-montana-plateada--3892578798529731479.md",
+      "title": "Sobre la Montaña Plateada",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Semblanza ficcional",
+      "secondary_tags": [],
+      "rationale": "Presenta al personaje del Hombre de la Montaña Plateada en un paisaje digital.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://montanaplateada.blogspot.com/2009/12/sobre-la-montana-plateada.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "a1a8a7389d67eaa0e979cdc387af4d7aed41b905429c1443408057fe5f7a3111",
+      "editorial": {
+        "id": "M048",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "fantasia",
+          "identidad-digital",
+          "soledad"
+        ],
+        "series": "montana-plateada"
+      },
+      "original_sha256": "92436637dd285bad68e296519e1d7493bc0e6f2a91b877cf59f3bd8da7f56bfb",
+      "body_sha256": "121bcf2329393910fdb0a067e8fc68c17b4a3822815cc4e978a3be39d3bcce2f"
+    },
+    {
+      "id": "M049",
+      "path": "Blogs/montanaplateada/2009-12-29--los-dos-concientes--4228113779389706350.md",
+      "title": "Los dos Concientes",
+      "category": "reflexiones-filosoficas",
+      "category_label": "Reflexiones filosóficas",
+      "subtype": "Filosofía de la mente / ensayo especulativo",
+      "secondary_tags": [
+        "ensayo teórico"
+      ],
+      "rationale": "Propone una explicación personal de conciencia, lenguaje e inconsciente. No presenta un estudio empírico.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://montanaplateada.blogspot.com/2009/12/los-dos-concientes.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "8824dace13f728e2d062032c9eb1c7e0511e6bbf650d28809f32944749671467",
+      "editorial": {
+        "id": "M049",
+        "category": "reflexiones-filosoficas",
+        "tags": [
+          "reflexion-filosofica",
+          "filosofia-de-la-mente",
+          "conciencia",
+          "lenguaje",
+          "conocimiento"
+        ],
+        "series": "montana-plateada"
+      },
+      "original_sha256": "5f2505d8ee4077e6351465e38b8b267fecfec5435d799d43c3ac7dcbf30c7d16",
+      "body_sha256": "9499f27a5007b0020c1dcf888716d9f7dfad28f23fec7e920013ba1b9f77a241"
+    },
+    {
+      "id": "M050",
+      "path": "Blogs/montanaplateada/2010-01-05--la-locura-de-quijote--176666177396057488.md",
+      "title": "La Locura de Quijote",
+      "category": "personales",
+      "category_label": "Crónicas y notas personales",
+      "subtype": "Crónica literaria personal",
+      "secondary_tags": [
+        "fantasía"
+      ],
+      "rationale": "Viaje en autobús narrado con imaginario de Don Quijote; cruce de experiencia y fantasía.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://montanaplateada.blogspot.com/2010/01/la-locura-de-quijote.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "8af87bbed390881bbe131cf5d1850e3a3b1e99a8ec1141ceea0f1e592dd86606",
+      "editorial": {
+        "id": "M050",
+        "category": "personales",
+        "tags": [
+          "texto-personal",
+          "cronica-personal",
+          "literatura",
+          "viaje",
+          "amor"
+        ],
+        "series": "montana-plateada"
+      },
+      "original_sha256": "e5b724226f5bbe0c23538b719b01be224ee67f9cbf746f12b516f3a5de395240",
+      "body_sha256": "a703ec76e614cdd5e016807c0d2b2fe1a683c03ee8549a01be406b4c503c2165"
+    },
+    {
+      "id": "M051",
+      "path": "Blogs/montanaplateada/2010-01-06--carta-de-un-padre-su-hijo-en-dia-de--730828869763573585.md",
+      "title": "Carta de un Padre a su Hijo en Día de Reyes",
+      "category": "reflexiones-filosoficas",
+      "category_label": "Reflexiones filosóficas",
+      "subtype": "Reflexión ética epistolar",
+      "secondary_tags": [
+        "narrativa epistolar"
+      ],
+      "rationale": "Carta sobre los Reyes Magos, la mentira, el amor paterno y el sentido del regalo; también tiene forma narrativa.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://montanaplateada.blogspot.com/2010/01/carta-de-un-padre-su-hijo-en-dia-de.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "466760420b91bb9f8e8aca4a53a06a6777109c8f4ac8137abeeb7ed90e31a207",
+      "editorial": {
+        "id": "M051",
+        "category": "reflexiones-filosoficas",
+        "tags": [
+          "reflexion-filosofica",
+          "etica",
+          "familia",
+          "infancia",
+          "amor"
+        ],
+        "series": "montana-plateada"
+      },
+      "original_sha256": "9ed4f3562760580f819bd39f97e7beb65c2231074500fb9d8c886ca8bf5ff8bb",
+      "body_sha256": "2dd32a69c8894def30a569bc577077668be71d5508ed1bd2f4d82910d984b9ab"
+    },
+    {
+      "id": "M052",
+      "path": "Blogs/montanaplateada/2010-01-09--existio-una-vez--1402788578572729861.md",
+      "title": "Existió una vez",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Cuento filosófico / alegoría",
+      "secondary_tags": [
+        "reflexión filosófica",
+        "crítica religiosa"
+      ],
+      "rationale": "Un dios y un demonio sirven para cuestionar la autoridad religiosa; marco narrativo del Hombre de la Montaña Plateada.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://montanaplateada.blogspot.com/2010/01/existio-una-vez.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "8072bfc506fdf0329b1ee233d5fd88b1bd652172696db7c09b062dfb685041a4",
+      "editorial": {
+        "id": "M052",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "cuento-filosofico",
+          "alegoria",
+          "religion",
+          "libertad"
+        ],
+        "series": "montana-plateada"
+      },
+      "original_sha256": "21df5a567003d7bc16565c758408fd9fcea988425851a488ef624fdf2cf3f72e",
+      "body_sha256": "ad03a0150e7b3d88972ff8d1af50dc28a668381a8bfca457ffebcf9963b2f694"
+    },
+    {
+      "id": "M053",
+      "path": "Blogs/montanaplateada/2010-01-16--pirateria-o-oportunidad--5428317548908905403.md",
+      "title": "Pirateria y oportunidad",
+      "category": "criticas",
+      "category_label": "Críticas y ensayos de opinión",
+      "subtype": "Crítica cultural y económica",
+      "secondary_tags": [],
+      "rationale": "Cuestiona la industria musical y propone otras relaciones entre músicos, distribución y público.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://montanaplateada.blogspot.com/2010/01/pirateria-o-oportunidad.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "ac928f08fc062bfdf4160aee3c50ead84f7ff5cfc9708216d88955d8447d41d9",
+      "editorial": {
+        "id": "M053",
+        "category": "criticas",
+        "tags": [
+          "critica",
+          "critica-cultural",
+          "economia",
+          "musica",
+          "propiedad-intelectual"
+        ],
+        "series": "montana-plateada"
+      },
+      "original_sha256": "806a9716ba55650b3c2505169850954952ab3e45f5d4ed754ff1f00a157d7e16",
+      "body_sha256": "9c889544d63cbf7875a0c637ac4b3128942b89b0af66c2477b1b34665c3ab8eb"
+    },
+    {
+      "id": "M054",
+      "path": "Blogs/montanaplateada/2010-01-23--dolor--2251121705517712697.md",
+      "title": "Dolor",
+      "category": "personales",
+      "category_label": "Crónicas y notas personales",
+      "subtype": "Reflexión personal",
+      "secondary_tags": [
+        "prosa poética"
+      ],
+      "rationale": "Desengaño amoroso y comparación con el ideal caballeresco; tono lírico y confesional.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://montanaplateada.blogspot.com/2010/01/dolor.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "2c637415c81c62ba6fae782eb1801ef688093130506b76744b4003f8c66863f8",
+      "editorial": {
+        "id": "M054",
+        "category": "personales",
+        "tags": [
+          "texto-personal",
+          "reflexion-personal",
+          "desamor",
+          "literatura"
+        ],
+        "series": "montana-plateada"
+      },
+      "original_sha256": "28e008be7dff210656adf7a58070e0e5d90ec5778c49691c078d67444dd34da6",
+      "body_sha256": "94be934e5f163b5d62ee81047aa618c67c6d70e6b60ab57c2dfeff66c1a1d60d"
+    },
+    {
+      "id": "M055",
+      "path": "Blogs/montanaplateada/2010-02-02--locura-hermosa-locura--5810889228252088133.md",
+      "title": "Locura, hermosa locura",
+      "category": "reflexiones-filosoficas",
+      "category_label": "Reflexiones filosóficas",
+      "subtype": "Reflexión existencial",
+      "secondary_tags": [],
+      "rationale": "Cordura, libertad y normas sociales tratadas como problemas de la existencia.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://montanaplateada.blogspot.com/2010/02/locura-hermosa-locura.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "7ddb3327cf90977f7f55b065525a52b6ffcd41e49dda7619d7d2f2b9ad15059e",
+      "editorial": {
+        "id": "M055",
+        "category": "reflexiones-filosoficas",
+        "tags": [
+          "reflexion-filosofica",
+          "filosofia-existencial",
+          "libertad",
+          "normas-sociales"
+        ],
+        "series": "montana-plateada"
+      },
+      "original_sha256": "4d9163df398d0b771b2f62ca9eb85bae66f043391082207e2d62155fc2b7ff09",
+      "body_sha256": "8331855a98dc7e556a000ed5e9edf85a5748e09143ccbdf1a7fcc9b6d2ded0d7"
+    },
+    {
+      "id": "M056",
+      "path": "Blogs/montanaplateada/2010-02-16--memoria-alguien-ha-visto-mi-memoria--6783407139297245827.md",
+      "title": "Memoria??? alguien ha visto mi memoria??",
+      "category": "reflexiones-filosoficas",
+      "category_label": "Reflexiones filosóficas",
+      "subtype": "Filosofía de la mente / ensayo especulativo",
+      "secondary_tags": [
+        "ensayo teórico"
+      ],
+      "rationale": "Explora percepción y memoria mediante analogías informáticas y una hipótesis personal; no presenta validación experimental.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://montanaplateada.blogspot.com/2010/02/memoria-alguien-ha-visto-mi-memoria.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "508d61ee6f9bd6f9680f8bdaeac80d0b040c22f6d255f8ea8dd1667ab402c7cf",
+      "editorial": {
+        "id": "M056",
+        "category": "reflexiones-filosoficas",
+        "tags": [
+          "reflexion-filosofica",
+          "filosofia-de-la-mente",
+          "memoria",
+          "percepcion",
+          "conocimiento"
+        ],
+        "series": "montana-plateada"
+      },
+      "original_sha256": "0c82cadc3120e2901a48fc3c94d0083aeff22f0ab4eb1d57a25de2f79a0181ab",
+      "body_sha256": "c54a6fa1ed799e7b8a558ec4a7914c9ab90bda3a32ffa8784a4438e69ac458e6"
+    },
+    {
+      "id": "M057",
+      "path": "Blogs/montanaplateada/2010-02-24--cyborg--9133026548082648302.md",
+      "title": "Cyborg",
+      "category": "reflexiones-filosoficas",
+      "category_label": "Reflexiones filosóficas",
+      "subtype": "Filosofía de la tecnología",
+      "secondary_tags": [
+        "identidad digital"
+      ],
+      "rationale": "Identidad, memoria y continuidad personal en redes y computadoras.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://montanaplateada.blogspot.com/2010/02/cyborg.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "0b20013ba45c2237a4b265aaad27618edf12304ff7b683239b70c3dd2d0d623a",
+      "editorial": {
+        "id": "M057",
+        "category": "reflexiones-filosoficas",
+        "tags": [
+          "reflexion-filosofica",
+          "filosofia-de-la-tecnologia",
+          "identidad-digital",
+          "memoria",
+          "muerte"
+        ],
+        "series": "montana-plateada"
+      },
+      "original_sha256": "176262890850072e8f747613cc1f5e7febec46fb03d3858da59fb55f4597ed34",
+      "body_sha256": "5d229526532f2f65218b4c91d756ce33ad5e6d488f844008e93fe3e6eb9b8cb8"
+    },
+    {
+      "id": "M058",
+      "path": "Blogs/montanaplateada/2010-06-04--bullyng--8118794187141853950.md",
+      "title": "Bullyng",
+      "category": "criticas",
+      "category_label": "Críticas y ensayos de opinión",
+      "subtype": "Crítica educativa / propuesta",
+      "secondary_tags": [
+        "educación"
+      ],
+      "rationale": "Expone una interpretación del acoso escolar y propone cambios organizativos; artículo de opinión, no estudio académico.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://montanaplateada.blogspot.com/2010/06/bullyng.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "a91201872d37eec1404dcfccf771751439681d1092042af6a0b3e35ca9cfdb39",
+      "editorial": {
+        "id": "M058",
+        "category": "criticas",
+        "tags": [
+          "critica",
+          "critica-social",
+          "educacion",
+          "infancia",
+          "violencia"
+        ],
+        "series": "montana-plateada"
+      },
+      "original_sha256": "57c1ffe0693854b961c774ca6a9bebd0230ba04cae71982293864d0ae210c0e3",
+      "body_sha256": "48a56d5664ad12d3402bd830e56e63747c623c4136f2edfa0a7074198729c2a7"
+    },
+    {
+      "id": "M059",
+      "path": "Blogs/montanaplateada/INDICE.md",
+      "title": "INDICE",
+      "category": "documentacion",
+      "category_label": "Documentación y respaldos",
+      "subtype": "Índice o documentación",
+      "secondary_tags": [],
+      "rationale": "Organiza fuentes y materiales; no es una obra independiente.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": null,
+      "source_authors": [],
+      "sha256": "beabb39d6b4b5e945d59f2f2eb476e2e50430ff12f39f734e7714d72137a5839",
+      "editorial": {
+        "id": "M059",
+        "category": "documentacion",
+        "tags": [
+          "documentacion",
+          "inventario"
+        ]
+      },
+      "original_sha256": "411148d301acab23aa310b3f967f4eeec343ae5be38b92956cb78982a1bd85d6",
+      "body_sha256": "411148d301acab23aa310b3f967f4eeec343ae5be38b92956cb78982a1bd85d6"
+    },
+    {
+      "id": "M060",
+      "path": "Blogs/paynalton/2008-09-12--descubrimiento--3280146636273297904.md",
+      "title": "Descubrimiento",
+      "category": "editoriales",
+      "category_label": "Presentaciones editoriales",
+      "subtype": "Nota de apertura",
+      "secondary_tags": [],
+      "rationale": "Anuncia el descubrimiento del blog y los temas que se publicarán.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://paynalton.blogspot.com/2008/09/descubrimiento.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "823865c247c285c536dcba7d8805b935387977ba5cf6418fe4f62b102aa99911",
+      "editorial": {
+        "id": "M060",
+        "category": "editoriales",
+        "tags": [
+          "presentacion-editorial",
+          "presentacion"
+        ]
+      },
+      "original_sha256": "9e5d29cba453d3e062dfc7b21b4749c7d7b7361265140c2dadc00212188b649c",
+      "body_sha256": "b8071f8cad7cbbd630cd1439b3841fe3143f9e55bfc5746fd6264a172e987347"
+    },
+    {
+      "id": "M061",
+      "path": "Blogs/paynalton/2008-11-07--el-estupor-mexicano--2873111049503033665.md",
+      "title": "El Estupor Mexicano",
+      "category": "criticas",
+      "category_label": "Críticas y ensayos de opinión",
+      "subtype": "Crítica social",
+      "secondary_tags": [],
+      "rationale": "Usa a Tolkien como punto de partida para cuestionar conformismo y falta de proyectos colectivos en México.",
+      "classification_status": "clasificado",
+      "version_group": "V05",
+      "source_url": "https://paynalton.blogspot.com/2008/11/el-estupor-mexicano.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "fe94af0239cf2ab5ef7ab8c5bbf68a73d32c43f6407d2b06e23903087fcedb28",
+      "editorial": {
+        "id": "M061",
+        "category": "criticas",
+        "tags": [
+          "critica",
+          "critica-social",
+          "mexico",
+          "progreso",
+          "imaginacion"
+        ],
+        "version_group": "V05"
+      },
+      "original_sha256": "6868462cc62b72655fb9581adfa5f2806421da267641a2bf4d817265baf262a2",
+      "body_sha256": "ed1ac42602aa5f59e8a199145de4fbc893ec4ac50a49f333a49917ee03f80ce6"
+    },
+    {
+      "id": "M062",
+      "path": "Blogs/paynalton/2008-11-09--howto-novia--7774065377464095702.md",
+      "title": "HOWTO Novia",
+      "category": "humor",
+      "category_label": "Humor y sátira",
+      "subtype": "Parodia técnica",
+      "secondary_tags": [],
+      "rationale": "Describe las relaciones de pareja como instalación de software. El formato de manual es un recurso humorístico.",
+      "classification_status": "clasificado",
+      "version_group": "V06",
+      "source_url": "https://paynalton.blogspot.com/2008/11/howto-novia.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "3986653be5665b66e6496629894d52c05d92f520a404707127aba5346844ec63",
+      "editorial": {
+        "id": "M062",
+        "category": "humor",
+        "tags": [
+          "humor",
+          "parodia",
+          "relaciones-de-pareja",
+          "informatica"
+        ],
+        "version_group": "V06"
+      },
+      "original_sha256": "6c84320ac7bb44a9544f5517f63cf0e21d0edb7641657fc33b263aebe7435d4b",
+      "body_sha256": "f1a8c7690684c630af0ba990c3e76a3b8b54d543feab3c891ad4f882e3bbc4d5"
+    },
+    {
+      "id": "M063",
+      "path": "Blogs/paynalton/2009-01-12--guia-1--3076718876504719501.md",
+      "title": "Guia 1",
+      "category": "tecnicos",
+      "category_label": "Textos técnicos",
+      "subtype": "Divulgación informática",
+      "secondary_tags": [],
+      "rationale": "Explica el nombre GNU/Linux y antecedentes del sistema.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://paynalton.blogspot.com/2009/01/guia-1.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "f03673c402949794ca0b9df56c26f88a66c16f49ebaf71b8c2c5f6ca0e9a950f",
+      "editorial": {
+        "id": "M063",
+        "category": "tecnicos",
+        "tags": [
+          "texto-tecnico",
+          "divulgacion-tecnica",
+          "gnu-linux",
+          "software-libre"
+        ]
+      },
+      "original_sha256": "ee15485ad8ab039a6360f3bac244452fe7e032300bf91d2548367516e6c5acc7",
+      "body_sha256": "464d3124e831249c0b89aadbbe5e4dc087d36290fa30783c11132b0708364f69"
+    },
+    {
+      "id": "M064",
+      "path": "Blogs/paynalton/2009-01-12--untitled--4918993102196087531.md",
+      "title": "Untitled",
+      "category": "tecnicos",
+      "category_label": "Textos técnicos",
+      "subtype": "Tutorial informático",
+      "secondary_tags": [],
+      "rationale": "Gestión de paquetes, dependencias y actualización de GNU/Linux.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://paynalton.blogspot.com/2009/01/untitled.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "8aa79201d99ca0319232e12cb734fa352cf3d1ebc97b8818d68ae46f9c7b585c",
+      "editorial": {
+        "id": "M064",
+        "category": "tecnicos",
+        "tags": [
+          "texto-tecnico",
+          "tutorial",
+          "gnu-linux",
+          "administracion-de-sistemas"
+        ]
+      },
+      "original_sha256": "053ab41476160e341af0ae77a66d6617331e18f3a1e4e27da0aa26b3d669066b",
+      "body_sha256": "62b90df26db0e5a98857c8c017a8d709f9b778f11f78c03003fd4625a9784702"
+    },
+    {
+      "id": "M065",
+      "path": "Blogs/paynalton/2009-01-12--untitled_12--465286709624321031.md",
+      "title": "Untitled",
+      "category": "tecnicos",
+      "category_label": "Textos técnicos",
+      "subtype": "Tutorial informático",
+      "secondary_tags": [],
+      "rationale": "Explica los indicadores de usuario y administrador en la consola y el uso de permisos.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://paynalton.blogspot.com/2009/01/untitled_12.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "3f20d0c2d3d5b2a45f687152da72d114090f306c75633f6dd7672f7488ba07c0",
+      "editorial": {
+        "id": "M065",
+        "category": "tecnicos",
+        "tags": [
+          "texto-tecnico",
+          "tutorial",
+          "gnu-linux",
+          "seguridad-informatica"
+        ]
+      },
+      "original_sha256": "646c7fd0867a3cdcb83e036239cfc03684463f91b8214c9f1cc4c8375c5f277c",
+      "body_sha256": "99f52b5eb555977cb6f7ab19354be464852f75bc3c543dfb018b8180150dc824"
+    },
+    {
+      "id": "M066",
+      "path": "Blogs/paynalton/2009-05-28--el-jardin--49964902079146827.md",
+      "title": "El Jardín.",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Cuento lírico",
+      "secondary_tags": [],
+      "rationale": "Vejez, jardín, memoria de la pareja y muerte como reencuentro.",
+      "classification_status": "clasificado",
+      "version_group": "V07",
+      "source_url": "https://paynalton.blogspot.com/2009/05/el-jardin.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "c55d57ced8c255b78a092f2d9b28c0857eeb39f091a3fb70b51ea7bb1660074c",
+      "editorial": {
+        "id": "M066",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "prosa-poetica",
+          "vejez",
+          "amor",
+          "memoria",
+          "muerte"
+        ],
+        "version_group": "V07"
+      },
+      "original_sha256": "3d3e8f0dd808856dc45e1884df385724a68363b8b9a39253de52130c2d87fd59",
+      "body_sha256": "f1f5b7570f01107fd6658c8da72897b026c44eafefef1544bf3bd80ca05de32f"
+    },
+    {
+      "id": "M067",
+      "path": "Blogs/paynalton/2009-06-03--manga--6936810540894679345.md",
+      "title": "Manga",
+      "category": "personales",
+      "category_label": "Crónicas y notas personales",
+      "subtype": "Nota de creación",
+      "secondary_tags": [],
+      "rationale": "Comentario breve sobre una edición de retrato con Gimp, sin desarrollo de tutorial.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://paynalton.blogspot.com/2009/06/manga.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "1b3cbf585934ac2ad802871c6068e3a1f3c62ac05a52dfe3c8fe0acde1c7907b",
+      "editorial": {
+        "id": "M067",
+        "category": "personales",
+        "tags": [
+          "texto-personal",
+          "nota-personal",
+          "arte-digital"
+        ]
+      },
+      "original_sha256": "8346bd2265d13d666037799a9c97f1b05b0730b3828a865dd5e493ea455c09fe",
+      "body_sha256": "6756c27d40a17861eb849525c17a2038a46ec41565fb3717e73d750db8c334d7"
+    },
+    {
+      "id": "M068",
+      "path": "Blogs/paynalton/2009-07-11--te-amo--656269021976234415.md",
+      "title": "Te amo",
+      "category": "personales",
+      "category_label": "Crónicas y notas personales",
+      "subtype": "Dedicatoria",
+      "secondary_tags": [],
+      "rationale": "Mensaje amoroso breve; no desarrolla trama ni argumento.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://paynalton.blogspot.com/2009/07/te-amo.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "34bf77c40b70816161325413df10d3ba93b095aa04bc89e544bbcc6d2a43c1ed",
+      "editorial": {
+        "id": "M068",
+        "category": "personales",
+        "tags": [
+          "texto-personal",
+          "dedicatoria",
+          "amor"
+        ]
+      },
+      "original_sha256": "f97025145c08b9f2a3e1d916027c26707cf74b4d6c6cfb03655376b1e9fdfe09",
+      "body_sha256": "20a412c587507d2d6ff318d6ec99a109753318937f6625518096d0476fb13828"
+    },
+    {
+      "id": "M070",
+      "path": "Blogs/paynalton/2009-10-26--la-bestia-de-metal--7305137090505488422.md",
+      "title": "La Bestia de Metal",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Microrrelato lírico",
+      "secondary_tags": [
+        "prosa poética"
+      ],
+      "rationale": "Separación amorosa a bordo de la bestia de metal; otra versión de la misma obra.",
+      "classification_status": "clasificado",
+      "version_group": "V02",
+      "source_url": "https://paynalton.blogspot.com/2009/10/la-bestia-de-metal.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "b607b6d7e216879b63de4f1f0a537bf4edff79bb1df9cc23bf5924d12fdddfbf",
+      "editorial": {
+        "id": "M070",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "microrrelato",
+          "prosa-poetica",
+          "amor",
+          "separacion",
+          "viaje"
+        ],
+        "version_group": "V02"
+      },
+      "original_sha256": "0feec498e00e33191e764075fd8cccb98f8bed389bca01ed96e17e65b7efb0b2",
+      "body_sha256": "9481b7e406fb5f3e3b34c0690d7d1bb2464e5710a6ebceb0b8e614b279cfa1c8"
+    },
+    {
+      "id": "M071",
+      "path": "Blogs/paynalton/2009-10-29--noche-de-brujas-en-diabuluz--6394126291653220228.md",
+      "title": "Noche de Brujas En Diäbuluz",
+      "category": "tecnicos",
+      "category_label": "Textos técnicos",
+      "subtype": "Tutorial / explicación de código",
+      "secondary_tags": [],
+      "rationale": "Explica un script de efectos para un foro en fechas de Halloween.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://paynalton.blogspot.com/2009/10/noche-de-brujas-en-diabuluz.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "a177b7d9afe49a06a2d6323b17d21dc338dfd8f7fd1d3af8d20e6d40381a50d1",
+      "editorial": {
+        "id": "M071",
+        "category": "tecnicos",
+        "tags": [
+          "texto-tecnico",
+          "tutorial",
+          "programacion",
+          "efectos-visuales"
+        ]
+      },
+      "original_sha256": "8ca03f6e87e865c87269994f82f4c829820b964c26a35e540aa89cb9714583f2",
+      "body_sha256": "c21e8c4f090f40d8a7d4272a203c3f0922d8d58120a1d1c9a5c7a92639277b2b"
+    },
+    {
+      "id": "M072",
+      "path": "Blogs/paynalton/2013-05-08--decodificando-entidades-html-en-android--9064485698109122102.md",
+      "title": "Decodificando Entidades HTML en android",
+      "category": "tecnicos",
+      "category_label": "Textos técnicos",
+      "subtype": "Nota técnica",
+      "secondary_tags": [],
+      "rationale": "Solución de decodificación de entidades HTML en Android.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://paynalton.blogspot.com/2013/05/decodificando-entidades-html-en-android.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "f166ec7384ed4cedabab113f3d9194ac35bffc5a40c7e8d9a93560836cedfac9",
+      "editorial": {
+        "id": "M072",
+        "category": "tecnicos",
+        "tags": [
+          "texto-tecnico",
+          "nota-tecnica",
+          "programacion",
+          "android"
+        ]
+      },
+      "original_sha256": "4e1665cdc455296a7fcc388d3f15566d3bd60a650ba0134380c05aed095fc478",
+      "body_sha256": "085d0b6d4a5b0e95560f5407e8c3ecfa9f8ab1b819a83a54d3b2fbf1480345da"
+    },
+    {
+      "id": "M073",
+      "path": "Blogs/paynalton/2013-05-08--google-chrome-crashsolved--2496877301674310444.md",
+      "title": "Google Chrome Crash![solved]",
+      "category": "tecnicos",
+      "category_label": "Textos técnicos",
+      "subtype": "Guía de diagnóstico",
+      "secondary_tags": [],
+      "rationale": "Describe una reparación de Ubuntu, APT, Dbus, Nvidia y Chrome.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://paynalton.blogspot.com/2013/05/google-chrome-crashsolved.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "61144e521b104d198bacddf1ec82a88392310b64595abacff95d4a93c3d8257c",
+      "editorial": {
+        "id": "M073",
+        "category": "tecnicos",
+        "tags": [
+          "texto-tecnico",
+          "tutorial",
+          "diagnostico-tecnico",
+          "gnu-linux",
+          "administracion-de-sistemas"
+        ]
+      },
+      "original_sha256": "170b63b1e7c423fe88665e1c069d435d9139b23c68783af04eb0e60c86ed2cd1",
+      "body_sha256": "9f770c0349b2a9ef54858e5ca498bb2769be200744bf0ab200aae6f21a1cfaa1"
+    },
+    {
+      "id": "M074",
+      "path": "Blogs/paynalton/2013-05-21--promesas--988193768024474635.md",
+      "title": "Promesas",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Drama",
+      "secondary_tags": [],
+      "rationale": "Roberto llega a un hospital y afronta noticias trágicas; estructura de cuento.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://paynalton.blogspot.com/2013/05/promesas.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "713fda2602faba4eebc3f761c765ee3b0a3e6371ed3585409ce1c77d09cc5e4f",
+      "editorial": {
+        "id": "M074",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "drama",
+          "pareja",
+          "promesas",
+          "perdida"
+        ]
+      },
+      "original_sha256": "15929c38d75b38146e4153b44ceb416d46ea217d49f8642cf100a85e24f48dd9",
+      "body_sha256": "480be59fbb82c7cf26b232411e15a19d4583382ba540e810b4f4fc88e2f3c4f8"
+    },
+    {
+      "id": "M075",
+      "path": "Blogs/paynalton/2013-06-24--paulo-coelho--7569461643810032323.md",
+      "title": "Paulo Coelho",
+      "category": "criticas",
+      "category_label": "Críticas y ensayos de opinión",
+      "subtype": "Crítica literaria de opinión",
+      "secondary_tags": [],
+      "rationale": "Explica una postura personal frente al estilo y actitud atribuidos a Paulo Coelho.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://paynalton.blogspot.com/2013/06/paulo-coelho.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "a8e21b2c49ec442be994e7427281eb80aa428178d76c44366c7537161a770337",
+      "editorial": {
+        "id": "M075",
+        "category": "criticas",
+        "tags": [
+          "critica",
+          "critica-literaria",
+          "literatura"
+        ]
+      },
+      "original_sha256": "8d361e951d746fe20935eb30c9b3776844cf3377fdc7e7c042c9f0ae61ebe962",
+      "body_sha256": "b66e3a7a16a23ab5ba9be7cef5b2850f843418fd22a889bb4d68e40b8e3fd302"
+    },
+    {
+      "id": "M076",
+      "path": "Blogs/paynalton/2013-07-06--una-historia-imaginaria--8084352696809110973.md",
+      "title": "Una Historia Imaginaria",
+      "category": "reflexiones-filosoficas",
+      "category_label": "Reflexiones filosóficas",
+      "subtype": "Reflexión religiosa alegórica",
+      "secondary_tags": [
+        "alegoría",
+        "crítica religiosa"
+      ],
+      "rationale": "Experimento mental sobre un creador y un demonio. Comparte planteamiento con Existió una vez, sin ser copia literal.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://paynalton.blogspot.com/2018/07/una-historia-imaginaria.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "3f3c538358e1b1500d4cb7945b4cbdb80c4c622e7d7d74e4fea85ac2bb221240",
+      "editorial": {
+        "id": "M076",
+        "category": "reflexiones-filosoficas",
+        "tags": [
+          "reflexion-filosofica",
+          "alegoria",
+          "religion",
+          "etica"
+        ]
+      },
+      "original_sha256": "9f800051e41dc0eec23a47a46dd9da8e8b1bcce1fb5566be942b026228663188",
+      "body_sha256": "9f4b9d0702124e9228cd0f8540eb0e5d0c13d0693bd0c4d721dbf78bd73dbd61"
+    },
+    {
+      "id": "M078",
+      "path": "Blogs/paynalton/2013-07-19--crisalida--8358624010795434240.md",
+      "title": "Crisálida",
+      "category": "poesia",
+      "category_label": "Poesía y prosa poética",
+      "subtype": "Prosa poética reflexiva",
+      "secondary_tags": [],
+      "rationale": "La crisálida funciona como metáfora de transformación personal.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://paynalton.blogspot.com/2018/07/crisalida.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "b2ace2b99ccc8e60a0c3f2c0faeac0b6b87972c30f179473efee48b373daec43",
+      "editorial": {
+        "id": "M078",
+        "category": "poesia",
+        "tags": [
+          "poesia",
+          "prosa-poetica",
+          "transformacion-personal"
+        ]
+      },
+      "original_sha256": "f7c9b1ce7a4328bd06bf2036ebec1887f1ba8a5ef10ccb1f5e111247813d9b03",
+      "body_sha256": "69b3b1b7dd3ff4120429af80430016aa17c85e71b4a8776c08ad30e0bf468058"
+    },
+    {
+      "id": "M079",
+      "path": "Blogs/paynalton/2013-07-20--justicia-ilegal--3826656638039384232.md",
+      "title": "Justicia Ilegal",
+      "category": "criticas",
+      "category_label": "Críticas y ensayos de opinión",
+      "subtype": "Aforismo crítico",
+      "secondary_tags": [],
+      "rationale": "Contrapone legalidad y justicia en una formulación breve.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://paynalton.blogspot.com/2018/07/justicia-ilegal.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "ca118363da91594fd6184b7c96289fa522c4b7af1f3c027e6ac288ccaa86e4d2",
+      "editorial": {
+        "id": "M079",
+        "category": "criticas",
+        "tags": [
+          "critica",
+          "aforismo",
+          "justicia",
+          "politica"
+        ]
+      },
+      "original_sha256": "758fded0c8d98cea58ae0b627ffdbeb7bf7e1fef32c3749496e1aac70538cec5",
+      "body_sha256": "42ce6d74c5c6066ecb8fc7a7e8e85ca5bd3df26131ed1b9d52d9b05d6041867e"
+    },
+    {
+      "id": "M080",
+      "path": "Blogs/paynalton/2013-07-22--a-que-tienes-derecho--3552014845897993915.md",
+      "title": "¿A que tienes derecho?",
+      "category": "reflexiones-filosoficas",
+      "category_label": "Reflexiones filosóficas",
+      "subtype": "Reflexión ética",
+      "secondary_tags": [
+        "ética"
+      ],
+      "rationale": "Trabajo, disfrute de la vida y rechazo del culto al sufrimiento.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://paynalton.blogspot.com/2013/07/a-que-tienes-derecho.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "6ecd5446453a29ac487b51195df922254e067bd53371766edb5c5604597c6ff6",
+      "editorial": {
+        "id": "M080",
+        "category": "reflexiones-filosoficas",
+        "tags": [
+          "reflexion-filosofica",
+          "etica",
+          "trabajo",
+          "vida",
+          "libertad"
+        ]
+      },
+      "original_sha256": "e1dbb6bafa775cd8c1f44971a57ef08db53c65e87a32dd5fa1cb51c9889334e4",
+      "body_sha256": "4dc6382c6fd01f03ebcd2da383564dc717bb90d7da8829b7b11360b49154aff6"
+    },
+    {
+      "id": "M081",
+      "path": "Blogs/paynalton/2013-08-01--los-de-abajo--8596504731929286507.md",
+      "title": "Los de abajo",
+      "category": "criticas",
+      "category_label": "Críticas y ensayos de opinión",
+      "subtype": "Crítica social",
+      "secondary_tags": [],
+      "rationale": "Cuestiona la oposición entre éxito opresivo y pobreza virtuosa.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://paynalton.blogspot.com/2013/08/los-de-abajo.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "266823a7ca6cb638e80d2484698a4064f5b8dde00696fa5299c218fb9c3f4e11",
+      "editorial": {
+        "id": "M081",
+        "category": "criticas",
+        "tags": [
+          "critica",
+          "critica-social",
+          "desigualdad",
+          "exito"
+        ]
+      },
+      "original_sha256": "0548beb112c332c568ecd4943b05c3b62128ed3e3de672060284e79c1b7512f4",
+      "body_sha256": "7fd79aa0eb1296e1166d4411a51c63f69850b5b8485e2ce8aafa12ee6378d392"
+    },
+    {
+      "id": "M082",
+      "path": "Blogs/paynalton/2013-08-11--esqueletos--3032711837810877947.md",
+      "title": "Esqueletos",
+      "category": "reflexiones-filosoficas",
+      "category_label": "Reflexiones filosóficas",
+      "subtype": "Filosofía social",
+      "secondary_tags": [
+        "crítica social"
+      ],
+      "rationale": "El esqueleto sirve como metáfora de estructuras, ideas, cambio y vitalidad.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://paynalton.blogspot.com/2018/07/esqueletos.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "2b65c1e60018e56c0719e8cd84dc477f7510608054774fe134d2f13500e961b2",
+      "editorial": {
+        "id": "M082",
+        "category": "reflexiones-filosoficas",
+        "tags": [
+          "reflexion-filosofica",
+          "filosofia-social",
+          "cambio",
+          "ideas",
+          "libertad"
+        ]
+      },
+      "original_sha256": "4570a69caf2834203bccb8d9f31099f4af6d4982380d08f59df52b0c0a8c678d",
+      "body_sha256": "9665444e98365c67e96d5fa58c2f18e8a63da52733e93c718b33c61870f3d5ac"
+    },
+    {
+      "id": "M083",
+      "path": "Blogs/paynalton/2013-08-26--corazon-dormido--7877570959509580809.md",
+      "title": "Corazón dormido",
+      "category": "poesia",
+      "category_label": "Poesía y prosa poética",
+      "subtype": "Prosa poética histórica",
+      "secondary_tags": [],
+      "rationale": "Invoca la memoria y el despertar de un pueblo mediante imágenes de ruinas y leyendas.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://paynalton.blogspot.com/2013/08/corazon-dormido.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "b6cc9d18ca341d8af3c29fae7c4197aee4ed82dc0399be5e324fafb428e35134",
+      "editorial": {
+        "id": "M083",
+        "category": "poesia",
+        "tags": [
+          "poesia",
+          "prosa-poetica",
+          "memoria-historica",
+          "mexico"
+        ]
+      },
+      "original_sha256": "b18d7acd2b65443dadb626245eb6c9de5df324a554ba80b57946a525db3c991e",
+      "body_sha256": "815b23f4b5d0ceb1a45d573bca5b18ddbc88ed961c1a74ab896559616b462fc7"
+    },
+    {
+      "id": "M084",
+      "path": "Blogs/paynalton/2013-09-12--retrospectiva--5730085593538299603.md",
+      "title": "Retrospectiva",
+      "category": "personales",
+      "category_label": "Crónicas y notas personales",
+      "subtype": "Nota de diario",
+      "secondary_tags": [],
+      "rationale": "Balance personal de conocimientos, propósito y decisiones futuras.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://paynalton.blogspot.com/2013/09/retrospectiva.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "65db313dcebb853bf122fa583425369cde2452659ffee6a920aa93dcbc5f4e03",
+      "editorial": {
+        "id": "M084",
+        "category": "personales",
+        "tags": [
+          "texto-personal",
+          "reflexion-personal",
+          "conocimiento",
+          "proposito"
+        ]
+      },
+      "original_sha256": "594429e7eaf08a5d2a049ed32f8cff15411541a05de87a50f2ab3bd2b87e7a41",
+      "body_sha256": "90be3b651278e60073f32cd8d963a5e4734d6325680216b5097b429cf9c43581"
+    },
+    {
+      "id": "M085",
+      "path": "Blogs/paynalton/2014-02-03--economia-casera--4453930116491064432.md",
+      "title": "Economía casera",
+      "category": "criticas",
+      "category_label": "Críticas y ensayos de opinión",
+      "subtype": "Opinión económica",
+      "secondary_tags": [],
+      "rationale": "Defiende la producción doméstica y el autoconsumo frente a la vulnerabilidad económica.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://paynalton.blogspot.com/2014/02/economia-casera.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "e61bd43a5eb42f5a5cd187b554a259823075662b1b3b0f7120e591c8d0e767cc",
+      "editorial": {
+        "id": "M085",
+        "category": "criticas",
+        "tags": [
+          "critica",
+          "opinion-economica",
+          "autoconsumo",
+          "crisis-economica"
+        ]
+      },
+      "original_sha256": "d0cb774bb991d72923d65adeedb840f44ba2b5ab5a04f46bde2fc4b4600ebf3a",
+      "body_sha256": "34b6c664d7a5752ca4e1e7101f86c18795ca9f851d5e27668c253f533cd2b2ad"
+    },
+    {
+      "id": "M086",
+      "path": "Blogs/paynalton/2014-02-05--dolor--8935855600025656486.md",
+      "title": "Dolor",
+      "category": "poesia",
+      "category_label": "Poesía y prosa poética",
+      "subtype": "Prosa poética",
+      "secondary_tags": [],
+      "rationale": "Soledad, eternidad y desamor desde una voz lírica.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://paynalton.blogspot.com/2014/02/dolor.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "e0dfb7ffadd488b6870d6da3b2cc61cb2b543d6eaec751a41402f9765f95b9c4",
+      "editorial": {
+        "id": "M086",
+        "category": "poesia",
+        "tags": [
+          "poesia",
+          "prosa-poetica",
+          "desamor",
+          "soledad",
+          "eternidad"
+        ]
+      },
+      "original_sha256": "22d147aac0676b5af28f3b2f65636a67b06735ec22d7fb84500fa372dcc74a79",
+      "body_sha256": "5da5d0465feec8e8222e80e71ad1877a26f4b36d38bd4993916159a57e0cddb3"
+    },
+    {
+      "id": "M087",
+      "path": "Blogs/paynalton/2014-02-05--la-generacion-de-intereses-devalua-las--1531225083553226819.md",
+      "title": "La generación de intereses devalua las monedas... porque?? porque lo digo yo!!!!",
+      "category": "criticas",
+      "category_label": "Críticas y ensayos de opinión",
+      "subtype": "Opinión económica",
+      "secondary_tags": [],
+      "rationale": "Argumento personal sobre dinero, intereses y devaluación.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://paynalton.blogspot.com/2014/02/la-generacion-de-intereses-devalua-las.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "80966952e163d752b07cb5323026f0effff99f9cd4b007110ef9b33f07092602",
+      "editorial": {
+        "id": "M087",
+        "category": "criticas",
+        "tags": [
+          "critica",
+          "opinion-economica",
+          "dinero",
+          "deuda"
+        ]
+      },
+      "original_sha256": "3b99f3df3750d056e1d8175c747bf292d66d086900228e4f41bdfafbe3c84e9a",
+      "body_sha256": "3e812fc3b6d3dbf6da93b4b1b19193d2e010d7a3f9be20b9288e7d5fa341280e"
+    },
+    {
+      "id": "M088",
+      "path": "Blogs/paynalton/2014-02-10--caja-se-siembra--5863291393924354400.md",
+      "title": "Caja se siembra",
+      "category": "tecnicos",
+      "category_label": "Textos técnicos",
+      "subtype": "Propuesta de prototipo",
+      "secondary_tags": [],
+      "rationale": "Idea de cultivo urbano con bandas y módulos de control por planta; no documenta resultados experimentales.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://paynalton.blogspot.com/2014/02/caja-se-siembra.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "0615d341175ec4912e48fd2254e8ab057bf57035feacb10bf84e84b0846c9fdf",
+      "editorial": {
+        "id": "M088",
+        "category": "tecnicos",
+        "tags": [
+          "texto-tecnico",
+          "propuesta-tecnica",
+          "agricultura",
+          "automatizacion"
+        ]
+      },
+      "original_sha256": "fab028f73fd81e65a3b6e6ebd42c0b3ef537123b3c69cd7e7b31b3f65d9fc6f0",
+      "body_sha256": "bc8b9587b90bf5e3269e2918ebc948ef1ae4395a556f0b0dd63b9cfc49332b36"
+    },
+    {
+      "id": "M089",
+      "path": "Blogs/paynalton/2014-02-11--control-de-inflacion--6817143959436269995.md",
+      "title": "Control de inflación",
+      "category": "criticas",
+      "category_label": "Críticas y ensayos de opinión",
+      "subtype": "Propuesta económica",
+      "secondary_tags": [],
+      "rationale": "Plantea un modelo alternativo de emisión monetaria y asignación de créditos.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://paynalton.blogspot.com/2014/02/control-de-inflacion.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "37734c33d95a0f6b63414c886930cbde3d9cdd06ff8d5f92e439cea6e4a8e811",
+      "editorial": {
+        "id": "M089",
+        "category": "criticas",
+        "tags": [
+          "critica",
+          "opinion-economica",
+          "dinero",
+          "credito"
+        ]
+      },
+      "original_sha256": "c910fe95baa22e69f617cf2de459128ea41bca262cac371c26a7d1878e212332",
+      "body_sha256": "a3c2e45c45fc346f6b72efd3242e50e7d092e9bfe53f5db823e2e9ffa042deca"
+    },
+    {
+      "id": "M090",
+      "path": "Blogs/paynalton/2014-02-11--viaje-solitario--2217568923070566347.md",
+      "title": "Viaje Solitario",
+      "category": "poesia",
+      "category_label": "Poesía y prosa poética",
+      "subtype": "Prosa poética",
+      "secondary_tags": [],
+      "rationale": "Invitación a un viaje por locura, sueños y promesas rotas.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://paynalton.blogspot.com/2014/02/viaje-solitario.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "f8e11a8ab0c4410355b9caedf93adcbad4925ee8eacf3c89f5cfa6e0d7dac7ac",
+      "editorial": {
+        "id": "M090",
+        "category": "poesia",
+        "tags": [
+          "poesia",
+          "prosa-poetica",
+          "amor",
+          "suenos",
+          "desamor"
+        ]
+      },
+      "original_sha256": "07243bd637b4ef83d6581f1122fb6167ba91fe536ec79f0d5fc02bbd8804cd57",
+      "body_sha256": "34038723f8dd148cdfc5f628301c46b62015d76abb161f8f4b75079f31a72403"
+    },
+    {
+      "id": "M091",
+      "path": "Blogs/paynalton/2014-02-13--el-cuarto-poder--7239236964546787905.md",
+      "title": "El Cuarto Poder",
+      "category": "criticas",
+      "category_label": "Críticas y ensayos de opinión",
+      "subtype": "Propuesta política",
+      "secondary_tags": [],
+      "rationale": "Plantea un cuarto poder como contrapeso ciudadano.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://paynalton.blogspot.com/2014/02/el-cuarto-poder.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "0f067fff7890c1f885a2793d02ad1adfefc3e63192763d019bf33fabd35429ea",
+      "editorial": {
+        "id": "M091",
+        "category": "criticas",
+        "tags": [
+          "critica",
+          "propuesta-politica",
+          "democracia",
+          "poder"
+        ]
+      },
+      "original_sha256": "2a6a599cd3f2ce1863c26f3e74261b5343fe5f2a7e4ad82eecac153fef0e299c",
+      "body_sha256": "d03b1aa27aa9195a65610932d4f5932365cfefea4970ad3f0d9909ffc24b490a"
+    },
+    {
+      "id": "M092",
+      "path": "Blogs/paynalton/2014-02-20--dama-de-suenos--4790071953865734688.md",
+      "title": "Dama de sueños",
+      "category": "poesia",
+      "category_label": "Poesía y prosa poética",
+      "subtype": "Prosa poética onírica",
+      "secondary_tags": [],
+      "rationale": "Apelación a una amada que solo existe en sueños.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://paynalton.blogspot.com/2014/02/dama-de-suenos.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "2d036edda128e843d9725d4b222c21eabe70fa287b41efeb72f38bb8cf6ed056",
+      "editorial": {
+        "id": "M092",
+        "category": "poesia",
+        "tags": [
+          "poesia",
+          "prosa-poetica",
+          "amor",
+          "suenos",
+          "ausencia"
+        ]
+      },
+      "original_sha256": "8b83646a28736c06a22a23fa1d64e86522645c05e15e98ab5a72279620f50577",
+      "body_sha256": "3a8b83dbc6a8e8cdfd331e81d4d1a3a0c5ea247aa85e2d777fbcd974b1bf2626"
+    },
+    {
+      "id": "M093",
+      "path": "Blogs/paynalton/2014-02-25--control-de-armas--7987823643252500143.md",
+      "title": "Control de armas",
+      "category": "criticas",
+      "category_label": "Críticas y ensayos de opinión",
+      "subtype": "Crítica de política pública",
+      "secondary_tags": [],
+      "rationale": "Expone una postura sobre campañas de desarme y mercados de armas.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://paynalton.blogspot.com/2014/02/control-de-armas.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "487453fe18a11a23a9d8e0594f41318c9e7f17cc15dfe54d6760fb337a943893",
+      "editorial": {
+        "id": "M093",
+        "category": "criticas",
+        "tags": [
+          "critica",
+          "critica-politica",
+          "armas",
+          "violencia"
+        ]
+      },
+      "original_sha256": "c27bf7e5e03f2c5ed8db767bd051ba2897ed56eb141ff01c7f8e2ceb8ebc2e1a",
+      "body_sha256": "5aa75a41b091bc10f3e302573b6d65eb4a2f8e2ea8f3b5113f4a0836150635a7"
+    },
+    {
+      "id": "M094",
+      "path": "Blogs/paynalton/2014-02-25--volver-casa--1342041541109238534.md",
+      "title": "Volver a casa",
+      "category": "poesia",
+      "category_label": "Poesía y prosa poética",
+      "subtype": "Prosa poética",
+      "secondary_tags": [],
+      "rationale": "Retorno, renuncia y olvido expresados mediante imágenes del vuelo y la eternidad.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://paynalton.blogspot.com/2014/02/volver-casa.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "6b06290e29d833c025b96b1c236bbe571fe3504b54e3ecf037304927a556d934",
+      "editorial": {
+        "id": "M094",
+        "category": "poesia",
+        "tags": [
+          "poesia",
+          "prosa-poetica",
+          "despedida",
+          "memoria"
+        ]
+      },
+      "original_sha256": "12c93d81e7556f967b33942320bd78c35a2120e56596a8377fa6d975c2efd2d2",
+      "body_sha256": "b5245fd0d0af854c9f57040e6b80c6ccb748c395c95abf49aead1e3d9d5b1592"
+    },
+    {
+      "id": "M095",
+      "path": "Blogs/paynalton/2014-03-06--humildad--7661970008535997788.md",
+      "title": "Humildad",
+      "category": "personales",
+      "category_label": "Crónicas y notas personales",
+      "subtype": "Crónica personal con reflexión ética",
+      "secondary_tags": [
+        "ética"
+      ],
+      "rationale": "Encuentro en un autobús con un hombre que habla de su experiencia criando gallos.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://paynalton.blogspot.com/2014/03/humildad.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "65fa307e14c68100b709e38ca8ab2aff6c0b4e9572949dc801a773f6692aefc1",
+      "editorial": {
+        "id": "M095",
+        "category": "personales",
+        "tags": [
+          "texto-personal",
+          "cronica-personal",
+          "etica",
+          "prejuicios",
+          "empatia"
+        ]
+      },
+      "original_sha256": "bade60cf2e99f8151d1fb9ef68689d2bd91880ac54c67b9d79942621e658a304",
+      "body_sha256": "1d5e175f6c86dd0d796ba6bfed027a3e9b81f7566ad68210e0d381dd07595044"
+    },
+    {
+      "id": "M096",
+      "path": "Blogs/paynalton/2014-03-06--la-innovacion-cristiana--1445446998504513411.md",
+      "title": "La Innovación Cristiana",
+      "category": "reflexiones-filosoficas",
+      "category_label": "Reflexiones filosóficas",
+      "subtype": "Filosofía de la religión",
+      "secondary_tags": [
+        "crítica religiosa"
+      ],
+      "rationale": "Propone una interpretación de los rituales y del vínculo entre humanos y deidades; también contiene crítica religiosa.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://paynalton.blogspot.com/2016/03/la-innovacion-cristiana.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "4f20e696c62a5850bbec48b51f558516591cced46ea62e5478428ec196fd4051",
+      "editorial": {
+        "id": "M096",
+        "category": "reflexiones-filosoficas",
+        "tags": [
+          "reflexion-filosofica",
+          "filosofia-de-la-religion",
+          "religion",
+          "poder"
+        ]
+      },
+      "original_sha256": "ef894fe6e21825c05d889cc06a0ecc6437de99eeae40cafdcf973d7fe32e6c98",
+      "body_sha256": "6a7c6bcde4dc4f6961d953f9d839ed286adcfb8734aff70daa429ae1460c9a90"
+    },
+    {
+      "id": "M097",
+      "path": "Blogs/paynalton/2014-03-20--partida--2241837381604467912.md",
+      "title": "Partida",
+      "category": "poesia",
+      "category_label": "Poesía y prosa poética",
+      "subtype": "Prosa poética",
+      "secondary_tags": [],
+      "rationale": "Despedida y desmembramiento metafórico de la voluntad de partir.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://paynalton.blogspot.com/2015/03/partida.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "9521d3a1b5d7c7480f041d18ac16ce8d01393e916039dbce1f424467ddb952d3",
+      "editorial": {
+        "id": "M097",
+        "category": "poesia",
+        "tags": [
+          "poesia",
+          "prosa-poetica",
+          "despedida",
+          "desamor"
+        ]
+      },
+      "original_sha256": "3c47d985a6a468b98d749aa5a9e4584a821b0805cf0879fb7cb97551624973d1",
+      "body_sha256": "ee1aadf1b26f31f68245b9587602851d21247c475ea5d5796b0ab1c4a056edfc"
+    },
+    {
+      "id": "M098",
+      "path": "Blogs/paynalton/2014-03-24--los-juegos-del-salario--7225880186457115150.md",
+      "title": "Los Juegos del Salario",
+      "category": "criticas",
+      "category_label": "Críticas y ensayos de opinión",
+      "subtype": "Opinión sobre trabajo",
+      "secondary_tags": [],
+      "rationale": "Motivación laboral, productividad y propuesta de aplicación en una empresa.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://paynalton.blogspot.com/2014/03/los-juegos-del-salario.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "9a1259d4819575f98c76e436c37b0586ba1905158ceaa467aabed71d1d07b761",
+      "editorial": {
+        "id": "M098",
+        "category": "criticas",
+        "tags": [
+          "critica",
+          "opinion-profesional",
+          "trabajo",
+          "motivacion"
+        ]
+      },
+      "original_sha256": "04b03a5310b0db1825ca274da6b464d1c53369f281df815d4cc7b7c0bc946c0f",
+      "body_sha256": "b5b6fa44a8605147d133b5689516ba18f0295cee907dfec12801d7c1118bd8b2"
+    },
+    {
+      "id": "M099",
+      "path": "Blogs/paynalton/2014-03-30--perdidos--3749048367582942629.md",
+      "title": "Perdidos",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Microrrelato alegórico",
+      "secondary_tags": [],
+      "rationale": "Criaturas extraviadas de la eternidad; forma narrativa breve con lectura existencial.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://paynalton.blogspot.com/2014/03/perdidos.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "3206863f49275e02613ab04c031d82a44e6bbde18d82b77e4a49823dd6bd4151",
+      "editorial": {
+        "id": "M099",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "microrrelato",
+          "alegoria",
+          "identidad",
+          "eternidad"
+        ]
+      },
+      "original_sha256": "81eb5d6bde6debbf55f7f5a8641d7f28990a7654ffd6b0a04a4b2cffaf255941",
+      "body_sha256": "936a03a3393fc546703b6174a389d5aca5a0d9be0aa80345e6d08dd94e58f8db"
+    },
+    {
+      "id": "M100",
+      "path": "Blogs/paynalton/2014-04-08--mmorpg-opensource--2648113352557126814.md",
+      "title": "MMORPG Opensource",
+      "category": "tecnicos",
+      "category_label": "Textos técnicos",
+      "subtype": "Propuesta de arquitectura",
+      "secondary_tags": [],
+      "rationale": "Esboza interoperabilidad entre clientes y servidores de juegos de rol.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://paynalton.blogspot.com/2014/04/mmorpg-opensource.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "6095ec0b6992097ed1fad5613882e6d0ceb153d858adcceb9eaec91c971d02d3",
+      "editorial": {
+        "id": "M100",
+        "category": "tecnicos",
+        "tags": [
+          "texto-tecnico",
+          "propuesta-tecnica",
+          "videojuegos",
+          "interoperabilidad",
+          "software-libre"
+        ]
+      },
+      "original_sha256": "b65c35bdf336aa7b86206c90a47492863059051c2d11e7261bd84f615b6fd545",
+      "body_sha256": "54e62a1ee0d2bdfea83dfd086e7ef1419c3af622700f6dd278ed5b2fcf08d30e"
+    },
+    {
+      "id": "M101",
+      "path": "Blogs/paynalton/2018-07-14--el-traje-nuevo-del-millenial--6152454262749151926.md",
+      "title": "El traje nuevo del millenial",
+      "category": "criticas",
+      "category_label": "Críticas y ensayos de opinión",
+      "subtype": "Crítica sociotecnológica",
+      "secondary_tags": [
+        "tecnología",
+        "adaptación literaria"
+      ],
+      "rationale": "Usa una adaptación de Andersen como entrada a una crítica de las burbujas creadas por algoritmos.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://paynalton.blogspot.com/2018/07/el-traje-nuevo-del-millenial.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "0602efd637b7704114476c4b8dbb61edb5d990f4d1d3eccb372a538e15d21dbe",
+      "editorial": {
+        "id": "M101",
+        "category": "criticas",
+        "tags": [
+          "critica",
+          "critica-social",
+          "tecnologia",
+          "algoritmos",
+          "redes-sociales"
+        ]
+      },
+      "original_sha256": "a9ab0b8a495fc9319d0fa54ad54d596d29374b87624f8d2599d935c92a18292a",
+      "body_sha256": "e257ac3908b9061397e299acb6a84ab2ac73a0f14ba3319ffdb60311904e467b"
+    },
+    {
+      "id": "M102",
+      "path": "Blogs/paynalton/2018-07-24--el-origen-del-mal--6059735354951579001.md",
+      "title": "El origen del mal",
+      "category": "criticas",
+      "category_label": "Críticas y ensayos de opinión",
+      "subtype": "Crítica social y política",
+      "secondary_tags": [],
+      "rationale": "Argumenta sobre dependencia de ayudas, pensiones y responsabilidad institucional.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://paynalton.blogspot.com/2018/07/el-origen-del-mal.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "35d709be6ece05b3b357b316c41a6c985fe3fcf2f7939971c42fa96fd80bbf37",
+      "editorial": {
+        "id": "M102",
+        "category": "criticas",
+        "tags": [
+          "critica",
+          "critica-politica",
+          "vejez",
+          "pensiones",
+          "dependencia"
+        ]
+      },
+      "original_sha256": "6f7390b3ef73ecb5ab6e52706d4ab295c03b7bdc7dacd79868cb9f1ad3fb2206",
+      "body_sha256": "6ffcd443d3db1811491f2b5a7f52d14b8f582f2e58815937f424a88a201ed322"
+    },
+    {
+      "id": "M103",
+      "path": "Blogs/paynalton/2018-09-29--trabajo-colaborativo-vs-jerarquico--5819169407465514208.md",
+      "title": "Trabajo colaborativo vs jerárquico",
+      "category": "criticas",
+      "category_label": "Críticas y ensayos de opinión",
+      "subtype": "Ensayo de opinión profesional",
+      "secondary_tags": [
+        "gestión de proyectos"
+      ],
+      "rationale": "Compara formas de organización del trabajo desde una experiencia personal; sin estructura de investigación académica.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://paynalton.blogspot.com/2018/09/trabajo-colaborativo-vs-jerarquico.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "09cb58ea015b17f903f42fe24660cb5733bcda21ebb2d6ede2cb0c2adf96e140",
+      "editorial": {
+        "id": "M103",
+        "category": "criticas",
+        "tags": [
+          "critica",
+          "opinion-profesional",
+          "trabajo",
+          "colaboracion",
+          "jerarquia"
+        ]
+      },
+      "original_sha256": "527d02f016566018a2ed33bb162187a753c4d3a7ecdcf165de2d72c8ac7b177e",
+      "body_sha256": "8618b8bb3710590b210145c9b7a8a9af57d2d2478fab7df3646ad73e427ad632"
+    },
+    {
+      "id": "M104",
+      "path": "Blogs/paynalton/2018-11-17--la-carta--4345546346822822956.md",
+      "title": "La Carta",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Ciencia ficción / arqueología",
+      "secondary_tags": [],
+      "rationale": "Una excavación y una carta desencadenan una revelación narrativa.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://paynalton.blogspot.com/2018/11/la-carta.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "9ded67cf36680da274a998732f5365a75ede7accd32d92d9f3792b3b4227dd33",
+      "editorial": {
+        "id": "M104",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "ciencia-ficcion",
+          "arqueologia",
+          "memoria"
+        ]
+      },
+      "original_sha256": "00a99728baa283d9d1345584d7792dad1d2a41efb7cc43859fb7e2be04b795f5",
+      "body_sha256": "18fabdf1008e1173e44f3769b019917a7e08437d09e999499ac21fbda2d74978"
+    },
+    {
+      "id": "M105",
+      "path": "Blogs/paynalton/2018-11-29--el-poder-magisterial--3799285033160500518.md",
+      "title": "El poder magisterial",
+      "category": "criticas",
+      "category_label": "Críticas y ensayos de opinión",
+      "subtype": "Propuesta política",
+      "secondary_tags": [],
+      "rationale": "Propone consejos de expertos para orientar decisiones públicas y participar en procesos judiciales.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://paynalton.blogspot.com/2018/11/el-poder-magisterial.html",
+      "source_authors": [
+        "Paynalton"
+      ],
+      "sha256": "14152dcc20f245929cd7d3989057d8a0ca800b27dd95bec918caa22267e910b8",
+      "editorial": {
+        "id": "M105",
+        "category": "criticas",
+        "tags": [
+          "critica",
+          "propuesta-politica",
+          "democracia",
+          "conocimiento",
+          "poder"
+        ]
+      },
+      "original_sha256": "21d0b37eb56727c783a03b60ede4471465ab930f84f7bcd3d081fe3c11cdf36e",
+      "body_sha256": "9e816e5d78c2bafee9889f410e6b7cd0a780c87e7598567395fe9cdc9473ba75"
+    },
+    {
+      "id": "M106",
+      "path": "Blogs/paynalton/INDICE.md",
+      "title": "INDICE",
+      "category": "documentacion",
+      "category_label": "Documentación y respaldos",
+      "subtype": "Índice o documentación",
+      "secondary_tags": [],
+      "rationale": "Organiza fuentes y materiales; no es una obra independiente.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": null,
+      "source_authors": [],
+      "sha256": "d5caa369bd8039f10f0789cddde9727d74b3f8c359124822511e53ac8e1ffd7e",
+      "editorial": {
+        "id": "M106",
+        "category": "documentacion",
+        "tags": [
+          "documentacion",
+          "inventario"
+        ]
+      },
+      "original_sha256": "208d60def345a4c3a970a31ef0b1754470186abf6bc48f963aa763672bb3c623",
+      "body_sha256": "d2f24cc4e31b9932adc9271880721d7ec3ba81c6c12cbea3ec6157ae9951fff5"
+    },
+    {
+      "id": "M107",
+      "path": "Cuentos/Despertar.md",
+      "title": "Despertar",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Microrrelato lírico",
+      "secondary_tags": [
+        "prosa poética"
+      ],
+      "rationale": "Despertar, evocación de la pareja y contraste entre presencia imaginada y ausencia.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": null,
+      "source_authors": [],
+      "sha256": "eb5ef0cabbc5f6a274b83f936f9f62a99b446bb1674af35d3509d72a09d4089e",
+      "editorial": {
+        "id": "M107",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "microrrelato",
+          "prosa-poetica",
+          "amor",
+          "ausencia",
+          "suenos"
+        ]
+      },
+      "original_sha256": "32516935b93be825cfcc31d37211c8168b4b2bc4e1b209d4c0d605ec0c7ec028",
+      "body_sha256": "32516935b93be825cfcc31d37211c8168b4b2bc4e1b209d4c0d605ec0c7ec028"
+    },
+    {
+      "id": "M108",
+      "path": "Cuentos/Documento sin título(1).md",
+      "title": "11 de Junio",
+      "category": "poesia",
+      "category_label": "Poesía y prosa poética",
+      "subtype": "Prosa poética testimonial",
+      "secondary_tags": [],
+      "rationale": "El título dentro del documento es 11 de Junio, aunque el archivo se llama Documento sin título(1).",
+      "classification_status": "clasificado",
+      "version_group": "V04",
+      "source_url": null,
+      "source_authors": [],
+      "sha256": "fc372724e158b9156ee1164aa28664827205e6d0da4a608fd74fa95316cc5b78",
+      "editorial": {
+        "id": "M108",
+        "category": "poesia",
+        "tags": [
+          "poesia",
+          "prosa-poetica",
+          "amor",
+          "desamor",
+          "memoria"
+        ],
+        "version_group": "V04"
+      },
+      "original_sha256": "8fb4d16e48794b52cef50cb8f383ba3c1e89ca88fc1f676e54706a130f69ae5f",
+      "body_sha256": "8fb4d16e48794b52cef50cb8f383ba3c1e89ca88fc1f676e54706a130f69ae5f"
+    },
+    {
+      "id": "M109",
+      "path": "Cuentos/Documento sin título.md",
+      "title": "Capitalismo vs Dinerismo",
+      "category": "criticas",
+      "category_label": "Críticas y ensayos de opinión",
+      "subtype": "Crítica económica / borrador",
+      "secondary_tags": [],
+      "rationale": "El título interior es Capitalismo vs Dinerismo. Termina en el encabezado La opulencia en la edad antigua, sin desarrollar esa sección.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": null,
+      "source_authors": [],
+      "sha256": "ce335a9d85a5089591db78710a916f8183e2d5f4afc02f23b0fce1d9c64581f7",
+      "editorial": {
+        "id": "M109",
+        "category": "criticas",
+        "tags": [
+          "critica",
+          "opinion-economica",
+          "dinero",
+          "exito",
+          "desigualdad"
+        ],
+        "text_status": "manuscrito-parcial"
+      },
+      "original_sha256": "d7a9816fcba009253b5314f83674ae3ad504abf9d4590466fc84f4cbd085e9e5",
+      "body_sha256": "d7a9816fcba009253b5314f83674ae3ad504abf9d4590466fc84f4cbd085e9e5"
+    },
+    {
+      "id": "M110",
+      "path": "Cuentos/El Estupor Mexicano.md",
+      "title": "El estupor Mexicano",
+      "category": "criticas",
+      "category_label": "Críticas y ensayos de opinión",
+      "subtype": "Crítica social",
+      "secondary_tags": [],
+      "rationale": "Versión local de El estupor Mexicano; no es un cuento pese a su carpeta.",
+      "classification_status": "clasificado",
+      "version_group": "V05",
+      "source_url": null,
+      "source_authors": [],
+      "sha256": "71266650d997a4010ec2fe5efe16a98e24fd40fb26bd3131a637d439badcc94a",
+      "editorial": {
+        "id": "M110",
+        "category": "criticas",
+        "tags": [
+          "critica",
+          "critica-social",
+          "mexico",
+          "progreso",
+          "imaginacion"
+        ],
+        "version_group": "V05"
+      },
+      "original_sha256": "8b849de1dcce02515f5a17e9b392fd639f57474628a966d4f125b24f9c29ff08",
+      "body_sha256": "8b849de1dcce02515f5a17e9b392fd639f57474628a966d4f125b24f9c29ff08"
+    },
+    {
+      "id": "M111",
+      "path": "Cuentos/El Jardín_.md",
+      "title": "El Jardín",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Cuento lírico",
+      "secondary_tags": [],
+      "rationale": "Versión local de El Jardín.",
+      "classification_status": "clasificado",
+      "version_group": "V07",
+      "source_url": null,
+      "source_authors": [],
+      "sha256": "b975638ea8c4a0ee5565a02f289042d2ac509cd6779241e66549c9128cfabdc3",
+      "editorial": {
+        "id": "M111",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "prosa-poetica",
+          "vejez",
+          "amor",
+          "memoria",
+          "muerte"
+        ],
+        "version_group": "V07"
+      },
+      "original_sha256": "d20d74fd86f72a3920ae3935390800ccc2d3e9982ea3914b0b64df0257b3e223",
+      "body_sha256": "d20d74fd86f72a3920ae3935390800ccc2d3e9982ea3914b0b64df0257b3e223"
+    },
+    {
+      "id": "M112",
+      "path": "Cuentos/El dios en que Yo Creo.md",
+      "title": "El dios en que Yo Creo",
+      "category": "reflexiones-filosoficas",
+      "category_label": "Reflexiones filosóficas",
+      "subtype": "Ensayo filosófico / manuscrito parcial",
+      "secondary_tags": [],
+      "rationale": "Cosmogonía personal sobre fe, verdad, necesidades y existencia. Anuncia capítulos posteriores que no están en este archivo.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": null,
+      "source_authors": [],
+      "sha256": "7dd752156e22beff9185fc103444ec7feb0ee7b5b8f207b2077ee133beac3706",
+      "editorial": {
+        "id": "M112",
+        "category": "reflexiones-filosoficas",
+        "tags": [
+          "reflexion-filosofica",
+          "filosofia-de-la-religion",
+          "religion",
+          "conocimiento",
+          "existencia"
+        ],
+        "text_status": "manuscrito-parcial"
+      },
+      "original_sha256": "5f7fb7f8d4f62015b092ab951321bb0a95ad252b34e24f228bcbc4b898a157c5",
+      "body_sha256": "5f7fb7f8d4f62015b092ab951321bb0a95ad252b34e24f228bcbc4b898a157c5"
+    },
+    {
+      "id": "M113",
+      "path": "Cuentos/Ella.md",
+      "title": "Decisión...",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Drama psicológico",
+      "secondary_tags": [],
+      "rationale": "El título interior es Decisión...; relato centrado en una decisión y sus consecuencias afectivas.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": null,
+      "source_authors": [],
+      "sha256": "9858935a6deefdf702c612085e00cd9fac7f106d29bd68064b57c3c80ea5f415",
+      "editorial": {
+        "id": "M113",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "drama",
+          "decisiones",
+          "relaciones-de-pareja"
+        ]
+      },
+      "original_sha256": "28bfe57f4fbdb1e4b67827ee680c76a07332e061579a72031b7530f8045dd221",
+      "body_sha256": "28bfe57f4fbdb1e4b67827ee680c76a07332e061579a72031b7530f8045dd221"
+    },
+    {
+      "id": "M114",
+      "path": "Cuentos/Evangelio del Gato Negro.md",
+      "title": "Evangelio del Gato Negro",
+      "category": "reflexiones-filosoficas",
+      "category_label": "Reflexiones filosóficas",
+      "subtype": "Reflexión teológica con marco narrativo",
+      "secondary_tags": [
+        "ficción filosófica"
+      ],
+      "rationale": "Mensaje divino dramatizado y exposición de una cosmogonía humanista. Clasificación híbrida: también admite lectura como ficción filosófica.",
+      "classification_status": "provisional",
+      "version_group": null,
+      "source_url": null,
+      "source_authors": [],
+      "sha256": "e69b54f925432c139e8a5085514c8970ec31108edb72be1bb5d19d989c9bfe74",
+      "editorial": {
+        "id": "M114",
+        "category": "reflexiones-filosoficas",
+        "tags": [
+          "reflexion-filosofica",
+          "ficcion-filosofica",
+          "religion",
+          "humanidad",
+          "etica"
+        ],
+        "classification_status": "provisional"
+      },
+      "original_sha256": "2490e8862d397fda18a6d5d750a420caef98307813b8fd767584bd1ba3b50df3",
+      "body_sha256": "2490e8862d397fda18a6d5d750a420caef98307813b8fd767584bd1ba3b50df3"
+    },
+    {
+      "id": "M115",
+      "path": "Cuentos/HOWTO Novia.md",
+      "title": "HOWTO Novia",
+      "category": "humor",
+      "category_label": "Humor y sátira",
+      "subtype": "Parodia técnica",
+      "secondary_tags": [],
+      "rationale": "Versión local de HOWTO Novia; el lenguaje de software describe relaciones afectivas.",
+      "classification_status": "clasificado",
+      "version_group": "V06",
+      "source_url": null,
+      "source_authors": [],
+      "sha256": "35d6a3d747b952a99fc35d8870306197b8d44dc9a95727773446bcb2280778ca",
+      "editorial": {
+        "id": "M115",
+        "category": "humor",
+        "tags": [
+          "humor",
+          "parodia",
+          "relaciones-de-pareja",
+          "informatica"
+        ],
+        "version_group": "V06"
+      },
+      "original_sha256": "004397f13555a67a8af870c1c6550750632d6eac5794ac936f70249a9a86ccc4",
+      "body_sha256": "004397f13555a67a8af870c1c6550750632d6eac5794ac936f70249a9a86ccc4"
+    },
+    {
+      "id": "M116",
+      "path": "Cuentos/IMPROVISADO.md",
+      "title": "IMPROVISADO",
+      "category": "poesia",
+      "category_label": "Poesía y prosa poética",
+      "subtype": "Prosa poética",
+      "secondary_tags": [],
+      "rationale": "Una nota arrastrada por el viento enmarca el duelo amoroso.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": null,
+      "source_authors": [],
+      "sha256": "be8dd3b942bee7cffc247697705f85becf543a08c92c18f68c9b333e99f261c8",
+      "editorial": {
+        "id": "M116",
+        "category": "poesia",
+        "tags": [
+          "poesia",
+          "prosa-poetica",
+          "desamor",
+          "memoria"
+        ]
+      },
+      "original_sha256": "4b43107f1ef9be7fd826b987255a698c0bda2280eb4a4107175daf58f2cda568",
+      "body_sha256": "4b43107f1ef9be7fd826b987255a698c0bda2280eb4a4107175daf58f2cda568"
+    },
+    {
+      "id": "M117",
+      "path": "Cuentos/La Bestia de Metal.md",
+      "title": "La Bestia de Metal",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Microrrelato lírico",
+      "secondary_tags": [
+        "prosa poética"
+      ],
+      "rationale": "Versión local de La Bestia de Metal.",
+      "classification_status": "clasificado",
+      "version_group": "V02",
+      "source_url": null,
+      "source_authors": [],
+      "sha256": "78c4fb43a72617b8c98fe2a2f0a8f3554280b22131dbee7a54228a428a64b4c5",
+      "editorial": {
+        "id": "M117",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "microrrelato",
+          "prosa-poetica",
+          "amor",
+          "separacion",
+          "viaje"
+        ],
+        "version_group": "V02"
+      },
+      "original_sha256": "d54babbb17230d2e15c7d44f0cad7d2fc5bb1d3edb0e96a6bf0880e0c4e0b2ce",
+      "body_sha256": "d54babbb17230d2e15c7d44f0cad7d2fc5bb1d3edb0e96a6bf0880e0c4e0b2ce"
+    },
+    {
+      "id": "M118",
+      "path": "Cuentos/Susurros en la Oscuridad.md",
+      "title": "Susurros en la Oscuridad",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Fantasía histórica / crítica social",
+      "secondary_tags": [
+        "crítica social"
+      ],
+      "rationale": "Una habitación y sus objetos recuerdan la Revolución mexicana; la reflexión social se articula como cuento.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": null,
+      "source_authors": [],
+      "sha256": "e7f22e2487e9147116cf9928479678e979be6800515dc5696b22830eaa2378d4",
+      "editorial": {
+        "id": "M118",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "fantasia",
+          "memoria-historica",
+          "mexico",
+          "justicia"
+        ]
+      },
+      "original_sha256": "5d060b6ab56fba3c14280d64dc15bd9249bc457e57026cb61ebbc0d868163f6b",
+      "body_sha256": "5d060b6ab56fba3c14280d64dc15bd9249bc457e57026cb61ebbc0d868163f6b"
+    },
+    {
+      "id": "M119",
+      "path": "Cuentos/a donde van las hojas de verano cuand.._.md",
+      "title": "Hojas Secas",
+      "category": "poesia",
+      "category_label": "Poesía y prosa poética",
+      "subtype": "Prosa poética",
+      "secondary_tags": [],
+      "rationale": "El título interior es Hojas Secas; otra versión de la entrada del blog.",
+      "classification_status": "clasificado",
+      "version_group": "V03",
+      "source_url": null,
+      "source_authors": [],
+      "sha256": "866145f72e065a2dd56b9a96d8e52a0d8b2ca9690fad8a605e9e52942ad8103e",
+      "editorial": {
+        "id": "M119",
+        "category": "poesia",
+        "tags": [
+          "poesia",
+          "prosa-poetica",
+          "desamor",
+          "soledad",
+          "naturaleza"
+        ],
+        "version_group": "V03"
+      },
+      "original_sha256": "1dd728652978decfcad960800472bbb0c00e028b90f50b00104d92f9b9cc1596",
+      "body_sha256": "1dd728652978decfcad960800472bbb0c00e028b90f50b00104d92f9b9cc1596"
+    },
+    {
+      "id": "M120",
+      "path": "Cuentos/ninyo.md",
+      "title": "Mamá",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Drama social",
+      "secondary_tags": [],
+      "rationale": "El título interior es Mamá; versión local del cuento publicado en Cuentos de Sangre y Muerte.",
+      "classification_status": "clasificado",
+      "version_group": "V01",
+      "source_url": null,
+      "source_authors": [],
+      "sha256": "5f5851aff6994b034978e1d5d4e4c41ebe3c5b90957a9591cda7a0f152688c85",
+      "editorial": {
+        "id": "M120",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "drama-social",
+          "infancia",
+          "familia",
+          "violencia"
+        ],
+        "version_group": "V01"
+      },
+      "original_sha256": "3fada113192606e347abf80085da9b142a0d6856dfc619d35d99aadbcf2aa223",
+      "body_sha256": "3fada113192606e347abf80085da9b142a0d6856dfc619d35d99aadbcf2aa223"
+    },
+    {
+      "id": "M122",
+      "path": "Enfermera.md",
+      "title": "Enfermera",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Terror sobrenatural",
+      "secondary_tags": [],
+      "rationale": "Una enfermera recorre un hospital transformado; estructura circular y presencia fantasmal.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": null,
+      "source_authors": [],
+      "sha256": "926e43ef5f615389f10e32612d492035b333f587ff405b6805df2f41e57281a8",
+      "editorial": {
+        "id": "M122",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "terror",
+          "sobrenatural",
+          "tiempo"
+        ]
+      },
+      "original_sha256": "03d3877a8c9b510740ad144149cdcf2940c4d10817f6e14e7b2e28876220359b",
+      "body_sha256": "03d3877a8c9b510740ad144149cdcf2940c4d10817f6e14e7b2e28876220359b"
+    },
+    {
+      "id": "M123",
+      "path": "Especialista en latam.md",
+      "title": "Especialista en latam",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Ciencia ficción humorística / LATAM",
+      "secondary_tags": [],
+      "rationale": "Un experto alienígena enseña a su aprendiz cómo acceder al especialista humano capaz de resolver lo imposible.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": null,
+      "source_authors": [],
+      "sha256": "84c117c485407fa1653f218943e295a99231141a75afbf75f4ec5461fa58cf28",
+      "editorial": {
+        "id": "M123",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "ciencia-ficcion",
+          "humor",
+          "ingenio",
+          "choque-cultural"
+        ],
+        "series": "latam"
+      },
+      "original_sha256": "d1e83968819a00d59bd253b455fc231ee5a47a0fd84e1dd4970d21fa7efb7550",
+      "body_sha256": "d1e83968819a00d59bd253b455fc231ee5a47a0fd84e1dd4970d21fa7efb7550"
+    },
+    {
+      "id": "M124",
+      "path": "La Partera.md",
+      "title": "La Partera",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Ciencia ficción humorística / LATAM",
+      "secondary_tags": [],
+      "rationale": "Una partera humana atiende un nacimiento alienígena; relato con epílogo.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": null,
+      "source_authors": [],
+      "sha256": "cd96fc4555efdd7f5a0c10e8ba07fd5f5edddc26d56e9f2dbd95a251cc83f14f",
+      "editorial": {
+        "id": "M124",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "ciencia-ficcion",
+          "humor",
+          "familia",
+          "solidaridad",
+          "choque-cultural"
+        ],
+        "series": "latam"
+      },
+      "original_sha256": "fd984a1c921612dc38c306b614ed9f9e18330d42e82b8291a1fb8fe8eefe8950",
+      "body_sha256": "fd984a1c921612dc38c306b614ed9f9e18330d42e82b8291a1fb8fe8eefe8950"
+    },
+    {
+      "id": "M125",
+      "path": "Reddit/2025-08-12--se-estan-comiendo-que--1moegwq.md",
+      "title": "¿Se están comiendo qué?",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Ciencia ficción humorística / LATAM",
+      "secondary_tags": [],
+      "rationale": "El problema de un hongo planetario se transforma mediante hábitos culinarios humanos.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://www.reddit.com/r/UniversoISH/comments/1moegwq/se_están_comiendo_qué/",
+      "source_authors": [
+        "paynalton3"
+      ],
+      "sha256": "1ef40259e1ff88e5615ac5691af83a73b9de3c03a9e91947623f4e7571eec8b8",
+      "editorial": {
+        "id": "M125",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "ciencia-ficcion",
+          "humor",
+          "gastronomia",
+          "supervivencia"
+        ],
+        "series": "latam"
+      },
+      "original_sha256": "3502299c99ccb9cdd079f37dcd0d685bf399ab73b7c30067fe9c13149f8d49b2",
+      "body_sha256": "15bc1ef758e4998fc10829db012428dedb2772d598e630a709e79d208ca9e56d"
+    },
+    {
+      "id": "M126",
+      "path": "Reddit/2025-08-13--debate-para-incidente-io-8c9beaf3b0-e--1mphglq.md",
+      "title": "Debate para incidente IO-8C9BEAF3B0-E",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Ciencia ficción / diálogo",
+      "secondary_tags": [
+        "transcripción ficticia"
+      ],
+      "rationale": "Debate entre unidades artificiales presentado como transcripción ficticia; no es texto académico.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://www.reddit.com/r/UniversoISH/comments/1mphglq/debate_para_incidente_io8c9beaf3b0e/",
+      "source_authors": [
+        "paynalton3"
+      ],
+      "sha256": "99295bf487c23d5ffb3a2387797c48c8d5e8d1a28edd59a9f9bacab78dcc8690",
+      "editorial": {
+        "id": "M126",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "ciencia-ficcion",
+          "inteligencia-artificial",
+          "trabajo",
+          "coexistencia"
+        ]
+      },
+      "original_sha256": "8a8c3d552d837475d8aa2b7416aeaaca8ea1506ead1032929073ee82ff2be008",
+      "body_sha256": "38fa9a871ecc565bf3d5ae622da802bc0bda80a49ce959e064350136a5a23a68"
+    },
+    {
+      "id": "M127",
+      "path": "Reddit/2025-08-18--barbacoa-de-uma-estilo-culiacan--1mtstzt.md",
+      "title": "Barbacoa de UMA estilo Culiacán",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Ciencia ficción humorística / LATAM",
+      "secondary_tags": [],
+      "rationale": "Relato de derrota militar alienígena vinculado al origen de una barbacoa.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://www.reddit.com/r/UniversoISH/comments/1mtstzt/barbacoa_de_uma_estilo_culiacán/",
+      "source_authors": [
+        "paynalton3"
+      ],
+      "sha256": "3f5f47a6a8ff3c8311f76b8336c51bbcf3db6b3ba39a592ad19282ff3506326d",
+      "editorial": {
+        "id": "M127",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "ciencia-ficcion",
+          "humor",
+          "guerra",
+          "gastronomia"
+        ],
+        "series": "latam"
+      },
+      "original_sha256": "00bf7ee949b23d72c466401e1261dc6ce0e2bfea2104b30d7176fbf6d9c0981c",
+      "body_sha256": "ef8ec01f485a2baee40a4c81696aa525d37e4f3ddbfc786a8aaacd56048e307b"
+    },
+    {
+      "id": "M128",
+      "path": "Reddit/2025-08-26--mi-primera-chamba-galactica--1n0to1u.md",
+      "title": "Mi Primera Chamba Galáctica",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Ciencia ficción humorística",
+      "secondary_tags": [],
+      "rationale": "Primer contacto diplomático contado como conversación.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://www.reddit.com/r/UniversoISH/comments/1n0to1u/mi_primera_chamba_galáctica/",
+      "source_authors": [
+        "paynalton3"
+      ],
+      "sha256": "22c37c630966024786cab79bacbb0f0291e3c891b846a593b750969ab767bff2",
+      "editorial": {
+        "id": "M128",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "ciencia-ficcion",
+          "humor",
+          "primer-contacto",
+          "diplomacia"
+        ]
+      },
+      "original_sha256": "7945719b3131c5244a54ed325b82897be33039a4125ce2f4caf5baac9db02168",
+      "body_sha256": "1bcc9f6a47b57cae391a9ef28c11b652bc9144a8fb092b76c1697d03c1f48592"
+    },
+    {
+      "id": "M129",
+      "path": "Reddit/2025-09-01--porque-los-brancianos-le-temen-a-las-pinatas--1n5wf2m.md",
+      "title": "¿Porqué los Brancianos le temen a las piñatas?",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Ciencia ficción humorística / LATAM",
+      "secondary_tags": [],
+      "rationale": "Costumbres humanas y piñatas frente a una civilización alienígena.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://www.reddit.com/r/UniversoISH/comments/1n5wf2m/porqué_los_brancianos_le_temen_a_las_piñatas/",
+      "source_authors": [
+        "paynalton3"
+      ],
+      "sha256": "c11cef5b81bb67ece033fc882b2fc56590d74c4732894aeb373736445bfecfda",
+      "editorial": {
+        "id": "M129",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "ciencia-ficcion",
+          "humor",
+          "choque-cultural",
+          "tradiciones"
+        ],
+        "series": "latam"
+      },
+      "original_sha256": "e4fb4cdd272ab3136c39817aff821b07675cc2cb057bce4f5f678fec3c1a70ef",
+      "body_sha256": "2316fc1075869f76a67efe6e3ac8aa33c98751866597288a9b4e877dec58d196"
+    },
+    {
+      "id": "M130",
+      "path": "Reddit/2025-09-14--mariachis-de-bolsillo--1ngjr50.md",
+      "title": "Mariachis de bolsillo",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Ciencia ficción / entrevista ficticia",
+      "secondary_tags": [
+        "entrevista ficticia"
+      ],
+      "rationale": "Programa cultural sobre música humana e influencia galáctica.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://www.reddit.com/r/UniversoISH/comments/1ngjr50/mariachis_de_bolsillo/",
+      "source_authors": [
+        "paynalton3"
+      ],
+      "sha256": "0451148ee62c22e1e5e107a729693fe27a90271ae942372cf8a531fafd0ce862",
+      "editorial": {
+        "id": "M130",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "ciencia-ficcion",
+          "musica",
+          "choque-cultural"
+        ]
+      },
+      "original_sha256": "3a4a25272289fbb9fd534210f0e4e86140ff565ef44f5f7d39b085bd3db9c905",
+      "body_sha256": "c147e3ccbf4244fcde7faa6ca6ebbcd5093df97008fea69c56cec36106adf677"
+    },
+    {
+      "id": "M131",
+      "path": "Reddit/2025-10-01--sayula-iii--1nvn38o.md",
+      "title": "Sayula III",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Ciencia ficción humorística",
+      "secondary_tags": [],
+      "rationale": "Carrera galáctica y motivaciones culturales de distintas especies.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://www.reddit.com/r/UniversoISH/comments/1nvn38o/sayula_iii/",
+      "source_authors": [
+        "paynalton3"
+      ],
+      "sha256": "ba0f5bf4b13bf6274992d5510b9b48d88eb527f646228db80955b9ec7878bc80",
+      "editorial": {
+        "id": "M131",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "ciencia-ficcion",
+          "humor",
+          "competencia",
+          "choque-cultural"
+        ]
+      },
+      "original_sha256": "9250d22e540fd8eeb3da0697c591df810738ab6884626bb2c342ec51b0f03a0e",
+      "body_sha256": "1406c4dafc7f023daeaaecd7272c7a6f8b75b1b7bf9b7c09e8fa810fc41f73eb"
+    },
+    {
+      "id": "M132",
+      "path": "Reddit/2025-10-14--horda-latam--1o6r1d3.md",
+      "title": "Horda LATAM",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Ciencia ficción militar / LATAM",
+      "secondary_tags": [],
+      "rationale": "Versión publicada y ampliada del argumento conservado en latam.md.",
+      "classification_status": "clasificado",
+      "version_group": "V08",
+      "source_url": "https://www.reddit.com/r/UniversoISH/comments/1o6r1d3/horda_latam/",
+      "source_authors": [
+        "paynalton3"
+      ],
+      "sha256": "ca6d5fe976c6e136ec94c0a56182886c93262e678fd48751f7144e873e93515f",
+      "editorial": {
+        "id": "M132",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "ciencia-ficcion",
+          "guerra",
+          "ingenio",
+          "supervivencia"
+        ],
+        "version_group": "V08",
+        "series": "latam"
+      },
+      "original_sha256": "529ac1deed1323faeec02ad9befc51ab3f019df23bc48d25a5a66983fe06e392",
+      "body_sha256": "c193edf156b077c31fb17c71e078443c9726d03ee2116542c698128bc6a06158"
+    },
+    {
+      "id": "M133",
+      "path": "Reddit/2025-10-29--extraviado--1ojj4xu.md",
+      "title": "Extraviado",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Ciencia ficción",
+      "secondary_tags": [],
+      "rationale": "Soldado desfasado de la realidad y búsqueda de pertenencia.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://www.reddit.com/r/UniversoISH/comments/1ojj4xu/extraviado/",
+      "source_authors": [
+        "paynalton3"
+      ],
+      "sha256": "43009983b459b0a44b78408a0a9e30140e54b0cb0983f8cafad276cf3e34d71e",
+      "editorial": {
+        "id": "M133",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "ciencia-ficcion",
+          "guerra",
+          "identidad",
+          "pertenencia"
+        ]
+      },
+      "original_sha256": "764a06922f7e094e758856009a339729b19eae96c38f43843311230946ba1a88",
+      "body_sha256": "ae6b51c9f8445dcdef4a3982a871c3abe3b567d7824bc32f350986ee0c790754"
+    },
+    {
+      "id": "M134",
+      "path": "Reddit/2025-11-01--legado--1olcch7.md",
+      "title": "Legado",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Ciencia ficción",
+      "secondary_tags": [],
+      "rationale": "Una estatuilla y las artes sirven para explorar el legado de la humanidad.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://www.reddit.com/r/UniversoISH/comments/1olcch7/legado/",
+      "source_authors": [
+        "paynalton3"
+      ],
+      "sha256": "7dbaca7e3eb5909e209d72262cf32fd684bc8b1b5f09f7139ce1a853477f714e",
+      "editorial": {
+        "id": "M134",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "ciencia-ficcion",
+          "arte",
+          "legado",
+          "humanidad"
+        ]
+      },
+      "original_sha256": "fa5b12954ec66991a900d26e2caefd1fa471b08039f65767b614f90506b8b739",
+      "body_sha256": "501497636ecd958fe540a503d583f9f36fdd8f8bc2dd42cfddd637c1e4d0cdea"
+    },
+    {
+      "id": "M135",
+      "path": "Reddit/2026-07-11--ellos-marcaban-sus-cuerpos--1utbdw5.md",
+      "title": "Ellos marcaban sus cuerpos",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Ciencia ficción social",
+      "secondary_tags": [],
+      "rationale": "Testimonio ficticio de un Atlaxiano sobre estigmas, cuerpo e identidad.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": "https://www.reddit.com/r/UniversoISH/comments/1utbdw5/ellos_marcaban_sus_cuerpos/",
+      "source_authors": [
+        "paynalton3"
+      ],
+      "sha256": "dbcca45a8e7800451e8d33f044f8eba5a868cab0fa479e33e12f5d01816a6389",
+      "editorial": {
+        "id": "M135",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "ciencia-ficcion",
+          "discriminacion",
+          "identidad",
+          "cuerpo"
+        ]
+      },
+      "original_sha256": "254091aaefd91cf416e1ada6b8e6286ed020fa9eb39d7d805d5a0a4879aebae5",
+      "body_sha256": "dc36b204ed0731045741c4729c71476cd2a1d14536bc475695376dabedaca2c2"
+    },
+    {
+      "id": "M136",
+      "path": "Reddit/README.md",
+      "title": "README",
+      "category": "documentacion",
+      "category_label": "Documentación y respaldos",
+      "subtype": "Índice o documentación",
+      "secondary_tags": [],
+      "rationale": "Organiza fuentes y materiales; no es una obra independiente.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": null,
+      "source_authors": [],
+      "sha256": "4b2b94871b635aacdd6fb2878c3a38be0e75fc115a70e4eb4314b090517a1600",
+      "editorial": {
+        "id": "M136",
+        "category": "documentacion",
+        "tags": [
+          "documentacion",
+          "inventario"
+        ]
+      },
+      "original_sha256": "7a33f521e228a2ffe2d74b99b33524e52b93735efd740d96e292e8f72523a66b",
+      "body_sha256": "7a33f521e228a2ffe2d74b99b33524e52b93735efd740d96e292e8f72523a66b"
+    },
+    {
+      "id": "M137",
+      "path": "blogs.md",
+      "title": "blogs",
+      "category": "documentacion",
+      "category_label": "Documentación y respaldos",
+      "subtype": "Índice o documentación",
+      "secondary_tags": [],
+      "rationale": "Organiza fuentes y materiales; no es una obra independiente.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": null,
+      "source_authors": [],
+      "sha256": "6d8f951134dd6927adcf1e173ae756f8593f42046681c1cc095f3a190d1fccdd",
+      "editorial": {
+        "id": "M137",
+        "category": "documentacion",
+        "tags": [
+          "documentacion",
+          "inventario"
+        ]
+      },
+      "original_sha256": "910307ed2fd4f50bb1d3ea003881d9ee9a1d52b69b1781ba98c55f4418e54a0f",
+      "body_sha256": "910307ed2fd4f50bb1d3ea003881d9ee9a1d52b69b1781ba98c55f4418e54a0f"
+    },
+    {
+      "id": "M138",
+      "path": "chiles.md",
+      "title": "chiles",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Ciencia ficción humorística / LATAM",
+      "secondary_tags": [],
+      "rationale": "Un anuncio de contratación conduce al relato de un incidente con comida humana a bordo de una nave.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": null,
+      "source_authors": [],
+      "sha256": "261d77b0ba3284b3492cdc1de1eea6e3a4fd71a49cb7798466a9a14f5ffc59d6",
+      "editorial": {
+        "id": "M138",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "ciencia-ficcion",
+          "humor",
+          "gastronomia",
+          "choque-cultural"
+        ],
+        "series": "latam"
+      },
+      "original_sha256": "4ddc1daf6d492074d361e26993f2d524ca72ecce64f7370c3f74d91c612cd62d",
+      "body_sha256": "4ddc1daf6d492074d361e26993f2d524ca72ecce64f7370c3f74d91c612cd62d"
+    },
+    {
+      "id": "M139",
+      "path": "latam.md",
+      "title": "latam",
+      "category": "cuentos",
+      "category_label": "Cuentos y narrativa",
+      "subtype": "Ciencia ficción militar / LATAM",
+      "secondary_tags": [],
+      "rationale": "Versión local de Horda LATAM, con diferencias de redacción y extensión respecto de Reddit.",
+      "classification_status": "clasificado",
+      "version_group": "V08",
+      "source_url": null,
+      "source_authors": [],
+      "sha256": "a6d684b15bf5c38a5365ea6cefe6add0e8fdf6c987469d2b39ce49e5e7952035",
+      "editorial": {
+        "id": "M139",
+        "category": "cuentos",
+        "tags": [
+          "cuento",
+          "ciencia-ficcion",
+          "guerra",
+          "ingenio",
+          "supervivencia"
+        ],
+        "version_group": "V08",
+        "series": "latam"
+      },
+      "original_sha256": "efd253a29b526b65ab8954bfb9c86576ca1c9b07431b42f7d9c0400a3683ec11",
+      "body_sha256": "efd253a29b526b65ab8954bfb9c86576ca1c9b07431b42f7d9c0400a3683ec11"
+    },
+    {
+      "id": "M140",
+      "path": "Blogs/cuentosdesangreymuerte/fuente-blogger.json",
+      "title": "fuente-blogger.json",
+      "category": "documentacion",
+      "category_label": "Documentación y respaldos",
+      "subtype": "Respaldo de fuente",
+      "secondary_tags": [],
+      "rationale": "Respuesta de Blogger con contenido ya representado en los Markdown de este blog; no añade obras al recuento.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": null,
+      "source_authors": [],
+      "sha256": "079e8c276c0bc8578912a0b4e1a6e2097f64fef365f206646b3a1f0d8b5083a5",
+      "editorial": {
+        "id": "M140",
+        "category": "documentacion",
+        "tags": [
+          "documentacion",
+          "respaldo"
+        ]
+      },
+      "original_sha256": "8df458d4b9405a8e0cb03a7b8a12d05ff4d39372a45abcd08c77066f7fa6910e"
+    },
+    {
+      "id": "M141",
+      "path": "Blogs/drizzdlvapor/fuente-blogger.json",
+      "title": "fuente-blogger.json",
+      "category": "documentacion",
+      "category_label": "Documentación y respaldos",
+      "subtype": "Respaldo de fuente",
+      "secondary_tags": [],
+      "rationale": "Respuesta de Blogger con contenido ya representado en los Markdown de este blog; no añade obras al recuento.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": null,
+      "source_authors": [],
+      "sha256": "8c05c7187000a63d1022f1ea31b7cbc43cf24751c32aac1f615264383446fb77",
+      "editorial": {
+        "id": "M141",
+        "category": "documentacion",
+        "tags": [
+          "documentacion",
+          "respaldo"
+        ]
+      },
+      "original_sha256": "dd7e427cc798c4458a93a7fb0e8db36dca5a9df9ccc5a9aa0294f729e0fcbd66"
+    },
+    {
+      "id": "M142",
+      "path": "Blogs/entradas.json",
+      "title": "entradas.json",
+      "category": "documentacion",
+      "category_label": "Documentación y respaldos",
+      "subtype": "Inventario de entradas",
+      "secondary_tags": [],
+      "rationale": "Metadatos y referencias a textos ya contabilizados en Markdown.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": null,
+      "source_authors": [],
+      "sha256": "5d6f32be58e78b5335e5464a3bdededb11ac5860cb7b8ccaf42b71297131a82e",
+      "editorial": {
+        "id": "M142",
+        "category": "documentacion",
+        "tags": [
+          "documentacion",
+          "inventario"
+        ]
+      },
+      "original_sha256": "5904dfe29c41766d6c9a8261482c26b31138d920a4bdc4bfc2a2d6551c44ed08"
+    },
+    {
+      "id": "M144",
+      "path": "Blogs/misotrosrelatos/fuente-blogger.json",
+      "title": "fuente-blogger.json",
+      "category": "documentacion",
+      "category_label": "Documentación y respaldos",
+      "subtype": "Respaldo de fuente",
+      "secondary_tags": [],
+      "rationale": "Copia local del feed depurada para retirar textos ajenos; contenido conservado representado en los Markdown del blog.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": null,
+      "source_authors": [],
+      "sha256": "89428eba481868f1fb8893b99ef46a50cf6941644771641918bf43e646d6bac0",
+      "editorial": {
+        "id": "M144",
+        "category": "documentacion",
+        "tags": [
+          "documentacion",
+          "respaldo"
+        ]
+      },
+      "original_sha256": "58afbdb240c5a1d75fa0871c5d88491e09237454d59d9158a0812870c76f6291"
+    },
+    {
+      "id": "M145",
+      "path": "Blogs/montanaplateada/fuente-blogger.json",
+      "title": "fuente-blogger.json",
+      "category": "documentacion",
+      "category_label": "Documentación y respaldos",
+      "subtype": "Respaldo de fuente",
+      "secondary_tags": [],
+      "rationale": "Respuesta de Blogger con contenido ya representado en los Markdown de este blog; no añade obras al recuento.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": null,
+      "source_authors": [],
+      "sha256": "a63e716c2924ab117140778585075a8a53f089df61555c9533473e897c886ddc",
+      "editorial": {
+        "id": "M145",
+        "category": "documentacion",
+        "tags": [
+          "documentacion",
+          "respaldo"
+        ]
+      },
+      "original_sha256": "773239ebb0762b806f3bc7d9f20267b180a495b721cedf36425636b4d03c60cf"
+    },
+    {
+      "id": "M146",
+      "path": "Blogs/paynalton/fuente-blogger.json",
+      "title": "fuente-blogger.json",
+      "category": "documentacion",
+      "category_label": "Documentación y respaldos",
+      "subtype": "Respaldo de fuente",
+      "secondary_tags": [],
+      "rationale": "Copia local del feed depurada para retirar textos ajenos; contenido conservado representado en los Markdown del blog.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": null,
+      "source_authors": [],
+      "sha256": "6a7e1b10f539671f061d8264ff4541bc0fe4b7e6b17b6de815186f5b9871a543",
+      "editorial": {
+        "id": "M146",
+        "category": "documentacion",
+        "tags": [
+          "documentacion",
+          "respaldo"
+        ]
+      },
+      "original_sha256": "5765cc11c6aca5669aee53abdd9d1d7c054b5a39477d665f1baf6ed08670df54"
+    },
+    {
+      "id": "M147",
+      "path": "Reddit/entradas.json",
+      "title": "entradas.json",
+      "category": "documentacion",
+      "category_label": "Documentación y respaldos",
+      "subtype": "Inventario de entradas",
+      "secondary_tags": [],
+      "rationale": "Metadatos y referencias a textos ya contabilizados en Markdown.",
+      "classification_status": "clasificado",
+      "version_group": null,
+      "source_url": null,
+      "source_authors": [],
+      "sha256": "a1d01572252ce5b5befa2db5cda8806840e2bde98aa7d7a232a6c005d8532a70",
+      "editorial": {
+        "id": "M147",
+        "category": "documentacion",
+        "tags": [
+          "documentacion",
+          "inventario"
+        ]
+      },
+      "original_sha256": "a1d01572252ce5b5befa2db5cda8806840e2bde98aa7d7a232a6c005d8532a70"
+    }
+  ],
+  "tagging": {
+    "field": "editorial",
+    "coverage": {
+      "markdown_frontmatter": 133,
+      "json_in_manifest": 7
+    },
+    "original_tags": "Se conservan sin cambios los campos tags procedentes de Blogger.",
+    "json_backups": "Los JSON de respaldo afectados fueron depurados por autoría; sus etiquetas se registran en entries[].editorial.",
+    "publication": "Etiquetar no selecciona ni publica materiales.",
+    "vocabulary": [
+      {
+        "id": "administracion-de-sistemas",
+        "label": "Administración de sistemas",
+        "files": 2
+      },
+      {
+        "id": "aforismo",
+        "label": "Aforismo",
+        "files": 1
+      },
+      {
+        "id": "agricultura",
+        "label": "Agricultura",
+        "files": 1
+      },
+      {
+        "id": "alegoria",
+        "label": "Alegoría",
+        "files": 3
+      },
+      {
+        "id": "algoritmos",
+        "label": "Algoritmos",
+        "files": 1
+      },
+      {
+        "id": "amistad",
+        "label": "Amistad",
+        "files": 7
+      },
+      {
+        "id": "amor",
+        "label": "Amor",
+        "files": 21
+      },
+      {
+        "id": "android",
+        "label": "Android",
+        "files": 1
+      },
+      {
+        "id": "armas",
+        "label": "Armas",
+        "files": 1
+      },
+      {
+        "id": "arqueologia",
+        "label": "Arqueología",
+        "files": 1
+      },
+      {
+        "id": "arte",
+        "label": "Arte",
+        "files": 1
+      },
+      {
+        "id": "arte-digital",
+        "label": "Arte digital",
+        "files": 1
+      },
+      {
+        "id": "ausencia",
+        "label": "Ausencia",
+        "files": 4
+      },
+      {
+        "id": "autoconsumo",
+        "label": "Autoconsumo",
+        "files": 1
+      },
+      {
+        "id": "automatizacion",
+        "label": "Automatización",
+        "files": 1
+      },
+      {
+        "id": "aventura",
+        "label": "Aventura",
+        "files": 1
+      },
+      {
+        "id": "cambio",
+        "label": "Cambio",
+        "files": 1
+      },
+      {
+        "id": "choque-cultural",
+        "label": "Choque cultural",
+        "files": 6
+      },
+      {
+        "id": "ciencia-ficcion",
+        "label": "Ciencia ficción",
+        "files": 16
+      },
+      {
+        "id": "ciudad",
+        "label": "Ciudad",
+        "files": 3
+      },
+      {
+        "id": "coexistencia",
+        "label": "Coexistencia",
+        "files": 1
+      },
+      {
+        "id": "colaboracion",
+        "label": "Colaboración",
+        "files": 1
+      },
+      {
+        "id": "competencia",
+        "label": "Competencia",
+        "files": 1
+      },
+      {
+        "id": "conciencia",
+        "label": "Conciencia",
+        "files": 1
+      },
+      {
+        "id": "conocimiento",
+        "label": "Conocimiento",
+        "files": 6
+      },
+      {
+        "id": "credito",
+        "label": "Crédito",
+        "files": 1
+      },
+      {
+        "id": "crisis-economica",
+        "label": "Crisis económica",
+        "files": 2
+      },
+      {
+        "id": "critica",
+        "label": "Crítica",
+        "files": 18
+      },
+      {
+        "id": "critica-cultural",
+        "label": "Crítica cultural",
+        "files": 1
+      },
+      {
+        "id": "critica-literaria",
+        "label": "Crítica literaria",
+        "files": 1
+      },
+      {
+        "id": "critica-politica",
+        "label": "Crítica política",
+        "files": 2
+      },
+      {
+        "id": "critica-social",
+        "label": "Crítica social",
+        "files": 5
+      },
+      {
+        "id": "cronica-personal",
+        "label": "Crónica personal",
+        "files": 2
+      },
+      {
+        "id": "cuento",
+        "label": "Cuento",
+        "files": 54
+      },
+      {
+        "id": "cuento-filosofico",
+        "label": "Cuento filosófico",
+        "files": 1
+      },
+      {
+        "id": "cuerpo",
+        "label": "Cuerpo",
+        "files": 1
+      },
+      {
+        "id": "decisiones",
+        "label": "Decisiones",
+        "files": 1
+      },
+      {
+        "id": "dedicatoria",
+        "label": "Dedicatoria",
+        "files": 1
+      },
+      {
+        "id": "democracia",
+        "label": "Democracia",
+        "files": 2
+      },
+      {
+        "id": "dependencia",
+        "label": "Dependencia",
+        "files": 1
+      },
+      {
+        "id": "desamor",
+        "label": "Desamor",
+        "files": 13
+      },
+      {
+        "id": "deseo",
+        "label": "Deseo",
+        "files": 1
+      },
+      {
+        "id": "desigualdad",
+        "label": "Desigualdad",
+        "files": 2
+      },
+      {
+        "id": "despedida",
+        "label": "Despedida",
+        "files": 2
+      },
+      {
+        "id": "deuda",
+        "label": "Deuda",
+        "files": 1
+      },
+      {
+        "id": "diagnostico-tecnico",
+        "label": "Diagnóstico técnico",
+        "files": 1
+      },
+      {
+        "id": "dinero",
+        "label": "Dinero",
+        "files": 3
+      },
+      {
+        "id": "diplomacia",
+        "label": "Diplomacia",
+        "files": 1
+      },
+      {
+        "id": "discriminacion",
+        "label": "Discriminación",
+        "files": 1
+      },
+      {
+        "id": "divulgacion-tecnica",
+        "label": "Divulgación técnica",
+        "files": 1
+      },
+      {
+        "id": "documentacion",
+        "label": "Documentación",
+        "files": 15
+      },
+      {
+        "id": "drama",
+        "label": "Drama",
+        "files": 2
+      },
+      {
+        "id": "drama-social",
+        "label": "Drama social",
+        "files": 2
+      },
+      {
+        "id": "duelo",
+        "label": "Duelo",
+        "files": 5
+      },
+      {
+        "id": "ecologia",
+        "label": "Ecología",
+        "files": 1
+      },
+      {
+        "id": "economia",
+        "label": "Economía",
+        "files": 1
+      },
+      {
+        "id": "educacion",
+        "label": "Educación",
+        "files": 1
+      },
+      {
+        "id": "efectos-visuales",
+        "label": "Efectos visuales",
+        "files": 1
+      },
+      {
+        "id": "empatia",
+        "label": "Empatía",
+        "files": 1
+      },
+      {
+        "id": "esperanza",
+        "label": "Esperanza",
+        "files": 3
+      },
+      {
+        "id": "eternidad",
+        "label": "Eternidad",
+        "files": 2
+      },
+      {
+        "id": "etica",
+        "label": "Ética",
+        "files": 5
+      },
+      {
+        "id": "existencia",
+        "label": "Existencia",
+        "files": 1
+      },
+      {
+        "id": "exito",
+        "label": "Éxito",
+        "files": 2
+      },
+      {
+        "id": "fabula",
+        "label": "Fábula",
+        "files": 1
+      },
+      {
+        "id": "familia",
+        "label": "Familia",
+        "files": 5
+      },
+      {
+        "id": "fanfiction",
+        "label": "Fanfiction",
+        "files": 2
+      },
+      {
+        "id": "fantasia",
+        "label": "Fantasía",
+        "files": 20
+      },
+      {
+        "id": "ficcion-filosofica",
+        "label": "Ficción filosófica",
+        "files": 1
+      },
+      {
+        "id": "filosofia-de-la-mente",
+        "label": "Filosofía de la mente",
+        "files": 2
+      },
+      {
+        "id": "filosofia-de-la-religion",
+        "label": "Filosofía de la religión",
+        "files": 2
+      },
+      {
+        "id": "filosofia-de-la-tecnologia",
+        "label": "Filosofía de la tecnología",
+        "files": 1
+      },
+      {
+        "id": "filosofia-de-la-vida",
+        "label": "Filosofía de la vida",
+        "files": 1
+      },
+      {
+        "id": "filosofia-existencial",
+        "label": "Filosofía existencial",
+        "files": 1
+      },
+      {
+        "id": "filosofia-social",
+        "label": "Filosofía social",
+        "files": 1
+      },
+      {
+        "id": "gastronomia",
+        "label": "Gastronomía",
+        "files": 3
+      },
+      {
+        "id": "gnu-linux",
+        "label": "GNU/Linux",
+        "files": 4
+      },
+      {
+        "id": "guerra",
+        "label": "Guerra",
+        "files": 10
+      },
+      {
+        "id": "humanidad",
+        "label": "Humanidad",
+        "files": 3
+      },
+      {
+        "id": "humor",
+        "label": "Humor",
+        "files": 10
+      },
+      {
+        "id": "ideas",
+        "label": "Ideas",
+        "files": 1
+      },
+      {
+        "id": "identidad",
+        "label": "Identidad",
+        "files": 4
+      },
+      {
+        "id": "identidad-digital",
+        "label": "Identidad digital",
+        "files": 2
+      },
+      {
+        "id": "imaginacion",
+        "label": "Imaginación",
+        "files": 2
+      },
+      {
+        "id": "indeterminacion",
+        "label": "Indeterminación",
+        "files": 1
+      },
+      {
+        "id": "infancia",
+        "label": "Infancia",
+        "files": 5
+      },
+      {
+        "id": "informatica",
+        "label": "Informática",
+        "files": 2
+      },
+      {
+        "id": "ingenio",
+        "label": "Ingenio",
+        "files": 4
+      },
+      {
+        "id": "inteligencia-artificial",
+        "label": "Inteligencia artificial",
+        "files": 1
+      },
+      {
+        "id": "interoperabilidad",
+        "label": "Interoperabilidad",
+        "files": 1
+      },
+      {
+        "id": "intimidad",
+        "label": "Intimidad",
+        "files": 2
+      },
+      {
+        "id": "intolerancia",
+        "label": "Intolerancia",
+        "files": 1
+      },
+      {
+        "id": "inventario",
+        "label": "Inventario",
+        "files": 10
+      },
+      {
+        "id": "jerarquia",
+        "label": "Jerarquía",
+        "files": 1
+      },
+      {
+        "id": "justicia",
+        "label": "Justicia",
+        "files": 2
+      },
+      {
+        "id": "lealtad",
+        "label": "Lealtad",
+        "files": 2
+      },
+      {
+        "id": "legado",
+        "label": "Legado",
+        "files": 1
+      },
+      {
+        "id": "lenguaje",
+        "label": "Lenguaje",
+        "files": 1
+      },
+      {
+        "id": "libertad",
+        "label": "Libertad",
+        "files": 6
+      },
+      {
+        "id": "literatura",
+        "label": "Literatura",
+        "files": 3
+      },
+      {
+        "id": "lluvia",
+        "label": "Lluvia",
+        "files": 1
+      },
+      {
+        "id": "magia",
+        "label": "Magia",
+        "files": 1
+      },
+      {
+        "id": "mar",
+        "label": "Mar",
+        "files": 1
+      },
+      {
+        "id": "matematicas",
+        "label": "Matemáticas",
+        "files": 1
+      },
+      {
+        "id": "memoria",
+        "label": "Memoria",
+        "files": 12
+      },
+      {
+        "id": "memoria-historica",
+        "label": "Memoria histórica",
+        "files": 3
+      },
+      {
+        "id": "mexico",
+        "label": "México",
+        "files": 4
+      },
+      {
+        "id": "microrrelato",
+        "label": "Microrrelato",
+        "files": 6
+      },
+      {
+        "id": "motivacion",
+        "label": "Motivación",
+        "files": 1
+      },
+      {
+        "id": "muerte",
+        "label": "Muerte",
+        "files": 6
+      },
+      {
+        "id": "musica",
+        "label": "Música",
+        "files": 2
+      },
+      {
+        "id": "naturaleza",
+        "label": "Naturaleza",
+        "files": 6
+      },
+      {
+        "id": "noche",
+        "label": "Noche",
+        "files": 1
+      },
+      {
+        "id": "normas-sociales",
+        "label": "Normas sociales",
+        "files": 1
+      },
+      {
+        "id": "nota-personal",
+        "label": "Nota personal",
+        "files": 1
+      },
+      {
+        "id": "nota-tecnica",
+        "label": "Nota técnica",
+        "files": 1
+      },
+      {
+        "id": "opinion-economica",
+        "label": "Opinión económica",
+        "files": 4
+      },
+      {
+        "id": "opinion-profesional",
+        "label": "Opinión profesional",
+        "files": 2
+      },
+      {
+        "id": "pareja",
+        "label": "Pareja",
+        "files": 2
+      },
+      {
+        "id": "parodia",
+        "label": "Parodia",
+        "files": 2
+      },
+      {
+        "id": "pensiones",
+        "label": "Pensiones",
+        "files": 1
+      },
+      {
+        "id": "percepcion",
+        "label": "Percepción",
+        "files": 1
+      },
+      {
+        "id": "perdida",
+        "label": "Pérdida",
+        "files": 3
+      },
+      {
+        "id": "pertenencia",
+        "label": "Pertenencia",
+        "files": 1
+      },
+      {
+        "id": "poder",
+        "label": "Poder",
+        "files": 3
+      },
+      {
+        "id": "poema",
+        "label": "Poema",
+        "files": 1
+      },
+      {
+        "id": "poesia",
+        "label": "Poesía",
+        "files": 21
+      },
+      {
+        "id": "politica",
+        "label": "Política",
+        "files": 1
+      },
+      {
+        "id": "prejuicios",
+        "label": "Prejuicios",
+        "files": 1
+      },
+      {
+        "id": "presentacion",
+        "label": "Presentación",
+        "files": 3
+      },
+      {
+        "id": "presentacion-editorial",
+        "label": "Presentación editorial",
+        "files": 3
+      },
+      {
+        "id": "primer-contacto",
+        "label": "Primer contacto",
+        "files": 1
+      },
+      {
+        "id": "programacion",
+        "label": "Programación",
+        "files": 2
+      },
+      {
+        "id": "progreso",
+        "label": "Progreso",
+        "files": 2
+      },
+      {
+        "id": "promesas",
+        "label": "Promesas",
+        "files": 1
+      },
+      {
+        "id": "propiedad-intelectual",
+        "label": "Propiedad intelectual",
+        "files": 1
+      },
+      {
+        "id": "proposito",
+        "label": "Propósito",
+        "files": 1
+      },
+      {
+        "id": "propuesta-politica",
+        "label": "Propuesta política",
+        "files": 2
+      },
+      {
+        "id": "propuesta-tecnica",
+        "label": "Propuesta técnica",
+        "files": 2
+      },
+      {
+        "id": "prosa-poetica",
+        "label": "Prosa poética",
+        "files": 28
+      },
+      {
+        "id": "recuperacion-emocional",
+        "label": "Recuperación emocional",
+        "files": 2
+      },
+      {
+        "id": "redes-sociales",
+        "label": "Redes sociales",
+        "files": 1
+      },
+      {
+        "id": "reflexion-filosofica",
+        "label": "Reflexión filosófica",
+        "files": 12
+      },
+      {
+        "id": "reflexion-personal",
+        "label": "Reflexión personal",
+        "files": 2
+      },
+      {
+        "id": "relaciones-de-pareja",
+        "label": "Relaciones de pareja",
+        "files": 3
+      },
+      {
+        "id": "religion",
+        "label": "Religión",
+        "files": 5
+      },
+      {
+        "id": "respaldo",
+        "label": "Respaldo",
+        "files": 5
+      },
+      {
+        "id": "seguridad-informatica",
+        "label": "Seguridad informática",
+        "files": 1
+      },
+      {
+        "id": "separacion",
+        "label": "Separación",
+        "files": 3
+      },
+      {
+        "id": "sobrenatural",
+        "label": "Sobrenatural",
+        "files": 2
+      },
+      {
+        "id": "software-libre",
+        "label": "Software libre",
+        "files": 2
+      },
+      {
+        "id": "soledad",
+        "label": "Soledad",
+        "files": 5
+      },
+      {
+        "id": "solidaridad",
+        "label": "Solidaridad",
+        "files": 1
+      },
+      {
+        "id": "suenos",
+        "label": "Sueños",
+        "files": 4
+      },
+      {
+        "id": "supervivencia",
+        "label": "Supervivencia",
+        "files": 4
+      },
+      {
+        "id": "tecnologia",
+        "label": "Tecnología",
+        "files": 2
+      },
+      {
+        "id": "terror",
+        "label": "Terror",
+        "files": 6
+      },
+      {
+        "id": "texto-personal",
+        "label": "Texto personal",
+        "files": 6
+      },
+      {
+        "id": "texto-tecnico",
+        "label": "Texto técnico",
+        "files": 8
+      },
+      {
+        "id": "texto-teorico",
+        "label": "Texto teórico",
+        "files": 1
+      },
+      {
+        "id": "tiempo",
+        "label": "Tiempo",
+        "files": 1
+      },
+      {
+        "id": "trabajo",
+        "label": "Trabajo",
+        "files": 5
+      },
+      {
+        "id": "tradiciones",
+        "label": "Tradiciones",
+        "files": 1
+      },
+      {
+        "id": "transformacion-personal",
+        "label": "Transformación personal",
+        "files": 1
+      },
+      {
+        "id": "tutorial",
+        "label": "Tutorial",
+        "files": 4
+      },
+      {
+        "id": "vejez",
+        "label": "Vejez",
+        "files": 3
+      },
+      {
+        "id": "viaje",
+        "label": "Viaje",
+        "files": 5
+      },
+      {
+        "id": "vida",
+        "label": "Vida",
+        "files": 1
+      },
+      {
+        "id": "videojuegos",
+        "label": "Videojuegos",
+        "files": 1
+      },
+      {
+        "id": "violencia",
+        "label": "Violencia",
+        "files": 5
+      }
+    ]
+  },
+  "authorship_filter": {
+    "removed_count": 6,
+    "retained_coauthorship": [
+      "M030"
+    ],
+    "undetermined_authorship": [],
+    "removed": [
+      {
+        "id": "M034",
+        "title": "El Sueño de la Emperatriz",
+        "reason": "publicado-por-paola"
+      },
+      {
+        "id": "M039",
+        "title": "Esperanza",
+        "reason": "publicado-por-paola"
+      },
+      {
+        "id": "M040",
+        "title": "This is how the magic happens~*",
+        "reason": "publicado-por-paola-autoria-original-no-acreditada"
+      },
+      {
+        "id": "M069",
+        "title": "Creando un vaso en blender",
+        "reason": "traduccion-acreditada"
+      },
+      {
+        "id": "M077",
+        "title": "Estoy leyendo un libro llamado \"La Rebelión de Atlas\"",
+        "reason": "cita-de-obra-ajena"
+      },
+      {
+        "id": "M121",
+        "title": "Documento sin título",
+        "reason": "Autoría del padre del usuario, confirmada por el usuario; retiro solicitado."
+      }
+    ]
+  },
+  "image_removal": {
+    "scope": "Blogs",
+    "local_images_removed": 83,
+    "image_manifest_removed": "Blogs/imagenes.json",
+    "markdown_images_removed": 63,
+    "retained_code_examples": true
+  }
+}

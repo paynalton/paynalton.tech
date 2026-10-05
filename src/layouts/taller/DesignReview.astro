@@ -1,0 +1,26 @@
+---
+import '../../styles/taller/system.css';
+import Ornament from '../../components/taller/Ornament.astro';
+interface Props { title: string; t: (key: string) => string; sample: string; expanded?: boolean; rtl?: boolean; }
+const {title,t,sample,expanded=false,rtl=false}=Astro.props;
+const prefix=expanded ? 'expanded-' : '';
+---
+<!doctype html>
+<html lang="es" dir={rtl ? 'rtl' : 'ltr'}>
+ <head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="robots" content="noindex,nofollow"/><title>{title}</title></head>
+ <body class="taller">
+  <a class="tn-skip" href="#main">{t('nav.skipToContent')}</a>
+  <aside class="tn-review">
+   <span>{t('review.label')}</span>
+   <nav aria-label={t('review.navLabel')}>
+    {['home','project','reading','components'].map(item=><a href={`/design-review/${prefix}${item}/`} aria-current={sample===item ? 'page' : undefined}>{t(`review.${item}`)}</a>)}
+   </nav>
+   <nav aria-label={t('review.displayLabel')}><a href={`/design-review/${sample}/`}>{t('review.normal')}</a><a href={`/design-review/expanded-${sample}/`}>{t('review.expanded')}</a><a href="/design-review/rtl-home/">{t('review.rtl')}</a></nav>
+  </aside>
+  <div class="tn-frame">
+   <header class="tn-header"><a class="tn-brand" href={`/design-review/${prefix}home/`}><Ornament/>{t('brand.name')}</a><span class="tn-header-label">{t('review.aboutLabel')}</span></header>
+   <main id="main" tabindex="-1"><slot/></main>
+   <footer class="tn-footer"><Ornament variant="rule"/><p>{t('review.footer')}</p><p>{t('review.notice')}</p></footer>
+  </div>
+ </body>
+</html>

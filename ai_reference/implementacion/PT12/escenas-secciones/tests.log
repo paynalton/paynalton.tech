@@ -1,0 +1,30 @@
+npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+npm notice run paynalton.tech@0.0.1 test:e2e
+npm notice run playwright test tests/home-review.spec.ts --workers=1
+[WebServer] npm warn Unknown env config "always-auth". This will error in a future major version of npm. See `npm help npmrc` for supported config options.
+[WebServer] npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+[WebServer] npm notice run paynalton.tech@0.0.1 preview
+[WebServer] npm notice run astro preview --host 127.0.0.1 --port 4334 --ignore-lock
+[WebServer] (node:186632) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 12 tests using 1 worker
+
+(node:187236) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [desktop] › tests/home-review.spec.ts:5:1 › section headers have distinct live scenes and matching static fallbacks (11.9s)
+  ✓   2 [desktop] › tests/home-review.spec.ts:25:1 › section header images work without JavaScript (615ms)
+  ✓   3 [desktop] › tests/home-review.spec.ts:33:1 › all four sculptures load on demand, release offscreen and respect reduced motion (11.9s)
+  ✓   4 [desktop] › tests/home-review.spec.ts:56:1 › project and work card corners follow their real link and retain one tab stop (3.5s)
+  ✓   5 [desktop] › tests/home-review.spec.ts:63:1 › home reflows at 320 pixels and 200 percent text (144ms)
+  ✓   6 [desktop] › tests/home-review.spec.ts:69:1 › hover and menu transitions have visible duration and nonlinear easing (2.1s)
+(node:189080) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   7 [mobile] › tests/home-review.spec.ts:5:1 › section headers have distinct live scenes and matching static fallbacks (12.1s)
+  ✓   8 [mobile] › tests/home-review.spec.ts:25:1 › section header images work without JavaScript (670ms)
+  ✓   9 [mobile] › tests/home-review.spec.ts:33:1 › all four sculptures load on demand, release offscreen and respect reduced motion (9.0s)
+  ✓  10 [mobile] › tests/home-review.spec.ts:56:1 › project and work card corners follow their real link and retain one tab stop (4.2s)
+  ✓  11 [mobile] › tests/home-review.spec.ts:63:1 › home reflows at 320 pixels and 200 percent text (147ms)
+  ✓  12 [mobile] › tests/home-review.spec.ts:69:1 › hover and menu transitions have visible duration and nonlinear easing (1.3s)
+
+  12 passed (59.6s)

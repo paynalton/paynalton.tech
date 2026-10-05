@@ -1,0 +1,38 @@
+<!-- Initialize before the first paint; plain HTML navigation survives disabled scripts. -->
+<script is:inline>
+(()=>{
+// Useful HTML navigation remains visible unless enhancement successfully starts.
+const header = document.querySelector('[data-site-header]');
+const menu = document.querySelector('#site-navigation');
+const menuButton = document.querySelector('[data-menu-toggle]');
+const narrow = matchMedia('(max-width: 1000px)');
+let menuOpen = false;
+function closeMenu(returnFocus = false) {
+  menuOpen = false;
+  if (menuButton) menuButton.setAttribute('aria-expanded', 'false');
+  header?.classList.remove('menu-open');
+  if (menu) menu.hidden = narrow.matches;
+  if (returnFocus) menuButton?.focus();
+}
+if (header && menu && menuButton) {
+  header.classList.add('is-enhanced');
+  const adapt = () => {
+    const focusInMenu = menu.contains(document.activeElement);
+    menuButton.hidden = !narrow.matches;
+    closeMenu(narrow.matches && focusInMenu);
+  };
+  adapt(); narrow.addEventListener('change', adapt);
+  menuButton.addEventListener('click', () => {
+    menuOpen = !menuOpen;
+    menuButton.setAttribute('aria-expanded', String(menuOpen));
+    header.classList.toggle('menu-open', menuOpen);
+    menu.hidden = !menuOpen;
+  });
+  header.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && menuOpen) { event.preventDefault(); closeMenu(true); }
+  });
+  document.addEventListener('click', event => { if (menuOpen && !header.contains(event.target)) closeMenu(menu.contains(document.activeElement)); });
+}
+
+})();
+</script>

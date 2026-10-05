@@ -1,0 +1,9 @@
+He estado pensando sobre las campañas de desarme voluntario y realmente creo que son dañinas.<br><br>En estados unidos estas campañas son comunes y, lejos de reducir la violencia, su principal efecto es un saneamiento del mercado de armas.<br><br>Las campañas de desarme retiran de circulación armas usadas que podrían ser vendidas u obsequiadas de persona a persona, con lo cual la necesidad de adquirir armas nuevas crece y, durante el año siguiente a la campaña las tiendas de armas registrarán un incremento moderado en sus ventas.<br><br>En México la mayoría de las armas provienen del tráfico ilegal, por lo que las campañas desarme tienen un efecto positivo sobre la delincuencia organizada, que importa armas ilegales para reemplazar las que fueron destruidas en campañas de desarme e incrementando sus ganancias.<br><br> <br>
+
+<div>
+
+
+
+</div>
+
+<br>

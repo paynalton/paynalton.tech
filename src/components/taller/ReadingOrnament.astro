@@ -1,0 +1,13 @@
+---
+// The footer's stepped motif becomes a continuous vertical reading ornament.
+const path='M100 0 '+Array.from({length:4},(_,i)=>{
+ const y=i*200;
+ return `V${y+35}H45V${y+95}H125V${y+65}H165V${y+145}H85V${y+115}H45V${y+175}H100V${y+200}`;
+}).join(' ');
+---
+<div class="trajectory-ornament" aria-hidden="true" data-reading-ornament>
+ <svg viewBox="0 0 200 800" fill="none" stroke="currentColor" stroke-width="6" focusable="false">
+  <path d={path} class="trajectory-ornament-track"/>
+  <path d={path} pathLength="1" data-reading-trace/>
+ </svg>
+</div>

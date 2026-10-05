@@ -1,0 +1,29 @@
+---
+title: "Carta de un Padre a su Hijo en Día de Reyes"
+date: "2010-01-06T22:13:00.002-06:00"
+updated: "2010-12-05T23:29:33.158-06:00"
+original_url: "https://montanaplateada.blogspot.com/2010/01/carta-de-un-padre-su-hijo-en-dia-de.html"
+blog: "La Montaña Plateada"
+blog_url: "https://montanaplateada.blogspot.com/"
+blogger_id: "tag:blogger.com,1999:blog-7130245697332798631.post-730828869763573585"
+authors: ["Paynalton"]
+tags: []
+editorial:
+  id: M051
+  category: reflexiones-filosoficas
+  tags:
+  - reflexion-filosofica
+  - etica
+  - familia
+  - infancia
+  - amor
+  series: montana-plateada
+---
+
+<div>
+
+
+
+</div>
+
+No se como comenzar esta carta ni mucho menos donde ha de terminar.<br><br>No estoy seguro de lo que sientes en estos momentos, pero bien me lo puedo imaginar.<br><br>Lo admito, realmente te he mentido todos estos años y ya no puedo negarlo más, sobretodo ahora que tú mismo lo has descubierto.<br><br>Pero antes de que juzgues mis acciones quisiera que escucharas mis palabras.<br><br><br><br>Yo tenía casi tu edad cuando descubrí a mi padre(tu abuelo) colocando regalos debajo del árbol durante la noche, cuando yo debía estar dormido.<br><br>Al principió sentí mucha ira contra él y esta se mantuvo durante muchos años en mí, hasta que su propio amor y acciones para conmigo fueron eliminando el rencor que pude sentir.<br><br>Los años pasaron y el tiempo me trajo el mejor regalo de cuantos pudiera desear. Un pequeño bebé al que amé con todas las fuerzas de mi alma, mi primer hijo que fuiste tú.<br><br>Cuando llegó el primer 6 de enero de tu vida volví a recordar las historias que de pequeño me contaban.<br><br>Se dice que los Reyes Magos van en busca de quien pudiera ser el nuevo salvador del mundo y que al no conocer ellos quien es ese niño, dejan regalos a todo pequeño que muestra bondad en su corazón.<br><br>Esa mañana tu dormías y me volví a preguntar, como aquella vez, ¿Que es lo que los Reyes Magos consideran para decidir si un niño es candidato para recibir regalos o no?<br><br>No obtuve respuesta, pero supe que un bebé como tú no podía haber cometido pecado alguno ni habría podido obrar con malas intenciones, mas sin embargo bajo el árbol no había nada.<br><br>Fue entonces que tomé la decisión: No me importa si fueses bueno o malo, salvo o pecador, inocente o victimario, tú eres mi hijo y te amo por ello, así que aunque aquellos reyes te no te considerasen merecedor de los dones celestiales, yo me encargaría de que año con año, pasare lo que pasare, tu mirada brillara al descubrir un pequeño paquete envuelto en papel brillante bajo ese árbol.<br><br>Y fue así que cada año guardé silencio esperando como única recompensa el ver la luz de tu mirada al menos una sola vez en el año.<br><br>Espero que algún día me perdones, pues yo no me arrepiento de lo que he hecho y, si tu me lo permites, deseo seguir haciéndolo hasta que mis brazos sean demasiado débiles para poder cargar con esta tarea.<br><br>Te ama: tu padre.<br><br>P.D. **Soy Una Rueda!!! Puedo Rodar!!!!!**<br>**Soy el Hombre de la Montaña Plateada!!!**

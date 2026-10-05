@@ -1,0 +1,1 @@
+Mi forma de abordar una situación comienza por comprenderla, investigar antecedentes y evaluar alternativas. En el sitio, este tema conecta decisiones técnicas y formas de trabajo con la curiosidad que también aparece en mis textos.

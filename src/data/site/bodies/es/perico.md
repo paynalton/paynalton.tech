@@ -1,0 +1,1 @@
+PERICO es una extensión de VS Code que implementa LORO para automatizar funciones relacionadas con la memoria y el contexto de agentes en el desarrollo de software. Continúa en desarrollo y su repositorio es privado. Mi intención es ofrecerlo como servicio.

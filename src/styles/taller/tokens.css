@@ -1,0 +1,59 @@
+/* Tokens Taller nocturno. Mantener sincronizados con la paleta RGBA validada. */
+:root {
+  --fondo-pagina: rgba(16, 24, 25, 1);
+  --fondo-principal: rgba(29, 36, 37, 1);
+  --fondo-superficie: rgba(38, 50, 52, 1);
+  --fondo-lectura: rgba(243, 238, 227, 1);
+  --fondo-campo: rgba(16, 24, 25, 1);
+  --fondo-seleccion: rgba(115, 153, 141, 0.16);
+  --velo-modal: rgba(7, 12, 13, 0.76);
+  --texto-principal: rgba(243, 238, 227, 1);
+  --texto-secundario: rgba(184, 194, 186, 1);
+  --texto-discreto: rgba(152, 167, 157, 1);
+  --texto-lectura: rgba(65, 75, 67, 1);
+  --titulo-lectura: rgba(29, 36, 37, 1);
+  --enlace-oscuro: rgba(199, 141, 101, 1);
+  --enlace-claro: rgba(128, 82, 52, 1);
+  --texto-sobre-seleccion: rgba(184, 194, 186, 1);
+  --enlace-sobre-tinte: rgba(217, 164, 126, 1);
+  --texto-sobre-accion: rgba(16, 24, 25, 1);
+  --accion-principal: rgba(199, 141, 101, 1);
+  --accion-principal-hover: rgba(217, 164, 126, 1);
+  --accion-principal-presionada: rgba(184, 121, 81, 1);
+  --accion-secundaria-fondo: rgba(199, 141, 101, 0.08);
+  --foco-sobre-oscuro: rgba(243, 238, 227, 1);
+  --foco-sobre-claro: rgba(29, 36, 37, 1);
+  --control-deshabilitado-fondo: rgba(57, 68, 66, 1);
+  --control-deshabilitado-texto: rgba(157, 170, 160, 1);
+  --borde-decorativo: rgba(199, 141, 101, 0.3);
+  --borde-control: rgba(126, 145, 133, 1);
+  --borde-lectura: rgba(186, 172, 151, 1);
+  --acento-greca: rgba(199, 141, 101, 1);
+  --acento-jade: rgba(115, 153, 141, 1);
+  --texto-jade: rgba(166, 201, 175, 1);
+  --sombra-superficie: rgba(0, 0, 0, 0.24);
+  --sombra-escena: rgba(0, 0, 0, 0.42);
+  --brillo-cobre: rgba(217, 164, 126, 0.22);
+  --estado-exito: rgba(166, 201, 175, 1);
+  --estado-exito-fondo: rgba(115, 153, 141, 0.12);
+  --estado-advertencia: rgba(224, 188, 118, 1);
+  --estado-advertencia-fondo: rgba(224, 188, 118, 0.1);
+  --estado-error: rgba(237, 170, 163, 1);
+  --estado-error-fondo: rgba(237, 170, 163, 0.1);
+  --estado-informacion: rgba(169, 201, 218, 1);
+  --estado-informacion-fondo: rgba(169, 201, 218, 0.1);
+}
+
+:root {
+  --font-ui: 'Manrope', system-ui, sans-serif;
+  --font-editorial: 'Fraunces', Georgia, serif;
+  --space-1: .5rem; --space-2: 1rem; --space-3: 1.5rem; --space-4: 2rem;
+  --space-6: 3rem; --space-8: 4rem;
+  --content-width: 76rem; --reading-width: 66ch;
+  --motion-short: 320ms;
+  --motion-hover: 420ms;
+  --motion-hover-return: calc(var(--motion-hover) * 2);
+  --motion-enter: 560ms;
+  --motion-easing: cubic-bezier(.2, 0, 0, 1);
+  --motion-emphasized: cubic-bezier(.16, 1, .3, 1);
+}

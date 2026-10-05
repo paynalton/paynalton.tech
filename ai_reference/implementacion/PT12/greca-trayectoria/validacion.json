@@ -1,0 +1,12 @@
+{
+  "browser_passed": 7,
+  "browser_skipped": 1,
+  "skip_reason": "rail hidden on narrow viewports; scroll-following case is desktop only",
+  "html_pages": 337,
+  "static_equivalent": true,
+  "check_errors": 0,
+  "check_warnings": 0,
+  "narrow_320_text_200_passed": true,
+  "full_candidate_rerun": false,
+  "deployed": false
+}

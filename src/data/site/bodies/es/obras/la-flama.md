@@ -1,0 +1,25 @@
+Una flama se dibuja en mi mente. Su delicado brillo se posa sobre el pabilo de la vela que con un dulce beso encendiste aquel domingo por la tarde.<br><br>No ha pasado mucho tiempo de ello y aun es pronto para saber si la llama soportará encendida el azote del viento, la lluvia y las duras pruebas que el destino tiene deparadas para ella.<br><br>Esta noche vi esa llama, la vi doblarse, retorcerse, tomar fuerza de sí misma y dar vuelta sobre sí consumiendo todo a su alrededor. La cera se volvió contra la llama y le encerró en una delicada caja de cristal azul. la llama dejó de existir y se disolvió en los reflejos de aquella preciosa caja cuyos bordes despiden el calor de su fuego que aun sigue ardiendo.<br><br>A través de cada ventana que asoma desde la caja en todas direcciones se puede observar la llama ardiendo que ha dejado de existir, pues su esencia se ha desplegado más allá de la realidad, más allá de las posibilidades, más allá del universo y de la existencia misma.<br><br><br>Es la llama de nuestro amor que con un dulce beso encendiste aquel domingo por la tarde. Es una llama que arde en mí sin quemar, que ilumina sin deslumbrar, una llama que ha dejado de existir, pues la existencia misma no es suficiente para contenerla.<br><br>Lleva contigo esta delicada caja de cristal y contempla la belleza de su flama, que yo la tengo conmigo.<br><br>Solo una caja existe y ninguna flama hay en ella.<br><br>
+
+<div>
+
+</div>
+
+<div>
+
+</div>
+
+<div>
+
+</div>
+
+<div>
+
+
+
+</div>
+
+<div>
+
+Imagen propiedad de [LUZ](http://www.arteyfotografia.com.ar/6157/fotos/93134/)
+
+</div>

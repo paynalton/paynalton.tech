@@ -1,0 +1,1 @@
+Prácticas y herramientas para conservar información útil entre etapas de un trabajo con IA. Este tema conecta documentación intermedia, LORO, PERICO y las necesidades que aparecen al desarrollar software o producir una obra extensa.

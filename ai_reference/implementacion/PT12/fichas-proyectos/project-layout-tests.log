@@ -1,0 +1,28 @@
+npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+npm notice run paynalton.tech@0.0.1 test:e2e
+npm notice run playwright test tests/project-layout.spec.ts tests/professional.spec.ts --grep project template|static fallback|all professional cases --workers=1
+[WebServer] npm warn Unknown env config "always-auth". This will error in a future major version of npm. See `npm help npmrc` for supported config options.
+[WebServer] npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+[WebServer] npm notice run paynalton.tech@0.0.1 preview
+[WebServer] npm notice run astro preview --host 127.0.0.1 --port 4334 --ignore-lock
+[WebServer] (node:304977) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 6 tests using 1 worker
+
+(node:305059) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 [desktop] › tests/professional.spec.ts:80:1 › all professional cases expose accessible facts and static downloads (13.5s)
+(node:306836) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  2 [desktop] › tests/project-layout.spec.ts:6:1 › project template combines its scene with a separate reading rail (1.3s)
+  ✓  3 [desktop] › tests/project-layout.spec.ts:33:1 › project scene and reading content have a static fallback (134ms)
+(node:307060) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  4 [mobile] › tests/professional.spec.ts:80:1 › all professional cases expose accessible facts and static downloads (13.2s)
+(node:307613) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  5 [mobile] › tests/project-layout.spec.ts:6:1 › project template combines its scene with a separate reading rail (1.5s)
+  ✓  6 [mobile] › tests/project-layout.spec.ts:33:1 › project scene and reading content have a static fallback (153ms)
+
+  6 passed (32.2s)

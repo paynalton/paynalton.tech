@@ -1,0 +1,4 @@
+npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+npm notice run paynalton.tech@0.0.1 check:effects
+npm notice run node scripts/check-effects-artifact.mjs
+Efectos: motor 144904 bytes gzip; escena/coordinación/decoraciones 9366; renders y límites comprobados.

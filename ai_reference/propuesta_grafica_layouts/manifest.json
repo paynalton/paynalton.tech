@@ -1,0 +1,322 @@
+[
+  {
+    "id": "L0",
+    "title": "Base compartida",
+    "active": "",
+    "note": "L0 muestra el contenedor común sobre una página auxiliar, no una nueva sección del sitio. CV reservado fuera de la interfaz hasta disponer del documento.",
+    "zones": [
+      {
+        "name": "Contexto",
+        "widgets": "W06"
+      },
+      {
+        "name": "Contenido de una página auxiliar",
+        "widgets": "Contenido editorial"
+      }
+    ]
+  },
+  {
+    "id": "L1",
+    "title": "Inicio",
+    "active": "",
+    "note": "Portada con la composición del taller reutilizada de W10. Pipila, Onix y GUACAMAYA conservan el orden acordado; la biblioteca usa ejemplos.",
+    "zones": [
+      {
+        "name": "Presentación y escena del taller",
+        "widgets": "W09 · W10 · W13"
+      },
+      {
+        "name": "Proyectos destacados",
+        "widgets": "W11"
+      },
+      {
+        "name": "Selección configurable de obras",
+        "widgets": "W11 · W23"
+      },
+      {
+        "name": "Síntesis personal",
+        "widgets": "Contenido editorial · W13"
+      },
+      {
+        "name": "Invitación a conversar",
+        "widgets": "W13"
+      }
+    ]
+  },
+  {
+    "id": "L2",
+    "title": "Catálogo de proyectos",
+    "active": "Proyectos",
+    "note": "Variante profesional de L2 con seis muestras; Pipila abre el detalle L3. Las otras tarjetas permiten evaluar densidad sin simular páginas de detalle terminadas.",
+    "zones": [
+      {
+        "name": "Contexto",
+        "widgets": "W06"
+      },
+      {
+        "name": "Encabezado de colección",
+        "widgets": "Contenido editorial"
+      },
+      {
+        "name": "Selección y listado",
+        "widgets": "W05 · W11 · W14 · W15 · W30"
+      },
+      {
+        "name": "Búsqueda y filtros",
+        "widgets": "W05 · W14"
+      },
+      {
+        "name": "Estado de resultados",
+        "widgets": "W15"
+      },
+      {
+        "name": "Invitación a conversar",
+        "widgets": "W13"
+      }
+    ]
+  },
+  {
+    "id": "L2-obra",
+    "title": "Catálogo de obras",
+    "active": "Obra y pensamiento",
+    "note": "Variante editorial de L2. Solo usa ejemplos identificados; selección y contenido definitivo se incorporan al finalizar el proyecto.",
+    "zones": [
+      {
+        "name": "Contexto",
+        "widgets": "W06"
+      },
+      {
+        "name": "Encabezado editorial",
+        "widgets": "Contenido editorial"
+      },
+      {
+        "name": "Selección editorial",
+        "widgets": "W11 · W23"
+      },
+      {
+        "name": "Catálogo configurable",
+        "widgets": "W05 · W11 · W14 · W15"
+      },
+      {
+        "name": "Búsqueda y filtros",
+        "widgets": "W05 · W14"
+      },
+      {
+        "name": "Estado de resultados",
+        "widgets": "W15"
+      }
+    ]
+  },
+  {
+    "id": "L2-explorar",
+    "title": "Explorar y buscar",
+    "active": "",
+    "note": "Variante de búsqueda global con resultados de distintos tipos, filtros locales y estado vacío comprobable.",
+    "zones": [
+      {
+        "name": "Contexto",
+        "widgets": "W06"
+      },
+      {
+        "name": "Consulta global",
+        "widgets": "W05"
+      },
+      {
+        "name": "Filtros y resultados",
+        "widgets": "W05 · W14 · W15 · W11"
+      },
+      {
+        "name": "Búsqueda y filtros",
+        "widgets": "W05 · W14"
+      },
+      {
+        "name": "Estado de resultados",
+        "widgets": "W15"
+      }
+    ]
+  },
+  {
+    "id": "L3",
+    "title": "Caso de proyecto",
+    "active": "Proyectos",
+    "note": "Caso completo con ficha y cuerpo editorial. Usa contenido disponible, sin detalles contractuales reservados; las evidencias condicionales no se rellenan con material ficticio.",
+    "zones": [
+      {
+        "name": "Contexto",
+        "widgets": "W06"
+      },
+      {
+        "name": "Encabezado del proyecto",
+        "widgets": "Contenido editorial"
+      },
+      {
+        "name": "Ficha de participación",
+        "widgets": "W17"
+      },
+      {
+        "name": "Contexto, decisiones y resultados",
+        "widgets": "Contenido editorial"
+      },
+      {
+        "name": "Capacidades y relaciones",
+        "widgets": "W20 · W30 · W32"
+      },
+      {
+        "name": "Compartir y continuar",
+        "widgets": "W13 · W35"
+      }
+    ]
+  },
+  {
+    "id": "L4",
+    "title": "Trayectoria profesional",
+    "active": "Trayectoria",
+    "note": "Cronología completa de once etapas. W22 se reserva para cuando exista el CV: no hay botón falso ni documento de prueba descargable.",
+    "zones": [
+      {
+        "name": "Contexto",
+        "widgets": "W06"
+      },
+      {
+        "name": "Resumen profesional",
+        "widgets": "W09"
+      },
+      {
+        "name": "Cronología y detalle",
+        "widgets": "W21"
+      },
+      {
+        "name": "Capacidades transversales",
+        "widgets": "W20 · W32"
+      },
+      {
+        "name": "Formación y comunidad",
+        "widgets": "Contenido editorial · W08"
+      },
+      {
+        "name": "Invitación a conversar",
+        "widgets": "W13"
+      }
+    ]
+  },
+  {
+    "id": "L5",
+    "title": "Publicación y lectura",
+    "active": "Obra y pensamiento",
+    "note": "Lector de ejemplo, no obra publicada. Los dos niveles de índice muestran la composición de pieza y capítulo; no hay descarga ficticia, preferencias avanzadas ni progreso simulado.",
+    "zones": [
+      {
+        "name": "Contexto",
+        "widgets": "W06"
+      },
+      {
+        "name": "Ficha y presentación de obra",
+        "widgets": "W23"
+      },
+      {
+        "name": "Índice y lectura",
+        "widgets": "W24 · W27"
+      },
+      {
+        "name": "Índice y continuidad",
+        "widgets": "W28"
+      },
+      {
+        "name": "Temas y lecturas relacionadas",
+        "widgets": "W30 · W32"
+      }
+    ]
+  },
+  {
+    "id": "L6",
+    "title": "Tema y relaciones",
+    "active": "",
+    "note": "Tema con definición, contexto, proyectos y etapa profesional. Las relaciones tienen explicación; no se agrega el grafo posterior para llenar espacio.",
+    "zones": [
+      {
+        "name": "Contexto",
+        "widgets": "W06"
+      },
+      {
+        "name": "Identidad del término",
+        "widgets": "W31"
+      },
+      {
+        "name": "Contexto y relaciones",
+        "widgets": "W31 · W32"
+      },
+      {
+        "name": "Proyectos asociados",
+        "widgets": "W11 · W20 · W30"
+      },
+      {
+        "name": "Experiencia vinculada",
+        "widgets": "W20 · W32"
+      },
+      {
+        "name": "Continuación",
+        "widgets": "W13"
+      }
+    ]
+  },
+  {
+    "id": "L7",
+    "title": "Sobre mí",
+    "active": "Sobre mí",
+    "note": "Perfil sin repetir toda la cronología. Integra método y lecturas como voz personal; las obras aplazadas no aparecen.",
+    "zones": [
+      {
+        "name": "Contexto",
+        "widgets": "W06"
+      },
+      {
+        "name": "Identidad",
+        "widgets": "Contenido editorial"
+      },
+      {
+        "name": "Biografía e intereses",
+        "widgets": "Contenido editorial"
+      },
+      {
+        "name": "Forma de trabajar",
+        "widgets": "Contenido editorial · W20"
+      },
+      {
+        "name": "Lecturas y pensamiento",
+        "widgets": "Contenido editorial · W32"
+      },
+      {
+        "name": "Perfiles y continuación",
+        "widgets": "W08 · W13"
+      },
+      {
+        "name": "Invitación a conversar",
+        "widgets": "W13"
+      }
+    ]
+  },
+  {
+    "id": "L8",
+    "title": "Contacto",
+    "active": "Contacto",
+    "note": "Contacto directo, sin formulario ni simulación de envío. CV y canales sin destino confirmado se omiten hasta que estén disponibles.",
+    "zones": [
+      {
+        "name": "Contexto",
+        "widgets": "W06"
+      },
+      {
+        "name": "Invitación y canal principal",
+        "widgets": "W13 · W34"
+      },
+      {
+        "name": "Contacto profesional y otros espacios",
+        "widgets": "W08"
+      },
+      {
+        "name": "Recursos profesionales",
+        "widgets": "W13"
+      }
+    ]
+  }
+]

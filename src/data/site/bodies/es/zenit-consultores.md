@@ -1,0 +1,1 @@
+Trabajé en diseño y desarrollo de soluciones, resolución de fallas y coordinación técnica. Lideré a dos desarrolladores y mantuve una participación directa en la construcción y revisión de los sistemas.

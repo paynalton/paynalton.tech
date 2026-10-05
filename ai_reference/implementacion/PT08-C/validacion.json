@@ -1,0 +1,19 @@
+{
+  "scope": "PT08-C",
+  "deployment": false,
+  "html_pages": 337,
+  "public_entities": 319,
+  "library_works": 111,
+  "new_texts": 110,
+  "work_exports": 220,
+  "total_exports": 244,
+  "indexed_documents": 311,
+  "public_text_files_checked": 608,
+  "unchanged_source_files": 140,
+  "content_tests_passed": 68,
+  "import_tests_passed": 3,
+  "browser_tests_passed": 111,
+  "browser_tests_skipped": 1,
+  "design_tests_passed": 51,
+  "static_content_pages_equal": 337
+}

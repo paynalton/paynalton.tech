@@ -1,0 +1,84 @@
+<br><br><br><br><br>Uno de los principales problemas con GNU-Linux desde sus inicios<br>siempre fue la estandarización. Y es que GNU-linux siempre fue un<br>proyecto abierto a todo el mundo y en donde miles de manos han creado<br>un pequeño trozo de código. Pero, humanos al final de cuentas, no<br>siempre estaremos todos de acuerdo y al existir tantas manos metidas es<br>difícil tener un orden, siendo que cada persona puede tener un Linux<br>totalmente distinto del que tiene su vecino.<br><br>Entonces los<br>programadores de aplicaciones tienen un gran problema: Cuando ellos<br>crean su programa utilizan diferentes bibliotecas para ahorrarse<br>trabajo y comprueban que en su sistema funcione correctamente. Pero si<br>el programador quiere distribuirlo es muy posible que otras<br>computadoras no tengan las mismas bibliotecas que las que el utilizó o<br>simplemente que se encuentren en un directorio distinto del esperado,<br>lo cual hace que su programa sea incompatible con otros sistemas.<br><br>Esto<br>crea un gran problema que en un principio se intento solucionar por<br>medio de LSB (Linux Standard Base) que proponía un conjunto de<br>bibliotecas standard en las que los programadores podrían confiar con<br>encontrar siempre en cualquier sistema linux.<br><br>Sin embargo este<br>plan no progresó como se esperaba y LSB se convirtió en una solución no<br>muy bien aceptada, pues había serias discusiones sobre que biblioteca<br>era mejor que otra, un programa que causaba inestabilidad con otro o<br>que era demasiado inseguro, y culminó con el rompimiento de relaciones<br>con algunas compañías importantes.<br><br>Y hasta hace algunos años<br>instalar un programa en linux era una pesadilla, pues para tenerlo<br>debías de conseguir e instalar todos y cada uno de los programas que se<br>requerían para hacer funcionar ese programa.<br><br>Una primera<br>solución fueron los paquetes de instalación. Un usuario que quería<br>instalar un programa debía buscar el respectivo paquete de instalación<br>(.deb, .ebuild, .rpm, etc.) para su sistema y el sistema instalador<br>comprobaba las dependencias del programa, alertando si faltaba alguna y<br>sugiriendo a veces de donde descargar el programa que faltaba.<br><br>Posteriormente<br>algunos de estos sistemas de instalación podían descargar los paquetes<br>de instalación de los programas que faltaban (dependencias) para hacer<br>la vida del usuario mucho más fácil.<br><br>Todo esto ha ido evolucionando hasta llegar a los actuales sistemas de repositorios.<br><br>**SISTEMAS DE REPOSITORIOS**<br><br>Casi cualquier versión de GNU-Linux cuenta con un sistema de repositorios. Pero que demonios es eso?<br><br>Los<br>usuarios que migran de un sistema a otro se sorprenden de que ya no<br>tienen que pasar horas buscando un programa en internet para<br>instalarlo, sino que dentro de su sistema linux encuentran una lista de<br>programas para instalar.<br><br>Un repositorio es eso, una lista de<br>programas que es mantenida por la gran cantidad de usuarios y<br>desarrolladores de una distribución determinada. Cada vez que surge un<br>programa nuevo o una nueva versión de este, un grupo de entusiastas<br>revisa las dependencias de ese programa, lo instalan y revisan su<br>estabilidad, seguridad y diversos conflictos con otras aplicaciones.<br>Tras un periodo de prueba el programa es colocado en la lista de<br>"programas estables" en donde los usuarios comunes pueden hacer uso de<br>el con toda confianza.<br><br>por tanto un usuario que quiere instalar un programa solo tiene que hacer lo siguiente:<br><br>Reconoce<br>el sistema instalador que utiliza, para RedHat y Fedora se usa YUM,<br>para los venidos de Debian se usa APT, para gentoo está PORTAGE y<br>disculpen si por ignorancia omito alguno.<br><br>Entonces deben actualizar la lista de programas desde el sitio de la distribución corriendo un simple comando:<br>
+
+<div>
+
+Código:
+
+</div>
+
+<div>
+
+```
+#apt-get update
+#emerge --sync
+```
+
+</div>
+
+<br>Una vez hecho esto hacen una búsqueda para encontrar su programa.<br><br>
+
+<div>
+
+Código:
+
+</div>
+
+<div>
+
+```
+$apt-cache search programa
+$emerge -s programa
+$yum search programa
+```
+
+</div>
+
+<br>Una vez que tienen el nombre exacto del programa simplemente ejecutan otro comando para instalarlo:<br>
+
+<div>
+
+Código:
+
+</div>
+
+<div>
+
+```
+#apt-get install programa
+#emerge programa
+#yum install programa
+```
+
+</div>
+
+<br>Y listo, el sistema realizará las siguientes acciones:<br><br>
+
+- buscar la última versión estable para el programa<br>
+- calcular la cantidad de dependencias del programa<br>
+- descargar todos los archivos necesarios para instalar el programa y sus dependencias<br>
+- verificar que los archivos descargados no estén corruptos (ya sea por un error en la descarga o porque alguien muy malo
+- haya alterado el paquete)<br>
+- descomprimir todos los archivos<br>
+- instalar todos los programas<br>
+- configurar todos los programas<br>
+- mostrar opciones para cosas que requieran la atención del usuario (como aceptar contratos o dar datos específicos del equipo).
+
+<br>Y con eso su programa estará instalado...<br><br>**Muy fácil no? no? porque no?**<br><br>Si<br>lo suyo no son los comandos, casi todas las distribuciones cuentan ya<br>con una interfaz gráfica para su sistema instalador. que ejecula por<br>ustedes esos tres simples comandos de manera que ustedes solo tienen<br>que: buscar el programa, seleccionar el que quieren instalar y dar<br>click en "instalar"...<br><br>**Les gusta el peligro?**<br><br>Todo<br>sistema de repositorios siempre está establecido por defecto en las<br>versiones estables del sistema, pero si ustedes son lo bastante<br>audaces, siempre pueden configurarlo en repositorios inestables para<br>obtener siempre los últimos programas recién saliditos de la forja<br>(sourceforge), y si encuentran algún error no olviden reportarlo para<br>que así e, la próxima actualización sea corregido no solo para ustedes,<br>sino para todos los que utilizan ese programa.<br><br>**lo olvidaba, actualizaciones.**<br><br>Pueden<br>ustedes actualizar sus sistemas por completo, incluyendo todos y cada<br>uno de los programas instalados con un simple comando:<br>
+
+<div>
+
+Código:
+
+</div>
+
+<div>
+
+```
+#yum update
+#apt-get upgrade
+3emerge -u world
+```
+
+</div>
+
+<br>Y<br>con esto siempre tendrán a su equipo en las mejores condiciones y<br>claro, también hay interfaces gráficas para todo esto y notificadores<br>automáticos que le informan de nuevas actualizaciones disponibles.<br><br>Suerte, si hay preguntas pues es la hora.<br>

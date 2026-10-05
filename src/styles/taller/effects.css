@@ -1,0 +1,58 @@
+/* Static composition has fixed dimensions, regardless of whether WebGL loads. */
+.tn-scene[data-workshop]{position:relative;aspect-ratio:4/3;isolation:isolate}
+.tn-scene[data-workshop] picture,.tn-scene[data-workshop] img{display:block;inline-size:100%;block-size:100%}
+.tn-scene[data-workshop] img{object-fit:contain}
+.tn-scene[data-workshop] canvas{position:absolute;inset:0;inline-size:100%;block-size:100%;opacity:0;pointer-events:none}
+.tn-scene[data-scene=ready] canvas{opacity:1}
+.tn-scene[data-scene=ready] picture{visibility:hidden}
+@media(max-width:800px){.tn-scene[data-workshop]{aspect-ratio:1}}
+@media(prefers-reduced-motion:no-preference){
+ html.fx-decorations[data-effects]:not([data-effects=off]) .tn-card{transition:transform var(--motion-hover-return) var(--motion-emphasized),border-color var(--motion-hover-return) var(--motion-easing),background-color var(--motion-hover-return) var(--motion-easing),box-shadow var(--motion-hover-return) var(--motion-easing)}
+ html.fx-decorations[data-effects]:not([data-effects=off]) .tn-action{transition:transform var(--motion-hover-return) var(--motion-emphasized),border-color var(--motion-hover-return) var(--motion-easing),background-color var(--motion-hover-return) var(--motion-easing),box-shadow var(--motion-hover-return) var(--motion-easing)}
+ @media(hover:hover) and (pointer:fine){html.fx-decorations[data-effects]:not([data-effects=off]) .tn-card:hover{transition-duration:var(--motion-hover)}}
+ @media(hover:hover) and (pointer:fine){html.fx-decorations[data-effects]:not([data-effects=off]) .tn-action:hover{transition-duration:var(--motion-hover)}}
+ html.fx-decorations[data-effects=full] .tn-card:focus-within{transform:translateY(-5px)}
+ @media(hover:hover) and (pointer:fine){html.fx-decorations[data-effects=full] .tn-card:hover{transform:translateY(-5px)}}
+ html.fx-decorations[data-effects]:not([data-effects=off]) a:not(.tn-action){transition:color var(--motion-hover-return) var(--motion-easing),text-underline-offset var(--motion-hover-return) var(--motion-emphasized),text-decoration-color var(--motion-hover-return) var(--motion-easing)}
+ @media(hover:hover) and (pointer:fine){html.fx-decorations[data-effects]:not([data-effects=off]) a:not(.tn-action):hover{transition-duration:var(--motion-hover)}}
+ html.fx-decorations[data-effects]:not([data-effects=off]) .shell-navigation a:is(:hover,:focus-visible){text-underline-offset:.5em}
+ html.fx-decorations[data-effects]:not([data-effects=off]) [data-experience]{border-inline-start-color:var(--borde-decorativo);transition:border-color var(--motion-hover) var(--motion-easing)}
+ html.fx-decorations[data-effects]:not([data-effects=off]) [data-experience].fx-current{border-inline-start-color:var(--acento-greca)}
+}
+@media print{.tn-scene[data-workshop] canvas{display:none}.tn-scene[data-workshop] picture{visibility:visible}}
+
+@media(prefers-reduced-motion:no-preference){
+ html.fx-decorations #search-panel::backdrop{transition:background-color 805ms cubic-bezier(.4,0,.2,1)}
+ html.fx-decorations #search-panel[data-closing=true]::backdrop{background-color:transparent}
+ .shell-header .tn-brand svg{transform-origin:center}
+}
+
+.project-particles{position:absolute;inset:0;pointer-events:none;z-index:0;border-radius:inherit}
+.project-particles i{position:absolute;display:block;border-radius:50%;background:radial-gradient(circle,rgba(255,225,160,.95),rgba(199,141,101,.5) 40%,transparent 72%);pointer-events:none}
+@media(prefers-reduced-motion:reduce){.project-particles{display:none}}
+
+.tn-scene[data-workshop=book]{aspect-ratio:1}
+.fireworks-overlay{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:1000}
+@media print{.fireworks-overlay{display:none}}
+.scene-speaker,.trajectory-ornament.scene-speaker{pointer-events:auto}
+[data-vortex=running]{transform-origin:center;pointer-events:none!important}
+[data-vortex=gone]{visibility:hidden!important;pointer-events:none!important}
+html[data-hide-forms=true] :is([data-workshop],[data-reading-ornament],.shell-footer-mark,.tn-brand .tn-ornament){visibility:hidden!important;pointer-events:none!important}
+.tn-card>.scene-speaker{z-index:2}
+.scene-speech-trigger{position:absolute;inset:0;z-index:3;inline-size:100%;block-size:100%;border:0;padding:0;background:transparent;cursor:pointer;border-radius:1rem}
+.scene-speech-trigger:focus-visible{outline:2px solid var(--acento-greca);outline-offset:-4px}
+.scene-speech{position:fixed;inset:auto;margin:0;box-sizing:border-box;max-inline-size:calc(100vw - 24px);padding:1.2rem 3.5rem 1.2rem 1.5rem;overflow:visible;border:1px solid #ffe1a0;border-radius:1.2rem;background:#ffe1a0;color:#172421;box-shadow:0 12px 44px #0009,0 0 30px #c78d6540;font:600 1.15rem/1.5 'Manrope',sans-serif}
+.scene-speech p{margin:0}
+.scene-speech[data-closing=true]{pointer-events:none}
+.scene-speech::after{content:'';position:absolute;left:var(--speech-tip,50%);width:14px;height:14px;background:#ffe1a0;transform:translateX(-50%) rotate(45deg)}
+.scene-speech[data-side=above]::after{bottom:-8px}
+.scene-speech[data-side=below]::after{top:-8px}
+.scene-speech [data-speech-close]{position:absolute;right:.25rem;top:.25rem;width:44px;height:44px;border:0;border-radius:50%;background:transparent;color:inherit;font:inherit;font-size:1.6rem;cursor:pointer}
+.scene-speech{inline-size:max-content;max-inline-size:min(26rem,calc(100vw - 24px));overflow-wrap:anywhere}
+.scene-speech-choices{display:flex;gap:.75rem;margin-block-start:1rem}
+.scene-speech-choices[hidden]{display:none}
+.scene-speech-choices button{min-inline-size:64px;min-block-size:44px;padding:.4rem 1rem;border:1px solid currentColor;border-radius:.6rem;background:#172421;color:#ffe1a0;font:inherit;cursor:pointer}
+.scene-speech button:focus-visible{outline:2px solid currentColor;outline-offset:-4px}
+@media(prefers-reduced-motion:no-preference){html:not([data-effects=off]) .scene-speech:popover-open{animation:scene-speech-in 360ms cubic-bezier(.16,1,.3,1)}}
+@keyframes scene-speech-in{from{opacity:0;transform:translateY(6px) scale(.96)}to{opacity:1;transform:none}}
+@media print{.scene-speech,.scene-speech-trigger{display:none}}

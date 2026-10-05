@@ -1,0 +1,1 @@
+Trabajo con distintos agentes y modelos según el problema. Distingo entre utilizar IA para construir una herramienta e incorporarla a su funcionamiento: Yayauhqui corresponde al primer caso y SpellChecker al segundo. En trabajos complejos preparo documentación intermedia para que los agentes puedan reconstruir su contexto y continuar con coherencia.

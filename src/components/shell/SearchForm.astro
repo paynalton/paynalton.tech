@@ -1,0 +1,11 @@
+---
+interface Props { t: (key: string) => string; action: string; id: string; }
+const { t, action, id } = Astro.props;
+---
+<form id={`${id}-form`} method="get" action={action} role="search" class="shell-search-form">
+  <label for={id}>{t('search.query')}</label>
+  <div class="shell-search-row">
+    <input type="search" name="q" id={id} maxlength="200"/>
+    <button class="tn-action tn-action--primary" type="submit">{t('search.submit')}</button>
+  </div>
+</form>

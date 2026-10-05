@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "24.21.0"
+  NPM_VERSION = "12.0.2"
+
+# HTTP rules travel with prebuilt uploads: dist/_redirects and dist/_headers.
+# No SPA catch-all: unknown URLs must retain a real 404 status.

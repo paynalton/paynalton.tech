@@ -1,0 +1,16 @@
+---
+import path from 'node:path';
+import ContentPage from '../../../../components/site/ContentPage.astro';
+import { loadReading, readingPrefix } from '../../../../lib/site/reading-fixture.mjs';
+import { routeManifest } from '../../../../lib/site/navigation.mjs';
+import type { SiteRoute } from '../../../../lib/site/types';
+export async function getStaticPaths() {
+  if (process.env.DESIGN_REVIEW !== '1') return [];
+  return routeManifest(await loadReading(path.resolve('src/data/site')), readingPrefix).map(page => ({
+    params:{locale:page.locale,path:page.url.slice(readingPrefix.length).split('/').slice(2,-1).join('/') || undefined}, props:{page},
+  }));
+}
+interface Props { page: SiteRoute; }
+const repository = await loadReading(path.resolve('src/data/site'));
+---
+<ContentPage page={Astro.props.page} repository={repository} routePrefix={readingPrefix} collection="readingContent"/>

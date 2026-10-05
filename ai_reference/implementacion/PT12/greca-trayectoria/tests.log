@@ -1,0 +1,27 @@
+npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+npm notice run paynalton.tech@0.0.1 test:e2e
+npm notice run playwright test tests/trajectory-ornament.spec.ts tests/professional.spec.ts --grep vertical ornament|narrow reading|complete ornament|complete catalog --workers=1
+[WebServer] npm warn Unknown env config "always-auth". This will error in a future major version of npm. See `npm help npmrc` for supported config options.
+[WebServer] npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+[WebServer] npm notice run paynalton.tech@0.0.1 preview
+[WebServer] npm notice run astro preview --host 127.0.0.1 --port 4334 --ignore-lock
+[WebServer] (node:286767) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 8 tests using 1 worker
+
+(node:286849) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 [desktop] › tests/professional.spec.ts:5:1 › complete catalog, chronology, printable details and review captures (6.1s)
+  ✓  2 [desktop] › tests/trajectory-ornament.spec.ts:4:1 › vertical ornament follows reading in both directions without covering content (3.7s)
+  ✓  3 [desktop] › tests/trajectory-ornament.spec.ts:27:1 › narrow reading and disabled effects keep all stages usable (301ms)
+  ✓  4 [desktop] › tests/trajectory-ornament.spec.ts:38:1 › the complete ornament and chronology remain available without JavaScript (245ms)
+(node:287366) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  5 [mobile] › tests/professional.spec.ts:5:1 › complete catalog, chronology, printable details and review captures (12.9s)
+  -  6 [mobile] › tests/trajectory-ornament.spec.ts:4:1 › vertical ornament follows reading in both directions without covering content
+  ✓  7 [mobile] › tests/trajectory-ornament.spec.ts:27:1 › narrow reading and disabled effects keep all stages usable (205ms)
+  ✓  8 [mobile] › tests/trajectory-ornament.spec.ts:38:1 › the complete ornament and chronology remain available without JavaScript (158ms)
+
+  1 skipped
+  7 passed (25.5s)

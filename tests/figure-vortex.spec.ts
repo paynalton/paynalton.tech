@@ -1,0 +1,33 @@
+import {test,expect} from '@playwright/test';
+import {mkdir} from 'node:fs/promises';
+test.use({reducedMotion:'no-preference',launchOptions:{executablePath:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE,args:['--enable-unsafe-swiftshader']}});
+test('one click spirals every figure away in 1.5 seconds without shifting content',async({page},info)=>{
+ await page.addInitScript(()=>localStorage.setItem('paynalton.visual.v1',JSON.stringify({mode:'full'})));
+ await page.goto('/es/sobre-mi/');
+ const figures=page.locator('[data-workshop], [data-reading-ornament], .shell-footer-mark, .tn-brand .tn-ornament');
+ const height=await page.locator('main').evaluate(el=>el.getBoundingClientRect().height);
+ await page.locator('[data-workshop] [data-vortex-trigger]').scrollIntoViewIfNeeded();
+ await expect(page.locator('[data-workshop]')).toHaveAttribute('data-scene','ready');
+ await page.evaluate(()=>(window as any).formsController.setState({FormsConvertationCounter:19}));
+ await page.locator('[data-workshop] [data-vortex-trigger]').click();
+ await expect(page.locator('#scene-speech')).toBeHidden();
+ await expect(page.locator('[data-vortex=running]')).toHaveCount(await figures.count());
+ const duration=await figures.first().evaluate(el=>el.getAnimations().find(a=>a.effect?.getTiming().duration===1500)?.effect?.getTiming().duration);
+ expect(duration).toBe(1500);
+ await page.waitForTimeout(300);
+ expect(await figures.first().evaluate(el=>Number(getComputedStyle(el).scale))).toBeLessThan(1);
+ const dir=`ai_reference/implementacion/PT12/remolino/${info.project.name}`;await mkdir(dir,{recursive:true});await page.screenshot({path:`${dir}/remolino.png`});
+ await expect(page.locator('html')).toHaveAttribute('data-figures-gone','true',{timeout:2500});
+ for(const figure of await figures.all())await expect(figure).toBeHidden();
+ expect(await page.locator('main').evaluate(el=>el.getBoundingClientRect().height)).toBe(height);
+ await expect(page.locator('[data-workshop] canvas')).toHaveCount(0);
+ expect(await page.evaluate(()=>(window as any).formsController.getState())).toMatchObject({HideForms:true,FormsConvertationCounter:20,FormsConvertationWorkflow:0});
+ await expect(page.locator('.tn-brand')).toBeVisible();
+ await page.reload();await expect(page.locator('[data-workshop]')).toBeHidden();
+ expect(await page.evaluate(()=>(window as any).formsController.getState().FormsConvertationCounter)).toBe(20);
+});
+test('reduced motion removes the vortex controls',async({page})=>{
+ await page.emulateMedia({reducedMotion:'reduce'});await page.goto('/es/');
+ await expect(page.locator('[data-vortex-trigger]')).toHaveCount(0);
+ await expect(page.locator('[data-workshop]').first()).toBeVisible();
+});

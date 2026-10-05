@@ -1,0 +1,29 @@
+---
+interface Edition {locale:string;label:string;format:string;url:string;}
+interface Props {editions:Edition[];locale:string;copy:{downloadTitle:string;downloadHelp:string;editionLabel:string;formatLabel:string;download:string;available:string;comingSoon:string};allLabel:string;}
+const {editions,locale,copy:c,allLabel}=Astro.props;
+const languages=[...new Map(editions.map(e=>[e.locale,e.label])).entries()];
+const formats=[...new Set(editions.map(e=>e.format))];
+const initial=editions.find(e=>e.locale===locale)??editions[0];
+---
+{initial && <section class="tn-stack book-downloads" data-pagefind-ignore data-download-panel data-available-text={c.available} data-coming-soon-text={c.comingSoon} data-download-text={c.download}>
+ <h2>{c.downloadTitle}</h2><p>{c.downloadHelp}</p>
+ <div class="download-controls" data-enhanced-downloads hidden>
+  <div><label for="book-edition">{c.editionLabel}</label><select id="book-edition" data-edition-select>{languages.map(([code,label])=><option value={code} selected={code===initial.locale}>{label}</option>)}</select></div>
+  <div><label for="book-format">{c.formatLabel}</label><select id="book-format" data-format-select>{formats.map(format=><option value={format} selected={format===initial.format}>{format.toUpperCase()}</option>)}</select></div>
+ </div>
+ <a class="tn-action tn-action--primary download-button" data-download-button href={initial.url} download aria-disabled="false"><span>{c.download} {initial.format.toUpperCase()}</span></a>
+ <p data-download-status role="status"></p>
+ <details class="all-downloads"><summary>{allLabel}</summary><ul>{editions.map(e=><li><a data-edition={e.locale} data-format={e.format} href={e.url} download>{e.label} · {e.format.toUpperCase()}</a></li>)}</ul></details>
+</section>}
+<script>import '../../scripts/book-downloads.js';</script>
+<style>
+.book-downloads{margin-block:1.5rem;max-inline-size:50rem}
+.book-downloads>*+*{margin-block-start:1rem}
+.download-controls:not([hidden]){display:flex;flex-wrap:wrap;gap:1rem}
+.download-controls>div{min-inline-size:0;flex:1 1 12rem}
+.download-controls label{display:block;margin-block-end:.5rem}
+.download-controls select{font:inherit;max-inline-size:100%;min-block-size:48px;padding:.5rem}
+.all-downloads summary{cursor:pointer;min-block-size:44px;padding-block:.5rem}
+.all-downloads a{display:inline-block;padding-block:.5rem;min-block-size:44px}
+</style>

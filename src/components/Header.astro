@@ -3,7 +3,7 @@ import UpButton from './UpButton.astro';
 const { lang, t } = Astro.props;
 ---
 
-<UpButton/>
+<UpButton label={t._t('nav.backToTop')}/>
 <header id="header-top" class="header-top">
     <ul>
         <li>
@@ -24,11 +24,11 @@ const { lang, t } = Astro.props;
                 <ul>
                     <li class="header-top-contact">
                         <a href="https://t.me/Paynalton" target="_blank" title="Telegram">
-                            <i class="fa-brands fa-telegram"></i> Telegram
+                            <i class="fa fa-telegram"></i> Telegram
                         </a>
                     </li>
                     <li class="header-top-contact">
-                        <a href="mailto:cxescalona@gmail.com" target="_blank" title="Email">
+                        <a href="mailto:cxescalona@gmail.com" target="_blank" title={t._t('Email')}>
                             <i class="fa fa-envelope"></i> { t._t("Email") }
                         </a>
                     </li>
@@ -40,7 +40,7 @@ const { lang, t } = Astro.props;
 </header>
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        const languageSelect = document.getElementById('language');
+        const languageSelect = document.querySelector<HTMLSelectElement>('#language');
         languageSelect?.addEventListener('change', function() {
             const selectedLanguage = this.value;
             const currentUrl = window.location.href;

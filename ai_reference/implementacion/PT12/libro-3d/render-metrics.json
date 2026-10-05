@@ -1,0 +1,29 @@
+[
+  {
+    "name": "book",
+    "width": 1000,
+    "height": 1000,
+    "geometryBytes": 96048,
+    "triangles": 816,
+    "calls": 10,
+    "geometries": 10,
+    "textures": 2,
+    "resources": [
+      {
+        "file": "public/taller/workshop/book-400.webp",
+        "width": 400,
+        "bytes": 12132
+      },
+      {
+        "file": "public/taller/workshop/book-640.webp",
+        "width": 640,
+        "bytes": 20836
+      },
+      {
+        "file": "public/taller/workshop/book-800.webp",
+        "width": 800,
+        "bytes": 26254
+      }
+    ]
+  }
+]

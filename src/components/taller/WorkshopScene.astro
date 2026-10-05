@@ -1,0 +1,11 @@
+---
+import '../../styles/taller/effects.css';
+interface Props {variant?: 'hero' | 'experience' | 'skills' | 'method' | 'book' | 'projects' | 'career' | 'works' | 'about' | 'contact';}
+const {variant='hero'}=Astro.props;
+---
+<div class="tn-scene" data-workshop={variant} data-scene="static" aria-hidden="true">
+ {variant === 'hero' ? <picture>
+  <source media="(max-width:800px)" srcset="/taller/workshop/movil-400.webp 400w, /taller/workshop/movil-640.webp 640w, /taller/workshop/movil-800.webp 800w" sizes="(max-width:480px) calc(100vw - 64px), 420px" width="1000" height="1000"/>
+  <img src="/taller/workshop/escritorio-960.webp" srcset="/taller/workshop/escritorio-640.webp 640w, /taller/workshop/escritorio-960.webp 960w, /taller/workshop/escritorio-1280.webp 1280w" sizes="(max-width:800px) 420px, (max-width:1200px) 44vw, 520px" width="1600" height="1200" alt="" decoding="async"/>
+ </picture> : <picture><img src={`/taller/workshop/${variant}-640.webp`} srcset={`/taller/workshop/${variant}-400.webp 400w, /taller/workshop/${variant}-640.webp 640w, /taller/workshop/${variant}-800.webp 800w`} sizes="(max-width:800px) calc(100vw - 64px), 440px" width="1000" height="1000" loading="lazy" decoding="async" alt=""/></picture>}
+</div>

@@ -1,0 +1,16 @@
+{
+  "scenes": [
+    "projects",
+    "career",
+    "works",
+    "about",
+    "contact"
+  ],
+  "html_pages": 337,
+  "browser_tests_passed": 12,
+  "static_equivalent": true,
+  "check_errors": 0,
+  "check_warnings": 0,
+  "full_candidate_rerun": false,
+  "deployed": false
+}

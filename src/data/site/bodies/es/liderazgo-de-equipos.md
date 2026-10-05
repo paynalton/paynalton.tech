@@ -1,0 +1,1 @@
+He liderado equipos de hasta quince desarrolladores, con responsabilidad sobre contratación, capacitación, supervisión, arquitectura y entregas. Procuro entender qué impide avanzar y actuar sobre ese bloqueo, ya sea técnico, de comprensión o de coordinación. Escuchar y ayudar a ordenar un problema forma parte del trabajo de dirección.

@@ -4,7 +4,7 @@
 <div class=" col-md-4 col-sm-6">
     <div class="single-explore-item">
         <div class="single-explore-img">
-            <img src={ imagen } alt="explore image">
+            <img src={ imagen } alt="">
         </div>
         <div class="single-explore-txt bg-theme-1">
             <h2><a href="#">{ title }</a></h2>
@@ -12,7 +12,7 @@
                 <div class="row">
                     <div class="col-sm-10">
                         <ul>
-                            {list?.map((item) => (
+                            {list?.map((item: string) => (
                                 <li>
                                    {item}
                                 </li>

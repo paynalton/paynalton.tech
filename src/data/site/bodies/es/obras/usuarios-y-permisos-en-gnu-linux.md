@@ -1,0 +1,203 @@
+<br><br><br><br><br>Esto es algo que a muchos usuarios nuevos causa confusión...<br><br>Muchas veces verán manuales y mensajes que se ven así:<br><br>
+
+<div>
+
+Código:
+
+</div>
+
+<div>
+
+```
+$ls todo
+
+#apt-get install miprograma
+```
+
+</div>
+
+<br><br>Y no toman en cuenta el primer carácter.<br><br>Linux<br>es un sistema bastante seguro debido a que la mayor parte de las cosas<br>se hacen en modo usuario, de manera que lo que hacemos en este modo<br>nunca dañará el sistema (a menos que hayamos hecho cosas muy estúpidas<br>con anterioridad como cambiar permisos de archivos y directorios<br>importantes).<br><br>Cuando en un manual o instrucción indicamos que un<br>comando debe ser usado en modo usuario entonces usamos el carácter "\$"<br>al principio de la linea, por ejemplo:<br><br>
+
+<div>
+
+Código:
+
+</div>
+
+<div>
+
+```
+$mkdir nuevacarpeta
+$rm archivodeprueva
+$ls *
+```
+
+</div>
+
+<br>En cambio, cuando debemos correr un comando como administrador lo indicamos con el caracter "#", por ejemplo:<br><br>
+
+<div>
+
+Código:
+
+</div>
+
+<div>
+
+```
+#apt-get install loquesea
+#nano /etc/archivo.conf
+#rm -r /*
+```
+
+</div>
+
+**Recomendaciones:**<br><br>Por<br>la seguridad de sus equipos, cuando vayan a correr un comando como<br>administrador, inicien la sesión, ejecuten lo que han de ejecutar y<br>regresen de inmediato al modo usuario, eso les salvara de cometer un<br>error que pudiese ser fatal para el sistema.<br>**<br>Alternar entre modo usuario y Administrador:**<br><br>En linux siempre habrá más de una manera de hacer las cosas.<br><br>La<br>opción más común para correr un comando es abrir una consola virtual<br>(algun programa dentro del ambiente gráfico que nos muestre la línea de<br>comandos al más puro estilo MS-DOS). y ejecutar comandos. al abrirlo<br>veremos algo así:<br><br>
+
+<div>
+
+Código:
+
+</div>
+
+<div>
+
+```
+paynalton@Carlos-Internet:~$
+```
+
+</div>
+
+Como<br>pueden ver, el "\$" nos indica que estamos en modo usuario. Para ser más<br>específicos, el PROMPT se estructura de la siguiente manera:<br><br>
+
+<div>
+
+Código:
+
+</div>
+
+<div>
+
+```
+paynalton                  @       Carlos-Internet      :   ~                       $
+NombreDelUsuario     @       NombreDelEquipo  :   DirectorioActual   MODO
+```
+
+</div>
+
+Para pasar al modo administrador usamos el comando "su"<br><br>
+
+<div>
+
+Código:
+
+</div>
+
+<div>
+
+```
+paynalton@intraasm:~$ su
+Password:
+intraasm:/var/www/nuevaintra#
+```
+
+</div>
+
+<br>Como<br>ven nos cambia el caracter final por un "#" indicando que estamos en<br>modo administrador, para volver al modo anterior simplemente se usa el<br>comando "exit"<br><br>
+
+<div>
+
+Código:
+
+</div>
+
+<div>
+
+```
+paynalton@intraasm:~$ su
+Password:
+intraasm:/var/www/nuevaintra# exit
+exit
+paynalton@intraasm:~$    
+```
+
+</div>
+
+<br>Así siempre volveran al usuario anterior.<br><br>Algunos<br>sistemas, por seguridad, no te permiten usar el comando "su" (ubuntu y<br>toda su prole) pero en cambio vienen con otro comando bastante útil y<br>seguro: "sudo" (hacer como su). Este comando les permitirá ejecutar<br>comandos como si fueran el administrador pero sin abrir por completo la<br>sesión, de manera que no necesitan el comando "exit".<br><br>de manera que si en un manual ven algo así:<br>
+
+<div>
+
+Código:
+
+</div>
+
+<div>
+
+```
+$./config
+$./make
+#./make install
+```
+
+</div>
+
+<br>da lo mismo que ejecuten:<br><br><br>
+
+<div>
+
+Código:
+
+</div>
+
+<div>
+
+```
+paynalton@intraasm:~$./config
+paynalton@intraasm:~$./make
+paynalton@intraasm:~$su
+Password:
+intraasm:/var/www/nuevaintra#./make install
+intraasm:/var/www/nuevaintra# exit
+exit
+paynalton@intraasm:~$  
+```
+
+</div>
+
+ <br><br>y<br><br>
+
+<div>
+
+Código:
+
+</div>
+
+<div>
+
+```
+paynalton@Carlos-Internet:~$./config
+paynalton@Carlos-Internet:~$./make
+paynalton@Carlos-Internet:~$ sudo ./make install
+[sudo] password for paynalton:
+paynalton@Carlos-Internet:~$
+```
+
+</div>
+
+<br><br>Y creo que eso es todo de esta pequeña aclaración, espero que les sea útil.<br><br>Si desean saber mas sobre los comandos aquí mencionados, no olviden ver los manuales tecleando en su consola:<br>
+
+<div>
+
+Código:
+
+</div>
+
+<div>
+
+```
+$man comando
+```
+
+</div>
+
+<br>

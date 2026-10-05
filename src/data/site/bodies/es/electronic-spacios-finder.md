@@ -1,0 +1,1 @@
+Desarrollé sitios y soluciones web, con participación en arquitectura, bases de datos, SEO y tareas de operación. Esta etapa amplió mi experiencia atendiendo distintos aspectos de una solución desde un mismo rol técnico.

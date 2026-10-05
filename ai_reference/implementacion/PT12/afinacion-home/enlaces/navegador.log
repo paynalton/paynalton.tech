@@ -1,0 +1,50 @@
+npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+npm notice run paynalton.tech@0.0.1 test:e2e
+npm notice run playwright test tests/home-polish.spec.ts tests/shell.spec.ts tests/editorial.spec.ts --workers=1
+[WebServer] npm warn Unknown env config "always-auth". This will error in a future major version of npm. See `npm help npmrc` for supported config options.
+[WebServer] npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+[WebServer] npm notice run paynalton.tech@0.0.1 preview
+[WebServer] npm notice run astro preview --host 127.0.0.1 --port 4334 --ignore-lock
+[WebServer] (node:1177865) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 32 tests using 1 worker
+
+(node:1178478) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [desktop] › tests/editorial.spec.ts:6:1 › every imported reader and download is available with inert editorial HTML (605ms)
+  ✓   2 [desktop] › tests/editorial.spec.ts:23:1 › standalone readers, technical tables and coauthorship fit small screens and pass accessibility checks (2.3s)
+  ✓   3 [desktop] › tests/editorial.spec.ts:40:1 › new full texts are searchable by body and tags (280ms)
+  ✓   4 [desktop] › tests/editorial.spec.ts:45:1 › published story and downloads remain usable without JavaScript (122ms)
+  ✓   5 [desktop] › tests/home-polish.spec.ts:8:1 › all static HTML outbound links have an icon, new tab and safe rel (97ms)
+  ✓   6 [desktop] › tests/home-polish.spec.ts:20:1 › search exits smoothly by button, Escape and outside; focus returns (4.9s)
+  ✓   7 [desktop] › tests/home-polish.spec.ts:39:1 › brand draws on focus and external links work without JavaScript (1.8s)
+  ✓   8 [desktop] › tests/shell.spec.ts:6:1 › new routes: accessible shell, real links, local assets and no overflow (11.4s)
+  ✓   9 [desktop] › tests/shell.spec.ts:31:1 › skip, mobile menu, dialog Escape and focus return (3.6s)
+  ✓  10 [desktop] › tests/shell.spec.ts:54:1 › global search, query history and literal malicious input (1.5s)
+  ✓  11 [desktop] › tests/shell.spec.ts:72:1 › preferences persist, honor reduced motion and pass accessibility (1.5s)
+  ✓  12 [desktop] › tests/shell.spec.ts:89:1 › blocked storage keeps controls usable without script errors (1.1s)
+  ✓  13 [desktop] › tests/shell.spec.ts:100:1 › without JavaScript: navigation, search alternatives, root and 404 (421ms)
+  ✓  14 [desktop] › tests/shell.spec.ts:116:1 › 320px and enlarged text preserve menu, preferences and dialog (231ms)
+  ✓  15 [desktop] › tests/shell.spec.ts:125:1 › expanded labels and RTL keep the shared frame usable (193ms)
+  ✓  16 [desktop] › tests/shell.spec.ts:138:1 › preference changes synchronize with another tab (1.2s)
+(node:1180601) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  17 [mobile] › tests/editorial.spec.ts:6:1 › every imported reader and download is available with inert editorial HTML (548ms)
+  ✓  18 [mobile] › tests/editorial.spec.ts:23:1 › standalone readers, technical tables and coauthorship fit small screens and pass accessibility checks (2.6s)
+  ✓  19 [mobile] › tests/editorial.spec.ts:40:1 › new full texts are searchable by body and tags (217ms)
+  ✓  20 [mobile] › tests/editorial.spec.ts:45:1 › published story and downloads remain usable without JavaScript (141ms)
+  ✓  21 [mobile] › tests/home-polish.spec.ts:8:1 › all static HTML outbound links have an icon, new tab and safe rel (98ms)
+  ✓  22 [mobile] › tests/home-polish.spec.ts:20:1 › search exits smoothly by button, Escape and outside; focus returns (4.9s)
+  ✓  23 [mobile] › tests/home-polish.spec.ts:39:1 › brand draws on focus and external links work without JavaScript (2.2s)
+  ✓  24 [mobile] › tests/shell.spec.ts:6:1 › new routes: accessible shell, real links, local assets and no overflow (12.5s)
+  ✓  25 [mobile] › tests/shell.spec.ts:31:1 › skip, mobile menu, dialog Escape and focus return (5.7s)
+  ✓  26 [mobile] › tests/shell.spec.ts:54:1 › global search, query history and literal malicious input (1.6s)
+  ✓  27 [mobile] › tests/shell.spec.ts:72:1 › preferences persist, honor reduced motion and pass accessibility (1.7s)
+  ✓  28 [mobile] › tests/shell.spec.ts:89:1 › blocked storage keeps controls usable without script errors (1.1s)
+  ✓  29 [mobile] › tests/shell.spec.ts:100:1 › without JavaScript: navigation, search alternatives, root and 404 (615ms)
+  ✓  30 [mobile] › tests/shell.spec.ts:116:1 › 320px and enlarged text preserve menu, preferences and dialog (340ms)
+  ✓  31 [mobile] › tests/shell.spec.ts:125:1 › expanded labels and RTL keep the shared frame usable (252ms)
+  ✓  32 [mobile] › tests/shell.spec.ts:138:1 › preference changes synchronize with another tab (1.1s)
+
+  32 passed (1.2m)

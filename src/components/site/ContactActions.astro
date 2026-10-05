@@ -1,0 +1,9 @@
+---
+interface Props { value:string; t:(key:string)=>string; share?:boolean; title?:string; }
+const {value,t,share=false,title=''}=Astro.props;
+---
+<div class="tn-stack contact-actions" data-pagefind-ignore={share?true:undefined} data-contact-actions data-value={value} data-title={title} data-copied={t(share?'share.copied':'contact.emailCopied')} data-failed={t('contact.copyFailed')} data-share-failed={t('share.failed')} data-shared={t('share.done')} data-cancelled={t('share.cancelled')}>
+ <p class="selectable-contact">{share ? <a href={value}>{value}</a> : <a href={`mailto:${value}`}>{value}</a>}</p>
+ <div class="tn-actions"><button hidden type="button" class="tn-action tn-action--secondary" data-copy>{t(share?'share.copy':'contact.copyEmail')}</button>{share && <button hidden type="button" class="tn-action tn-action--secondary" data-share>{t('share.native')}</button>}</div>
+ <p role="status" data-contact-status></p>
+</div>

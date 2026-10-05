@@ -1,0 +1,11 @@
+---
+interface Props {t:(key:string)=>string;}
+const {t}=Astro.props;
+---
+<div class="about-content tn-stack">
+ <section class="tn-prose"><h2>{t('about.biography')}</h2><p class="shell-prose">{t('about.bio')}</p></section>
+ <section class="tn-stack" id="forma-de-trabajar"><h2>{t('about.method')}</h2><p>{t('about.methodIntro')}</p><ol class="method-list">{[1,2,3,4,5,6].map(n=><li><h3>{t(`about.method${n}Title`)}</h3><p>{t(`about.method${n}Body`)}</p></li>)}</ol></section>
+ <section class="tn-stack"><h2>{t('about.interests')}</h2><p class="shell-prose">{t('about.interestsBody')}</p><a href="https://www.goodreads.com/user/show/73963910-paynalton">{t('about.goodreads')}</a></section>
+ <section class="tn-stack" id="lecturas"><h2>{t('about.readings')}</h2><p>{t('about.readingsContext')}</p>{[1,2,3,4].map(n=><article class="tn-prose"><h3>{t(`about.reading${n}Title`)}</h3><p>{t(`about.reading${n}Body`)}</p></article>)}</section>
+ <section class="tn-stack"><h2>{t('about.music')}</h2><p class="shell-prose">{t('about.musicBody')}</p><a href="https://open.spotify.com/playlist/6O3Gii38mXln9WDVzgg7Uh">{t('about.spotify')}</a></section>
+</div>

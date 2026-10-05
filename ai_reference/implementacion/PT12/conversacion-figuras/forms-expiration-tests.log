@@ -1,0 +1,30 @@
+npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+npm notice run paynalton.tech@0.0.1 test:e2e
+npm notice run playwright test tests/forms-expiration.spec.ts tests/forms-state.spec.ts --workers=2
+[WebServer] npm warn Unknown env config "always-auth". This will error in a future major version of npm. See `npm help npmrc` for supported config options.
+[WebServer] npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+[WebServer] npm notice run paynalton.tech@0.0.1 preview
+[WebServer] npm notice run astro preview --host 127.0.0.1 --port 4334 --ignore-lock
+[WebServer] (node:478941) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 8 tests using 2 workers
+
+(node:479023) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:479024) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 [desktop] › tests/forms-expiration.spec.ts:3:1 › an open page restores figures at exactly 24 hours and persists all defaults (181ms)
+  ✓  2 [desktop] › tests/forms-expiration.spec.ts:16:1 › returning to the site or a suspended tab expires old state (194ms)
+  ✓  3 [desktop] › tests/forms-state.spec.ts:3:1 › HideForms governs every figure across reloads and resets without hiding content (2.2s)
+(node:479482) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  5 [mobile] › tests/forms-expiration.spec.ts:3:1 › an open page restores figures at exactly 24 hours and persists all defaults (182ms)
+  ✓  6 [mobile] › tests/forms-expiration.spec.ts:16:1 › returning to the site or a suspended tab expires old state (146ms)
+  ✓  4 [desktop] › tests/forms-state.spec.ts:25:1 › public forms state survives navigation and reset synchronizes tabs (3.1s)
+(node:479727) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  8 [mobile] › tests/forms-state.spec.ts:25:1 › public forms state survives navigation and reset synchronizes tabs (1.3s)
+  ✓  7 [mobile] › tests/forms-state.spec.ts:3:1 › HideForms governs every figure across reloads and resets without hiding content (2.2s)
+
+  8 passed (6.7s)

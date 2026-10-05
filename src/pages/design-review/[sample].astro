@@ -1,0 +1,74 @@
+---
+import path from 'node:path';
+import { getCollection, render } from 'astro:content';
+import DesignReview from '../../layouts/taller/DesignReview.astro';
+import Action from '../../components/taller/Action.astro';
+import Card from '../../components/taller/Card.astro';
+import Icon from '../../components/taller/Icon.astro';
+import Field from '../../components/taller/Field.astro';
+import Tag from '../../components/taller/Tag.astro';
+import Notice from '../../components/taller/Notice.astro';
+import Ornament from '../../components/taller/Ornament.astro';
+import BookArt from '../../components/taller/BookArt.astro';
+import WorkshopScene from '../../components/taller/WorkshopScene.astro';
+import { loadRepository } from '../../lib/site/repository.mjs';
+import { createTranslator } from '../../lib/site/i18n.mjs';
+import reviewData from '../../data/design-review.json';
+
+export function getStaticPaths() {
+ if(process.env.DESIGN_REVIEW!=='1') return [];
+ return ['home','project','reading','components','expanded-home','expanded-project','expanded-reading','expanded-components','rtl-home'].map(sample=>({params:{sample}}));
+}
+const key=Astro.params.sample!;
+const expanded=key.startsWith('expanded-'),rtl=key.startsWith('rtl-');
+const sample=key.replace(/^(expanded-|rtl-)/,'');
+const prefix=expanded ? 'expanded-' : '';
+const link=(name:string)=>`/design-review/${prefix}${name}/`;
+const repository=await loadRepository(path.resolve('src/data/site'));
+const translator=createTranslator('es',repository.getCatalogs(),repository.getSettings());
+// Test-only expanded messages, never added to the production dictionaries or HTML.
+const t=(key:string)=>{ const value=translator.t(key);return expanded ? `⟦ ${value} — ${value} ⟧` : value; };
+const publicEntries=await getCollection('siteContent');
+const project=publicEntries.find(e=>e.id==='es:pipila')!;
+const {Content:ProjectContent}=await render(project);
+const example=(await getCollection('designContent')).find(e=>e.data.example)!;
+const {Content:ReadingContent,headings}=await render(example);
+const iconNames=['arrow','search','menu','close','copy','share','download','chevron','check','info','warning','settings'] as const;
+---
+<DesignReview title={t('review.title')} t={t} sample={sample} expanded={expanded} rtl={rtl}>
+ {sample==='home' && <>
+  <section class="tn-section tn-hero">
+   <div class="tn-stack"><p class="tn-eyebrow">{t('home.descriptor')}</p><h1>{t('home.title')}</h1><p class="tn-lead">{t('home.intro')}</p><div class="tn-actions"><Action href="#projects">{t('home.projectsAction')}<Icon name="arrow"/></Action><Action href="#contact" variant="secondary">{t('home.contactAction')}</Action></div></div>
+   <figure><WorkshopScene/><figcaption class="tn-scene-caption">{t('review.staticScene')}</figcaption></figure>
+  </section>
+  <section class="tn-section" id="projects">
+   <div class="tn-section-head"><p class="tn-eyebrow">{t('review.resources')}</p><h2>{t('nav.projects')}</h2><p class="tn-lead">{t('home.projectsIntro')}</p></div>
+   <div class="tn-cards">
+    <Card title={project.data.title} summary={project.data.summary} label={project.data.operationalStatus!} href={link('project')} action={t('review.projectAction')}/>
+    <Card title={t('home.onixTitle')} summary={t('home.onixSummary')} label={t('home.onixState')}/>
+    <Card title={t('home.guacamayaTitle')} summary={t('home.guacamayaSummary')} label={t('home.guacamayaState')}/>
+   </div>
+  </section>
+  <section class="tn-section tn-light tn-library"><div class="tn-stack"><p class="tn-eyebrow">{t('review.bookLabel')}</p><h2>{t('review.bookTitle')}</h2><p>{t('review.bookIntro')}</p><Action href={link('reading')}>{t('review.readExample')}<Icon name="arrow"/></Action></div><div class="tn-books"><BookArt/><BookArt variant="orbit"/><BookArt variant="branch"/></div></section>
+  <section class="tn-section tn-stack" id="contact"><Ornament variant="rule"/><h2>{t('home.contactTitle')}</h2><p class="tn-lead">{t('home.contactText')}</p><a href={`mailto:${reviewData.contactEmail}`}>{reviewData.contactEmail}</a></section>
+ </>}
+ {sample==='project' && <>
+  <section class="tn-section tn-stack"><p class="tn-eyebrow">{t('review.projectLabel')}</p><h1>{project.data.title}</h1><p class="tn-lead">{project.data.summary}</p><div class="tn-actions"><Tag selected>{project.data.operationalStatus}</Tag><Tag>{project.data.startLabel}</Tag></div></section>
+  <section class="tn-section tn-case-grid"><aside class="tn-aside tn-stack"><h2>{t('review.participation')}</h2><p>{project.data.role}</p><h2>{t('review.technologies')}</h2><div class="tn-actions">{project.data.facts && 'technologies' in project.data.facts && project.data.facts.technologies.map(tech=><Tag>{tech}</Tag>)}</div><h2>{t('review.related')}</h2><p>{publicEntries.find(e=>e.data.entityId==='sodigital')?.data.title}</p></aside><article class="tn-prose"><ProjectContent/></article></section>
+  <section class="tn-section"><Action href={link('home')} variant="secondary">{t('review.projectBack')}</Action></section>
+ </>}
+ {sample==='reading' && <>
+  <section class="tn-section"><Notice>{t('reading.example')}</Notice></section>
+  <section class="tn-section tn-light"><article class="tn-reader"><p class="tn-eyebrow">{t('review.bookLabel')}</p><h1>{example.data.title}</h1><nav class="tn-reader-index" aria-label={t('reading.index')}><h2>{t('reading.index')}</h2><ul>{headings.filter(h=>h.depth===2).map(h=><li><a href={`#${h.slug}`}>{h.text}</a></li>)}</ul></nav><div class="tn-prose"><ReadingContent/></div><Action href={link('home')} variant="secondary">{t('review.projectBack')}</Action></article></section>
+ </>}
+ {sample==='components' && <>
+  <section class="tn-section tn-stack"><p class="tn-eyebrow">{t('review.components')}</p><h1>{t('review.componentTitle')}</h1><p class="tn-lead">{t('review.componentIntro')}</p></section>
+  <section class="tn-section tn-stack" id="actions"><h2>{t('review.actions')}</h2><div class="tn-demo-grid">
+   <div class="tn-demo-panel tn-stack"><h3>{t('review.darkSurface')}</h3><div class="tn-actions"><Action href="#fields">{t('review.primary')}<Icon name="arrow"/></Action><Action variant="secondary" href="#fields">{t('review.secondary')}</Action><Action disabled>{t('review.disabled')}</Action></div></div>
+   <div class="tn-demo-panel tn-light tn-stack"><h3>{t('review.lightSurface')}</h3><div class="tn-actions"><Action href="#fields">{t('review.primary')}</Action><Action href="#fields" variant="secondary">{t('review.secondary')}</Action></div><a href="#fields">{t('review.fields')}</a></div>
+   <div class="tn-demo-panel"><div class="tn-demo-panel tn-selected tn-stack"><h3>{t('review.selectedSurface')}</h3><p>{t('review.selected')}</p><a href="#fields">{t('review.fields')}</a><Tag selected>{t('review.selected')}</Tag></div></div>
+  </div></section>
+  <section class="tn-section tn-stack" id="fields"><h2>{t('review.fields')}</h2><div class="tn-demo-grid"><div class="tn-demo-panel tn-stack"><Field id="search-example" label={t('review.fieldLabel')} hint={t('review.fieldHint')}/><Field id="error-example" label={t('review.errorLabel')} error={t('review.fieldError')}/><Field id="disabled-example" label={t('review.disabledLabel')} disabled/></div><div class="tn-demo-panel tn-stack"><h3>{t('review.notices')}</h3><Notice tone="success">{t('review.success')}</Notice><Notice tone="warning">{t('review.warning')}</Notice><Notice tone="error">{t('review.error')}</Notice><Notice>{t('review.info')}</Notice></div></div></section>
+  <section class="tn-section tn-stack"><h2>{t('review.icons')}</h2><div class="tn-icon-gallery" aria-hidden="true">{iconNames.map(name=><span><Icon name={name}/></span>)}</div><div class="tn-actions"><Ornament/><Ornament variant="corner"/><Ornament variant="rule"/></div><h2>{t('review.bookArt')}</h2><div class="tn-demo-panel tn-light tn-books"><BookArt/><BookArt variant="orbit"/><BookArt variant="branch"/></div></section>
+ </>}
+</DesignReview>

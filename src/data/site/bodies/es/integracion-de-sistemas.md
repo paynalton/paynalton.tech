@@ -1,0 +1,1 @@
+Trabajo para conectar aplicaciones, datos y servicios que no fueron concebidos como una sola solución. Incluye migraciones y desacoplamiento de dependencias, con atención a lo que ocurre cuando un componente externo deja de responder.

@@ -1,0 +1,28 @@
+{
+  "scope": "PT11",
+  "deployed": false,
+  "remote_http_verified": false,
+  "html_pages": 337,
+  "canonical_pages": 330,
+  "public_entities": 319,
+  "entity_exports": 638,
+  "rss_items": 111,
+  "search_documents": 311,
+  "scanned_text_files": 1005,
+  "model_tests": 73,
+  "import_tests": 3,
+  "browser_passed": 117,
+  "browser_skipped": 1,
+  "design_passed": 51,
+  "static_equivalent_pages": 337,
+  "netlify_artifact_review": {
+    "build_passed": true,
+    "headers_packaged": true,
+    "publication_checks_passed": true,
+    "export_checks_passed": true,
+    "search_checks_passed": true,
+    "artifact_scan_passed": true,
+    "focused_browser_passed": 6,
+    "remote_http_verified": false
+  }
+}

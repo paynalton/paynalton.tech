@@ -1,0 +1,6 @@
+---
+import Icon from './Icon.astro';
+interface Props { tone?: 'info' | 'success' | 'warning' | 'error'; }
+const {tone='info'}=Astro.props;
+---
+<div class:list={['tn-notice',`tn-notice--${tone}`]}><Icon name={tone==='success' ? 'check' : tone==='info' ? 'info' : 'warning'}/><div><slot/></div></div>

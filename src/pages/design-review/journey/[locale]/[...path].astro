@@ -1,0 +1,16 @@
+---
+import path from 'node:path';
+import ContentPage from '../../../../components/site/ContentPage.astro';
+import { loadJourney, journeyPrefix } from '../../../../lib/site/journey-fixture.mjs';
+import { routeManifest } from '../../../../lib/site/navigation.mjs';
+import type { SiteRoute } from '../../../../lib/site/types';
+export async function getStaticPaths() {
+  if (process.env.DESIGN_REVIEW !== '1') return [];
+  return routeManifest(await loadJourney(path.resolve('src/data/site')), journeyPrefix).map(page => ({
+    params:{locale:page.locale,path:page.url.slice(journeyPrefix.length).split('/').slice(2,-1).join('/') || undefined}, props:{page},
+  }));
+}
+interface Props { page: SiteRoute; }
+const repository = await loadJourney(path.resolve('src/data/site'));
+---
+<ContentPage page={Astro.props.page} repository={repository} routePrefix={journeyPrefix} collection="journeyContent"/>

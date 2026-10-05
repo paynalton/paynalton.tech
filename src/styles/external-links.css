@@ -1,0 +1,3 @@
+/* An empty decorative span leaves manuscript text and accessible link names intact. */
+a .external-link-icon{display:inline-block;inline-size:.85em;block-size:.85em;flex-shrink:0;margin-inline-start:.35em;vertical-align:-.04em;background:currentColor;mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M14 3h7v7M21 3 10 14M10 3H3v18h18v-7' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/contain no-repeat}
+@media(forced-colors:active){a .external-link-icon{background:LinkText;forced-color-adjust:none}}

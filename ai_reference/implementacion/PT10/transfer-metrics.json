@@ -1,0 +1,32 @@
+{
+  "units": "bytes",
+  "compression": "gzip calculated locally, actual hosting compression pending",
+  "resources": [
+    {
+      "file": "decorations.BoOO4pWp.js",
+      "bytes": 4541,
+      "gzip": 1840
+    },
+    {
+      "file": "optional.DVmvFsLG.js",
+      "bytes": 6925,
+      "gzip": 2819
+    },
+    {
+      "file": "particles.Bb2Y5vbT.js",
+      "bytes": 3837,
+      "gzip": 1520
+    },
+    {
+      "file": "three-engine.CE34Y0m3.js",
+      "bytes": 579468,
+      "gzip": 144909
+    },
+    {
+      "file": "workshop.ycDEXeiq.js",
+      "bytes": 16340,
+      "gzip": 6697
+    }
+  ],
+  "optionalGzip": 12876
+}

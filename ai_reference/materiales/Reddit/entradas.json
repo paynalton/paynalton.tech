@@ -1,0 +1,142 @@
+{
+  "source": "https://www.reddit.com/user/paynalton3/submitted/",
+  "input": "JSON proporcionado por el autor",
+  "total_received": 23,
+  "spanish_stories": 11,
+  "excluded_english": 12,
+  "after": null,
+  "entries": [
+    {
+      "title": "Ellos marcaban sus cuerpos",
+      "author": "paynalton3",
+      "language": "es",
+      "published_at": "2026-07-11T05:35:46Z",
+      "source": "https://www.reddit.com/r/UniversoISH/comments/1utbdw5/ellos_marcaban_sus_cuerpos/",
+      "subreddit": "UniversoISH",
+      "reddit_id": "1utbdw5",
+      "file": "2026-07-11--ellos-marcaban-sus-cuerpos--1utbdw5.md",
+      "characters": 5293,
+      "body_sha256": "32028823a178e28d9444a25932ccfbbe14a837a94deff03221ca30129755ea14"
+    },
+    {
+      "title": "Legado",
+      "author": "paynalton3",
+      "language": "es",
+      "published_at": "2025-11-01T01:56:11Z",
+      "source": "https://www.reddit.com/r/UniversoISH/comments/1olcch7/legado/",
+      "subreddit": "UniversoISH",
+      "reddit_id": "1olcch7",
+      "file": "2025-11-01--legado--1olcch7.md",
+      "characters": 5214,
+      "body_sha256": "843c44823f0e47742dfaecdac059a43dadd9a82758a5788cd7542b1cde963fcb"
+    },
+    {
+      "title": "Extraviado",
+      "author": "paynalton3",
+      "language": "es",
+      "published_at": "2025-10-29T22:46:50Z",
+      "source": "https://www.reddit.com/r/UniversoISH/comments/1ojj4xu/extraviado/",
+      "subreddit": "UniversoISH",
+      "reddit_id": "1ojj4xu",
+      "file": "2025-10-29--extraviado--1ojj4xu.md",
+      "characters": 4619,
+      "body_sha256": "e8dedf58d305f1cceea242b2c7dd330c36722f9d2ebe8f1879837a61c7d4a209"
+    },
+    {
+      "title": "Horda LATAM",
+      "author": "paynalton3",
+      "language": "es",
+      "published_at": "2025-10-14T20:37:55Z",
+      "source": "https://www.reddit.com/r/UniversoISH/comments/1o6r1d3/horda_latam/",
+      "subreddit": "UniversoISH",
+      "reddit_id": "1o6r1d3",
+      "file": "2025-10-14--horda-latam--1o6r1d3.md",
+      "characters": 6188,
+      "body_sha256": "ab6ddbb8af75834785f8dbc025503fef04018c249081fe5e286fbc4df7288c5e"
+    },
+    {
+      "title": "Sayula III",
+      "author": "paynalton3",
+      "language": "es",
+      "published_at": "2025-10-01T22:47:22Z",
+      "source": "https://www.reddit.com/r/UniversoISH/comments/1nvn38o/sayula_iii/",
+      "subreddit": "UniversoISH",
+      "reddit_id": "1nvn38o",
+      "file": "2025-10-01--sayula-iii--1nvn38o.md",
+      "characters": 7773,
+      "body_sha256": "707ce37e890d54662ef69a1b9f500b3770a8b264f4a0bbdb317e14de50a0de41"
+    },
+    {
+      "title": "Mariachis de bolsillo",
+      "author": "paynalton3",
+      "language": "es",
+      "published_at": "2025-09-14T06:21:47Z",
+      "source": "https://www.reddit.com/r/UniversoISH/comments/1ngjr50/mariachis_de_bolsillo/",
+      "subreddit": "UniversoISH",
+      "reddit_id": "1ngjr50",
+      "file": "2025-09-14--mariachis-de-bolsillo--1ngjr50.md",
+      "characters": 7260,
+      "body_sha256": "2cdebf50e80198293b267318daa3bff3df6447cfcb0ed572f671fd7d96ad2b0e"
+    },
+    {
+      "title": "¿Porqué los Brancianos le temen a las piñatas?",
+      "author": "paynalton3",
+      "language": "es",
+      "published_at": "2025-09-01T18:20:48Z",
+      "source": "https://www.reddit.com/r/UniversoISH/comments/1n5wf2m/porqué_los_brancianos_le_temen_a_las_piñatas/",
+      "subreddit": "UniversoISH",
+      "reddit_id": "1n5wf2m",
+      "file": "2025-09-01--porque-los-brancianos-le-temen-a-las-pinatas--1n5wf2m.md",
+      "characters": 5956,
+      "body_sha256": "8be719d2bd72bd7958b6acd8b99a01d1dff16aa56ff99bb0efaa629d46ab3a2d"
+    },
+    {
+      "title": "Mi Primera Chamba Galáctica",
+      "author": "paynalton3",
+      "language": "es",
+      "published_at": "2025-08-26T18:24:00Z",
+      "source": "https://www.reddit.com/r/UniversoISH/comments/1n0to1u/mi_primera_chamba_galáctica/",
+      "subreddit": "UniversoISH",
+      "reddit_id": "1n0to1u",
+      "file": "2025-08-26--mi-primera-chamba-galactica--1n0to1u.md",
+      "characters": 5892,
+      "body_sha256": "01a128b918e78e862538b81116f6e5006c116f7da1810f50b028fbb612eed8a9"
+    },
+    {
+      "title": "Barbacoa de UMA estilo Culiacán",
+      "author": "paynalton3",
+      "language": "es",
+      "published_at": "2025-08-18T17:37:34Z",
+      "source": "https://www.reddit.com/r/UniversoISH/comments/1mtstzt/barbacoa_de_uma_estilo_culiacán/",
+      "subreddit": "UniversoISH",
+      "reddit_id": "1mtstzt",
+      "file": "2025-08-18--barbacoa-de-uma-estilo-culiacan--1mtstzt.md",
+      "characters": 5380,
+      "body_sha256": "7f3d7df89c2f3ce0471ae0a99a87f0f9b6c66256f64ebd0ac5ae057e0c15c2e1"
+    },
+    {
+      "title": "Debate para incidente IO-8C9BEAF3B0-E",
+      "author": "paynalton3",
+      "language": "es",
+      "published_at": "2025-08-13T21:37:24Z",
+      "source": "https://www.reddit.com/r/UniversoISH/comments/1mphglq/debate_para_incidente_io8c9beaf3b0e/",
+      "subreddit": "UniversoISH",
+      "reddit_id": "1mphglq",
+      "file": "2025-08-13--debate-para-incidente-io-8c9beaf3b0-e--1mphglq.md",
+      "characters": 4808,
+      "body_sha256": "72e3c8741bfc19a4ef0f53242dca5ba94f347e784f0821a155639d77ddb975c4"
+    },
+    {
+      "title": "¿Se están comiendo qué?",
+      "author": "paynalton3",
+      "language": "es",
+      "published_at": "2025-08-12T17:05:56Z",
+      "source": "https://www.reddit.com/r/UniversoISH/comments/1moegwq/se_están_comiendo_qué/",
+      "subreddit": "UniversoISH",
+      "reddit_id": "1moegwq",
+      "file": "2025-08-12--se-estan-comiendo-que--1moegwq.md",
+      "characters": 3105,
+      "body_sha256": "591b7eab7014c496c3b9e8b3e595b4b68b4ab62c3a68a44db941fb543b9c2e01"
+    }
+  ]
+}

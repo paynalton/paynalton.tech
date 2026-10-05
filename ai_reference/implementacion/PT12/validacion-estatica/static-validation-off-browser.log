@@ -1,0 +1,56 @@
+npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+npm notice run paynalton.tech@0.0.1 test:e2e
+npm notice run playwright test tests/shell.spec.ts tests/search.spec.ts tests/language-picker.spec.ts --workers=2
+[WebServer] npm warn Unknown env config "always-auth". This will error in a future major version of npm. See `npm help npmrc` for supported config options.
+[WebServer] npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+[WebServer] npm notice run paynalton.tech@0.0.1 preview
+[WebServer] npm notice run astro preview --host 127.0.0.1 --port 4335 --ignore-lock
+[WebServer] (node:693476) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 34 tests using 2 workers
+
+(node:693587) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:693588) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [desktop] › tests/language-picker.spec.ts:16:1 › the actual translated book supports round-trip navigation without JavaScript (581ms)
+  ✓   2 [desktop] › tests/language-picker.spec.ts:4:1 › language picker exposes only Spanish and English with honest availability (778ms)
+  ✓   4 [desktop] › tests/search.spec.ts:21:1 › zero results, unknown filters, hostile query and keyboard access (1.2s)
+  ✓   3 [desktop] › tests/search.spec.ts:6:1 › full body search, type and topic filters, shareable URL, history and clear (2.1s)
+  ✓   6 [desktop] › tests/search.spec.ts:36:1 › late searches cannot replace a newer query or filters (431ms)
+  ✓   7 [desktop] › tests/search.spec.ts:42:1 › index loads only when searching, requests stay local, and 320px zoom fits (546ms)
+  ✓   5 [desktop] › tests/search.spec.ts:29:1 › failed index keeps HTML links and retry recovers with filters intact (2.7s)
+  ✓   8 [desktop] › tests/search.spec.ts:49:1 › editorial topics connect to content and filtered exploration (4.4s)
+  ✓  10 [desktop] › tests/shell.spec.ts:31:1 › skip, mobile menu, dialog Escape and focus return (677ms)
+  ✓  11 [desktop] › tests/shell.spec.ts:54:1 › global search, query history and literal malicious input (584ms)
+  ✓  12 [desktop] › tests/shell.spec.ts:72:1 › preferences persist, honor reduced motion and pass accessibility (930ms)
+  ✓  13 [desktop] › tests/shell.spec.ts:89:1 › blocked storage keeps controls usable without script errors (239ms)
+  ✓  14 [desktop] › tests/shell.spec.ts:100:1 › without JavaScript: navigation, search alternatives, root and 404 (528ms)
+  ✓  15 [desktop] › tests/shell.spec.ts:116:1 › 320px and enlarged text preserve menu, preferences and dialog (315ms)
+  ✓  16 [desktop] › tests/shell.spec.ts:125:1 › expanded labels and RTL keep the shared frame usable (249ms)
+  ✓  17 [desktop] › tests/shell.spec.ts:138:1 › preference changes synchronize with another tab (338ms)
+(node:696045) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  18 [mobile] › tests/language-picker.spec.ts:4:1 › language picker exposes only Spanish and English with honest availability (1.0s)
+  ✓  19 [mobile] › tests/language-picker.spec.ts:16:1 › the actual translated book supports round-trip navigation without JavaScript (497ms)
+  ✓   9 [desktop] › tests/shell.spec.ts:6:1 › new routes: accessible shell, real links, local assets and no overflow (11.2s)
+(node:696518) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  20 [mobile] › tests/search.spec.ts:6:1 › full body search, type and topic filters, shareable URL, history and clear (2.9s)
+  ✓  21 [mobile] › tests/search.spec.ts:21:1 › zero results, unknown filters, hostile query and keyboard access (1.2s)
+  ✓  23 [mobile] › tests/search.spec.ts:36:1 › late searches cannot replace a newer query or filters (408ms)
+  ✓  24 [mobile] › tests/search.spec.ts:42:1 › index loads only when searching, requests stay local, and 320px zoom fits (492ms)
+  ✓  22 [mobile] › tests/search.spec.ts:29:1 › failed index keeps HTML links and retry recovers with filters intact (2.3s)
+  ✓  25 [mobile] › tests/search.spec.ts:49:1 › editorial topics connect to content and filtered exploration (8.6s)
+  ✓  27 [mobile] › tests/shell.spec.ts:31:1 › skip, mobile menu, dialog Escape and focus return (692ms)
+  ✓  28 [mobile] › tests/shell.spec.ts:54:1 › global search, query history and literal malicious input (444ms)
+  ✓  29 [mobile] › tests/shell.spec.ts:72:1 › preferences persist, honor reduced motion and pass accessibility (673ms)
+  ✓  30 [mobile] › tests/shell.spec.ts:89:1 › blocked storage keeps controls usable without script errors (215ms)
+  ✓  31 [mobile] › tests/shell.spec.ts:100:1 › without JavaScript: navigation, search alternatives, root and 404 (466ms)
+  ✓  32 [mobile] › tests/shell.spec.ts:116:1 › 320px and enlarged text preserve menu, preferences and dialog (240ms)
+  ✓  33 [mobile] › tests/shell.spec.ts:125:1 › expanded labels and RTL keep the shared frame usable (221ms)
+  ✓  34 [mobile] › tests/shell.spec.ts:138:1 › preference changes synchronize with another tab (261ms)
+  ✓  26 [mobile] › tests/shell.spec.ts:6:1 › new routes: accessible shell, real links, local assets and no overflow (11.3s)
+
+  34 passed (32.0s)

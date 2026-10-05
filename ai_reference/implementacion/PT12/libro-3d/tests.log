@@ -1,0 +1,34 @@
+npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+npm notice run paynalton.tech@0.0.1 test:e2e
+npm notice run playwright test tests/book-scene.spec.ts tests/reading.spec.ts --workers=1
+[WebServer] npm warn Unknown env config "always-auth". This will error in a future major version of npm. See `npm help npmrc` for supported config options.
+[WebServer] npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+[WebServer] npm notice run paynalton.tech@0.0.1 preview
+[WebServer] npm notice run astro preview --host 127.0.0.1 --port 4334 --ignore-lock
+[WebServer] (node:221042) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 12 tests using 1 worker
+
+(node:221573) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [desktop] › tests/book-scene.spec.ts:5:1 › recognizable book renders in card and ficha and retains its fallback (5.4s)
+  ✓   2 [desktop] › tests/book-scene.spec.ts:16:1 › book picture survives without JavaScript (320ms)
+(node:222011) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   3 [desktop] › tests/reading.spec.ts:5:1 › public library, book and personal profile are accessible and contain only selected content (9.0s)
+  ✓   4 [desktop] › tests/reading.spec.ts:25:1 › book ficha reserves the right column for its WebGL scene (974ms)
+  ✓   5 [desktop] › tests/reading.spec.ts:30:1 › book library card reserves the right column for the same scene (871ms)
+  ✓   6 [desktop] › tests/reading.spec.ts:35:1 › all book editions remain reachable without scripts and with enlarged text (729ms)
+(node:222585) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   7 [mobile] › tests/book-scene.spec.ts:5:1 › recognizable book renders in card and ficha and retains its fallback (5.5s)
+  ✓   8 [mobile] › tests/book-scene.spec.ts:16:1 › book picture survives without JavaScript (334ms)
+(node:222891) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   9 [mobile] › tests/reading.spec.ts:5:1 › public library, book and personal profile are accessible and contain only selected content (16.1s)
+  ✓  10 [mobile] › tests/reading.spec.ts:25:1 › book ficha reserves the right column for its WebGL scene (156ms)
+  ✓  11 [mobile] › tests/reading.spec.ts:30:1 › book library card reserves the right column for the same scene (908ms)
+  ✓  12 [mobile] › tests/reading.spec.ts:35:1 › all book editions remain reachable without scripts and with enlarged text (625ms)
+
+  12 passed (43.4s)

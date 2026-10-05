@@ -1,0 +1,37 @@
+{
+  "email": "cxescalona@gmail.com",
+  "profiles": [
+    {
+      "key": "profile.linkedin",
+      "url": "https://www.linkedin.com/in/paynalton"
+    },
+    {
+      "key": "profile.github",
+      "url": "https://github.com/paynalton"
+    },
+    {
+      "key": "profile.reddit",
+      "url": "https://www.reddit.com/user/paynalton3/"
+    },
+    {
+      "key": "profile.tiktok",
+      "url": "https://www.tiktok.com/@paynalton"
+    },
+    {
+      "key": "profile.telegram",
+      "url": "https://t.me/paynalton"
+    },
+    {
+      "key": "profile.goodreads",
+      "url": "https://www.goodreads.com/user/show/73963910-paynalton"
+    },
+    {
+      "key": "profile.paypal",
+      "url": "https://www.paypal.me/paynalton"
+    },
+    {
+      "key": "profile.amazon",
+      "url": "https://www.amazon.com.mx/hz/wishlist/ls/3KAPFKK0MUJPW?ref_=wl_share"
+    }
+  ]
+}

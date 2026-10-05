@@ -1,0 +1,5 @@
+npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+npm notice run paynalton.tech@0.0.1 check:publication
+npm notice run node scripts/check-publication.mjs && python3 scripts/check-publication-html.py
+PT11: 638 formatos, 330 URLs canónicas, 6 migraciones y recursos PUB-01/02 verificados.
+HTML: 337 páginas, 330 metadatos canónicos, enlaces/anclas locales y 111 entradas RSS correctos.

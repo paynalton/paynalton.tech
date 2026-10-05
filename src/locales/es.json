@@ -48,7 +48,8 @@
     "Visual and responsive styling for attractive web interfaces.": "Estilo visual y responsivo para interfaces web atractivas.",
     "Precise composition of technical, scientific, and academic documents.": "Composición precisa de documentos técnicos, científicos y académicos.",
     "Typed JavaScript code that improves scalability and maintainability.": "Código JavaScript tipado que mejora la escalabilidad y mantenibilidad.",
-    "Educational visual programming for teaching logic and creativity from scratch.": "Programación visual educativa para enseñar lógica y creatividad desde cero.","Elegant and structured PHP framework for building robust and scalable web applications.": "Framework de PHP elegante y estructurado para crear aplicaciones web robustas y escalables.",
+    "Educational visual programming for teaching logic and creativity from scratch.": "Programación visual educativa para enseñar lógica y creatividad desde cero.",
+    "Elegant and structured PHP framework for building robust and scalable web applications.": "Framework de PHP elegante y estructurado para crear aplicaciones web robustas y escalables.",
     "PHP framework focused on performance, security, and scalable enterprise development.": "Framework de PHP enfocado en rendimiento, seguridad y desarrollo empresarial escalable.",
     "Progressive framework for building interactive web interfaces and reusable components.": "Framework progresivo para crear interfaces web interactivas y componentes reutilizables.",
     "JavaScript library for building dynamic and reactive user interfaces.": "Librería de JavaScript para construir interfaces de usuario dinámicas y reactivas.",
@@ -210,6 +211,20 @@
     "@paynalton on Telegram": "@paynalton en Telegram",
     "Support me via PayPal": "Apóyame via PayPal",
     "Find me on Discord": "Encuéntrame en Discord",
-    "Amazon registry": "Amazon wishlist"
-
+    "Amazon registry": "Amazon wishlist",
+    "footer.rights": "🄯 {year} Paynalton. Ningún derecho reservado.",
+    "footer.twitter": "Seguir a Paynalton en Twitter",
+    "footer.github": "Visitar el repositorio de Paynalton en GitHub",
+    "footer.linkedin": "Seguir a Paynalton en LinkedIn",
+    "nav.backToTop": "Volver al inicio",
+    "profile.portrait": "Retrato de Paynalton",
+    "Development Manager": "Gerente de desarrollo",
+    "Backend Developer": "Desarrollador backend",
+    "FullStack Developer": "Desarrollador fullstack",
+    "HelpDesk Technician": "Técnico de soporte",
+    "Production Manager": "Gerente de producción",
+    "Book": "Libro",
+    "Essay": "Ensayo",
+    "ideas.toasterDescription": "Un recorrido para entender cómo nacen nuestras ideas, qué ocurre cuando pensamos junto a una inteligencia artificial y cómo conservar el gobierno de nuestra propia mente.",
+    "Blog": "Blog"
 }

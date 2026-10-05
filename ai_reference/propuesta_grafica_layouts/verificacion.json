@@ -1,0 +1,216 @@
+{
+  "pages": 11,
+  "captures": 22,
+  "errors": [],
+  "overflow": [],
+  "semantics": [],
+  "links": [],
+  "interactions": {
+    "menuOpen": true,
+    "menuClose": true,
+    "filter": true,
+    "empty": true,
+    "reset": true
+  },
+  "checks": [
+    {
+      "id": "L0",
+      "viewport": "escritorio",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "main": 1,
+      "h1": 1,
+      "overflow": []
+    },
+    {
+      "id": "L1",
+      "viewport": "escritorio",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "main": 1,
+      "h1": 1,
+      "overflow": []
+    },
+    {
+      "id": "L2",
+      "viewport": "escritorio",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "main": 1,
+      "h1": 1,
+      "overflow": []
+    },
+    {
+      "id": "L2-obra",
+      "viewport": "escritorio",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "main": 1,
+      "h1": 1,
+      "overflow": []
+    },
+    {
+      "id": "L2-explorar",
+      "viewport": "escritorio",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "main": 1,
+      "h1": 1,
+      "overflow": []
+    },
+    {
+      "id": "L3",
+      "viewport": "escritorio",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "main": 1,
+      "h1": 1,
+      "overflow": []
+    },
+    {
+      "id": "L4",
+      "viewport": "escritorio",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "main": 1,
+      "h1": 1,
+      "overflow": []
+    },
+    {
+      "id": "L5",
+      "viewport": "escritorio",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "main": 1,
+      "h1": 1,
+      "overflow": []
+    },
+    {
+      "id": "L6",
+      "viewport": "escritorio",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "main": 1,
+      "h1": 1,
+      "overflow": []
+    },
+    {
+      "id": "L7",
+      "viewport": "escritorio",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "main": 1,
+      "h1": 1,
+      "overflow": []
+    },
+    {
+      "id": "L8",
+      "viewport": "escritorio",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "main": 1,
+      "h1": 1,
+      "overflow": []
+    },
+    {
+      "id": "L0",
+      "viewport": "movil",
+      "width": 390,
+      "scrollWidth": 390,
+      "main": 1,
+      "h1": 1,
+      "overflow": []
+    },
+    {
+      "id": "L1",
+      "viewport": "movil",
+      "width": 390,
+      "scrollWidth": 390,
+      "main": 1,
+      "h1": 1,
+      "overflow": []
+    },
+    {
+      "id": "L2",
+      "viewport": "movil",
+      "width": 390,
+      "scrollWidth": 390,
+      "main": 1,
+      "h1": 1,
+      "overflow": []
+    },
+    {
+      "id": "L2-obra",
+      "viewport": "movil",
+      "width": 390,
+      "scrollWidth": 390,
+      "main": 1,
+      "h1": 1,
+      "overflow": []
+    },
+    {
+      "id": "L2-explorar",
+      "viewport": "movil",
+      "width": 390,
+      "scrollWidth": 390,
+      "main": 1,
+      "h1": 1,
+      "overflow": []
+    },
+    {
+      "id": "L3",
+      "viewport": "movil",
+      "width": 390,
+      "scrollWidth": 390,
+      "main": 1,
+      "h1": 1,
+      "overflow": []
+    },
+    {
+      "id": "L4",
+      "viewport": "movil",
+      "width": 390,
+      "scrollWidth": 390,
+      "main": 1,
+      "h1": 1,
+      "overflow": []
+    },
+    {
+      "id": "L5",
+      "viewport": "movil",
+      "width": 390,
+      "scrollWidth": 390,
+      "main": 1,
+      "h1": 1,
+      "overflow": []
+    },
+    {
+      "id": "L6",
+      "viewport": "movil",
+      "width": 390,
+      "scrollWidth": 390,
+      "main": 1,
+      "h1": 1,
+      "overflow": []
+    },
+    {
+      "id": "L7",
+      "viewport": "movil",
+      "width": 390,
+      "scrollWidth": 390,
+      "main": 1,
+      "h1": 1,
+      "overflow": []
+    },
+    {
+      "id": "L8",
+      "viewport": "movil",
+      "width": 390,
+      "scrollWidth": 390,
+      "main": 1,
+      "h1": 1,
+      "overflow": []
+    }
+  ],
+  "scope": "Comprobaciones locales de propuesta; no acreditan accesibilidad completa ni producción."
+}

@@ -1,0 +1,1 @@
+Fue mi primer empleo dedicado formalmente al desarrollo de software. Trabajé en soluciones web, ERP e integraciones, después de haber creado programas personales y herramientas de automatización en empleos anteriores.

@@ -25,3 +25,15 @@ pnpm-debug.log*
 
 # local AI continuity notes
 .ai_cache/
+
+# local test artifacts
+playwright-report/
+test-results/
+
+# isolated design-review build
+.design-dist/
+
+.effects-off-dist/
+
+# Python editorial tooling
+__pycache__/

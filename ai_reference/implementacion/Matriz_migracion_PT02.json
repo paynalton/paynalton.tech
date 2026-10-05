@@ -1,0 +1,211 @@
+{
+  "alcance": "Inventario local generado desde dist; no comprobacion de productivo",
+  "politica_legado": "Conservar EN/NAH sin producir traducciones. Mantener soporte necesario hasta migracion expresa; las restricciones de recursos externos tambien se aplican al legado.",
+  "rutas": [
+    {
+      "origen": "/en/about/",
+      "destino": "/en/about/",
+      "tratamiento": "conservar-legado-sin-nuevas-traducciones",
+      "estado": "planificado; sin aplicar"
+    },
+    {
+      "origen": "/en/books/cuando-la-tostadora-te-responde/",
+      "destino": "/en/books/cuando-la-tostadora-te-responde/",
+      "tratamiento": "conservar-legado-sin-nuevas-traducciones",
+      "estado": "planificado; sin aplicar"
+    },
+    {
+      "origen": "/en/contact/",
+      "destino": "/en/contact/",
+      "tratamiento": "conservar-legado-sin-nuevas-traducciones",
+      "estado": "planificado; sin aplicar"
+    },
+    {
+      "origen": "/en/ideas/",
+      "destino": "/en/ideas/",
+      "tratamiento": "conservar-legado-sin-nuevas-traducciones",
+      "estado": "planificado; sin aplicar"
+    },
+    {
+      "origen": "/en/",
+      "destino": "/en/",
+      "tratamiento": "conservar-legado-sin-nuevas-traducciones",
+      "estado": "planificado; sin aplicar"
+    },
+    {
+      "origen": "/en/jobs/",
+      "destino": "/en/jobs/",
+      "tratamiento": "conservar-legado-sin-nuevas-traducciones",
+      "estado": "planificado; sin aplicar"
+    },
+    {
+      "origen": "/en/projects/",
+      "destino": "/en/projects/",
+      "tratamiento": "conservar-legado-sin-nuevas-traducciones",
+      "estado": "planificado; sin aplicar"
+    },
+    {
+      "origen": "/es/about/",
+      "destino": "/es/sobre-mi/",
+      "tratamiento": "redireccion-al-publicar-destino",
+      "estado": "planificado; sin aplicar"
+    },
+    {
+      "origen": "/es/books/cuando-la-tostadora-te-responde/",
+      "destino": "/es/books/cuando-la-tostadora-te-responde/",
+      "tratamiento": "conservar-y-adaptar",
+      "estado": "planificado; sin aplicar"
+    },
+    {
+      "origen": "/es/contact/",
+      "destino": "/es/contacto/",
+      "tratamiento": "redireccion-al-publicar-destino",
+      "estado": "planificado; sin aplicar"
+    },
+    {
+      "origen": "/es/ideas/",
+      "destino": "/es/obra/",
+      "tratamiento": "redireccion-al-publicar-destino",
+      "estado": "planificado; sin aplicar"
+    },
+    {
+      "origen": "/es/",
+      "destino": "/es/",
+      "tratamiento": "conservar-y-adaptar",
+      "estado": "planificado; sin aplicar"
+    },
+    {
+      "origen": "/es/jobs/",
+      "destino": "/es/sobre-mi/#forma-de-trabajar",
+      "tratamiento": "redireccion-al-publicar-destino",
+      "estado": "planificado; sin aplicar"
+    },
+    {
+      "origen": "/es/projects/",
+      "destino": "/es/proyectos/",
+      "tratamiento": "redireccion-al-publicar-destino",
+      "estado": "planificado; sin aplicar"
+    },
+    {
+      "origen": "/",
+      "destino": "/es/",
+      "tratamiento": "entrada-espanol",
+      "estado": "planificado; sin aplicar"
+    },
+    {
+      "origen": "/nah/about/",
+      "destino": "/nah/about/",
+      "tratamiento": "conservar-legado-sin-nuevas-traducciones",
+      "estado": "planificado; sin aplicar"
+    },
+    {
+      "origen": "/nah/books/cuando-la-tostadora-te-responde/",
+      "destino": "/nah/books/cuando-la-tostadora-te-responde/",
+      "tratamiento": "conservar-legado-sin-nuevas-traducciones",
+      "estado": "planificado; sin aplicar"
+    },
+    {
+      "origen": "/nah/contact/",
+      "destino": "/nah/contact/",
+      "tratamiento": "conservar-legado-sin-nuevas-traducciones",
+      "estado": "planificado; sin aplicar"
+    },
+    {
+      "origen": "/nah/ideas/",
+      "destino": "/nah/ideas/",
+      "tratamiento": "conservar-legado-sin-nuevas-traducciones",
+      "estado": "planificado; sin aplicar"
+    },
+    {
+      "origen": "/nah/",
+      "destino": "/nah/",
+      "tratamiento": "conservar-legado-sin-nuevas-traducciones",
+      "estado": "planificado; sin aplicar"
+    },
+    {
+      "origen": "/nah/jobs/",
+      "destino": "/nah/jobs/",
+      "tratamiento": "conservar-legado-sin-nuevas-traducciones",
+      "estado": "planificado; sin aplicar"
+    },
+    {
+      "origen": "/nah/projects/",
+      "destino": "/nah/projects/",
+      "tratamiento": "conservar-legado-sin-nuevas-traducciones",
+      "estado": "planificado; sin aplicar"
+    },
+    {
+      "origen": "/rss.xml",
+      "destino": "/rss.xml",
+      "tratamiento": "conservar-url-regenerar-conjunto-publico",
+      "estado": "planificado; sin aplicar"
+    },
+    {
+      "origen": "/sitemap-index.xml",
+      "destino": "/sitemap-index.xml",
+      "tratamiento": "conservar-url-regenerar-conjunto-publico",
+      "estado": "planificado; sin aplicar"
+    },
+    {
+      "origen": "/sitemap-0.xml",
+      "destino": "/sitemap-0.xml",
+      "tratamiento": "conservar-url-regenerar-conjunto-publico",
+      "estado": "planificado; sin aplicar"
+    },
+    {
+      "origen": "/books/cuando-la-tostadora-te-responde/cuando-la-tostadora-te-responde-en.epub",
+      "destino": "/books/cuando-la-tostadora-te-responde/cuando-la-tostadora-te-responde-en.epub",
+      "tratamiento": "conservar-descarga",
+      "sha256_base": "13a455b54a057047bc83ae1bee245a8ba7e279180544453b0c4e2a7e6db98ca5",
+      "estado": "conservacion-comprobada-en-build-base"
+    },
+    {
+      "origen": "/books/cuando-la-tostadora-te-responde/cuando-la-tostadora-te-responde-en.pdf",
+      "destino": "/books/cuando-la-tostadora-te-responde/cuando-la-tostadora-te-responde-en.pdf",
+      "tratamiento": "conservar-descarga",
+      "sha256_base": "600c88e3b4e2508c10f797027a57f33a32c16664052f1ae737b4eb0d8dfb42fe",
+      "estado": "conservacion-comprobada-en-build-base"
+    },
+    {
+      "origen": "/books/cuando-la-tostadora-te-responde/cuando-la-tostadora-te-responde-es.epub",
+      "destino": "/books/cuando-la-tostadora-te-responde/cuando-la-tostadora-te-responde-es.epub",
+      "tratamiento": "conservar-descarga",
+      "sha256_base": "07c2a4d4df03aa423f36c8d18a3ed6c9c63c73b32ec84da4f02cbea856fd5230",
+      "estado": "conservacion-comprobada-en-build-base"
+    },
+    {
+      "origen": "/books/cuando-la-tostadora-te-responde/cuando-la-tostadora-te-responde-es.pdf",
+      "destino": "/books/cuando-la-tostadora-te-responde/cuando-la-tostadora-te-responde-es.pdf",
+      "tratamiento": "conservar-descarga",
+      "sha256_base": "e7569fa268561a9ecb1fdce4bd7434423c52839d8cb2449e92e597ee0554055a",
+      "estado": "conservacion-comprobada-en-build-base"
+    },
+    {
+      "origen": "/books/cuando-la-tostadora-te-responde/cuando-la-tostadora-te-responde-nah.epub",
+      "destino": "/books/cuando-la-tostadora-te-responde/cuando-la-tostadora-te-responde-nah.epub",
+      "tratamiento": "conservar-descarga",
+      "sha256_base": "1e7974b601fb9d9c0ccaded1ed586af9e4c286e732ff7dae0c65d9433209dac3",
+      "estado": "conservacion-comprobada-en-build-base"
+    },
+    {
+      "origen": "/books/cuando-la-tostadora-te-responde/cuando-la-tostadora-te-responde-nah.pdf",
+      "destino": "/books/cuando-la-tostadora-te-responde/cuando-la-tostadora-te-responde-nah.pdf",
+      "tratamiento": "conservar-descarga",
+      "sha256_base": "89c0229ddc62fdb4a92ac05bb58cbc487fe696189c22362ba74769ab7bb5da02",
+      "estado": "conservacion-comprobada-en-build-base"
+    }
+  ],
+  "anclas_inicio": {
+    "profile": "presentacion",
+    "experience": "resumen con enlace a trayectoria",
+    "skills": "sintesis de capacidades",
+    "softskills": "sintesis con enlace a forma de trabajar"
+  },
+  "prohibiciones": [
+    "No activar redirecciones hasta que exista el destino",
+    "No borrar recursos del legado por migrar ES",
+    "No cambiar bytes de descargas como efecto colateral",
+    "No incorporar obras aplazadas, ejemplos de desarrollo ni campos internos al conjunto publico final"
+  ],
+  "internacionalizacion": "Capacidad multilingüe por diccionarios y plantillas compartidas en E1; traducciones reales después. Selector condicionado a equivalencias publicadas; ver Contrato_internacionalizacion.md."
+}

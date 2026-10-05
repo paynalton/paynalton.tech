@@ -1,0 +1,13 @@
+---
+interface Props { variant?: 'steps' | 'orbit' | 'branch'; }
+const {variant='steps'}=Astro.props;
+---
+<svg class="tn-book-art" viewBox="0 0 120 180" width="120" height="180" aria-hidden="true" focusable="false">
+ <rect width="120" height="180" fill="currentColor" opacity=".08"/>
+ <g fill="none" stroke="currentColor" stroke-width="1.5">
+ <path d="M12 12h96v156H12z"/>
+ {variant==='steps' && <path d="M24 144V96h24V72h24V48h24M32 144V104h24V80h24V56h16M24 32h36"/>}
+ {variant==='orbit' && <><ellipse cx="60" cy="88" rx="35" ry="48"/><ellipse cx="60" cy="88" rx="35" ry="48" transform="rotate(55 60 88)"/><path d="M24 150h72M60 22v132"/></>}
+ {variant==='branch' && <><path d="M60 150V45m0 30-24-18m24 42 25-20m-25 41-24-19"/><path d="M60 45q-24-35-31-6 4 21 31 6Zm0 31q20-28 33-10-1 22-33 10Z"/></>}
+ </g>
+</svg>

@@ -1,0 +1,28 @@
+npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+npm notice run paynalton.tech@0.0.1 check
+npm notice run astro check
+10:25:16 [content] Syncing content
+10:25:16 [WARN] [glob-loader] The base directory "/home/paynalton/Proyectos/paynalton.com/src/content/blog/" does not exist.
+10:25:16 [content] Synced content
+10:25:16 [types] Generated 401ms
+10:25:16 [check] Getting diagnostics for Astro files in /home/paynalton/Proyectos/paynalton.com...
+[96msrc/components/index/jobs.astro[0m:[93m3[0m:[93m12[0m - [93mwarning[0m[90m ts(6133): [0m'lang' is declared but its value is never read.
+
+[7m3[0m const { t, lang } = Astro.props;
+[7m [0m [93m           ~~~~[0m
+
+[96msrc/components/index/profile.astro[0m:[93m2[0m:[93m12[0m - [93mwarning[0m[90m ts(6133): [0m'lang' is declared but its value is never read.
+
+[7m2[0m const { t, lang } = Astro.props;
+[7m [0m [93m           ~~~~[0m
+
+[96msrc/components/index/softskills.astro[0m:[93m3[0m:[93m12[0m - [93mwarning[0m[90m ts(6133): [0m'lang' is declared but its value is never read.
+
+[7m3[0m const { t, lang } = Astro.props;
+[7m [0m [93m           ~~~~[0m
+
+Result (130 files): 
+- 0 errors
+- 0 warnings
+- 3 hints
+

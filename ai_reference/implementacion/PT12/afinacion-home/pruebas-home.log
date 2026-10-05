@@ -1,0 +1,77 @@
+npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+npm notice run paynalton.tech@0.0.1 test:e2e
+npm notice run playwright test tests/home-review.spec.ts tests/effects.spec.ts tests/shell.spec.ts --workers=1
+[WebServer] npm warn Unknown env config "always-auth". This will error in a future major version of npm. See `npm help npmrc` for supported config options.
+[WebServer] npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+[WebServer] npm notice run paynalton.tech@0.0.1 preview
+[WebServer] npm notice run astro preview --host 127.0.0.1 --port 4334 --ignore-lock
+[WebServer] (node:1151428) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 50 tests using 1 worker
+
+(node:1151867) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [desktop] › tests/effects.spec.ts:14:57 › preference off prevents Three.js requests and preserves content (235ms)
+  ✓   2 [desktop] › tests/effects.spec.ts:14:57 › preference soft prevents Three.js requests and preserves content (221ms)
+  ✓   3 [desktop] › tests/effects.spec.ts:14:57 › preference disabled3d prevents Three.js requests and preserves content (176ms)
+  ✓   4 [desktop] › tests/effects.spec.ts:14:57 › preference reduced prevents Three.js requests and preserves content (217ms)
+  ✓   5 [desktop] › tests/effects.spec.ts:24:1 › real WebGL, idle rendering, pause, cleanup and reactivation (6.3s)
+  ✓   6 [desktop] › tests/effects.spec.ts:43:1 › lost WebGL context falls back without retrying on preference changes (1.5s)
+  ✓   7 [desktop] › tests/effects.spec.ts:49:1 › failed motor import preserves the static scene and navigation (326ms)
+  ✓   8 [desktop] › tests/effects.spec.ts:54:1 › other pages load decoration only; filters and keyboard remain functional (653ms)
+  ✓   9 [desktop] › tests/effects.spec.ts:60:1 › static image stays present without JavaScript (346ms)
+  ✓  10 [desktop] › tests/effects.spec.ts:68:1 › unavailable WebGL retains the image without throwing into page behavior (189ms)
+  ✓  11 [desktop] › tests/effects.spec.ts:77:1 › late motor import cannot mount after effects have been disabled (863ms)
+  ✓  12 [desktop] › tests/effects.spec.ts:85:1 › movement reduction takes priority during an active scene (2.5s)
+  -  13 [desktop] › tests/effects.spec.ts:92:1 › mobile scene below the fold defers the motor until sufficiently visible
+(node:1152769) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  14 [desktop] › tests/home-review.spec.ts:5:1 › all four sculptures load on demand, release offscreen and respect reduced motion (12.5s)
+  ✓  15 [desktop] › tests/home-review.spec.ts:28:1 › project and work card corners follow their real link and retain one tab stop (3.3s)
+  ✓  16 [desktop] › tests/home-review.spec.ts:35:1 › home reflows at 320 pixels and 200 percent text (125ms)
+(node:1153220) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  17 [desktop] › tests/shell.spec.ts:6:1 › new routes: accessible shell, real links, local assets and no overflow (12.1s)
+  ✓  18 [desktop] › tests/shell.spec.ts:31:1 › skip, mobile menu, dialog Escape and focus return (2.0s)
+  ✓  19 [desktop] › tests/shell.spec.ts:54:1 › global search, query history and literal malicious input (1.5s)
+  ✓  20 [desktop] › tests/shell.spec.ts:72:1 › preferences persist, honor reduced motion and pass accessibility (1.6s)
+  ✓  21 [desktop] › tests/shell.spec.ts:89:1 › blocked storage keeps controls usable without script errors (1.1s)
+  ✓  22 [desktop] › tests/shell.spec.ts:100:1 › without JavaScript: navigation, search alternatives, root and 404 (534ms)
+  ✓  23 [desktop] › tests/shell.spec.ts:116:1 › 320px and enlarged text preserve menu, preferences and dialog (305ms)
+  ✓  24 [desktop] › tests/shell.spec.ts:125:1 › expanded labels and RTL keep the shared frame usable (227ms)
+  ✓  25 [desktop] › tests/shell.spec.ts:138:1 › preference changes synchronize with another tab (1.2s)
+(node:1154173) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  26 [mobile] › tests/effects.spec.ts:14:57 › preference off prevents Three.js requests and preserves content (287ms)
+  ✓  27 [mobile] › tests/effects.spec.ts:14:57 › preference soft prevents Three.js requests and preserves content (218ms)
+  ✓  28 [mobile] › tests/effects.spec.ts:14:57 › preference disabled3d prevents Three.js requests and preserves content (211ms)
+  ✓  29 [mobile] › tests/effects.spec.ts:14:57 › preference reduced prevents Three.js requests and preserves content (200ms)
+  ✓  30 [mobile] › tests/effects.spec.ts:24:1 › real WebGL, idle rendering, pause, cleanup and reactivation (3.6s)
+  ✓  31 [mobile] › tests/effects.spec.ts:43:1 › lost WebGL context falls back without retrying on preference changes (1.4s)
+  ✓  32 [mobile] › tests/effects.spec.ts:49:1 › failed motor import preserves the static scene and navigation (330ms)
+  ✓  33 [mobile] › tests/effects.spec.ts:54:1 › other pages load decoration only; filters and keyboard remain functional (582ms)
+  ✓  34 [mobile] › tests/effects.spec.ts:60:1 › static image stays present without JavaScript (605ms)
+  ✓  35 [mobile] › tests/effects.spec.ts:68:1 › unavailable WebGL retains the image without throwing into page behavior (156ms)
+  ✓  36 [mobile] › tests/effects.spec.ts:77:1 › late motor import cannot mount after effects have been disabled (765ms)
+  ✓  37 [mobile] › tests/effects.spec.ts:85:1 › movement reduction takes priority during an active scene (2.4s)
+  ✓  38 [mobile] › tests/effects.spec.ts:92:1 › mobile scene below the fold defers the motor until sufficiently visible (1.7s)
+(node:1155114) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  39 [mobile] › tests/home-review.spec.ts:5:1 › all four sculptures load on demand, release offscreen and respect reduced motion (9.1s)
+  ✓  40 [mobile] › tests/home-review.spec.ts:28:1 › project and work card corners follow their real link and retain one tab stop (5.4s)
+  ✓  41 [mobile] › tests/home-review.spec.ts:35:1 › home reflows at 320 pixels and 200 percent text (135ms)
+(node:1155486) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  42 [mobile] › tests/shell.spec.ts:6:1 › new routes: accessible shell, real links, local assets and no overflow (14.4s)
+  ✓  43 [mobile] › tests/shell.spec.ts:31:1 › skip, mobile menu, dialog Escape and focus return (4.3s)
+  ✓  44 [mobile] › tests/shell.spec.ts:54:1 › global search, query history and literal malicious input (1.6s)
+  ✓  45 [mobile] › tests/shell.spec.ts:72:1 › preferences persist, honor reduced motion and pass accessibility (1.8s)
+  ✓  46 [mobile] › tests/shell.spec.ts:89:1 › blocked storage keeps controls usable without script errors (1.2s)
+  ✓  47 [mobile] › tests/shell.spec.ts:100:1 › without JavaScript: navigation, search alternatives, root and 404 (547ms)
+  ✓  48 [mobile] › tests/shell.spec.ts:116:1 › 320px and enlarged text preserve menu, preferences and dialog (297ms)
+  ✓  49 [mobile] › tests/shell.spec.ts:125:1 › expanded labels and RTL keep the shared frame usable (261ms)
+  ✓  50 [mobile] › tests/shell.spec.ts:138:1 › preference changes synchronize with another tab (1.2s)
+
+  1 skipped
+  49 passed (1.8m)
