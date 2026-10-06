@@ -1,6 +1,6 @@
 # Paynalton
 
-Sitio personal estático generado con Astro. Rutas en español, inglés y náhuatl; landing y descargas de «Cuando la tostadora te responde».
+Sitio personal estático generado con Astro. Rediseño completo en español e inglés, rutas históricas en náhuatl y descargas de «Cuando la tostadora te responde».
 
 ## Entorno
 
@@ -52,7 +52,9 @@ Se prueban rutas en los tres idiomas, navegación, menú móvil, selectores del 
 
 ## Alcance actual
 
-PT01–PT11 y la incorporación editorial PT08-C están implementados localmente. Hay 111 obras en biblioteca, 319 entidades públicas y 311 documentos de búsqueda. El build genera 337 HTML, 638 exportaciones por entidad, catálogo JSON, llms.txt, RSS de obras y un sitemap con 330 URLs canónicas. Se conservan el libro y sus descargas, las páginas históricas EN/NAH y las anclas existentes; las rutas antiguas ES tienen destinos de migración.
+El rediseño está disponible en español e inglés: 319 entidades públicas por idioma, incluidas 111 obras, y 622 documentos de búsqueda entre ambos idiomas. El build genera 648 HTML, 1.276 exportaciones, catálogo JSON, llms.txt, RSS de obras y un sitemap con 639 URLs canónicas. Se conservan el libro y sus descargas, las páginas históricas NAH y las anclas existentes; las rutas antiguas ES y las rutas inglesas reemplazadas tienen destinos de migración.
+
+Inglés utiliza las mismas plantillas y escenas, con diccionarios y cuerpos propios. El selector cambia a la página equivalente mediante enlaces HTML. Babilonia se utiliza solo para preparar traducciones localmente: el build y el sitio publicado no dependen de ese servicio. [Proceso de traducción y revisión](ai_reference/traduccion-en/README.md). Los resultados históricos de los apartados siguientes describen cada etapa, no los recuentos actuales.
 
 [Entrega PT11](ai_reference/implementacion/PT11/README.md). Dominio `paynalton.tech`, Netlify y DNS Cloudflare. `netlify.toml` configura la compilación; `dist/_headers` y `dist/_redirects` incluyen las reglas de alojamiento en el artefacto estático. No se ha desplegado ni modificado la configuración remota. PT12 tiene validación automatizada aprobada; queda la revisión humana antes de PT13. Las comprobaciones de publicación y fidelidad usan Python 3.11+ además del entorno Node indicado; no es una dependencia de ejecución del sitio.
 

@@ -1,0 +1,1 @@
+Work with different agents and models depending on the problem. I distinguish between using AI to build a tool and integrating it into its functionality: Yayauhqui corresponds to the first case and SpellChecker to the second. In complex projects, I prepare intermediate documentation so that agents can reconstruct their context and continue with coherence.

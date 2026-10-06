@@ -1,0 +1,1 @@
+I worked on the development of websites and web solutions. During this period I also contributed on my own with themes and aesthetic steamp nad add-ons for GNOME-Look, exploring desktop customization and the creation of shared resources.

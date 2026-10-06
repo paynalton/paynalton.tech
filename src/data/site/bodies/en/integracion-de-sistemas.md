@@ -1,0 +1,1 @@
+Work to connect applications, data, and services that were not conceived as a single solution. It includes migrations and decoupping of dependencies, with attention to what happens when an external component stops responding.

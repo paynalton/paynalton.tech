@@ -32,7 +32,8 @@ test('review content is opt-in and clears cached examples when returning to prod
     await siteContentLoader({ preview: true }).load(context);
     assert.equal(stored.size, 0);
     await siteContentLoader().load(context);
-    assert.equal(stored.size, (await loadRepository()).publicEntries().length);
+    const repository=await loadRepository();
+    assert.equal(stored.size,repository.getSettings().locales.filter(l=>l.enabled).flatMap(l=>repository.publicEntries(l.code)).length);
     assert.ok([...stored.values()].every(entry => !entry.data.example));
   } finally {
     if (previous === undefined) delete process.env.DESIGN_REVIEW;

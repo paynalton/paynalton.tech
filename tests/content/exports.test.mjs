@@ -28,7 +28,7 @@ test('drafts, examples, unavailable translations and private relations cannot ex
  raw.entities.find(e=>e.id==='sodigital').visibility = 'draft';
  let repository = createRepository(raw);
  assert.equal(projectDocument(repository,'pipila','es',origin).relations.length,1);
- for (const [id,locale] of [['pipila','en'],['ejemplo-lectura','es'],['../pipila','es'],['alma','es']]) assert.throws(()=>projectDocument(repository,id,locale,origin));
+ for (const [id,locale] of [['pipila','nah'],['ejemplo-lectura','es'],['../pipila','es'],['alma','es']]) assert.throws(()=>projectDocument(repository,id,locale,origin));
  raw.entities.find(e=>e.id==='pipila').visibility='draft'; repository=createRepository(raw);
  assert.throws(()=>projectDocument(repository,'pipila','es',origin));
 });

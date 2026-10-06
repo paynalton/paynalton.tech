@@ -1,0 +1,1 @@
+Work across different levels of a solution, from the user experience to the services and data. My experience includes enterprise systems, websites, campaigns, and in-house tools. I use platforms such as Astro, Flutter, and Tauri, along with languages and frameworks appropriate for each project.

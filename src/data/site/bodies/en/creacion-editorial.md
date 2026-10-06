@@ -1,0 +1,1 @@
+Development of ideas and texts under an authorial direction. It brings together the works, their processes, and the tools I build to accompany them, preserving the difference between a finished publication and an ongoing project.

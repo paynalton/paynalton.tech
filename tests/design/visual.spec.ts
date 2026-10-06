@@ -71,7 +71,7 @@ test('PT06 shared-template journey with expanded dictionary, RTL and missing equ
  await page.locator(`main a[href="${prefix}/es/proyectos/pipila/"]`).click();
  await expect(page.locator('.shell-locales a')).toHaveCount(2);
  await page.locator('.shell-locales a[lang=en]').click();
- await expect(page).toHaveURL(new RegExp(prefix+'/en/proyectos/translated-project/$'));
+ await expect(page).toHaveURL(new RegExp(prefix+'/en/projects/translated-project/$'));
  await expect(page.locator('html')).toHaveAttribute('dir','rtl');
  await expect(page.locator('h1')).toContainText('PT06-SYNTHETIC');
  await expect(page.locator('[data-entry-body]')).toContainText('PT06-SYNTHETIC');
@@ -83,7 +83,7 @@ test('PT06 shared-template journey with expanded dictionary, RTL and missing equ
  await page.goto(prefix+'/es/temas/integracion-de-sistemas/');
  await expect(page.locator('.shell-locales')).toHaveCount(0);
  await page.locator('[data-journey-contact] a').click();await expect(page).toHaveURL(new RegExp(prefix+'/es/contacto/$'));
- await page.goto(prefix+'/en/explorar/?q=pipila');
+ await page.goto(prefix+'/en/explore/?q=pipila');
  await expect(page.locator('[data-search-status]')).not.toContainText('{count}');
  await expect(page.locator('[data-search-item]:visible')).toHaveCount(1);
 });
@@ -92,11 +92,11 @@ test('PT06 shared-template journey with expanded dictionary, RTL and missing equ
 test('PT09 index isolates languages and handles expanded RTL search controls',async({page})=>{
  const prefix='/design-review/journey';
  const indexed:string[]=[];page.on('request',r=>{const path=new URL(r.url()).pathname;if(path.includes('/pagefind/'))indexed.push(path);});
- await page.goto(prefix+'/en/explorar/?q=pipila');
+ await page.goto(prefix+'/en/explore/?q=pipila');
  await expect(page.locator('[data-search-page]')).toHaveAttribute('aria-busy','false');
  await expect(page.locator('[data-search-retry]')).toBeHidden();
  await expect(page.locator('[data-search-results] li')).toHaveCount(1);
- await expect(page.locator('[data-search-results] a')).toHaveAttribute('href',prefix+'/en/proyectos/translated-project/');
+ await expect(page.locator('[data-search-results] a')).toHaveAttribute('href',prefix+'/en/projects/translated-project/');
  await page.locator('[data-search-clear]').click();
  await expect(page.locator('[data-search-results] li')).toHaveCount(3);
  expect(await page.locator('[data-search-results] a').evaluateAll(links=>links.every(a=>a.getAttribute('href')?.includes('/en/')))).toBe(true);

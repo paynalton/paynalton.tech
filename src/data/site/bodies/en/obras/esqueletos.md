@@ -1,0 +1,9 @@
+There are people in the world who fear ideas, not only ideas, but those who produce them, they fear change, and even more so, they fear their own freedom.<br><br>This kind of people are lovers of order, of stasis, of static equilibrium, and they are important to human society. They are important because they form a solid skeleton upon which humanity is sustained. <br><br>But if we leave a skeleton without muscles, without skin, without brain, it will be just a corpse waiting for time to wear it down and turn it into dust, for a skeleton cannot reconstruct itself, cannot move, cannot escape death.<br><br>Therefore, there are people who think, who bring change, who destroy ideas and conservative structures in pursuit of progress while dreaming of the future, carrying the burden of a skeleton and breaking the bones that refuse to move.<br><br>Life is this, it is a constant imbalance that leads to chaos, which will result in the evolution of the structures that sustain life itself. Death is the balance, the order, the stasis. It is the last breath that will not raise the chest again, the final rest in which molecular structures disintegrate to join a desolate, static landscape.<br><br>If someone tells you that your ideas are dangerous, inconvenient, or that they will bring chaos, do not stop, the skeleton must yield to the force of ideas, to the will to live, to the prospect of advancing, and if the skeleton resists, it must break into millions of molecules, for after that we will have time to build a new, better adapted skeleton to our needs.<br><br>And never forget that death lurks at every moment, and that the death of humanity will come when the skeleton takes control and draws us toward the static death, when it begins to kill ideas, for those who think can build structures to create new skeletons, but skeletons can never have ideas.<br><br><br>
+
+<div>
+
+
+
+</div>
+
+<br>

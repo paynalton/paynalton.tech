@@ -1,0 +1,272 @@
+{
+  "en/obras/el-reencuentro.md:12": {
+    "source_sha256": "ba81e377d4b577bb5230b4a3689876f4df60dd75a42c928755d374d8fa842ee5",
+    "translation": "- \"She has deceived us!\" - he said, trying to sound fierce.<br>- \"Yes! Kill her! I want my money!\" - the crowd began to shout.",
+    "request_id": "6da0ff5b-c61c-4669-84e4-949e23838407",
+    "model": "qwen3-8b"
+  },
+  "en/obras/el-reencuentro.md:42": {
+    "source_sha256": "b17aee91516664bc70901bc6e73012008900a53bd37340333b1332d95b5eeb2d",
+    "translation": "- Are you a<br>blacksmith? - Yes, I'm not the best, but I thought among humans I could find some work to finance my search. - They<br>are very good swords, but I think they are not satisfied.<br>- But... I can't carry such heavy things, and none of them offered to help me.<br>- What about the money?<br>- They didn't give me money, they just bought the steel bars for the weapons and gave me a workshop. I only used half a bar for all the swords, but they want me to give them the money they paid for the rest. My pay would come after I delivered the finished swords.",
+    "request_id": "96ba605b-2dfd-42fc-9d68-0e567a378296",
+    "model": "qwen3-8b"
+  },
+  "en/obras/el-reencuentro.md:46": {
+    "source_sha256": "49c53428424af7e3728090364803b4b4bf379e35b7d49b9cc416f1ff522dce15",
+    "translation": "-A sword like mine... Can you imbue it with magic?- asked the knight. -Yes,<br>there's no problem with that, but I couldn't craft something of that<br>size- -Very well... now just let me speak to them-",
+    "request_id": "d7365e75-6435-460c-87e5-0be29b2cf31d",
+    "model": "qwen3-8b"
+  },
+  "en/obras/el-reencuentro.md:58": {
+    "source_sha256": "8387b5420450c653611497e38d1d032a8aadc492390e7a5430c3df7cb533a120",
+    "translation": "-You could use the abandoned workshop at the end of the street, it just needs a little<br>cleaning- -The steel bars are there, next to the hadita workshop-\", said a woman pointing to a pile of steel covered with a leather tarp.",
+    "request_id": "2f3cf88a-8fa2-4cfc-adc6-aea9deb3ca6d",
+    "model": "qwen3-8b"
+  },
+  "en/obras/el-reencuentro.md:74": {
+    "source_sha256": "93dced3fc4aa56dfc3bea818ff76ba8104d3000db7b04d8378abc8eda4928aa3",
+    "translation": "-Can I ask you something?- said the fairy again. -Go<br>ahead.-<br>-Your hair smells like salt and your gaze looks calm, almost happy... What has happened to you lately?-\"",
+    "request_id": "b7d3a6a3-6150-4470-ac97-1c308d36b53e",
+    "model": "qwen3-8b"
+  },
+  "en/obras/el-reencuentro.md:78": {
+    "source_sha256": "4f2cf788c72723b66b0099a5ff579711463a8c3f36c47804f9f2f47765859aaa",
+    "translation": "-I met a wonderful person,\" he replied. \"Although she's very far away, but... I don't know, just knowing her makes me happy.\" -\"I'm<br>glad to hear that,\" said the fairy. -\"You look much better than last time.\"<br>-\"All thanks to you for giving me new hopes.\" -\"You<br>know you don't have to thank me, that's what friends are for.\"",
+    "request_id": "6a2b455f-e001-4926-a2aa-2da4f055d1c7",
+    "model": "qwen3-8b"
+  },
+  "en/obras/el-reencuentro.md:86": {
+    "source_sha256": "1dbd37cb46314379e3e1aaaa7e222eb889dc2ffc9e3137a8e10df1d366f64c73",
+    "translation": "-Where will you sleep?-\" asked the gentleman again.<br>-I'll be staying at a house nearby... and you, where will you go?\" -I'll<br>spend the night at the old lighthouse, listening to the music the waves bring with them-",
+    "request_id": "b5af9ae0-d942-4696-b992-97939a36657d",
+    "model": "qwen3-8b"
+  },
+  "en/obras/guia-1.md:2": {
+    "source_sha256": "430b5f29ef40a8dfa24b8624e27e02b0be7857206dbf742b7c430c00d97ee54d",
+    "translation": "Well, I'm starting to write this series of Howtos, which, although<br>they don't reveal great knowledge, clearly outline some basic points<br>that are very useful when getting into a system as multifaceted as<br>this one. I think I'm going to leave a copy of each one on my blog in case<br>someone wants to take a tour through them.",
+    "request_id": "43a36074-d2b1-48a8-932a-278866b70c7e",
+    "model": "qwen3-8b"
+  },
+  "en/obras/guia-1.md:8": {
+    "source_sha256": "3cf87e8e74c110b735d0fd03414725e4302daca7d44831ca4809326eaa59757f",
+    "translation": "You've surely<br>come across comments in forums or people who directly tell you:<br>\"the correct name is GNU/Linux, if you say just Linux then<br>you're only referring to the kernel.\"",
+    "request_id": "1f9ee2f8-e2d5-4e55-b01d-4f79c2b97a6a",
+    "model": "qwen3-8b"
+  },
+  "en/obras/guia-1.md:10": {
+    "source_sha256": "2406f1fac2eeb6f25c6ab46339199b8526e5dfc9bbb05efbe5fcfcfd7787c98c",
+    "translation": "To me personally, it<br>seems a bit ridiculous to be so demanding about names, but<br>these attitudes have their reasons that go back to the principles<br>of our beloved penguin.",
+    "request_id": "d8fe29c2-1532-474c-adfa-1444943bc41a",
+    "model": "qwen3-8b"
+  },
+  "en/obras/guia-1.md:14": {
+    "source_sha256": "6f5359010630babdc9ea98695d3f9115b17165ef2439382eb862dce88f90ecb3",
+    "translation": "It<br>is said that in the beginning there was man, and for a while he was<br>good. Then man created computers in the image and likeness of his<br>television. jejeje.",
+    "request_id": "2c1e5b8e-d87c-4c45-a165-11bf2020f535",
+    "model": "qwen3-8b"
+  },
+  "en/obras/guia-1.md:16": {
+    "source_sha256": "9839e021b2b673c0ffd71de17b07706ccd0f52d624ad0b1333ac310aa242426d",
+    "translation": "What is counted, however, is that at the<br>beginning of the computer age, the real business was not the software,<br>but the computer itself. The software was written by any user<br>with moderate knowledge, and computing professionals freely shared<br>their creations, which quickly spread around the world and<br>achieved that phenomenal technological development that has characterized<br>computing.",
+    "request_id": "f22add36-ca19-477e-9731-565872bbf74d",
+    "model": "qwen3-8b"
+  },
+  "en/obras/guia-1.md:18": {
+    "source_sha256": "8cab380abf1adfb59ff1c7f54b98056c3a778ec1ccb598e081b5d5f5c8b71c37",
+    "translation": "But then companies started to realize that<br>software was something from which they could gain profit, and they<br>began to create restrictive rules so that their employees would<br>not disclose their developments and so that the companies could sell them.",
+    "request_id": "9aa18523-cedd-4ced-8c25-bbe587723598",
+    "model": "qwen3-8b"
+  },
+  "en/obras/guia-1.md:20": {
+    "source_sha256": "00303b0ec5d112cf288626d58e66fc96a01343e414bf1484c7fe46ccc142b321",
+    "translation": "These<br>attitudes were spreading throughout all the companies and the<br>information stopped flowing. A systems expert named Richard Stallman,<br>who was used to sharing and receiving information freely,<br>was working in a company that had just purchased a new printer.",
+    "request_id": "ef50fee4-ae62-4c70-ae24-71c2770beea6",
+    "model": "qwen3-8b"
+  },
+  "en/obras/guia-1.md:22": {
+    "source_sha256": "43a42384944c967e31b79881b17df029471261dd4701f996ed45a62cfea668fd",
+    "translation": "That<br>printer wasn't working as the company needed, and, as a<br>good expert, Ricardito saw that the problem was in the printer's<br>controller.",
+    "request_id": "7b1d251f-91a1-40b6-8350-36e6a605fdfb",
+    "model": "qwen3-8b"
+  },
+  "en/obras/guia-1.md:24": {
+    "source_sha256": "c5c6af0cde86daea5e6779a987bcd78a8acbbfe6cf7d5c1bb6e2f5f1db1eb8a2",
+    "translation": "So, just as he had done on other occasions,<br>he picked up the phone and asked how much they would<br>charge him for providing the source code of the driver, since he<br>wanted to make a correction, which he would later send to the manufacturer<br>to consider adding to their future versions. But his surprise<br>was huge when they told him they couldn't deliver the source code,<br>not even for sale.",
+    "request_id": "180616d7-3639-4f7b-8cc8-ba29025d3e13",
+    "model": "qwen3-8b"
+  },
+  "en/obras/guia-1.md:26": {
+    "source_sha256": "460cda99a318931ab1814d2194ecc0396349b0bbfa2cdb4b3a26b61972e389cd",
+    "translation": "After causing a telephonic revolt, gathering<br>great courage, and ending up with not a single line of code, Stallman<br>realized that around him companies were already protecting their source<br>code and simply thought: \"This is no longer good.\"",
+    "request_id": "8578b76d-1580-4588-9059-fa9ef3dd4b37",
+    "model": "qwen3-8b"
+  },
+  "en/obras/guia-1.md:28": {
+    "source_sha256": "7799f539ab70e0fa3e8c2307e1d481b478263e79a3fdf2d80153bba164962c3f",
+    "translation": "By discussing<br>with other experts, they decided to bring an end to all of<br>this, so they created the FSF (Free Software Foundation), the<br>GPL licenses, and began working on a new operating system<br>filled with completely free applications and drivers. This system would<br>be named GNU (GNU is Not Unix).",
+    "request_id": "cd1c450f-9165-4404-ae06-c87cae3bea83",
+    "model": "qwen3-8b"
+  },
+  "en/obras/guia-1.md:30": {
+    "source_sha256": "05b11f1929d8ad41ec2307af402a70449764de5150f978e6009be6d17d259c94",
+    "translation": "It was the year of 1992 and<br>the system was already very complete, with hundreds of applications, but the<br>most important thing was missing, the core.",
+    "request_id": "8830dfa7-23d1-4eb0-9189-bd327fa2dc75",
+    "model": "qwen3-8b"
+  },
+  "en/obras/guia-1.md:32": {
+    "source_sha256": "dbb06b3f89fc4156d0ead65b31e71f55db7e14e20f642305f6a168a5c49cd8fb",
+    "translation": "Although the system<br>wasn't completely finished, many wanted to use it already, but<br>without that core it was impossible to do so. Then came a<br>blessing in the form of a core from Linus Torvalds, who had<br>developed a core which he called Linux, which had been conceived<br>initially to be used in Minix systems.",
+    "request_id": "88b706f4-30a7-4b18-a997-164ae78f5e7f",
+    "model": "qwen3-8b"
+  },
+  "en/obras/guia-1.md:34": {
+    "source_sha256": "df29ff0601fe4e0bfc4baf05e940f9e3b10e25a9cb300da1064a1e4f7e91b7c1",
+    "translation": "However, it wasn't<br>very difficult to integrate it into the GNU system, and, many years before<br>it was expected, the first usable version of GNU, called GNU/Linux, emerged.",
+    "request_id": "abcc2313-93fb-41f5-b706-cf2a16e3f93c",
+    "model": "qwen3-8b"
+  },
+  "en/obras/guia-1.md:36": {
+    "source_sha256": "2c82ab2762bd80b1ccebd5213c4566ec7d52ddaf350c1ed46449ecf2d644e029",
+    "translation": "It<br>should be noted that GNU/Linux is not the pinnacle of success, since<br>GNU and Linux are independent projects that support each other<br>only. The main goal of the FSF is to have its own kernel, of which<br>we already have prototypes under the name of Hurd.",
+    "request_id": "c7d0e8bf-9308-4e9b-8571-fa79fd75a170",
+    "model": "qwen3-8b"
+  },
+  "en/obras/guia-1.md:40": {
+    "source_sha256": "31ba48225176d4f6592add1a29c0b17eeeb04eff3f230a8c0dc19fcb06843929",
+    "translation": "I will<br>conclude by mentioning that at some point the native core of GNU will be<br>completed and promises major improvements over the current Linux kernel, which,<br>since its creation, has also never stopped improving.",
+    "request_id": "d13cafbc-38f6-432d-97c3-c9e05447a03c",
+    "model": "qwen3-8b"
+  },
+  "en/obras/guia-1.md:42": {
+    "source_sha256": "0d0ab967e655e819abe8c47ff9fb4b37685aa9f67534b76b85aa4213b3ff40d7",
+    "translation": "However,<br>enjoy GNU/Linux for now knowing that thousands of people<br>are working to improve it. Although the system<br>currently does impressive things, when the GNU kernel is<br>finished, you'll see what a truly robust, stable,<br>intelligent, and capable system is.<br>\n",
+    "request_id": "a0bad872-217a-41bd-8b62-12a38dbfd9c5",
+    "model": "qwen3-8b"
+  },
+  "en/obras/howto-novia.md:12": {
+    "source_sha256": "fbe3a0bde1f3b65867d56f3072d18ec2aea00c8d0074d015f81db11a340f77bb",
+    "translation": "#cd /usr/src/linux<br>#make --menuconfig",
+    "request_id": "a3deb793-a9c3-48d8-908c-d8cfd634a937",
+    "model": "qwen3-8b"
+  },
+  "en/obras/noche-de-brujas-en-diabuluz.md:28": {
+    "source_sha256": "b3804caec269403bf77a900bb7189c97472e7cb40df527352335f410b237e2cd",
+    "translation": "I'm signing off. If in the future someone finds this useful, I'll improve it next year so that it has better effects. I'd like to have a monster tear the page, add some sounds, or make the window start bleeding. But that will be for the next time.<br>\n",
+    "request_id": "7a5b2d35-fee0-4ffe-84a3-e7df2de1e7cc",
+    "model": "qwen3-8b"
+  },
+  "en/obras/paquetes-y-dependencias-en-gnu-linux.md:2": {
+    "source_sha256": "b436e345f6865037791aa800fd95a60d9c31fba8ac7e24d5698682a1f942ea9a",
+    "translation": "One of the main problems with GNU/Linux since its inception<br>has always been standardization. And it's that GNU/Linux has<br>always been an open project for everyone, where thousands of hands<br>have created a small piece of code. But, after all, humans are<br>not always going to agree, and with so many hands involved, it's<br>difficult to have order, since each person can have a Linux completely<br>different from what their neighbor has.",
+    "request_id": "9c3206fa-6f69-452b-b518-d99216315d77",
+    "model": "qwen3-8b"
+  },
+  "en/obras/paquetes-y-dependencias-en-gnu-linux.md:4": {
+    "source_sha256": "b6a1a44f55898cd2a6bc28cee3e6b71c71b5beb0f79fec5dbb52f482d9b15343",
+    "translation": "Then application<br>developers have a big problem: When they create their<br>program, they use different libraries to save work and<br>check that it works correctly on their system. But if the developer<br>wants to distribute it, it's very likely that<br>other computers don't have the same libraries that they used or<br>simply that they are in a different directory than expected,<br>which makes their program incompatible with other systems.",
+    "request_id": "5a2a8ae6-9366-4a35-92b7-67f34b67333a",
+    "model": "qwen3-8b"
+  },
+  "en/obras/paquetes-y-dependencias-en-gnu-linux.md:6": {
+    "source_sha256": "88cb8fabcb5053c2434bfed3cc83da6675d9029a99e1be92362dd2c9af95438e",
+    "translation": "This<br>creates a major problem that was initially attempted to be<br>solved through LSB (Linux Standard Base), which proposed<br>a set of standard libraries that programmers could rely<br>on to always find in any Linux system.",
+    "request_id": "95e53876-3162-4ded-8e5b-bc7741ded569",
+    "model": "qwen3-8b"
+  },
+  "en/obras/paquetes-y-dependencias-en-gnu-linux.md:8": {
+    "source_sha256": "998195130b3f22e38ab7f47b396ea1fb6bc7b59e39d4f51dfaaf768acaacef70",
+    "translation": "However, this plan<br>did not progress as expected, and LSB became a solution that was not<br>well accepted, as there were serious discussions about which library<br>was better than another, a program that caused instability with<br>another, or that was too unsafe, and it ended with the breaking of relations<br>with some important companies.",
+    "request_id": "ee469f9a-8589-4500-9aaa-753b531cae9d",
+    "model": "qwen3-8b"
+  },
+  "en/obras/paquetes-y-dependencias-en-gnu-linux.md:10": {
+    "source_sha256": "2e0dfd4d0ba70d7c2af64800fb33c3209a38991538767251028b725452c8d640",
+    "translation": "And until a few years<br>ago, installing a program on Linux was a nightmare, because<br>to have it you had to find and install every single program<br>required to make that program work.",
+    "request_id": "7d52579f-7a60-49a6-a198-d9fda4760836",
+    "model": "qwen3-8b"
+  },
+  "en/obras/paquetes-y-dependencias-en-gnu-linux.md:12": {
+    "source_sha256": "09a8525f9f6e1b8ff13d7e743597eb970cd77babb2ad178bc9b7abbf564a55e9",
+    "translation": "A first<br>solution was the installation packages. A user who wanted to install<br>a program had to look for the respective installation package (.deb,<br>.ebuild, .rpm, etc.) for their system, and the installer system<br>checked the program's dependencies, warning if any were missing and<br>sometimes suggesting where to download the missing program.",
+    "request_id": "b725a0ca-4c7a-4d71-b258-7900c162ff0a",
+    "model": "qwen3-8b"
+  },
+  "en/obras/paquetes-y-dependencias-en-gnu-linux.md:14": {
+    "source_sha256": "93ba6d215a314c95b597de319e8bf068649233265e85f7842ee1f6f89cc5595c",
+    "translation": "Later, some<br>of these installation systems could download the installation<br>packages for the missing programs (dependencies) to make<br>the user's life much easier.",
+    "request_id": "4a17c33d-05ef-47cb-ba23-4f26036e18da",
+    "model": "qwen3-8b"
+  },
+  "en/obras/paquetes-y-dependencias-en-gnu-linux.md:22": {
+    "source_sha256": "da4712298b7182a1a84a42c3939159bd27dae431b13d7f62702389a4af023a27",
+    "translation": "Users<br>who migrate from one system to another are surprised to find that<br>they no longer have to spend hours searching the internet for<br>a program to install, but instead find a list of programs to install<br>within their Linux system.",
+    "request_id": "2699efb5-36db-41e2-ada6-d46f34ad5351",
+    "model": "qwen3-8b"
+  },
+  "en/obras/paquetes-y-dependencias-en-gnu-linux.md:24": {
+    "source_sha256": "f381fe4014bfe8aa84aaa17a7562f9bc1a2dafc2e057bbddb946980b3260629e",
+    "translation": "A repository is that, a list of<br>programs that is maintained by the large number of users<br>and developers of a particular distribution. Every time a new program<br>or a new version of it appears, a group of enthusiasts reviews<br>the dependencies of that program, installs them, and checks<br>their stability, security, and various conflicts with other<br>applications. After a period of testing, the program is placed<br>in the list of \"stable programs\" where regular users can use it<br>with full confidence.",
+    "request_id": "7f6696e1-696d-47c3-b856-df8becbbeb58",
+    "model": "qwen3-8b"
+  },
+  "en/obras/paquetes-y-dependencias-en-gnu-linux.md:28": {
+    "source_sha256": "d7e7f7e627cd793d2b41dbab96cb97ce4652b10ffdb73385ed288913616a22d7",
+    "translation": "Recognize<br>the installer system being used; for Red Hat and Fedora, YUM is used,<br>for those coming from Debian, APT is used, for Gentoo it's PORTAGE,<br>and sorry if by ignorance I omitted any.",
+    "request_id": "31c7f8c2-97b1-4fcf-a459-a51a1f6b6ede",
+    "model": "qwen3-8b"
+  },
+  "en/obras/paquetes-y-dependencias-en-gnu-linux.md:34": {
+    "source_sha256": "c8a208b313d248c69daca539ef632b9ff75a6388efc6d627875304fca568a86b",
+    "translation": "\n\n- look for the latest stable version of the program<br>- calculate the number of dependencies for the<br>program - download all the necessary files to install the program and its dependencies -<br>verify that the downloaded files are not corrupted (either due to an error in the download or because someone very bad\n- has altered the package) -<br>decompress all the files - install<br>all the programs - configure<br>all the programs - display options<br>for things that require the user's attention (such as accepting contracts or providing specific equipment details). And with<br>that, your program will be installed...",
+    "request_id": "6034b7a7-ade7-45ba-9635-3212d3cb7644",
+    "model": "qwen3-8b"
+  },
+  "en/obras/paquetes-y-dependencias-en-gnu-linux.md:38": {
+    "source_sha256": "a6cd4b92698ff90b5333d9b65085d937ab22cd1461e108edd29bd8e0f4e1e794",
+    "translation": "If<br>the command line isn't your thing, almost all distributions now<br>come with a graphical interface for their installer. That executes<br>those three simple commands for you, so all you have to do<br>is: find the program, select the one you want to install, and<br>click \"Install\"...",
+    "request_id": "eacf5012-1007-4331-aec8-6ee9eb530edc",
+    "model": "qwen3-8b"
+  },
+  "en/obras/paquetes-y-dependencias-en-gnu-linux.md:42": {
+    "source_sha256": "0341bb6b91275920a7d3cb710460f8ca486497c2f3074519b87fb8d41946a1e5",
+    "translation": "Every<br>repository system is by default set up to use stable<br>versions of the system, but if you're brave enough, you can<br>always configure it to use unstable repositories to always<br>get the latest programs straight from the forge (sourceforge),<br>and if you find any errors, don't forget to report<br>them so that, in the next update, it is fixed not only for you,<br>but for everyone who uses that program.",
+    "request_id": "1858d400-f170-45d9-a3bb-53ad9655094f",
+    "model": "qwen3-8b"
+  },
+  "en/obras/paquetes-y-dependencias-en-gnu-linux.md:48": {
+    "source_sha256": "1f0f3c8fb316210388e5b0850d6314368dbd8c8e1229c3d2f304be28cc45d0c2",
+    "translation": "Good luck, if there are any questions then it's time.<br>\n",
+    "request_id": "6c5f95f6-b262-4bd5-961c-9f1680679abe",
+    "model": "qwen3-8b"
+  },
+  "en/obras/usuarios-y-permisos-en-gnu-linux.md:10": {
+    "source_sha256": "eb12bc4ddf74120a46dac538cc8d3e46220fca96cefbb1d2a5947fa1dcaf9b36",
+    "translation": "Linux<br>is a pretty secure system because most things are done in<br>user mode, so what we do in this mode will never damage<br>the system (unless we have done very stupid things before,<br>such as changing permissions on important files and<br>directories).",
+    "request_id": "f300598e-a275-4c51-9803-f533aad6378e",
+    "model": "qwen3-8b"
+  },
+  "en/obras/usuarios-y-permisos-en-gnu-linux.md:12": {
+    "source_sha256": "7950a6c24aa1290cdb5f9bbc8971ec795709454630f89731e339b58ac36ed08c",
+    "translation": "When in a manual or instruction we indicate that<br>a command should be used in user mode, we use the character \"\\$\" at the<br>beginning of the line, for example:",
+    "request_id": "2deccbac-1b58-4791-9c1f-2d8b6cdcde10",
+    "model": "qwen3-8b"
+  },
+  "en/obras/usuarios-y-permisos-en-gnu-linux.md:18": {
+    "source_sha256": "55bb1a9d01a870b5a19eeebebdd908754d7eb4c75fa59bb4b892210d12eee73d",
+    "translation": "For<br>the safety of their equipment, when they go to run a command as<br>administrator, start the session, execute what they need to execute,<br>and return immediately to user mode, this will save them from making an<br>error that could be fatal to the system.<br><br>**Switching between user mode and Administrator:**",
+    "request_id": "3e19061e-e7c9-4d83-99cc-c9e980daef38",
+    "model": "qwen3-8b"
+  },
+  "en/obras/usuarios-y-permisos-en-gnu-linux.md:22": {
+    "source_sha256": "7afecf59dc6b8ac883209f2d623a850b43f335003a2afd20dc57df16071a2c7a",
+    "translation": "The<br>most common option to run a command is to open a virtual console (some<br>program within the graphical environment that shows us the command line in<br>the purest MS-DOS style). and execute commands. When opening it, we will<br>see something like:",
+    "request_id": "24ba2e96-13a0-4246-aa62-f596bd639c6a",
+    "model": "qwen3-8b"
+  },
+  "en/obras/usuarios-y-permisos-en-gnu-linux.md:32": {
+    "source_sha256": "a16549fc308a6d2586abe3d6729c51e383e2181d3b798eb0c53b7bd2327f1de3",
+    "translation": "Some<br>systems, for security reasons, do not allow you to use the \"su\" command (Ubuntu<br>and all its derivatives), but instead come with another quite useful and secure<br>command: \"sudo\" (stand in for superuser). This command will allow you to<br>execute commands as if you were the administrator, but without fully opening the<br>session, so that you do not need to use the \"exit\" command.",
+    "request_id": "f558a42d-bea4-4def-96a7-912bd6fa651c",
+    "model": "qwen3-8b"
+  }
+}

@@ -11,9 +11,9 @@
     {
       "code": "en",
       "label": "English",
-      "tag": "en",
+      "tag": "en-US",
       "dir": "ltr",
-      "enabled": false
+      "enabled": true
     },
     {
       "code": "nah",

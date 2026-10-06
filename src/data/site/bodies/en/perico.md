@@ -1,0 +1,1 @@
+PERICO is an extension of VS Code that implements LORO to automate functions related to agent memory and context in software development. It is still in development and its repository is private. My intention is to offer it as a service.

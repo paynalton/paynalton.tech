@@ -1,0 +1,1 @@
+I have led teams of up to fifteen developers, with responsibility for hiring, training, supervision, architecture, and deliveries. I strive to understand what is preventing progress and take action on that blockage, whether technical, of understanding, or of coordination. Listening and helping to organize a problem is part of the work of leadership.

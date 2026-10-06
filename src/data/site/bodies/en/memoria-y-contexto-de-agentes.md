@@ -1,0 +1,1 @@
+Practices and tools for preserving useful information between stages of an AI project. This topic connects intermediate documentation, LORO, PERICO, and the needs that arise when developing software or producing an extensive work.

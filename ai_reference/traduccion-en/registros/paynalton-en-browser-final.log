@@ -1,0 +1,32 @@
+npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+npm notice run paynalton.tech@0.0.1 test:e2e
+npm notice run playwright test tests/english.spec.ts tests/candidate.spec.ts --grep-invert visual baseline --workers=2 --output=/tmp/paynalton-en-final-results --reporter=list
+[WebServer] npm warn Unknown env config "always-auth". This will error in a future major version of npm. See `npm help npmrc` for supported config options.
+[WebServer] npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+[WebServer] npm notice run paynalton.tech@0.0.1 preview
+[WebServer] npm notice run astro preview --host 127.0.0.1 --port 4334 --ignore-lock
+[WebServer] (node:901701) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 10 tests using 2 workers
+
+(node:901800) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:901801) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   2 [desktop] › tests/candidate.spec.ts:45:1 › CSP retains the native local search form without JavaScript (340ms)
+  ✓   3 [desktop] › tests/english.spec.ts:5:1 › English pages preserve the shared design, accessibility and equivalent Spanish routes (16.2s)
+  ✓   4 [desktop] › tests/english.spec.ts:25:1 › English Pagefind searches translated bodies and returns only English destinations (620ms)
+  ✓   5 [desktop] › tests/english.spec.ts:32:1 › language switching, translated reading and downloads work without JavaScript (934ms)
+(node:902922) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [desktop] › tests/candidate.spec.ts:6:1 › CSP permits published pages and Pagefind while blocking injected scripts (45.3s)
+(node:904479) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   7 [mobile] › tests/candidate.spec.ts:45:1 › CSP retains the native local search form without JavaScript (329ms)
+  ✓   8 [mobile] › tests/english.spec.ts:5:1 › English pages preserve the shared design, accessibility and equivalent Spanish routes (13.7s)
+  ✓   9 [mobile] › tests/english.spec.ts:25:1 › English Pagefind searches translated bodies and returns only English destinations (549ms)
+  ✓  10 [mobile] › tests/english.spec.ts:32:1 › language switching, translated reading and downloads work without JavaScript (875ms)
+  ✓   6 [mobile] › tests/candidate.spec.ts:6:1 › CSP permits published pages and Pagefind while blocking injected scripts (43.3s)
+
+  10 passed (1.1m)

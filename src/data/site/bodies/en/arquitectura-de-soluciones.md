@@ -1,0 +1,1 @@
+Design solutions that connect applications, data, and services without losing sight of their operation. I'm interested in understanding where the dependencies are, what happens when a failure occurs, and how to allow the system to evolve. Pipila and the transition of Onix show two ways to approach that work.

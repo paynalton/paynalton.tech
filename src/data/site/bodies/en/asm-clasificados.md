@@ -1,0 +1,1 @@
+In addition to support, I developed applications to automate editorial creation and an intranet. I also participated in website quality testing. These contributions were part of my development experience before taking on a position with that title.

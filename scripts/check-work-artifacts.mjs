@@ -15,6 +15,6 @@ for(const locale of repo.getSettings().locales.filter(l=>l.enabled)){
  }
 }
 const found=new Set();
-async function walk(dir){for(const item of await readdir(dir,{withFileTypes:true})){const p=dir+'/'+item.name;if(item.isDirectory())await walk(p);else if(/\/obra\/[^/]+\/index\.(json|md)$/.test(p))found.add(p);}}
+async function walk(dir){for(const item of await readdir(dir,{withFileTypes:true})){const p=dir+'/'+item.name;if(item.isDirectory())await walk(p);else if(/\/(?:obra|works)\/[^/]+\/index\.(json|md)$/.test(p))found.add(p);}}
 await walk('dist');assert.deepEqual(found,expected);
 console.log(`Obras: ${expected.size} exportaciones coinciden con los textos públicos.`);

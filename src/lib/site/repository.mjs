@@ -3,19 +3,20 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { settingsSchema, entitySchema, editorialSchema, selectionSchema, publicEntrySchema } from './schemas.mjs';
 import { validateCatalog, requiredUiKeys } from './i18n.mjs';
+import { sectionUrl } from './navigation.mjs';
 
 export const defaultRoot = path.resolve(fileURLToPath(new URL('../../data/site/', import.meta.url)));
 const fail = message => { throw new Error(`[contenido] ${message}`); };
 const unique = (list, label) => { if (new Set(list).size !== list.length) fail(`Duplicado: ${label}`); };
 const groups = { profiles: 'profile', channels: 'channel', projects: 'project', experience: 'experience', works: 'work', terms: 'term', featuredProjects: 'project', featuredWorks: 'work' };
-const segments = { project: 'proyectos', work: 'obra', term: 'temas' };
+const sections = { project: 'projects', work: 'works', term: 'terms' };
 const route = (entity, locale, variant) => {
   // Preserve the published book landing; other works use the configurable library.
   if (entity.type === 'work' && entity.id === 'cuando-la-tostadora-te-responde') return `/${locale}/books/${variant.slug}/`;
-  if (entity.type === 'profile') return `/${locale}/sobre-mi/`;
-  if (entity.type === 'channel') return `/${locale}/contacto/#${variant.slug}`;
-  if (entity.type === 'experience') return `/${locale}/trayectoria/#${variant.slug}`;
-  return `/${locale}/${segments[entity.type]}/${variant.slug}/`;
+  if (entity.type === 'profile') return sectionUrl(locale,'about');
+  if (entity.type === 'channel') return `${sectionUrl(locale,'contact')}#${variant.slug}`;
+  if (entity.type === 'experience') return `${sectionUrl(locale,'experience')}#${variant.slug}`;
+  return `${sectionUrl(locale,sections[entity.type])}${variant.slug}/`;
 };
 
 export async function readSource(root = defaultRoot) {

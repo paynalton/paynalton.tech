@@ -1,0 +1,24 @@
+npm warn Unknown user config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+npm notice run paynalton.tech@0.0.1 test:content
+npm notice run node --test tests/content/*.test.mjs
+✔ tests/content/design.test.mjs (301.492009ms)
+✔ tests/content/editorial.test.mjs (502.239072ms)
+✔ tests/content/english.test.mjs (243.456348ms)
+✔ tests/content/exports.test.mjs (393.202305ms)
+✔ tests/content/external-links.test.mjs (40.302859ms)
+✔ tests/content/forms-state.test.mjs (28.52048ms)
+✔ tests/content/model.test.mjs (652.702109ms)
+✔ tests/content/professional.test.mjs (208.122237ms)
+✔ tests/content/publication.test.mjs (8274.250584ms)
+✔ tests/content/reading.test.mjs (536.788977ms)
+✔ tests/content/scene-quality.test.mjs (40.487873ms)
+✔ tests/content/search.test.mjs (252.488401ms)
+✔ tests/content/shell.test.mjs (234.048989ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 8292.292431

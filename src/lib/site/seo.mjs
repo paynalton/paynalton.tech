@@ -23,5 +23,5 @@ export function pageSeo(repository,page,description,prefix=''){
  }
  const trail=breadcrumbs(page,t,prefix);
  if(trail.length)graph.push({'@type':'BreadcrumbList',itemListElement:trail.map((b,i)=>({'@type':'ListItem',position:i+1,name:b.title,item:new URL(b.url,origin).href}))});
- return {formats:entry?entryExportPaths(page.chapterId?{...entry,url:page.url}:entry):null,title:`${title} | ${t('brand.name')}`,description:summary,canonical,alternatives,image:new URL(socialImage,origin).href,imageAlt:t('publication.imageAlt'),type:entry?.type==='work'?'article':'website',jsonLd:safeJsonLd({'@context':'https://schema.org','@graph':graph})};
+ return {formats:entry?entryExportPaths(page.chapterId?{...entry,url:page.url}:entry):null,title:`${title} | ${t('brand.name')}`,description:summary,canonical,alternatives,image:new URL(page.locale==='en'?'/taller/publication/social-en.png':socialImage,origin).href,imageAlt:t('publication.imageAlt'),type:entry?.type==='work'?'article':'website',jsonLd:safeJsonLd({'@context':'https://schema.org','@graph':graph})};
 }

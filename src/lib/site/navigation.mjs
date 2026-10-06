@@ -9,10 +9,12 @@ export const sections = [
   { key: 'explore', segment: 'explorar', label: 'nav.explore' },
   { key: 'terms', segment: 'temas', label: 'nav.terms' },
 ];
+const englishSegments = {home:'',projects:'projects',experience:'experience',works:'works',about:'about',contact:'contact',explore:'explore',terms:'topics'};
 export function sectionUrl(locale, key, prefix = '') {
   const section = sections.find(s => s.key === key);
   if (!section || !/^[a-z][a-z0-9-]*$/.test(locale)) throw new Error('Unknown route');
-  return `${prefix}/${locale}/${section.segment ? section.segment + '/' : ''}`;
+  const segment=locale==='en'?englishSegments[key]:section.segment;
+  return `${prefix}/${locale}/${segment ? segment + '/' : ''}`;
 }
 /** @returns {import('./types').SiteRoute[]} */
 export function routeManifest(repository, prefix = '') {

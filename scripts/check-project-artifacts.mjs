@@ -20,7 +20,7 @@ async function walk(dir) {
  for (const item of await readdir(dir,{withFileTypes:true})) {
   const file=`${dir}/${item.name}`;
   if(item.isDirectory()) await walk(file);
-  else if(/\/proyectos\/[^/]+\/index\.(json|md)$/.test(file)) found.add(file);
+  else if(/\/(?:proyectos|projects)\/[^/]+\/index\.(json|md)$/.test(file)) found.add(file);
  }
 }
 await walk('dist'); assert.deepEqual(found,expected);

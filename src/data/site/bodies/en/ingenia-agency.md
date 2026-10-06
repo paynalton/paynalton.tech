@@ -1,0 +1,1 @@
+I participated in planning, development, architecture and integration of solutions. In addition to my backend responsibilities, I led three developers. This stage is part of my experience combining implementation with the technical coordination of others.

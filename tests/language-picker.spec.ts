@@ -4,9 +4,8 @@ import {mkdir} from 'node:fs/promises';
 test('language picker exposes only Spanish and English with honest availability',async({page},info)=>{
  await page.goto('/es/');const picker=page.locator('.language-picker');
  await picker.locator('summary').click();await expect(picker.locator('a[hreflang=es]')).toHaveAttribute('aria-current','page');
- await expect(picker.locator('[aria-disabled=true]')).toContainText('English');
- await expect(picker.locator('[aria-disabled=true]')).toContainText('Traducción pendiente');
- await expect(picker.locator('a[hreflang=en]')).toHaveCount(0);
+ await expect(picker.locator('[aria-disabled=true]')).toHaveCount(0);
+ await expect(picker.locator('a[hreflang=en]')).toHaveAttribute('href','/en/');
  expect((await new AxeBuilder({page}).include('.language-picker').withTags(['wcag2a','wcag2aa','wcag21aa','wcag22aa']).analyze()).violations).toEqual([]);
  const dir=`ai_reference/implementacion/PT12/selector-idioma/${info.project.name}`;await mkdir(dir,{recursive:true});await page.screenshot({path:`${dir}/selector.png`});
  await page.setViewportSize({width:320,height:800});await page.addStyleTag({content:'html{font-size:200%}'});await page.evaluate(()=>document.fonts.ready);

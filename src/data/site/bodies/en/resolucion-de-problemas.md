@@ -1,0 +1,1 @@
+My way of approaching a situation begins by understanding it, investigating its background, and evaluating alternatives. On site, this topic connects technical decisions and ways of working with the curiosity that also appears in my texts.

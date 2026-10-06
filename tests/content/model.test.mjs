@@ -81,9 +81,9 @@ test('selection changes order and featured placement without touching templates'
 test('synthetic translation changes dictionaries and config, not templates or IDs', () => {
   const repo = createRepository(bilingual());
   assert.equal(repo.publicEntries('en')[0].entityId, 'pipila');
-  assert.equal(repo.resolve('pipila', 'en'), '/en/proyectos/translated-pipila/');
+  assert.equal(repo.resolve('pipila', 'en'), '/en/projects/translated-pipila/');
   assert.equal(repo.alternatives('pipila').length, 2);
-  assert.equal(repo.publicEntries('en')[0].relations[0].url, '/en/trayectoria/#translated-sodigital');
+  assert.equal(repo.publicEntries('en')[0].relations[0].url, '/en/experience/#translated-sodigital');
 });
 
 test('missing editorial translation does not fabricate a page or language option', () => {
@@ -182,7 +182,8 @@ test('Astro loader only stores the public projection, without examples or notes'
     store:{clear:()=>stored.clear(),set:e=>stored.set(e.id,e)},
     parseData:async({data})=>data,renderMarkdown:async()=>({html:'',metadata:{}}),generateDigest:()=> 'test',
   });
-  assert.equal(stored.size,createRepository(await readSource()).publicEntries().length);
+  const repository=createRepository(await readSource());
+  assert.equal(stored.size,repository.getSettings().locales.filter(l=>l.enabled).flatMap(l=>repository.publicEntries(l.code)).length);
   const serialized=JSON.stringify([...stored.values()]);
   assert.doesNotMatch(serialized,/ejemplo-lectura|Nota editorial|no publicar|PRIVATE/);
 });

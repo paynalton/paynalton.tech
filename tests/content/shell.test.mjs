@@ -23,7 +23,7 @@ test('navigation only links generated pages and never invents translated equival
   raw.bodies['en/pipila.md'] = 'Translated project body.';
   const translated = createRepository(raw), manifest = routeManifest(translated);
   const alternatives = pageAlternatives(manifest, pipila, translated.getSettings());
-  assert.deepEqual(alternatives.map(a => a.url), ['/es/proyectos/pipila/','/en/proyectos/translated-project/']);
+  assert.deepEqual(alternatives.map(a => a.url), ['/es/proyectos/pipila/','/en/projects/translated-project/']);
   assert.equal(pageAlternatives(manifest, routes.find(r => r.entityId === 'integracion-de-sistemas'), translated.getSettings()).length, 1);
   assert.throws(() => sectionUrl('../es', 'home'));
 });

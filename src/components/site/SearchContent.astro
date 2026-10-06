@@ -1,6 +1,7 @@
 ---
 import type {PublicEntry} from '../../lib/site/types';
 import SearchForm from '../shell/SearchForm.astro';
+import {sectionUrl} from '../../lib/site/navigation.mjs';
 import {searchDocuments} from '../../lib/site/search-documents.mjs';
 import {loadSite} from '../../lib/site/build.mjs';
 interface Props {repository:Awaited<ReturnType<typeof loadSite>>;locale:string;prefix?:string;t:(key:string,values?:Record<string,string|number>)=>string;}
@@ -14,7 +15,7 @@ const bundle=prefix?`${prefix}/pagefind/pagefind.js`:'/pagefind/pagefind.js';
 ---
 <div data-search-page data-bundle={bundle} data-root={`${prefix}/${locale}/`} data-sample={String(sample)} data-empty={t('search.empty')} data-one={t('search.resultOne',{count:'{count}'})} data-other={t('search.resultOther',{count:'{count}'})} data-loading={t('search.loading')} data-error={t('search.error')} data-invalid={t('search.invalid')}>
  <p>{t('search.scope')}</p>
- <SearchForm t={t} action={`${prefix}/${locale}/explorar/`} id="page-query"/>
+ <SearchForm t={t} action={sectionUrl(locale,'explore',prefix)} id="page-query"/>
  <fieldset class="search-filters" hidden data-search-filters><legend>{t('search.filters')}</legend>
   <div><label for="search-type">{t('search.type')}</label><select id="search-type" name="type" form="page-query-form"><option value="">{t('search.anyType')}</option>{types.map(type=><option value={type}>{t(`search.type.${type}`)}</option>)}</select></div>
   <div><label for="search-topic">{t('search.topic')}</label><select id="search-topic" name="topic" form="page-query-form"><option value="">{t('search.anyTopic')}</option>{topics.map(term=><option value={term.entityId}>{term.title}</option>)}</select></div>
@@ -24,6 +25,6 @@ const bundle=prefix?`${prefix}/pagefind/pagefind.js`:'/pagefind/pagefind.js';
  <p data-search-warning></p><p role="status" data-search-status></p>
  <ul class="shell-results" data-search-results hidden></ul>
  <div data-search-fallback><h2>{t('search.fallback')}</h2><ul class="shell-results">{documents.map(entry=><li data-search-item><h3><a href={entry.url}>{entry.title}</a></h3><p>{entry.summary}</p></li>)}</ul></div>
- <nav class="tn-actions" aria-label={t('search.all')}><a href={`${prefix}/${locale}/proyectos/`}>{t('nav.projects')}</a><a href={`${prefix}/${locale}/obra/`}>{t('nav.works')}</a><a href={`${prefix}/${locale}/temas/`}>{t('nav.terms')}</a></nav>
+ <nav class="tn-actions" aria-label={t('search.all')}><a href={sectionUrl(locale,'projects',prefix)}>{t('nav.projects')}</a><a href={sectionUrl(locale,'works',prefix)}>{t('nav.works')}</a><a href={sectionUrl(locale,'terms',prefix)}>{t('nav.terms')}</a></nav>
 </div>
 <script>import '../../scripts/search.js';</script>

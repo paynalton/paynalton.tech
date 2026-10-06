@@ -10,8 +10,10 @@ export const migrations=[
  {from:'/es/about/',to:'/es/sobre-mi/'},
  {from:'/es/ideas/',to:'/es/obra/'},
  {from:'/es/contact/',to:'/es/contacto/'},
+ {from:'/en/jobs/',to:'/en/about/#forma-de-trabajar'},
+ {from:'/en/ideas/',to:'/en/works/'},
 ];
-export const legacyPaths=['en','nah'].flatMap(locale=>['','about','jobs','projects','ideas','contact'].map(segment=>`/${locale}/${segment?segment+'/':''}`));
+export const legacyPaths=['nah'].flatMap(locale=>['','about','jobs','projects','ideas','contact'].map(segment=>`/${locale}/${segment?segment+'/':''}`));
 export const stableSort=rows=>[...rows].sort((a,b)=>a.url<b.url?-1:a.url>b.url?1:0);
 export function canonicalPages(repo){const current=routeManifest(repo),known=new Set(current.map(p=>p.url));return stableSort([...current,...legacyPaths.filter(url=>!known.has(url)).map(url=>({url,locale:url.split('/')[1],legacy:true}))]);}
 export function entryExportPaths(entry){return entry.url.includes('#') ? {json:entry.url.split('#')[0]+entry.entityId+'.json',markdown:entry.url.split('#')[0]+entry.entityId+'.md'} : exportPaths(entry.url);}

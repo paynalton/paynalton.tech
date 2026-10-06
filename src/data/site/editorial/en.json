@@ -1,0 +1,3566 @@
+{
+  "pipila": {
+    "status": "published",
+    "slug": "pipila",
+    "title": "Pipila",
+    "summary": "Pipila was born to resolve an urgent migration and ended up becoming a reusable integration solution. I built a modular API that separates the interface from processing, preserves pending records in case of external failures, and allows incorporating new flows without depending on the previous platform.",
+    "seo": {
+      "title": "Pipila | Paynalton",
+      "description": "Pipila was born to resolve an urgent migration and ended up becoming a reusable integration solution. I built a modular API that separates the interface from processing, preserves pending records in case of external failures, and allows incorporating new flows without depending on the previous platform."
+    },
+    "bodyRef": "en/pipila.md",
+    "role": "Creation of the initial solution; current maintenance as the sole developer, with support from AI.",
+    "operationalStatus": "In operation and evolution.",
+    "startLabel": "Approximately 2023."
+  },
+  "sodigital": {
+    "status": "published",
+    "slug": "sodigital",
+    "title": "SoDigital",
+    "summary": "I led a team that eventually included fifteen developers. I was responsible for hiring, training and supervision, architecture, estimation, work distribution, deliveries, and relationship with clients. I combined management with the development of solutions and tools that allowed the team to advance despite technical constraints or context changes.",
+    "seo": {
+      "title": "SoDigital | Paynalton",
+      "description": "I led a team that eventually included fifteen developers. I was responsible for hiring, training and supervision, architecture, estimation, work distribution, deliveries, and relationship with clients. I combined management with the development of solutions and tools that allowed the team to advance despite technical constraints or context changes."
+    },
+    "bodyRef": "en/sodigital.md",
+    "role": "Development Manager",
+    "startLabel": "2020–2025."
+  },
+  "integracion-de-sistemas": {
+    "status": "published",
+    "slug": "integracion-de-sistemas",
+    "title": "System Integration",
+    "summary": "Work to connect applications, data, and services that were not conceived as a single solution. It includes migrations and decoupling of dependencies, with attention to what happens when an external component stops responding.",
+    "seo": {
+      "title": "System Integration | Paynalton",
+      "description": "Work to connect applications, data, and services that were not conceived as a single solution. It includes migrations and decoupling of dependencies, with attention to what happens when an external component stops responding."
+    },
+    "bodyRef": "en/integracion-de-sistemas.md"
+  },
+  "onix": {
+    "status": "published",
+    "slug": "onix",
+    "title": "Onix",
+    "summary": "I created Onix to replace a system based on Clipper that hindered work over the network and required frequent data corrections. The ERP continues to handle the corporate operations. I am currently participating in its modernization, with the code migrated to Laminas and a test environment on AWS.",
+    "seo": {
+      "title": "Onix | Paynalton",
+      "description": "I created Onix to replace a system based on Clipper that hindered work over the network and required frequent data corrections. The ERP continues to handle the corporate operations. I am currently participating in its modernization, with the code migrated to Laminas and a test environment on AWS."
+    },
+    "bodyRef": "en/onix.md",
+    "role": "Original sole developer; current code and infrastructure migration.",
+    "operationalStatus": "Current system; modernization in user testing.",
+    "startLabel": "2013; initial development of approximately two years."
+  },
+  "guacamaya": {
+    "status": "published",
+    "slug": "guacamaya",
+    "title": "GUACAMAYA",
+    "summary": "GUACAMAYA was born from a personal challenge: developing a tool that would help me write and publish a book before a convention, with less than a month available. It continues to evolve as I use it in my editorial work, keeping control over the ideas and the outcome.",
+    "seo": {
+      "title": "GUACAMAYA | Paynalton",
+      "description": "GUACAMAYA was born from a personal challenge: developing a tool that would help me write and publish a book before a convention, with less than a month available. It continues to evolve as I use it in my editorial work, keeping control over the ideas and the outcome."
+    },
+    "bodyRef": "en/guacamaya.md",
+    "role": "Tool development and authorial direction of the editorial work.",
+    "operationalStatus": "In development; personal use."
+  },
+  "winner": {
+    "status": "published",
+    "slug": "winner",
+    "title": "Winner",
+    "summary": "Winner emerged when the withdrawal of an external platform put a near-launch campaign at risk. I reused components, added a Laravel service and deployed the solution on AWS. The development allowed meeting the deadline and was later reused in other campaigns.",
+    "seo": {
+      "title": "Winner | Paynalton",
+      "description": "Winner emerged when the withdrawal of an external platform put a near-launch campaign at risk. I reused components, added a Laravel service and deployed the solution on AWS. The development allowed meeting the deadline and was later reused in other campaigns."
+    },
+    "bodyRef": "en/winner.md",
+    "role": "Component reuse, service integration and deployment.",
+    "operationalStatus": "Historical case; current operational situation not confirmed.",
+    "startLabel": "2022."
+  },
+  "yayauhqui": {
+    "status": "published",
+    "slug": "yayauhqui",
+    "title": "Yayauhqui",
+    "summary": "I developed Yayauhqui with AI assistance to evaluate evidence of AWS infrastructure and identify possible security vulnerabilities. Its operation uses heuristic algorithms: it does not incorporate an AI model to perform the analysis. I have applied it to the review of infrastructure in a real work context.",
+    "seo": {
+      "title": "Yayauhqui | Paynalton",
+      "description": "I developed Yayauhqui with AI assistance to evaluate evidence of AWS infrastructure and identify possible security vulnerabilities. Its operation uses heuristic algorithms: it does not incorporate an AI model to perform the analysis. I have applied it to the review of infrastructure in a real work context."
+    },
+    "bodyRef": "en/yayauhqui.md",
+    "role": "AI-assisted development; application to evidence of AWS infrastructure.",
+    "operationalStatus": "Used in real work; maintenance cycle not specified."
+  },
+  "spellchecker": {
+    "status": "published",
+    "slug": "spellchecker",
+    "title": "SpellChecker",
+    "summary": "SpellChecker uses a trained model and LocalAI to check spelling on websites. I used it to validate a website I developed. It is an example of applying AI to a specific need of content review in a language other than my own.",
+    "seo": {
+      "title": "SpellChecker | Paynalton",
+      "description": "SpellChecker uses a trained model and LocalAI to check spelling on websites. I used it to validate a website I developed. It is an example of applying AI to a specific need of content review in a language other than my own."
+    },
+    "bodyRef": "en/spellchecker.md",
+    "role": "Development and use of the tool for spelling review on a Thai website.",
+    "operationalStatus": "Used on a website; maintenance cycle not specified."
+  },
+  "loro": {
+    "status": "published",
+    "slug": "loro",
+    "title": "LORO",
+    "summary": "LORO is a memory edge layer that I developed to expand and improve the context of work with agents. It arose from my experience with complex creative tasks and the need to reconstruct information between stages. It has been used in the modernization of Onix as part of an AI-assisted development methodology.",
+    "seo": {
+      "title": "LORO | Paynalton",
+      "description": "LORO is a memory edge layer that I developed to expand and improve the context of work with agents. It arose from my experience with complex creative tasks and the need to reconstruct information between stages. It has been used in the modernization of Onix as part of an AI-assisted development methodology."
+    },
+    "bodyRef": "en/loro.md",
+    "role": "Development of the memory layer and its application to work methodologies.",
+    "operationalStatus": "In development, with application in a real work methodology."
+  },
+  "perico": {
+    "status": "published",
+    "slug": "perico",
+    "title": "PERICO",
+    "summary": "PERICO is an extension of VS Code that implements LORO to automate functions related to memory and agent context in software development. It is still in development and its repository is private. My intention is to offer it as a service.",
+    "seo": {
+      "title": "PERICO | Paynalton",
+      "description": "PERICO is an extension of VS Code that implements LORO to automate functions related to memory and agent context in software development. It is still in development and its repository is private. My intention is to offer it as a service."
+    },
+    "bodyRef": "en/perico.md",
+    "role": "Extension development that applies LORO to working with agents.",
+    "operationalStatus": "In development; no confirmed commercial offer available."
+  },
+  "delta": {
+    "status": "published",
+    "slug": "delta",
+    "title": "Delta",
+    "summary": "Delta combines backend and frontend components, REST services and WebSocket, databases and integration and deployment processes on AWS. It is part of my experience creating reusable bases for different solutions.",
+    "seo": {
+      "title": "Delta | Paynalton",
+      "description": "Delta combines backend and frontend components, REST services and WebSocket, databases and integration and deployment processes on AWS. It is part of my experience creating reusable bases for different solutions."
+    },
+    "bodyRef": "en/delta.md",
+    "role": "I built the first version; afterwards I delegated operations and maintenance to the rest of the team.",
+    "operationalStatus": "Out of use."
+  },
+  "delta-commerce": {
+    "status": "published",
+    "slug": "delta-commerce",
+    "title": "Delta Commerce",
+    "summary": "Delta Commerce derives from Delta and applies a modular and headless architecture to e-commerce, with integration with Shopify. Its approach separates the user experience from the services that support the operation.",
+    "seo": {
+      "title": "Delta Commerce | Paynalton",
+      "description": "Delta Commerce derives from Delta and applies a modular and headless architecture to e-commerce, with integration with Shopify. Its approach separates the user experience from the services that support the operation."
+    },
+    "bodyRef": "en/delta-commerce.md",
+    "role": "Solution design as architect and consultant; no participation in the development of the implementation.",
+    "operationalStatus": "Currently used in a store."
+  },
+  "k4y": {
+    "status": "published",
+    "slug": "k4y",
+    "title": "K4Y",
+    "summary": "K4Y is a platform oriented toward loan, capital, interest, and SPEI transfer management. It is part of my experience in financial process solutions and in integrating specialized functions within an operation.",
+    "seo": {
+      "title": "K4Y | Paynalton",
+      "description": "K4Y is a platform oriented toward loan, capital, interest, and SPEI transfer management. It is part of my experience in financial process solutions and in integrating specialized functions within an operation."
+    },
+    "bodyRef": "en/k4y.md",
+    "role": "Development of all the platform's functionalities.",
+    "operationalStatus": "Unconfirmed launch."
+  },
+  "holstein": {
+    "status": "published",
+    "slug": "holstein",
+    "title": "Holstein",
+    "summary": "Holstein is a network oriented toward breeders, producers, and buyers of livestock. The project is part of my experience developing solutions for sectors with specific needs and forms of interaction.",
+    "seo": {
+      "title": "Holstein | Paynalton",
+      "description": "Holstein is a network oriented toward breeders, producers, and buyers of livestock. The project is part of my experience developing solutions for sectors with specific needs and forms of interaction."
+    },
+    "bodyRef": "en/holstein.md",
+    "role": "Complete solution design and approximate development of 70% of the project.",
+    "operationalStatus": "Unknown production entry."
+  },
+  "freeway": {
+    "status": "published",
+    "slug": "freeway",
+    "title": "Freeway",
+    "summary": "Worked on an engineering team for platform development, combining development, solution architecture, DevOps and SecOps according to project needs. My involvement included integration services, authentication flows and tools to review infrastructure and validate websites.",
+    "seo": {
+      "title": "Freeway | Paynalton",
+      "description": "Worked on an engineering team for platform development, combining development, solution architecture, DevOps and SecOps according to project needs. My involvement included integration services, authentication flows and tools to review infrastructure and validate websites."
+    },
+    "bodyRef": "en/freeway.md",
+    "role": "Developer",
+    "startLabel": "June 2025 – present."
+  },
+  "ingenia-agency": {
+    "status": "published",
+    "slug": "ingenia-agency",
+    "title": "Ingenia Agency",
+    "summary": "I participated in planning, development, architecture and integration of solutions. In addition to my backend responsibilities, I led three developers. This stage is part of my experience combining implementation with the technical coordination of others.",
+    "seo": {
+      "title": "Ingenia Agency | Paynalton",
+      "description": "I participated in planning, development, architecture and integration of solutions. In addition to my backend responsibilities, I led three developers. This stage is part of my experience combining implementation with the technical coordination of others."
+    },
+    "bodyRef": "en/ingenia-agency.md",
+    "role": "Backend Developer",
+    "startLabel": "2019–2020."
+  },
+  "zenit-consultores": {
+    "status": "published",
+    "slug": "zenit-consultores",
+    "title": "Zenit Consultores",
+    "summary": "I worked on design and development of solutions, troubleshooting and technical coordination. I led two developers and had direct involvement in the construction and review of the systems.",
+    "seo": {
+      "title": "Zenit Consultores | Paynalton",
+      "description": "I worked on design and development of solutions, troubleshooting and technical coordination. I led two developers and had direct involvement in the construction and review of the systems."
+    },
+    "bodyRef": "en/zenit-consultores.md",
+    "role": "Fullstack Developer",
+    "startLabel": "2018–2019."
+  },
+  "cat-products": {
+    "status": "published",
+    "slug": "cat-products",
+    "title": "CAT Products",
+    "summary": "I was hired specifically to create Onix, an ERP for a corporate with six companies. I was the sole developer during its initial development, which took approximately two years. The system allowed for networked work and integrated processes that previously depended on a platform based on Clipper.",
+    "seo": {
+      "title": "CAT Products | Paynalton",
+      "description": "I was hired specifically to create Onix, an ERP for a corporate with six companies. I was the sole developer during its initial development, which took approximately two years. The system allowed for networked work and integrated processes that previously depended on a platform based on Clipper."
+    },
+    "bodyRef": "en/cat-products.md",
+    "role": "Development Manager",
+    "startLabel": "2013–2018."
+  },
+  "electronic-spacios-finder": {
+    "status": "published",
+    "slug": "electronic-spacios-finder",
+    "title": "Electronic Spacios Finder",
+    "summary": "I developed websites and web solutions, with participation in architecture, databases, SEO and operational tasks. This stage expanded my experience by addressing different aspects of a solution from the same technical role.",
+    "seo": {
+      "title": "Electronic Spacios Finder | Paynalton",
+      "description": "I developed websites and web solutions, with participation in architecture, databases, SEO and operational tasks. This stage expanded my experience by addressing different aspects of a solution from the same technical role."
+    },
+    "bodyRef": "en/electronic-spacios-finder.md",
+    "role": "Fullstack Developer",
+    "startLabel": "2012–2013."
+  },
+  "idea-diseno": {
+    "status": "published",
+    "slug": "idea-diseno",
+    "title": "Idea Diseño",
+    "summary": "I worked on the development of websites and web solutions. During this period I also contributed on my own with themes and aesthetic steampunk add-ons for GNOME-Look, exploring desktop customization and the creation of shared resources.",
+    "seo": {
+      "title": "Idea Diseño | Paynalton",
+      "description": "I worked on the development of websites and web solutions. During this period I also contributed on my own with themes and aesthetic steampunk add-ons for GNOME-Look, exploring desktop customization and the creation of shared resources."
+    },
+    "bodyRef": "en/idea-diseno.md",
+    "role": "Fullstack Developer",
+    "startLabel": "2011–2012."
+  },
+  "heti": {
+    "status": "published",
+    "slug": "heti",
+    "title": "Computación Integral HETI",
+    "summary": "It was my first formally dedicated job in software development. I worked on web solutions, ERP and integrations, after having created personal programs and automation tools in previous jobs.",
+    "seo": {
+      "title": "Computación Integral HETI | Paynalton",
+      "description": "It was my first formally dedicated job in software development. I worked on web solutions, ERP and integrations, after having created personal programs and automation tools in previous jobs."
+    },
+    "bodyRef": "en/heti.md",
+    "role": "Fullstack Developer",
+    "startLabel": "2009–2010."
+  },
+  "asm-clasificados": {
+    "status": "published",
+    "slug": "asm-clasificados",
+    "title": "ASM Clasificados de México",
+    "summary": "In addition to support, I developed applications to automate editorial creation and an intranet. I also participated in website quality testing. These contributions were part of my development experience before taking on a position with that title.",
+    "seo": {
+      "title": "ASM Clasificados de México | Paynalton",
+      "description": "In addition to support, I developed applications to automate editorial creation and an intranet. I also participated in website quality testing. These contributions were part of my development experience before taking on a position with that title."
+    },
+    "bodyRef": "en/asm-clasificados.md",
+    "role": "Technical Support",
+    "startLabel": "2007–2009."
+  },
+  "mainbit": {
+    "status": "published",
+    "slug": "mainbit",
+    "title": "Mainbit",
+    "summary": "I worked on on-site support and incident handling. I automated hard drive cloning to speed up computer assembly processes, applying programming to a specific operational need.",
+    "seo": {
+      "title": "Mainbit | Paynalton",
+      "description": "I worked on on-site support and incident handling. I automated hard drive cloning to speed up computer assembly processes, applying programming to a specific operational need."
+    },
+    "bodyRef": "en/mainbit.md",
+    "role": "Technical Support",
+    "startLabel": "2006–2007."
+  },
+  "computadoras-dae": {
+    "status": "published",
+    "slug": "computadoras-dae",
+    "title": "Computadoras DAE",
+    "summary": "I worked on computer equipment assembly and operation of the production area. This experience is part of my background prior to dedicated development positions.",
+    "seo": {
+      "title": "Computadoras DAE | Paynalton",
+      "description": "I worked on computer equipment assembly and operation of the production area. This experience is part of my background prior to dedicated development positions."
+    },
+    "bodyRef": "en/computadoras-dae.md",
+    "role": "Production Supervisor",
+    "startLabel": "2003–2006."
+  },
+  "arquitectura-de-soluciones": {
+    "status": "published",
+    "slug": "arquitectura-de-soluciones",
+    "title": "Architecture and Integration",
+    "summary": "Design solutions that connect applications, data, and services without losing sight of their operation. I'm interested in understanding where the dependencies are, what happens when a failure occurs, and how to allow the system to evolve. Pipila and the transition of Onix show two ways to approach that work.",
+    "seo": {
+      "title": "Architecture and integration | Paynalton",
+      "description": "Design solutions that connect applications, data, and services without losing sight of their operation. I'm interested in understanding where the dependencies are, what happens when a failure occurs, and how to allow the system to evolve. Pipila and the transition of Onix show two ways to approach that work."
+    },
+    "bodyRef": "en/arquitectura-de-soluciones.md"
+  },
+  "desarrollo-fullstack": {
+    "status": "published",
+    "slug": "desarrollo-fullstack",
+    "title": "Fullstack development and applications",
+    "summary": "Work across different levels of a solution, from the user experience to the services and data. My experience includes enterprise systems, websites, campaigns, and in-house tools. I use platforms such as Astro, Flutter, and Tauri, along with languages and frameworks appropriate for each project.",
+    "seo": {
+      "title": "Fullstack development and applications | Paynalton",
+      "description": "Work across different levels of a solution, from the user experience to the services and data. My experience includes enterprise systems, websites, campaigns, and in-house tools. I use platforms such as Astro, Flutter, and Tauri, along with languages and frameworks appropriate for each project."
+    },
+    "bodyRef": "en/desarrollo-fullstack.md"
+  },
+  "operacion-y-modernizacion": {
+    "status": "published",
+    "slug": "operacion-y-modernizacion",
+    "title": "Operations and modernization",
+    "summary": "I participate in infrastructure, deployments, and evolution of existing systems. The modernization of Onix includes dockerization, code migration, AWS, horizontal scaling, and CI/CD. My current work also includes DevOps and SecOps functions, and in the past year I've used Azure.",
+    "seo": {
+      "title": "Operations and modernization | Paynalton",
+      "description": "I participate in infrastructure, deployments, and evolution of existing systems. The modernization of Onix includes dockerization, code migration, AWS, horizontal scaling, and CI/CD. My current work also includes DevOps and SecOps functions, and in the past year I've used Azure."
+    },
+    "bodyRef": "en/operacion-y-modernizacion.md"
+  },
+  "trabajo-con-inteligencia-artificial": {
+    "status": "published",
+    "slug": "trabajo-con-inteligencia-artificial",
+    "title": "Work with artificial intelligence",
+    "summary": "Work with different agents and models depending on the problem. I distinguish between using AI to build a tool and integrating it into its functionality: Yayauhqui corresponds to the first case and SpellChecker to the second. In complex projects, I prepare intermediate documentation so that agents can reconstruct their context and continue with coherence.",
+    "seo": {
+      "title": "Work with artificial intelligence | Paynalton",
+      "description": "Work with different agents and models depending on the problem. I distinguish between using AI to build a tool and integrating it into its functionality: Yayauhqui corresponds to the first case and SpellChecker to the second. In complex projects, I prepare intermediate documentation so that agents can reconstruct their context and continue with coherence."
+    },
+    "bodyRef": "en/trabajo-con-inteligencia-artificial.md"
+  },
+  "liderazgo-de-equipos": {
+    "status": "published",
+    "slug": "liderazgo-de-equipos",
+    "title": "Leadership and team development",
+    "summary": "I have led teams of up to fifteen developers, with responsibility for hiring, training, supervision, architecture, and deliveries. I strive to understand what is preventing progress and take action on that blockage, whether technical, of understanding, or of coordination. Listening and helping to organize a problem is part of the work of leadership.",
+    "seo": {
+      "title": "Leadership and Team Development | Paynalton",
+      "description": "I have led teams of up to fifteen developers, with responsibility for hiring, training, supervision, architecture, and deliveries. I strive to understand what is preventing progress and take action on that blockage, whether technical, of understanding, or of coordination. Listening and helping to organize a problem is part of the work of leadership."
+    },
+    "bodyRef": "en/liderazgo-de-equipos.md"
+  },
+  "cuando-la-tostadora-te-responde": {
+    "status": "published",
+    "slug": "cuando-la-tostadora-te-responde",
+    "title": "When the Toaster Talks Back",
+    "summary": "An exploration of the relationship between human thought and artificial intelligence. The book proposes working with AI as an additional cognitive component to expand our capabilities, while preserving the criteria and direction of what we want to understand and create.",
+    "operationalStatus": "Published",
+    "seo": {
+      "title": "When the Toaster Talks Back | Paynalton",
+      "description": "An exploration of the relationship between human thought and artificial intelligence. The book proposes working with AI as an additional cognitive component to expand our capabilities, while preserving the criteria and direction of what we want to understand and create."
+    },
+    "bodyRef": "en/cuando-la-tostadora-te-responde.md",
+    "chapters": []
+  },
+  "resolucion-de-problemas": {
+    "status": "published",
+    "slug": "resolucion-de-problemas",
+    "title": "Problem Solving",
+    "summary": "My way of approaching a situation begins by understanding it, investigating its background, and evaluating alternatives. On site, this topic connects technical decisions and ways of working with the curiosity that also appears in my texts.",
+    "seo": {
+      "title": "Problem Solving | Paynalton",
+      "description": "My way of approaching a situation begins by understanding it, investigating its background, and evaluating alternatives. On site, this topic connects technical decisions and ways of working with the curiosity that also appears in my texts."
+    },
+    "bodyRef": "en/resolucion-de-problemas.md",
+    "chapters": []
+  },
+  "memoria-y-contexto-de-agentes": {
+    "status": "published",
+    "slug": "memoria-y-contexto-de-agentes",
+    "title": "Agent Memory and Context",
+    "summary": "Practices and tools for preserving useful information between stages of an AI project. This topic connects intermediate documentation, LORO, PERICO, and the needs that arise when developing software or producing an extensive work.",
+    "seo": {
+      "title": "Agent Memory and Context | Paynalton",
+      "description": "Practices and tools for preserving useful information between stages of an AI project. This topic connects intermediate documentation, LORO, PERICO, and the needs that arise when developing software or producing an extensive work."
+    },
+    "bodyRef": "en/memoria-y-contexto-de-agentes.md",
+    "chapters": []
+  },
+  "creacion-editorial": {
+    "status": "published",
+    "slug": "creacion-editorial",
+    "title": "Editorial Creation",
+    "summary": "Development of ideas and texts under an authorial direction. It brings together the works, their processes, and the tools I build to accompany them, preserving the difference between a finished publication and an ongoing project.",
+    "seo": {
+      "title": "Editorial Creation | Paynalton",
+      "description": "Development of ideas and texts under an authorial direction. It brings together the works, their processes, and the tools I build to accompany them, preserving the difference between a finished publication and an ongoing project."
+    },
+    "bodyRef": "en/creacion-editorial.md",
+    "chapters": []
+  },
+  "inteligencia-y-humanidad": {
+    "status": "published",
+    "slug": "inteligencia-y-humanidad",
+    "title": "Intelligence and Humanity",
+    "summary": "Questions about how we recognize intelligence, what characterizes our species, and how we relate to other forms of existence. It is an axis of personal reading and reflection, not a technical accreditation in itself.",
+    "seo": {
+      "title": "Intelligence and Humanity | Paynalton",
+      "description": "Questions about how we recognize intelligence, what characterizes our species, and how we relate to other forms of existence. It is an axis of personal reading and reflection, not a technical accreditation in itself."
+    },
+    "bodyRef": "en/inteligencia-y-humanidad.md",
+    "chapters": []
+  },
+  "lectura-categoria-academicos": {
+    "status": "published",
+    "slug": "lectura-categoria-academicos",
+    "title": "Academic and theoretical texts",
+    "summary": "Texts from the library related to «academic and theoretical texts».",
+    "seo": {
+      "title": "Academic and theoretical texts",
+      "description": "Texts from the library related to «academic and theoretical texts»."
+    },
+    "bodyRef": "en/temas-literarios/categoria-academicos.md"
+  },
+  "lectura-texto-teorico": {
+    "status": "published",
+    "slug": "lectura-texto-teorico",
+    "title": "Theoretical Text",
+    "summary": "Texts from the library related to «theoretical text».",
+    "seo": {
+      "title": "Theoretical Text",
+      "description": "Texts from the library related to «theoretical text»."
+    },
+    "bodyRef": "en/temas-literarios/texto-teorico.md"
+  },
+  "lectura-matematicas": {
+    "status": "published",
+    "slug": "lectura-matematicas",
+    "title": "Mathematics",
+    "summary": "Texts from the library related to «mathematics».",
+    "seo": {
+      "title": "Mathematics",
+      "description": "Texts from the library related to «mathematics»."
+    },
+    "bodyRef": "en/temas-literarios/matematicas.md"
+  },
+  "lectura-indeterminacion": {
+    "status": "published",
+    "slug": "lectura-indeterminacion",
+    "title": "Indeterminacy",
+    "summary": "Texts from the library related to «indeterminacy».",
+    "seo": {
+      "title": "Indeterminacy",
+      "description": "Texts from the library related to «indeterminacy»."
+    },
+    "bodyRef": "en/temas-literarios/indeterminacion.md"
+  },
+  "lectura-conocimiento": {
+    "status": "published",
+    "slug": "lectura-conocimiento",
+    "title": "Knowledge",
+    "summary": "Texts from the library related to \"knowledge.\"",
+    "seo": {
+      "title": "Knowledge",
+      "description": "Texts from the library related to \"knowledge.\""
+    },
+    "bodyRef": "en/temas-literarios/conocimiento.md"
+  },
+  "texto-aritmetica-con-numeros-indeterminados": {
+    "status": "published",
+    "slug": "aritmetica-con-numeros-indeterminados",
+    "title": "Arithmetic with indeterminate numbers",
+    "summary": "An exploratory proposal on indeterminate numbers and their operations.",
+    "seo": {
+      "title": "Arithmetic with indeterminate numbers",
+      "description": "An exploratory proposal on indeterminate numbers and their operations."
+    },
+    "bodyRef": "en/obras/aritmetica-con-numeros-indeterminados.md"
+  },
+  "lectura-categoria-cuentos": {
+    "status": "published",
+    "slug": "lectura-categoria-cuentos",
+    "title": "Stories and narrative",
+    "summary": "Texts from the library related to «stories and narrative».",
+    "seo": {
+      "title": "Stories and narrative",
+      "description": "Texts from the library related to «stories and narrative»."
+    },
+    "bodyRef": "en/temas-literarios/categoria-cuentos.md"
+  },
+  "lectura-cuento": {
+    "status": "published",
+    "slug": "lectura-cuento",
+    "title": "Story",
+    "summary": "Texts from the library related to «story».",
+    "seo": {
+      "title": "Story",
+      "description": "Texts from the library related to «story»."
+    },
+    "bodyRef": "en/temas-literarios/cuento.md"
+  },
+  "lectura-terror": {
+    "status": "published",
+    "slug": "lectura-terror",
+    "title": "Horror",
+    "summary": "Texts from the library related to «horror».",
+    "seo": {
+      "title": "Horror",
+      "description": "Texts from the library related to «horror»."
+    },
+    "bodyRef": "en/temas-literarios/terror.md"
+  },
+  "lectura-ciudad": {
+    "status": "published",
+    "slug": "lectura-ciudad",
+    "title": "City",
+    "summary": "Texts from the library related to «city».",
+    "seo": {
+      "title": "City",
+      "description": "Texts from the library related to «city»."
+    },
+    "bodyRef": "en/temas-literarios/ciudad.md"
+  },
+  "lectura-muerte": {
+    "status": "published",
+    "slug": "lectura-muerte",
+    "title": "Death",
+    "summary": "Texts from the library related to «death».",
+    "seo": {
+      "title": "Death",
+      "description": "Texts from the library related to «death»."
+    },
+    "bodyRef": "en/temas-literarios/muerte.md"
+  },
+  "texto-la-chica-nueva": {
+    "status": "published",
+    "slug": "la-chica-nueva",
+    "title": "The New Girl",
+    "summary": "The arrival of a new conductor disrupts the metro's routine.",
+    "seo": {
+      "title": "The New Girl",
+      "description": "The arrival of a new conductor disrupts the metro's routine."
+    },
+    "bodyRef": "en/obras/la-chica-nueva.md"
+  },
+  "lectura-categoria-editoriales": {
+    "status": "published",
+    "slug": "lectura-categoria-editoriales",
+    "title": "Editorial presentations",
+    "summary": "Texts from the library related to \"editorial presentations.\"",
+    "seo": {
+      "title": "Editorial presentations",
+      "description": "Texts from the library related to \"editorial presentations.\""
+    },
+    "bodyRef": "en/temas-literarios/categoria-editoriales.md"
+  },
+  "lectura-presentacion-editorial": {
+    "status": "published",
+    "slug": "lectura-presentacion-editorial",
+    "title": "Editorial Presentation",
+    "summary": "Texts from the library related to \"editorial presentation.\"",
+    "seo": {
+      "title": "Editorial Presentation",
+      "description": "Texts from the library related to \"editorial presentation.\""
+    },
+    "bodyRef": "en/temas-literarios/presentacion-editorial.md"
+  },
+  "lectura-presentacion": {
+    "status": "published",
+    "slug": "lectura-presentacion",
+    "title": "Presentation",
+    "summary": "Texts from the library related to \"presentation.\"",
+    "seo": {
+      "title": "Presentation",
+      "description": "Texts from the library related to \"presentation.\""
+    },
+    "bodyRef": "en/temas-literarios/presentacion.md"
+  },
+  "texto-presentacion": {
+    "status": "published",
+    "slug": "presentacion",
+    "title": "Introduction",
+    "summary": "Introduction to the space dedicated to blood and death stories.",
+    "seo": {
+      "title": "Introduction",
+      "description": "Introduction to the space dedicated to blood and death stories."
+    },
+    "bodyRef": "en/obras/presentacion.md"
+  },
+  "lectura-crisis-economica": {
+    "status": "published",
+    "slug": "lectura-crisis-economica",
+    "title": "Economic crisis",
+    "summary": "Library texts related to \"economic crisis.\"",
+    "seo": {
+      "title": "Economic crisis",
+      "description": "Library texts related to \"economic crisis.\""
+    },
+    "bodyRef": "en/temas-literarios/crisis-economica.md"
+  },
+  "lectura-pareja": {
+    "status": "published",
+    "slug": "lectura-pareja",
+    "title": "Couple",
+    "summary": "Library texts related to \"couple.\"",
+    "seo": {
+      "title": "Couple",
+      "description": "Library texts related to \"couple.\""
+    },
+    "bodyRef": "en/temas-literarios/pareja.md"
+  },
+  "texto-silencio-oscuridad-y-muerte": {
+    "status": "published",
+    "slug": "silencio-oscuridad-y-muerte",
+    "title": "Silence, darkness and death.",
+    "summary": "A troubled couple, an extreme promise and death.",
+    "seo": {
+      "title": "Silence, darkness and death.",
+      "description": "A troubled couple, an extreme promise and death."
+    },
+    "bodyRef": "en/obras/silencio-oscuridad-y-muerte.md"
+  },
+  "lectura-memoria": {
+    "status": "published",
+    "slug": "lectura-memoria",
+    "title": "Memory",
+    "summary": "Library texts related to \"memory.\"",
+    "seo": {
+      "title": "Memory",
+      "description": "Library texts related to \"memory.\""
+    },
+    "bodyRef": "en/temas-literarios/memoria.md"
+  },
+  "lectura-identidad": {
+    "status": "published",
+    "slug": "lectura-identidad",
+    "title": "Identity",
+    "summary": "Library texts related to \"identity.\"",
+    "seo": {
+      "title": "Identity",
+      "description": "Library texts related to \"identity.\""
+    },
+    "bodyRef": "en/temas-literarios/identidad.md"
+  },
+  "texto-amnesia": {
+    "status": "published",
+    "slug": "amnesia",
+    "title": "Amnesia",
+    "summary": "Amnesiac narrator reconstructing what happened from a cemetery.",
+    "seo": {
+      "title": "Amnesia",
+      "description": "Amnesiac narrator reconstructing what happened from a cemetery."
+    },
+    "bodyRef": "en/obras/amnesia.md"
+  },
+  "lectura-drama-social": {
+    "status": "published",
+    "slug": "lectura-drama-social",
+    "title": "Social drama",
+    "summary": "Library texts related to \"social drama.\"",
+    "seo": {
+      "title": "Social drama",
+      "description": "Library texts related to \"social drama.\""
+    },
+    "bodyRef": "en/temas-literarios/drama-social.md"
+  },
+  "lectura-infancia": {
+    "status": "published",
+    "slug": "lectura-infancia",
+    "title": "Childhood",
+    "summary": "Library texts related to \"childhood.\"",
+    "seo": {
+      "title": "Childhood",
+      "description": "Library texts related to \"childhood.\""
+    },
+    "bodyRef": "en/temas-literarios/infancia.md"
+  },
+  "lectura-familia": {
+    "status": "published",
+    "slug": "lectura-familia",
+    "title": "Family",
+    "summary": "Library texts related to \"family.\"",
+    "seo": {
+      "title": "Family",
+      "description": "Library texts related to \"family.\""
+    },
+    "bodyRef": "en/temas-literarios/familia.md"
+  },
+  "lectura-violencia": {
+    "status": "published",
+    "slug": "lectura-violencia",
+    "title": "Violence",
+    "summary": "Library texts related to \"violence.\"",
+    "seo": {
+      "title": "Violence",
+      "description": "Library texts related to \"violence.\""
+    },
+    "bodyRef": "en/temas-literarios/violencia.md"
+  },
+  "texto-mama": {
+    "status": "published",
+    "slug": "mama",
+    "title": "Mom",
+    "summary": "Childhood, family abandonment and violence.",
+    "seo": {
+      "title": "Mom",
+      "description": "Childhood, family abandonment and violence."
+    },
+    "bodyRef": "en/obras/mama.md"
+  },
+  "lectura-sobrenatural": {
+    "status": "published",
+    "slug": "lectura-sobrenatural",
+    "title": "Supernatural",
+    "summary": "Library texts related to \"supernatural.\"",
+    "seo": {
+      "title": "Supernatural",
+      "description": "Library texts related to \"supernatural.\""
+    },
+    "bodyRef": "en/temas-literarios/sobrenatural.md"
+  },
+  "lectura-memoria-historica": {
+    "status": "published",
+    "slug": "lectura-memoria-historica",
+    "title": "Historical memory",
+    "summary": "Library texts related to \"historical memory.\"",
+    "seo": {
+      "title": "Historical memory",
+      "description": "Library texts related to \"historical memory.\""
+    },
+    "bodyRef": "en/temas-literarios/memoria-historica.md"
+  },
+  "texto-la-niebla-de-san-jacinto": {
+    "status": "published",
+    "slug": "la-niebla-de-san-jacinto",
+    "title": "The San Jacinto Mist",
+    "summary": "A warning accompanies those who venture into the San Jacinto mist.",
+    "seo": {
+      "title": "The San Jacinto Mist",
+      "description": "A warning accompanies those who venture into the San Jacinto mist."
+    },
+    "bodyRef": "en/obras/la-niebla-de-san-jacinto.md"
+  },
+  "lectura-fantasia": {
+    "status": "published",
+    "slug": "lectura-fantasia",
+    "title": "Fantasy",
+    "summary": "Library texts related to \"fantasy.\"",
+    "seo": {
+      "title": "Fantasy",
+      "description": "Library texts related to \"fantasy.\""
+    },
+    "bodyRef": "en/temas-literarios/fantasia.md"
+  },
+  "lectura-fanfiction": {
+    "status": "published",
+    "slug": "lectura-fanfiction",
+    "title": "Fanfiction",
+    "summary": "Library texts related to \"fanfiction.\"",
+    "seo": {
+      "title": "Fanfiction",
+      "description": "Library texts related to \"fanfiction.\""
+    },
+    "bodyRef": "en/temas-literarios/fanfiction.md"
+  },
+  "lectura-aventura": {
+    "status": "published",
+    "slug": "lectura-aventura",
+    "title": "Adventure",
+    "summary": "Library texts related to \"adventure.\"",
+    "seo": {
+      "title": "Adventure",
+      "description": "Library texts related to \"adventure.\""
+    },
+    "bodyRef": "en/temas-literarios/aventura.md"
+  },
+  "lectura-ingenio": {
+    "status": "published",
+    "slug": "lectura-ingenio",
+    "title": "Ingenuity",
+    "summary": "Library texts related to \"ingenuity.\"",
+    "seo": {
+      "title": "Ingenuity",
+      "description": "Library texts related to \"ingenuity.\""
+    },
+    "bodyRef": "en/temas-literarios/ingenio.md"
+  },
+  "texto-por-un-poco-de-kaja-mita": {
+    "status": "published",
+    "slug": "por-un-poco-de-kaja-mita",
+    "title": "For a little bit of kaja'mita",
+    "summary": "Drizz of the Steam's Adventure in Kezzan and the kaja'mita mines.",
+    "seo": {
+      "title": "For a little bit of kaja'mita",
+      "description": "Drizz of the Steam's Adventure in Kezzan and the kaja'mita mines."
+    },
+    "bodyRef": "en/obras/por-un-poco-de-kaja-mita.md"
+  },
+  "lectura-supervivencia": {
+    "status": "published",
+    "slug": "lectura-supervivencia",
+    "title": "Survival",
+    "summary": "Library texts related to \"survival.\"",
+    "seo": {
+      "title": "Survival",
+      "description": "Library texts related to \"survival.\""
+    },
+    "bodyRef": "en/temas-literarios/supervivencia.md"
+  },
+  "texto-barriada": {
+    "status": "published",
+    "slug": "barriada",
+    "title": "Barriada",
+    "summary": "Drizz the Goblin's Adventure, His Family, and the Escape from the Volcano.",
+    "seo": {
+      "title": "Barriada",
+      "description": "Drizz the Goblin's Adventure, His Family, and the Escape from the Volcano."
+    },
+    "bodyRef": "en/obras/barriada.md"
+  },
+  "lectura-categoria-poesia": {
+    "status": "published",
+    "slug": "lectura-categoria-poesia",
+    "title": "Poetry and poetic prose",
+    "summary": "Texts from the library related to «poetry and poetic prose».",
+    "seo": {
+      "title": "Poetry and poetic prose",
+      "description": "Texts from the library related to «poetry and poetic prose»."
+    },
+    "bodyRef": "en/temas-literarios/categoria-poesia.md"
+  },
+  "lectura-poesia": {
+    "status": "published",
+    "slug": "lectura-poesia",
+    "title": "Poetry",
+    "summary": "Texts from the library related to «poetry».",
+    "seo": {
+      "title": "Poetry",
+      "description": "Texts from the library related to «poetry»."
+    },
+    "bodyRef": "en/temas-literarios/poesia.md"
+  },
+  "lectura-prosa-poetica": {
+    "status": "published",
+    "slug": "lectura-prosa-poetica",
+    "title": "Poetic prose",
+    "summary": "Texts from the library related to «poetic prose».",
+    "seo": {
+      "title": "Poetic prose",
+      "description": "Texts from the library related to «poetic prose»."
+    },
+    "bodyRef": "en/temas-literarios/prosa-poetica.md"
+  },
+  "lectura-amor": {
+    "status": "published",
+    "slug": "lectura-amor",
+    "title": "Love",
+    "summary": "Texts from the library related to «love».",
+    "seo": {
+      "title": "Love",
+      "description": "Texts from the library related to «love»."
+    },
+    "bodyRef": "en/temas-literarios/amor.md"
+  },
+  "lectura-desamor": {
+    "status": "published",
+    "slug": "lectura-desamor",
+    "title": "Unlove",
+    "summary": "Texts from the library related to «unlove».",
+    "seo": {
+      "title": "Unlove",
+      "description": "Texts from the library related to «unlove»."
+    },
+    "bodyRef": "en/temas-literarios/desamor.md"
+  },
+  "lectura-lluvia": {
+    "status": "published",
+    "slug": "lectura-lluvia",
+    "title": "Rain",
+    "summary": "Texts from the library related to «rain».",
+    "seo": {
+      "title": "Rain",
+      "description": "Texts from the library related to «rain»."
+    },
+    "bodyRef": "en/temas-literarios/lluvia.md"
+  },
+  "texto-gotas-de-lluvia": {
+    "status": "published",
+    "slug": "gotas-de-lluvia",
+    "title": "Raindrops",
+    "summary": "Rain functions as an image of memory and romantic loss.",
+    "seo": {
+      "title": "Raindrops",
+      "description": "Rain functions as an image of memory and romantic loss."
+    },
+    "bodyRef": "en/obras/gotas-de-lluvia.md"
+  },
+  "texto-presentando": {
+    "status": "published",
+    "slug": "presentando",
+    "title": "Introducing",
+    "summary": "Presentation of a space to gather diverse stories.",
+    "seo": {
+      "title": "Introducing",
+      "description": "Presentation of a space to gather diverse stories."
+    },
+    "bodyRef": "en/obras/presentando.md"
+  },
+  "lectura-microrrelato": {
+    "status": "published",
+    "slug": "lectura-microrrelato",
+    "title": "Microfiction",
+    "summary": "Library texts related to \"microfiction.\"",
+    "seo": {
+      "title": "Microfiction",
+      "description": "Library texts related to \"microfiction.\""
+    },
+    "bodyRef": "en/temas-literarios/microrrelato.md"
+  },
+  "texto-rosa": {
+    "status": "published",
+    "slug": "rosa",
+    "title": "Rosa",
+    "summary": "Urban walk, encounter with a vendor and destruction of a rose.",
+    "seo": {
+      "title": "Rosa",
+      "description": "Urban walk, encounter with a vendor and destruction of a rose."
+    },
+    "bodyRef": "en/obras/rosa.md"
+  },
+  "lectura-duelo": {
+    "status": "published",
+    "slug": "lectura-duelo",
+    "title": "Duel",
+    "summary": "Library texts related to \"duel.\"",
+    "seo": {
+      "title": "Duel",
+      "description": "Library texts related to \"duel.\""
+    },
+    "bodyRef": "en/temas-literarios/duelo.md"
+  },
+  "lectura-esperanza": {
+    "status": "published",
+    "slug": "lectura-esperanza",
+    "title": "Hope",
+    "summary": "Library texts related to \"hope.\"",
+    "seo": {
+      "title": "Hope",
+      "description": "Library texts related to \"hope.\""
+    },
+    "bodyRef": "en/temas-literarios/esperanza.md"
+  },
+  "lectura-amistad": {
+    "status": "published",
+    "slug": "lectura-amistad",
+    "title": "Friendship",
+    "summary": "Library texts related to \"friendship.\"",
+    "seo": {
+      "title": "Friendship",
+      "description": "Library texts related to \"friendship.\""
+    },
+    "bodyRef": "en/temas-literarios/amistad.md"
+  },
+  "texto-el-hada": {
+    "status": "published",
+    "slug": "el-hada",
+    "title": "The fairy",
+    "summary": "A defeated knight receives comfort from a fairy.",
+    "seo": {
+      "title": "The fairy",
+      "description": "A defeated knight receives comfort from a fairy."
+    },
+    "bodyRef": "en/obras/el-hada.md"
+  },
+  "lectura-poema": {
+    "status": "published",
+    "slug": "lectura-poema",
+    "title": "Poem",
+    "summary": "Library texts related to \"poem.\"",
+    "seo": {
+      "title": "Poem",
+      "description": "Library texts related to \"poem.\""
+    },
+    "bodyRef": "en/temas-literarios/poema.md"
+  },
+  "lectura-ausencia": {
+    "status": "published",
+    "slug": "lectura-ausencia",
+    "title": "Absence",
+    "summary": "Library texts related to \"absence.\"",
+    "seo": {
+      "title": "Absence",
+      "description": "Library texts related to \"absence.\""
+    },
+    "bodyRef": "en/temas-literarios/ausencia.md"
+  },
+  "texto-cuanto-hace-ya": {
+    "status": "published",
+    "slug": "cuanto-hace-ya",
+    "title": "How long has it been?",
+    "summary": "Questions and repetitions organize the mourning for an absence.",
+    "seo": {
+      "title": "How long has it been?",
+      "description": "Questions and repetitions organize the mourning for an absence."
+    },
+    "bodyRef": "en/obras/cuanto-hace-ya.md"
+  },
+  "lectura-soledad": {
+    "status": "published",
+    "slug": "lectura-soledad",
+    "title": "Solitude",
+    "summary": "Library texts related to \"solitude.\"",
+    "seo": {
+      "title": "Solitude",
+      "description": "Library texts related to \"solitude.\""
+    },
+    "bodyRef": "en/temas-literarios/soledad.md"
+  },
+  "lectura-naturaleza": {
+    "status": "published",
+    "slug": "lectura-naturaleza",
+    "title": "Nature",
+    "summary": "Library texts related to \"nature.\"",
+    "seo": {
+      "title": "Nature",
+      "description": "Library texts related to \"nature.\""
+    },
+    "bodyRef": "en/temas-literarios/naturaleza.md"
+  },
+  "texto-hojas-secas": {
+    "status": "published",
+    "slug": "hojas-secas",
+    "title": "Dry Leaves",
+    "summary": "Leaves, dreams and loving pain.",
+    "seo": {
+      "title": "Dry Leaves",
+      "description": "Leaves, dreams and loving pain."
+    },
+    "bodyRef": "en/obras/hojas-secas.md"
+  },
+  "lectura-viaje": {
+    "status": "published",
+    "slug": "lectura-viaje",
+    "title": "Trip",
+    "summary": "Library texts related to \"trip.\"",
+    "seo": {
+      "title": "Trip",
+      "description": "Library texts related to \"trip.\""
+    },
+    "bodyRef": "en/temas-literarios/viaje.md"
+  },
+  "texto-hacia-el-mar": {
+    "status": "published",
+    "slug": "hacia-el-mar",
+    "title": "Toward the sea",
+    "summary": "The encounter between the fairy and the knight continues from The Fairy.",
+    "seo": {
+      "title": "Toward the sea",
+      "description": "The encounter between the fairy and the knight continues from The Fairy."
+    },
+    "bodyRef": "en/obras/hacia-el-mar.md"
+  },
+  "lectura-intimidad": {
+    "status": "published",
+    "slug": "lectura-intimidad",
+    "title": "Privacy",
+    "summary": "Library texts related to \"privacy.\"",
+    "seo": {
+      "title": "Privacy",
+      "description": "Library texts related to \"privacy.\""
+    },
+    "bodyRef": "en/temas-literarios/intimidad.md"
+  },
+  "texto-mirame": {
+    "status": "published",
+    "slug": "mirame",
+    "title": "Look at me",
+    "summary": "Invocation to the gaze and the first kiss.",
+    "seo": {
+      "title": "Look at me",
+      "description": "Invocation to the gaze and the first kiss."
+    },
+    "bodyRef": "en/obras/mirame.md"
+  },
+  "texto-la-flama": {
+    "status": "published",
+    "slug": "la-flama",
+    "title": "The Flame",
+    "summary": "The flame and the crystal box are central images of the loving bond.",
+    "seo": {
+      "title": "The Flame",
+      "description": "The flame and the crystal box are central images of the loving bond."
+    },
+    "bodyRef": "en/obras/la-flama.md"
+  },
+  "lectura-mar": {
+    "status": "published",
+    "slug": "lectura-mar",
+    "title": "Mar",
+    "summary": "Library texts related to \"mar\".",
+    "seo": {
+      "title": "Mar",
+      "description": "Library texts related to \"mar\"."
+    },
+    "bodyRef": "en/temas-literarios/mar.md"
+  },
+  "texto-la-reina-del-mar": {
+    "status": "published",
+    "slug": "la-reina-del-mar",
+    "title": "The Queen of the Sea",
+    "summary": "The knight listens to the Queen of the Sea and returns to defend the fairy.",
+    "seo": {
+      "title": "The Queen of the Sea",
+      "description": "The knight listens to the Queen of the Sea and returns to defend the fairy."
+    },
+    "bodyRef": "en/obras/la-reina-del-mar.md"
+  },
+  "lectura-recuperacion-emocional": {
+    "status": "published",
+    "slug": "lectura-recuperacion-emocional",
+    "title": "Emotional Recovery",
+    "summary": "Library texts related to \"emotional recovery.\"",
+    "seo": {
+      "title": "Emotional Recovery",
+      "description": "Library texts related to \"emotional recovery.\""
+    },
+    "bodyRef": "en/temas-literarios/recuperacion-emocional.md"
+  },
+  "texto-que-facil-es-decir-te-amo": {
+    "status": "published",
+    "slug": "que-facil-es-decir-te-amo",
+    "title": "How easy it is to say \"I love you\"",
+    "summary": "Chains and links represent the wounds of a past relationship.",
+    "seo": {
+      "title": "How easy it is to say \"I love you\"",
+      "description": "Chains and links represent the wounds of a past relationship."
+    },
+    "bodyRef": "en/obras/que-facil-es-decir-te-amo.md"
+  },
+  "lectura-suenos": {
+    "status": "published",
+    "slug": "lectura-suenos",
+    "title": "Dreams",
+    "summary": "Library texts related to \"dreams.\"",
+    "seo": {
+      "title": "Dreams",
+      "description": "Library texts related to \"dreams.\""
+    },
+    "bodyRef": "en/temas-literarios/suenos.md"
+  },
+  "texto-princesa": {
+    "status": "published",
+    "slug": "princesa",
+    "title": "Princess",
+    "summary": "Invocation to a princess of dreams, with memory of loss and desire to return.",
+    "seo": {
+      "title": "Princess",
+      "description": "Invocation to a princess of dreams, with memory of loss and desire to return."
+    },
+    "bodyRef": "en/obras/princesa.md"
+  },
+  "lectura-perdida": {
+    "status": "published",
+    "slug": "lectura-perdida",
+    "title": "Loss",
+    "summary": "Library texts related to \"loss.\"",
+    "seo": {
+      "title": "Loss",
+      "description": "Library texts related to \"loss.\""
+    },
+    "bodyRef": "en/temas-literarios/perdida.md"
+  },
+  "texto-mi-querido-arbol": {
+    "status": "published",
+    "slug": "mi-querido-arbol",
+    "title": "My dear Tree",
+    "summary": "Tree, rain and memory.",
+    "seo": {
+      "title": "My dear Tree",
+      "description": "Tree, rain and memory."
+    },
+    "bodyRef": "en/obras/mi-querido-arbol.md"
+  },
+  "lectura-intolerancia": {
+    "status": "published",
+    "slug": "lectura-intolerancia",
+    "title": "Intolerance",
+    "summary": "Library texts related to \"intolerance.\"",
+    "seo": {
+      "title": "Intolerance",
+      "description": "Library texts related to \"intolerance.\""
+    },
+    "bodyRef": "en/temas-literarios/intolerancia.md"
+  },
+  "texto-el-reencuentro": {
+    "status": "published",
+    "slug": "el-reencuentro",
+    "title": "The Reunion",
+    "summary": "The knight protects the fairy from a lynching.",
+    "seo": {
+      "title": "The Reunion",
+      "description": "The knight protects the fairy from a lynching."
+    },
+    "bodyRef": "en/obras/el-reencuentro.md"
+  },
+  "lectura-trabajo": {
+    "status": "published",
+    "slug": "lectura-trabajo",
+    "title": "Work",
+    "summary": "Library texts related to «work».",
+    "seo": {
+      "title": "Work",
+      "description": "Library texts related to «work»."
+    },
+    "bodyRef": "en/temas-literarios/trabajo.md"
+  },
+  "texto-estrellas-errantes": {
+    "status": "published",
+    "slug": "estrellas-errantes",
+    "title": "Wandering Stars",
+    "summary": "The fairy and the knight work in the forge.",
+    "seo": {
+      "title": "Wandering Stars",
+      "description": "The fairy and the knight work in the forge."
+    },
+    "bodyRef": "en/obras/estrellas-errantes.md"
+  },
+  "texto-historias-olvidadas": {
+    "status": "published",
+    "slug": "historias-olvidadas",
+    "title": "Forgotten Stories",
+    "summary": "Gather characters from previous stories facing the sea.",
+    "seo": {
+      "title": "Forgotten Stories",
+      "description": "Gather characters from previous stories facing the sea."
+    },
+    "bodyRef": "en/obras/historias-olvidadas.md"
+  },
+  "lectura-magia": {
+    "status": "published",
+    "slug": "lectura-magia",
+    "title": "Magic",
+    "summary": "Library texts related to \"magic.\"",
+    "seo": {
+      "title": "Magic",
+      "description": "Library texts related to \"magic.\""
+    },
+    "bodyRef": "en/temas-literarios/magia.md"
+  },
+  "texto-la-huida": {
+    "status": "published",
+    "slug": "la-huida",
+    "title": "The Escape",
+    "summary": "A witch and an impossible room sustain the action of the story.",
+    "seo": {
+      "title": "The Escape",
+      "description": "A witch and an impossible room sustain the action of the story."
+    },
+    "bodyRef": "en/obras/la-huida.md"
+  },
+  "lectura-libertad": {
+    "status": "published",
+    "slug": "lectura-libertad",
+    "title": "Freedom",
+    "summary": "Library texts related to \"freedom.\"",
+    "seo": {
+      "title": "Freedom",
+      "description": "Library texts related to \"freedom.\""
+    },
+    "bodyRef": "en/temas-literarios/libertad.md"
+  },
+  "texto-princesa-sin-reino": {
+    "status": "published",
+    "slug": "princesa-sin-reino",
+    "title": "Princess without a Kingdom",
+    "summary": "History of a princess and a dragon, integrated into the set of characters facing the sea.",
+    "seo": {
+      "title": "Princess without a Kingdom",
+      "description": "History of a princess and a dragon, integrated into the set of characters facing the sea."
+    },
+    "bodyRef": "en/obras/princesa-sin-reino.md"
+  },
+  "texto-texto-11-de-junio": {
+    "status": "published",
+    "slug": "texto-11-de-junio",
+    "title": "June 11",
+    "summary": "A loving memory of a June 11.",
+    "seo": {
+      "title": "June 11",
+      "description": "A loving memory of a June 11."
+    },
+    "bodyRef": "en/obras/texto-11-de-junio.md"
+  },
+  "texto-hada": {
+    "status": "published",
+    "slug": "hada",
+    "title": "Fairy",
+    "summary": "Thank you to a fairy figure who accompanies an emotional recovery.",
+    "seo": {
+      "title": "Fairy",
+      "description": "Thank you to a fairy figure who accompanies an emotional recovery."
+    },
+    "bodyRef": "en/obras/hada.md"
+  },
+  "lectura-noche": {
+    "status": "published",
+    "slug": "lectura-noche",
+    "title": "Night",
+    "summary": "Library texts related to \"night.\"",
+    "seo": {
+      "title": "Night",
+      "description": "Library texts related to \"night.\""
+    },
+    "bodyRef": "en/temas-literarios/noche.md"
+  },
+  "texto-de-noche-en-la-ciudad": {
+    "status": "published",
+    "slug": "de-noche-en-la-ciudad",
+    "title": "Night in the City",
+    "summary": "Nighttime contemplation of the city.",
+    "seo": {
+      "title": "Night in the City",
+      "description": "Nighttime contemplation of the city."
+    },
+    "bodyRef": "en/obras/de-noche-en-la-ciudad.md"
+  },
+  "lectura-deseo": {
+    "status": "published",
+    "slug": "lectura-deseo",
+    "title": "Desire",
+    "summary": "Library texts related to \"desire.\"",
+    "seo": {
+      "title": "Desire",
+      "description": "Library texts related to \"desire.\""
+    },
+    "bodyRef": "en/temas-literarios/deseo.md"
+  },
+  "texto-labios": {
+    "status": "published",
+    "slug": "labios",
+    "title": "Lips",
+    "summary": "Lips and petals as images of desire and its containment.",
+    "seo": {
+      "title": "Lips",
+      "description": "Lips and petals as images of desire and its containment."
+    },
+    "bodyRef": "en/obras/labios.md"
+  },
+  "lectura-fabula": {
+    "status": "published",
+    "slug": "lectura-fabula",
+    "title": "Fable",
+    "summary": "Library texts related to \"fable.\"",
+    "seo": {
+      "title": "Fable",
+      "description": "Library texts related to \"fable.\""
+    },
+    "bodyRef": "en/temas-literarios/fabula.md"
+  },
+  "texto-la-luciernaga": {
+    "status": "published",
+    "slug": "la-luciernaga",
+    "title": "The Firefly",
+    "summary": "A firefly aspires to become a star.",
+    "seo": {
+      "title": "The Firefly",
+      "description": "A firefly aspires to become a star."
+    },
+    "bodyRef": "en/obras/la-luciernaga.md"
+  },
+  "lectura-categoria-reflexiones-filosoficas": {
+    "status": "published",
+    "slug": "lectura-categoria-reflexiones-filosoficas",
+    "title": "Philosophical reflections",
+    "summary": "Texts from the library related to «philosophical reflections».",
+    "seo": {
+      "title": "Philosophical reflections",
+      "description": "Texts from the library related to «philosophical reflections»."
+    },
+    "bodyRef": "en/temas-literarios/categoria-reflexiones-filosoficas.md"
+  },
+  "lectura-reflexion-filosofica": {
+    "status": "published",
+    "slug": "lectura-reflexion-filosofica",
+    "title": "Philosophical reflection",
+    "summary": "Texts from the library related to «philosophical reflection».",
+    "seo": {
+      "title": "Philosophical reflection",
+      "description": "Texts from the library related to «philosophical reflection»."
+    },
+    "bodyRef": "en/temas-literarios/reflexion-filosofica.md"
+  },
+  "lectura-filosofia-de-la-vida": {
+    "status": "published",
+    "slug": "lectura-filosofia-de-la-vida",
+    "title": "Philosophy of life",
+    "summary": "Texts from the library related to «philosophy of life».",
+    "seo": {
+      "title": "Philosophy of life",
+      "description": "Texts from the library related to «philosophy of life»."
+    },
+    "bodyRef": "en/temas-literarios/filosofia-de-la-vida.md"
+  },
+  "lectura-ecologia": {
+    "status": "published",
+    "slug": "lectura-ecologia",
+    "title": "Ecology",
+    "summary": "Texts from the library related to «ecology».",
+    "seo": {
+      "title": "Ecology",
+      "description": "Texts from the library related to «ecology»."
+    },
+    "bodyRef": "en/temas-literarios/ecologia.md"
+  },
+  "lectura-tecnologia": {
+    "status": "published",
+    "slug": "lectura-tecnologia",
+    "title": "Technology",
+    "summary": "Texts from the library related to «technology».",
+    "seo": {
+      "title": "Technology",
+      "description": "Texts from the library related to «technology»."
+    },
+    "bodyRef": "en/temas-literarios/tecnologia.md"
+  },
+  "lectura-humanidad": {
+    "status": "published",
+    "slug": "lectura-humanidad",
+    "title": "Humanity",
+    "summary": "Texts from the library related to «humanity».",
+    "seo": {
+      "title": "Humanity",
+      "description": "Texts from the library related to «humanity»."
+    },
+    "bodyRef": "en/temas-literarios/humanidad.md"
+  },
+  "texto-pandora": {
+    "status": "published",
+    "slug": "pandora",
+    "title": "Pandora",
+    "summary": "Part of Avatar to reflect on biosphere, humanity, and expansion of life.",
+    "seo": {
+      "title": "Pandora",
+      "description": "Part of Avatar to reflect on biosphere, humanity, and expansion of life."
+    },
+    "bodyRef": "en/obras/pandora.md"
+  },
+  "lectura-identidad-digital": {
+    "status": "published",
+    "slug": "lectura-identidad-digital",
+    "title": "Digital Identity",
+    "summary": "Library texts related to \"digital identity.\"",
+    "seo": {
+      "title": "Digital Identity",
+      "description": "Library texts related to \"digital identity.\""
+    },
+    "bodyRef": "en/temas-literarios/identidad-digital.md"
+  },
+  "texto-sobre-la-montana-plateada": {
+    "status": "published",
+    "slug": "sobre-la-montana-plateada",
+    "title": "About the Silver Mountain",
+    "summary": "Introduce the character of the Man of the Silver Mountain in a digital landscape.",
+    "seo": {
+      "title": "About the Silver Mountain",
+      "description": "Introduce the character of the Man of the Silver Mountain in a digital landscape."
+    },
+    "bodyRef": "en/obras/sobre-la-montana-plateada.md"
+  },
+  "lectura-filosofia-de-la-mente": {
+    "status": "published",
+    "slug": "lectura-filosofia-de-la-mente",
+    "title": "Philosophy of Mind",
+    "summary": "Library texts related to \"philosophy of mind.\"",
+    "seo": {
+      "title": "Philosophy of Mind",
+      "description": "Library texts related to \"philosophy of mind.\""
+    },
+    "bodyRef": "en/temas-literarios/filosofia-de-la-mente.md"
+  },
+  "lectura-conciencia": {
+    "status": "published",
+    "slug": "lectura-conciencia",
+    "title": "Consciousness",
+    "summary": "Library texts related to \"consciousness.\"",
+    "seo": {
+      "title": "Consciousness",
+      "description": "Library texts related to \"consciousness.\""
+    },
+    "bodyRef": "en/temas-literarios/conciencia.md"
+  },
+  "lectura-lenguaje": {
+    "status": "published",
+    "slug": "lectura-lenguaje",
+    "title": "Language",
+    "summary": "Library texts related to \"language.\"",
+    "seo": {
+      "title": "Language",
+      "description": "Library texts related to \"language.\""
+    },
+    "bodyRef": "en/temas-literarios/lenguaje.md"
+  },
+  "texto-los-dos-concientes": {
+    "status": "published",
+    "slug": "los-dos-concientes",
+    "title": "The Two Consciousnesses",
+    "summary": "Proposes a personal explanation of consciousness, language, and the unconscious.",
+    "seo": {
+      "title": "The Two Consciousnesses",
+      "description": "Proposes a personal explanation of consciousness, language, and the unconscious."
+    },
+    "bodyRef": "en/obras/los-dos-concientes.md"
+  },
+  "lectura-categoria-personales": {
+    "status": "published",
+    "slug": "lectura-categoria-personales",
+    "title": "Chronicles and personal notes",
+    "summary": "Library texts related to «chronicles and personal notes».",
+    "seo": {
+      "title": "Chronicles and personal notes",
+      "description": "Library texts related to «chronicles and personal notes»."
+    },
+    "bodyRef": "en/temas-literarios/categoria-personales.md"
+  },
+  "lectura-texto-personal": {
+    "status": "published",
+    "slug": "lectura-texto-personal",
+    "title": "Personal text",
+    "summary": "Library texts related to «personal text».",
+    "seo": {
+      "title": "Personal text",
+      "description": "Library texts related to «personal text»."
+    },
+    "bodyRef": "en/temas-literarios/texto-personal.md"
+  },
+  "lectura-cronica-personal": {
+    "status": "published",
+    "slug": "lectura-cronica-personal",
+    "title": "Personal chronicle",
+    "summary": "Library texts related to «personal chronicle».",
+    "seo": {
+      "title": "Personal chronicle",
+      "description": "Library texts related to «personal chronicle»."
+    },
+    "bodyRef": "en/temas-literarios/cronica-personal.md"
+  },
+  "lectura-literatura": {
+    "status": "published",
+    "slug": "lectura-literatura",
+    "title": "Literature",
+    "summary": "Library texts related to «literature».",
+    "seo": {
+      "title": "Literature",
+      "description": "Library texts related to «literature»."
+    },
+    "bodyRef": "en/temas-literarios/literatura.md"
+  },
+  "texto-la-locura-de-quijote": {
+    "status": "published",
+    "slug": "la-locura-de-quijote",
+    "title": "The Madness of Quixote",
+    "summary": "A bus journey narrated with the imagination of Don Quixote.",
+    "seo": {
+      "title": "The Madness of Quixote",
+      "description": "A bus journey narrated with the imagination of Don Quixote."
+    },
+    "bodyRef": "en/obras/la-locura-de-quijote.md"
+  },
+  "lectura-etica": {
+    "status": "published",
+    "slug": "lectura-etica",
+    "title": "Ethics",
+    "summary": "Library texts related to \"ethics.\"",
+    "seo": {
+      "title": "Ethics",
+      "description": "Library texts related to \"ethics.\""
+    },
+    "bodyRef": "en/temas-literarios/etica.md"
+  },
+  "texto-carta-de-un-padre-a-su-hijo-en-dia-de-reyes": {
+    "status": "published",
+    "slug": "carta-de-un-padre-a-su-hijo-en-dia-de-reyes",
+    "title": "Letter from a Father to His Son on Three Kings Day",
+    "summary": "Letter about the Three Kings, the lie, paternal love and the meaning of a gift.",
+    "seo": {
+      "title": "Letter from a Father to His Son on Three Kings Day",
+      "description": "Letter about the Three Kings, the lie, paternal love and the meaning of a gift."
+    },
+    "bodyRef": "en/obras/carta-de-un-padre-a-su-hijo-en-dia-de-reyes.md"
+  },
+  "lectura-cuento-filosofico": {
+    "status": "published",
+    "slug": "lectura-cuento-filosofico",
+    "title": "Philosophical story",
+    "summary": "Library texts related to «philosophical story».",
+    "seo": {
+      "title": "Philosophical story",
+      "description": "Library texts related to «philosophical story»."
+    },
+    "bodyRef": "en/temas-literarios/cuento-filosofico.md"
+  },
+  "lectura-alegoria": {
+    "status": "published",
+    "slug": "lectura-alegoria",
+    "title": "Allegory",
+    "summary": "Library texts related to «allegory».",
+    "seo": {
+      "title": "Allegory",
+      "description": "Library texts related to «allegory»."
+    },
+    "bodyRef": "en/temas-literarios/alegoria.md"
+  },
+  "lectura-religion": {
+    "status": "published",
+    "slug": "lectura-religion",
+    "title": "Religion",
+    "summary": "Library texts related to «religion».",
+    "seo": {
+      "title": "Religion",
+      "description": "Library texts related to «religion»."
+    },
+    "bodyRef": "en/temas-literarios/religion.md"
+  },
+  "texto-existio-una-vez": {
+    "status": "published",
+    "slug": "existio-una-vez",
+    "title": "There once was",
+    "summary": "A god and a demon serve to question religious authority.",
+    "seo": {
+      "title": "There once was",
+      "description": "A god and a demon serve to question religious authority."
+    },
+    "bodyRef": "en/obras/existio-una-vez.md"
+  },
+  "lectura-categoria-criticas": {
+    "status": "published",
+    "slug": "lectura-categoria-criticas",
+    "title": "Critiques and opinion essays",
+    "summary": "Texts from the library related to «critiques and opinion essays».",
+    "seo": {
+      "title": "Critiques and opinion essays",
+      "description": "Texts from the library related to «critiques and opinion essays»."
+    },
+    "bodyRef": "en/temas-literarios/categoria-criticas.md"
+  },
+  "lectura-critica": {
+    "status": "published",
+    "slug": "lectura-critica",
+    "title": "Critique",
+    "summary": "Texts from the library related to «critique».",
+    "seo": {
+      "title": "Critique",
+      "description": "Texts from the library related to «critique»."
+    },
+    "bodyRef": "en/temas-literarios/critica.md"
+  },
+  "lectura-critica-cultural": {
+    "status": "published",
+    "slug": "lectura-critica-cultural",
+    "title": "Cultural Critique",
+    "summary": "Texts from the library related to «cultural critique».",
+    "seo": {
+      "title": "Cultural Critique",
+      "description": "Texts from the library related to «cultural critique»."
+    },
+    "bodyRef": "en/temas-literarios/critica-cultural.md"
+  },
+  "lectura-economia": {
+    "status": "published",
+    "slug": "lectura-economia",
+    "title": "Economy",
+    "summary": "Texts from the library related to «economy».",
+    "seo": {
+      "title": "Economy",
+      "description": "Texts from the library related to «economy»."
+    },
+    "bodyRef": "en/temas-literarios/economia.md"
+  },
+  "lectura-musica": {
+    "status": "published",
+    "slug": "lectura-musica",
+    "title": "Music",
+    "summary": "Texts from the library related to «music».",
+    "seo": {
+      "title": "Music",
+      "description": "Texts from the library related to «music»."
+    },
+    "bodyRef": "en/temas-literarios/musica.md"
+  },
+  "lectura-propiedad-intelectual": {
+    "status": "published",
+    "slug": "lectura-propiedad-intelectual",
+    "title": "Intellectual Property",
+    "summary": "Texts from the library related to «intellectual property».",
+    "seo": {
+      "title": "Intellectual Property",
+      "description": "Texts from the library related to «intellectual property»."
+    },
+    "bodyRef": "en/temas-literarios/propiedad-intelectual.md"
+  },
+  "texto-pirateria-y-oportunidad": {
+    "status": "published",
+    "slug": "pirateria-y-oportunidad",
+    "title": "Piracy and opportunity",
+    "summary": "Challenges the music industry and proposes alternative relationships among musicians, distribution, and the public.",
+    "seo": {
+      "title": "Piracy and opportunity",
+      "description": "Challenges the music industry and proposes alternative relationships among musicians, distribution, and the public."
+    },
+    "bodyRef": "en/obras/pirateria-y-oportunidad.md"
+  },
+  "lectura-reflexion-personal": {
+    "status": "published",
+    "slug": "lectura-reflexion-personal",
+    "title": "Personal Reflection",
+    "summary": "Library texts related to «personal reflection».",
+    "seo": {
+      "title": "Personal Reflection",
+      "description": "Library texts related to «personal reflection»."
+    },
+    "bodyRef": "en/temas-literarios/reflexion-personal.md"
+  },
+  "texto-dolor": {
+    "status": "published",
+    "slug": "dolor",
+    "title": "Pain",
+    "summary": "Romantic disillusion and comparison with the chivalric ideal.",
+    "seo": {
+      "title": "Pain",
+      "description": "Romantic disillusion and comparison with the chivalric ideal."
+    },
+    "bodyRef": "en/obras/dolor.md"
+  },
+  "lectura-filosofia-existencial": {
+    "status": "published",
+    "slug": "lectura-filosofia-existencial",
+    "title": "Existential Philosophy",
+    "summary": "Library texts related to \"existential philosophy.\"",
+    "seo": {
+      "title": "Existential Philosophy",
+      "description": "Library texts related to \"existential philosophy.\""
+    },
+    "bodyRef": "en/temas-literarios/filosofia-existencial.md"
+  },
+  "lectura-normas-sociales": {
+    "status": "published",
+    "slug": "lectura-normas-sociales",
+    "title": "Social norms",
+    "summary": "Library texts related to \"social norms.\"",
+    "seo": {
+      "title": "Social norms",
+      "description": "Library texts related to \"social norms.\""
+    },
+    "bodyRef": "en/temas-literarios/normas-sociales.md"
+  },
+  "texto-locura-hermosa-locura": {
+    "status": "published",
+    "slug": "locura-hermosa-locura",
+    "title": "Madness, beautiful madness",
+    "summary": "Sanity, freedom and social norms treated as problems of existence.",
+    "seo": {
+      "title": "Madness, beautiful madness",
+      "description": "Sanity, freedom and social norms treated as problems of existence."
+    },
+    "bodyRef": "en/obras/locura-hermosa-locura.md"
+  },
+  "lectura-percepcion": {
+    "status": "published",
+    "slug": "lectura-percepcion",
+    "title": "Perception",
+    "summary": "Library texts related to \"perception.\"",
+    "seo": {
+      "title": "Perception",
+      "description": "Library texts related to \"perception.\""
+    },
+    "bodyRef": "en/temas-literarios/percepcion.md"
+  },
+  "texto-memoria-alguien-ha-visto-mi-memoria": {
+    "status": "published",
+    "slug": "memoria-alguien-ha-visto-mi-memoria",
+    "title": "Memory?? someone has seen my memory??",
+    "summary": "Explore perception and memory through computer analogies and a personal hypothesis.",
+    "seo": {
+      "title": "Memory?? someone has seen my memory??",
+      "description": "Explore perception and memory through computer analogies and a personal hypothesis."
+    },
+    "bodyRef": "en/obras/memoria-alguien-ha-visto-mi-memoria.md"
+  },
+  "lectura-filosofia-de-la-tecnologia": {
+    "status": "published",
+    "slug": "lectura-filosofia-de-la-tecnologia",
+    "title": "Philosophy of Technology",
+    "summary": "Library texts related to \"philosophy of technology.\"",
+    "seo": {
+      "title": "Philosophy of Technology",
+      "description": "Library texts related to \"philosophy of technology.\""
+    },
+    "bodyRef": "en/temas-literarios/filosofia-de-la-tecnologia.md"
+  },
+  "texto-cyborg": {
+    "status": "published",
+    "slug": "cyborg",
+    "title": "Cyborg",
+    "summary": "Identity, memory and personal continuity in networks and computers.",
+    "seo": {
+      "title": "Cyborg",
+      "description": "Identity, memory and personal continuity in networks and computers."
+    },
+    "bodyRef": "en/obras/cyborg.md"
+  },
+  "lectura-critica-social": {
+    "status": "published",
+    "slug": "lectura-critica-social",
+    "title": "Social Critique",
+    "summary": "Library texts related to \"social critique.\"",
+    "seo": {
+      "title": "Social Critique",
+      "description": "Library texts related to \"social critique.\""
+    },
+    "bodyRef": "en/temas-literarios/critica-social.md"
+  },
+  "lectura-educacion": {
+    "status": "published",
+    "slug": "lectura-educacion",
+    "title": "Education",
+    "summary": "Library texts related to \"education.\"",
+    "seo": {
+      "title": "Education",
+      "description": "Library texts related to \"education.\""
+    },
+    "bodyRef": "en/temas-literarios/educacion.md"
+  },
+  "texto-bullyng": {
+    "status": "published",
+    "slug": "bullyng",
+    "title": "Bullying",
+    "summary": "Offers an interpretation of school bullying and proposes organizational changes.",
+    "seo": {
+      "title": "Bullying",
+      "description": "Offers an interpretation of school bullying and proposes organizational changes."
+    },
+    "bodyRef": "en/obras/bullyng.md"
+  },
+  "texto-descubrimiento": {
+    "status": "published",
+    "slug": "descubrimiento",
+    "title": "Discovery",
+    "summary": "The beginning of a blog about technology, artificial intelligence, and stories.",
+    "seo": {
+      "title": "Discovery",
+      "description": "The beginning of a blog about technology, artificial intelligence, and stories."
+    },
+    "bodyRef": "en/obras/descubrimiento.md"
+  },
+  "lectura-mexico": {
+    "status": "published",
+    "slug": "lectura-mexico",
+    "title": "Mexico",
+    "summary": "Library texts related to «Mexico».",
+    "seo": {
+      "title": "Mexico",
+      "description": "Library texts related to «Mexico»."
+    },
+    "bodyRef": "en/temas-literarios/mexico.md"
+  },
+  "lectura-progreso": {
+    "status": "published",
+    "slug": "lectura-progreso",
+    "title": "Progress",
+    "summary": "Library texts related to «Progress».",
+    "seo": {
+      "title": "Progress",
+      "description": "Library texts related to «Progress»."
+    },
+    "bodyRef": "en/temas-literarios/progreso.md"
+  },
+  "lectura-imaginacion": {
+    "status": "published",
+    "slug": "lectura-imaginacion",
+    "title": "Imagination",
+    "summary": "Library texts related to «Imagination».",
+    "seo": {
+      "title": "Imagination",
+      "description": "Library texts related to «Imagination»."
+    },
+    "bodyRef": "en/temas-literarios/imaginacion.md"
+  },
+  "texto-el-estupor-mexicano": {
+    "status": "published",
+    "slug": "el-estupor-mexicano",
+    "title": "The Mexican Daze",
+    "summary": "Use Tolkien as a starting point to question conformity and the lack of collective projects in Mexico.",
+    "seo": {
+      "title": "The Mexican Daze",
+      "description": "Use Tolkien as a starting point to question conformity and the lack of collective projects in Mexico."
+    },
+    "bodyRef": "en/obras/el-estupor-mexicano.md"
+  },
+  "lectura-categoria-humor": {
+    "status": "published",
+    "slug": "lectura-categoria-humor",
+    "title": "Humor and satire",
+    "summary": "Texts from the library related to «humor and satire».",
+    "seo": {
+      "title": "Humor and satire",
+      "description": "Texts from the library related to «humor and satire»."
+    },
+    "bodyRef": "en/temas-literarios/categoria-humor.md"
+  },
+  "lectura-humor": {
+    "status": "published",
+    "slug": "lectura-humor",
+    "title": "Humor",
+    "summary": "Texts from the library related to «humor».",
+    "seo": {
+      "title": "Humor",
+      "description": "Texts from the library related to «humor»."
+    },
+    "bodyRef": "en/temas-literarios/humor.md"
+  },
+  "lectura-parodia": {
+    "status": "published",
+    "slug": "lectura-parodia",
+    "title": "Parody",
+    "summary": "Texts from the library related to «parody».",
+    "seo": {
+      "title": "Parody",
+      "description": "Texts from the library related to «parody»."
+    },
+    "bodyRef": "en/temas-literarios/parodia.md"
+  },
+  "lectura-relaciones-de-pareja": {
+    "status": "published",
+    "slug": "lectura-relaciones-de-pareja",
+    "title": "Relationship",
+    "summary": "Texts from the library related to «relationship».",
+    "seo": {
+      "title": "Relationship",
+      "description": "Texts from the library related to «relationship»."
+    },
+    "bodyRef": "en/temas-literarios/relaciones-de-pareja.md"
+  },
+  "lectura-informatica": {
+    "status": "published",
+    "slug": "lectura-informatica",
+    "title": "Computer Science",
+    "summary": "Texts from the library related to «computer science».",
+    "seo": {
+      "title": "Computer Science",
+      "description": "Texts from the library related to «computer science»."
+    },
+    "bodyRef": "en/temas-literarios/informatica.md"
+  },
+  "texto-howto-novia": {
+    "status": "published",
+    "slug": "howto-novia",
+    "title": "HOWTO Bride",
+    "summary": "A parody that describes romantic relationships as if they were a computer system.",
+    "seo": {
+      "title": "HOWTO Bride",
+      "description": "A parody that describes romantic relationships as if they were a computer system."
+    },
+    "bodyRef": "en/obras/howto-novia.md"
+  },
+  "lectura-categoria-tecnicos": {
+    "status": "published",
+    "slug": "lectura-categoria-tecnicos",
+    "title": "Technical texts",
+    "summary": "Library texts related to «technical texts».",
+    "seo": {
+      "title": "Technical texts",
+      "description": "Library texts related to «technical texts»."
+    },
+    "bodyRef": "en/temas-literarios/categoria-tecnicos.md"
+  },
+  "lectura-texto-tecnico": {
+    "status": "published",
+    "slug": "lectura-texto-tecnico",
+    "title": "Technical text",
+    "summary": "Library texts related to «technical text».",
+    "seo": {
+      "title": "Technical text",
+      "description": "Library texts related to «technical text»."
+    },
+    "bodyRef": "en/temas-literarios/texto-tecnico.md"
+  },
+  "lectura-divulgacion-tecnica": {
+    "status": "published",
+    "slug": "lectura-divulgacion-tecnica",
+    "title": "Technical dissemination",
+    "summary": "Library texts related to «technical dissemination».",
+    "seo": {
+      "title": "Technical dissemination",
+      "description": "Library texts related to «technical dissemination»."
+    },
+    "bodyRef": "en/temas-literarios/divulgacion-tecnica.md"
+  },
+  "lectura-gnu-linux": {
+    "status": "published",
+    "slug": "lectura-gnu-linux",
+    "title": "GNU/Linux",
+    "summary": "Library texts related to «gnu/linux».",
+    "seo": {
+      "title": "GNU/Linux",
+      "description": "Library texts related to «gnu/linux»."
+    },
+    "bodyRef": "en/temas-literarios/gnu-linux.md"
+  },
+  "lectura-software-libre": {
+    "status": "published",
+    "slug": "lectura-software-libre",
+    "title": "Free software",
+    "summary": "Library texts related to «free software».",
+    "seo": {
+      "title": "Free software",
+      "description": "Library texts related to «free software»."
+    },
+    "bodyRef": "en/temas-literarios/software-libre.md"
+  },
+  "texto-guia-1": {
+    "status": "published",
+    "slug": "guia-1",
+    "title": "Guide 1",
+    "summary": "Explain the name GNU/Linux and the background of the system.",
+    "seo": {
+      "title": "Guide 1",
+      "description": "Explain the name GNU/Linux and the background of the system."
+    },
+    "bodyRef": "en/obras/guia-1.md"
+  },
+  "lectura-tutorial": {
+    "status": "published",
+    "slug": "lectura-tutorial",
+    "title": "Tutorial",
+    "summary": "Library texts related to \"tutorial\".",
+    "seo": {
+      "title": "Tutorial",
+      "description": "Library texts related to \"tutorial\"."
+    },
+    "bodyRef": "en/temas-literarios/tutorial.md"
+  },
+  "lectura-administracion-de-sistemas": {
+    "status": "published",
+    "slug": "lectura-administracion-de-sistemas",
+    "title": "System Administration",
+    "summary": "Library texts related to \"system administration\".",
+    "seo": {
+      "title": "System Administration",
+      "description": "Library texts related to \"system administration\"."
+    },
+    "bodyRef": "en/temas-literarios/administracion-de-sistemas.md"
+  },
+  "texto-paquetes-y-dependencias-en-gnu-linux": {
+    "status": "published",
+    "slug": "paquetes-y-dependencias-en-gnu-linux",
+    "title": "Packages and dependencies in GNU/Linux",
+    "summary": "Packages, dependencies, and updates in GNU/Linux.",
+    "seo": {
+      "title": "Packages and dependencies in GNU/Linux",
+      "description": "Packages, dependencies, and updates in GNU/Linux."
+    },
+    "bodyRef": "en/obras/paquetes-y-dependencias-en-gnu-linux.md"
+  },
+  "lectura-seguridad-informatica": {
+    "status": "published",
+    "slug": "lectura-seguridad-informatica",
+    "title": "Cybersecurity",
+    "summary": "Library texts related to \"cybersecurity.\"",
+    "seo": {
+      "title": "Cybersecurity",
+      "description": "Library texts related to \"cybersecurity.\""
+    },
+    "bodyRef": "en/temas-literarios/seguridad-informatica.md"
+  },
+  "texto-usuarios-y-permisos-en-gnu-linux": {
+    "status": "published",
+    "slug": "usuarios-y-permisos-en-gnu-linux",
+    "title": "Users and permissions in GNU/Linux",
+    "summary": "An explanation of users, permissions, and console conventions.",
+    "seo": {
+      "title": "Users and permissions in GNU/Linux",
+      "description": "An explanation of users, permissions, and console conventions."
+    },
+    "bodyRef": "en/obras/usuarios-y-permisos-en-gnu-linux.md"
+  },
+  "lectura-vejez": {
+    "status": "published",
+    "slug": "lectura-vejez",
+    "title": "Old Age",
+    "summary": "Library texts related to \"old age.\"",
+    "seo": {
+      "title": "Old Age",
+      "description": "Library texts related to \"old age.\""
+    },
+    "bodyRef": "en/temas-literarios/vejez.md"
+  },
+  "texto-el-jardin": {
+    "status": "published",
+    "slug": "el-jardin",
+    "title": "The Garden.",
+    "summary": "A garden preserves the memory of a shared life.",
+    "seo": {
+      "title": "The Garden.",
+      "description": "A garden preserves the memory of a shared life."
+    },
+    "bodyRef": "en/obras/el-jardin.md"
+  },
+  "lectura-nota-personal": {
+    "status": "published",
+    "slug": "lectura-nota-personal",
+    "title": "Personal note",
+    "summary": "Texts from the library related to \"personal note.\"",
+    "seo": {
+      "title": "Personal note",
+      "description": "Texts from the library related to \"personal note.\""
+    },
+    "bodyRef": "en/temas-literarios/nota-personal.md"
+  },
+  "lectura-arte-digital": {
+    "status": "published",
+    "slug": "lectura-arte-digital",
+    "title": "Digital art",
+    "summary": "Texts from the library related to \"digital art.\"",
+    "seo": {
+      "title": "Digital art",
+      "description": "Texts from the library related to \"digital art.\""
+    },
+    "bodyRef": "en/temas-literarios/arte-digital.md"
+  },
+  "texto-manga": {
+    "status": "published",
+    "slug": "manga",
+    "title": "Manga",
+    "summary": "Brief comment on a portrait edition with Gimp, no tutorial development.",
+    "seo": {
+      "title": "Manga",
+      "description": "Brief comment on a portrait edition with Gimp, no tutorial development."
+    },
+    "bodyRef": "en/obras/manga.md"
+  },
+  "lectura-dedicatoria": {
+    "status": "published",
+    "slug": "lectura-dedicatoria",
+    "title": "Dedication",
+    "summary": "Texts from the library related to \"dedication.\"",
+    "seo": {
+      "title": "Dedication",
+      "description": "Texts from the library related to \"dedication.\""
+    },
+    "bodyRef": "en/temas-literarios/dedicatoria.md"
+  },
+  "texto-te-amo": {
+    "status": "published",
+    "slug": "te-amo",
+    "title": "I love you",
+    "summary": "Short love message.",
+    "seo": {
+      "title": "I love you",
+      "description": "Short love message."
+    },
+    "bodyRef": "en/obras/te-amo.md"
+  },
+  "lectura-separacion": {
+    "status": "published",
+    "slug": "lectura-separacion",
+    "title": "Separation",
+    "summary": "Library texts related to «separation».",
+    "seo": {
+      "title": "Separation",
+      "description": "Library texts related to «separation»."
+    },
+    "bodyRef": "en/temas-literarios/separacion.md"
+  },
+  "texto-la-bestia-de-metal": {
+    "status": "published",
+    "slug": "la-bestia-de-metal",
+    "title": "The Metal Beast",
+    "summary": "Romantic separation aboard the metal beast.",
+    "seo": {
+      "title": "The Metal Beast",
+      "description": "Romantic separation aboard the metal beast."
+    },
+    "bodyRef": "en/obras/la-bestia-de-metal.md"
+  },
+  "lectura-programacion": {
+    "status": "published",
+    "slug": "lectura-programacion",
+    "title": "Programming",
+    "summary": "Library texts related to «programming».",
+    "seo": {
+      "title": "Programming",
+      "description": "Library texts related to «programming»."
+    },
+    "bodyRef": "en/temas-literarios/programacion.md"
+  },
+  "lectura-efectos-visuales": {
+    "status": "published",
+    "slug": "lectura-efectos-visuales",
+    "title": "Visual effects",
+    "summary": "Library texts related to «visual effects».",
+    "seo": {
+      "title": "Visual effects",
+      "description": "Library texts related to «visual effects»."
+    },
+    "bodyRef": "en/temas-literarios/efectos-visuales.md"
+  },
+  "texto-noche-de-brujas-en-diabuluz": {
+    "status": "published",
+    "slug": "noche-de-brujas-en-diabuluz",
+    "title": "Halloween Night in Diäbuluz",
+    "summary": "Explain a script for effects for a forum on Halloween dates.",
+    "seo": {
+      "title": "Halloween Night in Diäbuluz",
+      "description": "Explain a script for effects for a forum on Halloween dates."
+    },
+    "bodyRef": "en/obras/noche-de-brujas-en-diabuluz.md"
+  },
+  "lectura-nota-tecnica": {
+    "status": "published",
+    "slug": "lectura-nota-tecnica",
+    "title": "Technical note",
+    "summary": "Library texts related to «technical note».",
+    "seo": {
+      "title": "Technical note",
+      "description": "Library texts related to «technical note»."
+    },
+    "bodyRef": "en/temas-literarios/nota-tecnica.md"
+  },
+  "lectura-android": {
+    "status": "published",
+    "slug": "lectura-android",
+    "title": "Android",
+    "summary": "Library texts related to «android».",
+    "seo": {
+      "title": "Android",
+      "description": "Library texts related to «android»."
+    },
+    "bodyRef": "en/temas-literarios/android.md"
+  },
+  "texto-decodificando-entidades-html-en-android": {
+    "status": "published",
+    "slug": "decodificando-entidades-html-en-android",
+    "title": "Decoding HTML Entities in Android",
+    "summary": "Solution for decoding HTML entities in Android.",
+    "seo": {
+      "title": "Decoding HTML Entities in Android",
+      "description": "Solution for decoding HTML entities in Android."
+    },
+    "bodyRef": "en/obras/decodificando-entidades-html-en-android.md"
+  },
+  "lectura-diagnostico-tecnico": {
+    "status": "published",
+    "slug": "lectura-diagnostico-tecnico",
+    "title": "Technical Diagnosis",
+    "summary": "Library texts related to \"technical diagnosis.\"",
+    "seo": {
+      "title": "Technical Diagnosis",
+      "description": "Library texts related to \"technical diagnosis.\""
+    },
+    "bodyRef": "en/temas-literarios/diagnostico-tecnico.md"
+  },
+  "texto-google-chrome-crash-solved": {
+    "status": "published",
+    "slug": "google-chrome-crash-solved",
+    "title": "Google Chrome Crash![solved]",
+    "summary": "Describe a repair of Ubuntu, APT, Dbus, Nvidia and Chrome.",
+    "seo": {
+      "title": "Google Chrome Crash![solved]",
+      "description": "Describe a repair of Ubuntu, APT, Dbus, Nvidia and Chrome."
+    },
+    "bodyRef": "en/obras/google-chrome-crash-solved.md"
+  },
+  "lectura-drama": {
+    "status": "published",
+    "slug": "lectura-drama",
+    "title": "Drama",
+    "summary": "Library texts related to \"drama.\"",
+    "seo": {
+      "title": "Drama",
+      "description": "Library texts related to \"drama.\""
+    },
+    "bodyRef": "en/temas-literarios/drama.md"
+  },
+  "lectura-promesas": {
+    "status": "published",
+    "slug": "lectura-promesas",
+    "title": "Promises",
+    "summary": "Library texts related to \"promises.\"",
+    "seo": {
+      "title": "Promises",
+      "description": "Library texts related to \"promises.\""
+    },
+    "bodyRef": "en/temas-literarios/promesas.md"
+  },
+  "texto-promesas": {
+    "status": "published",
+    "slug": "promesas",
+    "title": "Promises",
+    "summary": "Roberto arrives at a hospital and faces tragic news.",
+    "seo": {
+      "title": "Promises",
+      "description": "Roberto arrives at a hospital and faces tragic news."
+    },
+    "bodyRef": "en/obras/promesas.md"
+  },
+  "lectura-critica-literaria": {
+    "status": "published",
+    "slug": "lectura-critica-literaria",
+    "title": "Literary criticism",
+    "summary": "Library texts related to «literary criticism».",
+    "seo": {
+      "title": "Literary criticism",
+      "description": "Library texts related to «literary criticism»."
+    },
+    "bodyRef": "en/temas-literarios/critica-literaria.md"
+  },
+  "texto-paulo-coelho": {
+    "status": "published",
+    "slug": "paulo-coelho",
+    "title": "Paulo Coelho",
+    "summary": "Explain a personal stance regarding the style and attitude attributed to Paulo Coelho.",
+    "seo": {
+      "title": "Paulo Coelho",
+      "description": "Explain a personal stance regarding the style and attitude attributed to Paulo Coelho."
+    },
+    "bodyRef": "en/obras/paulo-coelho.md"
+  },
+  "texto-una-historia-imaginaria": {
+    "status": "published",
+    "slug": "una-historia-imaginaria",
+    "title": "A Imaginary History",
+    "summary": "A mental experiment about a creator and a demon.",
+    "seo": {
+      "title": "A Imaginary History",
+      "description": "A mental experiment about a creator and a demon."
+    },
+    "bodyRef": "en/obras/una-historia-imaginaria.md"
+  },
+  "lectura-transformacion-personal": {
+    "status": "published",
+    "slug": "lectura-transformacion-personal",
+    "title": "Personal Transformation",
+    "summary": "Library texts related to \"personal transformation.\"",
+    "seo": {
+      "title": "Personal Transformation",
+      "description": "Library texts related to \"personal transformation.\""
+    },
+    "bodyRef": "en/temas-literarios/transformacion-personal.md"
+  },
+  "texto-crisalida": {
+    "status": "published",
+    "slug": "crisalida",
+    "title": "Chrysalis",
+    "summary": "The chrysalis functions as a metaphor for personal transformation.",
+    "seo": {
+      "title": "Chrysalis",
+      "description": "The chrysalis functions as a metaphor for personal transformation."
+    },
+    "bodyRef": "en/obras/crisalida.md"
+  },
+  "lectura-aforismo": {
+    "status": "published",
+    "slug": "lectura-aforismo",
+    "title": "Aphorism",
+    "summary": "Library texts related to «aphorism».",
+    "seo": {
+      "title": "Aphorism",
+      "description": "Library texts related to «aphorism»."
+    },
+    "bodyRef": "en/temas-literarios/aforismo.md"
+  },
+  "lectura-justicia": {
+    "status": "published",
+    "slug": "lectura-justicia",
+    "title": "Justice",
+    "summary": "Library texts related to «justice».",
+    "seo": {
+      "title": "Justice",
+      "description": "Library texts related to «justice»."
+    },
+    "bodyRef": "en/temas-literarios/justicia.md"
+  },
+  "lectura-politica": {
+    "status": "published",
+    "slug": "lectura-politica",
+    "title": "Politics",
+    "summary": "Library texts related to «politics».",
+    "seo": {
+      "title": "Politics",
+      "description": "Library texts related to «politics»."
+    },
+    "bodyRef": "en/temas-literarios/politica.md"
+  },
+  "texto-justicia-ilegal": {
+    "status": "published",
+    "slug": "justicia-ilegal",
+    "title": "Illegal Justice",
+    "summary": "Contrasts legality and justice in a brief formulation.",
+    "seo": {
+      "title": "Illegal Justice",
+      "description": "Contrasts legality and justice in a brief formulation."
+    },
+    "bodyRef": "en/obras/justicia-ilegal.md"
+  },
+  "lectura-vida": {
+    "status": "published",
+    "slug": "lectura-vida",
+    "title": "Life",
+    "summary": "Library texts related to \"life.\"",
+    "seo": {
+      "title": "Life",
+      "description": "Library texts related to \"life.\""
+    },
+    "bodyRef": "en/temas-literarios/vida.md"
+  },
+  "texto-a-que-tienes-derecho": {
+    "status": "published",
+    "slug": "a-que-tienes-derecho",
+    "title": "What are you entitled to?",
+    "summary": "Work, enjoy life, and reject the cult of suffering.",
+    "seo": {
+      "title": "What are you entitled to?",
+      "description": "Work, enjoy life, and reject the cult of suffering."
+    },
+    "bodyRef": "en/obras/a-que-tienes-derecho.md"
+  },
+  "lectura-desigualdad": {
+    "status": "published",
+    "slug": "lectura-desigualdad",
+    "title": "Inequality",
+    "summary": "Library texts related to \"inequality.\"",
+    "seo": {
+      "title": "Inequality",
+      "description": "Library texts related to \"inequality.\""
+    },
+    "bodyRef": "en/temas-literarios/desigualdad.md"
+  },
+  "lectura-exito": {
+    "status": "published",
+    "slug": "lectura-exito",
+    "title": "Success",
+    "summary": "Library texts related to \"success.\"",
+    "seo": {
+      "title": "Success",
+      "description": "Library texts related to \"success.\""
+    },
+    "bodyRef": "en/temas-literarios/exito.md"
+  },
+  "texto-los-de-abajo": {
+    "status": "published",
+    "slug": "los-de-abajo",
+    "title": "The ones below",
+    "summary": "Question the opposition between oppressive success and virtuous poverty.",
+    "seo": {
+      "title": "The ones below",
+      "description": "Question the opposition between oppressive success and virtuous poverty."
+    },
+    "bodyRef": "en/obras/los-de-abajo.md"
+  },
+  "lectura-filosofia-social": {
+    "status": "published",
+    "slug": "lectura-filosofia-social",
+    "title": "Social Philosophy",
+    "summary": "Library texts related to \"social philosophy.\"",
+    "seo": {
+      "title": "Social Philosophy",
+      "description": "Library texts related to \"social philosophy.\""
+    },
+    "bodyRef": "en/temas-literarios/filosofia-social.md"
+  },
+  "lectura-cambio": {
+    "status": "published",
+    "slug": "lectura-cambio",
+    "title": "Change",
+    "summary": "Library texts related to \"change.\"",
+    "seo": {
+      "title": "Change",
+      "description": "Library texts related to \"change.\""
+    },
+    "bodyRef": "en/temas-literarios/cambio.md"
+  },
+  "lectura-ideas": {
+    "status": "published",
+    "slug": "lectura-ideas",
+    "title": "Ideas",
+    "summary": "Library texts related to \"ideas.\"",
+    "seo": {
+      "title": "Ideas",
+      "description": "Library texts related to \"ideas.\""
+    },
+    "bodyRef": "en/temas-literarios/ideas.md"
+  },
+  "texto-esqueletos": {
+    "status": "published",
+    "slug": "esqueletos",
+    "title": "Skeletons",
+    "summary": "Social philosophy on change, ideas, freedom.",
+    "seo": {
+      "title": "Skeletons",
+      "description": "Social philosophy on change, ideas, freedom."
+    },
+    "bodyRef": "en/obras/esqueletos.md"
+  },
+  "texto-corazon-dormido": {
+    "status": "published",
+    "slug": "corazon-dormido",
+    "title": "Sleeping Heart",
+    "summary": "Summon memory and the awakening of a people through images of ruins and legends.",
+    "seo": {
+      "title": "Sleeping Heart",
+      "description": "Summon memory and the awakening of a people through images of ruins and legends."
+    },
+    "bodyRef": "en/obras/corazon-dormido.md"
+  },
+  "lectura-proposito": {
+    "status": "published",
+    "slug": "lectura-proposito",
+    "title": "Purpose",
+    "summary": "Library texts related to \"purpose.\"",
+    "seo": {
+      "title": "Purpose",
+      "description": "Library texts related to \"purpose.\""
+    },
+    "bodyRef": "en/temas-literarios/proposito.md"
+  },
+  "texto-retrospectiva": {
+    "status": "published",
+    "slug": "retrospectiva",
+    "title": "Retrospective",
+    "summary": "Personal balance of knowledge, purpose and future decisions.",
+    "seo": {
+      "title": "Retrospective",
+      "description": "Personal balance of knowledge, purpose and future decisions."
+    },
+    "bodyRef": "en/obras/retrospectiva.md"
+  },
+  "lectura-opinion-economica": {
+    "status": "published",
+    "slug": "lectura-opinion-economica",
+    "title": "Economic Opinion",
+    "summary": "Library texts related to «economic opinion».",
+    "seo": {
+      "title": "Economic Opinion",
+      "description": "Library texts related to «economic opinion»."
+    },
+    "bodyRef": "en/temas-literarios/opinion-economica.md"
+  },
+  "lectura-autoconsumo": {
+    "status": "published",
+    "slug": "lectura-autoconsumo",
+    "title": "Self-Consumption",
+    "summary": "Library texts related to «self-consumption».",
+    "seo": {
+      "title": "Self-Consumption",
+      "description": "Library texts related to «self-consumption»."
+    },
+    "bodyRef": "en/temas-literarios/autoconsumo.md"
+  },
+  "texto-economia-casera": {
+    "status": "published",
+    "slug": "economia-casera",
+    "title": "Home economy",
+    "summary": "Defends domestic production and self-consumption against economic vulnerability.",
+    "seo": {
+      "title": "Home economy",
+      "description": "Defends domestic production and self-consumption against economic vulnerability."
+    },
+    "bodyRef": "en/obras/economia-casera.md"
+  },
+  "lectura-eternidad": {
+    "status": "published",
+    "slug": "lectura-eternidad",
+    "title": "Eternity",
+    "summary": "Library texts related to \"eternity.\"",
+    "seo": {
+      "title": "Eternity",
+      "description": "Library texts related to \"eternity.\""
+    },
+    "bodyRef": "en/temas-literarios/eternidad.md"
+  },
+  "texto-dolor-paynalton-m086": {
+    "status": "published",
+    "slug": "dolor-paynalton-m086",
+    "title": "Pain",
+    "summary": "Solitude, eternity and unlove from a lyrical voice.",
+    "seo": {
+      "title": "Pain",
+      "description": "Solitude, eternity and unlove from a lyrical voice."
+    },
+    "bodyRef": "en/obras/dolor-paynalton-m086.md"
+  },
+  "lectura-dinero": {
+    "status": "published",
+    "slug": "lectura-dinero",
+    "title": "Money",
+    "summary": "Library texts related to «money».",
+    "seo": {
+      "title": "Money",
+      "description": "Library texts related to «money»."
+    },
+    "bodyRef": "en/temas-literarios/dinero.md"
+  },
+  "lectura-deuda": {
+    "status": "published",
+    "slug": "lectura-deuda",
+    "title": "Debt",
+    "summary": "Library texts related to «debt».",
+    "seo": {
+      "title": "Debt",
+      "description": "Library texts related to «debt»."
+    },
+    "bodyRef": "en/temas-literarios/deuda.md"
+  },
+  "texto-la-generacion-de-intereses-devalua-las-monedas-porque-porque-lo-digo-yo": {
+    "status": "published",
+    "slug": "la-generacion-de-intereses-devalua-las-monedas-porque-porque-lo-digo-yo",
+    "title": "Interest generation devalues currencies... because?? because I say so!!!!",
+    "summary": "Personal argument about money, interest and devaluation.",
+    "seo": {
+      "title": "Interest generation devalues currencies... because?? because I say so!!!!",
+      "description": "Personal argument about money, interest and devaluation."
+    },
+    "bodyRef": "en/obras/la-generacion-de-intereses-devalua-las-monedas-porque-porque-lo-digo-yo.md"
+  },
+  "lectura-propuesta-tecnica": {
+    "status": "published",
+    "slug": "lectura-propuesta-tecnica",
+    "title": "Technical proposal",
+    "summary": "Library texts related to «technical proposal».",
+    "seo": {
+      "title": "Technical proposal",
+      "description": "Library texts related to «technical proposal»."
+    },
+    "bodyRef": "en/temas-literarios/propuesta-tecnica.md"
+  },
+  "lectura-agricultura": {
+    "status": "published",
+    "slug": "lectura-agricultura",
+    "title": "Agriculture",
+    "summary": "Library texts related to «agriculture».",
+    "seo": {
+      "title": "Agriculture",
+      "description": "Library texts related to «agriculture»."
+    },
+    "bodyRef": "en/temas-literarios/agricultura.md"
+  },
+  "lectura-automatizacion": {
+    "status": "published",
+    "slug": "lectura-automatizacion",
+    "title": "Automation",
+    "summary": "Library texts related to «automation».",
+    "seo": {
+      "title": "Automation",
+      "description": "Library texts related to «automation»."
+    },
+    "bodyRef": "en/temas-literarios/automatizacion.md"
+  },
+  "texto-caja-se-siembra": {
+    "status": "published",
+    "slug": "caja-se-siembra",
+    "title": "Box grows",
+    "summary": "Urban cultivation idea with bands and per-plant control modules.",
+    "seo": {
+      "title": "Box grows",
+      "description": "Urban cultivation idea with bands and per-plant control modules."
+    },
+    "bodyRef": "en/obras/caja-se-siembra.md"
+  },
+  "lectura-credito": {
+    "status": "published",
+    "slug": "lectura-credito",
+    "title": "Credit",
+    "summary": "Library texts related to \"credit.\"",
+    "seo": {
+      "title": "Credit",
+      "description": "Library texts related to \"credit.\""
+    },
+    "bodyRef": "en/temas-literarios/credito.md"
+  },
+  "texto-control-de-inflacion": {
+    "status": "published",
+    "slug": "control-de-inflacion",
+    "title": "Inflation Control",
+    "summary": "Propose an alternative model of monetary emission and credit allocation.",
+    "seo": {
+      "title": "Inflation Control",
+      "description": "Propose an alternative model of monetary emission and credit allocation."
+    },
+    "bodyRef": "en/obras/control-de-inflacion.md"
+  },
+  "texto-viaje-solitario": {
+    "status": "published",
+    "slug": "viaje-solitario",
+    "title": "Solo Journey",
+    "summary": "Invitation to a journey of madness, dreams, and broken promises.",
+    "seo": {
+      "title": "Solo Journey",
+      "description": "Invitation to a journey of madness, dreams, and broken promises."
+    },
+    "bodyRef": "en/obras/viaje-solitario.md"
+  },
+  "lectura-propuesta-politica": {
+    "status": "published",
+    "slug": "lectura-propuesta-politica",
+    "title": "Political proposal",
+    "summary": "Library texts related to «political proposal».",
+    "seo": {
+      "title": "Political proposal",
+      "description": "Library texts related to «political proposal»."
+    },
+    "bodyRef": "en/temas-literarios/propuesta-politica.md"
+  },
+  "lectura-democracia": {
+    "status": "published",
+    "slug": "lectura-democracia",
+    "title": "Democracy",
+    "summary": "Library texts related to «democracy».",
+    "seo": {
+      "title": "Democracy",
+      "description": "Library texts related to «democracy»."
+    },
+    "bodyRef": "en/temas-literarios/democracia.md"
+  },
+  "lectura-poder": {
+    "status": "published",
+    "slug": "lectura-poder",
+    "title": "Power",
+    "summary": "Library texts related to «power».",
+    "seo": {
+      "title": "Power",
+      "description": "Library texts related to «power»."
+    },
+    "bodyRef": "en/temas-literarios/poder.md"
+  },
+  "texto-el-cuarto-poder": {
+    "status": "published",
+    "slug": "el-cuarto-poder",
+    "title": "The Fourth Power",
+    "summary": "Propose a fourth power as a citizen counterweight.",
+    "seo": {
+      "title": "The Fourth Power",
+      "description": "Propose a fourth power as a citizen counterweight."
+    },
+    "bodyRef": "en/obras/el-cuarto-poder.md"
+  },
+  "texto-dama-de-suenos": {
+    "status": "published",
+    "slug": "dama-de-suenos",
+    "title": "Lady of Dreams",
+    "summary": "Appeal to a loved one who only exists in dreams.",
+    "seo": {
+      "title": "Lady of Dreams",
+      "description": "Appeal to a loved one who only exists in dreams."
+    },
+    "bodyRef": "en/obras/dama-de-suenos.md"
+  },
+  "lectura-critica-politica": {
+    "status": "published",
+    "slug": "lectura-critica-politica",
+    "title": "Political Criticism",
+    "summary": "Library texts related to «political criticism».",
+    "seo": {
+      "title": "Political Criticism",
+      "description": "Library texts related to «political criticism»."
+    },
+    "bodyRef": "en/temas-literarios/critica-politica.md"
+  },
+  "lectura-armas": {
+    "status": "published",
+    "slug": "lectura-armas",
+    "title": "Weapons",
+    "summary": "Library texts related to «weapons».",
+    "seo": {
+      "title": "Weapons",
+      "description": "Library texts related to «weapons»."
+    },
+    "bodyRef": "en/temas-literarios/armas.md"
+  },
+  "texto-control-de-armas": {
+    "status": "published",
+    "slug": "control-de-armas",
+    "title": "Gun Control",
+    "summary": "Takes a stance on disarmament campaigns and arms markets.",
+    "seo": {
+      "title": "Gun Control",
+      "description": "Takes a stance on disarmament campaigns and arms markets."
+    },
+    "bodyRef": "en/obras/control-de-armas.md"
+  },
+  "lectura-despedida": {
+    "status": "published",
+    "slug": "lectura-despedida",
+    "title": "Farewell",
+    "summary": "Library texts related to «farewell».",
+    "seo": {
+      "title": "Farewell",
+      "description": "Library texts related to «farewell»."
+    },
+    "bodyRef": "en/temas-literarios/despedida.md"
+  },
+  "texto-volver-a-casa": {
+    "status": "published",
+    "slug": "volver-a-casa",
+    "title": "Go back home",
+    "summary": "Return, resignation, and forgetting expressed through images of flight and eternity.",
+    "seo": {
+      "title": "Go back home",
+      "description": "Return, resignation, and forgetting expressed through images of flight and eternity."
+    },
+    "bodyRef": "en/obras/volver-a-casa.md"
+  },
+  "lectura-prejuicios": {
+    "status": "published",
+    "slug": "lectura-prejuicios",
+    "title": "Biases",
+    "summary": "Library texts related to «biases».",
+    "seo": {
+      "title": "Biases",
+      "description": "Library texts related to «biases»."
+    },
+    "bodyRef": "en/temas-literarios/prejuicios.md"
+  },
+  "lectura-empatia": {
+    "status": "published",
+    "slug": "lectura-empatia",
+    "title": "Empathy",
+    "summary": "Library texts related to «empathy».",
+    "seo": {
+      "title": "Empathy",
+      "description": "Library texts related to «empathy»."
+    },
+    "bodyRef": "en/temas-literarios/empatia.md"
+  },
+  "texto-humildad": {
+    "status": "published",
+    "slug": "humildad",
+    "title": "Humility",
+    "summary": "I met a man on a bus who was talking about his experience raising roosters.",
+    "seo": {
+      "title": "Humility",
+      "description": "I met a man on a bus who was talking about his experience raising roosters."
+    },
+    "bodyRef": "en/obras/humildad.md"
+  },
+  "lectura-filosofia-de-la-religion": {
+    "status": "published",
+    "slug": "lectura-filosofia-de-la-religion",
+    "title": "Philosophy of religion",
+    "summary": "Library texts related to \"philosophy of religion.\"",
+    "seo": {
+      "title": "Philosophy of religion",
+      "description": "Library texts related to \"philosophy of religion.\""
+    },
+    "bodyRef": "en/temas-literarios/filosofia-de-la-religion.md"
+  },
+  "texto-la-innovacion-cristiana": {
+    "status": "published",
+    "slug": "la-innovacion-cristiana",
+    "title": "Christian Innovation",
+    "summary": "Proposes an interpretation of rituals and the link between humans and deities.",
+    "seo": {
+      "title": "Christian Innovation",
+      "description": "Proposes an interpretation of rituals and the link between humans and deities."
+    },
+    "bodyRef": "en/obras/la-innovacion-cristiana.md"
+  },
+  "texto-partida": {
+    "status": "published",
+    "slug": "partida",
+    "title": "Departure",
+    "summary": "Farewell and metaphorical dismemberment of the will to depart.",
+    "seo": {
+      "title": "Departure",
+      "description": "Farewell and metaphorical dismemberment of the will to depart."
+    },
+    "bodyRef": "en/obras/partida.md"
+  },
+  "lectura-opinion-profesional": {
+    "status": "published",
+    "slug": "lectura-opinion-profesional",
+    "title": "Professional Opinion",
+    "summary": "Library texts related to «professional opinion».",
+    "seo": {
+      "title": "Professional Opinion",
+      "description": "Library texts related to «professional opinion»."
+    },
+    "bodyRef": "en/temas-literarios/opinion-profesional.md"
+  },
+  "lectura-motivacion": {
+    "status": "published",
+    "slug": "lectura-motivacion",
+    "title": "Motivation",
+    "summary": "Library texts related to «motivation».",
+    "seo": {
+      "title": "Motivation",
+      "description": "Library texts related to «motivation»."
+    },
+    "bodyRef": "en/temas-literarios/motivacion.md"
+  },
+  "texto-los-juegos-del-salario": {
+    "status": "published",
+    "slug": "los-juegos-del-salario",
+    "title": "The Salary Games",
+    "summary": "Motivation, productivity, and proposal for application in a company.",
+    "seo": {
+      "title": "The Salary Games",
+      "description": "Motivation, productivity, and proposal for application in a company."
+    },
+    "bodyRef": "en/obras/los-juegos-del-salario.md"
+  },
+  "texto-perdidos": {
+    "status": "published",
+    "slug": "perdidos",
+    "title": "Lost",
+    "summary": "Creatures lost from eternity.",
+    "seo": {
+      "title": "Lost",
+      "description": "Creatures lost from eternity."
+    },
+    "bodyRef": "en/obras/perdidos.md"
+  },
+  "lectura-videojuegos": {
+    "status": "published",
+    "slug": "lectura-videojuegos",
+    "title": "Video Games",
+    "summary": "Library texts related to \"video games.\"",
+    "seo": {
+      "title": "Video Games",
+      "description": "Library texts related to \"video games.\""
+    },
+    "bodyRef": "en/temas-literarios/videojuegos.md"
+  },
+  "lectura-interoperabilidad": {
+    "status": "published",
+    "slug": "lectura-interoperabilidad",
+    "title": "Interoperability",
+    "summary": "Library texts related to \"interoperability.\"",
+    "seo": {
+      "title": "Interoperability",
+      "description": "Library texts related to \"interoperability.\""
+    },
+    "bodyRef": "en/temas-literarios/interoperabilidad.md"
+  },
+  "texto-mmorpg-opensource": {
+    "status": "published",
+    "slug": "mmorpg-opensource",
+    "title": "MMORPG Opensource",
+    "summary": "Outline interoperability between game clients and servers.",
+    "seo": {
+      "title": "MMORPG Opensource",
+      "description": "Outline interoperability between game clients and servers."
+    },
+    "bodyRef": "en/obras/mmorpg-opensource.md"
+  },
+  "lectura-algoritmos": {
+    "status": "published",
+    "slug": "lectura-algoritmos",
+    "title": "Algorithms",
+    "summary": "Library texts related to \"algorithms.\"",
+    "seo": {
+      "title": "Algorithms",
+      "description": "Library texts related to \"algorithms.\""
+    },
+    "bodyRef": "en/temas-literarios/algoritmos.md"
+  },
+  "lectura-redes-sociales": {
+    "status": "published",
+    "slug": "lectura-redes-sociales",
+    "title": "Social networks",
+    "summary": "Library texts related to \"social networks.\"",
+    "seo": {
+      "title": "Social networks",
+      "description": "Library texts related to \"social networks.\""
+    },
+    "bodyRef": "en/temas-literarios/redes-sociales.md"
+  },
+  "texto-el-traje-nuevo-del-millenial": {
+    "status": "published",
+    "slug": "el-traje-nuevo-del-millenial",
+    "title": "The Emperor's New Millennial",
+    "summary": "Use an adaptation of Andersen as an entry into a critique of the bubbles created by algorithms.",
+    "seo": {
+      "title": "The Emperor's New Millennial",
+      "description": "Use an adaptation of Andersen as an entry into a critique of the bubbles created by algorithms."
+    },
+    "bodyRef": "en/obras/el-traje-nuevo-del-millenial.md"
+  },
+  "lectura-pensiones": {
+    "status": "published",
+    "slug": "lectura-pensiones",
+    "title": "Pensions",
+    "summary": "Library texts related to \"pensions\".",
+    "seo": {
+      "title": "Pensions",
+      "description": "Library texts related to \"pensions\"."
+    },
+    "bodyRef": "en/temas-literarios/pensiones.md"
+  },
+  "lectura-dependencia": {
+    "status": "published",
+    "slug": "lectura-dependencia",
+    "title": "Dependency",
+    "summary": "Library texts related to \"dependency\".",
+    "seo": {
+      "title": "Dependency",
+      "description": "Library texts related to \"dependency\"."
+    },
+    "bodyRef": "en/temas-literarios/dependencia.md"
+  },
+  "texto-el-origen-del-mal": {
+    "status": "published",
+    "slug": "el-origen-del-mal",
+    "title": "The origin of evil",
+    "summary": "Argue about dependence on aid, pensions and institutional responsibility.",
+    "seo": {
+      "title": "The origin of evil",
+      "description": "Argue about dependence on aid, pensions and institutional responsibility."
+    },
+    "bodyRef": "en/obras/el-origen-del-mal.md"
+  },
+  "lectura-colaboracion": {
+    "status": "published",
+    "slug": "lectura-colaboracion",
+    "title": "Collaboration",
+    "summary": "Library texts related to \"collaboration.\"",
+    "seo": {
+      "title": "Collaboration",
+      "description": "Library texts related to \"collaboration.\""
+    },
+    "bodyRef": "en/temas-literarios/colaboracion.md"
+  },
+  "lectura-jerarquia": {
+    "status": "published",
+    "slug": "lectura-jerarquia",
+    "title": "Hierarchy",
+    "summary": "Library texts related to \"hierarchy.\"",
+    "seo": {
+      "title": "Hierarchy",
+      "description": "Library texts related to \"hierarchy.\""
+    },
+    "bodyRef": "en/temas-literarios/jerarquia.md"
+  },
+  "texto-trabajo-colaborativo-vs-jerarquico": {
+    "status": "published",
+    "slug": "trabajo-colaborativo-vs-jerarquico",
+    "title": "Collaborative work vs hierarchical work",
+    "summary": "Compare forms of work organization from a personal experience.",
+    "seo": {
+      "title": "Collaborative work vs hierarchical work",
+      "description": "Compare forms of work organization from a personal experience."
+    },
+    "bodyRef": "en/obras/trabajo-colaborativo-vs-jerarquico.md"
+  },
+  "lectura-ciencia-ficcion": {
+    "status": "published",
+    "slug": "lectura-ciencia-ficcion",
+    "title": "Science Fiction",
+    "summary": "Library texts related to \"science fiction.\"",
+    "seo": {
+      "title": "Science Fiction",
+      "description": "Library texts related to \"science fiction.\""
+    },
+    "bodyRef": "en/temas-literarios/ciencia-ficcion.md"
+  },
+  "lectura-arqueologia": {
+    "status": "published",
+    "slug": "lectura-arqueologia",
+    "title": "Archaeology",
+    "summary": "Library texts related to \"archaeology.\"",
+    "seo": {
+      "title": "Archaeology",
+      "description": "Library texts related to \"archaeology.\""
+    },
+    "bodyRef": "en/temas-literarios/arqueologia.md"
+  },
+  "texto-la-carta": {
+    "status": "published",
+    "slug": "la-carta",
+    "title": "The Letter",
+    "summary": "An excavation and a letter trigger a narrative revelation.",
+    "seo": {
+      "title": "The Letter",
+      "description": "An excavation and a letter trigger a narrative revelation."
+    },
+    "bodyRef": "en/obras/la-carta.md"
+  },
+  "texto-el-poder-magisterial": {
+    "status": "published",
+    "slug": "el-poder-magisterial",
+    "title": "The Magisterial Power",
+    "summary": "It proposes advice from experts to guide public decisions and participate in judicial processes.",
+    "seo": {
+      "title": "The Magisterial Power",
+      "description": "It proposes advice from experts to guide public decisions and participate in judicial processes."
+    },
+    "bodyRef": "en/obras/el-poder-magisterial.md"
+  },
+  "texto-despertar": {
+    "status": "published",
+    "slug": "despertar",
+    "title": "Awakening",
+    "summary": "Awakening, evocation of the partner and contrast between imagined presence and absence.",
+    "seo": {
+      "title": "Awakening",
+      "description": "Awakening, evocation of the partner and contrast between imagined presence and absence."
+    },
+    "bodyRef": "en/obras/despertar.md"
+  },
+  "texto-capitalismo-vs-dinerismo": {
+    "status": "published",
+    "slug": "capitalismo-vs-dinerismo",
+    "title": "Capitalism vs Cashism",
+    "summary": "A reflection on the difference between accumulating money and building capital.",
+    "seo": {
+      "title": "Capitalism vs Cashism",
+      "description": "A reflection on the difference between accumulating money and building capital."
+    },
+    "bodyRef": "en/obras/capitalismo-vs-dinerismo.md"
+  },
+  "lectura-existencia": {
+    "status": "published",
+    "slug": "lectura-existencia",
+    "title": "Existence",
+    "summary": "Library texts related to «existence».",
+    "seo": {
+      "title": "Existence",
+      "description": "Library texts related to «existence»."
+    },
+    "bodyRef": "en/temas-literarios/existencia.md"
+  },
+  "texto-el-dios-en-que-yo-creo": {
+    "status": "published",
+    "slug": "el-dios-en-que-yo-creo",
+    "title": "The god in which I believe",
+    "summary": "A personal search about faith, knowledge and existence.",
+    "seo": {
+      "title": "The god in which I believe",
+      "description": "A personal search about faith, knowledge and existence."
+    },
+    "bodyRef": "en/obras/el-dios-en-que-yo-creo.md"
+  },
+  "lectura-decisiones": {
+    "status": "published",
+    "slug": "lectura-decisiones",
+    "title": "Decisions",
+    "summary": "Library texts related to \"decisions.\"",
+    "seo": {
+      "title": "Decisions",
+      "description": "Library texts related to \"decisions.\""
+    },
+    "bodyRef": "en/temas-literarios/decisiones.md"
+  },
+  "texto-decision": {
+    "status": "published",
+    "slug": "decision",
+    "title": "Decision...",
+    "summary": "Psychological drama about decisions, romantic relationships.",
+    "seo": {
+      "title": "Decision...",
+      "description": "Psychological drama about decisions, romantic relationships."
+    },
+    "bodyRef": "en/obras/decision.md"
+  },
+  "lectura-ficcion-filosofica": {
+    "status": "published",
+    "slug": "lectura-ficcion-filosofica",
+    "title": "Philosophical fiction",
+    "summary": "Library texts related to \"philosophical fiction.\"",
+    "seo": {
+      "title": "Philosophical fiction",
+      "description": "Library texts related to \"philosophical fiction.\""
+    },
+    "bodyRef": "en/temas-literarios/ficcion-filosofica.md"
+  },
+  "texto-evangelio-del-gato-negro": {
+    "status": "published",
+    "slug": "evangelio-del-gato-negro",
+    "title": "Gospel of the Black Cat",
+    "summary": "A humanistic cosmology presented as a message directed to humanity.",
+    "seo": {
+      "title": "Gospel of the Black Cat",
+      "description": "A humanistic cosmology presented as a message directed to humanity."
+    },
+    "bodyRef": "en/obras/evangelio-del-gato-negro.md"
+  },
+  "texto-improvisado": {
+    "status": "published",
+    "slug": "improvisado",
+    "title": "IMPROVISADO",
+    "summary": "A note carried by the wind marks the lovers' sorrow.",
+    "seo": {
+      "title": "IMPROVISADO",
+      "description": "A note carried by the wind marks the lovers' sorrow."
+    },
+    "bodyRef": "en/obras/improvisado.md"
+  },
+  "texto-susurros-en-la-oscuridad": {
+    "status": "published",
+    "slug": "susurros-en-la-oscuridad",
+    "title": "Whispers in the Darkness",
+    "summary": "A room and its objects remember the Mexican Revolution.",
+    "seo": {
+      "title": "Whispers in the Darkness",
+      "description": "A room and its objects remember the Mexican Revolution."
+    },
+    "bodyRef": "en/obras/susurros-en-la-oscuridad.md"
+  },
+  "lectura-tiempo": {
+    "status": "published",
+    "slug": "lectura-tiempo",
+    "title": "Time",
+    "summary": "Library texts related to \"time.\"",
+    "seo": {
+      "title": "Time",
+      "description": "Library texts related to \"time.\""
+    },
+    "bodyRef": "en/temas-literarios/tiempo.md"
+  },
+  "texto-enfermera": {
+    "status": "published",
+    "slug": "enfermera",
+    "title": "Nurse",
+    "summary": "A nurse walks through a transformed hospital.",
+    "seo": {
+      "title": "Nurse",
+      "description": "A nurse walks through a transformed hospital."
+    },
+    "bodyRef": "en/obras/enfermera.md"
+  },
+  "lectura-choque-cultural": {
+    "status": "published",
+    "slug": "lectura-choque-cultural",
+    "title": "Cultural clash",
+    "summary": "Library texts related to \"cultural clash.\"",
+    "seo": {
+      "title": "Cultural clash",
+      "description": "Library texts related to \"cultural clash.\""
+    },
+    "bodyRef": "en/temas-literarios/choque-cultural.md"
+  },
+  "texto-especialista-en-latam": {
+    "status": "published",
+    "slug": "especialista-en-latam",
+    "title": "Specialist in LATAM",
+    "summary": "An alien expert teaches his apprentice how to access the human specialist capable of solving the impossible.",
+    "seo": {
+      "title": "Specialist in LATAM",
+      "description": "An alien expert teaches his apprentice how to access the human specialist capable of solving the impossible."
+    },
+    "bodyRef": "en/obras/especialista-en-latam.md"
+  },
+  "lectura-solidaridad": {
+    "status": "published",
+    "slug": "lectura-solidaridad",
+    "title": "Solidarity",
+    "summary": "Texts from the library related to \"solidarity.\"",
+    "seo": {
+      "title": "Solidarity",
+      "description": "Texts from the library related to \"solidarity.\""
+    },
+    "bodyRef": "en/temas-literarios/solidaridad.md"
+  },
+  "texto-la-partera": {
+    "status": "published",
+    "slug": "la-partera",
+    "title": "The Midwife",
+    "summary": "A human midwife attends an alien birth.",
+    "seo": {
+      "title": "The Midwife",
+      "description": "A human midwife attends an alien birth."
+    },
+    "bodyRef": "en/obras/la-partera.md"
+  },
+  "lectura-gastronomia": {
+    "status": "published",
+    "slug": "lectura-gastronomia",
+    "title": "Cuisine",
+    "summary": "Library texts related to \"cuisine.\"",
+    "seo": {
+      "title": "Cuisine",
+      "description": "Library texts related to \"cuisine.\""
+    },
+    "bodyRef": "en/temas-literarios/gastronomia.md"
+  },
+  "texto-se-estan-comiendo-que": {
+    "status": "published",
+    "slug": "se-estan-comiendo-que",
+    "title": "What are they eating?",
+    "summary": "The problem of a planetary fungus is transformed through human culinary habits.",
+    "seo": {
+      "title": "What are they eating?",
+      "description": "The problem of a planetary fungus is transformed through human culinary habits."
+    },
+    "bodyRef": "en/obras/se-estan-comiendo-que.md"
+  },
+  "lectura-inteligencia-artificial": {
+    "status": "published",
+    "slug": "lectura-inteligencia-artificial",
+    "title": "Artificial intelligence",
+    "summary": "Library texts related to «artificial intelligence».",
+    "seo": {
+      "title": "Artificial intelligence",
+      "description": "Library texts related to «artificial intelligence»."
+    },
+    "bodyRef": "en/temas-literarios/inteligencia-artificial.md"
+  },
+  "lectura-coexistencia": {
+    "status": "published",
+    "slug": "lectura-coexistencia",
+    "title": "Coexistence",
+    "summary": "Library texts related to «coexistence».",
+    "seo": {
+      "title": "Coexistence",
+      "description": "Library texts related to «coexistence»."
+    },
+    "bodyRef": "en/temas-literarios/coexistencia.md"
+  },
+  "texto-debate-para-incidente-io-8c9beaf3b0-e": {
+    "status": "published",
+    "slug": "debate-para-incidente-io-8c9beaf3b0-e",
+    "title": "Debate for incident IO-8C9BEAF3B0-E",
+    "summary": "Debate between artificial units presented as a fictitious transcription.",
+    "seo": {
+      "title": "Debate for incident IO-8C9BEAF3B0-E",
+      "description": "Debate between artificial units presented as a fictitious transcription."
+    },
+    "bodyRef": "en/obras/debate-para-incidente-io-8c9beaf3b0-e.md"
+  },
+  "lectura-guerra": {
+    "status": "published",
+    "slug": "lectura-guerra",
+    "title": "War",
+    "summary": "Library texts related to \"war.\"",
+    "seo": {
+      "title": "War",
+      "description": "Library texts related to \"war.\""
+    },
+    "bodyRef": "en/temas-literarios/guerra.md"
+  },
+  "texto-barbacoa-de-uma-estilo-culiacan": {
+    "status": "published",
+    "slug": "barbacoa-de-uma-estilo-culiacan",
+    "title": "Barbecue of UMA style Culiacán",
+    "summary": "Military defeat story linked to the origin of a barbecue.",
+    "seo": {
+      "title": "Barbecue of UMA style Culiacán",
+      "description": "Military defeat story linked to the origin of a barbecue."
+    },
+    "bodyRef": "en/obras/barbacoa-de-uma-estilo-culiacan.md"
+  },
+  "lectura-primer-contacto": {
+    "status": "published",
+    "slug": "lectura-primer-contacto",
+    "title": "First Contact",
+    "summary": "Library texts related to «first contact».",
+    "seo": {
+      "title": "First Contact",
+      "description": "Library texts related to «first contact»."
+    },
+    "bodyRef": "en/temas-literarios/primer-contacto.md"
+  },
+  "lectura-diplomacia": {
+    "status": "published",
+    "slug": "lectura-diplomacia",
+    "title": "Diplomacy",
+    "summary": "Library texts related to «diplomacy».",
+    "seo": {
+      "title": "Diplomacy",
+      "description": "Library texts related to «diplomacy»."
+    },
+    "bodyRef": "en/temas-literarios/diplomacia.md"
+  },
+  "texto-mi-primera-chamba-galactica": {
+    "status": "published",
+    "slug": "mi-primera-chamba-galactica",
+    "title": "My First Galactic Job",
+    "summary": "Diplomatic first contact told as a conversation.",
+    "seo": {
+      "title": "My First Galactic Job",
+      "description": "Diplomatic first contact told as a conversation."
+    },
+    "bodyRef": "en/obras/mi-primera-chamba-galactica.md"
+  },
+  "lectura-tradiciones": {
+    "status": "published",
+    "slug": "lectura-tradiciones",
+    "title": "Traditions",
+    "summary": "Library texts related to \"traditions.\"",
+    "seo": {
+      "title": "Traditions",
+      "description": "Library texts related to \"traditions.\""
+    },
+    "bodyRef": "en/temas-literarios/tradiciones.md"
+  },
+  "texto-porque-los-brancianos-le-temen-a-las-pinatas": {
+    "status": "published",
+    "slug": "porque-los-brancianos-le-temen-a-las-pinatas",
+    "title": "Why do the Brancianos fear piñatas?",
+    "summary": "Human customs and piñatas facing an alien civilization.",
+    "seo": {
+      "title": "Why do the Brancianos fear piñatas?",
+      "description": "Human customs and piñatas facing an alien civilization."
+    },
+    "bodyRef": "en/obras/porque-los-brancianos-le-temen-a-las-pinatas.md"
+  },
+  "texto-mariachis-de-bolsillo": {
+    "status": "published",
+    "slug": "mariachis-de-bolsillo",
+    "title": "Pocket Mariachis",
+    "summary": "Cultural program on human music and galactic influence.",
+    "seo": {
+      "title": "Pocket Mariachis",
+      "description": "Cultural program on human music and galactic influence."
+    },
+    "bodyRef": "en/obras/mariachis-de-bolsillo.md"
+  },
+  "lectura-competencia": {
+    "status": "published",
+    "slug": "lectura-competencia",
+    "title": "Competition",
+    "summary": "Library texts related to \"competition.\"",
+    "seo": {
+      "title": "Competition",
+      "description": "Library texts related to \"competition.\""
+    },
+    "bodyRef": "en/temas-literarios/competencia.md"
+  },
+  "texto-sayula-iii": {
+    "status": "published",
+    "slug": "sayula-iii",
+    "title": "Sayula III",
+    "summary": "Galactic career and cultural motivations of different species.",
+    "seo": {
+      "title": "Sayula III",
+      "description": "Galactic career and cultural motivations of different species."
+    },
+    "bodyRef": "en/obras/sayula-iii.md"
+  },
+  "texto-horda-latam": {
+    "status": "published",
+    "slug": "horda-latam",
+    "title": "Horda LATAM",
+    "summary": "Military science fiction about war, ingenuity, survival.",
+    "seo": {
+      "title": "Horda LATAM",
+      "description": "Military science fiction about war, ingenuity, survival."
+    },
+    "bodyRef": "en/obras/horda-latam.md"
+  },
+  "lectura-pertenencia": {
+    "status": "published",
+    "slug": "lectura-pertenencia",
+    "title": "Belonging",
+    "summary": "Library texts related to \"belonging.\"",
+    "seo": {
+      "title": "Belonging",
+      "description": "Library texts related to \"belonging.\""
+    },
+    "bodyRef": "en/temas-literarios/pertenencia.md"
+  },
+  "texto-extraviado": {
+    "status": "published",
+    "slug": "extraviado",
+    "title": "Lost",
+    "summary": "A soldier out of sync with reality and in search of belonging.",
+    "seo": {
+      "title": "Lost",
+      "description": "A soldier out of sync with reality and in search of belonging."
+    },
+    "bodyRef": "en/obras/extraviado.md"
+  },
+  "lectura-arte": {
+    "status": "published",
+    "slug": "lectura-arte",
+    "title": "Art",
+    "summary": "Library texts related to «art».",
+    "seo": {
+      "title": "Art",
+      "description": "Library texts related to «art»."
+    },
+    "bodyRef": "en/temas-literarios/arte.md"
+  },
+  "lectura-legado": {
+    "status": "published",
+    "slug": "lectura-legado",
+    "title": "Legacy",
+    "summary": "Library texts related to «legacy».",
+    "seo": {
+      "title": "Legacy",
+      "description": "Library texts related to «legacy»."
+    },
+    "bodyRef": "en/temas-literarios/legado.md"
+  },
+  "texto-legado": {
+    "status": "published",
+    "slug": "legado",
+    "title": "Legacy",
+    "summary": "A figurine and the arts serve to explore the legacy of humanity.",
+    "seo": {
+      "title": "Legacy",
+      "description": "A figurine and the arts serve to explore the legacy of humanity."
+    },
+    "bodyRef": "en/obras/legado.md"
+  },
+  "lectura-discriminacion": {
+    "status": "published",
+    "slug": "lectura-discriminacion",
+    "title": "Discrimination",
+    "summary": "Library texts related to \"discrimination.\"",
+    "seo": {
+      "title": "Discrimination",
+      "description": "Library texts related to \"discrimination.\""
+    },
+    "bodyRef": "en/temas-literarios/discriminacion.md"
+  },
+  "lectura-cuerpo": {
+    "status": "published",
+    "slug": "lectura-cuerpo",
+    "title": "Body",
+    "summary": "Library texts related to \"body.\"",
+    "seo": {
+      "title": "Body",
+      "description": "Library texts related to \"body.\""
+    },
+    "bodyRef": "en/temas-literarios/cuerpo.md"
+  },
+  "texto-ellos-marcaban-sus-cuerpos": {
+    "status": "published",
+    "slug": "ellos-marcaban-sus-cuerpos",
+    "title": "They marked their bodies",
+    "summary": "Fictional testimony of an Atlaxian on stigmas, body and identity.",
+    "seo": {
+      "title": "They marked their bodies",
+      "description": "Fictional testimony of an Atlaxian on stigmas, body and identity."
+    },
+    "bodyRef": "en/obras/ellos-marcaban-sus-cuerpos.md"
+  },
+  "texto-se-solicita-ingeniero-ftl-humano": {
+    "status": "published",
+    "slug": "se-solicita-ingeniero-ftl-humano",
+    "title": "Requesting FTL human engineer",
+    "summary": "A captain remembers why he doesn't want to hire another LATAM engineer.",
+    "seo": {
+      "title": "Requesting FTL human engineer",
+      "description": "A captain remembers why he doesn't want to hire another LATAM engineer."
+    },
+    "bodyRef": "en/obras/se-solicita-ingeniero-ftl-humano.md"
+  }
+}

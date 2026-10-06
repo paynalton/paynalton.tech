@@ -40,8 +40,12 @@ for (const lang of languages) {
     if(lang==='es'){
       await expect(page).toHaveURL(/\/es\/proyectos\/$/);
       await expect(page.locator('#language')).toHaveCount(0);
+    }else if(lang==='en'){
+      await page.locator('.language-picker summary').click();
+      await page.locator('.language-picker a[hreflang=es]').click();
+      await expect(page).toHaveURL(/\/es\/proyectos\/$/);
     }else{
-      const next=lang==='en'?'nah':'es';
+      const next='es';
       await page.locator('#language').selectOption(next);
       await expect(page).toHaveURL(new RegExp(next==='es'?'/es/proyectos/$':`/${next}/projects/$`));
       await expect(page.locator('html')).toHaveAttribute('lang',next);

@@ -1,0 +1,1 @@
+I developed websites and web solutions, with participation in architecture, databases, SEO and operational tasks. This stage expanded my experience handling different aspects of a solution from the same technical role.

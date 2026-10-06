@@ -1,0 +1,1 @@
+Questions about how we recognize intelligence, what characterizes our species, and how we relate to other forms of existence. It is an axis of personal reading and reflection, not a technical accreditation in itself.
