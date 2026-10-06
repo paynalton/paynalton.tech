@@ -53,7 +53,7 @@ html[data-effects=off] .site-shell *,html[data-effects=off] .site-shell *::befor
  .site-shell{background:white!important;color:black!important;font-size:11pt}
  .site-shell .tn-frame{border:0;margin:0;max-inline-size:none}
  .site-shell :where(p,a,h1,h2,h3,li,summary,strong){color:black!important}
- .site-shell :where(.shell-header,.shell-footer,.shell-breadcrumbs,.tn-skip,dialog,[data-print-trajectory],.contact-actions button){display:none!important}
+ .site-shell :where(.shell-header,.shell-footer,.shell-breadcrumbs,.tn-skip,dialog,[data-download-trajectory],.contact-actions button){display:none!important}
  .site-shell .tn-section{padding:0;border:0}
  .professional-trajectory details::details-content{display:block;content-visibility:visible}
  .professional-trajectory details>*{display:block!important}

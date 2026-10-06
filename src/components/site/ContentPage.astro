@@ -16,11 +16,13 @@ import { loadSite } from '../../lib/site/build.mjs';
 import { sectionUrl } from '../../lib/site/navigation.mjs';
 import { createTranslator } from '../../lib/site/i18n.mjs';
 import channelData from '../../data/site/channels.json';
+import cvDownloads from '../../data/site/downloads.json';
 import { shellChannelsSchema } from '../../lib/site/schemas.mjs';
 const channels = shellChannelsSchema.parse(channelData);
 
 interface Props { page: SiteRoute; repository?: Awaited<ReturnType<typeof loadSite>>; routePrefix?: string; collection?: 'siteContent' | 'journeyContent' | 'readingContent'; }
 const { page, routePrefix = '', collection = 'siteContent' } = Astro.props;
+const cvDownload=cvDownloads.find(item=>item.locale===page.locale);
 const sectionScenes = {projects:'projects',experience:'career',works:'works',about:'about',contact:'contact'} as const;
 const sectionScene = sectionScenes[page.id as keyof typeof sectionScenes];
 const repository = Astro.props.repository ?? await loadSite();
@@ -61,7 +63,7 @@ const related = current?.data.relations.map(r => ({ ...r, entry: data.find(e => 
   {['projects','experience','works','about','contact'].includes(page.id) && <section class="tn-section tn-page-hero">
     <div class="tn-stack">
       <h1>{t(`page.${page.id}Title`)}</h1><p class="shell-prose">{t(`page.${page.id}Intro`)}</p>
-      {page.id === 'experience' && <div class="tn-actions"><button hidden type="button" class="tn-action tn-action--secondary" data-print-trajectory>{t('experience.print')}</button></div>}
+      {page.id === 'experience' && cvDownload && <div class="tn-actions"><a href={cvDownload.url} download type="application/pdf" hreflang={page.locale} class="tn-action tn-action--secondary" data-download-trajectory>{t('experience.download')}</a></div>}
       {page.id === 'contact' && <div class="tn-stack"><ContactActions value={channels.email} t={t}/><a href={channels.profiles[0].url}>{t('profile.linkedin')}</a></div>}
     </div><WorkshopScene variant={sectionScene}/>
   </section>}

@@ -356,5 +356,6 @@
   "taxonomy.capability": "Capabilities",
   "taxonomy.sector": "Domains",
   "taxonomy.topic": "Topics",
-  "taxonomy.genre": "Genres"
+  "taxonomy.genre": "Genres",
+  "experience.download": "Download CV (PDF)"
 }

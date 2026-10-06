@@ -87,8 +87,6 @@ for (const group of document.querySelectorAll('[data-contact-actions]')) {
     });
   }
 }
-const printButton=document.querySelector('[data-print-trajectory]');
-if(printButton){printButton.hidden=false;printButton.addEventListener('click',()=>window.print());}
 let closedForPrint=[];
 addEventListener('beforeprint',()=>{closedForPrint=[...document.querySelectorAll('.professional-trajectory details:not([open])')];closedForPrint.forEach(el=>el.open=true);});
 addEventListener('afterprint',()=>{closedForPrint.forEach(el=>el.open=false);closedForPrint=[];});

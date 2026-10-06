@@ -52,7 +52,7 @@ Se prueban rutas en los tres idiomas, navegación, menú móvil, selectores del 
 
 ## Alcance actual
 
-El rediseño está disponible en español e inglés: 319 entidades públicas por idioma, incluidas 111 obras, y 622 documentos de búsqueda entre ambos idiomas. El build genera 648 HTML, 1.276 exportaciones, catálogo JSON, llms.txt, RSS de obras y un sitemap con 639 URLs canónicas. Se conservan el libro y sus descargas, las páginas históricas NAH y las anclas existentes; las rutas antiguas ES y las rutas inglesas reemplazadas tienen destinos de migración.
+El rediseño está disponible en español e inglés: 343 entidades públicas por idioma, incluidas 111 obras, y 670 documentos de búsqueda entre ambos idiomas. El build genera 696 HTML, 1.372 exportaciones, catálogo JSON, llms.txt, RSS de obras y un sitemap con 687 URLs canónicas. Se conservan el libro y sus descargas, las páginas históricas NAH y las anclas existentes; las rutas antiguas ES y las rutas inglesas reemplazadas tienen destinos de migración.
 
 Inglés utiliza las mismas plantillas y escenas, con diccionarios y cuerpos propios. El selector cambia a la página equivalente mediante enlaces HTML. Babilonia se utiliza solo para preparar traducciones localmente: el build y el sitio publicado no dependen de ese servicio. [Proceso de traducción y revisión](ai_reference/traduccion-en/README.md). Los resultados históricos de los apartados siguientes describen cada etapa, no los recuentos actuales.
 
@@ -128,3 +128,7 @@ Validación local: 65 pruebas de contenido, 103 E2E aprobadas/una omisión previ
 `E2E_PORT=4331 PLAYWRIGHT_CHROMIUM_EXECUTABLE=/usr/bin/google-chrome npm run verify:candidate` reúne las suites, la auditoría de dependencias, la galería de idiomas, la variante sin efectos, Lighthouse y el manifiesto del artefacto. Requiere Python 3.11+, Chrome y acceso al registro npm; no publica. [Matriz de aceptación y revisión manual](ai_reference/implementacion/PT12/README.md).
 
 La CSP se genera durante el build, con hashes de los scripts embebidos, y se distribuye en `dist/_headers`. Las pruebas de navegador simulan esas cabeceras para verificar compatibilidad; no acreditan todavía su aplicación en Netlify.
+
+## Cierre de entrega
+
+Entrega cerrada por solicitud del propietario el 5 de octubre de 2026. [Estado y validaciones finales](ai_reference/implementacion/Cierre_proyecto.md). El botón de trayectoria descarga el CV público en español o inglés desde `public/cv/`, según `src/data/site/downloads.json`.

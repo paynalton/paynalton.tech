@@ -356,5 +356,6 @@
   "taxonomy.capability": "Competencias",
   "taxonomy.sector": "Dominios",
   "taxonomy.topic": "Temas",
-  "taxonomy.genre": "Géneros"
+  "taxonomy.genre": "Géneros",
+  "experience.download": "Descargar trayectoria (PDF)"
 }

@@ -14,15 +14,15 @@ test('complete catalog, chronology, printable details and review captures',async
   await page.screenshot({path:`${dir}/${name}.png`,fullPage:true});
  }
  await page.goto('/es/trayectoria/');
- await expect(page.locator('.tn-page-hero [data-print-trajectory]')).toBeVisible();
- await expect(page.locator('[data-print-trajectory]')).toHaveCount(1);
+ await expect(page.locator('.tn-page-hero [data-download-trajectory]')).toBeVisible();
+ await expect(page.locator('[data-download-trajectory]')).toHaveCount(1);
  await expect(page.locator('.tn-page-hero [data-workshop=career]')).toHaveCount(1);
  await expect(page.locator('[data-experience]')).toHaveCount(11);
  await page.locator('[data-experience] details').first().evaluate(e=>e.removeAttribute('open'));
  await page.evaluate(()=>dispatchEvent(new Event('beforeprint')));
  await expect(page.locator('[data-experience] details[open]')).toHaveCount(11);
  await page.emulateMedia({media:'print'});
- await expect(page.locator('[data-print-trajectory]')).toBeHidden();
+ await expect(page.locator('[data-download-trajectory]')).toBeHidden();
  await page.evaluate(()=>dispatchEvent(new Event('afterprint')));
  await expect(page.locator('[data-experience] details[open]')).toHaveCount(10);
 });
