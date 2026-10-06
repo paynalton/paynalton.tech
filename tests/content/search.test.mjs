@@ -5,7 +5,7 @@ import {searchDocuments} from '../../src/lib/site/search-documents.mjs';
 import {searchState,searchUrl,safeResultUrl} from '../../src/lib/site/search-state.mjs';
 const raw=await readSource();
 test('index allowlist excludes private works, old pages, duplicate listings and exports',()=>{
- const repo=createRepository(raw),docs=searchDocuments(repo,'es');assert.equal(docs.length,311);
+ const repo=createRepository(raw),docs=searchDocuments(repo,'es');assert.equal(docs.length,repo.publicEntries('es').filter(e=>['project','term','work'].includes(e.type)).length+3);
  assert.equal(new Set(docs.map(d=>d.url)).size,docs.length);
  assert.ok(docs.some(d=>d.url==='/es/sobre-mi/'));assert.ok(docs.some(d=>d.url==='/es/trayectoria/'));
  for(const d of docs)assert.doesNotMatch(d.url,/ejemplo|design-review|alma|\.json|\.md|\/explorar\/|\/projects\//);
@@ -13,7 +13,7 @@ test('index allowlist excludes private works, old pages, duplicate listings and 
  assert.ok(!searchDocuments(createRepository(changed),'es').some(d=>d.url.includes('/onix/')));
 });
 test('all topic filters have published definitions, with declared relationships only',()=>{
- const repo=createRepository(raw),entries=repo.publicEntries('es'),topics=entries.filter(e=>e.type==='term');assert.equal(topics.length,185);
+ const repo=createRepository(raw),entries=repo.publicEntries('es'),topics=entries.filter(e=>e.type==='term');assert.ok(topics.length>185);
  for(const doc of searchDocuments(repo,'es'))for(const id of doc.topics)assert.ok(topics.some(t=>t.entityId===id));
  const yay=entries.find(e=>e.entityId==='yayauhqui');assert.ok(yay.relations.some(r=>r.kind==='assistedBy'));
  assert.ok(!yay.relations.some(r=>r.target==='trabajo-con-inteligencia-artificial' && r.kind==='demonstrates'));

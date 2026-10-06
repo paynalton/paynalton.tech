@@ -3587,5 +3587,269 @@
       "description": "Un capitán recuerda por qué no quiere contratar a otro ingeniero LATAM."
     },
     "bodyRef": "es/obras/se-solicita-ingeniero-ftl-humano.md"
+  },
+  "tecnologia-aws": {
+    "status": "published",
+    "slug": "tecnologia-aws",
+    "title": "AWS",
+    "summary": "AWS forma parte de las tecnologías documentadas en Onix, Yayauhqui, Delta. Las fichas relacionadas describen mi participación y el contexto de uso.",
+    "seo": {
+      "title": "AWS",
+      "description": "AWS forma parte de las tecnologías documentadas en Onix, Yayauhqui, Delta. Las fichas relacionadas describen mi participación y el contexto de uso."
+    },
+    "bodyRef": "es/profesional/tecnologia-aws.md"
+  },
+  "tecnologia-aws-ecs": {
+    "status": "published",
+    "slug": "tecnologia-aws-ecs",
+    "title": "AWS ECS",
+    "summary": "AWS ECS forma parte de las tecnologías documentadas en Winner. Las fichas relacionadas describen mi participación y el contexto de uso.",
+    "seo": {
+      "title": "AWS ECS",
+      "description": "AWS ECS forma parte de las tecnologías documentadas en Winner. Las fichas relacionadas describen mi participación y el contexto de uso."
+    },
+    "bodyRef": "es/profesional/tecnologia-aws-ecs.md"
+  },
+  "tecnologia-dbase-dbf": {
+    "status": "published",
+    "slug": "tecnologia-dbase-dbf",
+    "title": "DBASE/DBF",
+    "summary": "DBASE/DBF forma parte de las tecnologías documentadas en Onix. Las fichas relacionadas describen mi participación y el contexto de uso.",
+    "seo": {
+      "title": "DBASE/DBF",
+      "description": "DBASE/DBF forma parte de las tecnologías documentadas en Onix. Las fichas relacionadas describen mi participación y el contexto de uso."
+    },
+    "bodyRef": "es/profesional/tecnologia-dbase-dbf.md"
+  },
+  "tecnologia-docker": {
+    "status": "published",
+    "slug": "tecnologia-docker",
+    "title": "Docker",
+    "summary": "Docker forma parte de las tecnologías documentadas en Onix. Las fichas relacionadas describen mi participación y el contexto de uso.",
+    "seo": {
+      "title": "Docker",
+      "description": "Docker forma parte de las tecnologías documentadas en Onix. Las fichas relacionadas describen mi participación y el contexto de uso."
+    },
+    "bodyRef": "es/profesional/tecnologia-docker.md"
+  },
+  "tecnologia-laminas": {
+    "status": "published",
+    "slug": "tecnologia-laminas",
+    "title": "Laminas",
+    "summary": "Laminas forma parte de las tecnologías documentadas en Onix. Las fichas relacionadas describen mi participación y el contexto de uso.",
+    "seo": {
+      "title": "Laminas",
+      "description": "Laminas forma parte de las tecnologías documentadas en Onix. Las fichas relacionadas describen mi participación y el contexto de uso."
+    },
+    "bodyRef": "es/profesional/tecnologia-laminas.md"
+  },
+  "tecnologia-laminas-api-tools": {
+    "status": "published",
+    "slug": "tecnologia-laminas-api-tools",
+    "title": "Laminas API Tools",
+    "summary": "Laminas API Tools forma parte de las tecnologías documentadas en Winner. Las fichas relacionadas describen mi participación y el contexto de uso.",
+    "seo": {
+      "title": "Laminas API Tools",
+      "description": "Laminas API Tools forma parte de las tecnologías documentadas en Winner. Las fichas relacionadas describen mi participación y el contexto de uso."
+    },
+    "bodyRef": "es/profesional/tecnologia-laminas-api-tools.md"
+  },
+  "tecnologia-laravel": {
+    "status": "published",
+    "slug": "tecnologia-laravel",
+    "title": "Laravel",
+    "summary": "Laravel forma parte de las tecnologías documentadas en Winner. Las fichas relacionadas describen mi participación y el contexto de uso.",
+    "seo": {
+      "title": "Laravel",
+      "description": "Laravel forma parte de las tecnologías documentadas en Winner. Las fichas relacionadas describen mi participación y el contexto de uso."
+    },
+    "bodyRef": "es/profesional/tecnologia-laravel.md"
+  },
+  "tecnologia-localai": {
+    "status": "published",
+    "slug": "tecnologia-localai",
+    "title": "LocalAI",
+    "summary": "LocalAI forma parte de las tecnologías documentadas en GUACAMAYA, SpellChecker. Las fichas relacionadas describen mi participación y el contexto de uso.",
+    "seo": {
+      "title": "LocalAI",
+      "description": "LocalAI forma parte de las tecnologías documentadas en GUACAMAYA, SpellChecker. Las fichas relacionadas describen mi participación y el contexto de uso."
+    },
+    "bodyRef": "es/profesional/tecnologia-localai.md"
+  },
+  "tecnologia-mariadb": {
+    "status": "published",
+    "slug": "tecnologia-mariadb",
+    "title": "MariaDB",
+    "summary": "MariaDB forma parte de las tecnologías documentadas en Onix. Las fichas relacionadas describen mi participación y el contexto de uso.",
+    "seo": {
+      "title": "MariaDB",
+      "description": "MariaDB forma parte de las tecnologías documentadas en Onix. Las fichas relacionadas describen mi participación y el contexto de uso."
+    },
+    "bodyRef": "es/profesional/tecnologia-mariadb.md"
+  },
+  "tecnologia-node-js": {
+    "status": "published",
+    "slug": "tecnologia-node-js",
+    "title": "Node.js",
+    "summary": "Node.js forma parte de las tecnologías documentadas en Pipila, GUACAMAYA. Las fichas relacionadas describen mi participación y el contexto de uso.",
+    "seo": {
+      "title": "Node.js",
+      "description": "Node.js forma parte de las tecnologías documentadas en Pipila, GUACAMAYA. Las fichas relacionadas describen mi participación y el contexto de uso."
+    },
+    "bodyRef": "es/profesional/tecnologia-node-js.md"
+  },
+  "tecnologia-oidc": {
+    "status": "published",
+    "slug": "tecnologia-oidc",
+    "title": "OIDC",
+    "summary": "OIDC forma parte de las tecnologías documentadas en Pipila. Las fichas relacionadas describen mi participación y el contexto de uso.",
+    "seo": {
+      "title": "OIDC",
+      "description": "OIDC forma parte de las tecnologías documentadas en Pipila. Las fichas relacionadas describen mi participación y el contexto de uso."
+    },
+    "bodyRef": "es/profesional/tecnologia-oidc.md"
+  },
+  "tecnologia-python": {
+    "status": "published",
+    "slug": "tecnologia-python",
+    "title": "Python",
+    "summary": "Python forma parte de las tecnologías documentadas en GUACAMAYA. Las fichas relacionadas describen mi participación y el contexto de uso.",
+    "seo": {
+      "title": "Python",
+      "description": "Python forma parte de las tecnologías documentadas en GUACAMAYA. Las fichas relacionadas describen mi participación y el contexto de uso."
+    },
+    "bodyRef": "es/profesional/tecnologia-python.md"
+  },
+  "tecnologia-rest": {
+    "status": "published",
+    "slug": "tecnologia-rest",
+    "title": "REST",
+    "summary": "REST forma parte de las tecnologías documentadas en Delta. Las fichas relacionadas describen mi participación y el contexto de uso.",
+    "seo": {
+      "title": "REST",
+      "description": "REST forma parte de las tecnologías documentadas en Delta. Las fichas relacionadas describen mi participación y el contexto de uso."
+    },
+    "bodyRef": "es/profesional/tecnologia-rest.md"
+  },
+  "tecnologia-sailsjs": {
+    "status": "published",
+    "slug": "tecnologia-sailsjs",
+    "title": "SailsJS",
+    "summary": "SailsJS forma parte de las tecnologías documentadas en Pipila. Las fichas relacionadas describen mi participación y el contexto de uso.",
+    "seo": {
+      "title": "SailsJS",
+      "description": "SailsJS forma parte de las tecnologías documentadas en Pipila. Las fichas relacionadas describen mi participación y el contexto de uso."
+    },
+    "bodyRef": "es/profesional/tecnologia-sailsjs.md"
+  },
+  "tecnologia-shopify": {
+    "status": "published",
+    "slug": "tecnologia-shopify",
+    "title": "Shopify",
+    "summary": "Shopify forma parte de las tecnologías documentadas en Delta Commerce. Las fichas relacionadas describen mi participación y el contexto de uso.",
+    "seo": {
+      "title": "Shopify",
+      "description": "Shopify forma parte de las tecnologías documentadas en Delta Commerce. Las fichas relacionadas describen mi participación y el contexto de uso."
+    },
+    "bodyRef": "es/profesional/tecnologia-shopify.md"
+  },
+  "tecnologia-vs-code": {
+    "status": "published",
+    "slug": "tecnologia-vs-code",
+    "title": "VS Code",
+    "summary": "VS Code forma parte de las tecnologías documentadas en PERICO. Las fichas relacionadas describen mi participación y el contexto de uso.",
+    "seo": {
+      "title": "VS Code",
+      "description": "VS Code forma parte de las tecnologías documentadas en PERICO. Las fichas relacionadas describen mi participación y el contexto de uso."
+    },
+    "bodyRef": "es/profesional/tecnologia-vs-code.md"
+  },
+  "tecnologia-websocket": {
+    "status": "published",
+    "slug": "tecnologia-websocket",
+    "title": "WebSocket",
+    "summary": "WebSocket forma parte de las tecnologías documentadas en Delta. Las fichas relacionadas describen mi participación y el contexto de uso.",
+    "seo": {
+      "title": "WebSocket",
+      "description": "WebSocket forma parte de las tecnologías documentadas en Delta. Las fichas relacionadas describen mi participación y el contexto de uso."
+    },
+    "bodyRef": "es/profesional/tecnologia-websocket.md"
+  },
+  "tecnologia-zend-1-5": {
+    "status": "published",
+    "slug": "tecnologia-zend-1-5",
+    "title": "Zend 1.5",
+    "summary": "Zend 1.5 forma parte de las tecnologías documentadas en Onix. Las fichas relacionadas describen mi participación y el contexto de uso.",
+    "seo": {
+      "title": "Zend 1.5",
+      "description": "Zend 1.5 forma parte de las tecnologías documentadas en Onix. Las fichas relacionadas describen mi participación y el contexto de uso."
+    },
+    "bodyRef": "es/profesional/tecnologia-zend-1-5.md"
+  },
+  "modernizacion-legacy": {
+    "status": "published",
+    "slug": "modernizacion-legacy",
+    "title": "Modernización de sistemas heredados",
+    "summary": "En ONIX migré código de Zend 1.5 a Laminas y preparé un entorno UAT en AWS. La validación del sistema modernizado sigue siendo una etapa distinta de la migración técnica.",
+    "seo": {
+      "title": "Modernización de sistemas heredados",
+      "description": "En ONIX migré código de Zend 1.5 a Laminas y preparé un entorno UAT en AWS. La validación del sistema modernizado sigue siendo una etapa distinta de la migración técnica."
+    },
+    "bodyRef": "es/profesional/modernizacion-legacy.md"
+  },
+  "procesamiento-asincrono": {
+    "status": "published",
+    "slug": "procesamiento-asincrono",
+    "title": "Procesamiento asíncrono",
+    "summary": "En PÍPILA separé la recepción de registros del procesamiento mediante workers y reintentos para reducir la dependencia de la disponibilidad de los servicios externos.",
+    "seo": {
+      "title": "Procesamiento asíncrono",
+      "description": "En PÍPILA separé la recepción de registros del procesamiento mediante workers y reintentos para reducir la dependencia de la disponibilidad de los servicios externos."
+    },
+    "bodyRef": "es/profesional/procesamiento-asincrono.md"
+  },
+  "dominio-erp": {
+    "status": "published",
+    "slug": "dominio-erp",
+    "title": "Gestión empresarial · ERP",
+    "summary": "ONIX reúne compras, ventas, finanzas, logística, facturación, garantías y costeo en una solución empresarial que ha evolucionado durante años.",
+    "seo": {
+      "title": "Gestión empresarial · ERP",
+      "description": "ONIX reúne compras, ventas, finanzas, logística, facturación, garantías y costeo en una solución empresarial que ha evolucionado durante años."
+    },
+    "bodyRef": "es/profesional/dominio-erp.md"
+  },
+  "dominio-comercio-electronico": {
+    "status": "published",
+    "slug": "dominio-comercio-electronico",
+    "title": "Comercio electrónico",
+    "summary": "En Delta Commerce participé en el diseño de la solución y la integración con Shopify como arquitecto y consultor, sin desarrollar la implementación.",
+    "seo": {
+      "title": "Comercio electrónico",
+      "description": "En Delta Commerce participé en el diseño de la solución y la integración con Shopify como arquitecto y consultor, sin desarrollar la implementación."
+    },
+    "bodyRef": "es/profesional/dominio-comercio-electronico.md"
+  },
+  "dominio-financiero": {
+    "status": "published",
+    "slug": "dominio-financiero",
+    "title": "Sistemas financieros",
+    "summary": "En K4Y desarrollé funcionalidades de préstamos, capital, intereses y transferencias SPEI. No tengo confirmación de su lanzamiento definitivo.",
+    "seo": {
+      "title": "Sistemas financieros",
+      "description": "En K4Y desarrollé funcionalidades de préstamos, capital, intereses y transferencias SPEI. No tengo confirmación de su lanzamiento definitivo."
+    },
+    "bodyRef": "es/profesional/dominio-financiero.md"
+  },
+  "dominio-editorial": {
+    "status": "published",
+    "slug": "dominio-editorial",
+    "title": "Herramientas editoriales",
+    "summary": "GUACAMAYA apoya mi proceso de escritura y publicación, conservando el control sobre las ideas y el resultado editorial.",
+    "seo": {
+      "title": "Herramientas editoriales",
+      "description": "GUACAMAYA apoya mi proceso de escritura y publicación, conservando el control sobre las ideas y el resultado editorial."
+    },
+    "bodyRef": "es/profesional/dominio-editorial.md"
   }
 }

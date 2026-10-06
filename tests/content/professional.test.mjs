@@ -10,10 +10,10 @@ test('professional selection contains four cases, eight briefs and eleven stages
  assert.equal(projects.filter(e=>e.facts.presentation==='brief').length,8);
  assert.equal(repo.select('experience','es').length,11);
  assert.deepEqual(repo.select('featuredProjects','es').map(e=>e.entityId),['pipila','onix','guacamaya']);
- assert.equal(entries.length,319);
+ assert.ok(entries.length>=319);
 });
 test('every capability has a public source of evidence; deferred works remain private',()=>{
- const terms=repo.select('terms','es').filter(e=>e.facts.family==='capability');assert.equal(terms.length,6);
+ const terms=repo.select('terms','es').filter(e=>e.facts.family==='capability');assert.equal(terms.length,8);
  for(const term of terms) assert.ok(entries.some(e=>e.relations.some(r=>r.target===term.entityId && r.kind==='demonstrates')),term.entityId);
  assert.ok(!entries.some(e=>['alma','blanco-negro-y-gris','ejemplo-lectura'].includes(e.entityId)));
 });

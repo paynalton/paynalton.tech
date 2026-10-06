@@ -1,1 +1,3 @@
 LORO is a memory edge layer that I developed to expand and improve the context of work with agents. It arose from my experience with complex creative tasks and the need to reconstruct information between stages. It has been used in the modernization of Onix as part of an AI-assisted development methodology.
+
+Its relationship with ONIX places this tool in a concrete maintenance and modernization context. My work focuses on preserving and reconstructing useful information between stages of AI-assisted development. PERICO is the VS Code extension that applies LORO to that workflow; the tools are related but serve different functions.

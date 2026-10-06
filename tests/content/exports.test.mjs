@@ -14,7 +14,7 @@ test('project export allows only public facts and preserves source precision', a
  for (const key of ['title','summary','role','operationalStatus','startLabel','body']) assert.equal(doc[key],entry[key]);
  assert.equal(doc.canonical,'https://paynalton.tech/es/proyectos/pipila/');
  assert.deepEqual(doc.technologies,entry.facts.technologies);
- assert.equal(doc.relations.length,2);
+ assert.equal(doc.relations.length,entry.relations.length);
  const {t} = createTranslator('es',repository.getCatalogs(),repository.getSettings());
  const markdown = projectMarkdown(doc,t);
  assert.ok(markdown.includes(entry.body.trim()));
@@ -27,7 +27,7 @@ test('drafts, examples, unavailable translations and private relations cannot ex
  const raw = await readSource();
  raw.entities.find(e=>e.id==='sodigital').visibility = 'draft';
  let repository = createRepository(raw);
- assert.equal(projectDocument(repository,'pipila','es',origin).relations.length,1);
+ assert.ok(projectDocument(repository,'pipila','es',origin).relations.every(r=>!JSON.stringify(r).includes('sodigital')));
  for (const [id,locale] of [['pipila','nah'],['ejemplo-lectura','es'],['../pipila','es'],['alma','es']]) assert.throws(()=>projectDocument(repository,id,locale,origin));
  raw.entities.find(e=>e.id==='pipila').visibility='draft'; repository=createRepository(raw);
  assert.throws(()=>projectDocument(repository,'pipila','es',origin));

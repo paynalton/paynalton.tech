@@ -14,7 +14,7 @@ test('full body search, type and topic filters, shareable URL, history and clear
  await page.reload();await ready(page);await expect(page.locator('#search-type')).toHaveValue('project');await expect(page.locator(`${results} li`)).toHaveCount(2);
  const dir=`ai_reference/implementacion/PT09/capturas/${info.project.name}`;await mkdir(dir,{recursive:true});await page.evaluate(()=>document.fonts.ready);await page.screenshot({path:`${dir}/filtros.png`,fullPage:true});
  expect((await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa','wcag22aa']).analyze()).violations).toEqual([]);
- await page.locator('[data-search-clear]').click();await ready(page);await expect(page.locator(`${results} li`)).toHaveCount(311);await expect(page.locator('#page-query')).toBeFocused();
+ await page.locator('[data-search-clear]').click();await ready(page);await expect(page.locator(`${results} li`)).toHaveCount(335);await expect(page.locator('#page-query')).toBeFocused();
  await page.goBack();await ready(page);await expect(page.locator('#search-topic')).toHaveValue('memoria-y-contexto-de-agentes');await expect(page.locator(`${results} li`)).toHaveCount(2);
  await page.goto('/es/explorar/?q=Francisco');await ready(page);await expect(page.locator(`${results} a[href="/es/sobre-mi/"]`)).toBeVisible();
 });

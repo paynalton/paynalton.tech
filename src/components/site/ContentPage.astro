@@ -92,7 +92,7 @@ const related = current?.data.relations.map(r => ({ ...r, entry: data.find(e => 
     </div>}
     {page.id === 'about' && <div class="trajectory-layout"><AboutContent t={t}/><ReadingOrnament/></div>}
     {page.id === 'contact' && <div class="tn-stack"><h2>{t('contact.channelsTitle')}</h2><ul>{channels.profiles.slice(1).filter(profile=>!['profile.paypal','profile.amazon'].includes(profile.key)).map(profile=><li><a href={profile.url}>{t(profile.key)}</a></li>)}</ul><h2>{t('contact.supportTitle')}</h2><ul>{channels.profiles.filter(profile=>['profile.paypal','profile.amazon'].includes(profile.key)).map(profile=><li><a href={profile.url}>{t(profile.key)}</a></li>)}</ul></div>}
-    {page.id === 'terms' && <div class="tn-cards">{terms.map(entry => <Card title={entry.title} summary={entry.summary} href={entry.url} action={t('nav.readMore')}/>)}</div>}
+    {page.id === 'terms' && <div class="tn-stack">{(['technology','capability','sector','topic','genre'] as const).map(family=><section class="tn-stack"><h2>{t(`taxonomy.${family}`)}</h2><div class="tn-cards">{terms.filter(e=>'family' in e.facts && e.facts.family===family).map(entry=><Card title={entry.title} summary={entry.summary} href={entry.url} action={t('nav.readMore')}/>)}</div></section>)}</div>}
     {page.id === 'explore' && <SearchContent repository={repository} locale={page.locale} prefix={routePrefix} t={t}/>}
 
   </section>}
@@ -105,7 +105,7 @@ const related = current?.data.relations.map(r => ({ ...r, entry: data.find(e => 
         {project.role && <div><dt>{t('project.role')}</dt><dd data-fact="role">{project.role}</dd></div>}
         {project.operationalStatus && <div><dt>{t('project.status')}</dt><dd data-fact="operationalStatus">{project.operationalStatus}</dd></div>}
         {project.startLabel && <div><dt>{t('project.start')}</dt><dd data-fact="startLabel">{project.startLabel}</dd></div>}
-        {project.technologies.length>0 && <div><dt>{t('project.technologies')}</dt><dd data-fact="technologies">{project.technologies.join(', ')}</dd></div>}
+        {project.technologies.length>0 && <div><dt>{t('project.technologies')}</dt><dd data-fact="technologies">{project.technologies.map((name,index)=>{const term=terms.find(e=>'family' in e.facts && e.facts.family==='technology' && e.title===name);return <>{index>0 && ', '}{term && <a href={term.url}>{name}</a>}{!term && name}</>;})}</dd></div>}
       </dl>}
     </section>
     <div class:list={{'tn-section trajectory-layout project-reading':!!project}}>

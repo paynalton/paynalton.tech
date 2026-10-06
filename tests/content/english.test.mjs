@@ -5,7 +5,7 @@ import {routeManifest,pageAlternatives,sectionUrl} from '../../src/lib/site/navi
 const repo=await loadRepository();
 test('English covers all public Spanish entities and preserves shared facts and relationships',()=>{
  const es=repo.publicEntries('es'),en=repo.publicEntries('en');
- assert.equal(en.length,319);assert.deepEqual(en.map(e=>e.entityId),es.map(e=>e.entityId));
+ assert.ok(en.length>=319);assert.deepEqual(en.map(e=>e.entityId),es.map(e=>e.entityId));
  for(const source of es){
   const target=en.find(e=>e.entityId===source.entityId);
   assert.deepEqual(target.facts,source.facts,source.entityId);

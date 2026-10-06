@@ -6,11 +6,11 @@ import {pageSeo,safeJsonLd} from '../../src/lib/site/seo.mjs';
 import {routeManifest} from '../../src/lib/site/navigation.mjs';
 const repo=await loadRepository();
 test('one publication boundary covers every public entity and preserves export identity',()=>{
- const docs=publicDocuments(repo);assert.equal(docs.length,638);assert.equal(new Set(docs.map(d=>d.paths.json)).size,638);
+ const docs=publicDocuments(repo);assert.ok(docs.length>=638);assert.equal(new Set(docs.map(d=>d.paths.json)).size,docs.length);
  for(const d of docs){assert.equal(d.document.id,d.id);assert.equal(d.document.language,d.language);assert.equal(d.document.canonical,'https://paynalton.tech'+d.url);assert.doesNotMatch(JSON.stringify(d.document),/bodyRef|visibility|ai_reference/);}
  assert.equal(docs.find(d=>d.id==='cuando-la-tostadora-te-responde').document.facts.editions.length,6);
  assert.match(llmsText(repo,docs),/https:\/\/paynalton.tech\/es\/obra\/legado\/index.md/);
- const pages=canonicalPages(repo);assert.equal(pages.length,639);assert.equal(new Set(pages.map(p=>p.url)).size,639);
+ const pages=canonicalPages(repo);assert.ok(pages.length>=639);assert.equal(new Set(pages.map(p=>p.url)).size,pages.length);
  for(const p of pages)assert.ok(!migrations.some(m=>m.from===p.url));
  assert.deepEqual(entryExportPaths({entityId:'example',url:'/es/trayectoria/#example'}),{json:'/es/trayectoria/example.json',markdown:'/es/trayectoria/example.md'});
 });

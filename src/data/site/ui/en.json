@@ -351,5 +351,10 @@
   "seo.about.description": "Meet Paynalton: developer, reader and author. His way of working, interests and readings.",
   "seo.contact.description": "Contact Paynalton to collaborate in software development, solution architecture, agents or editorial creation.",
   "seo.terms.description": "Explore the topics that connect the projects, professional experience and works of Paynalton.",
-  "seo.explore.description": "Search through Paynalton's projects and published texts and filter by content type or topic."
+  "seo.explore.description": "Search through Paynalton's projects and published texts and filter by content type or topic.",
+  "taxonomy.technology": "Technologies and standards",
+  "taxonomy.capability": "Capabilities",
+  "taxonomy.sector": "Domains",
+  "taxonomy.topic": "Topics",
+  "taxonomy.genre": "Genres"
 }

@@ -26,7 +26,7 @@ test('English Pagefind searches translated bodies and returns only English desti
  await page.goto('/en/explore/?q=DBASE');
  await expect(page.locator('[data-search-results] a[href="/en/projects/onix/"]')).toBeVisible();
  expect(await page.locator('[data-search-results] a').evaluateAll(nodes=>nodes.every(n=>n.getAttribute('href')?.startsWith('/en/')))).toBe(true);
- await page.locator('[data-search-clear]').click();await expect(page.locator('[data-search-results] li')).toHaveCount(311);
+ await page.locator('[data-search-clear]').click();await expect(page.locator('[data-search-results] li')).toHaveCount(335);
  await page.locator('[data-search-open]').click();await expect(page.locator('#global-query')).toBeFocused();
 });
 test('language switching, translated reading and downloads work without JavaScript',async({browser,baseURL,request})=>{

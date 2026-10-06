@@ -19,6 +19,22 @@
       {
         "kind": "demonstrates",
         "target": "integracion-de-sistemas"
+      },
+      {
+        "kind": "demonstrates",
+        "target": "tecnologia-node-js"
+      },
+      {
+        "kind": "demonstrates",
+        "target": "tecnologia-oidc"
+      },
+      {
+        "kind": "demonstrates",
+        "target": "tecnologia-sailsjs"
+      },
+      {
+        "kind": "demonstrates",
+        "target": "procesamiento-asincrono"
       }
     ]
   },
@@ -92,6 +108,38 @@
       {
         "target": "resolucion-de-problemas",
         "kind": "demonstrates"
+      },
+      {
+        "kind": "demonstrates",
+        "target": "tecnologia-aws"
+      },
+      {
+        "kind": "demonstrates",
+        "target": "tecnologia-dbase-dbf"
+      },
+      {
+        "kind": "demonstrates",
+        "target": "tecnologia-docker"
+      },
+      {
+        "kind": "demonstrates",
+        "target": "tecnologia-laminas"
+      },
+      {
+        "kind": "demonstrates",
+        "target": "tecnologia-mariadb"
+      },
+      {
+        "kind": "demonstrates",
+        "target": "tecnologia-zend-1-5"
+      },
+      {
+        "kind": "demonstrates",
+        "target": "modernizacion-legacy"
+      },
+      {
+        "kind": "demonstrates",
+        "target": "dominio-erp"
       }
     ]
   },
@@ -123,6 +171,22 @@
       {
         "target": "creacion-editorial",
         "kind": "discusses"
+      },
+      {
+        "kind": "demonstrates",
+        "target": "tecnologia-localai"
+      },
+      {
+        "kind": "demonstrates",
+        "target": "tecnologia-node-js"
+      },
+      {
+        "kind": "demonstrates",
+        "target": "tecnologia-python"
+      },
+      {
+        "kind": "demonstrates",
+        "target": "dominio-editorial"
       }
     ]
   },
@@ -146,6 +210,18 @@
       {
         "kind": "demonstrates",
         "target": "desarrollo-fullstack"
+      },
+      {
+        "kind": "demonstrates",
+        "target": "tecnologia-aws-ecs"
+      },
+      {
+        "kind": "demonstrates",
+        "target": "tecnologia-laminas-api-tools"
+      },
+      {
+        "kind": "demonstrates",
+        "target": "tecnologia-laravel"
       }
     ]
   },
@@ -167,6 +243,10 @@
       {
         "target": "trabajo-con-inteligencia-artificial",
         "kind": "assistedBy"
+      },
+      {
+        "kind": "demonstrates",
+        "target": "tecnologia-aws"
       }
     ]
   },
@@ -184,6 +264,10 @@
       {
         "kind": "demonstrates",
         "target": "trabajo-con-inteligencia-artificial"
+      },
+      {
+        "kind": "demonstrates",
+        "target": "tecnologia-localai"
       }
     ]
   },
@@ -228,6 +312,10 @@
       {
         "target": "memoria-y-contexto-de-agentes",
         "kind": "discusses"
+      },
+      {
+        "kind": "demonstrates",
+        "target": "tecnologia-vs-code"
       }
     ]
   },
@@ -247,6 +335,18 @@
       {
         "kind": "demonstrates",
         "target": "arquitectura-de-soluciones"
+      },
+      {
+        "kind": "demonstrates",
+        "target": "tecnologia-aws"
+      },
+      {
+        "kind": "demonstrates",
+        "target": "tecnologia-rest"
+      },
+      {
+        "kind": "demonstrates",
+        "target": "tecnologia-websocket"
       }
     ]
   },
@@ -268,6 +368,14 @@
       {
         "kind": "demonstrates",
         "target": "arquitectura-de-soluciones"
+      },
+      {
+        "kind": "demonstrates",
+        "target": "tecnologia-shopify"
+      },
+      {
+        "kind": "demonstrates",
+        "target": "dominio-comercio-electronico"
       }
     ]
   },
@@ -283,6 +391,10 @@
       {
         "kind": "demonstrates",
         "target": "desarrollo-fullstack"
+      },
+      {
+        "kind": "demonstrates",
+        "target": "dominio-financiero"
       }
     ]
   },
@@ -7224,5 +7336,221 @@
       "category": "cuentos",
       "series": "latam"
     }
+  },
+  {
+    "id": "tecnologia-aws",
+    "type": "term",
+    "visibility": "public",
+    "facts": {
+      "family": "technology"
+    },
+    "relations": []
+  },
+  {
+    "id": "tecnologia-aws-ecs",
+    "type": "term",
+    "visibility": "public",
+    "facts": {
+      "family": "technology"
+    },
+    "relations": []
+  },
+  {
+    "id": "tecnologia-dbase-dbf",
+    "type": "term",
+    "visibility": "public",
+    "facts": {
+      "family": "technology"
+    },
+    "relations": []
+  },
+  {
+    "id": "tecnologia-docker",
+    "type": "term",
+    "visibility": "public",
+    "facts": {
+      "family": "technology"
+    },
+    "relations": []
+  },
+  {
+    "id": "tecnologia-laminas",
+    "type": "term",
+    "visibility": "public",
+    "facts": {
+      "family": "technology"
+    },
+    "relations": []
+  },
+  {
+    "id": "tecnologia-laminas-api-tools",
+    "type": "term",
+    "visibility": "public",
+    "facts": {
+      "family": "technology"
+    },
+    "relations": []
+  },
+  {
+    "id": "tecnologia-laravel",
+    "type": "term",
+    "visibility": "public",
+    "facts": {
+      "family": "technology"
+    },
+    "relations": []
+  },
+  {
+    "id": "tecnologia-localai",
+    "type": "term",
+    "visibility": "public",
+    "facts": {
+      "family": "technology"
+    },
+    "relations": []
+  },
+  {
+    "id": "tecnologia-mariadb",
+    "type": "term",
+    "visibility": "public",
+    "facts": {
+      "family": "technology"
+    },
+    "relations": []
+  },
+  {
+    "id": "tecnologia-node-js",
+    "type": "term",
+    "visibility": "public",
+    "facts": {
+      "family": "technology"
+    },
+    "relations": []
+  },
+  {
+    "id": "tecnologia-oidc",
+    "type": "term",
+    "visibility": "public",
+    "facts": {
+      "family": "technology"
+    },
+    "relations": []
+  },
+  {
+    "id": "tecnologia-python",
+    "type": "term",
+    "visibility": "public",
+    "facts": {
+      "family": "technology"
+    },
+    "relations": []
+  },
+  {
+    "id": "tecnologia-rest",
+    "type": "term",
+    "visibility": "public",
+    "facts": {
+      "family": "technology"
+    },
+    "relations": []
+  },
+  {
+    "id": "tecnologia-sailsjs",
+    "type": "term",
+    "visibility": "public",
+    "facts": {
+      "family": "technology"
+    },
+    "relations": []
+  },
+  {
+    "id": "tecnologia-shopify",
+    "type": "term",
+    "visibility": "public",
+    "facts": {
+      "family": "technology"
+    },
+    "relations": []
+  },
+  {
+    "id": "tecnologia-vs-code",
+    "type": "term",
+    "visibility": "public",
+    "facts": {
+      "family": "technology"
+    },
+    "relations": []
+  },
+  {
+    "id": "tecnologia-websocket",
+    "type": "term",
+    "visibility": "public",
+    "facts": {
+      "family": "technology"
+    },
+    "relations": []
+  },
+  {
+    "id": "tecnologia-zend-1-5",
+    "type": "term",
+    "visibility": "public",
+    "facts": {
+      "family": "technology"
+    },
+    "relations": []
+  },
+  {
+    "id": "modernizacion-legacy",
+    "type": "term",
+    "visibility": "public",
+    "facts": {
+      "family": "capability"
+    },
+    "relations": []
+  },
+  {
+    "id": "procesamiento-asincrono",
+    "type": "term",
+    "visibility": "public",
+    "facts": {
+      "family": "capability"
+    },
+    "relations": []
+  },
+  {
+    "id": "dominio-erp",
+    "type": "term",
+    "visibility": "public",
+    "facts": {
+      "family": "sector"
+    },
+    "relations": []
+  },
+  {
+    "id": "dominio-comercio-electronico",
+    "type": "term",
+    "visibility": "public",
+    "facts": {
+      "family": "sector"
+    },
+    "relations": []
+  },
+  {
+    "id": "dominio-financiero",
+    "type": "term",
+    "visibility": "public",
+    "facts": {
+      "family": "sector"
+    },
+    "relations": []
+  },
+  {
+    "id": "dominio-editorial",
+    "type": "term",
+    "visibility": "public",
+    "facts": {
+      "family": "sector"
+    },
+    "relations": []
   }
 ]

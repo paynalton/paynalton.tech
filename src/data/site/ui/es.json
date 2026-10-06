@@ -351,5 +351,10 @@
   "seo.about.description": "Conoce a Paynalton: desarrollador, lector y autor. Su forma de trabajar, intereses y lecturas.",
   "seo.contact.description": "Contacta con Paynalton para colaborar en desarrollo de software, arquitectura de soluciones, agentes o creación editorial.",
   "seo.terms.description": "Explora los temas que conectan los proyectos, la experiencia profesional y las obras de Paynalton.",
-  "seo.explore.description": "Busca en los proyectos y textos publicados de Paynalton y filtra por tipo de contenido o tema."
+  "seo.explore.description": "Busca en los proyectos y textos publicados de Paynalton y filtra por tipo de contenido o tema.",
+  "taxonomy.technology": "Tecnologías y estándares",
+  "taxonomy.capability": "Competencias",
+  "taxonomy.sector": "Dominios",
+  "taxonomy.topic": "Temas",
+  "taxonomy.genre": "Géneros"
 }

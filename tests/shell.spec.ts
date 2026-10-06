@@ -66,7 +66,7 @@ test('global search, query history and literal malicious input', async ({ page }
   await page.goBack(); await expect(page.locator('#page-query')).toHaveValue('integracion');
   await expect(page.locator('[data-search-item]:visible a[href="/es/proyectos/pipila/"]')).toBeVisible();
   await expect(page.locator('[data-search-item]:visible a[href="/es/temas/integracion-de-sistemas/"]')).toBeVisible();
-  await page.locator('[data-search-clear]').click(); await expect(page.locator('[data-search-item]:visible')).toHaveCount(311);
+  await page.locator('[data-search-clear]').click(); await expect(page.locator('[data-search-item]:visible')).toHaveCount(335);
 });
 
 test('preferences persist, honor reduced motion and pass accessibility', async ({ page }) => {
@@ -105,7 +105,7 @@ test('without JavaScript: navigation, search alternatives, root and 404', async 
     await expect(page.locator('#site-navigation')).toBeVisible();
     await page.locator('#site-navigation a').first().click(); await expect(page).toHaveURL(/\/es\/proyectos\/$/);
     await page.locator('[data-search-open]').click(); await expect(page).toHaveURL(/\/es\/explorar\/$/);
-    await expect(page.locator('[data-search-item]')).toHaveCount(311);
+    await expect(page.locator('[data-search-item]')).toHaveCount(335);
     await page.locator('.shell-preferences summary').click(); await expect(page.locator('#effects-mode')).toBeDisabled();
     const response = await page.goto(`http://127.0.0.1:${process.env.E2E_PORT??4321}/nonexistent-test/`); expect(response?.status()).toBe(404);
     await expect(page.locator('h1')).toHaveText('Página no encontrada');

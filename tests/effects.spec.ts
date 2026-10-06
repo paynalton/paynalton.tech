@@ -54,7 +54,7 @@ test('failed motor import preserves the static scene and navigation',async({page
 test('other pages load decoration only; filters and keyboard remain functional',async({page})=>{
  await choice(page,'full');const requests:string[]=[];page.on('request',r=>requests.push(r.url()));
  await page.goto('/es/explorar/?q=DBASE');await expect(page.locator('[data-search-page]')).toHaveAttribute('aria-busy','false');await expect(page.locator('[data-search-results] a[href="/es/proyectos/onix/"]')).toBeVisible();
- await page.locator('[data-search-clear]').click();await expect(page.locator('#page-query')).toBeFocused();await expect(page.locator('[data-search-results] li')).toHaveCount(311);
+ await page.locator('[data-search-clear]').click();await expect(page.locator('#page-query')).toBeFocused();await expect(page.locator('[data-search-results] li')).toHaveCount(335);
  expect(requests.filter(url=>/three-engine|workshop\./.test(url))).toEqual([]);await expect(page.locator('canvas')).toHaveCount(0);
 });
 test('static image stays present without JavaScript',async({browser},info)=>{

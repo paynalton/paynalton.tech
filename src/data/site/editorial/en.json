@@ -3562,5 +3562,269 @@
       "description": "A captain remembers why he doesn't want to hire another LATAM engineer."
     },
     "bodyRef": "en/obras/se-solicita-ingeniero-ftl-humano.md"
+  },
+  "tecnologia-aws": {
+    "status": "published",
+    "slug": "tecnologia-aws",
+    "title": "AWS",
+    "summary": "AWS is part of the documented technology stack in Onix, Yayauhqui, Delta. The related case studies describe my involvement and how it was used.",
+    "seo": {
+      "title": "AWS",
+      "description": "AWS is part of the documented technology stack in Onix, Yayauhqui, Delta. The related case studies describe my involvement and how it was used."
+    },
+    "bodyRef": "en/profesional/tecnologia-aws.md"
+  },
+  "tecnologia-aws-ecs": {
+    "status": "published",
+    "slug": "tecnologia-aws-ecs",
+    "title": "AWS ECS",
+    "summary": "AWS ECS is part of the documented technology stack in Winner. The related case studies describe my involvement and how it was used.",
+    "seo": {
+      "title": "AWS ECS",
+      "description": "AWS ECS is part of the documented technology stack in Winner. The related case studies describe my involvement and how it was used."
+    },
+    "bodyRef": "en/profesional/tecnologia-aws-ecs.md"
+  },
+  "tecnologia-dbase-dbf": {
+    "status": "published",
+    "slug": "tecnologia-dbase-dbf",
+    "title": "DBASE/DBF",
+    "summary": "DBASE/DBF is part of the documented technology stack in Onix. The related case studies describe my involvement and how it was used.",
+    "seo": {
+      "title": "DBASE/DBF",
+      "description": "DBASE/DBF is part of the documented technology stack in Onix. The related case studies describe my involvement and how it was used."
+    },
+    "bodyRef": "en/profesional/tecnologia-dbase-dbf.md"
+  },
+  "tecnologia-docker": {
+    "status": "published",
+    "slug": "tecnologia-docker",
+    "title": "Docker",
+    "summary": "Docker is part of the documented technology stack in Onix. The related case studies describe my involvement and how it was used.",
+    "seo": {
+      "title": "Docker",
+      "description": "Docker is part of the documented technology stack in Onix. The related case studies describe my involvement and how it was used."
+    },
+    "bodyRef": "en/profesional/tecnologia-docker.md"
+  },
+  "tecnologia-laminas": {
+    "status": "published",
+    "slug": "tecnologia-laminas",
+    "title": "Laminas",
+    "summary": "Laminas is part of the documented technology stack in Onix. The related case studies describe my involvement and how it was used.",
+    "seo": {
+      "title": "Laminas",
+      "description": "Laminas is part of the documented technology stack in Onix. The related case studies describe my involvement and how it was used."
+    },
+    "bodyRef": "en/profesional/tecnologia-laminas.md"
+  },
+  "tecnologia-laminas-api-tools": {
+    "status": "published",
+    "slug": "tecnologia-laminas-api-tools",
+    "title": "Laminas API Tools",
+    "summary": "Laminas API Tools is part of the documented technology stack in Winner. The related case studies describe my involvement and how it was used.",
+    "seo": {
+      "title": "Laminas API Tools",
+      "description": "Laminas API Tools is part of the documented technology stack in Winner. The related case studies describe my involvement and how it was used."
+    },
+    "bodyRef": "en/profesional/tecnologia-laminas-api-tools.md"
+  },
+  "tecnologia-laravel": {
+    "status": "published",
+    "slug": "tecnologia-laravel",
+    "title": "Laravel",
+    "summary": "Laravel is part of the documented technology stack in Winner. The related case studies describe my involvement and how it was used.",
+    "seo": {
+      "title": "Laravel",
+      "description": "Laravel is part of the documented technology stack in Winner. The related case studies describe my involvement and how it was used."
+    },
+    "bodyRef": "en/profesional/tecnologia-laravel.md"
+  },
+  "tecnologia-localai": {
+    "status": "published",
+    "slug": "tecnologia-localai",
+    "title": "LocalAI",
+    "summary": "LocalAI is part of the documented technology stack in GUACAMAYA, SpellChecker. The related case studies describe my involvement and how it was used.",
+    "seo": {
+      "title": "LocalAI",
+      "description": "LocalAI is part of the documented technology stack in GUACAMAYA, SpellChecker. The related case studies describe my involvement and how it was used."
+    },
+    "bodyRef": "en/profesional/tecnologia-localai.md"
+  },
+  "tecnologia-mariadb": {
+    "status": "published",
+    "slug": "tecnologia-mariadb",
+    "title": "MariaDB",
+    "summary": "MariaDB is part of the documented technology stack in Onix. The related case studies describe my involvement and how it was used.",
+    "seo": {
+      "title": "MariaDB",
+      "description": "MariaDB is part of the documented technology stack in Onix. The related case studies describe my involvement and how it was used."
+    },
+    "bodyRef": "en/profesional/tecnologia-mariadb.md"
+  },
+  "tecnologia-node-js": {
+    "status": "published",
+    "slug": "tecnologia-node-js",
+    "title": "Node.js",
+    "summary": "Node.js is part of the documented technology stack in Pipila, GUACAMAYA. The related case studies describe my involvement and how it was used.",
+    "seo": {
+      "title": "Node.js",
+      "description": "Node.js is part of the documented technology stack in Pipila, GUACAMAYA. The related case studies describe my involvement and how it was used."
+    },
+    "bodyRef": "en/profesional/tecnologia-node-js.md"
+  },
+  "tecnologia-oidc": {
+    "status": "published",
+    "slug": "tecnologia-oidc",
+    "title": "OIDC",
+    "summary": "OIDC is part of the documented technology stack in Pipila. The related case studies describe my involvement and how it was used.",
+    "seo": {
+      "title": "OIDC",
+      "description": "OIDC is part of the documented technology stack in Pipila. The related case studies describe my involvement and how it was used."
+    },
+    "bodyRef": "en/profesional/tecnologia-oidc.md"
+  },
+  "tecnologia-python": {
+    "status": "published",
+    "slug": "tecnologia-python",
+    "title": "Python",
+    "summary": "Python is part of the documented technology stack in GUACAMAYA. The related case studies describe my involvement and how it was used.",
+    "seo": {
+      "title": "Python",
+      "description": "Python is part of the documented technology stack in GUACAMAYA. The related case studies describe my involvement and how it was used."
+    },
+    "bodyRef": "en/profesional/tecnologia-python.md"
+  },
+  "tecnologia-rest": {
+    "status": "published",
+    "slug": "tecnologia-rest",
+    "title": "REST",
+    "summary": "REST is part of the documented technology stack in Delta. The related case studies describe my involvement and how it was used.",
+    "seo": {
+      "title": "REST",
+      "description": "REST is part of the documented technology stack in Delta. The related case studies describe my involvement and how it was used."
+    },
+    "bodyRef": "en/profesional/tecnologia-rest.md"
+  },
+  "tecnologia-sailsjs": {
+    "status": "published",
+    "slug": "tecnologia-sailsjs",
+    "title": "SailsJS",
+    "summary": "SailsJS is part of the documented technology stack in Pipila. The related case studies describe my involvement and how it was used.",
+    "seo": {
+      "title": "SailsJS",
+      "description": "SailsJS is part of the documented technology stack in Pipila. The related case studies describe my involvement and how it was used."
+    },
+    "bodyRef": "en/profesional/tecnologia-sailsjs.md"
+  },
+  "tecnologia-shopify": {
+    "status": "published",
+    "slug": "tecnologia-shopify",
+    "title": "Shopify",
+    "summary": "Shopify is part of the documented technology stack in Delta Commerce. The related case studies describe my involvement and how it was used.",
+    "seo": {
+      "title": "Shopify",
+      "description": "Shopify is part of the documented technology stack in Delta Commerce. The related case studies describe my involvement and how it was used."
+    },
+    "bodyRef": "en/profesional/tecnologia-shopify.md"
+  },
+  "tecnologia-vs-code": {
+    "status": "published",
+    "slug": "tecnologia-vs-code",
+    "title": "VS Code",
+    "summary": "VS Code is part of the documented technology stack in PERICO. The related case studies describe my involvement and how it was used.",
+    "seo": {
+      "title": "VS Code",
+      "description": "VS Code is part of the documented technology stack in PERICO. The related case studies describe my involvement and how it was used."
+    },
+    "bodyRef": "en/profesional/tecnologia-vs-code.md"
+  },
+  "tecnologia-websocket": {
+    "status": "published",
+    "slug": "tecnologia-websocket",
+    "title": "WebSocket",
+    "summary": "WebSocket is part of the documented technology stack in Delta. The related case studies describe my involvement and how it was used.",
+    "seo": {
+      "title": "WebSocket",
+      "description": "WebSocket is part of the documented technology stack in Delta. The related case studies describe my involvement and how it was used."
+    },
+    "bodyRef": "en/profesional/tecnologia-websocket.md"
+  },
+  "tecnologia-zend-1-5": {
+    "status": "published",
+    "slug": "tecnologia-zend-1-5",
+    "title": "Zend 1.5",
+    "summary": "Zend 1.5 is part of the documented technology stack in Onix. The related case studies describe my involvement and how it was used.",
+    "seo": {
+      "title": "Zend 1.5",
+      "description": "Zend 1.5 is part of the documented technology stack in Onix. The related case studies describe my involvement and how it was used."
+    },
+    "bodyRef": "en/profesional/tecnologia-zend-1-5.md"
+  },
+  "modernizacion-legacy": {
+    "status": "published",
+    "slug": "modernizacion-legacy",
+    "title": "Legacy modernization",
+    "summary": "In ONIX, I migrated code from Zend 1.5 to Laminas and prepared an AWS UAT environment. Validation of the modernized system remains a separate stage from the technical migration.",
+    "seo": {
+      "title": "Legacy modernization",
+      "description": "In ONIX, I migrated code from Zend 1.5 to Laminas and prepared an AWS UAT environment. Validation of the modernized system remains a separate stage from the technical migration."
+    },
+    "bodyRef": "en/profesional/modernizacion-legacy.md"
+  },
+  "procesamiento-asincrono": {
+    "status": "published",
+    "slug": "procesamiento-asincrono",
+    "title": "Asynchronous processing",
+    "summary": "In PÍPILA, I separated record intake from processing through workers and retries to reduce dependence on external service availability.",
+    "seo": {
+      "title": "Asynchronous processing",
+      "description": "In PÍPILA, I separated record intake from processing through workers and retries to reduce dependence on external service availability."
+    },
+    "bodyRef": "en/profesional/procesamiento-asincrono.md"
+  },
+  "dominio-erp": {
+    "status": "published",
+    "slug": "dominio-erp",
+    "title": "Enterprise management · ERP",
+    "summary": "ONIX brings purchasing, sales, finance, logistics, invoicing, warranties and costing together in an enterprise system that has evolved over many years.",
+    "seo": {
+      "title": "Enterprise management · ERP",
+      "description": "ONIX brings purchasing, sales, finance, logistics, invoicing, warranties and costing together in an enterprise system that has evolved over many years."
+    },
+    "bodyRef": "en/profesional/dominio-erp.md"
+  },
+  "dominio-comercio-electronico": {
+    "status": "published",
+    "slug": "dominio-comercio-electronico",
+    "title": "E-commerce",
+    "summary": "In Delta Commerce, I designed the solution and its Shopify integration as an architect and consultant, without developing the implementation.",
+    "seo": {
+      "title": "E-commerce",
+      "description": "In Delta Commerce, I designed the solution and its Shopify integration as an architect and consultant, without developing the implementation."
+    },
+    "bodyRef": "en/profesional/dominio-comercio-electronico.md"
+  },
+  "dominio-financiero": {
+    "status": "published",
+    "slug": "dominio-financiero",
+    "title": "Financial systems",
+    "summary": "In K4Y, I developed lending, capital, interest and SPEI transfer features. I have no confirmation of its final launch.",
+    "seo": {
+      "title": "Financial systems",
+      "description": "In K4Y, I developed lending, capital, interest and SPEI transfer features. I have no confirmation of its final launch."
+    },
+    "bodyRef": "en/profesional/dominio-financiero.md"
+  },
+  "dominio-editorial": {
+    "status": "published",
+    "slug": "dominio-editorial",
+    "title": "Editorial tools",
+    "summary": "GUACAMAYA supports my writing and publishing process while keeping control of ideas and the editorial result in my hands.",
+    "seo": {
+      "title": "Editorial tools",
+      "description": "GUACAMAYA supports my writing and publishing process while keeping control of ideas and the editorial result in my hands."
+    },
+    "bodyRef": "en/profesional/dominio-editorial.md"
   }
 }
