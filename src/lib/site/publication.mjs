@@ -1,3 +1,4 @@
+import {withdrawnBookDownloads} from './amazon-book.mjs';
 import {routeManifest} from './navigation.mjs';
 import {createTranslator} from './i18n.mjs';
 import {canonicalUrl,exportPaths,projectDocument,projectMarkdown,workDocument,workMarkdown} from './exports.mjs';
@@ -37,5 +38,5 @@ export function llmsText(repo,documents){
  const {t}=createTranslator(repo.getSettings().baseLocale,repo.getCatalogs(),repo.getSettings());
  return [`# ${t('brand.name')}`,'',`> ${t('publication.description')}`,'',t('publication.indexHelp'),'','[JSON](https://paynalton.tech/catalog.json) · [RSS](https://paynalton.tech/rss.xml)','',...repo.getSettings().locales.filter(l=>l.enabled).flatMap(l=>[`## ${l.label}`,'',...documents.filter(d=>d.language===l.code).map(d=>`- [${escapeMarkdown(d.title)}](${new URL(d.paths.markdown,origin).href}): ${d.type}; ${new URL(d.url,origin).href}`),''])].join('\n');
 }
-export function redirectText(){return '# Generated from src/lib/site/publication.mjs\n'+migrations.flatMap(r=>[r.from,...(r.from==='/'?[]:[r.from.slice(0,-1)])].map(from=>`${from} ${r.to} 301!`)).join('\n')+'\n';}
+export function redirectText(){return '# Generated from src/lib/site/publication.mjs\n'+migrations.flatMap(r=>[r.from,...(r.from==='/'?[]:[r.from.slice(0,-1)])].map(from=>`${from} ${r.to} 301!`)).concat(withdrawnBookDownloads.map(r=>`${r.from} ${r.to} 301!`)).join('\n')+'\n';}
 export function robotsText(review=false){return review?'User-agent: *\nDisallow: /\n':`User-agent: *\nAllow: /\nDisallow: /design-review/\nSitemap: ${origin}/sitemap-index.xml\n`;}

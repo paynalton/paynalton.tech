@@ -1,3 +1,4 @@
+import {amazonEditions} from './amazon-book.mjs';
 import channels from '../../data/site/channels.json' with {type:'json'};
 import {breadcrumbs,pageAlternatives,routeManifest} from './navigation.mjs';
 import {createTranslator} from './i18n.mjs';
@@ -19,6 +20,7 @@ export function pageSeo(repository,page,description,prefix=''){
   const creative=entry.type==='work';
   const entity={'@type':creative?(entry.facts.format==='book'?'Book':'CreativeWork'):entry.type==='term'?'DefinedTerm':'CreativeWork','@id':canonical+'#content',name:page.chapterId?page.title:entry.title,description:summary,url:canonical,inLanguage:page.locale};
   if(creative && entry.facts.author)entity.author=entry.facts.author.split(' y ').map(name=>(['Paynalton','Carlos Manuel Escalona Villeda','Carlos Escalona'].includes(name.trim())?{'@id':personId,name:name.trim()}:{'@type':'Person',name:name.trim()}));
+  if(entry.entityId==='cuando-la-tostadora-te-responde')entity.workExample=amazonEditions(page.locale).flatMap(edition=>edition.formats.map(item=>({'@type':'Book',inLanguage:edition.locale,bookFormat:'https://schema.org/'+({kindle:'EBook',paperback:'Paperback',hardcover:'Hardcover'}[item.format]),identifier:{'@type':'PropertyValue',propertyID:'ASIN',value:item.asin},url:item.stores[0].url})));
   if(creative && entry.facts.licenseUrl)entity.license=entry.facts.licenseUrl;
   if(entry.type==='term')entity.subjectOf=entries.filter(e=>e.relations.some(r=>r.target===entry.entityId)).map(e=>({'@id':new URL(e.url,origin).href+'#content'}));
   if(entry.type==='project')entity.contributor={'@id':personId};

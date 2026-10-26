@@ -1,0 +1,86 @@
+{
+  "markets": {
+    "US": "amazon.com",
+    "UK": "amazon.co.uk",
+    "DE": "amazon.de",
+    "FR": "amazon.fr",
+    "ES": "amazon.es",
+    "IT": "amazon.it",
+    "NL": "amazon.nl",
+    "JP": "amazon.co.jp",
+    "BR": "amazon.com.br",
+    "CA": "amazon.ca",
+    "MX": "amazon.com.mx",
+    "AU": "amazon.com.au",
+    "IN": "amazon.in",
+    "PL": "amazon.pl",
+    "SE": "amazon.se",
+    "BE": "amazon.com.be",
+    "IE": "amazon.ie"
+  },
+  "formats": {
+    "kindle": [
+      "US",
+      "UK",
+      "DE",
+      "FR",
+      "ES",
+      "IT",
+      "NL",
+      "JP",
+      "BR",
+      "CA",
+      "MX",
+      "AU",
+      "IN"
+    ],
+    "paperback": [
+      "US",
+      "UK",
+      "DE",
+      "FR",
+      "ES",
+      "IT",
+      "NL",
+      "PL",
+      "SE",
+      "BE",
+      "IE",
+      "JP",
+      "CA",
+      "AU"
+    ],
+    "hardcover": [
+      "US",
+      "UK",
+      "DE",
+      "FR",
+      "ES",
+      "IT",
+      "NL",
+      "PL",
+      "SE",
+      "BE",
+      "IE",
+      "CA"
+    ]
+  },
+  "editions": [
+    {
+      "locale": "es",
+      "asins": {
+        "kindle": "B0HP2JQ1PZ",
+        "paperback": "B0HP25FVYG",
+        "hardcover": "B0HP29YHJ6"
+      }
+    },
+    {
+      "locale": "en",
+      "asins": {
+        "kindle": "B0HP33J62S",
+        "paperback": "B0HP3HSF82",
+        "hardcover": "B0HP5N61D4"
+      }
+    }
+  ]
+}

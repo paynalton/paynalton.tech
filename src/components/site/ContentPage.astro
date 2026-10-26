@@ -98,7 +98,7 @@ const related = current?.data.relations.map(r => ({ ...r, entry: data.find(e => 
     {page.id === 'explore' && <SearchContent repository={repository} locale={page.locale} prefix={routePrefix} t={t}/>}
 
   </section>}
-  {current?.data.type==='work' && <><WorkContent entry={current.data} page={page} t={t} reading={collection==='readingContent'}/>{related && related.length>0 && <section class="tn-section tn-stack work-related"><h2>{t('work.related')}</h2><ul>{related.map(r=><li><a href={r.url}>{r.entry!.title}</a></li>)}</ul></section>}<nav class="tn-section" aria-label={t('nav.works')}><a href={url('works')}>{t('work.catalog')}</a></nav></>}
+  {current?.data.type==='work' && <><WorkContent entry={current.data} page={page} t={t} reading={collection==='readingContent'}/>{related && related.length>0 && <section class:list={["tn-section tn-stack work-related",{"book-related":current.data.entityId==='cuando-la-tostadora-te-responde'}]}><h2>{t('work.related')}</h2><ul>{related.map(r=><li><a href={r.url}>{r.entry!.title}</a></li>)}</ul></section>}<nav class="tn-section" aria-label={t('nav.works')}><a href={url('works')}>{t('work.catalog')}</a></nav></>}
   {current && Content && <>
     <section class:list={['tn-section', project ? 'tn-page-hero project-hero' : 'tn-stack']}>
       <div class="tn-stack"><h1>{current.data.title}</h1><p class="tn-lead" data-entry-summary>{current.data.summary}</p></div>

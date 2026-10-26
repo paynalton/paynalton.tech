@@ -9,7 +9,7 @@ import {readingPreferences} from '../../src/lib/site/reading-preferences.mjs';
 const source=await readSource();
 test('published book retains URL and six local downloads; examples remain private',async()=>{
  const repo=await loadRepository();const works=repo.select('works');assert.equal(works.length,111);
- const book=works.find(e=>e.entityId==='cuando-la-tostadora-te-responde');assert.equal(book.url,'/es/books/cuando-la-tostadora-te-responde/');assert.equal(book.facts.editions.length,6);assert.equal(book.chapters.length,0);
+ const book=works.find(e=>e.entityId==='cuando-la-tostadora-te-responde');assert.equal(book.url,'/es/books/cuando-la-tostadora-te-responde/');assert.equal(book.facts.editions.length,2);assert.equal(book.chapters.length,0);
  for(const edition of book.facts.editions){assert.ok((await stat('public'+edition.url)).size>0);}
  assert.equal(routeManifest(repo).some(r=>r.chapterId),false);
 });

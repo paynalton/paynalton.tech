@@ -1,7 +1,7 @@
 import {test,expect} from '@playwright/test';
 import {mkdir} from 'node:fs/promises';
 test.use({reducedMotion:'no-preference',launchOptions:{executablePath:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE,args:['--enable-unsafe-swiftshader']}});
-const locations=[['/es/obra/','#biblioteca-libros .tn-card','tarjeta'],['/es/books/cuando-la-tostadora-te-responde/','.work-book-header','ficha']];
+const locations=[['/es/obra/','#biblioteca-libros .tn-card','tarjeta']];
 test('recognizable book renders in card and ficha and retains its fallback',async({page},info)=>{
  const dir=`ai_reference/implementacion/PT12/libro-3d/${info.project.name}`;await mkdir(dir,{recursive:true});
  for(const [url,selector,name] of locations){

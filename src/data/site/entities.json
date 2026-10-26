@@ -594,30 +594,6 @@
       "license": "CC BY-SA 4.0",
       "editions": [
         {
-          "locale": "es",
-          "label": "Español",
-          "format": "pdf",
-          "url": "/books/cuando-la-tostadora-te-responde/cuando-la-tostadora-te-responde-es.pdf"
-        },
-        {
-          "locale": "es",
-          "label": "Español",
-          "format": "epub",
-          "url": "/books/cuando-la-tostadora-te-responde/cuando-la-tostadora-te-responde-es.epub"
-        },
-        {
-          "locale": "en",
-          "label": "English",
-          "format": "pdf",
-          "url": "/books/cuando-la-tostadora-te-responde/cuando-la-tostadora-te-responde-en.pdf"
-        },
-        {
-          "locale": "en",
-          "label": "English",
-          "format": "epub",
-          "url": "/books/cuando-la-tostadora-te-responde/cuando-la-tostadora-te-responde-en.epub"
-        },
-        {
           "locale": "nah",
           "label": "Nawatlahtolli",
           "format": "pdf",

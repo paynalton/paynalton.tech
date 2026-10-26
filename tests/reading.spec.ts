@@ -22,9 +22,9 @@ test('public library, book and personal profile are accessible and contain only 
  await page.goto('/es/sobre-mi/');await expect(page.locator('.method-list li')).toHaveCount(6);await expect(page.locator('#lecturas article')).toHaveCount(4);
  await expect(page.locator('iframe')).toHaveCount(0);
 });
-test('book ficha reserves the right column for its WebGL scene',async({page})=>{
- await page.goto(book);const scene=page.locator('.work-book-header [data-workshop="book"]');await expect(scene).toHaveCount(1);
- await expect.poll(async()=>await scene.locator('canvas').count()+await scene.locator('img:visible').count()).toBeGreaterThan(0);
+test('book ficha shows its real cover without a rendering dependency',async({page})=>{
+ await page.goto(book);const scene=page.locator('.work-book-header .book-cover img');await expect(scene).toHaveCount(1);
+ await expect.poll(()=>scene.evaluate(el=>(el as HTMLImageElement).naturalWidth)).toBeGreaterThan(0);
  await expect(page.locator('.work-book-header')).toHaveCSS('display','grid');
 });
 test('book library card reserves the right column for the same scene',async({page})=>{
@@ -34,7 +34,7 @@ test('book library card reserves the right column for the same scene',async({pag
 });
 test('all book editions remain reachable without scripts and with enlarged text',async({browser,page})=>{
  const context=await browser.newContext({javaScriptEnabled:false});
- try{const p=await context.newPage();await p.goto(`http://127.0.0.1:${process.env.E2E_PORT??4321}`+book);await p.locator('.all-downloads summary').click();await expect(p.locator('.all-downloads a')).toHaveCount(6);for(const a of await p.locator('.all-downloads a').all()){await expect(a).toBeVisible();expect((await p.request.head((await a.getAttribute('href'))!)).status()).toBe(200);}await expect(p.locator('[data-enhanced-downloads]')).toBeHidden();}finally{await context.close();}
+ try{const p=await context.newPage();await p.goto(`http://127.0.0.1:${process.env.E2E_PORT??4321}`+book);await p.locator('.all-downloads summary').click();await expect(p.locator('.all-downloads a')).toHaveCount(2);for(const a of await p.locator('.all-downloads a').all()){await expect(a).toBeVisible();expect((await p.request.head((await a.getAttribute('href'))!)).status()).toBe(200);}await expect(p.locator('[data-enhanced-downloads]')).toBeHidden();}finally{await context.close();}
  await page.setViewportSize({width:320,height:800});
  for(const path of ['/es/obra/',book,'/es/sobre-mi/']){await page.goto(path);await page.addStyleTag({content:'html{font-size:200%}'});await page.evaluate(()=>document.fonts.ready);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),path).toBe(true);}
 });
