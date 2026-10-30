@@ -20,7 +20,7 @@ const isToasterBook=entry.entityId==='cuando-la-tostadora-te-responde' && !chapt
 const bookText=bookCopy[page.locale as 'es'|'en']??bookCopy.es;
 const downloadCopy={downloadTitle:t(isToasterBook?'amazon.downloads':'work.downloadTitle'),downloadHelp:t(isToasterBook?'amazon.downloadHelp':'work.downloadHelp'),editionLabel:t('work.editionLabel'),formatLabel:t('work.formatLabel'),download:t(isToasterBook?'amazon.freeDownload':'work.download'),available:t('work.available'),comingSoon:t('work.unavailable')};
 ---
-<article class:list={['work-content',{'tn-light':isReader,'book-editorial':isToasterBook}]} data-chapter-pause={isToasterBook?t('amazon.pauseChapters'):undefined} data-chapter-resume={isToasterBook?t('amazon.resumeChapters'):undefined} data-reader={isReader?'':undefined}>
+<article class:list={['work-content',{'tn-light':isReader,'book-editorial':isToasterBook}]} data-reader={isReader?'':undefined}>
  <header class:list={['tn-section', 'tn-stack', {'work-book-header':isToasterBook}]}>
  <div class:list={['work-book-copy', {'work-book-copy--full':!isToasterBook}]}>
   {entry.example && <p class="reading-notice">{t('reading.exampleNotice')}</p>}

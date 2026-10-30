@@ -1,9 +1,5 @@
 for (const scroller of document.querySelectorAll('[data-chapter-scroll]')) {
- const root=scroller.closest('.book-editorial');
  const panel=scroller.closest('.book-chapter-panel');
- const toggle=document.createElement('button');
- toggle.type='button';toggle.className='book-chapter-toggle';toggle.hidden=true;
- panel.insertBefore(toggle,scroller);
  const desktop=matchMedia('(min-width:1025px)');
  const reduced=matchMedia('(prefers-reduced-motion:reduce)');
  let paused=false,hover=false,focused=false,visible=false,frame=0,last=0,position=scroller.scrollTop,direction=1,holdUntil=0;
@@ -21,13 +17,10 @@ for (const scroller of document.querySelectorAll('[data-chapter-scroll]')) {
  }
  function sync(){
   cancelAnimationFrame(frame);frame=0;last=0;position=scroller.scrollTop;
-  toggle.hidden=!desktop.matches||reduced.matches;
   scroller.tabIndex=desktop.matches?0:-1;
   if(!desktop.matches){scroller.scrollTop=0;position=0;}
-  toggle.textContent=paused?root.dataset.chapterResume:root.dataset.chapterPause;
   if(eligible())frame=requestAnimationFrame(tick);
  }
- toggle.addEventListener('click',()=>{paused=!paused;sync();});
  panel.addEventListener('pointerenter',()=>{hover=true;sync();});
  panel.addEventListener('pointerleave',()=>{hover=false;sync();});
  scroller.addEventListener('focus',()=>{focused=true;sync();});

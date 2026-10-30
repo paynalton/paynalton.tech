@@ -1,5 +1,7 @@
 ---
 import '../../styles/external-links.css';
+import {Image} from 'astro:assets';
+import anaglyphGlasses from '../../assets/taller/gafas-anaglifo-grecas.png';
 import manropeLatin from '../../assets/taller/fonts/manrope-latin.woff2?url';
 import frauncesLatin from '../../assets/taller/fonts/fraunces-latin.woff2?url';
 import MenuEnhancement from '../../components/shell/MenuEnhancement.astro';
@@ -7,6 +9,7 @@ import PublicationHead from '../../components/site/PublicationHead.astro';
 import '../../styles/taller/system.css';
 import '../../styles/taller/shell.css';
 import '../../styles/taller/effects.css';
+import '../../styles/taller/mode3d.css';
 import {searchDocuments} from '../../lib/site/search-documents.mjs';
 import Ornament from '../../components/taller/Ornament.astro';
 import Icon from '../../components/taller/Icon.astro';
@@ -52,19 +55,24 @@ const searchDocument=searchDocuments(repository,page.locale,routePrefix).find(d=
         const timestamp=state?.FormsConvertationTimeout;
         const expired=Number.isSafeInteger(timestamp)&&timestamp>0&&Date.now()-timestamp>=86400000;
         document.documentElement.dataset.hideForms=String(state?.HideForms===true&&!expired);
-      }catch{document.documentElement.dataset.hideForms='false';}
+        document.documentElement.dataset.mode3d=String(state?.mode3D===true&&!expired);
+      }catch{document.documentElement.dataset.hideForms='false';document.documentElement.dataset.mode3d='false';}
     </script>
     <PublicationHead repository={repository} page={page} description={description} routePrefix={routePrefix} noindex={noindex}/>
     {searchDocument && <><meta data-pagefind-meta="title[content]" content={searchDocument.title}/><meta data-pagefind-filter="type[content]" content={searchDocument.type}/>{searchDocument.topics.map(topic=><meta data-pagefind-filter="topic[content]" content={topic}/>)}</>}
   </head>
   <body class="taller site-shell" data-vortex-label={t('scene.vortexAction')}>
+    <script is:inline>document.body.classList.toggle('mode3d',document.documentElement.dataset.mode3d==='true');</script>
     <a class="tn-skip" href="#main">{t('nav.skipToContent')}</a>
     <div class="tn-frame">
       <header class="shell-header" data-site-header>
         <a class="tn-brand" href={sectionUrl(page.locale, 'home', routePrefix)}><Ornament/>{t('brand.name')}</a>
         <div class="shell-utilities">
           <LanguagePicker alternatives={alternatives} locale={page.locale} currentUrl={page.id==='not-found'?'/404.html':page.url} label={t('locale.selectorLabel')} unavailableLabel={t('locale.translationPending')}/>
-          <a href={searchUrl} data-search-open><Icon name="search"/>{t('search.open')}</a>
+          <div class="shell-search-tools">
+            <a href={searchUrl} data-search-open><Icon name="search"/>{t('search.open')}</a>
+            <button type="button" class="mode3d-toggle" data-mode3d-toggle aria-label={t('effects.mode3d')} title={t('effects.mode3d')} aria-pressed="false" hidden><Icon name="glasses"/></button>
+          </div>
           <button type="button" class="tn-action tn-action--secondary" data-menu-toggle aria-controls="site-navigation" aria-expanded="false" hidden><Icon name="menu"/>{t('nav.menu')}</button>
         </div>
         <nav id="site-navigation" class="shell-navigation" aria-label={t('nav.primary')}>
@@ -84,6 +92,14 @@ const searchDocument=searchDocuments(repository,page.locale,routePrefix).find(d=
         <Preferences t={t}/>
       </footer>
     </div>
+    <dialog id="mode3d-notice" aria-labelledby="mode3d-notice-title" aria-describedby="mode3d-notice-text" data-pagefind-ignore>
+      <div class="tn-stack">
+        <h2 id="mode3d-notice-title">{t('effects.mode3dNoticeTitle')}</h2>
+        <Image class="mode3d-glasses" src={anaglyphGlasses} alt={t('effects.mode3dGlassesAlt')} width={640} widths={[320,640,960]} sizes="(max-width: 600px) 85vw, 384px" format="webp"/>
+        <p id="mode3d-notice-text">{t('effects.mode3dNoticeText')}</p>
+        <button type="button" class="tn-action tn-action--secondary" data-mode3d-notice-close autofocus>{t('effects.mode3dNoticeClose')}</button>
+      </div>
+    </dialog>
     <dialog id="search-panel" aria-labelledby="search-panel-title">
       <div class="tn-stack">
         <button type="button" class="tn-action tn-action--secondary" data-dialog-close><Icon name="close"/>{t('nav.close')}</button>

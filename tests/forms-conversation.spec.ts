@@ -34,6 +34,6 @@ test('accepting the offer launches fireworks without counting the answer as a fi
  await page.locator('[data-workshop] [data-vortex-trigger]').click();
  const bubble=page.locator('#scene-speech');await bubble.getByRole('button',{name:'Sí',exact:true}).click();
  await expect(page.locator('[data-fireworks]')).toHaveCount(1);await expect(bubble).toBeHidden();
- expect(await page.evaluate(()=>(window as any).formsController.getState())).toEqual({HideForms:false,FormsConvertationCounter:16,FormsConvertationWorkflow:0,FormsConvertationTimeout:0});
+ expect(await page.evaluate(()=>(window as any).formsController.getState())).toEqual({HideForms:false,FormsConvertationCounter:16,FormsConvertationWorkflow:0,FormsConvertationTimeout:0,mode3D:false});
  await page.keyboard.press('Escape');await expect(page.locator('[data-fireworks]')).toHaveCount(0);
 });

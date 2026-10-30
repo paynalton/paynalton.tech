@@ -1,5 +1,5 @@
 import {test,expect} from '@playwright/test';
-const defaults={HideForms:false,FormsConvertationCounter:0,FormsConvertationWorkflow:0,FormsConvertationTimeout:0};
+const defaults={HideForms:false,FormsConvertationCounter:0,FormsConvertationWorkflow:0,FormsConvertationTimeout:0,mode3D:false};
 test('HideForms governs every figure across reloads and resets without hiding content',async({page})=>{
  await page.addInitScript(()=>localStorage.setItem('paynalton.visual.v1',JSON.stringify({mode:'soft'})));
  await page.goto('/es/sobre-mi/');
@@ -36,4 +36,29 @@ test('public forms state survives navigation and reset synchronizes tabs',async(
  expect(await page.evaluate(()=>JSON.parse(localStorage.getItem('paynalton.forms.v1')!))).toEqual(defaults);
  expect(await page.evaluate(()=>localStorage.getItem('unrelated-state'))).toBe('keep');
  await page.reload();await expect.poll(read).toEqual(defaults);await other.close();
+});
+
+test('mode3D persists through navigation and synchronizes its class, button and tabs',async({page,context})=>{
+ await page.goto('/es/');
+ const toggle=page.locator('[data-mode3d-toggle]');
+ await expect(toggle).toHaveAttribute('aria-pressed','false');
+ await expect(page.locator('body')).not.toHaveClass(/mode3d/);
+ await toggle.click();
+ await expect(page.locator('body')).toHaveClass(/mode3d/);
+ expect(await page.evaluate(()=>JSON.parse(localStorage.getItem('paynalton.forms.v1')!).mode3D)).toBe(true);
+ await page.reload();
+ await expect(toggle).toHaveAttribute('aria-pressed','true');
+ await expect(page.locator('body')).toHaveClass(/mode3d/);
+ await page.goto('/en/');await expect(page.locator('body')).toHaveClass(/mode3d/);
+ const other=await context.newPage();await other.goto('/es/');
+ await expect(other.locator('body')).toHaveClass(/mode3d/);
+ await other.locator('[data-mode3d-toggle]').click();
+ await expect(page.locator('body')).not.toHaveClass(/mode3d/);
+ await expect(toggle).toHaveAttribute('aria-pressed','false');
+ await page.evaluate(()=>(window as any).formsController.setState({mode3D:true}));
+ await expect(other.locator('body')).toHaveClass(/mode3d/);
+ await page.evaluate(()=>(window as any).resetForms());
+ await expect(other.locator('body')).not.toHaveClass(/mode3d/);
+ await expect(other.locator('[data-mode3d-toggle]')).toHaveAttribute('aria-pressed','false');
+ await other.close();
 });

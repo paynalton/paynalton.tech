@@ -1,5 +1,5 @@
 import { createEffectsController, preferenceKey, preferences, readPreferences } from '../lib/site/effects.mjs';
-import './forms-state.js';
+import {formsController} from './forms-state.js';
 
 const dialog = document.querySelector('#search-panel');
 const searchLink = document.querySelector('[data-search-open]');
@@ -101,4 +101,24 @@ if(import.meta.env.VITE_DISABLE_EFFECTS!=='1'){
  effects.subscribe(connect);
  addEventListener('pagehide',()=>{generation++;cleanup?.();cleanup=undefined;loading=false;});
  addEventListener('pageshow',event=>{if(event.persisted)connect();});
+}
+
+const mode3dNotice=document.querySelector('#mode3d-notice');
+let mode3dTrigger;
+mode3dNotice?.querySelector('[data-mode3d-notice-close]')?.addEventListener('click',()=>mode3dNotice.close());
+mode3dNotice?.addEventListener('close',()=>mode3dTrigger?.focus({preventScroll:true}));
+formsController.subscribe(state=>{if(!state.mode3D&&mode3dNotice?.open)mode3dNotice.close();});
+// Show the explanation on explicit activation, not on every navigation or reload.
+// Persist the choice through the shared controller; its subscriber updates the DOM.
+for(const button of document.querySelectorAll('[data-mode3d-toggle]')){
+ button.hidden=false;
+ button.addEventListener('click',()=>{
+  const enabled=!formsController.getState().mode3D;
+  formsController.setState({mode3D:enabled});
+  if(enabled&&mode3dNotice){
+    mode3dTrigger=button;
+    if(typeof mode3dNotice.showModal==='function')mode3dNotice.showModal();
+    else window.alert(mode3dNotice.textContent.trim());
+  }
+ });
 }

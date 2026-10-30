@@ -392,6 +392,9 @@
   "amazon.about": "About the book",
   "amazon.readMore": "Read more",
   "amazon.newTab": "Amazon opens in a new tab.",
-  "amazon.pauseChapters": "Pause scrolling",
-  "amazon.resumeChapters": "Resume scrolling"
+  "effects.mode3d": "3D mode",
+  "effects.mode3dNoticeTitle": "Red/cyan 3D glasses required",
+  "effects.mode3dNoticeText": "This mode requires anaglyph glasses with a red filter over your left eye and a cyan filter over your right eye. Without them, you will see overlapping outlines and text in those colors. Use the glasses icon to turn this mode off.",
+  "effects.mode3dNoticeClose": "Got it",
+  "effects.mode3dGlassesAlt": "Illustration of anaglyph glasses with Mesoamerican stepped-fret patterns, viewed from the wearer’s side: red lens for the left eye and cyan for the right."
 }

@@ -34,6 +34,9 @@ window.resetForms=()=>{
  return state;
 };
 formsController.subscribe(state=>{
+ document.body.classList.toggle('mode3d',state.mode3D);
+ document.documentElement.dataset.mode3d=String(state.mode3D);
+ for(const button of document.querySelectorAll('[data-mode3d-toggle]'))button.setAttribute('aria-pressed',String(state.mode3D));
  scheduleExpiration(state);
  if(lastHide!==state.HideForms){lastHide=state.HideForms;applyVisibility(state.HideForms);}
  document.dispatchEvent(new CustomEvent('site:forms-state-change',{detail:state}));

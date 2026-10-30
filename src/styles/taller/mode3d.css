@@ -1,0 +1,195 @@
+/* Two eye-specific images, without a neutral third copy. Red lens on the left. */
+body.mode3d {
+  --mode3d-red: rgba(255, 0, 0, .7);
+  --mode3d-cyan: rgba(0, 255, 255, .7);
+}
+/* Small disparities keep complete glyphs easy to fuse through the glasses. */
+body.mode3d :where(h1, h2, h3, h4, h5, h6) {
+  color: transparent;
+  text-shadow: -1px 0 0 var(--mode3d-red), 1px 0 0 var(--mode3d-cyan);
+}
+body.mode3d :where(h1) {
+  text-shadow: -2px 0 0 var(--mode3d-red), 2px 0 0 var(--mode3d-cyan);
+}
+/* Paragraphs and ordinary links remain on the screen plane. */
+body.mode3d :is(p, a, button, input, select, textarea),
+body.mode3d a :where(*) { text-shadow: none; }
+body.mode3d a :where(h1, h2, h3, h4, h5, h6) { color: inherit; }
+body.mode3d :is(button, .tn-action):not(.scene-speech-trigger, [data-speech-close], [data-mode3d-notice-close]) {
+  position: relative;
+  isolation: isolate;
+  background: transparent;
+  border-color: transparent;
+  box-shadow: none;
+  color: transparent !important;
+  text-shadow: 1px 0 0 var(--mode3d-red), -1px 0 0 var(--mode3d-cyan);
+}
+body.mode3d :is(button, .tn-action):not(.scene-speech-trigger, [data-speech-close], [data-mode3d-notice-close]) :where(*) { text-shadow: inherit; }
+/* SVG icons use their original foreground; text-shadow cannot paint SVG paths. */
+body.mode3d :is(button, .tn-action):not(.scene-speech-trigger, [data-speech-close], [data-mode3d-notice-close]) svg { color: var(--texto-principal); }
+body.mode3d .tn-light :is(button, .tn-action) svg { color: var(--texto-lectura); }
+/* Full rectangles: red right/cyan left at rest, reversed on hover.
+   Equal disparity magnitudes keep the overall footprint unchanged at both ends. */
+body.mode3d :is(button, .tn-action):not(.scene-speech-trigger, [data-speech-close], [data-mode3d-notice-close])::before,
+body.mode3d :is(button, .tn-action):not(.scene-speech-trigger, [data-speech-close], [data-mode3d-notice-close])::after {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  z-index: -1;
+  pointer-events: none;
+  border: 2px solid;
+  border-radius: inherit;
+  mix-blend-mode: screen;
+}
+body.mode3d :is(button, .tn-action):not(.scene-speech-trigger, [data-speech-close], [data-mode3d-notice-close])::before {
+  border-color: rgb(255, 0, 0);
+  transform: translateX(2px);
+}
+body.mode3d :is(button, .tn-action):not(.scene-speech-trigger, [data-speech-close], [data-mode3d-notice-close])::after {
+  border-color: rgb(0, 255, 255);
+  transform: translateX(-2px);
+}
+body.mode3d .scene-speech-trigger { box-shadow: none; }
+@media (prefers-reduced-motion: no-preference) {
+  body.mode3d :is(button, .tn-action):not(.scene-speech-trigger, [data-speech-close], [data-mode3d-notice-close]),
+  html body.mode3d.site-shell :is(button, .tn-action):not(.scene-speech-trigger, [data-speech-close], [data-mode3d-notice-close]),
+  html body.mode3d.site-shell :is(button, .tn-action):not(.scene-speech-trigger, [data-speech-close], [data-mode3d-notice-close]):is(:hover, :focus-visible) {
+    transition: text-shadow 650ms cubic-bezier(.2, 0, 0, 1),
+      transform var(--motion-hover-return, 840ms) var(--motion-emphasized, ease),
+      border-color 650ms ease, background-color 650ms ease;
+  }
+  body.mode3d :is(button, .tn-action):not(.scene-speech-trigger, [data-speech-close], [data-mode3d-notice-close])::before,
+  body.mode3d :is(button, .tn-action):not(.scene-speech-trigger, [data-speech-close], [data-mode3d-notice-close])::after {
+    transition: transform 650ms cubic-bezier(.2, 0, 0, 1);
+  }
+}
+@media (hover: hover) and (pointer: fine) {
+  body.mode3d :is(button, .tn-action):not(.scene-speech-trigger, [data-speech-close], [data-mode3d-notice-close]):hover { text-shadow: -1px 0 0 var(--mode3d-red), 1px 0 0 var(--mode3d-cyan); }
+  body.mode3d :is(button, .tn-action):not(.scene-speech-trigger, [data-speech-close], [data-mode3d-notice-close]):hover::before { transform: translateX(-2px); }
+  body.mode3d :is(button, .tn-action):not(.scene-speech-trigger, [data-speech-close], [data-mode3d-notice-close]):hover::after { transform: translateX(2px); }
+}
+body.mode3d :is(button, .tn-action):not(.scene-speech-trigger, [data-speech-close], [data-mode3d-notice-close]):focus-visible { text-shadow: -1px 0 0 var(--mode3d-red), 1px 0 0 var(--mode3d-cyan); }
+body.mode3d :is(button, .tn-action):not(.scene-speech-trigger, [data-speech-close], [data-mode3d-notice-close]):focus-visible::before { transform: translateX(-2px); }
+body.mode3d :is(button, .tn-action):not(.scene-speech-trigger, [data-speech-close], [data-mode3d-notice-close]):focus-visible::after { transform: translateX(2px); }
+@media print, (forced-colors: active) {
+  body.mode3d :where(h1, h2, h3, h4, h5, h6) { color: inherit; text-shadow: none; }
+  body.mode3d :is(button, .tn-action):not(.scene-speech-trigger, [data-speech-close], [data-mode3d-notice-close]) { border-color: currentColor; color: inherit !important; text-shadow: none; }
+  body.mode3d :is(button, .tn-action)::before, body.mode3d :is(button, .tn-action)::after { display: none; }
+}
+/* Architectural borders: two complete copies of the existing border sides.
+   Inherit widths/styles so sections without a border remain borderless. */
+@media screen and (forced-colors: none) {
+  body.mode3d :is(.tn-frame, .tn-section, .shell-header, .shell-footer, .shell-preferences, .professional-trajectory > section) {
+    position: relative;
+    border-color: transparent;
+  }
+  body.mode3d :is(.tn-frame, .tn-section, .shell-header, .shell-footer, .shell-preferences, .professional-trajectory > section)::before,
+  body.mode3d :is(.tn-frame, .tn-section, .shell-header, .shell-footer, .shell-preferences, .professional-trajectory > section)::after {
+    content: '';
+    position: absolute;
+    inset: -1px;
+    z-index: 1;
+    box-sizing: border-box;
+    border-width: inherit;
+    border-style: inherit;
+    border-radius: inherit;
+    pointer-events: none;
+    mix-blend-mode: screen;
+  }
+  body.mode3d :is(.tn-frame, .tn-section, .shell-header, .shell-footer, .shell-preferences, .professional-trajectory > section)::before {
+    border-color: rgb(255, 0, 0);
+    transform: translateX(-2px);
+  }
+  body.mode3d :is(.tn-frame, .tn-section, .shell-header, .shell-footer, .shell-preferences, .professional-trajectory > section)::after {
+    border-color: rgb(0, 255, 255);
+    transform: translateX(2px);
+  }
+}
+/* The same card family used by the bounded particle emitter. */
+@media screen and (forced-colors: none) {
+  body.mode3d .tn-card {
+    border-color: transparent;
+    background: transparent;
+    box-shadow: none;
+  }
+  body.mode3d .tn-card::before,
+  body.mode3d .tn-card::after {
+    content: '';
+    position: absolute;
+    inset: -1px;
+    z-index: 2;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: inherit;
+    pointer-events: none;
+    mix-blend-mode: screen;
+  }
+  body.mode3d .tn-card::before {
+    border-color: rgb(255, 0, 0);
+    transform: translateX(2px);
+  }
+  body.mode3d .tn-card::after {
+    border-color: rgb(0, 255, 255);
+    transform: translateX(-2px);
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    body.mode3d .tn-card::before,
+    body.mode3d .tn-card::after {
+      transition: transform 650ms cubic-bezier(.2, 0, 0, 1);
+    }
+  }
+  @media (hover: hover) and (pointer: fine) {
+    body.mode3d .tn-card:hover::before { transform: translateX(-2px); }
+    body.mode3d .tn-card:hover::after { transform: translateX(2px); }
+  }
+  body.mode3d .tn-card:focus-within::before { transform: translateX(-2px); }
+  body.mode3d .tn-card:focus-within::after { transform: translateX(2px); }
+}
+/* Lift the complete button, keeping both eye layers and its label together. */
+@media screen and (prefers-reduced-motion: no-preference) {
+  @media (hover: hover) and (pointer: fine) {
+    body.mode3d :is(button, .tn-action):not(.scene-speech-trigger, [data-speech-close], [data-mode3d-notice-close], :disabled, [aria-disabled="true"]):hover {
+      transform: translate(4px, -4px);
+    }
+  }
+  body.mode3d :is(button, .tn-action):not(.scene-speech-trigger, [data-speech-close], [data-mode3d-notice-close], :disabled, [aria-disabled="true"]):focus-visible {
+    transform: translate(4px, -4px);
+  }
+}
+/* Ordinary links acquire a small forward disparity only while interacting. */
+@media screen and (forced-colors: none) {
+  @media (hover: hover) and (pointer: fine) {
+    body.mode3d a:not(.tn-action):hover {
+      color: transparent !important;
+      text-shadow: -1px 0 0 var(--mode3d-red), 1px 0 0 var(--mode3d-cyan);
+      text-decoration-color: var(--enlace-oscuro);
+    }
+    body.mode3d a:not(.tn-action):hover :where(*) {
+      color: inherit;
+      text-shadow: inherit;
+    }
+  }
+  body.mode3d a:not(.tn-action):focus-visible {
+    color: transparent !important;
+    text-shadow: -1px 0 0 var(--mode3d-red), 1px 0 0 var(--mode3d-cyan);
+    text-decoration-color: var(--enlace-oscuro);
+  }
+  body.mode3d a:not(.tn-action):focus-visible :where(*) {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  /* Keep non-text icons visible, including the external-link indicator. */
+  body.mode3d a:not(.tn-action):is(:hover, :focus-visible) svg { color: var(--enlace-oscuro); }
+  @media (prefers-reduced-motion: no-preference) {
+    html:not([data-effects="off"]) body.mode3d a:not(.tn-action) {
+      transition: color 450ms cubic-bezier(.2, 0, 0, 1), text-shadow 450ms cubic-bezier(.2, 0, 0, 1), text-decoration-color 450ms ease, text-underline-offset 450ms ease !important;
+    }
+  }
+}
+
+/* The explanation must be readable before putting on the glasses. */
+body.mode3d #mode3d-notice,
+body.mode3d #mode3d-notice * {
+  color: var(--texto-principal) !important;
+  text-shadow: none;
+}

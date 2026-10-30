@@ -2,12 +2,13 @@ export const formsStorageKey='paynalton.forms.v1';
 export const formsExpirationMs=24*60*60*1000;
 export const initialFormsState=Object.freeze({
  HideForms:false,
+ mode3D:false,
  FormsConvertationCounter:0,
  FormsConvertationWorkflow:0,
  FormsConvertationTimeout:0,
 });
 
-const valid=(key,value)=>key==='HideForms'?typeof value==='boolean':Number.isSafeInteger(value)&&value>=0;
+const valid=(key,value)=>(key==='HideForms'||key==='mode3D')?typeof value==='boolean':Number.isSafeInteger(value)&&value>=0;
 function normalize(value){
  const result={...initialFormsState};
  if(value&&typeof value==='object'&&!Array.isArray(value)){

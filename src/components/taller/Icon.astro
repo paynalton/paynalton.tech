@@ -1,7 +1,8 @@
 ---
-interface Props { name: 'arrow' | 'search' | 'menu' | 'close' | 'copy' | 'share' | 'download' | 'chevron' | 'check' | 'info' | 'warning' | 'settings'; }
+interface Props { name: 'arrow' | 'search' | 'menu' | 'close' | 'copy' | 'share' | 'download' | 'chevron' | 'check' | 'info' | 'warning' | 'settings' | 'glasses'; }
 const {name} = Astro.props;
 const paths = {
+ glasses: 'M2 10V8l2-3M22 10V8l-2-3M2 10h7v7H2zM15 10h7v7h-7zM9 12h6',
  arrow: 'M4 12h16m-6-6 6 6-6 6', search: 'M21 21l-5-5M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0',
  menu: 'M3 6h18M3 12h18M3 18h18', close: 'M5 5l14 14M19 5 5 19',
  copy: 'M8 8h12v13H8zM16 8V3H3v13h5', share: 'M12 16V2m-5 5 5-5 5 5M4 12v9h16v-9',

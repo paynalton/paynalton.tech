@@ -392,6 +392,9 @@
   "amazon.about": "Sobre el libro",
   "amazon.readMore": "Leer más",
   "amazon.newTab": "Se abrirá Amazon en una nueva pestaña.",
-  "amazon.pauseChapters": "Pausar desplazamiento",
-  "amazon.resumeChapters": "Reanudar desplazamiento"
+  "effects.mode3d": "Modo 3D",
+  "effects.mode3dNoticeTitle": "Necesitas gafas 3D rojo/cian",
+  "effects.mode3dNoticeText": "Este modo requiere gafas anaglifo, con filtro rojo en el ojo izquierdo y cian en el derecho. Sin ellas verás contornos y textos duplicados en esos colores. Puedes desactivarlo con el icono de las gafas.",
+  "effects.mode3dNoticeClose": "Entendido",
+  "effects.mode3dGlassesAlt": "Ilustración de gafas anaglifo con grecas mesoamericanas, vistas desde el lado de quien las usa: lente rojo para el ojo izquierdo y cian para el derecho."
 }
