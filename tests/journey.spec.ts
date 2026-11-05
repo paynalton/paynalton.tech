@@ -21,7 +21,7 @@ test('complete reference journey by keyboard, with accessible steps and captures
   if(name==='caso')await keyboardActivate(page,'main a[href="/es/temas/integracion-de-sistemas/"]');
   if(name==='termino')await keyboardActivate(page,'[data-journey-contact] a');
  }
- await expect(page.locator('main a[href="mailto:cxescalona@gmail.com"]')).toBeVisible();
+ await expect(page.locator('main a[href="mailto:contacto@paynalton.tech"]')).toBeVisible();
  expect(errors).toEqual([]);
 });
 
@@ -53,7 +53,7 @@ test('journey and downloads remain available without JavaScript',async({browser}
  await expect(page.locator(`a[href="${project}index.md"]`)).toBeVisible();
  await page.locator('main a[href="/es/temas/integracion-de-sistemas/"]').click();
  await page.locator('[data-journey-contact] a').click();
- await expect(page.locator('main a[href^="mailto:"]')).toHaveText('cxescalona@gmail.com');
+ await expect(page.locator('main a[href^="mailto:"]')).toHaveText('contacto@paynalton.tech');
  }finally{await context.close();}
 });
 

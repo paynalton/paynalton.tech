@@ -64,7 +64,7 @@ const related = current?.data.relations.map(r => ({ ...r, entry: data.find(e => 
     <div class="tn-stack">
       <h1>{t(`page.${page.id}Title`)}</h1><p class="shell-prose">{t(`page.${page.id}Intro`)}</p>
       {page.id === 'experience' && cvDownload && <div class="tn-actions"><a href={cvDownload.url} download type="application/pdf" hreflang={page.locale} class="tn-action tn-action--secondary" data-download-trajectory>{t('experience.download')}</a></div>}
-      {page.id === 'contact' && <div class="tn-stack"><ContactActions value={channels.email} t={t}/><a href={channels.profiles[0].url}>{t('profile.linkedin')}</a></div>}
+      {page.id === 'contact' && <div class="tn-stack"><ContactActions value={page.locale === 'en' ? channels.email.en : channels.email.es} t={t}/><a href={channels.profiles[0].url}>{t('profile.linkedin')}</a></div>}
     </div><WorkshopScene variant={sectionScene}/>
   </section>}
   {['projects','experience','works','about','contact','terms','explore'].includes(page.id) && <section class="tn-section tn-stack">

@@ -1,5 +1,8 @@
 {
-  "email": "cxescalona@gmail.com",
+  "email": {
+    "es": "contacto@paynalton.tech",
+    "en": "contact@paynalton.tech"
+  },
   "profiles": [
     {
       "key": "profile.linkedin",

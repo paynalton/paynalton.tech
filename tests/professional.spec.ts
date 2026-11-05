@@ -35,13 +35,13 @@ test('copy succeeds and permission denial leaves selectable email',async({page})
  await expect(page.locator('.tn-page-hero a[href*=linkedin]')).toHaveAttribute('target','_blank');
  await expect(page.locator('.tn-page-hero [data-workshop=contact]')).toHaveCount(1);
  await page.locator('[data-copy]').click();
- await expect(page.locator('html')).toHaveAttribute('data-copied','cxescalona@gmail.com');
+ await expect(page.locator('html')).toHaveAttribute('data-copied','contacto@paynalton.tech');
  await expect(page.locator('[data-contact-status]')).toContainText('copiado');
  await page.evaluate(()=>Object.defineProperty(navigator.clipboard,'writeText',{value:async()=>{throw new DOMException('Denied','NotAllowedError');}}));
  await page.locator('[data-copy]').click();
  await expect(page.locator('[data-contact-status]')).toContainText('No');
- expect(await page.evaluate(()=>getSelection()?.toString())).toBe('cxescalona@gmail.com');
- await expect(page.locator('main a[href="mailto:cxescalona@gmail.com"]')).toBeVisible();
+ expect(await page.evaluate(()=>getSelection()?.toString())).toBe('contacto@paynalton.tech');
+ await expect(page.locator('main a[href="mailto:contacto@paynalton.tech"]')).toBeVisible();
 });
 
 test('native sharing sends canonical URL and handles cancellation and denial',async({page})=>{

@@ -1,4 +1,5 @@
 ---
+import channels from '../data/site/channels.json';
 import UpButton from './UpButton.astro';
 const { lang, t } = Astro.props;
 ---
@@ -28,7 +29,7 @@ const { lang, t } = Astro.props;
                         </a>
                     </li>
                     <li class="header-top-contact">
-                        <a href="mailto:cxescalona@gmail.com" target="_blank" title={t._t('Email')}>
+                        <a href={`mailto:${lang === 'en' ? channels.email.en : channels.email.es}`} target="_blank" title={t._t('Email')}>
                             <i class="fa fa-envelope"></i> { t._t("Email") }
                         </a>
                     </li>

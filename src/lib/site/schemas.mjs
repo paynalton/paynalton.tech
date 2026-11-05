@@ -29,7 +29,7 @@ const channelUrl = text.refine(value => {
   } catch { return false; }
 }, 'URL de canal inválida');
 export const shellChannelsSchema = z.object({
-  email: z.email(),
+  email: z.object({ es: z.email(), en: z.email() }),
   profiles: z.array(z.object({
     key: z.string().regex(/^profile\.[a-z][a-zA-Z0-9]*$/),
     url: z.string().refine(value => value === value.trim(), 'URL sin espacios externos').pipe(channelUrl).refine(value => value.startsWith('https://'), 'Perfil HTTPS requerido'),
